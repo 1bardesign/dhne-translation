@@ -18,7 +18,9 @@ There are several important files:
 - `en.tsv` - the "source of truth" - used as a template for new translations
 - `translators.tsv` - a list of everyone to credit, by language code.
 
-There is also one tsv file per language in this repository, to make it easier to merge translation work across languages and avoid merge conflicts. The `en.tsv` file should be taken as a template for a newly supported language, and a new line added to `meta.tsv`. This can all be done as one pull request for convenience.
+There is also one tsv file per language in this repository, to make it easier to merge translation work across languages and avoid merge conflicts.
+
+The `en.tsv` file should be taken as a template for a newly supported language (eg copy the file to `pl.tsv` to work on Polish, if it doesn't already exist), and a new line added to `meta.tsv`. This can all be done as one pull request for convenience.
 
 ## Coordination
 
