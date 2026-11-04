@@ -22,6 +22,10 @@ There is also one tsv file per language in this repository, to make it easier to
 
 ## Coordination
 
+Please tell us if something seems wrong! We're still finalising the strings to be translated as we go and there are probably some that are wrong, if something seems off don't just blindly translate it, ask us if we think it needs fixing or otherwise for clarification.
+
+Plurals etc have just not been considered a lot of the time. Hopefully most of those are in the item descriptions and can just be translated in-place. Let us know if there's a problem <3
+
 For moment to moment contact, discord is probably best. You can find the discord invite link in-game from the title screen (it's ommitted here on github to reduce spam). Issues can be opened here for longer form conversations if need be.
 
 ## Licensing
