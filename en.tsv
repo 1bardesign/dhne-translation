@@ -297,9 +297,7 @@ src/entities/dice.lua:338		Hardy\n+1 ♥ when rolled
 src/entities/dice.lua:348		Doom\n-3♥ when rolled	
 src/entities/dice.lua:384 (+1 others)		colours	
 src/entities/dice.lua:392		pattern	
-src/entities/dice.lua:423 (+15 others)		tumble	
 src/entities/dice.lua:623		CRACK	
-src/entities/dice.lua:1518 (+1 others)		pip	
 src/entities/dice.lua:1625 (+1 others)		puke	
 src/entities/dice.lua:1648		Purged +	
 src/entities/dice.lua:1648		pukes	
@@ -308,7 +306,6 @@ src/entities/dice.lua:2216		permanent
 src/entities/dice_ending.lua:132		goop	
 src/entities/dice_ending.lua:324		sad	
 src/entities/dice_ending.lua:327 (+2 others)		cheer	
-src/entities/dice_peek.lua:122 (+1 others)		desktop	
 src/entities/dice_peek.lua:233		$value\n$effect	
 src/entities/dice_peek.lua:245		impatient	
 src/entities/dice_peek.lua:245		Impatient	
@@ -1127,7 +1124,6 @@ src/powers.lua:578		Reincarnate
 src/powers.lua:579		Selected die is reborn	
 src/screen_overlay.lua:59 (+41 others)	ui	all	
 src/states/catalogue.lua:49 (+5 others)		< back	
-src/states/catalogue.lua:77 (+17 others)		gamepad	
 src/states/catalogue.lua:85 (+4 others)		dawn mode	
 src/states/catalogue.lua:85 (+4 others)		night mode	
 src/states/catalogue.lua:120 (+1 others)		day	
@@ -1173,7 +1169,6 @@ src/states/ending_demo.lua:132 (+10 others)	dialogue	i am god
 src/states/ending_demo.lua:133	dialogue	thats it for the demo	
 src/states/ending_demo.lua:135	dialogue	buy the game now	
 src/states/ending_demo.lua:137	dialogue	wishlist the game	
-src/states/ending_demo.lua:164 (+2 others)		https://store.steampowered.com/app/4535880/Dice_Have_No_Eyes/	
 src/states/ending_demo.lua:184 (+1 others)		Browser Opened!	
 src/states/ending_demo.lua:185 (+1 others)		Thanks <3	
 src/states/ending_demo.lua:187 (+1 others)		Buy Here	
@@ -1501,7 +1496,6 @@ src/states/title.lua:315		bye?
 src/states/title.lua:378		brighten up	
 src/states/title.lua:379		rest your eyes	
 src/states/title.lua:388		discord	
-src/states/title.lua:389		https://discord.gg/invite/JadTqtS5Rc	
 src/states/title.lua:390		community chat	
 src/states/title.lua:393		steam	
 src/states/title.lua:395		feedback and updates	
@@ -1529,19 +1523,16 @@ src/states/unlock.lua:669 (+1 others)		board
 src/states/unlock.lua:1410 (+1 others)		replace	
 src/tapes.lua:3		Like the Evening Star	
 src/tapes.lua:4 (+2 others)		El Tigre	
-src/tapes.lua:8 (+2 others)		https://www.eltigr3.com/	
 src/tapes.lua:12		Ride Home	
 src/tapes.lua:21		Left in the Sun	
 src/tapes.lua:33		Too Tired To Think Of A Title	
 src/tapes.lua:34 (+4 others)		Hijaq	
-src/tapes.lua:38 (+4 others)		https://www.youtube.com/@hijaqmusic	
 src/tapes.lua:43		nighttime	
 src/tapes.lua:53		Miku Breakcore	
 src/tapes.lua:63		So Try To Enjoy It While It Lasts	
 src/tapes.lua:73		World's Smallest Breakcore	
 src/tapes.lua:85 (+2 others)		noname	
 src/tapes.lua:86 (+2 others)		Yume no Ato	
-src/tapes.lua:90 (+2 others)		https://www.youtube.com/@DreamTrace_404	
 src/tapes.lua:117		Dreamy Synthwave	
 src/ui/character_body.lua:291 (+2 others)	ui	LOCKED	
 src/ui/combination_table.lua:34 (+1 others)	ui	flush	
