@@ -105,12 +105,12 @@ src/characters/liz.lua:38		Halo
 src/characters/liz.lua:39		glow up	
 src/characters/liz.lua:73	dialogue	Hey, my love	
 src/characters/liz.lua:74	dialogue	Remember, ${count} levels and you're out of here!	
-src/characters/liz.lua:315	dialogue	Ah well	
-src/characters/liz.lua:316	dialogue	You'll get it next time!	
-src/characters/liz.lua:347	dialogue	...Want to keep going?	
-src/characters/liz.lua:349	dialogue	I'll revive you for $cost ¤ and one die	
-src/characters/liz.lua:355	dialogue	Your loss :)	
-src/characters/liz.lua:374	dialogue	Hope it's worth it!	
+src/characters/liz.lua:84	dialogue	Ah well	
+src/characters/liz.lua:85	dialogue	You'll get it next time!	
+src/characters/liz.lua:113	dialogue	...Want to keep going?	
+src/characters/liz.lua:115	dialogue	I'll revive you for $cost ¤ and one die	
+src/characters/liz.lua:121	dialogue	Your loss :)	
+src/characters/liz.lua:140	dialogue	Hope it's worth it!	
 src/characters/mushroom.lua:2		Srop M.	
 src/characters/saimi.lua:2		Saimi	
 src/characters/saimi.lua:31 (+2 others)	dialogue	Moi	
@@ -333,8 +333,8 @@ src/entities/encounter_timeline.lua:235		VICTORY
 src/entities/encounter_timeline.lua:242		FIGHT	
 src/entities/encounter_timeline.lua:280		Goal Reached	
 src/entities/encounter_timeline.lua:338		progress	
-src/entities/encounter_timeline.lua:571		GOAL REACHED	
-src/entities/encounter_timeline.lua:571		${to_go} TO GO	
+src/entities/encounter_timeline.lua:575		GOAL REACHED	
+src/entities/encounter_timeline.lua:576		${to_go} TO GO	
 src/entities/eye_baby.lua:7		Eye Baby	
 src/entities/eye_baby.lua:27		eye	
 src/entities/eye_baby.lua:33		Puked 	
@@ -1329,24 +1329,24 @@ src/states/game.lua:3857		Securing Stars available after each nightmare level
 src/states/game.lua:3992		shop	
 src/states/game.lua:4389 (+8 others)		add	
 src/states/game.lua:4598		options	
-src/states/game_setup.lua:158		play!	
-src/states/game_setup.lua:170 (+1 others)		Wager your Soul?	
-src/states/game_setup.lua:173 (+1 others)		You are betting your soul.\nIf you lose, your save is gone forever.	
-src/states/game_setup.lua:202		the young will inherit the earth	
-src/states/game_setup.lua:261		???	
-src/states/game_setup.lua:592		get more gold ¤ with wagers	
-src/states/game_setup.lua:690		A modest wager.\nWin and keep your stars plus a small bonus.	
-src/states/game_setup.lua:700		Wager half your stars.\nMinimum 500 ¤\nHigher stakes, more stars.	
-src/states/game_setup.lua:710		Wager all your stars.\nMinimum 1000 ¤\nEven more star rewards.	
-src/states/game_setup.lua:720		Your soul is the wager.\nSpecial reward.\nFail and lose EVERYTHING.	
-src/states/game_setup.lua:778		Wager	
-src/states/game_setup.lua:868		Levels	
-src/states/game_setup.lua:875		Wager stars to add levels,\nnext level 	
-src/states/game_setup.lua:951		favourite items	
-src/states/game_setup.lua:951		all items	
-src/states/game_setup.lua:1077		Difficulty	
-src/states/game_setup.lua:1079		%d ¤ reward limit	
-src/states/game_setup.lua:1145		levels	
+src/states/game_setup.lua:161		play!	
+src/states/game_setup.lua:173 (+1 others)		Wager your Soul?	
+src/states/game_setup.lua:176 (+1 others)		You are betting your soul.\nIf you lose, your save is gone forever.	
+src/states/game_setup.lua:206		the young will inherit the earth	
+src/states/game_setup.lua:269		???	
+src/states/game_setup.lua:609		get more gold ¤ with wagers	
+src/states/game_setup.lua:707		A modest wager.\nWin and keep your stars plus a small bonus.	
+src/states/game_setup.lua:717		Wager half your stars.\nMinimum 500 ¤\nHigher stakes, more stars.	
+src/states/game_setup.lua:727		Wager all your stars.\nMinimum 1000 ¤\nEven more star rewards.	
+src/states/game_setup.lua:737		Your soul is the wager.\nSpecial reward.\nFail and lose EVERYTHING.	
+src/states/game_setup.lua:795		Wager	
+src/states/game_setup.lua:885		Levels	
+src/states/game_setup.lua:892		Wager stars to add levels,\nnext level 	
+src/states/game_setup.lua:970		favourite items	
+src/states/game_setup.lua:971		all items	
+src/states/game_setup.lua:1100		Difficulty	
+src/states/game_setup.lua:1103		${stars} ¤ reward limit	
+src/states/game_setup.lua:1170		levels	
 src/states/gameover.lua:185		SOUL OVER	
 src/states/gameover.lua:241		Congratulations, you lost.	
 src/states/gameover.lua:242		Better luck next time.	
@@ -1493,14 +1493,14 @@ src/states/title.lua:296		be the goat
 src/states/title.lua:306		game setup	
 src/states/title.lua:311		Roll 1 to Quit	
 src/states/title.lua:315		bye?	
-src/states/title.lua:378		brighten up	
-src/states/title.lua:379		rest your eyes	
-src/states/title.lua:388		discord	
-src/states/title.lua:390		community chat	
-src/states/title.lua:393		steam	
-src/states/title.lua:395		feedback and updates	
-src/states/title.lua:398		ost	
-src/states/title.lua:399		coming soon	
+src/states/title.lua:382		brighten up	
+src/states/title.lua:383		rest your eyes	
+src/states/title.lua:392		discord	
+src/states/title.lua:394		community chat	
+src/states/title.lua:397		steam	
+src/states/title.lua:399		feedback and updates	
+src/states/title.lua:402		ost	
+src/states/title.lua:403		coming soon	
 src/states/unlock.lua:79		representations are still solidifying - physical form is meaningless - you're imagining it	
 src/states/unlock.lua:93		Upgrades	
 src/states/unlock.lua:94		buy upgrades with ¤	
