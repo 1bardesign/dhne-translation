@@ -193,7 +193,7 @@ src/characters/wizard.lua:73	dialogue	Get to level 10, and you're free.	Dojdź d
 src/characters/wizard.lua:189	dialogue	...Want to see a magic trick?	...Chcesz zobaczyć magiczną sztuczkę?
 src/characters/wizard.lua:197	dialogue	Boo :)	Buu :)
 src/characters/wizard.lua:210	dialogue	Tada!	Tadam!
-src/coloured_text.lua:8 (+114 others)		bust	bust
+src/coloured_text.lua:8 (+115 others)		bust	bust
 src/coloured_text.lua:12		wipe	wipe
 src/coloured_text.lua:14		instant	natychmiastowy
 src/coloured_text.lua:16		turn	tura
@@ -386,7 +386,7 @@ src/entities/tape.lua:455		- web	- strona
 src/entities/title_text.lua:3		DICE HAVE\nNO EYES	DICE HAVE\nNO EYES
 src/entities/title_text.lua:5		DICE HAVE\nNÕ EYES	DICE HAVE\nNÕ EYES
 src/entities/title_text.lua:6		DICE HAVE\nNÖ EYES	DICE HAVE\nNÖ EYES
-src/entities/title_text.lua:120		DEMO	DEMO
+src/entities/title_text.lua:121		DEMO	DEMO
 src/item_unlocks.lua:6		Basic Spells	Podstawowe Zaklęcia
 src/item_unlocks.lua:7		beginner magic	magia dla początkujących
 src/item_unlocks.lua:15		Basic Passives	Podstawowe Pasywki
@@ -1212,7 +1212,7 @@ src/states/game.lua:138		Cannot Restart Bet Runs	Nie można zrestartować podej�
 src/states/game.lua:141		Restart	Restart
 src/states/game.lua:143		Restart the run from scratch\nand lose all gained stars?	Zacząć podejście od nowa\ni stracić wszystkie zdobyte gwiazdki?
 src/states/game.lua:149 (+2 others)		Options	Opcje
-src/states/game.lua:154		Quit	Wyjdź
+src/states/game.lua:154 (+1 others)		Quit	Wyjdź
 src/states/game.lua:156		Quit to menu and lose all gained stars?	Wyjść do menu i stracić wszystkie zdobyte gwiazdki?
 src/states/game.lua:425		secure the points\nend the turn\nrecharge character power\nclear momentum	zabezpiecz punkty\nzakończ turę\nnaładuj moc postaci\nwyzeruj rozpęd
 src/states/game.lua:496		BANK	BANK
@@ -1299,36 +1299,36 @@ src/states/game.lua:2715		Looks like you're cooked\n\nGive up?	Wygląda na to, �
 src/states/game.lua:2865		INSTANT WIPE	NATYCHMIASTOWY WIPE
 src/states/game.lua:2866		${rolled} OUT OF ${rolled} DICE ROLLED BUST	${rolled} Z ${rolled} RZUCONYCH KOSTEK TO BUST
 src/states/game.lua:2883		W I P E	W I P E
-src/states/game.lua:3262 (+8 others)		roll	roll
-src/states/game.lua:3299		SKIP ${pip}	PRZESKOK ${pip}
-src/states/game.lua:3311		SKIP LOOPED	PRZESKOK ZAWINIĘTY
-src/states/game.lua:3550		Level Complete	Poziom ukończony
-src/states/game.lua:3591		Overshoot! +	Nadwyżka! +
-src/states/game.lua:3622		Level Coins	Monety za Poziom
-src/states/game.lua:3633		Extra Turn Coins	Monety za Dodatkowe Tury
-src/states/game.lua:3645		Combine Coins	Połącz Monety
-src/states/game.lua:3662		Bet bonus! +	Bonus za zakład! +
-src/states/game.lua:3712		--  Level ${number} Complete!  --	--  Poziom ${number} ukończony!  --
-src/states/game.lua:3728		Score:	Wynik:
-src/states/game.lua:3730		Reward:	Nagroda:
-src/states/game.lua:3731		Extra turns:	Dodatkowe tury:
-src/states/game.lua:3732		Bet bonus:	Bonus za zakład:
-src/states/game.lua:3733		Overshoot:	Nadwyżka:
-src/states/game.lua:3735		Total:	Razem:
-src/states/game.lua:3779		Trade!	Handel!
-src/states/game.lua:3825		don't lose it	nie zgub jej
-src/states/game.lua:3825		Soul on line	Dusza na szali
-src/states/game.lua:3832		¤${BET} wagered	Postawiono ${BET}¤
-src/states/game.lua:3836		¤ Banked	¤ Zbankowane
-src/states/game.lua:3837		Bank ¤${KEPT}?	Zbankować ${KEPT}¤?
-src/states/game.lua:3838		Win To Bank ¤	Wygraj, by zbankować ¤
-src/states/game.lua:3839		Bank ¤ in ${LEVELS} lvl	BANK ¤ za ${LEVELS} poz.
-src/states/game.lua:3853		Secure your Stars for the run\nyou won't be able to gain more this run	Zabezpiecz swoje Gwiazdki w tym podejściu\nnie zdobędziesz już więcej w tym podejściu
-src/states/game.lua:3855		Stars already banked this run	Gwiazdki już zbankowane w tym podejściu
-src/states/game.lua:3857		Securing Stars available after each nightmare level	Zabezpieczanie Gwiazdek dostępne po każdym poziomie koszmaru
-src/states/game.lua:3992		shop	shop
-src/states/game.lua:4389 (+8 others)		add	add
-src/states/game.lua:4598		options	options
+src/states/game.lua:3266 (+8 others)		roll	roll
+src/states/game.lua:3303		SKIP ${pip}	PRZESKOK ${pip}
+src/states/game.lua:3315		SKIP LOOPED	PRZESKOK ZAWINIĘTY
+src/states/game.lua:3554		Level Complete	Poziom ukończony
+src/states/game.lua:3595		Overshoot! +	Nadwyżka! +
+src/states/game.lua:3626		Level Coins	Monety za Poziom
+src/states/game.lua:3637		Extra Turn Coins	Monety za Dodatkowe Tury
+src/states/game.lua:3649		Combine Coins	Połącz Monety
+src/states/game.lua:3666		Bet bonus! +	Bonus za zakład! +
+src/states/game.lua:3716		--  Level ${number} Complete!  --	--  Poziom ${number} ukończony!  --
+src/states/game.lua:3732		Score:	Wynik:
+src/states/game.lua:3734		Reward:	Nagroda:
+src/states/game.lua:3735		Extra turns:	Dodatkowe tury:
+src/states/game.lua:3736		Bet bonus:	Bonus za zakład:
+src/states/game.lua:3737		Overshoot:	Nadwyżka:
+src/states/game.lua:3739		Total:	Razem:
+src/states/game.lua:3783		Trade!	Handel!
+src/states/game.lua:3829		don't lose it	nie zgub jej
+src/states/game.lua:3829		Soul on line	Dusza na szali
+src/states/game.lua:3836		¤${BET} wagered	Postawiono ${BET}¤
+src/states/game.lua:3840		¤ Banked	¤ Zbankowane
+src/states/game.lua:3841		Bank ¤${KEPT}?	Zbankować ${KEPT}¤?
+src/states/game.lua:3842		Win To Bank ¤	Wygraj, by zbankować ¤
+src/states/game.lua:3843		Bank ¤ in ${LEVELS} lvl	BANK ¤ za ${LEVELS} poz.
+src/states/game.lua:3857		Secure your Stars for the run\nyou won't be able to gain more this run	Zabezpiecz swoje Gwiazdki w tym podejściu\nnie zdobędziesz już więcej w tym podejściu
+src/states/game.lua:3859		Stars already banked this run	Gwiazdki już zbankowane w tym podejściu
+src/states/game.lua:3861		Securing Stars available after each nightmare level	Zabezpieczanie Gwiazdek dostępne po każdym poziomie koszmaru
+src/states/game.lua:3996		shop	shop
+src/states/game.lua:4399 (+8 others)		add	add
+src/states/game.lua:4608		options	options
 src/states/game_setup.lua:161		play!	graj!
 src/states/game_setup.lua:173 (+1 others)		Wager your Soul?	Postawić Duszę?
 src/states/game_setup.lua:176 (+1 others)		You are betting your soul.\nIf you lose, your save is gone forever.	Stawiasz swoją duszę.\nJeśli przegrasz, twój zapis zniknie na zawsze.
@@ -1478,29 +1478,29 @@ src/states/tax_audit.lua:283		You've entered upper tax bracket.\nPay up ${amount
 src/states/tax_audit.lua:305 (+1 others)		Pay Up	Płać
 src/states/tax_audit.lua:328 (+1 others)		Take on 2 Debt Dues	Weź 2 Raty Długu
 src/states/tax_audit.lua:348		You've been audited.\nYou haven't paid taxes.\nWe will be taking ${amount} § of your fish.	Masz kontrolę skarbową.\nNie zapłaciłaś podatków.\nZabierzemy ${amount} § twoich ryb.
-src/states/title.lua:129 (+5 others)	dialogue	so you chose to come back	więc postanowiłaś wrócić
-src/states/title.lua:131 (+5 others)	dialogue	you will see, very soon	przekonasz się, już niedługo
-src/states/title.lua:185		GAMEPAD WARNING: support is still pretty rough - report bugs on steam or discord <3	UWAGA, PAD: obsługa jest wciąż dość surowa - zgłaszaj błędy na Steamie albo Discordzie <3
-src/states/title.lua:194		the world you grew up in no longer exists	świat, w którym dorastałaś, już nie istnieje
-src/states/title.lua:204		Roll 6 to Play	Rzuć 6, by Grać
-src/states/title.lua:208		roll the dice!	rzuć kostką!
-src/states/title.lua:227		Tutorial	Samouczek
-src/states/title.lua:234		learn to play	naucz się grać
-src/states/title.lua:238		Star Guts	Gwiezdne Bebechy
-src/states/title.lua:242		unlock stuff	odblokuj rzeczy
-src/states/title.lua:292		Scoreboards	Rankingi
-src/states/title.lua:296		be the goat	zostań GOAT-em
-src/states/title.lua:306		game setup	ustawienia gry
-src/states/title.lua:311		Roll 1 to Quit	Rzuć 1, by Wyjść
-src/states/title.lua:315		bye?	pa?
-src/states/title.lua:382		brighten up	rozjaśnij
-src/states/title.lua:383		rest your eyes	odpocznij oczom
-src/states/title.lua:392		discord	discord
-src/states/title.lua:394		community chat	czat społeczności
-src/states/title.lua:397		steam	steam
-src/states/title.lua:399		feedback and updates	opinie i aktualizacje
-src/states/title.lua:402		ost	ost
-src/states/title.lua:403		coming soon	już wkrótce
+src/states/title.lua:73		roll 6 to play\nroll 1 to quit	
+src/states/title.lua:153 (+5 others)	dialogue	so you chose to come back	więc postanowiłaś wrócić
+src/states/title.lua:155 (+5 others)	dialogue	you will see, very soon	przekonasz się, już niedługo
+src/states/title.lua:209		GAMEPAD WARNING: support is still pretty rough - report bugs on steam or discord <3	UWAGA, PAD: obsługa jest wciąż dość surowa - zgłaszaj błędy na Steamie albo Discordzie <3
+src/states/title.lua:218		the world you grew up in no longer exists	świat, w którym dorastałaś, już nie istnieje
+src/states/title.lua:228		Play	
+src/states/title.lua:232		feeling lucky?	
+src/states/title.lua:251		Tutorial	Samouczek
+src/states/title.lua:258		learn to play	naucz się grać
+src/states/title.lua:262		Star Guts	Gwiezdne Bebechy
+src/states/title.lua:266		unlock stuff	odblokuj rzeczy
+src/states/title.lua:316		Scoreboards	Rankingi
+src/states/title.lua:320		be the goat	zostań GOAT-em
+src/states/title.lua:330		game setup	ustawienia gry
+src/states/title.lua:339		bye?	pa?
+src/states/title.lua:406		brighten up	rozjaśnij
+src/states/title.lua:407		rest your eyes	odpocznij oczom
+src/states/title.lua:416		discord	discord
+src/states/title.lua:418		community chat	czat społeczności
+src/states/title.lua:421		steam	steam
+src/states/title.lua:423		feedback and updates	opinie i aktualizacje
+src/states/title.lua:426		ost	ost
+src/states/title.lua:427		coming soon	już wkrótce
 src/states/unlock.lua:79		representations are still solidifying - physical form is meaningless - you're imagining it	reprezentacje wciąż się krystalizują - fizyczna forma nic nie znaczy - to sobie wyobrażasz
 src/states/unlock.lua:93		Upgrades	Ulepszenia
 src/states/unlock.lua:94		buy upgrades with ¤	kupuj ulepszenia za ¤
