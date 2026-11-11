@@ -17,10 +17,14 @@ There are several important files:
 - `meta.tsv` - the configuration file for what languages are present; includes their iso 639 language code, an english language string and a native language string representing the name of the language, which are both displayed in the application.
 - `en.tsv` - the "source of truth" - used as a template for new translations
 - `translators.tsv` - a list of everyone to credit, by language code.
+- `storepage_1135491_english.json` - steam main page localisation
+- `4535880-achievements-localization.csv` - steam achievements localisation
 
 There is also one tsv file per language in this repository, to make it easier to merge translation work across languages and avoid merge conflicts.
 
 The `en.tsv` file should be taken as a template for a newly supported language (eg copy the file to `pl.tsv` to work on Polish, if it doesn't already exist), and a new line added to `meta.tsv`. This can all be done as one pull request for convenience.
+
+The steam files are separate so they can be imported into steam directly. Please make a copy of the json for your language, and add a column to the csv.
 
 ## Testing
 
