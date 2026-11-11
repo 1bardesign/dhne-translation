@@ -4,7 +4,9 @@ Hello!
 
 Thank you for your interest in helping to translate [Dice Have No Eyes](https://store.steampowered.com/app/4535880/Dice_Have_No_Eyes/)!
 
-If a tsv for your language does not exist, create one as part of your submission. Submissions are only accepted through pull requests here on github, as that allows tracking ownership.
+If a tsv for your language does not exist, create one as part of your submission. Submissions are ideally done through pull requests here on github, as that allows tracking ownership.
+
+If you want to coordinate through discord instead, that is acceptable especially in the lead up to release.
 
 ## File Organisation
 
