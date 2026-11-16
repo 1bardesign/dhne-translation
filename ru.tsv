@@ -623,24 +623,24 @@ src/items.lua:1802		+${dynamic} Mult, gains +0.1 Mult each time a snack is eaten
 src/items.lua:1817		+0.1 mult	+0,1 Множитель	д
 src/items.lua:1835		Worm	Червь	д
 src/items.lua:1838 (+1 others)		+1 Mult	+1 Множитель	д
-src/items.lua:1849		Mahjong Tile		
-src/items.lua:1852		+2 Mult	+2 Мульт	
-src/items.lua:1864		Clam	Моллюск	
-src/items.lua:1867		+50 Points	+50 баллов	
-src/items.lua:1882		+10 Mult, -2 Mult for each die scored	+10 к множителю, -2 к множителю за каждый выпавший результат на кубике	
-src/items.lua:1899		Papa	Папа	
-src/items.lua:1902		+1 Mult per die scored	+1 множитель за каждый выпавший кубик	
-src/items.lua:1918		Powered Claw	Механизированный клешня	
-src/items.lua:1921		+5 Mult, uses 1 Power	+5 к множителю, расходует 1 единицу силы.	
-src/items.lua:1936		POY SIAN	ПОЙ СИАН	
-src/items.lua:1939		+40 Points for each unrolled 4	+40 очков за каждую невыпавшую четверку	
-src/items.lua:1957		Hold The Ones	Держитесь за единицы	
-src/items.lua:1960		+1 Mult for each unrolled 1	+1 множитель за каждую развернутую единицу	
-src/items.lua:1981		Zero Bust Turbo	Турбо нулевой автобус	
-src/items.lua:1984		Banking with no Busts starts next turn with 10 Momentum	Банковская система без банкротств начинается на следующем ходу с 10 единицами импульса.	
-src/items.lua:1999		10 momentum!	10 единиц импульса!	
-src/items.lua:2006		Mushieltador	Мушилтадор	
-src/items.lua:2009		Gain a Bust Shield when banking if last hand was any Straight	Получите щит от проигрыша при пополнении счета, если последняя раздача была стритом.	
+src/items.lua:1849		Mahjong Tile	Фишка Маджонг	д
+src/items.lua:1852		+2 Mult	+2 Множителя	д
+src/items.lua:1864		Clam	Моллюск	д
+src/items.lua:1867		+50 Points	+50 Очков	д
+src/items.lua:1882		+10 Mult, -2 Mult for each die scored	+10 Множителя, -2 Множителя за каждый засчитанный кубике	д
+src/items.lua:1899		Papa	Папа	д
+src/items.lua:1902		+1 Mult per die scored	+1 множитель за каждый засчитанный кубик	д
+src/items.lua:1918		Powered Claw	Механичкская клешня	
+src/items.lua:1921		+5 Mult, uses 1 Power	+5 к множителю, расхоует 1 Силу.	д
+src/items.lua:1936		POY SIAN	ПОЙ СИАН	д
+src/items.lua:1939		+40 Points for each unrolled 4	+40 Очков за каждую не брошенную четверку	д
+src/items.lua:1957		Hold The Ones	Придержи единицы	д
+src/items.lua:1960		+1 Mult for each unrolled 1	+1 Множитель за каждую не брошенную единицу	д
+src/items.lua:1981		Zero Bust Turbo	Зеро Баст Турбо	д
+src/items.lua:1984		Banking with no Busts starts next turn with 10 Momentum	Сбережение Очков без Бастов начинает следующи1 ход с 10 инерции	д
+src/items.lua:1999		10 momentum!	10 инерции!	д
+src/items.lua:2006		Mushieltador	Грищитадор	д
+src/items.lua:2009		Gain a Bust Shield when banking if last hand was any Straight	Лает Баст-Щит при сбережении, если последняя  была стритом.	
 src/items.lua:2035		Survival Instinct	Инстинкт выживания	
 src/items.lua:2038		x2 Mult on 1 turn left	Умножение на 2 за 1 ход до конца	
 src/items.lua:2069		Mandarin Peel		
