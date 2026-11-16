@@ -640,9 +640,9 @@ src/items.lua:1981		Zero Bust Turbo	Зеро Баст Турбо	д
 src/items.lua:1984		Banking with no Busts starts next turn with 10 Momentum	Сбережение Очков без Бастов начинает следующи1 ход с 10 инерции	д
 src/items.lua:1999		10 momentum!	10 инерции!	д
 src/items.lua:2006		Mushieltador	Грищитадор	д
-src/items.lua:2009		Gain a Bust Shield when banking if last hand was any Straight	Лает Баст-Щит при сбережении, если последняя  была стритом.	
+src/items.lua:2009		Gain a Bust Shield when banking if last hand was any Straight	Дает Баст-Щит при сбережении, если последнее Комбо было любым стритом	д
 src/items.lua:2035		Survival Instinct	Инстинкт выживания	
-src/items.lua:2038		x2 Mult on 1 turn left	Умножение на 2 за 1 ход до конца	
+src/items.lua:2038		x2 Mult on 1 turn left	*2  за 1 ход до конца	
 src/items.lua:2069		Mandarin Peel		
 src/items.lua:2072		+5 Mult for your first scored hand each turn		
 src/items.lua:2093		Octopus Ting		
