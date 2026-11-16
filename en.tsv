@@ -251,9 +251,9 @@ src/endings/alley.lua:104 (+1 others)	dialogue	because i am god
 src/endings/alley.lua:108	dialogue	being late to the dentist is always a bit risky	
 src/endings/alley.lua:109	dialogue	have you been brushing?	
 src/endings/alley.lua:110	dialogue	i don't have to brush my teeth	
-src/endings/anais.lua:129	dialogue	don't leave again	
-src/endings/anais.lua:130	dialogue	you're safe here	
-src/endings/anais.lua:131	dialogue	with me	
+src/endings/anais.lua:124	dialogue	don't leave again	
+src/endings/anais.lua:125	dialogue	you're safe here	
+src/endings/anais.lua:126	dialogue	with me	
 src/endings/boardroom.lua:34		hit da bricks	
 src/endings/boardroom.lua:120	dialogue	you believe in the wrong things	
 src/endings/boardroom.lua:121	dialogue	you believe in me now	

@@ -251,9 +251,9 @@ src/endings/alley.lua:104 (+1 others)	dialogue	because i am god	因为吾即是�
 src/endings/alley.lua:108	dialogue	being late to the dentist is always a bit risky	见牙医可不该迟到
 src/endings/alley.lua:109	dialogue	have you been brushing?	有好好刷牙吗？
 src/endings/alley.lua:110	dialogue	i don't have to brush my teeth	吾可不用刷牙
-src/endings/anais.lua:129	dialogue	don't leave again	别再离开了
-src/endings/anais.lua:130	dialogue	you're safe here	在这里你很安全
-src/endings/anais.lua:131	dialogue	with me	在我身边
+src/endings/anais.lua:124	dialogue	don't leave again	别再离开了
+src/endings/anais.lua:125	dialogue	you're safe here	在这里你很安全
+src/endings/anais.lua:126	dialogue	with me	在我身边
 src/endings/boardroom.lua:34		hit da bricks	开溜
 src/endings/boardroom.lua:120	dialogue	you believe in the wrong things	你相信错误的事物
 src/endings/boardroom.lua:121	dialogue	you believe in me now	现在你相信我了

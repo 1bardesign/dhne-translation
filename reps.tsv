@@ -329,7 +329,7 @@ night mode		src/entities/title_preview.lua	106	title_preview
 God		src/states/credits.lua	61	credits
 God		src/states/intro_greed.lua	69	intro_greed
 hit that shit?		src/states/ending.lua	244	ending
-hit that shit?		src/endings/anais.lua	29	anais
+hit that shit?		src/endings/anais.lua	28	anais
 hit that shit?		src/endings/default.lua	28	default
 hit that shit?		src/endings/guy.lua	32	guy
 hit that shit?		src/endings/liz.lua	34	liz
