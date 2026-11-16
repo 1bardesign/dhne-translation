@@ -206,9 +206,9 @@ src/characters/tutorial_character.lua:305	dialogue	I didn't explain it all but y
 src/characters/tutorial_character.lua:306	dialogue	You can figure out the rest.	Den Rest findest du\nselbst heraus.
 src/characters/tutorial_character.lua:308	dialogue	I'll see you in the real game.	Wir sehen uns\nim echten Spiel.
 src/characters/tutorial_character.lua:309	dialogue	Remember, luck helps. Judgement matters more.	Denk dran,\nGlück ist hilfreich.\n\nEntscheidungen sind wichtig.
-src/characters/wizard.lua:2		Wizard	Zauberer
-src/characters/wizard.lua:43		Soucerer	Flexenmeister
-src/characters/wizard.lua:50		Archmogus	Erzmoggier
+src/characters/wizard.lua:2		Wizard	Zauberin
+src/characters/wizard.lua:43		Soucerer	Flexenmeisterin
+src/characters/wizard.lua:50		Archmogus	Erzmoggierin
 src/characters/wizard.lua:57		Orb	Kugel
 src/characters/wizard.lua:89	dialogue	Get to level 7, and you're free.	Schaffst du es bis Level 7 bist du frei.
 src/characters/wizard.lua:92	dialogue	Get to level 10, and you're free.	Schaffst du es bis Level 10 bist du frei.
@@ -372,7 +372,7 @@ src/entities/shop.lua:1248		sell cursed	fluch verkaufen
 src/entities/shop.lua:1260		too many dice	zu viele würfel
 src/entities/shop.lua:1272		too many trinkets	zu viele glücksbringer
 src/entities/shop.lua:1286		pay up	bezahlen
-src/entities/shop.lua:1286		take change	wechselgeld nehmen
+src/entities/shop.lua:1286		take change	wechselgeld
 src/entities/shop.lua:1358		bye	bye
 src/entities/shop.lua:1406		Reroll - ${current_cost}¥	Neue Ware - ${current_cost}¥
 src/entities/tape.lua:453		- web	- web
@@ -483,7 +483,7 @@ src/item_unlocks.lua:387		abracodabra	abrakarpfdabra
 src/item_unlocks.lua:395		Bans	Exil
 src/item_unlocks.lua:396		ban item sets from your runs	verbanne items aus deinen runs
 src/item_unlocks.lua:408 (+1 others)		Scoreboards	Scoreboards
-src/item_unlocks.lua:409 (+1 others)		be the goat	sei besser als der rest
+src/item_unlocks.lua:409 (+1 others)		be the goat	wer ist besser
 src/items.lua:22		Something fell from the sky	Etwas fiel vom Himmel
 src/items.lua:48		Power Limit Up	Power-Limit Hoch
 src/items.lua:51		Power Limit +1	Power-Limit +1
@@ -565,7 +565,7 @@ src/items.lua:727		Meat!	Fleisch!
 src/items.lua:733		Dumpling Bag	Dumpling-Tüte
 src/items.lua:736		Spawn 3 random dumplings	Erzeugt 3 zufällige Dumplings
 src/items.lua:750		3 dumplings!	3 Dumplings!
-src/items.lua:757		Caffeine Pill	Koffeintablette
+src/items.lua:757		Caffeine Pill	Koffeinpille
 src/items.lua:758		Make a die impatient	Mache einen Würfel ungeduldig
 src/items.lua:772		Impatient!	Ungeduldig!
 src/items.lua:777		Tab	Tab
@@ -660,7 +660,7 @@ src/items.lua:1611		Pig Run	Schweine Run
 src/items.lua:1614		Pig sides score +${dynamic} Points, gains +5 per pig rerolled this turn. Resets each turn.	Schwein-Seiten werten +${dynamic} Punkte, +5 pro Schwein das diesen Zug geworfen wurde.
 src/items.lua:1638		pig bonus +${amount}!	schwein bonus +{amount}!
 src/items.lua:1643		Thurible	Thuribulum
-src/items.lua:1646		+${dynamic} Mult, gains +1 Mult each time a die is destroyed	+{dynamic} Multi, bekommt +1 Multi jedes Mal, wenn ein Würfel zerstört wird
+src/items.lua:1646		+${dynamic} Mult, gains +1 Mult each time a die is destroyed	+${dynamic} Multi, bekommt +1 Multi jedes Mal, wenn ein Würfel zerstört wird
 src/items.lua:1660 (+1 others)		+1 mult	+1 multi
 src/items.lua:1673		Aging Baby	Alterndes Baby
 src/items.lua:1676		+${dynamic} Points, loses 10 each time it activates	+${dynamic} Punkte, -10 Punkte bei jeder Aktivierung
@@ -717,7 +717,7 @@ src/items.lua:2221		Just A Pair	Nur Ein Paar
 src/items.lua:2224		+100 Points for a Pair	+100 Punkte für ein Paar
 src/items.lua:2242		Fifteen Sum	Summe Fünfzehn
 src/items.lua:2245		x3 Mult if the scored dice sum to 15	x3 Multi wenn die gewerteten Würfel in Summe 15 Augen zeigen
-src/items.lua:2265		Sumush	Sumush
+src/items.lua:2265		Sumush	Summenpilz
 src/items.lua:2268		x2 Mult if the scored dice sum to 10	x2 Multi wenn die gewerteten Würfel in Summe 10 Augen zeigen
 src/items.lua:2287		Lil' Choy	Lil' Choy
 src/items.lua:2290		x2 Mult when scoring 3 or fewer dice	x2 Multi wenn 3 oder weniger Würfel gewertet werden
@@ -1430,18 +1430,18 @@ src/states/unlock.lua:538 (+1 others)		ban	verbannen
 src/states/unlock.lua:587		Customise	Anpassen
 src/states/unlock.lua:946		Tape Worm	Bandwurm
 src/states/unlock.lua:947		gold in, pink out	gold rein, pink raus
-src/sync_scoreboards.lua:14		Most Stars	Meiste Sterne
-src/sync_scoreboards.lua:19		stars held	sterne gehalten
-src/sync_scoreboards.lua:27		Highest Level	Höchstes Level
+src/sync_scoreboards.lua:14		Most Stars	Gesicherte Sterne
+src/sync_scoreboards.lua:19		stars held	sterne
+src/sync_scoreboards.lua:27		Highest Level	Erreichtes Level
 src/sync_scoreboards.lua:32		level	level
-src/sync_scoreboards.lua:39		Best Level Score	Beste Level-Punkte
-src/sync_scoreboards.lua:51		Biggest Combo	Größte Combo
-src/sync_scoreboards.lua:63		Greed Intro	Gier Intro
-src/sync_scoreboards.lua:68		stars won	sterne gewonnen
-src/sync_scoreboards.lua:75		Most Wins	Meiste Gewinne
-src/sync_scoreboards.lua:80		wins	gewinne
-src/sync_scoreboards.lua:87		Most Fish	Meiste Fische
-src/sync_scoreboards.lua:92		fish in a run	fische in einem run
+src/sync_scoreboards.lua:39		Best Level Score	Höchste Level-Punktzahl
+src/sync_scoreboards.lua:51		Biggest Combo	Höchste Combo
+src/sync_scoreboards.lua:63		Greed Intro	Gier-Intro
+src/sync_scoreboards.lua:68		stars won	sterne
+src/sync_scoreboards.lua:75		Most Wins	Gewonnene Runs
+src/sync_scoreboards.lua:80		wins	runs
+src/sync_scoreboards.lua:87		Most Fish	Meiste Fische Pro Run
+src/sync_scoreboards.lua:92		fish in a run	fische
 src/sync_scoreboards.lua:95 (+3 others)		(data did not load)	(daten nicht geladen)
 src/sync_scoreboards.lua:117 (+1 others)		luck	Glück
 src/sync_scoreboards.lua:178 (+1 others)	dialogue	you	du
