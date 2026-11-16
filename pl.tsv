@@ -79,7 +79,7 @@ src/characters/god.lua:34	dialogue	begone	precz
 src/characters/god.lua:40		wager your soul	postaw swoją duszę
 src/characters/god.lua:41		Wager your Soul?	Postawić Duszę?
 src/characters/god.lua:42		You are betting your soul.\nIf you lose, your save is gone forever.	Stawiasz swoją duszę.\nJeśli przegrasz, twój zapis zniknie na zawsze.
-src/characters/god.lua:51	dialogue	i hope you are feeling lucky	mam nadzieję, że czujesz szczęście
+src/characters/god.lua:51	dialogue	i hope you are feeling lucky	mam nadzieję, że czujesz farta
 src/characters/god.lua:70		but you have earned nothing	ale niczego nie zarobiłaś
 src/characters/god.lua:72		but you need ${stars} ¤	
 src/characters/god.lua:77		wager a gold ¤	postaw złotą ¤
@@ -143,7 +143,7 @@ src/characters/shirin.lua:40		Mermaid
 src/characters/shirin.lua:64 (+1 others)	dialogue	Oh. You’re mine now.	O. Teraz jesteś moja.
 src/characters/shirin.lua:65	dialogue	I’ll let you go if you reach level 7.	Puszczę cię, jeśli dojdziesz do poziomu 7.
 src/characters/shirin.lua:68	dialogue	I’ll let you go if you reach level 10.	Puszczę cię, jeśli dojdziesz do poziomu 10.
-src/characters/shirin.lua:194	dialogue	Feeling lucky?	Czujesz szczęście?
+src/characters/shirin.lua:194	dialogue	Feeling lucky?	Czujesz farta?
 src/characters/shirin.lua:196	dialogue	I'll let you toss a coin to revive you for $cost ¤	Pozwolę ci rzucić monetą o wskrzeszenie za $cost ¤
 src/characters/shirin.lua:202	dialogue	RIP	RIP
 src/characters/shirin.lua:212	dialogue	Bad luck...	Pech...
@@ -205,7 +205,7 @@ src/characters/tutorial_character.lua:303	dialogue	Pretty good for the first go.
 src/characters/tutorial_character.lua:305	dialogue	I didn't explain it all but you're a smart cookie.	Nie wyjaśniłam wszystkiego, ale z ciebie bystrzacha.
 src/characters/tutorial_character.lua:306	dialogue	You can figure out the rest.	Resztę ogarniesz sama.
 src/characters/tutorial_character.lua:308	dialogue	I'll see you in the real game.	Do zobaczenia w prawdziwej grze.
-src/characters/tutorial_character.lua:309	dialogue	Remember, luck helps. Judgement matters more.	Pamiętaj: szczęście pomaga. Rozsądek znaczy więcej.
+src/characters/tutorial_character.lua:309	dialogue	Remember, luck helps. Judgement matters more.	Pamiętaj: fart pomaga. Rozsądek znaczy więcej.
 src/characters/wizard.lua:2		Wizard	Czarodziej
 src/characters/wizard.lua:43		Soucerer	
 src/characters/wizard.lua:50		Archmogus	
@@ -251,9 +251,9 @@ src/endings/alley.lua:104 (+1 others)	dialogue	because i am god	bo jestem bogiem
 src/endings/alley.lua:108	dialogue	being late to the dentist is always a bit risky	spóźnianie się do dentysty to zawsze ryzyko
 src/endings/alley.lua:109	dialogue	have you been brushing?	myłaś zęby?
 src/endings/alley.lua:110	dialogue	i don't have to brush my teeth	nie muszę myć zębów
-src/endings/anais.lua:129	dialogue	don't leave again	
-src/endings/anais.lua:130	dialogue	you're safe here	
-src/endings/anais.lua:131	dialogue	with me	
+src/endings/anais.lua:124	dialogue	don't leave again	
+src/endings/anais.lua:125	dialogue	you're safe here	
+src/endings/anais.lua:126	dialogue	with me	
 src/endings/boardroom.lua:34		hit da bricks	spadamy stąd
 src/endings/boardroom.lua:120	dialogue	you believe in the wrong things	
 src/endings/boardroom.lua:121	dialogue	you believe in me now	
@@ -299,20 +299,20 @@ src/endings/wizard.lua:142	dialogue	one day you will not get out
 src/endings/wizard.lua:143	dialogue	you are nothing	
 src/endings/wizard.lua:144	dialogue	your spells suck	
 src/endings/wizard.lua:145	dialogue	your hat stinks	
-src/entities/buttons_clump.lua:107 (+1 others)		Score	Punktuj
-src/entities/buttons_clump.lua:108		Scoring adds points and clears all dice in the combo	Punktowanie dodaje punkty i usuwa wszystkie kostki z kombinacji
-src/entities/buttons_clump.lua:110		Select All	Zaznacz wszystko
-src/entities/buttons_clump.lua:111		Select your dice to score them or roll them	Zaznacz kostki, by je zapunktować albo przerzucić
-src/entities/buttons_clump.lua:113		Deselect	Odznacz
-src/entities/buttons_clump.lua:114		Deselect everything to make a new selection	Odznacz wszystko, by zaznaczyć od nowa
-src/entities/buttons_clump.lua:231 (+1 others)		Roll	Rzuć
-src/entities/buttons_clump.lua:234		Roll just the selected dice	Rzuć tylko zaznaczonymi kostkami
-src/entities/buttons_clump.lua:236		Roll Blank	Rzuć puste
-src/entities/buttons_clump.lua:237		Roll all blank dice	Rzuć wszystkimi pustymi kostkami
-src/entities/buttons_clump.lua:239		Roll All	Rzuć wszystkie
-src/entities/buttons_clump.lua:240		Re-roll all your dice	Przerzuć wszystkie kostki
-src/entities/buttons_clump.lua:330		any bust:\ninstant wipe:	dowolny bust:\nnatychmiastowy wipe:
-src/entities/buttons_clump.lua:387 (+2 others)		no combo	brak kombinacji
+src/entities/buttons_clump.lua:127 (+1 others)		Score	Punktuj
+src/entities/buttons_clump.lua:128		Scoring adds points and clears all dice in the combo	Punktowanie dodaje punkty i usuwa wszystkie kostki z kombinacji
+src/entities/buttons_clump.lua:130		Select All	Zaznacz wszystko
+src/entities/buttons_clump.lua:131		Select your dice to score them or roll them	Zaznacz kostki, by je zapunktować albo przerzucić
+src/entities/buttons_clump.lua:133		Deselect	Odznacz
+src/entities/buttons_clump.lua:134		Deselect everything to make a new selection	Odznacz wszystko, by zaznaczyć od nowa
+src/entities/buttons_clump.lua:254 (+1 others)		Roll	Rzuć
+src/entities/buttons_clump.lua:257		Roll just the selected dice	Rzuć tylko zaznaczonymi kostkami
+src/entities/buttons_clump.lua:259		Roll Blank	Rzuć puste
+src/entities/buttons_clump.lua:260		Roll all blank dice	Rzuć wszystkimi pustymi kostkami
+src/entities/buttons_clump.lua:262		Roll All	Rzuć wszystkie
+src/entities/buttons_clump.lua:263		Re-roll all your dice	Przerzuć wszystkie kostki
+src/entities/buttons_clump.lua:353		any bust:\ninstant wipe:	dowolny bust:\nnatychmiastowy wipe:
+src/entities/buttons_clump.lua:410 (+2 others)		no combo	brak kombinacji
 src/entities/cycle_baby.lua:7		Cycle Baby	Bobas Cykl
 src/entities/cycle_baby.lua:13		Cycle!	Cykl!
 src/entities/dice.lua:212		Bust	Bust
@@ -534,7 +534,7 @@ src/items.lua:465		Gain 0-3¥
 src/items.lua:482 (+1 others)		Nothing!	Nic!
 src/items.lua:488		Scratchie II	Zdrapka II
 src/items.lua:491		1 in 3 chance to win 6¥	
-src/items.lua:507		No luck	Bez szczęścia
+src/items.lua:507		No luck	Bez farta
 src/items.lua:513		Scratchie III	Zdrapka III
 src/items.lua:516		Gain 1-4¥	
 src/items.lua:540		Copycat	Naśladowczyni
@@ -547,7 +547,7 @@ src/items.lua:585		Heal	Leczenie
 src/items.lua:588		All dice +1 ♥	Wszystkie kostki +1 ♥
 src/items.lua:602		Healed!	Uleczone!
 src/items.lua:607		Clutch	Sprzęgło
-src/items.lua:610		Hold your next hand	Zatrzymaj następny układ
+src/items.lua:610		Hold your next score	Zatrzymaj następny wynik
 src/items.lua:619 (+2 others)		Hold!	Trzymaj!
 src/items.lua:625		Snack Bag	Torba Przekąsek
 src/items.lua:628		Spawn 2-3 random snack items	Przywołaj 2-3 losowe przekąski
@@ -561,7 +561,7 @@ src/items.lua:699		Citrus!	Cytrusy!
 src/items.lua:704		Butcher's Bag	
 src/items.lua:707		Spawn 3 pig snacks	Przywołaj 3 świńskie przekąski
 src/items.lua:720		Rare find!	Rzadkie znalezisko!
-src/items.lua:727		Meet!	Mięsko!
+src/items.lua:727		Meat!	Mięsko!
 src/items.lua:733		Dumpling Bag	Torba Pierogów
 src/items.lua:736		Spawn 3 random dumplings	Przywołaj 3 losowe pierogi
 src/items.lua:750		3 dumplings!	3 pierogi!
@@ -696,15 +696,15 @@ src/items.lua:1993		Zero Bust Turbo	Turbo Zero Bustów
 src/items.lua:1996		Banking with no Busts starts next turn with 10 Momentum	BANK bez Bustów daje 10 Rozpędu na start następnej tury
 src/items.lua:2011		10 momentum!	10 rozpędu!
 src/items.lua:2018		Mushieltador	Mushieltador
-src/items.lua:2021		Gain a Bust Shield when banking if last hand was any Straight	Zyskaj Tarczę przed Bustem przy BANKU, jeśli ostatni układ był dowolnym Stritem
+src/items.lua:2021		Gain a Bust Shield when banking if your last combo was any Straight	Zyskaj Tarczę przed Bustem przy BANKU, jeśli ostatnia kombinacja była dowolnym Stritem
 src/items.lua:2047		Survival Instinct	Instynkt Przetrwania
 src/items.lua:2050		x2 Mult on 1 turn left	x2 Mnożnik, gdy została 1 tura
 src/items.lua:2081		Mandarin Peel	
-src/items.lua:2084		+5 Mult for your first scored hand each turn	
+src/items.lua:2084		+5 Mult for your first scored combo each turn	+5 Mnożnika za pierwszą zapunktowaną kombinację w każdej turze
 src/items.lua:2105		Octopus Ting	
-src/items.lua:2108		x3 Mult for your first scored hand each level	x3 Mnożnik za pierwszy zapunktowany układ na każdym poziomie
+src/items.lua:2108		x3 Mult for your first scored combo each level	x3 Mnożnik za pierwszą zapunktowaną kombinację na każdym poziomie
 src/items.lua:2133		Four Legged Star	Czworonożna Gwiazda
-src/items.lua:2136		+300 Points for a hand containing Four Of A Kind	
+src/items.lua:2136		+300 Points for a combo containing Four Of A Kind	+300 Punktów za kombinację zawierającą Karetę
 src/items.lua:2154		Minnesota Fats	Minnesota Fats
 src/items.lua:2157		+200 Points for any Straight	
 src/items.lua:2170		Bimber	Bimber
@@ -712,7 +712,7 @@ src/items.lua:2173		+200 Points for a Full House
 src/items.lua:2187		Kind Berry Three	Kind Berry Three
 src/items.lua:2190		+200 Points for Three Of A Kind	
 src/items.lua:2204		Two Pair Cat	Kot Dwie Pary
-src/items.lua:2207		+200 Points for a hand containing Two Pair	
+src/items.lua:2207		+200 Points for a combo containing Two Pair	+200 Punktów za kombinację zawierającą Dwie Pary
 src/items.lua:2221		Just A Pair	Tylko Para
 src/items.lua:2224		+100 Points for a Pair	
 src/items.lua:2242		Fifteen Sum	
@@ -722,7 +722,7 @@ src/items.lua:2268		x2 Mult if the scored dice sum to 10	x2 Mnożnik, jeśli zap
 src/items.lua:2287		Lil' Choy	Mały Choy
 src/items.lua:2290		x2 Mult when scoring 3 or fewer dice	x2 Mnożnik przy punktowaniu 3 lub mniej kostek
 src/items.lua:2308		Toad Hut	Ropusza Chatka
-src/items.lua:2311		x2 Mult for a hand containing Four Of A Kind	
+src/items.lua:2311		x2 Mult for a combo containing Four Of A Kind	x2 Mnożnik za kombinację zawierającą Karetę
 src/items.lua:2332		Pink Top	Różowy Top
 src/items.lua:2335		x2 Mult for any Straight	x2 Mnożnik za dowolny Strit
 src/items.lua:2350		Absinthe	Absynt
@@ -730,18 +730,18 @@ src/items.lua:2353		x2 Mult for a Full House
 src/items.lua:2368		Three Legged Pirate	Trójnogi Pirat
 src/items.lua:2371		x2 Mult for Three Of A Kind	x2 Mnożnik za Trójkę
 src/items.lua:2387		Two Pair Fat Cat	
-src/items.lua:2390		x1.5 Mult for a hand containing Two Pair	
+src/items.lua:2390		x1.5 Mult for a combo containing Two Pair	x1.5 Mnożnik za kombinację zawierającą Dwie Pary
 src/items.lua:2406		Pair Mult Dog	Pies Para Mnożnik
 src/items.lua:2409		x1.5 Mult for Pair, Two Pair and Three Pair	x1.5 Mnożnik za Parę, Dwie Pary i Trzy Pary
 src/items.lua:2426		Poppy	Mak
-src/items.lua:2429		x2 Mult for a hand containing three 6s	
+src/items.lua:2429		x2 Mult for a combo containing three 6s	x2 Mnożnik za kombinację zawierającą trzy szóstki
 src/items.lua:2445		Sunnies	Okularki
 src/items.lua:2448		+0.5x Mult for each scored 2	
 src/items.lua:2466		Cactus	Kaktus
 src/items.lua:2469		+0.5x Mult per scored die	+0.5x Mnożnika za każdą zapunktowaną kostkę
 src/items.lua:2487		Yolk	Żółtko
 src/items.lua:2490		Flipping a single coin +5 Mult	Rzut jedną monetą: +5 Mnożnika
-src/items.lua:2506		Lucky Leaf	Szczęśliwy Listek
+src/items.lua:2506		Lucky Leaf	Fartowny Listek
 src/items.lua:2509		x2 Mult if a coin is scored	x2 Mnożnik, jeśli zapunktujesz monetę
 src/items.lua:2526		Soy Fish	Ryba w Sosie Sojowym
 src/items.lua:2529		+1 Mult per scored coin	+1 Mnożnika za każdą zapunktowaną monetę
@@ -750,9 +750,9 @@ src/items.lua:2547		Sardine	Sardynka
 src/items.lua:2550		+50 Points per scored coin	+50 Punktów za każdą zapunktowaną monetę
 src/items.lua:2561		+${amount} pts	+${amount} pkt
 src/items.lua:2570		Snake Hold	Wężowy Chwyt
-src/items.lua:2573		Snake Eyes hold hand	Wężowe Oczka zatrzymują układ
+src/items.lua:2573		Snake Eyes hold score	Wężowe Oczka zatrzymują wynik
 src/items.lua:2590		The Mask	Maska
-src/items.lua:2593		Hands with 6s hold hand	Układy z szóstkami zostają zatrzymane
+src/items.lua:2593		Combos with 6s hold score	Kombinacje z szóstkami zatrzymują wynik
 src/items.lua:2611		Black Eye	Podbite Oko
 src/items.lua:2614		Spawn a Black Eyed Pea on Bust	
 src/items.lua:2622		Pea!	Fasolka!
@@ -762,7 +762,7 @@ src/items.lua:2645		Masochist Rock	Kamień Masochistki
 src/items.lua:2648		x2 Mult on Bust	x2 Mnożnik przy Buście
 src/items.lua:2657		x2 Mult	x2 Mnożnik
 src/items.lua:2663		Palosanto	Palo Santo
-src/items.lua:2666		If hand Mult is over 10: +5 Mult	Jeśli Mnożnik układu przekracza 10: +5 Mnożnika
+src/items.lua:2666		If Mult is over 10: +5 Mult	Jeśli Mnożnik przekracza 10: +5 Mnożnika
 src/items.lua:2679		Chestnut	Kasztan
 src/items.lua:2682		+50 Points when any item triggers	
 src/items.lua:2695		Dolphin	Delfin
@@ -783,7 +783,7 @@ src/items.lua:2832		+4 Mult for Two Pair	+4 Mnożnika za Dwie Pary
 src/items.lua:2845		Pair Cat	Kot Para
 src/items.lua:2848		+2 Mult for Pair, Two Pair and Three Pair	+2 Mnożnika za Parę, Dwie Pary i Trzy Pary
 src/items.lua:2865		Threes Gobber	Trójkowy Gobber
-src/items.lua:2868		+100 Points for a hand containing Three Of A Kind	
+src/items.lua:2868		+100 Points for a combo containing Three Of A Kind	+100 Punktów za kombinację zawierającą Trójkę
 src/items.lua:2901		Gay Moth	Gejowska Ćma
 src/items.lua:2904		+60 Points for rerolling a 6	+60 Punktów za przerzucenie 6
 src/items.lua:2923		Mini Goob	Mini Goob
@@ -843,7 +843,7 @@ src/items.lua:3507		Each Bonus side scored gives +3 Mult	Każda zapunktowana śc
 src/items.lua:3525		Power Mult	Mnożnik Mocy
 src/items.lua:3528		Each Power side scored gives +2 Mult	Każda zapunktowana ścianka Moc daje +2 Mnożnika
 src/items.lua:3565		Rowan	Jarzębina
-src/items.lua:3568		+5 Mult if the hand contains at least three 1s	+5 Mnożnika, jeśli układ zawiera co najmniej trzy jedynki
+src/items.lua:3568		+5 Mult if the combo contains at least three 1s	+5 Mnożnika, jeśli kombinacja zawiera co najmniej trzy jedynki
 src/items.lua:3692		House Stamp	Pieczątka Domu
 src/items.lua:3695		Rerolling a Three Of A Kind permanently upgrades Full House. Fades with use.	Przerzucenie Trójki trwale ulepsza Fula. Blaknie z użyciem.
 src/items.lua:3710 (+1 others)		Faded	Wyblakła
@@ -872,7 +872,7 @@ src/items.lua:3945		1 in 6 chance to spawn a coin when rerolling a Pig side	1 na
 src/items.lua:4000		Paw	Łapka
 src/items.lua:4003		Rolling a single die adds +2 Mult	Rzut pojedynczą kostką daje +2 Mnożnika
 src/items.lua:4016		Incel	Incel
-src/items.lua:4019		Rerolling a hand containing a Pair gives +100 Points and +1 Mult	
+src/items.lua:4019		Rerolling a combo containing a Pair gives +100 Points and +1 Mult	Przerzucenie kombinacji zawierającej Parę daje +100 Punktów i +1 Mnożnik
 src/items.lua:4046		Ghost Carriage	
 src/items.lua:4049		Scoring a Full House spawns a ghost die	Zapunktowanie Fula przywołuje kostkę-ducha
 src/items.lua:4063 (+5 others)		Ghost!	Duch!
@@ -885,9 +885,9 @@ src/items.lua:4118		Roll exactly 1 die - if it's a 2, +1¥	Rzuć dokładnie 1 ko
 src/items.lua:4139		Mult Biscuit	Ciastko Mnożnik
 src/items.lua:4142		Roll exactly 1 die - if it's a 3 or 4, +1 Mult	Rzuć dokładnie 1 kostką - jeśli wypadnie 3 lub 4, +1 Mnożnika
 src/items.lua:4160		Flask Of Ghost	Flaszka Ducha
-src/items.lua:4163		Rerolling a hand that contains a Three Of A Kind creates 2 ghost dice	Przerzucenie układu zawierającego Trójkę tworzy 2 kostki-duchy
+src/items.lua:4163		Rerolling a combo that contains a Three Of A Kind creates 2 ghost dice	Przerzucenie kombinacji zawierającej Trójkę tworzy 2 kostki-duchy
 src/items.lua:4185		Bone	Kość
-src/items.lua:4188		Hands containing a ghost die score +100 Points	
+src/items.lua:4188		Combos containing a ghost die score +100 Points	Kombinacje zawierające kostkę-ducha dają +100 Punktów
 src/items.lua:4206		Razor	Brzytwa
 src/items.lua:4209		1 in 3 chance to spawn a ghost die on Bust	1 na 3 szansa na przywołanie kostki-ducha przy Buście
 src/items.lua:4232		Scared Straight	Przestraszony Strit
@@ -907,7 +907,7 @@ src/items.lua:4376		Reduced!	Złagodzone!
 src/items.lua:4388		Anis Star	Anyż Gwiazdkowy
 src/items.lua:4391		Bust Limit +1	Limit Bustów +1
 src/items.lua:4465		Soft Wipes	Miękkie Wipe'y
-src/items.lua:4468		Wiping doesn't clear dice or hand	Wipe nie czyści kostek ani układu
+src/items.lua:4468		Wiping doesn't clear dice or score	Wipe nie czyści kostek ani wyniku
 src/items.lua:4487		Taro Jelly	Galaretka Taro
 src/items.lua:4490		Scoring 5s flips them to 6s	Zapunktowane 5 zmieniają się w 6
 src/items.lua:4504		Osmanthus Jelly	Galaretka Osmantusowa
@@ -1242,9 +1242,9 @@ src/states/game.lua:1817		gain a gold star	zdobądź złotą gwiazdkę
 src/states/game.lua:1825		Triple 8	Potrójna 8
 src/states/game.lua:1838		BLESSED 	BŁOGOSŁAWIONA 
 src/states/game.lua:1839		-1 bust	-1 bust
-src/states/game.lua:1847		Lucky 8	Szczęśliwa 8
+src/states/game.lua:1847		Lucky 8	Fartowna 8
 src/states/game.lua:1858		Unlucky 13	Pechowa 13
-src/states/game.lua:1869		Lucky 88	Szczęśliwe 88
+src/states/game.lua:1869		Lucky 88	Fartowne 88
 src/states/game.lua:1870		How?	Jak?
 src/states/game.lua:2172 (+1 others)		Level $level/$count $name	Poziom $level/$count $name
 src/states/game.lua:2224		NIGHTMARE LEVEL	POZIOM KOSZMARU
@@ -1305,7 +1305,7 @@ src/states/game_setup.lua:859		Wager stars to add levels,\nnext level 	Postaw gw
 src/states/game_setup.lua:1091		Difficulty	Trudność
 src/states/game_setup.lua:1094		${stars} ¤ reward limit	Limit nagrody: ${stars} ¤
 src/states/gameover.lua:223		Congratulations, you lost.	Gratulacje, przegrałaś.
-src/states/gameover.lua:224		Better luck next time.	Więcej szczęścia następnym razem.
+src/states/gameover.lua:224		Better luck next time.	Więcej farta następnym razem.
 src/states/gameover.lua:225		Maybe next time.	Może następnym razem.
 src/states/gameover.lua:265		Bet ${BET}¤	Zakład ${BET}¤
 src/states/gameover.lua:273		Death Tax ${STARS}¤	Podatek od Śmierci ${STARS}¤
@@ -1316,10 +1316,10 @@ src/states/gameover.lua:369		restart	restart
 src/states/gameover.lua:574		Press Circle To Toss	
 src/states/gameover.lua:574		Press B To Toss	Wciśnij B, by rzucić
 src/states/gameover.lua:574		Right Click To Toss	Kliknij prawym, by rzucić
-src/states/intro.lua:54		This is a game about luck.	To gra o szczęściu.
-src/states/intro.lua:55		This is still a game about luck.	To nadal gra o szczęściu.
+src/states/intro.lua:54		This is a game about luck.	To gra o farcie.
+src/states/intro.lua:55		This is still a game about luck.	To nadal gra o farcie.
 src/states/intro.lua:56		This is a game about rolling ones, apparently.	To gra o wyrzucaniu jedynek, najwyraźniej.
-src/states/intro.lua:57		Yikes. Still no luck huh?	Auć. Dalej bez szczęścia, co?
+src/states/intro.lua:57		Yikes. Still no luck huh?	Auć. Dalej bez farta, co?
 src/states/intro.lua:58		This game might not be for you.	Ta gra może nie być dla ciebie.
 src/states/intro.lua:59		It can't be that hard.	To nie może być aż tak trudne.
 src/states/intro.lua:60		At this point, you might consider refunding.	W tym momencie możesz pomyśleć o zwrocie pieniędzy.
@@ -1376,8 +1376,8 @@ src/states/outside.lua:19		this was a game about waking up
 src/states/scoreboard.lua:39		Loading Scores...	Wczytywanie wyników...
 src/states/scoreboard.lua:111		# player	# gracz
 src/states/scoreboard.lua:128		lemme try	
-src/states/scoreboard.lua:197		Your Luck	Twoje Szczęście
-src/states/scoreboard.lua:202		luckier than ${percent}%	więcej szczęścia niż ${percent}%
+src/states/scoreboard.lua:197		Your Luck	Twój Fart
+src/states/scoreboard.lua:202		luckier than ${percent}%	więcej farta niż ${percent}%
 src/states/scoreboard.lua:210		need more rolls	
 src/states/scoreboard.lua:218		rolls	rzuty
 src/states/scoreboard.lua:222		busts	busty
@@ -1435,7 +1435,7 @@ src/sync_scoreboards.lua:19		stars held	posiadane gwiazdki
 src/sync_scoreboards.lua:27		Highest Level	Najwyższy Poziom
 src/sync_scoreboards.lua:32		level	poziom
 src/sync_scoreboards.lua:39		Best Level Score	Najlepszy Wynik Poziomu
-src/sync_scoreboards.lua:51		Biggest Hand	Największy Układ
+src/sync_scoreboards.lua:51		Biggest Combo	Największa Kombinacja
 src/sync_scoreboards.lua:63		Greed Intro	Chciwe Intro
 src/sync_scoreboards.lua:68		stars won	zdobyte gwiazdki
 src/sync_scoreboards.lua:75		Most Wins	Najwięcej Wygranych
@@ -1443,7 +1443,7 @@ src/sync_scoreboards.lua:80		wins	wygrane
 src/sync_scoreboards.lua:87		Most Fish	Najwięcej Ryb
 src/sync_scoreboards.lua:92		fish in a run	ryb w podejściu
 src/sync_scoreboards.lua:95 (+3 others)		(data did not load)	(nie udało się wczytać danych)
-src/sync_scoreboards.lua:117 (+1 others)		luck	szczęściu
+src/sync_scoreboards.lua:117 (+1 others)		luck	farcie
 src/sync_scoreboards.lua:178 (+1 others)	dialogue	you	ty
 src/ui/character_body.lua:299 (+2 others)	ui	LOCKED	ZABLOKOWANE
 src/ui/combination_table.lua:34 (+1 others)	ui	flush	kolor
