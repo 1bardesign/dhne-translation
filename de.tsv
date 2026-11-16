@@ -24,7 +24,7 @@ src/boards/rift.lua:4		please mind the gap	bitte achten sie\nauf die lücke
 src/boards/the_end.lua:2		The End	Ende
 src/boards/the_end.lua:3		This is it.	Das war's.
 src/boards/the_end.lua:4		thank you for visiting	danke für deinen besuch
-src/character_unlocks.lua:10		the crown hung heavy from before he was born	
+src/character_unlocks.lua:10		the crown hung heavy from before he was born	die krone war schwer schon vor seiner geburt
 src/character_unlocks.lua:21		tries her best	gibt ihr bestes
 src/character_unlocks.lua:31		likes watching you bust	busts, busts, wir brauchen busts
 src/character_unlocks.lua:42		just a dude	nur so ein typ
@@ -547,7 +547,7 @@ src/items.lua:585		Heal	Heilung
 src/items.lua:588		All dice +1 ♥	Alle Würfel +1 ♥
 src/items.lua:602		Healed!	Geheilt!
 src/items.lua:607		Clutch	Clutch
-src/items.lua:610		Hold your next score	
+src/items.lua:610		Hold your next score	Halte deine nächste Wertung
 src/items.lua:619 (+2 others)		Hold!	Behalten!
 src/items.lua:625		Snack Bag	Fresstüte
 src/items.lua:628		Spawn 2-3 random snack items	Erzeugt 2-3 zufällige Snacks
@@ -561,7 +561,7 @@ src/items.lua:699		Citrus!	Zitrus!
 src/items.lua:704		Butcher's Bag	Fleischertüte
 src/items.lua:707		Spawn 3 pig snacks	Erzeugt 3 Schwein-Snacks
 src/items.lua:720		Rare find!	Seltener Fund!
-src/items.lua:727		Meat!	
+src/items.lua:727		Meat!	Fleisch!
 src/items.lua:733		Dumpling Bag	Dumpling-Tüte
 src/items.lua:736		Spawn 3 random dumplings	Erzeugt 3 zufällige Dumplings
 src/items.lua:750		3 dumplings!	3 Dumplings!
@@ -696,15 +696,15 @@ src/items.lua:1993		Zero Bust Turbo	Null-Bust-Turbo
 src/items.lua:1996		Banking with no Busts starts next turn with 10 Momentum	Ohne Busts In die Bank einzuzahlen startet den nächsten Zug mit 10 Momentum
 src/items.lua:2011		10 momentum!	10 momentum!
 src/items.lua:2018		Mushieltador	Mushieltador
-src/items.lua:2021		Gain a Bust Shield when banking if your last combo was any Straight	
+src/items.lua:2021		Gain a Bust Shield when banking if your last combo was any Straight	Bekomme ein Bust-Schild bei Bank-Einzahlung, wenn deine letzte Combo irgendeine Straße war
 src/items.lua:2047		Survival Instinct	Überlebensinstinkt
 src/items.lua:2050		x2 Mult on 1 turn left	x2 Multi wenn nur noch 1 Zug übrig ist
 src/items.lua:2081		Mandarin Peel	Mandarinenschale
-src/items.lua:2084		+5 Mult for your first scored combo each turn	
+src/items.lua:2084		+5 Mult for your first scored combo each turn	+5 Multi für die erste Combo, die in jedem Zug gewertet wird
 src/items.lua:2105		Octopus Ting	Oktopus Ting
-src/items.lua:2108		x3 Mult for your first scored combo each level	
+src/items.lua:2108		x3 Mult for your first scored combo each level	x3 Multi für die erste Combo, die in jedem Level gewertet wird
 src/items.lua:2133		Four Legged Star	Vierbeiniger Stern
-src/items.lua:2136		+300 Points for a combo containing Four Of A Kind	
+src/items.lua:2136		+300 Points for a combo containing Four Of A Kind	+300 Points für eine Combo, die einen Viererpasch beinhaltet
 src/items.lua:2154		Minnesota Fats	Minnesota Fats
 src/items.lua:2157		+200 Points for any Straight	+200 Punkte für jegliche Straße
 src/items.lua:2170		Bimber	Bimber
@@ -712,7 +712,7 @@ src/items.lua:2173		+200 Points for a Full House	+200 Punkte für ein Full House
 src/items.lua:2187		Kind Berry Three	Dreibeerstrauch
 src/items.lua:2190		+200 Points for Three Of A Kind	+200 Punkte für einen Dreierpasch
 src/items.lua:2204		Two Pair Cat	Zwei-Paar-Katze
-src/items.lua:2207		+200 Points for a combo containing Two Pair	
+src/items.lua:2207		+200 Points for a combo containing Two Pair	+200 Punkte für eine Combo, die zwei Paare beinhaltet
 src/items.lua:2221		Just A Pair	Nur Ein Paar
 src/items.lua:2224		+100 Points for a Pair	+100 Punkte für ein Paar
 src/items.lua:2242		Fifteen Sum	Summe Fünfzehn
@@ -722,7 +722,7 @@ src/items.lua:2268		x2 Mult if the scored dice sum to 10	x2 Multi wenn die gewer
 src/items.lua:2287		Lil' Choy	Lil' Choy
 src/items.lua:2290		x2 Mult when scoring 3 or fewer dice	x2 Multi wenn 3 oder weniger Würfel gewertet werden
 src/items.lua:2308		Toad Hut	Kröten-Häuschen
-src/items.lua:2311		x2 Mult for a combo containing Four Of A Kind	
+src/items.lua:2311		x2 Mult for a combo containing Four Of A Kind	x2 Multi für eine Combo, die einen Viererpasch beinhaltet
 src/items.lua:2332		Pink Top	Pinkes Top
 src/items.lua:2335		x2 Mult for any Straight	x2 Multi für jegliche Straße
 src/items.lua:2350		Absinthe	Absinth
@@ -730,11 +730,11 @@ src/items.lua:2353		x2 Mult for a Full House	x2 Multi für ein Full House
 src/items.lua:2368		Three Legged Pirate	Dreibeiniger Pirat
 src/items.lua:2371		x2 Mult for Three Of A Kind	x2 Multi für einen Dreierpasch
 src/items.lua:2387		Two Pair Fat Cat	Zwei-Paar-Fette-Katze
-src/items.lua:2390		x1.5 Mult for a combo containing Two Pair	
+src/items.lua:2390		x1.5 Mult for a combo containing Two Pair	x1,5 Multi für eine Combo, die zwei Paare beinhaltet
 src/items.lua:2406		Pair Mult Dog	Paar-Multi-Hund
 src/items.lua:2409		x1.5 Mult for Pair, Two Pair and Three Pair	x1,5 Multi für Paar, Zwei Paare und Drei Paare
 src/items.lua:2426		Poppy	Mohnblume
-src/items.lua:2429		x2 Mult for a combo containing three 6s	
+src/items.lua:2429		x2 Mult for a combo containing three 6s	x2 Multi für eine Combo, die drei 6en beinhaltet
 src/items.lua:2445		Sunnies	Sonnenbrille
 src/items.lua:2448		+0.5x Mult for each scored 2	+0,5 pro gewertetem Würfel x Multi
 src/items.lua:2466		Cactus	Kaktus
@@ -749,10 +749,10 @@ src/items.lua:2540 (+1 others)		+${amount} mult	+${amount} multi
 src/items.lua:2547		Sardine	Sardine
 src/items.lua:2550		+50 Points per scored coin	+50 Punkte pro gewerteter Münze
 src/items.lua:2561		+${amount} pts	+${amount} pkt
-src/items.lua:2570		Snake Hold	Schlangenaugen
-src/items.lua:2573		Snake Eyes hold score	
+src/items.lua:2570		Snake Hold	Schlangenhalten
+src/items.lua:2573		Snake Eyes hold score	Schlangenaugen halten die Punktzahl
 src/items.lua:2590		The Mask	Die Maske
-src/items.lua:2593		Combos with 6s hold score	
+src/items.lua:2593		Combos with 6s hold score	Combos mit 6en halten die Punktzahl
 src/items.lua:2611		Black Eye	Das Schwarze Auge
 src/items.lua:2614		Spawn a Black Eyed Pea on Bust	Erzeugt eine Schwarzaugebohne wenn ein Bust geworfen wird
 src/items.lua:2622		Pea!	Bohne!
@@ -762,7 +762,7 @@ src/items.lua:2645		Masochist Rock	Masochistenstein
 src/items.lua:2648		x2 Mult on Bust	x2 Multi wenn ein Bust geworfen wird
 src/items.lua:2657		x2 Mult	x2 Multi
 src/items.lua:2663		Palosanto	Palo Santo
-src/items.lua:2666		If Mult is over 10: +5 Mult	
+src/items.lua:2666		If Mult is over 10: +5 Mult	+5 Multi wenn Multi über 10 ist
 src/items.lua:2679		Chestnut	Kastanie
 src/items.lua:2682		+50 Points when any item triggers	+50 Punkte wenn ein anderes Item triggert
 src/items.lua:2695		Dolphin	Delphin
@@ -783,7 +783,7 @@ src/items.lua:2832		+4 Mult for Two Pair	+4 Multi für Zwei Paare
 src/items.lua:2845		Pair Cat	Paarkatze
 src/items.lua:2848		+2 Mult for Pair, Two Pair and Three Pair	+2 Multi für Paar, Zwei Paare und Drei Paare
 src/items.lua:2865		Threes Gobber	Dreiäugiger Gobber
-src/items.lua:2868		+100 Points for a combo containing Three Of A Kind	
+src/items.lua:2868		+100 Points for a combo containing Three Of A Kind	+100 Punkte für eine Combo, die einen Dreierpasch beinhaltet
 src/items.lua:2901		Gay Moth	Queere Motte
 src/items.lua:2904		+60 Points for rerolling a 6	+60 Punkte wenn eine 6 neu geworfen wird
 src/items.lua:2923		Mini Goob	Mini Goob
@@ -843,7 +843,7 @@ src/items.lua:3507		Each Bonus side scored gives +3 Mult	+3 Multi für jede gewe
 src/items.lua:3525		Power Mult	Power-Multi
 src/items.lua:3528		Each Power side scored gives +2 Mult	+2 Multi für jede gewertete Power-Seite
 src/items.lua:3565		Rowan	Eberesche
-src/items.lua:3568		+5 Mult if the combo contains at least three 1s	
+src/items.lua:3568		+5 Mult if the combo contains at least three 1s	+5 Multi für eine Combo, die mindestens drei 1en beinhaltet
 src/items.lua:3692		House Stamp	Haus-Briefmarke
 src/items.lua:3695		Rerolling a Three Of A Kind permanently upgrades Full House. Fades with use.	Einen Dreierpasch neu werfen verbessert Full House für den Run. Verblasst nach Benutzung.
 src/items.lua:3710 (+1 others)		Faded	Verblasst
@@ -872,7 +872,7 @@ src/items.lua:3945		1 in 6 chance to spawn a coin when rerolling a Pig side	1 in
 src/items.lua:4000		Paw	Pfote
 src/items.lua:4003		Rolling a single die adds +2 Mult	+2 Multi wenn ein einzelner Würfel neu geworfen wird
 src/items.lua:4016		Incel	Incel
-src/items.lua:4019		Rerolling a combo containing a Pair gives +100 Points and +1 Mult	
+src/items.lua:4019		Rerolling a combo containing a Pair gives +100 Points and +1 Mult	+100 Punkte und +1 Multi, wenn eine Combo, die ein Paar beinhaltet, neu geworfen wird
 src/items.lua:4046		Ghost Carriage	Geisterkutsche
 src/items.lua:4049		Scoring a Full House spawns a ghost die	Erzeugt einen Geisterwürfel wenn ein Full House gewertet wird
 src/items.lua:4063 (+5 others)		Ghost!	Geist!
@@ -885,9 +885,9 @@ src/items.lua:4118		Roll exactly 1 die - if it's a 2, +1¥	+1¥ wenn ein einzeln
 src/items.lua:4139		Mult Biscuit	Multi-Keks
 src/items.lua:4142		Roll exactly 1 die - if it's a 3 or 4, +1 Mult	+1 Multi wenn ein einzelner Würfel geworfen wird und auf 3 oder 4 landet
 src/items.lua:4160		Flask Of Ghost	Geisterflasche
-src/items.lua:4163		Rerolling a combo that contains a Three Of A Kind creates 2 ghost dice	
+src/items.lua:4163		Rerolling a combo that contains a Three Of A Kind creates 2 ghost dice	Erzeugt zwei Geisterwürfel, wenn eine Combo, die einen Drilling beinhaltet, neu geworfen wird
 src/items.lua:4185		Bone	Knochen
-src/items.lua:4188		Combos containing a ghost die score +100 Points	
+src/items.lua:4188		Combos containing a ghost die score +100 Points	+100 Punkte wenn die Combo einen Geisterwürfel beinhaltet
 src/items.lua:4206		Razor	Rasierer
 src/items.lua:4209		1 in 3 chance to spawn a ghost die on Bust	1 in 3 Chance einen Geisterwürfel zu erstellen wenn ein Bust geworfen wird
 src/items.lua:4232		Scared Straight	Geisterstraße
@@ -907,7 +907,7 @@ src/items.lua:4376		Reduced!	Reduziert!
 src/items.lua:4388		Anis Star	Sternanis
 src/items.lua:4391		Bust Limit +1	+1 Bust-Limit
 src/items.lua:4465		Soft Wipes	Feuchttücher
-src/items.lua:4468		Wiping doesn't clear dice or score	
+src/items.lua:4468		Wiping doesn't clear dice or score	Würfel und Punktzahl werden bei Wipe nicht zurückgesetzt
 src/items.lua:4487		Taro Jelly	Taro-Gelee
 src/items.lua:4490		Scoring 5s flips them to 6s	5er drehen sich nach Wertung auf 6
 src/items.lua:4504		Osmanthus Jelly	Osmanthus-Gelee
@@ -1435,7 +1435,7 @@ src/sync_scoreboards.lua:19		stars held	sterne gehalten
 src/sync_scoreboards.lua:27		Highest Level	Höchstes Level
 src/sync_scoreboards.lua:32		level	level
 src/sync_scoreboards.lua:39		Best Level Score	Beste Level-Punkte
-src/sync_scoreboards.lua:51		Biggest Combo	
+src/sync_scoreboards.lua:51		Biggest Combo	Größte Combo
 src/sync_scoreboards.lua:63		Greed Intro	Gier Intro
 src/sync_scoreboards.lua:68		stars won	sterne gewonnen
 src/sync_scoreboards.lua:75		Most Wins	Meiste Gewinne
