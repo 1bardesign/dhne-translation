@@ -1187,9 +1187,9 @@ src/states/ending_finale.lua:174	dialogue	tails: i will personally destroy all t
 src/states/ending_finale.lua:190	dialogue	do it, all in	zrób to, va banque
 src/states/ending_finale.lua:192		flick it like you mean it	pstryknij, jakby od tego wszystko zależało
 src/states/ending_finale.lua:192		this is real	to dzieje się naprawdę
-src/states/ending_finale.lua:245	dialogue	hahaha	hahaha
-src/states/ending_finale.lua:246	dialogue	fair enough	niech będzie
-src/states/ending_finale.lua:289		I can't do it	Nie dam rady
+src/states/ending_finale.lua:253	dialogue	hahaha	hahaha
+src/states/ending_finale.lua:254	dialogue	fair enough	niech będzie
+src/states/ending_finale.lua:297		I can't do it	Nie dam rady
 src/states/fish_market.lua:87		--  Fish Market  --	--  Targ Rybny  --
 src/states/fish_market.lua:193		Sell Fish	Sprzedaj Ryby
 src/states/fish_market.lua:222		Buy Fish	Kup Ryby
@@ -1371,9 +1371,8 @@ src/states/options.lua:504		reset tips	resetuj wskazówki
 src/states/options.lua:509		reset all the hover tooltip counters\nso that all the tips show again?	zresetować liczniki podpowiedzi\nżeby wszystkie wskazówki pokazały się znowu?
 src/states/options.lua:528		replay tutorial	powtórz samouczek
 src/states/options.lua:557		(BETA)	
-src/states/outside.lua:18		that's it	
-src/states/outside.lua:19		by Franek and Max	
-src/states/outside.lua:20		a game about waking up	
+src/states/outside.lua:18		by Franek and Max	
+src/states/outside.lua:19		this was a game about waking up	
 src/states/scoreboard.lua:39		Loading Scores...	Wczytywanie wyników...
 src/states/scoreboard.lua:111		# player	# gracz
 src/states/scoreboard.lua:128		lemme try	

@@ -1187,9 +1187,9 @@ src/states/ending_finale.lua:174	dialogue	tails: i will personally destroy all t
 src/states/ending_finale.lua:190	dialogue	do it, all in	Сделайте это, всецело.	
 src/states/ending_finale.lua:192		flick it like you mean it	Щёлкни так, будто ты настроен решительно.	
 src/states/ending_finale.lua:192		this is real	это правда	
-src/states/ending_finale.lua:245	dialogue	hahaha	хахаха	
-src/states/ending_finale.lua:246	dialogue	fair enough	справедливо	
-src/states/ending_finale.lua:289		I can't do it	Я не могу этого сделать.	
+src/states/ending_finale.lua:253	dialogue	hahaha	хахаха	
+src/states/ending_finale.lua:254	dialogue	fair enough	справедливо	
+src/states/ending_finale.lua:297		I can't do it	Я не могу этого сделать.	
 src/states/fish_market.lua:87		--  Fish Market  --	-- Рыбный рынок --	
 src/states/fish_market.lua:193		Sell Fish	Продавать рыбу	
 src/states/fish_market.lua:222		Buy Fish	Купить рыбу	
@@ -1371,9 +1371,8 @@ src/states/options.lua:504		reset tips	советы по сбросу
 src/states/options.lua:509		reset all the hover tooltip counters\nso that all the tips show again?	Сбросить все счетчики всплывающих подсказок, чтобы все подсказки снова отображались?	
 src/states/options.lua:528		replay tutorial	обучающее видео по повтору	
 src/states/options.lua:557		(BETA)		
-src/states/outside.lua:18		that's it		
-src/states/outside.lua:19		by Franek and Max		
-src/states/outside.lua:20		a game about waking up		
+src/states/outside.lua:18		by Franek and Max		
+src/states/outside.lua:19		this was a game about waking up		
 src/states/scoreboard.lua:39		Loading Scores...	Загрузка результатов...	
 src/states/scoreboard.lua:111		# player	# игрок	
 src/states/scoreboard.lua:128		lemme try		
