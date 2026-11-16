@@ -658,7 +658,7 @@ src/items.lua:1570		Emetique (TM)	Эметик (ТМ)	д
 src/items.lua:1571		Puke all special effects out	Заставляет кубик вытошнить специальный эффект	д
 src/items.lua:1611		Pig Run	Свиной загон	
 src/items.lua:1614		Pig sides score +${dynamic} Points, gains +5 per pig rerolled this turn. Resets each turn.		
-src/items.lua:1638		pig bonus +${amount}!	Бонус для свиней +${сумма}!	
+src/items.lua:1638		pig bonus +${amount}!	Бонус для свиней +${amount}!	
 src/items.lua:1643		Thurible	Кадиль	
 src/items.lua:1646		+${dynamic} Mult, gains +1 Mult each time a die is destroyed	+${dynamic} Множителя, получает +1 Множитель каждый раз, когда уничтожен кубик	
 src/items.lua:1660 (+1 others)		+1 mult	+1 Множитель	д
@@ -762,20 +762,20 @@ src/items.lua:2645		Masochist Rock	Мазохистский Рок	д
 src/items.lua:2648		x2 Mult on Bust	x2 Множителя на Басте	д
 src/items.lua:2657		x2 Mult	x2 множ	д
 src/items.lua:2663		Palosanto	Палосанто	д
-src/items.lua:2666		If hand Mult is over 10: +5 Mult	Если множитель превышает 10: +5 Множителя	
-src/items.lua:2679		Chestnut	каштан	
-src/items.lua:2682		+50 Points when any item triggers		
-src/items.lua:2695		Dolphin	Дельфин	
-src/items.lua:2698		Spawns a random snack each level	На каждом уровне появляется случайная закуска.	
-src/items.lua:2722 (+1 others)		Snack!	Перекус!	
-src/items.lua:2728		Lemonade Stand	Киоск с лимонадом	
-src/items.lua:2731		Spawns a citrus slice each turn	Каждый ход появляется долька цитрусовых.	
-src/items.lua:2748		Crowd Pleaser	Любимец публики	
-src/items.lua:2751		+50 Points per trinket on board	+50 очков за каждый предмет на доске	
-src/items.lua:2768		Double Down	Удвоить ставку	
-src/items.lua:2771		Flipping a single coin x2 Mult	Подбрасывание одной монеты x2 Мульт	
-src/items.lua:2796		Just An Anxious Guy	Просто тревожный парень	
-src/items.lua:2799		+4 Mult for Four Of A Kind	+4 множителя за четыре одинаковых символа	
+src/items.lua:2666		If hand Mult is over 10: +5 Mult	Если множитель превышает 10: +5 Множителя	д
+src/items.lua:2679		Chestnut	Каштан	д
+src/items.lua:2682		+50 Points when any item triggers	+50 Очков когда любой предмет активируется	д
+src/items.lua:2695		Dolphin	Дельфин	д
+src/items.lua:2698		Spawns a random snack each level	Создает случайную закуску на каждом уровне	д
+src/items.lua:2722 (+1 others)		Snack!	Закуска!	д
+src/items.lua:2728		Lemonade Stand	Киоск с лимонадом	д
+src/items.lua:2731		Spawns a citrus slice each turn	Создает цитрусовую дольку на каждом уровне	д
+src/items.lua:2748		Crowd Pleaser	Любимец публики	д
+src/items.lua:2751		+50 Points per trinket on board	+50 очков за каждую безделушку	д
+src/items.lua:2768		Double Down	Упорность	д
+src/items.lua:2771		Flipping a single coin x2 Mult	х2 Множителя при броске одной монетки	д
+src/items.lua:2796		Just An Anxious Guy	Просто тревожный парень	д
+src/items.lua:2799		+4 Mult for Four Of A Kind	+4 Множителя за Каре	д
 src/items.lua:2813		Double Three Blibber	Двойной Три Блиббер	
 src/items.lua:2816		+3 Mult for Three Of A Kind	+3 множителя за три одинаковых предмета	
 src/items.lua:2829		Two Pair Mult Cat	Две пары кошек разных пород	
@@ -1273,7 +1273,7 @@ src/states/game.lua:3671		Level Coins	Монеты уровня
 src/states/game.lua:3682		Extra Turn Coins	Дополнительные монеты хода	
 src/states/game.lua:3694		Combine Coins	Объединить монеты	
 src/states/game.lua:3711		Bet bonus! +	Бонусные ставки! +	
-src/states/game.lua:3761		--  Level ${number} Complete!  --	-- Уровень ${номер} пройден! --	
+src/states/game.lua:3761		--  Level ${number} Complete!  --	-- Уровень ${number} пройден! --	
 src/states/game.lua:3777		Score:	Счет:	
 src/states/game.lua:3779		Reward:	Награда:	
 src/states/game.lua:3780		Extra turns:	Дополнительные ходы:	
@@ -1287,7 +1287,7 @@ src/states/game.lua:3881		¤${BET} wagered	¤${BET} поставлено
 src/states/game.lua:3885		¤ Banked	¤ Зачислено в банк	
 src/states/game.lua:3886		Bank ¤${KEPT}?	Банк ¤${KEPT}?	
 src/states/game.lua:3887		Win To Bank ¤	Выигрыш в банк ¤	
-src/states/game.lua:3888		Bank ¤ in ${LEVELS} lvl	Банк ¤ на уровне ${УРОВНЕЙ} lvl	
+src/states/game.lua:3888		Bank ¤ in ${LEVELS} lvl	Банк ¤ на уровне ${LEVELS} lvl	
 src/states/game.lua:3902		Secure your Stars for the run\nyou won't be able to gain more this run	Накопите все звёзды для забега! В этом забеге вы не сможете получить больше.	
 src/states/game.lua:3904		Stars already banked this run	Звезды уже обеспечили себе победу в этом сезоне.	
 src/states/game.lua:3906		Securing Stars available after each nightmare level	Получение звёзд становится доступно после каждого уровня кошмара.	
@@ -1309,7 +1309,7 @@ src/states/gameover.lua:224		Better luck next time.	В следующий раз
 src/states/gameover.lua:225		Maybe next time.	Возможно, в следующий раз.	
 src/states/gameover.lua:265		Bet ${BET}¤	Ставка ${BET}¤	
 src/states/gameover.lua:273		Death Tax ${STARS}¤	Налог на наследство ${STARS}¤	
-src/states/gameover.lua:282		GAME OVER	ИГРА ЗАКОНЧЕНА	
+src/states/gameover.lua:282		GAME OVER	ИГРА ОКОНЧЕНА	
 src/states/gameover.lua:314		Death tax:	Налог на наследство:	
 src/states/gameover.lua:330		run info	информация о запуске	
 src/states/gameover.lua:369		restart	перезапуск	
@@ -1332,16 +1332,16 @@ src/states/intro.lua:144		Press Circle To Roll
 src/states/intro.lua:144		Press B To Roll	Нажмите кнопку B, чтобы повернуть.	
 src/states/intro.lua:145		Right Click To Roll	Щелкните правой кнопкой мыши, чтобы прокрутить	
 src/states/intro.lua:237		Franek & Max	Франек и Макс	
-src/states/intro_greed.lua:64		skill	навык	
-src/states/intro_greed.lua:65		talent	талант	
-src/states/intro_greed.lua:66		patience	терпение	
-src/states/intro_greed.lua:67		fate	судьба	
-src/states/intro_greed.lua:68		destiny	судьба	
-src/states/intro_greed.lua:80		Roll to gain Stars.	Бросайте кубик, чтобы получить звёзды.	
-src/states/intro_greed.lua:81		Roll 1 to lose Stars.	Чтобы потерять звезды, бросьте кубик и получите 1.	
-src/states/intro_greed.lua:110		This is a game about ${reason}.	Это игра о ${reason}.	
-src/states/intro_greed.lua:152		bank and start	банк и начать	
-src/states/intro_greed.lua:152		pass and start	обгон и старт	
+src/states/intro_greed.lua:64		skill	навыке	д
+src/states/intro_greed.lua:65		talent	таланте	д
+src/states/intro_greed.lua:66		patience	терпении	д
+src/states/intro_greed.lua:67		fate	судьбе	д
+src/states/intro_greed.lua:68		destiny	судьбе	
+src/states/intro_greed.lua:80		Roll to gain Stars.	Брось кубик чтобы заработать звёзды.	д
+src/states/intro_greed.lua:81		Roll 1 to lose Stars.	Выбрось 1 чтобы потерять звёзды.	д
+src/states/intro_greed.lua:110		This is a game about ${reason}.	Это игра о ${reason}.	д
+src/states/intro_greed.lua:152		bank and start	сберечь и начать	д
+src/states/intro_greed.lua:152		pass and start	пасовать и начать	д
 src/states/options.lua:86		Build ID: ${id}	Идентификатор сборки: ${id}	
 src/states/options.lua:333		audio	аудио	
 src/states/options.lua:337		master	владелец	
@@ -1377,7 +1377,7 @@ src/states/scoreboard.lua:39		Loading Scores...	Загрузка результ�
 src/states/scoreboard.lua:111		# player	# игрок	
 src/states/scoreboard.lua:128		lemme try		
 src/states/scoreboard.lua:197		Your Luck	У тебя удача	
-src/states/scoreboard.lua:202		luckier than ${percent}%	удачливее, чем ${процентов}%	
+src/states/scoreboard.lua:202		luckier than ${percent}%	удачливее, чем ${percent}%	
 src/states/scoreboard.lua:210		need more rolls		
 src/states/scoreboard.lua:218		rolls	рулеты	
 src/states/scoreboard.lua:222		busts	бюсты	
@@ -1389,16 +1389,16 @@ src/states/scoreboard.lua:249		runs played	сыгранные раны
 src/states/scoreboard.lua:253		runs won	выиграно очков	
 src/states/scoreboard.lua:257		achievements	достижения	
 src/states/tax_audit.lua:43		--  TAX AUDIT  --	-- НАЛОГОВЫЙ АУДИТ --	
-src/states/tax_audit.lua:79		You haven't paid your debt.\nPay ${debt} § or bribe your way out.	Вы не оплатили свой долг.\nОплатите ${долг} § или откупитесь взяткой.	
+src/states/tax_audit.lua:79		You haven't paid your debt.\nPay ${debt} § or bribe your way out.	Вы не оплатили свой долг.\nОплатите ${debt} § или откупитесь взяткой.	
 src/states/tax_audit.lua:102		Pay ${debt} §	Погасите долг §	
 src/states/tax_audit.lua:132 (+1 others)		50% success	50% успеха	
-src/states/tax_audit.lua:133 (+1 others)		Bribe ${cost}¥	Взятка ${стоимость}¥	
+src/states/tax_audit.lua:133 (+1 others)		Bribe ${cost}¥	Взятка ${cost}¥	
 src/states/tax_audit.lua:142 (+1 others)		Give up a die	Отдать игральную кость	
 src/states/tax_audit.lua:193		You haven't paid your debt.\nWe will take your dice now.	Вы не оплатили свой долг.\nСейчас мы заберем ваши игральные кости.	
-src/states/tax_audit.lua:285		You've entered upper tax bracket.\nPay up ${amount} § of your fish.	Вы попали в верхнюю налоговую категорию.\nОплатите ${сумма} § вашей рыбы.	
+src/states/tax_audit.lua:285		You've entered upper tax bracket.\nPay up ${amount} § of your fish.	Вы попали в верхнюю налоговую категорию.\nОплатите ${amount} § вашей рыбы.	
 src/states/tax_audit.lua:307 (+1 others)		Pay Up	Платите	
 src/states/tax_audit.lua:330 (+1 others)		Take on 2 Debt Dues	Принять на себя 2 долговых обязательства	
-src/states/tax_audit.lua:350		You've been audited.\nYou haven't paid taxes.\nWe will be taking ${amount} § of your fish.	Ваша компания прошла проверку.\nВы не уплатили налоги.\nМы заберем ${сумма} § вашей рыбы.	
+src/states/tax_audit.lua:350		You've been audited.\nYou haven't paid taxes.\nWe will be taking ${amount} § of your fish.	Ваша компания прошла проверку.\nВы не уплатили налоги.\nМы заберем ${amount} § вашей рыбы.	
 src/states/title.lua:79		roll 6 to play\nroll 1 to quit	Чтобы начать игру, бросьте кубик и получите 6. Чтобы выйти из игры, бросьте кубик и получите 1.	
 src/states/title.lua:159 (+1 others)	dialogue	so you chose to come back	Поэтому вы решили вернуться.	
 src/states/title.lua:161 (+1 others)	dialogue	you will see, very soon	Вы скоро всё увидите	
