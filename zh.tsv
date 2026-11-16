@@ -1,7 +1,7 @@
 location	extra context	en	zh
 gather_strings.lua:1		No	否
 gather_strings.lua:1		momentum	惯性
-gather_strings.lua:1		greed	贪婪
+gather_strings.lua:1		greed	贪欲
 gather_strings.lua:1		CD	CD
 gather_strings.lua:1		xnx	xnx
 src/are_you_sure.lua:14 (+3 others)		Are you sure?	你确定？
