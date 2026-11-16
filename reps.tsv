@@ -60,7 +60,7 @@ bust		src/states/gameover.lua	592	gameover
 bust		src/states/intro.lua	47	intro
 bust		src/states/intro_greed.lua	47	intro_greed
 bust		src/states/title.lua	141	title
-bust		src/entities/buttons_clump.lua	309	buttons_clump
+bust		src/entities/buttons_clump.lua	332	buttons_clump
 bust		src/entities/dice.lua	822	dice
 bust		src/entities/dice_ending.lua	11	dice_ending
 bust		src/entities/dice_ending.lua	207	dice_ending
@@ -223,7 +223,7 @@ skip		src/states/game.lua	2834	game
 skip		src/states/game.lua	3336	game
 skip		src/states/game.lua	3341	game
 skip		src/states/game.lua	3347	game
-skip		src/entities/buttons_clump.lua	305	buttons_clump
+skip		src/entities/buttons_clump.lua	328	buttons_clump
 skip		src/entities/dice_pick.lua	29	dice_pick
 skip		src/entities/shop.lua	652	shop
 mirror		src/coloured_text.lua	80	coloured_text
@@ -271,7 +271,7 @@ stuck		src/items.lua	3404	items
 stuck		src/items.lua	3494	items
 stuck		src/powers.lua	25	powers
 stuck		src/states/game.lua	2527	game
-stuck		src/entities/buttons_clump.lua	283	buttons_clump
+stuck		src/entities/buttons_clump.lua	306	buttons_clump
 stuck		src/entities/dice.lua	743	dice
 stuck		src/entities/dice.lua	1237	dice
 stuck		src/entities/dice_ending.lua	500	dice_ending
@@ -341,7 +341,7 @@ play		src/states/ending.lua	302	ending
 play		src/states/ending.lua	346	ending
 play		src/states/game.lua	2708	game
 play		src/states/game_setup.lua	161	game_setup
-play		src/entities/buttons_clump.lua	49	buttons_clump
+play		src/entities/buttons_clump.lua	69	buttons_clump
 --  Run Summary  --		src/states/ending_bet.lua	59	ending_bet
 --  Run Summary  --		src/states/gameover.lua	293	gameover
 Level reached:		src/states/ending_bet.lua	73	ending_bet

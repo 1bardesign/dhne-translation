@@ -299,20 +299,20 @@ src/endings/wizard.lua:142	dialogue	one day you will not get out
 src/endings/wizard.lua:143	dialogue	you are nothing	
 src/endings/wizard.lua:144	dialogue	your spells suck	
 src/endings/wizard.lua:145	dialogue	your hat stinks	
-src/entities/buttons_clump.lua:107 (+1 others)		Score	
-src/entities/buttons_clump.lua:108		Scoring adds points and clears all dice in the combo	
-src/entities/buttons_clump.lua:110		Select All	
-src/entities/buttons_clump.lua:111		Select your dice to score them or roll them	
-src/entities/buttons_clump.lua:113		Deselect	
-src/entities/buttons_clump.lua:114		Deselect everything to make a new selection	
-src/entities/buttons_clump.lua:231 (+1 others)		Roll	
-src/entities/buttons_clump.lua:234		Roll just the selected dice	
-src/entities/buttons_clump.lua:236		Roll Blank	
-src/entities/buttons_clump.lua:237		Roll all blank dice	
-src/entities/buttons_clump.lua:239		Roll All	
-src/entities/buttons_clump.lua:240		Re-roll all your dice	
-src/entities/buttons_clump.lua:330		any bust:\ninstant wipe:	
-src/entities/buttons_clump.lua:387 (+2 others)		no combo	
+src/entities/buttons_clump.lua:127 (+1 others)		Score	
+src/entities/buttons_clump.lua:128		Scoring adds points and clears all dice in the combo	
+src/entities/buttons_clump.lua:130		Select All	
+src/entities/buttons_clump.lua:131		Select your dice to score them or roll them	
+src/entities/buttons_clump.lua:133		Deselect	
+src/entities/buttons_clump.lua:134		Deselect everything to make a new selection	
+src/entities/buttons_clump.lua:254 (+1 others)		Roll	
+src/entities/buttons_clump.lua:257		Roll just the selected dice	
+src/entities/buttons_clump.lua:259		Roll Blank	
+src/entities/buttons_clump.lua:260		Roll all blank dice	
+src/entities/buttons_clump.lua:262		Roll All	
+src/entities/buttons_clump.lua:263		Re-roll all your dice	
+src/entities/buttons_clump.lua:353		any bust:\ninstant wipe:	
+src/entities/buttons_clump.lua:410 (+2 others)		no combo	
 src/entities/cycle_baby.lua:7		Cycle Baby	
 src/entities/cycle_baby.lua:13		Cycle!	
 src/entities/dice.lua:212		Bust	
@@ -547,7 +547,7 @@ src/items.lua:585		Heal
 src/items.lua:588		All dice +1 ♥	
 src/items.lua:602		Healed!	
 src/items.lua:607		Clutch	
-src/items.lua:610		Hold your next hand	
+src/items.lua:610		Hold your next score	
 src/items.lua:619 (+2 others)		Hold!	
 src/items.lua:625		Snack Bag	
 src/items.lua:628		Spawn 2-3 random snack items	
@@ -561,7 +561,7 @@ src/items.lua:699		Citrus!
 src/items.lua:704		Butcher's Bag	
 src/items.lua:707		Spawn 3 pig snacks	
 src/items.lua:720		Rare find!	
-src/items.lua:727		Meet!	
+src/items.lua:727		Meat!	
 src/items.lua:733		Dumpling Bag	
 src/items.lua:736		Spawn 3 random dumplings	
 src/items.lua:750		3 dumplings!	
@@ -696,15 +696,15 @@ src/items.lua:1993		Zero Bust Turbo
 src/items.lua:1996		Banking with no Busts starts next turn with 10 Momentum	
 src/items.lua:2011		10 momentum!	
 src/items.lua:2018		Mushieltador	
-src/items.lua:2021		Gain a Bust Shield when banking if last hand was any Straight	
+src/items.lua:2021		Gain a Bust Shield when banking if your last combo was any Straight	
 src/items.lua:2047		Survival Instinct	
 src/items.lua:2050		x2 Mult on 1 turn left	
 src/items.lua:2081		Mandarin Peel	
-src/items.lua:2084		+5 Mult for your first scored hand each turn	
+src/items.lua:2084		+5 Mult for your first scored combo each turn	
 src/items.lua:2105		Octopus Ting	
-src/items.lua:2108		x3 Mult for your first scored hand each level	
+src/items.lua:2108		x3 Mult for your first scored combo each level	
 src/items.lua:2133		Four Legged Star	
-src/items.lua:2136		+300 Points for a hand containing Four Of A Kind	
+src/items.lua:2136		+300 Points for a combo containing Four Of A Kind	
 src/items.lua:2154		Minnesota Fats	
 src/items.lua:2157		+200 Points for any Straight	
 src/items.lua:2170		Bimber	
@@ -712,7 +712,7 @@ src/items.lua:2173		+200 Points for a Full House
 src/items.lua:2187		Kind Berry Three	
 src/items.lua:2190		+200 Points for Three Of A Kind	
 src/items.lua:2204		Two Pair Cat	
-src/items.lua:2207		+200 Points for a hand containing Two Pair	
+src/items.lua:2207		+200 Points for a combo containing Two Pair	
 src/items.lua:2221		Just A Pair	
 src/items.lua:2224		+100 Points for a Pair	
 src/items.lua:2242		Fifteen Sum	
@@ -722,7 +722,7 @@ src/items.lua:2268		x2 Mult if the scored dice sum to 10
 src/items.lua:2287		Lil' Choy	
 src/items.lua:2290		x2 Mult when scoring 3 or fewer dice	
 src/items.lua:2308		Toad Hut	
-src/items.lua:2311		x2 Mult for a hand containing Four Of A Kind	
+src/items.lua:2311		x2 Mult for a combo containing Four Of A Kind	
 src/items.lua:2332		Pink Top	
 src/items.lua:2335		x2 Mult for any Straight	
 src/items.lua:2350		Absinthe	
@@ -730,11 +730,11 @@ src/items.lua:2353		x2 Mult for a Full House
 src/items.lua:2368		Three Legged Pirate	
 src/items.lua:2371		x2 Mult for Three Of A Kind	
 src/items.lua:2387		Two Pair Fat Cat	
-src/items.lua:2390		x1.5 Mult for a hand containing Two Pair	
+src/items.lua:2390		x1.5 Mult for a combo containing Two Pair	
 src/items.lua:2406		Pair Mult Dog	
 src/items.lua:2409		x1.5 Mult for Pair, Two Pair and Three Pair	
 src/items.lua:2426		Poppy	
-src/items.lua:2429		x2 Mult for a hand containing three 6s	
+src/items.lua:2429		x2 Mult for a combo containing three 6s	
 src/items.lua:2445		Sunnies	
 src/items.lua:2448		+0.5x Mult for each scored 2	
 src/items.lua:2466		Cactus	
@@ -750,9 +750,9 @@ src/items.lua:2547		Sardine
 src/items.lua:2550		+50 Points per scored coin	
 src/items.lua:2561		+${amount} pts	
 src/items.lua:2570		Snake Hold	
-src/items.lua:2573		Snake Eyes hold hand	
+src/items.lua:2573		Snake Eyes hold score	
 src/items.lua:2590		The Mask	
-src/items.lua:2593		Hands with 6s hold hand	
+src/items.lua:2593		Combos with 6s hold score	
 src/items.lua:2611		Black Eye	
 src/items.lua:2614		Spawn a Black Eyed Pea on Bust	
 src/items.lua:2622		Pea!	
@@ -762,7 +762,7 @@ src/items.lua:2645		Masochist Rock
 src/items.lua:2648		x2 Mult on Bust	
 src/items.lua:2657		x2 Mult	
 src/items.lua:2663		Palosanto	
-src/items.lua:2666		If hand Mult is over 10: +5 Mult	
+src/items.lua:2666		If Mult is over 10: +5 Mult	
 src/items.lua:2679		Chestnut	
 src/items.lua:2682		+50 Points when any item triggers	
 src/items.lua:2695		Dolphin	
@@ -783,7 +783,7 @@ src/items.lua:2832		+4 Mult for Two Pair
 src/items.lua:2845		Pair Cat	
 src/items.lua:2848		+2 Mult for Pair, Two Pair and Three Pair	
 src/items.lua:2865		Threes Gobber	
-src/items.lua:2868		+100 Points for a hand containing Three Of A Kind	
+src/items.lua:2868		+100 Points for a combo containing Three Of A Kind	
 src/items.lua:2901		Gay Moth	
 src/items.lua:2904		+60 Points for rerolling a 6	
 src/items.lua:2923		Mini Goob	
@@ -843,7 +843,7 @@ src/items.lua:3507		Each Bonus side scored gives +3 Mult
 src/items.lua:3525		Power Mult	
 src/items.lua:3528		Each Power side scored gives +2 Mult	
 src/items.lua:3565		Rowan	
-src/items.lua:3568		+5 Mult if the hand contains at least three 1s	
+src/items.lua:3568		+5 Mult if the combo contains at least three 1s	
 src/items.lua:3692		House Stamp	
 src/items.lua:3695		Rerolling a Three Of A Kind permanently upgrades Full House. Fades with use.	
 src/items.lua:3710 (+1 others)		Faded	
@@ -872,7 +872,7 @@ src/items.lua:3945		1 in 6 chance to spawn a coin when rerolling a Pig side
 src/items.lua:4000		Paw	
 src/items.lua:4003		Rolling a single die adds +2 Mult	
 src/items.lua:4016		Incel	
-src/items.lua:4019		Rerolling a hand containing a Pair gives +100 Points and +1 Mult	
+src/items.lua:4019		Rerolling a combo containing a Pair gives +100 Points and +1 Mult	
 src/items.lua:4046		Ghost Carriage	
 src/items.lua:4049		Scoring a Full House spawns a ghost die	
 src/items.lua:4063 (+5 others)		Ghost!	
@@ -885,9 +885,9 @@ src/items.lua:4118		Roll exactly 1 die - if it's a 2, +1¥
 src/items.lua:4139		Mult Biscuit	
 src/items.lua:4142		Roll exactly 1 die - if it's a 3 or 4, +1 Mult	
 src/items.lua:4160		Flask Of Ghost	
-src/items.lua:4163		Rerolling a hand that contains a Three Of A Kind creates 2 ghost dice	
+src/items.lua:4163		Rerolling a combo that contains a Three Of A Kind creates 2 ghost dice	
 src/items.lua:4185		Bone	
-src/items.lua:4188		Hands containing a ghost die score +100 Points	
+src/items.lua:4188		Combos containing a ghost die score +100 Points	
 src/items.lua:4206		Razor	
 src/items.lua:4209		1 in 3 chance to spawn a ghost die on Bust	
 src/items.lua:4232		Scared Straight	
@@ -907,7 +907,7 @@ src/items.lua:4376		Reduced!
 src/items.lua:4388		Anis Star	
 src/items.lua:4391		Bust Limit +1	
 src/items.lua:4465		Soft Wipes	
-src/items.lua:4468		Wiping doesn't clear dice or hand	
+src/items.lua:4468		Wiping doesn't clear dice or score	
 src/items.lua:4487		Taro Jelly	
 src/items.lua:4490		Scoring 5s flips them to 6s	
 src/items.lua:4504		Osmanthus Jelly	
@@ -1435,7 +1435,7 @@ src/sync_scoreboards.lua:19		stars held
 src/sync_scoreboards.lua:27		Highest Level	
 src/sync_scoreboards.lua:32		level	
 src/sync_scoreboards.lua:39		Best Level Score	
-src/sync_scoreboards.lua:51		Biggest Hand	
+src/sync_scoreboards.lua:51		Biggest Combo	
 src/sync_scoreboards.lua:63		Greed Intro	
 src/sync_scoreboards.lua:68		stars won	
 src/sync_scoreboards.lua:75		Most Wins	
