@@ -79,7 +79,7 @@ src/characters/god.lua:34	dialogue	begone	precz
 src/characters/god.lua:40		wager your soul	postaw swoją duszę
 src/characters/god.lua:41		Wager your Soul?	Postawić Duszę?
 src/characters/god.lua:42		You are betting your soul.\nIf you lose, your save is gone forever.	Stawiasz swoją duszę.\nJeśli przegrasz, twój zapis zniknie na zawsze.
-src/characters/god.lua:51	dialogue	i hope you are feeling lucky	mam nadzieję, że czujesz szczęście
+src/characters/god.lua:51	dialogue	i hope you are feeling lucky	mam nadzieję, że czujesz farta
 src/characters/god.lua:70		but you have earned nothing	ale niczego nie zarobiłaś
 src/characters/god.lua:72		but you need ${stars} ¤	
 src/characters/god.lua:77		wager a gold ¤	postaw złotą ¤
@@ -143,7 +143,7 @@ src/characters/shirin.lua:40		Mermaid
 src/characters/shirin.lua:64 (+1 others)	dialogue	Oh. You’re mine now.	O. Teraz jesteś moja.
 src/characters/shirin.lua:65	dialogue	I’ll let you go if you reach level 7.	Puszczę cię, jeśli dojdziesz do poziomu 7.
 src/characters/shirin.lua:68	dialogue	I’ll let you go if you reach level 10.	Puszczę cię, jeśli dojdziesz do poziomu 10.
-src/characters/shirin.lua:194	dialogue	Feeling lucky?	Czujesz szczęście?
+src/characters/shirin.lua:194	dialogue	Feeling lucky?	Czujesz farta?
 src/characters/shirin.lua:196	dialogue	I'll let you toss a coin to revive you for $cost ¤	Pozwolę ci rzucić monetą o wskrzeszenie za $cost ¤
 src/characters/shirin.lua:202	dialogue	RIP	RIP
 src/characters/shirin.lua:212	dialogue	Bad luck...	Pech...
@@ -205,7 +205,7 @@ src/characters/tutorial_character.lua:303	dialogue	Pretty good for the first go.
 src/characters/tutorial_character.lua:305	dialogue	I didn't explain it all but you're a smart cookie.	Nie wyjaśniłam wszystkiego, ale z ciebie bystrzacha.
 src/characters/tutorial_character.lua:306	dialogue	You can figure out the rest.	Resztę ogarniesz sama.
 src/characters/tutorial_character.lua:308	dialogue	I'll see you in the real game.	Do zobaczenia w prawdziwej grze.
-src/characters/tutorial_character.lua:309	dialogue	Remember, luck helps. Judgement matters more.	Pamiętaj: szczęście pomaga. Rozsądek znaczy więcej.
+src/characters/tutorial_character.lua:309	dialogue	Remember, luck helps. Judgement matters more.	Pamiętaj: fart pomaga. Rozsądek znaczy więcej.
 src/characters/wizard.lua:2		Wizard	Czarodziej
 src/characters/wizard.lua:43		Soucerer	
 src/characters/wizard.lua:50		Archmogus	
@@ -534,7 +534,7 @@ src/items.lua:465		Gain 0-3¥
 src/items.lua:482 (+1 others)		Nothing!	Nic!
 src/items.lua:488		Scratchie II	Zdrapka II
 src/items.lua:491		1 in 3 chance to win 6¥	
-src/items.lua:507		No luck	Bez szczęścia
+src/items.lua:507		No luck	Bez farta
 src/items.lua:513		Scratchie III	Zdrapka III
 src/items.lua:516		Gain 1-4¥	
 src/items.lua:540		Copycat	Naśladowczyni
@@ -741,7 +741,7 @@ src/items.lua:2466		Cactus	Kaktus
 src/items.lua:2469		+0.5x Mult per scored die	+0.5x Mnożnika za każdą zapunktowaną kostkę
 src/items.lua:2487		Yolk	Żółtko
 src/items.lua:2490		Flipping a single coin +5 Mult	Rzut jedną monetą: +5 Mnożnika
-src/items.lua:2506		Lucky Leaf	Szczęśliwy Listek
+src/items.lua:2506		Lucky Leaf	Fartowny Listek
 src/items.lua:2509		x2 Mult if a coin is scored	x2 Mnożnik, jeśli zapunktujesz monetę
 src/items.lua:2526		Soy Fish	Ryba w Sosie Sojowym
 src/items.lua:2529		+1 Mult per scored coin	+1 Mnożnika za każdą zapunktowaną monetę
@@ -1242,9 +1242,9 @@ src/states/game.lua:1817		gain a gold star	zdobądź złotą gwiazdkę
 src/states/game.lua:1825		Triple 8	Potrójna 8
 src/states/game.lua:1838		BLESSED 	BŁOGOSŁAWIONA 
 src/states/game.lua:1839		-1 bust	-1 bust
-src/states/game.lua:1847		Lucky 8	Szczęśliwa 8
+src/states/game.lua:1847		Lucky 8	Fartowna 8
 src/states/game.lua:1858		Unlucky 13	Pechowa 13
-src/states/game.lua:1869		Lucky 88	Szczęśliwe 88
+src/states/game.lua:1869		Lucky 88	Fartowne 88
 src/states/game.lua:1870		How?	Jak?
 src/states/game.lua:2172 (+1 others)		Level $level/$count $name	Poziom $level/$count $name
 src/states/game.lua:2224		NIGHTMARE LEVEL	POZIOM KOSZMARU
@@ -1305,7 +1305,7 @@ src/states/game_setup.lua:859		Wager stars to add levels,\nnext level 	Postaw gw
 src/states/game_setup.lua:1091		Difficulty	Trudność
 src/states/game_setup.lua:1094		${stars} ¤ reward limit	Limit nagrody: ${stars} ¤
 src/states/gameover.lua:223		Congratulations, you lost.	Gratulacje, przegrałaś.
-src/states/gameover.lua:224		Better luck next time.	Więcej szczęścia następnym razem.
+src/states/gameover.lua:224		Better luck next time.	Więcej farta następnym razem.
 src/states/gameover.lua:225		Maybe next time.	Może następnym razem.
 src/states/gameover.lua:265		Bet ${BET}¤	Zakład ${BET}¤
 src/states/gameover.lua:273		Death Tax ${STARS}¤	Podatek od Śmierci ${STARS}¤
@@ -1316,10 +1316,10 @@ src/states/gameover.lua:369		restart	restart
 src/states/gameover.lua:574		Press Circle To Toss	
 src/states/gameover.lua:574		Press B To Toss	Wciśnij B, by rzucić
 src/states/gameover.lua:574		Right Click To Toss	Kliknij prawym, by rzucić
-src/states/intro.lua:54		This is a game about luck.	To gra o szczęściu.
-src/states/intro.lua:55		This is still a game about luck.	To nadal gra o szczęściu.
+src/states/intro.lua:54		This is a game about luck.	To gra o farcie.
+src/states/intro.lua:55		This is still a game about luck.	To nadal gra o farcie.
 src/states/intro.lua:56		This is a game about rolling ones, apparently.	To gra o wyrzucaniu jedynek, najwyraźniej.
-src/states/intro.lua:57		Yikes. Still no luck huh?	Auć. Dalej bez szczęścia, co?
+src/states/intro.lua:57		Yikes. Still no luck huh?	Auć. Dalej bez farta, co?
 src/states/intro.lua:58		This game might not be for you.	Ta gra może nie być dla ciebie.
 src/states/intro.lua:59		It can't be that hard.	To nie może być aż tak trudne.
 src/states/intro.lua:60		At this point, you might consider refunding.	W tym momencie możesz pomyśleć o zwrocie pieniędzy.
@@ -1376,8 +1376,8 @@ src/states/outside.lua:19		this was a game about waking up
 src/states/scoreboard.lua:39		Loading Scores...	Wczytywanie wyników...
 src/states/scoreboard.lua:111		# player	# gracz
 src/states/scoreboard.lua:128		lemme try	
-src/states/scoreboard.lua:197		Your Luck	Twoje Szczęście
-src/states/scoreboard.lua:202		luckier than ${percent}%	więcej szczęścia niż ${percent}%
+src/states/scoreboard.lua:197		Your Luck	Twój Fart
+src/states/scoreboard.lua:202		luckier than ${percent}%	więcej farta niż ${percent}%
 src/states/scoreboard.lua:210		need more rolls	
 src/states/scoreboard.lua:218		rolls	rzuty
 src/states/scoreboard.lua:222		busts	busty
@@ -1443,7 +1443,7 @@ src/sync_scoreboards.lua:80		wins	wygrane
 src/sync_scoreboards.lua:87		Most Fish	Najwięcej Ryb
 src/sync_scoreboards.lua:92		fish in a run	ryb w podejściu
 src/sync_scoreboards.lua:95 (+3 others)		(data did not load)	(nie udało się wczytać danych)
-src/sync_scoreboards.lua:117 (+1 others)		luck	szczęściu
+src/sync_scoreboards.lua:117 (+1 others)		luck	farcie
 src/sync_scoreboards.lua:178 (+1 others)	dialogue	you	ty
 src/ui/character_body.lua:299 (+2 others)	ui	LOCKED	ZABLOKOWANE
 src/ui/combination_table.lua:34 (+1 others)	ui	flush	kolor
