@@ -83,9 +83,9 @@ src/characters/god.lua:51	dialogue	i hope you are feeling lucky	希望你今天�
 src/characters/god.lua:70		but you have earned nothing	你什么也没赚到
 src/characters/god.lua:72		but you need ${stars} ¤	但你需要${stars} ¤
 src/characters/god.lua:77		wager a gold ¤	赌上金 ¤
-src/characters/god.lua:79		wager ${stars} ¤	赌上金¤
+src/characters/god.lua:79		wager ${stars} ¤	赌上${stars} ¤
 src/characters/god.lua:81		wager all ${stars} ¤ and ${gold} gold ¤	赌上所有${stars} ¤ 和${gold} 金 ¤
-src/characters/god.lua:83		wager all ${stars} ¤	赌上${stars} ¤
+src/characters/god.lua:83		wager all ${stars} ¤	赌上所有${stars} ¤
 src/characters/god.lua:85		wager all ${gold} gold ¤	赌上所有${gold} 金 ¤
 src/characters/god.lua:87		wager everything	赌上一切
 src/characters/god.lua:97	dialogue	you always were my bravest child	你一直是吾最勇敢的孩子
@@ -999,7 +999,7 @@ src/items.lua:5683		Rerolls all dice and coins.\n5% chance to activate on dice r
 src/items.lua:5704		Rerolled!	重新投掷！
 src/items.lua:5710		Rerolls a single random coin.\n5% chance to activate on dice rolls.	重新抛出任意单枚硬币。\n每次投出骰子有5%几率触发。
 src/items.lua:5732		Coin rerolled!	抛出硬币！
-src/items.lua:5738		All dice roll 1s.\n5% chance to activate on dice rolls.	所有骰子投出1.
+src/items.lua:5738		All dice roll 1s.\n5% chance to activate on dice rolls.	所有骰子投出1。\n每次投出骰子有5%几率触发。
 src/items.lua:5765		Deal 4 damage spread randomly across dice.\n5% chance to activate on dice rolls.	使所有骰子平分4点伤害。\n每次投出骰子有5%几率触发。
 src/items.lua:5782 (+1 others)		No dice!	没有骰子！
 src/items.lua:5791		Cursed!	诅咒！
@@ -1009,7 +1009,7 @@ src/items.lua:5828		Deal 2 damage to the selected die.\n5% chance to activate on
 src/items.lua:5850 (+4 others)		Select 1 die	选择一颗骰子
 src/items.lua:5860		Add 1 Bust side to the selected die.\n5% chance to activate on dice rolls.	为选中的骰子增加1个Bust面。\n每次投出骰子有5%几率触发。
 src/items.lua:5893 (+2 others)		No free side	没有空余面
-src/items.lua:5904		Destroy the selected die.\n5% chance to activate on dice rolls.	毁灭所选中的骰子。
+src/items.lua:5904		Destroy the selected die.\n5% chance to activate on dice rolls.	毁灭所选中的骰子。\n每次投出骰子有5%几率触发。
 src/items.lua:5936		Add 1 Cracked side to the selected die.\n5% chance to activate on dice rolls.	为选中的骰子增加1个开裂面。\n每次投出骰子有5%几率触发。
 src/items.lua:5980		Add 1 Doom side to the selected die.\n5% chance to activate on dice rolls.	为选中的骰子增加1个厄运面。\n每次投出骰子有5%几率触发。
 src/items.lua:6024		+1 Bust.\n5% chance to activate on dice rolls.	+1 Bust.\n每次投出骰子有5%几率触发。
@@ -1389,12 +1389,12 @@ src/states/scoreboard.lua:249		runs played	游玩次数
 src/states/scoreboard.lua:253		runs won	通关次数
 src/states/scoreboard.lua:257		achievements	成就
 src/states/tax_audit.lua:43		--  TAX AUDIT  --	— 查水表了 —
-src/states/tax_audit.lua:79		You haven't paid your debt.\nPay ${debt} § or bribe your way out.	你有段时间没还债了。要么还${debt} § ，要么给点封口费。
+src/states/tax_audit.lua:79		You haven't paid your debt.\nPay ${debt} § or bribe your way out.	你有段时间没还债了。\n要么还${debt} § ，要么给点封口费。
 src/states/tax_audit.lua:102		Pay ${debt} §	还钱 ${debt} §
 src/states/tax_audit.lua:132 (+1 others)		50% success	成功率%50
 src/states/tax_audit.lua:133 (+1 others)		Bribe ${cost}¥	贿赂 ${cost}¥
 src/states/tax_audit.lua:142 (+1 others)		Give up a die	上缴一颗骰子
-src/states/tax_audit.lua:193		You haven't paid your debt.\nWe will take your dice now.	你欠下了债。这颗骰子归我们了。
+src/states/tax_audit.lua:193		You haven't paid your debt.\nWe will take your dice now.	你欠下了债。\n这颗骰子归我们了。
 src/states/tax_audit.lua:285		You've entered upper tax bracket.\nPay up ${amount} § of your fish.	你已经进入了上层税级。\n请上缴${amount} § 。
 src/states/tax_audit.lua:307 (+1 others)		Pay Up	上缴
 src/states/tax_audit.lua:330 (+1 others)		Take on 2 Debt Dues	负担起2个应缴债务
