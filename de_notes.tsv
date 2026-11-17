@@ -500,7 +500,7 @@ src/items.lua:119 (+1 others)		No coins!	Keine Münzen!
 src/items.lua:125		Ghost Jar	Flaschengeist	maybe not accurate enough?
 src/items.lua:128		Spawn 3 ghost dice	Erzeuge 3 Geisterwürfel	
 src/items.lua:146		Bust Shield	Bust-Schild	
-src/items.lua:149		Bust Shield On	Bust-Schild Aktiv	
+src/items.lua:149		Bust Shield On	Erzeugt ein Bust-Schild	
 src/items.lua:159 (+5 others)		Shield!	Schild!	
 src/items.lua:165		Uplift	Aufschwung	
 src/items.lua:168		Nudge all dice +1 pip (no loop)	Kippt alle Würfel +1 Auge\n(ohne Schleife)	
@@ -892,10 +892,10 @@ src/items.lua:4206		Razor	Rasierer	Rasierklinge?
 src/items.lua:4209		1 in 3 chance to spawn a ghost die on Bust	1 in 3 Chance einen Geisterwürfel zu erstellen wenn ein Bust geworfen wird	
 src/items.lua:4232		Scared Straight	Geisterstraße	
 src/items.lua:4235		Scoring a Straight spawns a ghost die	Erzeugt einen Geisterwürfel wenn eine Straße gewertet wird	
-src/items.lua:4258		Cell	Zelle	prison? body?
+src/items.lua:4258		Cell	Zelle	
 src/items.lua:4261		Start each turn with a Bust Shield	Beginne jeden Zug mit einem Bust-Schild	
 src/items.lua:4272		shield!	schild!	
-src/items.lua:4281		Jade Bracelet	Jade-Reif	bracelet as in armreif?
+src/items.lua:4281		Jade Bracelet	Jade-Reif	
 src/items.lua:4284		3 in 4 chance to block an instant wipe.\n${dynamic} uses left.	3 in 4 Chance, einen Instant Wipe zu blockieren.\n${dynamic} übrig.	"was ist übrig? ""Uses""?"
 src/items.lua:4307		Shattered!	Zerbrochen!	
 src/items.lua:4322		Four Cell	Viererzelle	what is this? visual

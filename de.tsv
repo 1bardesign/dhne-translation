@@ -500,7 +500,7 @@ src/items.lua:119 (+1 others)		No coins!	Keine Münzen!
 src/items.lua:125		Ghost Jar	Flaschengeist
 src/items.lua:128		Spawn 3 ghost dice	Erzeuge 3 Geisterwürfel
 src/items.lua:146		Bust Shield	Bust-Schild
-src/items.lua:149		Bust Shield On	Bust-Schild Aktiv
+src/items.lua:149		Bust Shield On	Erzeugt ein Bust-Schild
 src/items.lua:159 (+5 others)		Shield!	Schild!
 src/items.lua:165		Uplift	Aufschwung
 src/items.lua:168		Nudge all dice +1 pip (no loop)	Kippt alle Würfel +1 Auge\n(ohne Schleife)
