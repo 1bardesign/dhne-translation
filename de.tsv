@@ -279,7 +279,7 @@ src/endings/king_fetus.lua:147	dialogue	don't go again	geh nicht wieder
 src/endings/king_fetus.lua:148	dialogue	you're so young	du bist so jung
 src/endings/king_fetus.lua:149	dialogue	don't face the world	stelle dich nicht der welt
 src/endings/king_fetus.lua:150	dialogue	stay here	bleib hier
-src/endings/liz.lua:33		hit that mochi?	
+src/endings/liz.lua:33		hit that mochi?	zieh den mochi?
 src/endings/liz.lua:175	dialogue	how did you do?	wie hast du abgeschnitten?
 src/endings/liz.lua:176	dialogue	in the test, i mean	im test, meine ich
 src/endings/liz.lua:177	dialogue	we all pass\nin one way or another	wir alle schaffen es\nauf eine bestimmte art und weise
@@ -938,24 +938,24 @@ src/items.lua:4935		Points -150	Punkte -150
 src/items.lua:4936		-150 Points	-150 Punkte
 src/items.lua:4949		Points -250	Punkte -250
 src/items.lua:4950		-250 Points	-250 Punkte
-src/items.lua:4963		Mult -1	
-src/items.lua:4964		-1 Mult	
+src/items.lua:4963		Mult -1	Multi -1
+src/items.lua:4964		-1 Mult	-1 Multi
 src/items.lua:4977		Mult -2	Multi -2
 src/items.lua:4978		-2 Mult	-2 Multi
-src/items.lua:4991		Mult -4	
-src/items.lua:4992		-4 Mult	
+src/items.lua:4991		Mult -4	Multi -4
+src/items.lua:4992		-4 Mult	-4 Multi
 src/items.lua:5005		Half Points	Halbe Punkte
 src/items.lua:5006		Halves the Points	Halbiert Punkte
 src/items.lua:5021		Half Mult	Halbe Multi
 src/items.lua:5022		Halves the Mult	Halbiert Multi
 src/items.lua:5037 (+1 others)		Bad Momentum	Schlechtes Momentum
-src/items.lua:5038		Start each turn with -2 Momentum	
+src/items.lua:5038		Start each turn with -2 Momentum	Jeder Zug startet mit -2 Momentum
 src/items.lua:5048		-2 Momentum	-2 Momentum
 src/items.lua:5054 (+1 others)		-1 Momentum	-1 Momentum
-src/items.lua:5069		Sore Loser	
-src/items.lua:5070		Bust resets Momentum	
-src/items.lua:5086		Two Left Feet	
-src/items.lua:5087		-100 Points for rerolling exactly 2 dice	
+src/items.lua:5069		Sore Loser	Schlechter Verlierer
+src/items.lua:5070		Bust resets Momentum	Busts setzen Momentum zurück
+src/items.lua:5086		Two Left Feet	Zwei Linke Füße
+src/items.lua:5087		-100 Points for rerolling exactly 2 dice	-100 Punkte wenn genau 2 Würfel neu geworfen werden
 src/items.lua:5103		6s and 4s to 1s	6er und 4er zu 1er
 src/items.lua:5104		6s and 4s always reroll into 1s	6er und 4er landen bei Neuwurf immer auf 1
 src/items.lua:5134		6s to 1s	6er zu 1er
@@ -968,7 +968,7 @@ src/items.lua:5210 (+1 others)		Cursed Score	Verfluchte Punkte
 src/items.lua:5216 (+1 others)		Feels bad for you	Fühlt sich schlecht an
 src/items.lua:5217		Each time you score, 1 random die takes damage	Bei jeder Wertung nimmt 1 zufälliger Würfel Schaden
 src/items.lua:5234 (+1 others)		cursed!	verflucht!
-src/items.lua:5246		Each time you bank, 5 random dice take damage	
+src/items.lua:5246		Each time you bank, 5 random dice take damage	Bei jeder Bank-Nutzung nehmen 5 zufällige Würfel Schaden
 src/items.lua:5273		Small Minded	Kleinkariert
 src/items.lua:5274		Combos above 4 dice give no score	Combos mit mehr als 4 Würfeln werten keine Punkte
 src/items.lua:5312		Bad Threes	Schlechte Dreier
@@ -1073,12 +1073,12 @@ src/items.lua:6595		Nudge all dice individually between +0 and +2 pips.	Kippe je
 src/keybinds.lua:3 (+2 others)		Roll	Würfeln
 src/keybinds.lua:4 (+2 others)		Score	Werten
 src/keybinds.lua:5 (+1 others)		BANK	BANK
-src/keybinds.lua:6		Use Power	
-src/keybinds.lua:7		Arrange Dice	
-src/keybinds.lua:8		Left Click	
-src/keybinds.lua:9		Right Click	
+src/keybinds.lua:6		Use Power	Power benutzen
+src/keybinds.lua:7		Arrange Dice	Würfel Anordnen
+src/keybinds.lua:8		Left Click	Linksklick
+src/keybinds.lua:9		Right Click	Rechtsklick
 src/keybinds.lua:10 (+1 others)		Trade!	Handeln!
-src/keybinds.lua:11		Leave Shop	
+src/keybinds.lua:11		Leave Shop	Shop Verlassen
 src/powers.lua:7		Stuck Debust	Klebrig-Debust
 src/powers.lua:8		Add Stuck to the selected die's current face. -1 Bust.	-1 Bust. Die gezeigte Seite des gewälten Würfels wird Klebrig.
 src/powers.lua:30		Hard Reset	Hard-Reset
@@ -1111,7 +1111,7 @@ src/powers.lua:372		Gain an extra blue Bust for this turn.	Erzeugt einen extra b
 src/powers.lua:387		Fishy Deal	Fauler Deal
 src/powers.lua:388		-1 Bust, +1 ¥. Bump difficulty.	-1 Bust, +1¥. Erhöht die Schwierigkeit.
 src/powers.lua:407		Level Skip	Level Überspringen
-src/powers.lua:408		Skip a level. Spawns 2 random dice.	
+src/powers.lua:408		Skip a level. Spawns 2 random dice.	Übersprint ein Level. Erzeugt 2 zufällige Würfel.
 src/powers.lua:470		Fishy Loan	Fauler Kredit
 src/powers.lua:471		+100 Points, +1 ¥. Take on debt.	+100 Punkte, +1¥. Nimm Schulden auf.
 src/powers.lua:507		Nibble	Knabbern
@@ -1149,9 +1149,9 @@ src/special_conditions.lua:361		How?	Wie?
 src/states/catalogue.lua:50 (+7 others)		< back	< zurück
 src/states/catalogue.lua:86 (+4 others)		dawn mode	dämmerung
 src/states/catalogue.lua:86 (+4 others)		night mode	mitternacht
-src/states/controls.lua:53		Keybinds	
-src/states/controls.lua:131		press a key	
-src/states/controls.lua:142		reset keybinds	
+src/states/controls.lua:53		Keybinds	Tastenbelegung
+src/states/controls.lua:131		press a key	drück eine taste
+src/states/controls.lua:142		reset keybinds	tastenbelegung zurücksetzen
 src/states/credits.lua:43		Created by	Ein Spiel von
 src/states/credits.lua:49		Translation	Übersetzung
 src/states/credits.lua:56		Special Thanks	Besonderer Dank an
@@ -1226,9 +1226,9 @@ src/states/ending_finale.lua:174	dialogue	tails: i will personally destroy all t
 src/states/ending_finale.lua:190	dialogue	do it, all in	tu es, gehe all-in
 src/states/ending_finale.lua:192		flick it like you mean it	wirf um dein leben
 src/states/ending_finale.lua:192		this is real	Das hier ist echt
-src/states/ending_finale.lua:254	dialogue	disappointing	
-src/states/ending_finale.lua:255	dialogue	you will be ready	
-src/states/ending_finale.lua:256	dialogue	one day	
+src/states/ending_finale.lua:254	dialogue	disappointing	enttäuschend
+src/states/ending_finale.lua:255	dialogue	you will be ready	du wirst bereit sein
+src/states/ending_finale.lua:256	dialogue	one day	eines tages
 src/states/ending_finale.lua:300		I can't do it	Ich kann es nicht tun
 src/states/fish_market.lua:87		--  Fish Market  --	-- Fischmarkt --
 src/states/fish_market.lua:193		Sell Fish	Fisch Verkaufen
@@ -1240,9 +1240,9 @@ src/states/game.lua:163 (+1 others)		Cannot Restart Bet Runs	Kein Neustart Für 
 src/states/game.lua:166		Restart	Neustart
 src/states/game.lua:168		Restart the run from scratch\nand lose all gained stars?	Willst du den Run neu starten\nund alle gesammelten Sterne verlieren?
 src/states/game.lua:174 (+3 others)		Options	Optionen
-src/states/game.lua:180		Save Run	
-src/states/game.lua:182		Quit to menu and save run for later?	
-src/states/game.lua:190		Surrender	
+src/states/game.lua:180		Save Run	Run Speichern
+src/states/game.lua:182		Quit to menu and save run for later?	Willst du ins den Run speichern\nund ins Hauptmenü zurückkehren?
+src/states/game.lua:190		Surrender	Aufgeben
 src/states/game.lua:192		Quit to menu and lose all gained stars?	Willst du ins Hauptmenü zurückkehren\nund alle gesammelten Sterne verlieren?
 src/states/game.lua:197		No way out	Kein Ausweg
 src/states/game.lua:490		secure the points\nend the turn\nrecharge character power\nclear momentum	sichert die punkte\nbeendet den zug\nlädt charakter power auf\nsetzt momentum zurück
@@ -1357,7 +1357,7 @@ src/states/intro_greed.lua:81		Roll 1 to lose Stars.	Wirf eine 1, um Sterne zu v
 src/states/intro_greed.lua:110		This is a game about ${reason}.	Dieses Spiel dreht sich um ${reason}.
 src/states/intro_greed.lua:152		bank and start	sichern und spiel starten
 src/states/intro_greed.lua:152		pass and start	passen und spiel starten
-src/states/options.lua:55		keybinds >	
+src/states/options.lua:55		keybinds >	tastenbelegung >
 src/states/options.lua:85		Build ID: ${id}	Build ID: ${id}
 src/states/options.lua:332		audio	audio
 src/states/options.lua:336		master	gesamt
@@ -1374,7 +1374,7 @@ src/states/options.lua:396		bulge	wölbung
 src/states/options.lua:406		accessibility	barrierefreiheit
 src/states/options.lua:408		screenshake	screenshake
 src/states/options.lua:417		tips	tipps
-src/states/options.lua:424		cursor size	
+src/states/options.lua:424		cursor size	cursor größe
 src/states/options.lua:433		fast animation	schn. animation
 src/states/options.lua:440		scroll bgs	hintergrundscroll
 src/states/options.lua:451		danger zone	gefahrenzone
@@ -1420,7 +1420,7 @@ src/states/title.lua:159 (+1 others)	dialogue	so you chose to come back	du bist 
 src/states/title.lua:161 (+1 others)	dialogue	you will see, very soon	du wirst es sehr bald sehen
 src/states/title.lua:215		GAMEPAD WARNING: support is still pretty rough - report bugs on steam or discord <3	WARNUNG FÜR CONTROLLER: noch wenig unterstützt - melde bugs auf steam oder discord <3
 src/states/title.lua:224 (+1 others)		the world you grew up in no longer exists	die welt in der du aufgewachsen bist existiert nicht mehr
-src/states/title.lua:241		get back in here	
+src/states/title.lua:241		get back in here	komm wieder rein
 src/states/title.lua:245		Play	Spielen
 src/states/title.lua:249		feeling lucky?	glück im spiel...
 src/states/title.lua:269 (+1 others)		Tutorial	Tutorial
@@ -1434,7 +1434,7 @@ src/states/title.lua:452		brighten up	licht reinlassen
 src/states/title.lua:453		rest your eyes	die augen schonen
 src/states/title.lua:464		community chat	community chat
 src/states/title.lua:467 (+1 others)		ost	soundtrack
-src/states/title.lua:468		artists' web	
+src/states/title.lua:468		artists' web	artist's web
 src/states/unlock.lua:79		representations are still solidifying - physical form is meaningless - you're imagining it	darstellungen noch schwammig - form ist bedeutungslos - du bildest es dir ein
 src/states/unlock.lua:93		Upgrades	Upgrades
 src/states/unlock.lua:94		buy upgrades with ¤	freischalten mit ¤
@@ -1463,10 +1463,10 @@ src/sync_scoreboards.lua:80		wins	runs
 src/sync_scoreboards.lua:87		Most Fish	Meiste Fische Pro Run
 src/sync_scoreboards.lua:92		fish in a run	fische
 src/sync_scoreboards.lua:95 (+3 others)		(data did not load)	(daten nicht geladen)
-src/sync_scoreboards.lua:100		Biggest Loser	
-src/sync_scoreboards.lua:105		death tax	
-src/sync_scoreboards.lua:113		The End Any%	
-src/sync_scoreboards.lua:118		runs	
+src/sync_scoreboards.lua:100		Biggest Loser	Größter Verlierer
+src/sync_scoreboards.lua:105		death tax	todessteuer
+src/sync_scoreboards.lua:113		The End Any%	Das Ende Any%
+src/sync_scoreboards.lua:118		runs	runs
 src/sync_scoreboards.lua:142 (+1 others)		luck	Glück
 src/sync_scoreboards.lua:203 (+1 others)	dialogue	you	du
 src/ui/character_body.lua:299 (+2 others)	ui	LOCKED	GESPERRT
