@@ -15,7 +15,7 @@ src/boards/easy.lua:3		Chill Vibes.\nShort run, extra bust limit, capped rewards
 src/boards/easy.lua:4		the friendliest pond around	der freundlichste teich\nin der nachbarschaft	
 src/boards/fish_board.lua:2		The Bay	Die Bucht	
 src/boards/fish_board.lua:3		Smells Fishy	Riecht Nach Fisch	
-src/boards/fish_board.lua:4		come for the fish, stay for the fish	komm für die fische, bleib für die fische	
+src/boards/fish_board.lua:4		come for the fish, stay for the fish	komm für die fische,\nbleib für die fische	
 src/boards/normal.lua:2		Lands Adrift	Treibende Länder	
 src/boards/normal.lua:3		Real game begins.	Das Spiel Beginnt.	
 src/boards/normal.lua:4		you'll never want to leave	du wirst nie wieder weg wollen	
@@ -33,7 +33,7 @@ src/character_unlocks.lua:63		god's stronger warrior	gottes stärkerer krieger
 src/character_unlocks.lua:74		woof	wau	
 src/character_unlocks.lua:84 (+1 others)	dialogue	woof?	wau?	
 src/character_unlocks.lua:95		he's so cool	er ist so cool	
-src/character_unlocks.lua:105		slimy	schleimig	
+src/character_unlocks.lua:105		slimy	schleimig	business fish description - something more businessy?
 src/character_unlocks.lua:114		say aaaaaaaa	sag mal aaaaaaah	
 src/character_unlocks.lua:120		Plasticine	Knetmasse	
 src/character_unlocks.lua:121		like putty in your hands\ncharacter customisation option	forme deine fantasie\ncharakteranpassungen	I need to confirm what this does before I lock it
@@ -51,7 +51,7 @@ src/characters/anais.lua:85	dialogue	Rest then	Dann ruhe nun
 src/characters/anais.lua:98	dialogue	Be not afraid	Fürchte dich nicht	
 src/characters/business_fish.lua:2		Business Fish	Geschäftsfisch	
 src/characters/business_fish.lua:33		Promotion	Beförderung	
-src/characters/business_fish.lua:40		Gains	Gewinne	Kapitalgewinne?
+src/characters/business_fish.lua:40		Gains	Kapitalertrag	
 src/characters/business_fish.lua:74 (+1 others)	dialogue	You're playing shallows?	Du spielst Untiefen?	
 src/characters/business_fish.lua:75 (+1 others)	dialogue	This ain't it	Das geht gar nicht	
 src/characters/business_fish.lua:76 (+1 others)	dialogue	Take me into deep waters baby.	Bring mich in tiefe Gewässer, Baby.	
@@ -61,7 +61,7 @@ src/characters/business_fish.lua:106		I'll revive you for $cost ¤ and $amount d
 src/characters/business_fish.lua:113	dialogue	Bad investment	Schlecht investiert	
 src/characters/business_fish.lua:125	dialogue	Pleasure doing business	War mir ein Vergnügen	
 src/characters/cool_fish.lua:2		Cool Fish	Cooler Fisch	
-src/characters/cool_fish.lua:34		Good Ol' Herrington	Der Gute Alte Herington	Herr Von Hering Auf Hering? Is it old man?
+src/characters/cool_fish.lua:34		Good Ol' Herrington	Heringtonjacke	
 src/characters/cool_fish.lua:41		Winter Fit	Winterklamotten	
 src/characters/cool_fish.lua:48		Ciggy	Kippe	
 src/characters/cool_fish.lua:89	dialogue	Oh, this jacket?\nIt was 3000¥	Oh, die Jacke?\nHat 3000¥ gekostet	
@@ -440,19 +440,19 @@ src/item_unlocks.lua:174		Momentum	Momentum
 src/item_unlocks.lua:175		chain combos forever	nach der combo ist vor der combo	
 src/item_unlocks.lua:183		Workaholic	Workaholic	
 src/item_unlocks.lua:184		put your power back to work	lass deine power für dich arbeiten	
-src/item_unlocks.lua:193		Mind Expansion	Bewusstseinserweiterung	
+src/item_unlocks.lua:193		Mind Expansion	Bewusstseins-\nerweiterung	fits with linebreak?
 src/item_unlocks.lua:194		gigabrained complicated nonsense	überkomplizierter schwachsinn	
-src/item_unlocks.lua:203		Actualisation	Selbstverwirklichung	just verwirklichung maybe?
+src/item_unlocks.lua:203		Actualisation	Verwirklichung	
 src/item_unlocks.lua:204		get actualised	macht wirkbar wirklich	
 src/item_unlocks.lua:212		Rich Man	Reicher Mann	
 src/item_unlocks.lua:213		money money money	money money money	
 src/item_unlocks.lua:222		Degenerate	Degeneriert	yo be veeeery careful with this in german lol, what items are in here? DEBUG
-src/item_unlocks.lua:223		as luck would have it	wie es der zufall so will	
+src/item_unlocks.lua:223		as luck would have it	wie es der zufall so will	This is pretty much just gambling items; Different word maybe?
 src/item_unlocks.lua:232		Biscuit	Keks	
 src/item_unlocks.lua:233		worth risking it for	geh mir nicht drauf	
 src/item_unlocks.lua:241		Send It	Hau Raus	
 src/item_unlocks.lua:242		when in doubt go flat out	im zweifel vollgas	
-src/item_unlocks.lua:251 (+1 others)		Ghost	Geist	
+src/item_unlocks.lua:251 (+1 others)		Ghost	Geister	
 src/item_unlocks.lua:252		pretty spooky	ziemlich gruselig	
 src/item_unlocks.lua:261 (+1 others)		Shield	Schild	
 src/item_unlocks.lua:262		bust protection	schützt vor busts	
@@ -476,7 +476,7 @@ src/item_unlocks.lua:355		More Funky Dice	Mehr Würfel
 src/item_unlocks.lua:356		Special Side Effects in shops!\nMult, Debust, Power and Cracked	Spezielle Seiten-Effekte im Shop!\nMulti, Debust, Power und Brüchig	
 src/item_unlocks.lua:365		Even More Dice	Noch Mehr Würfel	
 src/item_unlocks.lua:366		Special Side Effects in shops!\nSkip, Mirror, Hardy and Doom	Spezielle Seiten-Effekte im Shop!\nSkip, Spiegel, Zäh und Unheil	
-src/item_unlocks.lua:377		Fish Trinkets	Fisch-Glücksbringer	
+src/item_unlocks.lua:377		Fish Trinkets	Fische	Glücksbringer is too long - something more fun? contains fish trinkets duh
 src/item_unlocks.lua:378		from the sea	unten im meer	
 src/item_unlocks.lua:386		Sardine Magic	Sardinenmagie	
 src/item_unlocks.lua:387		abracodabra	abrakarpfdabra	
@@ -541,19 +541,19 @@ src/items.lua:540		Copycat	Nachahmer
 src/items.lua:543		Repeat the last spell used	Wiederhole den\nletzten Zauber	
 src/items.lua:553 (+1 others)		Nothing to copy!	Kein Zauber benutzt!	
 src/items.lua:556 (+1 others)		Copy!	Nachgeahmt!	
-src/items.lua:562		Copybigdog	Copybigdog	what's this?
+src/items.lua:562		Copybigdog	Copybigdog	kept name, but why this name
 src/items.lua:566		Repeat the last spell used, twice	Wiederhole den letzten Zauber zwei mal	
 src/items.lua:585		Heal	Heilung	
 src/items.lua:588		All dice +1 ♥	Alle Würfel +1 ♥	
 src/items.lua:602		Healed!	Geheilt!	
-src/items.lua:607		Clutch	Clutch	if its the bag, stay englisch
+src/items.lua:607		Clutch	Klammern	
 src/items.lua:610		Hold your next score	Halte deine nächste Wertung	?
 src/items.lua:619 (+2 others)		Hold!	Behalten!	
 src/items.lua:625		Snack Bag	Fresstüte	
 src/items.lua:628		Spawn 2-3 random snack items	Erzeugt 2-3 zufällige Snacks	
 src/items.lua:648		${amount} foods!	${amount} mal Essen!	kinda lame
 src/items.lua:653		Gambling Bag	Wundertüte	
-src/items.lua:656		Send it	Hau raus	
+src/items.lua:656		Send it	Hau raus	confirm what wundertüte does
 src/items.lua:677		${amount} chances!	${amount} Chancen!	
 src/items.lua:682		Citrus Bag	Zitrus-Tüte	
 src/items.lua:685		Spawn 5 citrus slices	Erzeugt 5 Zitrusscheiben	
@@ -568,7 +568,7 @@ src/items.lua:750		3 dumplings!	3 Dumplings!
 src/items.lua:757		Caffeine Pill	Koffeinpille	
 src/items.lua:758		Make a die impatient	Mache einen Würfel ungeduldig	
 src/items.lua:772		Impatient!	Ungeduldig!	
-src/items.lua:777		Tab	Tab	What type of tab is this?
+src/items.lua:777		Tab	Blotter	What type of tab is this?
 src/items.lua:778		Make a die cycle	Mache einen Würfel zyklisch	
 src/items.lua:792		Cycling!	Zyklisch!	
 src/items.lua:797		Bolero	Bolero	
@@ -604,8 +604,8 @@ src/items.lua:1035		Block 1s for the next roll	Blockiert 1er für den nächsten 
 src/items.lua:1052		Grape	Traube	questions.md - not a blueberry?
 src/items.lua:1053 (+1 others)		Add 1 Bonus side	Fügt 1 Bonus-Seite hinzu	
 src/items.lua:1068 (+1 others)		Bonus Side Added	Bonus-Seite Hinzugefügt	
-src/items.lua:1073		pieróg z kapusto	pieróg z kapusto	
-src/items.lua:1091		Crack Candy	Kracher Süßigkeiten	what is this? visual confirmation
+src/items.lua:1073		pieróg z kapusto	Pieróg z kapusto	
+src/items.lua:1091		Crack Candy	Kandiszucker	
 src/items.lua:1092		Add 2 Power sides	Fügt 2 Power-Seiten hinzu	
 src/items.lua:1110		Power Sides Added	Power-Seiten Hinzugefügt	
 src/items.lua:1115		Lemon	Zitrone	
@@ -665,15 +665,15 @@ src/items.lua:1660 (+1 others)		+1 mult	+1 multi
 src/items.lua:1673		Aging Baby	Alterndes Baby	
 src/items.lua:1676		+${dynamic} Points, loses 10 each time it activates	+${dynamic} Punkte, -10 Punkte bei jeder Aktivierung	
 src/items.lua:1699		Growing Baby	Wachsendes Baby	
-src/items.lua:1702		+${dynamic} Points, gains +1 for each die rolled	+${dynamic} Punkte, bekommt +1 Punkte für jeden geworfenen Würfel	
+src/items.lua:1702		+${dynamic} Points, gains +1 for each die rolled	+${dynamic} Punkte, wächst +1 für jeden geworfenen Würfel	
 src/items.lua:1718		+${amount} pts!	+${amount} pkt!	
 src/items.lua:1729		Bleeding Baby	Blutendes Baby	
 src/items.lua:1732		+${dynamic} Mult, gains +1 Mult each time you bust, resets on wipe	+${dynamic} Multi, bekommt +1 Multi bei jedem Bust. Setzt sich bei Wipe zurück.	
 src/items.lua:1762		Grudge Baby	Groll Baby	
-src/items.lua:1765		+${dynamic} Mult, loses 1 Mult each time you bank	+${dynamic} Multi, -1 Multi jedes mal, wenn die BANK benutzt wird.	
+src/items.lua:1765		+${dynamic} Mult, loses 1 Mult each time you bank	+${dynamic} Multi, -1 Multi jedes mal, wenn die Bank benutzt wird.	
 src/items.lua:1781		-1 mult	-1 multi	
 src/items.lua:1793		Glass Gecko	Glas-Gecko	
-src/items.lua:1794		+10 Mult, destroyed on Bust	+10 Multi, zerspringt bei BUST	
+src/items.lua:1794		+10 Mult, destroyed on Bust	+10 Multi, zerspringt bei Bust	
 src/items.lua:1811		Belly	Bäuchlein	too cute?
 src/items.lua:1814		+${dynamic} Mult, gains +0.1 Mult each time a snack is eaten	+${dynamic} Multi, +0,1 Multi jedes mal, wenn ein Snack gegessen wird	
 src/items.lua:1829		+0.1 mult	+0,1 multi	
@@ -693,15 +693,15 @@ src/items.lua:1951		+40 Points for each unrolled 4	+40 Punkte beim Wurf für jed
 src/items.lua:1969		Hold The Ones	Einser Halten	hold the x, drinking metaphor? but it wants the ones
 src/items.lua:1972		+1 Mult for each unrolled 1	+1 Multi beim Wurf für jeden Würfel, der bereits 1 zeigt	
 src/items.lua:1993		Zero Bust Turbo	Null-Bust-Turbo	Zero Dark Thirty?
-src/items.lua:1996		Banking with no Busts starts next turn with 10 Momentum	Ohne Busts In die Bank einzuzahlen startet den nächsten Zug mit 10 Momentum	
+src/items.lua:1996		Banking with no Busts starts next turn with 10 Momentum	Eine Bank-Einzahlung ohne Busts startet den nächsten Zug mit 10 Momentum	
 src/items.lua:2011		10 momentum!	10 momentum!	
-src/items.lua:2018		Mushieltador	Mushieltador	Is this a matador? confirm visually
+src/items.lua:2018		Mushieltador	Mushieltador	It's a mushroom - shield - tador. Find a good word. No visual special stuff
 src/items.lua:2021		Gain a Bust Shield when banking if your last combo was any Straight	Bekomme ein Bust-Schild bei Bank-Einzahlung, wenn deine letzte Combo irgendeine Straße war	
 src/items.lua:2047		Survival Instinct	Überlebensinstinkt	
 src/items.lua:2050		x2 Mult on 1 turn left	x2 Multi wenn nur noch 1 Zug übrig ist	
 src/items.lua:2081		Mandarin Peel	Mandarinenschale	
 src/items.lua:2084		+5 Mult for your first scored combo each turn	+5 Multi für die erste Combo, die in jedem Zug gewertet wird	
-src/items.lua:2105		Octopus Ting	Oktopus Ting	what is this? misspelled?
+src/items.lua:2105		Octopus Ting	Oktopus-Ding	
 src/items.lua:2108		x3 Mult for your first scored combo each level	x3 Multi für die erste Combo, die in jedem Level gewertet wird	
 src/items.lua:2133		Four Legged Star	Vierbeiniger Stern	
 src/items.lua:2136		+300 Points for a combo containing Four Of A Kind	+300 Points für eine Combo, die einen Viererpasch beinhaltet	
@@ -749,8 +749,8 @@ src/items.lua:2540 (+1 others)		+${amount} mult	+${amount} multi
 src/items.lua:2547		Sardine	Sardine	
 src/items.lua:2550		+50 Points per scored coin	+50 Punkte pro gewerteter Münze	
 src/items.lua:2561		+${amount} pts	+${amount} pkt	
-src/items.lua:2570		Snake Hold	Schlangenhalten	(test effect)
-src/items.lua:2573		Snake Eyes hold score	Schlangenaugen halten die Punktzahl	(test effect) stauen? hold?
+src/items.lua:2570		Snake Hold	Oroboros	
+src/items.lua:2573		Snake Eyes hold score	Schlangenaugen halten die Punktzahl	(test effect) stauen? hold? is snake eyes a common term?
 src/items.lua:2590		The Mask	Die Maske	
 src/items.lua:2593		Combos with 6s hold score	Combos mit 6en halten die Punktzahl	what is this hold?
 src/items.lua:2611		Black Eye	Das Schwarze Auge	
@@ -802,7 +802,7 @@ src/items.lua:3058		Lycheye	Litschauge
 src/items.lua:3059		Two Pair recharges Power	Power lädt auf wenn Zwei Paare gewertet wird	questions.md
 src/items.lua:3078		Bump Jug	Bump Jug	
 src/items.lua:3081		Scoring a Full House recharges Power	Power lädt auf wenn ein Full House gewertet wird	
-src/items.lua:3098		Full Send	Gib Ihm	
+src/items.lua:3098		Full Send	Gib Ihm	description is below - it is a star, maybe find something smart here
 src/items.lua:3101		Rerolling 5 or more dice recharges Power	Power lädt auf wenn 5 oder mehr Würfel neu geworfen werden	
 src/items.lua:3118		God Give Me Strength	Gott Gib Mir Kraft	
 src/items.lua:3121		Rerolling a single die recharges Power	Power lädt auf wenn ein einzelner Würfel neu geworfen wird	
@@ -884,11 +884,11 @@ src/items.lua:4115		Coin Biscuit	Münz-Keks	Goldtaler? Too biscuity?
 src/items.lua:4118		Roll exactly 1 die - if it's a 2, +1¥	+1¥ wenn ein einzelner Würfel geworfen wird und auf 2 landet	
 src/items.lua:4139		Mult Biscuit	Multi-Keks	Are these consumables? Snacks? check them out in game, differnt templating
 src/items.lua:4142		Roll exactly 1 die - if it's a 3 or 4, +1 Mult	+1 Multi wenn ein einzelner Würfel geworfen wird und auf 3 oder 4 landet	
-src/items.lua:4160		Flask Of Ghost	Geisterflasche	Flask? Flaschengeist? Already exists right
+src/items.lua:4160		Flask Of Ghost	Geisterflasche	
 src/items.lua:4163		Rerolling a combo that contains a Three Of A Kind creates 2 ghost dice	Erzeugt zwei Geisterwürfel, wenn eine Combo, die einen Drilling beinhaltet, neu geworfen wird	
 src/items.lua:4185		Bone	Knochen	
 src/items.lua:4188		Combos containing a ghost die score +100 Points	+100 Punkte wenn die Combo einen Geisterwürfel beinhaltet	
-src/items.lua:4206		Razor	Rasierer	Rasierklinge?
+src/items.lua:4206		Razor	Rasierklinge	
 src/items.lua:4209		1 in 3 chance to spawn a ghost die on Bust	1 in 3 Chance einen Geisterwürfel zu erstellen wenn ein Bust geworfen wird	
 src/items.lua:4232		Scared Straight	Geisterstraße	
 src/items.lua:4235		Scoring a Straight spawns a ghost die	Erzeugt einen Geisterwürfel wenn eine Straße gewertet wird	
@@ -909,24 +909,24 @@ src/items.lua:4391		Bust Limit +1	+1 Bust-Limit
 src/items.lua:4465		Soft Wipes	Feuchttücher	LOVE this pun but does it tranlsate lol
 src/items.lua:4468		Wiping doesn't clear dice or score	Würfel und Punktzahl werden bei Wipe nicht zurückgesetzt	
 src/items.lua:4487		Taro Jelly	Taro-Gelee	Jelly?
-src/items.lua:4490		Scoring 5s flips them to 6s	5er drehen sich nach Wertung auf 6	more clear about when exactly this happens?
+src/items.lua:4490		Scoring 5s flips them to 6s	5er-Würfel drehen sich nach Wertung auf 6	more clear about when exactly this happens?
 src/items.lua:4504		Osmanthus Jelly	Osmanthus-Gelee	
-src/items.lua:4507		Scoring 1s flips them to 3s	1er drehen sich nach Wertung auf 3	
-src/items.lua:4523		Sludge Jelly	Schlamm-Gelee	
-src/items.lua:4526		2s always reroll into 3s	2er landen bei einem Neuwurf immer auf 3	
+src/items.lua:4507		Scoring 1s flips them to 3s	1er-Würfel drehen sich nach Wertung auf 3	
+src/items.lua:4523		Sludge Jelly	Schlamm-Gelee	so this is not sludge is it
+src/items.lua:4526		2s always reroll into 3s	2er-Würfel landen bei einem Neuwurf immer auf 3	
 src/items.lua:4551		Bubblegum Jelly	Kaugummi-Gelee	Keep bubblegum wording?
-src/items.lua:4554		3s always reroll into 5s	3er landen bei einem Neuwurf immer auf 5	
+src/items.lua:4554		3s always reroll into 5s	3er-Würfel landen bei einem Neuwurf immer auf 5	
 src/items.lua:4579		Flip Flop	Flip-Flop	
 src/items.lua:4583		Odd numbers roll into even and vice versa.\nDoesn't affect coins.	Ungerade Würfel landen bei einen Neuwurf immer auf einer geraden Seite, und andersherum	
 src/items.lua:4611		Second Chance Jelly	Zweite-Chance-Gelee	
-src/items.lua:4615		1s can't reroll into 1s\nDoesn't affect coins.	1er Würfel landen bei einem Neuwurf nie auf 1	
+src/items.lua:4615		1s can't reroll into 1s\nDoesn't affect coins.	1er-Würfel landen bei einem Neuwurf nie auf 1	
 src/items.lua:4643		Knucklebone	Knöchel	specifically finger?
 src/items.lua:4646		+1 Bust Limit, -1 Turn Limit 	+1 Bust-Limit, -1 Zug-Limit	
 src/items.lua:4669		Turn Plus Bust Minus	Mehr Zug Weniger Bust	what even
 src/items.lua:4672		-1 Bust Limit, +1 Turn Limit 	-1 Bust-Limit, +1 Zug-Limit	
 src/items.lua:4695		Loopongo	Loopongo	visual confirmation ,what is this? Kreisverkehr maybe? would be fun
-src/items.lua:4698		Straights can loop	Straßen laufen im Kreis (5-6-1-2)	This is pretty bad, shouldn't need visual explanation
-src/items.lua:4736		Lotus Loan	Lotus-Kredit	?
+src/items.lua:4698		Straights can loop	Straßen verlaufen im Kreis (5-6-1-2)	This is pretty bad, shouldn't need visual explanation
+src/items.lua:4736		Lotus Loan	Kreditlotus	?
 src/items.lua:4739		Free money?	Kostenloses Geld?	?
 src/items.lua:4805 (+2 others)		Even Bad	Gerade Schlecht	nicer name?
 src/items.lua:4806		-50 Points per scored even die	-50 Punkte pro gewertetem Würfel mit gerader Augenzahl	
@@ -1018,7 +1018,7 @@ src/items.lua:6051		+3 Bust.\n5% chance to activate on dice rolls.	5% Chance, da
 src/items.lua:6067		+3 Bust	+3 Bust	
 src/items.lua:6078		-1 Turn.\n5% chance to activate on dice rolls.	5% Chance, dass du bei Würfelwurf -1 Zug bekommst	
 src/items.lua:6095		-1 Turn	-1 Zug	
-src/items.lua:6108		Fish Bucket	Fischeimer	Angeleimer?
+src/items.lua:6108		Fish Bucket	Angeleimer	
 src/items.lua:6118		No fish power!	Keine Fisch-Power!	
 src/items.lua:6128		+15 Fish!	+15 Fische!	
 src/items.lua:6133		Fish Offering	Fisch-Angebot	
@@ -1131,7 +1131,7 @@ src/states/customisation.lua:360		Distort B	Verzerrung B
 src/states/customisation.lua:441		stretch or squash	strecken oder stauchen	
 src/states/customisation.lua:454		stretch	strecken	
 src/states/customisation.lua:454		squash	stauchen	
-src/states/customisation.lua:461		Dye	Färbung	This is color, not dice, right?
+src/states/customisation.lua:461		Dye	Färbung	
 src/states/customisation.lua:462		recolour	umfärben	
 src/states/ending.lua:244 (+8 others)		hit that shit?	zieh den scheiß?	again context here being what lol
 src/states/ending.lua:302 (+4 others)		play	spielen	spiel? context
@@ -1425,7 +1425,7 @@ src/states/unlock.lua:121		debug: 	debug:
 src/states/unlock.lua:141		playable character	spielbarer charakter	
 src/states/unlock.lua:151		new depths	neue tiefen	
 src/states/unlock.lua:190 (+3 others)		SNACK	SNACK	
-src/states/unlock.lua:469		feed	futter	context?
+src/states/unlock.lua:469		feed	füttern	
 src/states/unlock.lua:538 (+1 others)		ban	verbannen	is this the action?
 src/states/unlock.lua:587		Customise	Anpassen	(Charakter anpassen?9
 src/states/unlock.lua:946		Tape Worm	Bandwurm	
