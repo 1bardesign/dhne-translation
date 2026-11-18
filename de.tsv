@@ -124,7 +124,7 @@ src/characters/king_fetus.lua:85	dialogue	go more?	noch mehr?
 src/characters/king_fetus.lua:87	dialogue	revive for $cost ¤ and 1 max bust	wiederbeleben für $cost ¤ und 1 max bust
 src/characters/king_fetus.lua:106	dialogue	glob gob	glub glub
 src/characters/liz.lua:2 (+1 others)		Liz	Liz
-src/characters/liz.lua:30		Off Duty	Feierabend
+src/characters/liz.lua:30		Off Duty	Rausgegangen
 src/characters/liz.lua:37		Halo	Heiligenschein
 src/characters/liz.lua:77	dialogue	Hey, my love	Hey, mein Schatz
 src/characters/liz.lua:78	dialogue	Remember, ${count} levels and you're out of here!	Denk dran, ${count} Level und du bist hier raus!
@@ -251,7 +251,7 @@ src/endings/alley.lua:104 (+1 others)	dialogue	because i am god	weil ich gott bi
 src/endings/alley.lua:108	dialogue	being late to the dentist is always a bit risky	zu spät zum zahnarzt zu gehen ist immer riskant
 src/endings/alley.lua:109	dialogue	have you been brushing?	putzt du immer brav?
 src/endings/alley.lua:110	dialogue	i don't have to brush my teeth	ich muss meine zähne nicht putzen
-src/endings/anais.lua:124	dialogue	don't leave again	geh nicht nochmal
+src/endings/anais.lua:124	dialogue	don't leave again	verlass mich nicht nochmal
 src/endings/anais.lua:125	dialogue	you're safe here	du bist hier sicher
 src/endings/anais.lua:126	dialogue	with me	mit mir
 src/endings/boardroom.lua:34		hit da bricks	mach nen polnischen
@@ -271,10 +271,10 @@ src/endings/god.lua:158	dialogue	and i am god	und ich bin gott
 src/endings/guy.lua:158	dialogue	have you looked into a mirror recently?	hast du mal in den spiegel geguckt?
 src/endings/guy.lua:159	dialogue	what do you see?	was siehst du?
 src/endings/guy.lua:160	dialogue	i see my bravest child	ich sehe mein mutigstes kind
-src/endings/hotdog.lua:33		eat that shit	
+src/endings/hotdog.lua:33		eat that shit	friss den scheiß
 src/endings/hotdog.lua:57	dialogue	you are a weird one	du bist komisch
 src/endings/hotdog.lua:58	dialogue	i am the opposite	ich bin das gegenteil
-src/endings/king_fetus.lua:52		nope nope nope	nein nein nein
+src/endings/king_fetus.lua:52		nope nope nope	nope nope nope
 src/endings/king_fetus.lua:147	dialogue	don't go again	geh nicht wieder
 src/endings/king_fetus.lua:148	dialogue	you're so young	du bist so jung
 src/endings/king_fetus.lua:149	dialogue	don't face the world	stelle dich nicht der welt
@@ -310,10 +310,10 @@ src/entities/buttons_clump.lua:259		Roll Blank	Blanke Würfeln
 src/entities/buttons_clump.lua:260		Roll all blank dice	Wirf alle blanken Würfel
 src/entities/buttons_clump.lua:262		Roll All	Alle Würfeln
 src/entities/buttons_clump.lua:263		Re-roll all your dice	Wirf alle Würfel nochmal
-src/entities/buttons_clump.lua:353		any bust:\ninstant wipe:	bust:\ninstant wipe:
+src/entities/buttons_clump.lua:353		any bust:\ninstant wipe:	irgendein bust:\ninstant wipe:
 src/entities/buttons_clump.lua:410 (+2 others)		no combo	keine combo
-src/entities/cycle_baby.lua:7		Cycle Baby	Kreislauf Baby
-src/entities/cycle_baby.lua:13		Cycle!	Kreislauf!
+src/entities/cycle_baby.lua:7		Cycle Baby	Zyklus-Baby
+src/entities/cycle_baby.lua:13		Cycle!	Zyklisch!
 src/entities/dice.lua:212		Bust	Bust
 src/entities/dice.lua:221		Bonus\n+100 Points when scored	Bonus\n+100 Punkte bei Wertung
 src/entities/dice.lua:231		Mult\n+2 Mult when scored	Multi\n+2 Multi bei Wertung
@@ -362,7 +362,7 @@ src/entities/power_ui.lua:97	ui	Use	Benutzen
 src/entities/power_ui.lua:130	ui	Power recharges each turn\nSelect a die with Left Click then press this button to use it	Power lädt sich jeden Zug wieder auf\nWähl einen Würfel und drücke diesen Knopf um sie zu benutzen
 src/entities/shop.lua:82		TAB: ${total} ¥	DECKEL: ${total} ¥
 src/entities/shop.lua:115		Dice $count/$limit	Würfel $count/$limit
-src/entities/shop.lua:142		Trinkets $count/$limit	Glücksbringer $count/$limit
+src/entities/shop.lua:142		Trinkets $count/$limit	Glücksbr. $count/$limit
 src/entities/shop.lua:169		Actives $count/$limit	Vorräte $count/$limit
 src/entities/shop.lua:1264		cant sell eternal	ewiges ist nicht verkäuflich
 src/entities/shop.lua:1276		sell cursed	fluch verkaufen
@@ -504,7 +504,7 @@ src/items.lua:181		+1 all	+1 für alle
 src/items.lua:186		Downshift	Abschwung
 src/items.lua:189		Nudge all dice -1 pip (no loop)	Kippt alle Würfel -1 Auge\n(ohne Schleife)
 src/items.lua:203		-1 all	-1 für alle
-src/items.lua:208		Clamp High	Viererdeckel
+src/items.lua:208		Clamp High	Viererdeckeln
 src/items.lua:211		All dice above 4 become 4	Alle Würfel über 4 werden 4
 src/items.lua:229		Clamp 4	4 gedeckelt
 src/items.lua:234		Money Reroll	Geldwurf
@@ -549,7 +549,7 @@ src/items.lua:625		Snack Bag	Fresstüte
 src/items.lua:628		Spawn 2-3 random snack items	Erzeugt 2-3 zufällige Snacks
 src/items.lua:648		${amount} foods!	${amount} mal Essen!
 src/items.lua:653		Gambling Bag	Wundertüte
-src/items.lua:656		Send it	Hau raus
+src/items.lua:656		Send it	Was ist drin?
 src/items.lua:677		${amount} chances!	${amount} Chancen!
 src/items.lua:682		Citrus Bag	Zitrus-Tüte
 src/items.lua:685		Spawn 5 citrus slices	Erzeugt 5 Zitrusscheiben
@@ -746,7 +746,7 @@ src/items.lua:2547		Sardine	Sardine
 src/items.lua:2550		+50 Points per scored coin	+50 Punkte pro gewerteter Münze
 src/items.lua:2561		+${amount} pts	+${amount} pkt
 src/items.lua:2570		Snake Hold	Oroboros
-src/items.lua:2573		Snake Eyes hold score	Schlangenaugen halten die Punktzahl
+src/items.lua:2573		Snake Eyes hold score	Ein 1er-Paar behält
 src/items.lua:2590		The Mask	Die Maske
 src/items.lua:2593		Combos with 6s hold score	Combos mit 6en halten die Punktzahl
 src/items.lua:2611		Black Eye	Das Schwarze Auge
@@ -841,24 +841,24 @@ src/items.lua:3528		Each Power side scored gives +2 Mult	+2 Multi für jede gewe
 src/items.lua:3565		Rowan	Eberesche
 src/items.lua:3568		+5 Mult if the combo contains at least three 1s	+5 Multi für eine Combo, die mindestens drei 1en beinhaltet
 src/items.lua:3692		House Stamp	Haus-Briefmarke
-src/items.lua:3695		Rerolling a Three Of A Kind permanently upgrades Full House. Fades with use.	Einen Dreierpasch neu werfen verbessert Full House für den Run. Verblasst nach Benutzung.
+src/items.lua:3695		Rerolling a Three Of A Kind permanently upgrades Full House. Fades with use.	Einen Dreierpasch neu zu werfen verbessert Full House für den Run. Verblasst nach Benutzung.
 src/items.lua:3710 (+1 others)		Faded	Verblasst
 src/items.lua:3724		Full House Upgraded	Full House Verbessert
 src/items.lua:3732		Stamp	Briefmarke
-src/items.lua:3735		Rerolling a combo upgrades it permanently. Fades with use.	Eine Combo neu werfen verbessert sie für den Run. Verblasst nach Benutzung.
+src/items.lua:3735		Rerolling a combo upgrades it permanently. Fades with use.	Eine Combo neu zu werfen verbessert sie für den Run. Verblasst nach Benutzung.
 src/items.lua:3739		On Roll	Bei Wurf
 src/items.lua:3767		${combo} Upgraded	${combo} Verbessert
 src/items.lua:3780		Gouda	Gouda
 src/items.lua:3783		Rerolling a Three Of A Kind gives 2¥	+2¥ wenn ein Dreierpasch neu geworfen wird
 src/items.lua:3805		Pearl	Perle
-src/items.lua:3808		+1¥ for every two scored 1s	+1¥ für je zwei gewertete 1en
+src/items.lua:3808		+1¥ for every two scored 1s	+1¥ für je zwei gewertete 1er-Würfel
 src/items.lua:3831		Queen's Jug	Königinnenkrug
 src/items.lua:3834		+1¥ for a Full House	+1¥ für ein Full House
 src/items.lua:3851		Star Biscuit	Sternkeks
 src/items.lua:3854		Rolling 2+ dice while at 1 Bust gives 2¥	+2¥ wenn nur 1 Bust übrig ist und 2 oder mehr Würfel geworfen werden
 src/items.lua:3879		Overtime Star	Überstunden-Stern
 src/items.lua:3882		Gain a Bust Shield for scoring Star Bonanza	Bekomme ein Bust-Schild bei Wertung einer Sternenbonanza
-src/items.lua:3895		Already shielded	Schild Schon Aktiv
+src/items.lua:3895		Already shielded	Schild bereits aktiv
 src/items.lua:3902		Trotter	Schweinsfuß
 src/items.lua:3905		Pig Points x2	Schwein-Punkte x2
 src/items.lua:3920		Piglet	Schweinchen
@@ -1046,7 +1046,7 @@ src/items.lua:6317		Piranha	Piranha
 src/items.lua:6318		+5 Mult.\nEats 10 § at the start of each level.\nIf you can't feed it, it eats a die instead.	+5 Multi.\nFrisst 10 § am Anfang jedes Levels.\nHast du nicht genug §, frisst er stattdessen einen Würfel.
 src/items.lua:6339		Ate a die!	Fraß einen Würfel!
 src/items.lua:6341		Hungry!	Hungrig!
-src/items.lua:6351		Barnacle	Seepocken
+src/items.lua:6351		Barnacle	Seepocke
 src/items.lua:6352		+1 § per 10 § held at the start of each level	+1 § pro 10 § am Anfang jedes Levels
 src/items.lua:6375		Ball Gag	Ballknebel
 src/items.lua:6376		Dice pip becomes 1	Würfelauge wird 1
@@ -1165,8 +1165,8 @@ src/states/customisation.lua:203		outfit	outfit
 src/states/customisation.lua:203		accessory	accesoire
 src/states/customisation.lua:225		on	an
 src/states/customisation.lua:225 (+2 others)		off	aus
-src/states/customisation.lua:359		Distort A	Verzerrung A
-src/states/customisation.lua:360		Distort B	Verzerrung B
+src/states/customisation.lua:359		Distort A	Zerrung A
+src/states/customisation.lua:360		Distort B	Zerrung B
 src/states/customisation.lua:441		stretch or squash	strecken oder stauchen
 src/states/customisation.lua:454		stretch	strecken
 src/states/customisation.lua:454		squash	stauchen
@@ -1373,10 +1373,10 @@ src/states/options.lua:378		chromab	chromab
 src/states/options.lua:387		scanlines	scanlines
 src/states/options.lua:396		bulge	wölbung
 src/states/options.lua:406		accessibility	barrierefreiheit
-src/states/options.lua:408		screenshake	screenshake
+src/states/options.lua:408		screenshake	bildschirm-\nwackeln
 src/states/options.lua:417		tips	tipps
 src/states/options.lua:424		cursor size	cursor größe
-src/states/options.lua:433		fast animation	schn. animation
+src/states/options.lua:433		fast animation	schnelle\nanimationen
 src/states/options.lua:440		scroll bgs	hintergrundscroll
 src/states/options.lua:451		danger zone	gefahrenzone
 src/states/options.lua:455		locale	sprache
