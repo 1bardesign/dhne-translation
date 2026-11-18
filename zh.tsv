@@ -772,7 +772,7 @@ src/items.lua:2768		Double Down	落井下石
 src/items.lua:2771		Flipping a single coin x2 Mult	抛出单枚硬币x2乘数
 src/items.lua:2796		Just An Anxious Guy	有些焦虑的路人
 src/items.lua:2799		+4 Mult for Four Of A Kind	四条+4乘数
-src/items.lua:2813		Double Thfree Blibber	三眼巨人
+src/items.lua:2813		Double Three Blibber	三眼巨人
 src/items.lua:2816		+3 Mult for Three Of A Kind	三条+3乘数
 src/items.lua:2829		Two Pair Mult Cat	两对乘数猫
 src/items.lua:2832		+4 Mult for Two Pair	两对+4乘数

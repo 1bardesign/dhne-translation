@@ -772,7 +772,7 @@ src/items.lua:2768		Double Down	Dubbelt upp
 src/items.lua:2771		Flipping a single coin x2 Mult	x2 multi när du singlar ett enda mynt
 src/items.lua:2796		Just An Anxious Guy	Bara en orolig snubbe
 src/items.lua:2799		+4 Mult for Four Of A Kind	+4 multi för fyrtal
-src/items.lua:2813		Double Thfree Blibber	Dubbeltrissblibber
+src/items.lua:2813		Double Three Blibber	Dubbeltrissblibber
 src/items.lua:2816		+3 Mult for Three Of A Kind	+3 multi för triss
 src/items.lua:2829		Two Pair Mult Cat	Tvåparsmultikatt
 src/items.lua:2832		+4 Mult for Two Pair	+4 multi för tvåpar

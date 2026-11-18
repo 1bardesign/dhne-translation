@@ -600,7 +600,7 @@ src/items.lua:1035		Block 1s for the next roll	Zablokuj jedynki w następnym rzu
 src/items.lua:1052		Grape	Winogrono
 src/items.lua:1053 (+1 others)		Add 1 Bonus side	Dodaj 1 ściankę Bonus
 src/items.lua:1068 (+1 others)		Bonus Side Added	Dodano ściankę Bonus
-src/items.lua:1073		Pieróg z Kapusto	pieróg z kapustą
+src/items.lua:1073		Pieróg z Kapusto	Pieróg z Kapustą
 src/items.lua:1091		Crack Candy	Cukierki Crack
 src/items.lua:1092		Add 2 Power sides	Dodaj 2 ścianki Moc
 src/items.lua:1110		Power Sides Added	Dodano ścianki Moc
@@ -772,7 +772,7 @@ src/items.lua:2768		Double Down	Podwójna Stawka
 src/items.lua:2771		Flipping a single coin x2 Mult	Rzut jedną monetą: x2 Mnożnik
 src/items.lua:2796		Just An Anxious Guy	Po Prostu Zestresowany Gość
 src/items.lua:2799		+4 Mult for Four Of A Kind	+4 Mnożnika za Karetę
-src/items.lua:2813		Double Thfree Blibber	Podwójna Trójka Blibber
+src/items.lua:2813		Double Three Blibber	Podwójna Trójka Blibber
 src/items.lua:2816		+3 Mult for Three Of A Kind	+3 Mnożnika za Trójkę
 src/items.lua:2829		Two Pair Mult Cat	Kot Dwie Pary Mnożnik
 src/items.lua:2832		+4 Mult for Two Pair	+4 Mnożnika za Dwie Pary

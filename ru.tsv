@@ -772,7 +772,7 @@ src/items.lua:2768		Double Down	Упорность
 src/items.lua:2771		Flipping a single coin x2 Mult	х2 Множителя при броске одной монетки
 src/items.lua:2796		Just An Anxious Guy	Просто тревожный парень
 src/items.lua:2799		+4 Mult for Four Of A Kind	+4 Множителя за Каре
-src/items.lua:2813		Double Thfree Blibber	Двойной Тройной Блиббер
+src/items.lua:2813		Double Three Blibber	Двойной Тройной Блиббер
 src/items.lua:2816		+3 Mult for Three Of A Kind	+3 Множителя за Тройку
 src/items.lua:2829		Two Pair Mult Cat	Кот Множителя Двух Пар
 src/items.lua:2832		+4 Mult for Two Pair	+4 Множителя за Две Пары
