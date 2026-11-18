@@ -1,53 +1,53 @@
-﻿api_name (required; must match an api_name from the definitions CSV),field (name or description),english,Ru
-REAL_ESTATE,name,Real Estate,
-REAL_ESTATE,description,Unlock every board,
-SQUAD,name,Squad,
-SQUAD,description,Unlock every character,
-GUTTED,name,Gutted,
-GUTTED,description,100% Star Guts,
-WAKE_UP,name,Wake Up,
-WAKE_UP,description,Win your first run,
-POCKET_CHANGE,name,Pocket Change,
-POCKET_CHANGE,description,Win with the 100 bet,
-HIGH_ROLLER,name,High Roller,
-HIGH_ROLLER,description,Win with the 500 bet,
-WHALE,name,Whale,
-WHALE,description,Win with the 1000 bet,
-IS_IT_OVER,name,Is It Over?,
-IS_IT_OVER,description,Beat The End,
-TWINKLE,name,Twinkle,
-TWINKLE,description,Hold 10000 pink stars at once,
-GOLD_STANDARD,name,Gold Standard,
-GOLD_STANDARD,description,Hold 10 gold stars at once,
-HOG,name,Hog,
-HOG,description,Get 100 pink stars in the greed intro,
-SNAKE_EYES_PLUS,name,Snake Eyes Plus,
-SNAKE_EYES_PLUS,description,"Roll exactly 3 dice, all ones",
-YIKES,name,Yikes,
-YIKES,description,"Roll exactly 4 dice, all ones",
-BIG_OOF,name,Big Oof,
-BIG_OOF,description,"Roll exactly 5 dice, all ones",
-BONANZA_IN_ONE,name,Bonanza In One,
-BONANZA_IN_ONE,description,Star Bonanza on a 5-dice roll,
-PURE_SKILL,name,Pure Skill,
-PURE_SKILL,description,Long Straight on a 6-dice roll,
-OH_YEAH,name,Oh Yeah,
-OH_YEAH,description,Reach 50000 points in one level,
-TOO_EASY,name,Too Easy,
-TOO_EASY,description,Score 10000 points with one hand,
-SELF_ESTEEM,name,Self Esteem,
-SELF_ESTEEM,description,Hold middle click to flip yourself off,
-CANIBALISM,name,Cannibalism?,
-CANIBALISM,description,Feed a die baby to a die,
-FEESH,name,Feesh!,
-FEESH,description,Catch the gold fish,
-NO_CHEATING,name,No Cheating,
-NO_CHEATING,description,Get smitten by god,
-BRAVEST_CHILD,name,Bravest Child,
-BRAVEST_CHILD,description,Win double or nothing 5 times in a row,
-SOULLESS,name,Soulless,
-SOULLESS,description,Bet your soul and lose,
-CHOSEN_ONE,name,Chosen One,
-CHOSEN_ONE,description,Satisfy God,
-FISHY,name,Fishy Business,
-FISHY,description,Hold 500 fish at once,
+api_name (required; must match an api_name from the definitions CSV),field (name or description),english,ru,zh
+REAL_ESTATE,name,Real Estate,,房地产
+REAL_ESTATE,description,Unlock every board,,解锁所有场景
+SQUAD,name,Squad,,全明星
+SQUAD,description,Unlock every character,,解锁所有角色
+GUTTED,name,Gutted,,五脏俱全
+GUTTED,description,100% Star Guts,,100%星空内脏
+WAKE_UP,name,Wake Up,,醒来
+WAKE_UP,description,Win your first run,,赢下第一把游戏
+POCKET_CHANGE,name,Pocket Change,,零花钱
+POCKET_CHANGE,description,Win with the 100 bet,,赢下100赌注
+HIGH_ROLLER,name,High Roller,,大手笔
+HIGH_ROLLER,description,Win with the 500 bet,,赢下500赌注
+WHALE,name,Whale,,一掷千金
+WHALE,description,Win with the 1000 bet,,赢下1000赌注
+IS_IT_OVER,name,Is It Over?,,结束了？
+IS_IT_OVER,description,Beat The End,,征服终点
+TWINKLE,name,Twinkle,,一闪一闪
+TWINKLE,description,Hold 10000 pink stars at once,,同时持有10000颗粉星星
+GOLD_STANDARD,name,Gold Standard,,黄金体验
+GOLD_STANDARD,description,Hold 10 gold stars at once,,同时持有10颗金星星
+HOG,name,Hog,,伸手就要
+HOG,description,Get 100 pink stars in the greed intro,,在贪婪开屏中获得100颗粉星星
+SNAKE_EYES_PLUS,name,Snake Eyes Plus,,蛇眼+
+SNAKE_EYES_PLUS,description,"Roll exactly 3 dice, all ones",,投出3枚骰子时获得全1
+YIKES,name,Yikes,,哎呦
+YIKES,description,"Roll exactly 4 dice, all ones",,投出4枚骰子时获得全1
+BIG_OOF,name,Big Oof,,倒大霉
+BIG_OOF,description,"Roll exactly 5 dice, all ones",,投出5枚骰子时获得全1
+BONANZA_IN_ONE,name,Bonanza In One,,一次就中
+BONANZA_IN_ONE,description,Star Bonanza on a 5-dice roll,,用5枚骰子投出星星头彩
+PURE_SKILL,name,Pure Skill,,纯技术
+PURE_SKILL,description,Long Straight on a 6-dice roll,,用6枚骰子投出大顺子
+OH_YEAH,name,Oh Yeah,,好耶
+OH_YEAH,description,Reach 50000 points in one level,,在一关内获得50000分数
+TOO_EASY,name,Too Easy,,简简单单
+TOO_EASY,description,Score 10000 points with one hand,,一次计分获得10000分数
+SELF_ESTEEM,name,Self Esteem,,自我认同
+SELF_ESTEEM,description,Hold middle click to flip yourself off,,按下鼠标滚轮对自己竖起中指
+CANIBALISM,name,Cannibalism?,,同类相食？
+CANIBALISM,description,Feed a die baby to a die,,把骰子宝宝喂给骰子
+FEESH,name,Feesh!,,鱼儿！
+FEESH,description,Catch the gold fish,,抓住金鱼
+NO_CHEATING,name,No Cheating,,不准作弊
+NO_CHEATING,description,Get smitten by god,,被神降下天罚
+BRAVEST_CHILD,name,Bravest Child,,勇敢的孩子
+BRAVEST_CHILD,description,Win double or nothing 5 times in a row,,5次连续赢下双倍或者回家
+SOULLESS,name,Soulless,,失去灵魂
+SOULLESS,description,Bet your soul and lose,,赌上灵魂并输掉游戏
+CHOSEN_ONE,name,Chosen One,,天选之人
+CHOSEN_ONE,description,Satisfy God,,满足神
+FISHY,name,Fishy Business,,鱼生意
+FISHY,description,Hold 500 fish at once,,同时持有500条鱼
