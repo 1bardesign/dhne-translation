@@ -4,8 +4,8 @@ Are you sure?		src/states/options.lua	463	options
 Are you sure?		src/states/options.lua	483	options
 Are you sure?		src/states/options.lua	509	options
 yes		src/are_you_sure.lua	15	are_you_sure
-yes		src/states/game.lua	2374	game
-yes		src/states/game.lua	3574	game
+yes		src/states/game.lua	2429	game
+yes		src/states/game.lua	3629	game
 yes		src/states/options.lua	355	options
 yes		src/states/options.lua	365	options
 yes		src/states/options.lua	372	options
@@ -16,7 +16,7 @@ yes		src/states/options.lua	463	options
 yes		src/states/options.lua	483	options
 yes		src/states/options.lua	509	options
 yes		src/states/options.lua	530	options
-no		src/states/game.lua	3598	game
+no		src/states/game.lua	3653	game
 no		src/states/options.lua	355	options
 no		src/states/options.lua	365	options
 no		src/states/options.lua	372	options
@@ -46,13 +46,13 @@ bust		src/tutorial_config.lua	14	tutorial_config
 bust		src/tutorial_config.lua	15	tutorial_config
 bust		src/states/ending_bet.lua	193	ending_bet
 bust		src/states/ending_finale.lua	182	ending_finale
-bust		src/states/game.lua	1412	game
-bust		src/states/game.lua	2147	game
-bust		src/states/game.lua	3023	game
-bust		src/states/game.lua	3047	game
-bust		src/states/game.lua	3068	game
-bust		src/states/game.lua	3894	game
-bust		src/states/game.lua	3897	game
+bust		src/states/game.lua	1438	game
+bust		src/states/game.lua	2195	game
+bust		src/states/game.lua	3078	game
+bust		src/states/game.lua	3102	game
+bust		src/states/game.lua	3123	game
+bust		src/states/game.lua	3950	game
+bust		src/states/game.lua	3953	game
 bust		src/states/game_setup.lua	57	game_setup
 bust		src/states/gameover.lua	593	gameover
 bust		src/states/intro.lua	47	intro
@@ -149,8 +149,8 @@ bank		src/keybinds.lua	5	keybinds
 bank		src/characters/tutorial_character.lua	161	tutorial_character
 bank		src/characters/tutorial_character.lua	162	tutorial_character
 stars		src/coloured_text.lua	27	coloured_text
-stars		src/states/game.lua	3263	game
-stars		src/states/game.lua	3334	game
+stars		src/states/game.lua	3318	game
+stars		src/states/game.lua	3389	game
 points		src/coloured_text.lua	31	coloured_text
 points		src/items.lua	2253	items
 points		src/items.lua	2276	items
@@ -173,14 +173,14 @@ bonus		src/items.lua	1066	items
 bonus		src/items.lua	1298	items
 bonus		src/items.lua	3426	items
 bonus		src/items.lua	3515	items
-bonus		src/states/game.lua	4032	game
+bonus		src/states/game.lua	4088	game
 bonus		src/entities/shop.lua	584	shop
 bonus		src/entities/shop.lua	727	shop
 debust		src/coloured_text.lua	43	coloured_text
 debust		src/items.lua	936	items
 debust		src/items.lua	1338	items
 debust		src/states/ending_finale.lua	182	ending_finale
-debust		src/states/game.lua	2759	game
+debust		src/states/game.lua	2814	game
 debust		src/entities/shop.lua	725	shop
 pig		src/coloured_text.lua	46	coloured_text
 pig		src/items.lua	912	items
@@ -207,9 +207,9 @@ power		src/items.lua	1379	items
 power		src/items.lua	3448	items
 power		src/items.lua	3537	items
 power		src/keybinds.lua	6	keybinds
-power		src/states/game.lua	1877	game
-power		src/states/game.lua	2479	game
-power		src/states/game.lua	2765	game
+power		src/states/game.lua	1902	game
+power		src/states/game.lua	2534	game
+power		src/states/game.lua	2820	game
 power		src/entities/power_ui.lua	16	power_ui
 power		src/entities/shop.lua	729	shop
 coin		src/coloured_text.lua	58	coloured_text
@@ -219,10 +219,10 @@ coin		src/entities/slot.lua	52	slot
 skip		src/coloured_text.lua	77	coloured_text
 skip		src/items.lua	1027	items
 skip		src/items.lua	1439	items
-skip		src/states/game.lua	2457	game
-skip		src/states/game.lua	2959	game
-skip		src/states/game.lua	2964	game
-skip		src/states/game.lua	2970	game
+skip		src/states/game.lua	2512	game
+skip		src/states/game.lua	3014	game
+skip		src/states/game.lua	3019	game
+skip		src/states/game.lua	3025	game
 skip		src/entities/buttons_clump.lua	328	buttons_clump
 skip		src/entities/dice_pick.lua	29	dice_pick
 skip		src/entities/shop.lua	668	shop
@@ -233,8 +233,8 @@ cracked		src/coloured_text.lua	83	coloured_text
 cracked		src/items.lua	1479	items
 cracked		src/items.lua	5986	items
 cracked		src/items.lua	6006	items
-cracked		src/states/game.lua	2148	game
-cracked		src/states/game.lua	2994	game
+cracked		src/states/game.lua	2196	game
+cracked		src/states/game.lua	3049	game
 cracked		src/entities/shop.lua	719	shop
 cracked		src/characters/anais.lua	13	anais
 cracked		src/characters/anais.lua	14	anais
@@ -255,13 +255,13 @@ cracked		src/characters/saimi.lua	13	saimi
 cracked		src/characters/saimi.lua	14	saimi
 hardy		src/coloured_text.lua	86	coloured_text
 hardy		src/items.lua	1499	items
-hardy		src/states/game.lua	3012	game
+hardy		src/states/game.lua	3067	game
 doom		src/coloured_text.lua	89	coloured_text
 doom		src/items.lua	1519	items
 doom		src/items.lua	6030	items
 doom		src/items.lua	6050	items
-doom		src/states/game.lua	2149	game
-doom		src/states/game.lua	3003	game
+doom		src/states/game.lua	2197	game
+doom		src/states/game.lua	3058	game
 negative		src/coloured_text.lua	92	coloured_text
 negative		src/entities/shop.lua	591	shop
 stuck		src/coloured_text.lua	95	coloured_text
@@ -270,7 +270,7 @@ stuck		src/items.lua	1399	items
 stuck		src/items.lua	3404	items
 stuck		src/items.lua	3494	items
 stuck		src/powers.lua	25	powers
-stuck		src/states/game.lua	2150	game
+stuck		src/states/game.lua	2198	game
 stuck		src/entities/buttons_clump.lua	306	buttons_clump
 stuck		src/entities/dice.lua	746	dice
 stuck		src/entities/dice.lua	1240	dice
@@ -300,9 +300,9 @@ Score		src/keybinds.lua	4	keybinds
 Score		src/entities/buttons_clump.lua	127	buttons_clump
 Score		src/entities/buttons_clump.lua	136	buttons_clump
 BANK		src/keybinds.lua	5	keybinds
-BANK		src/states/game.lua	561	game
+BANK		src/states/game.lua	587	game
 Trade!		src/keybinds.lua	10	keybinds
-Trade!		src/states/game.lua	3451	game
+Trade!		src/states/game.lua	3506	game
 luck		src/sync_scoreboards.lua	142	sync_scoreboards
 luck		src/states/intro_greed.lua	63	intro_greed
 you		src/sync_scoreboards.lua	203	sync_scoreboards
@@ -324,15 +324,15 @@ unlock		src/states/unlock.lua	469	unlock
 < back		src/states/game_setup.lua	96	game_setup
 < back		src/states/options.lua	37	options
 < back		src/states/options.lua	60	options
-< back		src/states/scoreboard.lua	67	scoreboard
+< back		src/states/scoreboard.lua	72	scoreboard
 < back		src/states/unlock.lua	50	unlock
 dawn mode		src/states/catalogue.lua	86	catalogue
-dawn mode		src/states/game.lua	256	game
+dawn mode		src/states/game.lua	279	game
 dawn mode		src/states/game_setup.lua	125	game_setup
 dawn mode		src/states/title.lua	447	title
 dawn mode		src/entities/title_preview.lua	106	title_preview
 night mode		src/states/catalogue.lua	86	catalogue
-night mode		src/states/game.lua	256	game
+night mode		src/states/game.lua	279	game
 night mode		src/states/game_setup.lua	125	game_setup
 night mode		src/states/title.lua	448	title
 night mode		src/entities/title_preview.lua	106	title_preview
@@ -348,7 +348,7 @@ hit that shit?		src/endings/shirin.lua	33	shirin
 hit that shit?		src/endings/tooth_fairy.lua	29	tooth_fairy
 play		src/states/ending.lua	302	ending
 play		src/states/ending.lua	346	ending
-play		src/states/game.lua	2331	game
+play		src/states/game.lua	2386	game
 play		src/states/game_setup.lua	161	game_setup
 play		src/entities/buttons_clump.lua	69	buttons_clump
 --  Run Summary  --		src/states/ending_bet.lua	59	ending_bet
@@ -367,7 +367,7 @@ Run stars:		src/states/ending_bet.lua	79	ending_bet
 Run stars:		src/states/gameover.lua	314	gameover
 ¤ banked		src/states/ending_bet.lua	93	ending_bet
 ¤ banked		src/states/ending_demo.lua	60	ending_demo
-¤ banked		src/states/game.lua	970	game
+¤ banked		src/states/game.lua	996	game
 ¤ banked		src/states/gameover.lua	78	gameover
 ¤ banked		src/states/gameover.lua	270	gameover
 star		src/states/ending_bet.lua	193	ending_bet
@@ -390,13 +390,13 @@ Buy Here		src/states/ending_demo.lua	187	ending_demo
 Buy Here		src/states/title.lua	587	title
 Wishlist Here		src/states/ending_demo.lua	187	ending_demo
 Wishlist Here		src/states/title.lua	587	title
-Continue		src/states/game.lua	159	game
+Continue		src/states/game.lua	167	game
 Continue		src/states/title.lua	236	title
-Options		src/states/game.lua	174	game
+Options		src/states/game.lua	182	game
 Options		src/states/options.lua	75	options
 Options		src/states/title.lua	343	title
 Options		src/entities/title_preview.lua	64	title_preview
-Rift		src/states/game.lua	2019	game
+Rift		src/states/game.lua	2054	game
 Rift		src/boards/rift.lua	2	rift
 so you chose to come back	true	src/states/title.lua	159	title
 so you chose to come back	true	src/endings/default.lua	124	default
