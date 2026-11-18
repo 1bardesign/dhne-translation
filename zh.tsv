@@ -1112,15 +1112,15 @@ src/powers.lua:387		Fishy Deal	“公平”交易
 src/powers.lua:388		-1 Bust, +1 ¥. Bump difficulty.	-1 Bust，+1¥。提升难度。
 src/powers.lua:407		Level Skip	跳过关卡
 src/powers.lua:408		Skip a level. Spawns a random die and a random snack.	跳过该关卡。生成一颗随机骰子和一个随机零食。
-src/powers.lua:470		Fishy Loan	“免费”贷款
-src/powers.lua:471		+100 Points, +1 ¥. Take on debt.	+100点数，+1 ¥。负起债务。
-src/powers.lua:507		Nibble	咬一小口
-src/powers.lua:508		${nibble}% chance to take a proper bite\nRegain 1 bust.${die}	有${nibble}%咬上一口\n恢复1bust。${die}
-src/powers.lua:510		You might be finished	看上去不太行了
-src/powers.lua:515		Munch	咬一大口
-src/powers.lua:516		Take a big bite to regain all busts.	咬一大口恢复所有bust。
-src/powers.lua:606		Reincarnate	重生
-src/powers.lua:607		Selected die is reborn	令选中的骰子重生
+src/powers.lua:476		Fishy Loan	“免费”贷款
+src/powers.lua:477		+100 Points, +1 ¥. Take on debt.	+100点数，+1 ¥。负起债务。
+src/powers.lua:513		Nibble	咬一小口
+src/powers.lua:514		${nibble}% chance to take a proper bite\nRegain 1 bust.${die}	有${nibble}%咬上一口\n恢复1bust。${die}
+src/powers.lua:516		You might be finished	看上去不太行了
+src/powers.lua:521		Munch	咬一大口
+src/powers.lua:522		Take a big bite to regain all busts.	咬一大口恢复所有bust。
+src/powers.lua:612		Reincarnate	重生
+src/powers.lua:613		Selected die is reborn	令选中的骰子重生
 src/special_conditions.lua:7		Solo	单走
 src/special_conditions.lua:18		Pair	对子
 src/special_conditions.lua:28		Short Straight	小顺子
@@ -1363,34 +1363,34 @@ src/states/options.lua:67		keybinds >	键位绑定 >
 src/states/options.lua:97		Build ID: ${id}	Build ID: ${id}
 src/states/options.lua:110		translator	
 src/states/options.lua:116		Translated by ${name} ♥	翻译：${name} ♥
-src/states/options.lua:368		audio	音频
-src/states/options.lua:372		master	总控制
-src/states/options.lua:373		music	音乐
-src/states/options.lua:374		ambient	环境声
-src/states/options.lua:375		sfx	音效
-src/states/options.lua:390		mute	静音
-src/states/options.lua:398		display	显示
-src/states/options.lua:400		fullscreen	全屏
-src/states/options.lua:407		vsync	垂直同步
-src/states/options.lua:414		chromab	色差
-src/states/options.lua:423		scanlines	扫描线
-src/states/options.lua:432		bulge	屏幕凸起
-src/states/options.lua:442		accessibility	无障碍
-src/states/options.lua:444		screenshake	屏幕抖动
-src/states/options.lua:453		tips	提示
-src/states/options.lua:460		cursor size	鼠标大小
-src/states/options.lua:469		fast animation	动画加速
-src/states/options.lua:476		scroll bgs	背景漂移
-src/states/options.lua:487		danger zone	危险区域
-src/states/options.lua:491		locale	本地化
-src/states/options.lua:495		nuke entire save	摧毁存档
-src/states/options.lua:500		Delete the entire game's save file\nresetting everything\nand losing all your progress forever?	是否要删除整个游戏的存档\n重置一切\n并永远失去你所有的进度？
-src/states/options.lua:515		reset options	重置选项
-src/states/options.lua:520		Reset all the game options\nto their default values?	是否要将所有游戏选项\n重置为默认状态？
-src/states/options.lua:541		reset tips	重置提示
-src/states/options.lua:546		reset all the hover tooltip counters\nso that all the tips show again?	是否要重置所有悬浮提示窗口\n使其全部重新显示？
-src/states/options.lua:565		replay tutorial	重新游玩教程
-src/states/options.lua:594		(BETA)	(BETA)
+src/states/options.lua:372		audio	音频
+src/states/options.lua:376		master	总控制
+src/states/options.lua:377		music	音乐
+src/states/options.lua:378		ambient	环境声
+src/states/options.lua:379		sfx	音效
+src/states/options.lua:394		mute	静音
+src/states/options.lua:402		display	显示
+src/states/options.lua:404		fullscreen	全屏
+src/states/options.lua:411		vsync	垂直同步
+src/states/options.lua:418		chromab	色差
+src/states/options.lua:427		scanlines	扫描线
+src/states/options.lua:436		bulge	屏幕凸起
+src/states/options.lua:446		accessibility	无障碍
+src/states/options.lua:448		screenshake	屏幕抖动
+src/states/options.lua:457		tips	提示
+src/states/options.lua:464		cursor size	鼠标大小
+src/states/options.lua:473		fast animation	动画加速
+src/states/options.lua:480		scroll bgs	背景漂移
+src/states/options.lua:491		danger zone	危险区域
+src/states/options.lua:495		locale	本地化
+src/states/options.lua:499		nuke entire save	摧毁存档
+src/states/options.lua:504		Delete the entire game's save file\nresetting everything\nand losing all your progress forever?	是否要删除整个游戏的存档\n重置一切\n并永远失去你所有的进度？
+src/states/options.lua:519		reset options	重置选项
+src/states/options.lua:524		Reset all the game options\nto their default values?	是否要将所有游戏选项\n重置为默认状态？
+src/states/options.lua:545		reset tips	重置提示
+src/states/options.lua:550		reset all the hover tooltip counters\nso that all the tips show again?	是否要重置所有悬浮提示窗口\n使其全部重新显示？
+src/states/options.lua:569		replay tutorial	重新游玩教程
+src/states/options.lua:598		(BETA)	(BETA)
 src/states/outside.lua:18		by Franek and Max	由Franek与Max制作
 src/states/outside.lua:19		this was a game about waking up	这是一个关于醒来的游戏
 src/states/scoreboard.lua:39		Loading Scores...	分数加载中。。

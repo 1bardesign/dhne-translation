@@ -1112,15 +1112,15 @@ src/powers.lua:387		Fishy Deal	Skum affär
 src/powers.lua:388		-1 Bust, +1 ¥. Bump difficulty.	-1 nit, +1 ¥. Höj svårighetsgraden.
 src/powers.lua:407		Level Skip	Hoppa över nivå
 src/powers.lua:408		Skip a level. Spawns a random die and a random snack.	Hoppa över en nivå. Skapar en slumpmässig tärning och ett slumpmässigt snacks.
-src/powers.lua:470		Fishy Loan	Skumt lån
-src/powers.lua:471		+100 Points, +1 ¥. Take on debt.	+100 poäng, +1 ¥. Dra på dig en skuld.
-src/powers.lua:507		Nibble	Småbit
-src/powers.lua:508		${nibble}% chance to take a proper bite\nRegain 1 bust.${die}	${nibble}% chans att ta en ordentlig tugga\nÅterfå 1 nit.${die}
-src/powers.lua:510		You might be finished	Det kan vara kört för dig
-src/powers.lua:515		Munch	Mums
-src/powers.lua:516		Take a big bite to regain all busts.	Ta en stor tugga för att återfå alla nitar.
-src/powers.lua:606		Reincarnate	Återföds
-src/powers.lua:607		Selected die is reborn	Den markerade tärningen återföds
+src/powers.lua:476		Fishy Loan	Skumt lån
+src/powers.lua:477		+100 Points, +1 ¥. Take on debt.	+100 poäng, +1 ¥. Dra på dig en skuld.
+src/powers.lua:513		Nibble	Småbit
+src/powers.lua:514		${nibble}% chance to take a proper bite\nRegain 1 bust.${die}	${nibble}% chans att ta en ordentlig tugga\nÅterfå 1 nit.${die}
+src/powers.lua:516		You might be finished	Det kan vara kört för dig
+src/powers.lua:521		Munch	Mums
+src/powers.lua:522		Take a big bite to regain all busts.	Ta en stor tugga för att återfå alla nitar.
+src/powers.lua:612		Reincarnate	Återföds
+src/powers.lua:613		Selected die is reborn	Den markerade tärningen återföds
 src/special_conditions.lua:7		Solo	Ensam
 src/special_conditions.lua:18		Pair	Par
 src/special_conditions.lua:28		Short Straight	Kort stege
@@ -1363,34 +1363,34 @@ src/states/options.lua:67		keybinds >	tangentbindningar >
 src/states/options.lua:97		Build ID: ${id}	Versions-ID: ${id}
 src/states/options.lua:110		translator	
 src/states/options.lua:116		Translated by ${name} ♥	Översatt av ${name} ♥
-src/states/options.lua:368		audio	ljud
-src/states/options.lua:372		master	huvudvolym
-src/states/options.lua:373		music	musik
-src/states/options.lua:374		ambient	bakgrundsljud
-src/states/options.lua:375		sfx	ljudeffekter
-src/states/options.lua:390		mute	tysta
-src/states/options.lua:398		display	bild
-src/states/options.lua:400		fullscreen	helskärm
-src/states/options.lua:407		vsync	vsync
-src/states/options.lua:414		chromab	kromatisk aberration
-src/states/options.lua:423		scanlines	skanningslinjer
-src/states/options.lua:432		bulge	utbuktning
-src/states/options.lua:442		accessibility	tillgänglighet
-src/states/options.lua:444		screenshake	skärmskakning
-src/states/options.lua:453		tips	tips
-src/states/options.lua:460		cursor size	markörstorlek
-src/states/options.lua:469		fast animation	snabb animering
-src/states/options.lua:476		scroll bgs	rörliga bakgrunder
-src/states/options.lua:487		danger zone	riskzon
-src/states/options.lua:491		locale	språk
-src/states/options.lua:495		nuke entire save	radera hela sparfilen
-src/states/options.lua:500		Delete the entire game's save file\nresetting everything\nand losing all your progress forever?	Radera spelets hela sparfil,\nåterställa allt\noch förlora alla dina framsteg för alltid?
-src/states/options.lua:515		reset options	återställ inställningar
-src/states/options.lua:520		Reset all the game options\nto their default values?	Återställ alla spelinställningar\ntill standardvärdena?
-src/states/options.lua:541		reset tips	återställ tips
-src/states/options.lua:546		reset all the hover tooltip counters\nso that all the tips show again?	återställ alla tips\nså att alla tips visas igen?
-src/states/options.lua:565		replay tutorial	spela introduktionen igen
-src/states/options.lua:594		(BETA)	(BETA)
+src/states/options.lua:372		audio	ljud
+src/states/options.lua:376		master	huvudvolym
+src/states/options.lua:377		music	musik
+src/states/options.lua:378		ambient	bakgrundsljud
+src/states/options.lua:379		sfx	ljudeffekter
+src/states/options.lua:394		mute	tysta
+src/states/options.lua:402		display	bild
+src/states/options.lua:404		fullscreen	helskärm
+src/states/options.lua:411		vsync	vsync
+src/states/options.lua:418		chromab	kromatisk aberration
+src/states/options.lua:427		scanlines	skanningslinjer
+src/states/options.lua:436		bulge	utbuktning
+src/states/options.lua:446		accessibility	tillgänglighet
+src/states/options.lua:448		screenshake	skärmskakning
+src/states/options.lua:457		tips	tips
+src/states/options.lua:464		cursor size	markörstorlek
+src/states/options.lua:473		fast animation	snabb animering
+src/states/options.lua:480		scroll bgs	rörliga bakgrunder
+src/states/options.lua:491		danger zone	riskzon
+src/states/options.lua:495		locale	språk
+src/states/options.lua:499		nuke entire save	radera hela sparfilen
+src/states/options.lua:504		Delete the entire game's save file\nresetting everything\nand losing all your progress forever?	Radera spelets hela sparfil,\nåterställa allt\noch förlora alla dina framsteg för alltid?
+src/states/options.lua:519		reset options	återställ inställningar
+src/states/options.lua:524		Reset all the game options\nto their default values?	Återställ alla spelinställningar\ntill standardvärdena?
+src/states/options.lua:545		reset tips	återställ tips
+src/states/options.lua:550		reset all the hover tooltip counters\nso that all the tips show again?	återställ alla tips\nså att alla tips visas igen?
+src/states/options.lua:569		replay tutorial	spela introduktionen igen
+src/states/options.lua:598		(BETA)	(BETA)
 src/states/outside.lua:18		by Franek and Max	av Franek och Max
 src/states/outside.lua:19		this was a game about waking up	det här var ett spel om att vakna
 src/states/scoreboard.lua:39		Loading Scores...	Laddar resultat...

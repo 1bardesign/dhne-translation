@@ -1112,15 +1112,15 @@ src/powers.lua:387		Fishy Deal	Рыбная сделка
 src/powers.lua:388		-1 Bust, +1 ¥. Bump difficulty.	-1 Баст, +1 ¥. Повышает сложность.
 src/powers.lua:407		Level Skip	Пропуск уровня
 src/powers.lua:408		Skip a level. Spawns a random die and a random snack.	Пропускает уровень. Создаёт случайный кубик и случайную закуску.
-src/powers.lua:470		Fishy Loan	Подозрительный кредит
-src/powers.lua:471		+100 Points, +1 ¥. Take on debt.	+100 Очков, +1 ¥. Влезаешь в долги.
-src/powers.lua:507		Nibble	Кусь
-src/powers.lua:508		${nibble}% chance to take a proper bite\nRegain 1 bust.${die}	${nibble}% шанс хорошо откусить\nВосстанавливает 1 баст.${die}
-src/powers.lua:510		You might be finished	Кажется, с тобой покончено
-src/powers.lua:515		Munch	Чавк
-src/powers.lua:516		Take a big bite to regain all busts.	Откуси большой кусок, чтобы восстановить все басты.
-src/powers.lua:606		Reincarnate	Реинкарнация
-src/powers.lua:607		Selected die is reborn	Выбранный кубик перерождается
+src/powers.lua:476		Fishy Loan	Подозрительный кредит
+src/powers.lua:477		+100 Points, +1 ¥. Take on debt.	+100 Очков, +1 ¥. Влезаешь в долги.
+src/powers.lua:513		Nibble	Кусь
+src/powers.lua:514		${nibble}% chance to take a proper bite\nRegain 1 bust.${die}	${nibble}% шанс хорошо откусить\nВосстанавливает 1 баст.${die}
+src/powers.lua:516		You might be finished	Кажется, с тобой покончено
+src/powers.lua:521		Munch	Чавк
+src/powers.lua:522		Take a big bite to regain all busts.	Откуси большой кусок, чтобы восстановить все басты.
+src/powers.lua:612		Reincarnate	Реинкарнация
+src/powers.lua:613		Selected die is reborn	Выбранный кубик перерождается
 src/special_conditions.lua:7		Solo	Соло
 src/special_conditions.lua:18		Pair	Пара
 src/special_conditions.lua:28		Short Straight	Короткий Стрит
@@ -1363,34 +1363,34 @@ src/states/options.lua:67		keybinds >
 src/states/options.lua:97		Build ID: ${id}	Идентификатор сборки: ${id}
 src/states/options.lua:110		translator	
 src/states/options.lua:116		Translated by ${name} ♥	Перевод: ${name} ♥
-src/states/options.lua:368		audio	аудио
-src/states/options.lua:372		master	общая громкость
-src/states/options.lua:373		music	музыка
-src/states/options.lua:374		ambient	фон
-src/states/options.lua:375		sfx	звуковые эффекты
-src/states/options.lua:390		mute	без звука
-src/states/options.lua:398		display	дисплей
-src/states/options.lua:400		fullscreen	полный экран
-src/states/options.lua:407		vsync	вертикальная синхронизация
-src/states/options.lua:414		chromab	хром. аберрация
-src/states/options.lua:423		scanlines	сканлайны
-src/states/options.lua:432		bulge	выпуклость
-src/states/options.lua:442		accessibility	доступность
-src/states/options.lua:444		screenshake	тряска экрана
-src/states/options.lua:453		tips	подсказки
-src/states/options.lua:460		cursor size	
-src/states/options.lua:469		fast animation	быстрая анимация
-src/states/options.lua:476		scroll bgs	прокрутка фона
-src/states/options.lua:487		danger zone	опасная зона
-src/states/options.lua:491		locale	язык
-src/states/options.lua:495		nuke entire save	стереть всё сохранение
-src/states/options.lua:500		Delete the entire game's save file\nresetting everything\nand losing all your progress forever?	Удалить весь файл сохранения игры\nсбросив всё\nпотеряв весь прогресс навсегда?
-src/states/options.lua:515		reset options	сбросить настройки
-src/states/options.lua:520		Reset all the game options\nto their default values?	Сбросить все настройки игры\nк значениям по умолчанию?
-src/states/options.lua:541		reset tips	сбросить подсказки
-src/states/options.lua:546		reset all the hover tooltip counters\nso that all the tips show again?	сбросить все счетчики всплывающих подсказок,\nчтобы все подсказки снова показывались?
-src/states/options.lua:565		replay tutorial	перепройти обучение
-src/states/options.lua:594		(BETA)	(БЕТА)
+src/states/options.lua:372		audio	аудио
+src/states/options.lua:376		master	общая громкость
+src/states/options.lua:377		music	музыка
+src/states/options.lua:378		ambient	фон
+src/states/options.lua:379		sfx	звуковые эффекты
+src/states/options.lua:394		mute	без звука
+src/states/options.lua:402		display	дисплей
+src/states/options.lua:404		fullscreen	полный экран
+src/states/options.lua:411		vsync	вертикальная синхронизация
+src/states/options.lua:418		chromab	хром. аберрация
+src/states/options.lua:427		scanlines	сканлайны
+src/states/options.lua:436		bulge	выпуклость
+src/states/options.lua:446		accessibility	доступность
+src/states/options.lua:448		screenshake	тряска экрана
+src/states/options.lua:457		tips	подсказки
+src/states/options.lua:464		cursor size	
+src/states/options.lua:473		fast animation	быстрая анимация
+src/states/options.lua:480		scroll bgs	прокрутка фона
+src/states/options.lua:491		danger zone	опасная зона
+src/states/options.lua:495		locale	язык
+src/states/options.lua:499		nuke entire save	стереть всё сохранение
+src/states/options.lua:504		Delete the entire game's save file\nresetting everything\nand losing all your progress forever?	Удалить весь файл сохранения игры\nсбросив всё\nпотеряв весь прогресс навсегда?
+src/states/options.lua:519		reset options	сбросить настройки
+src/states/options.lua:524		Reset all the game options\nto their default values?	Сбросить все настройки игры\nк значениям по умолчанию?
+src/states/options.lua:545		reset tips	сбросить подсказки
+src/states/options.lua:550		reset all the hover tooltip counters\nso that all the tips show again?	сбросить все счетчики всплывающих подсказок,\nчтобы все подсказки снова показывались?
+src/states/options.lua:569		replay tutorial	перепройти обучение
+src/states/options.lua:598		(BETA)	(БЕТА)
 src/states/outside.lua:18		by Franek and Max	от Франека и Макса
 src/states/outside.lua:19		this was a game about waking up	это была игра о пробуждении
 src/states/scoreboard.lua:39		Loading Scores...	Загрузка рекордов...

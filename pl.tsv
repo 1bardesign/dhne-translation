@@ -1112,15 +1112,15 @@ src/powers.lua:387		Fishy Deal	Śliski Interes
 src/powers.lua:388		-1 Bust, +1 ¥. Bump difficulty.	-1 Bust, +1 ¥. Podbij trudność.
 src/powers.lua:407		Level Skip	Przeskok Poziomu
 src/powers.lua:408		Skip a level. Spawns a random die and a random snack.	Pomiń poziom. Przywołuje losową kostkę i losową przekąskę.
-src/powers.lua:470		Fishy Loan	Śliska Pożyczka
-src/powers.lua:471		+100 Points, +1 ¥. Take on debt.	+100 Punktów, +1 ¥. Zaciągnij dług.
-src/powers.lua:507		Nibble	Skubnięcie
-src/powers.lua:508		${nibble}% chance to take a proper bite\nRegain 1 bust.${die}	${nibble}% szansy na porządnego gryza\nOdzyskaj 1 bust.${die}
-src/powers.lua:510		You might be finished	Chyba już po tobie
-src/powers.lua:515		Munch	Chrup
-src/powers.lua:516		Take a big bite to regain all busts.	Weź wielkiego gryza, by odzyskać wszystkie busty.
-src/powers.lua:606		Reincarnate	Reinkarnacja
-src/powers.lua:607		Selected die is reborn	Zaznaczona kostka odradza się
+src/powers.lua:476		Fishy Loan	Śliska Pożyczka
+src/powers.lua:477		+100 Points, +1 ¥. Take on debt.	+100 Punktów, +1 ¥. Zaciągnij dług.
+src/powers.lua:513		Nibble	Skubnięcie
+src/powers.lua:514		${nibble}% chance to take a proper bite\nRegain 1 bust.${die}	${nibble}% szansy na porządnego gryza\nOdzyskaj 1 bust.${die}
+src/powers.lua:516		You might be finished	Chyba już po tobie
+src/powers.lua:521		Munch	Chrup
+src/powers.lua:522		Take a big bite to regain all busts.	Weź wielkiego gryza, by odzyskać wszystkie busty.
+src/powers.lua:612		Reincarnate	Reinkarnacja
+src/powers.lua:613		Selected die is reborn	Zaznaczona kostka odradza się
 src/special_conditions.lua:7		Solo	Solo
 src/special_conditions.lua:18		Pair	Para
 src/special_conditions.lua:28		Short Straight	Mały Strit
@@ -1363,34 +1363,34 @@ src/states/options.lua:67		keybinds >
 src/states/options.lua:97		Build ID: ${id}	Build ID: ${id}
 src/states/options.lua:110		translator	
 src/states/options.lua:116		Translated by ${name} ♥	Tłumaczenie: ${name} ♥
-src/states/options.lua:368		audio	dźwięk
-src/states/options.lua:372		master	główna
-src/states/options.lua:373		music	muzyka
-src/states/options.lua:374		ambient	otoczenie
-src/states/options.lua:375		sfx	efekty
-src/states/options.lua:390		mute	wycisz
-src/states/options.lua:398		display	obraz
-src/states/options.lua:400		fullscreen	pełny ekran
-src/states/options.lua:407		vsync	vsync
-src/states/options.lua:414		chromab	aberracja
-src/states/options.lua:423		scanlines	scanlines
-src/states/options.lua:432		bulge	wypukłość
-src/states/options.lua:442		accessibility	dostępność
-src/states/options.lua:444		screenshake	trzęsienie ekranu
-src/states/options.lua:453		tips	wskazówki
-src/states/options.lua:460		cursor size	
-src/states/options.lua:469		fast animation	szybkie animacje
-src/states/options.lua:476		scroll bgs	ruchome tła
-src/states/options.lua:487		danger zone	strefa zagrożenia
-src/states/options.lua:491		locale	język
-src/states/options.lua:495		nuke entire save	wysadź cały zapis
-src/states/options.lua:500		Delete the entire game's save file\nresetting everything\nand losing all your progress forever?	Usunąć cały plik zapisu gry,\nresetując wszystko\ni tracąc cały postęp na zawsze?
-src/states/options.lua:515		reset options	resetuj opcje
-src/states/options.lua:520		Reset all the game options\nto their default values?	Przywrócić wszystkie opcje gry\ndo wartości domyślnych?
-src/states/options.lua:541		reset tips	resetuj wskazówki
-src/states/options.lua:546		reset all the hover tooltip counters\nso that all the tips show again?	zresetować liczniki podpowiedzi\nżeby wszystkie wskazówki pokazały się znowu?
-src/states/options.lua:565		replay tutorial	powtórz samouczek
-src/states/options.lua:594		(BETA)	
+src/states/options.lua:372		audio	dźwięk
+src/states/options.lua:376		master	główna
+src/states/options.lua:377		music	muzyka
+src/states/options.lua:378		ambient	otoczenie
+src/states/options.lua:379		sfx	efekty
+src/states/options.lua:394		mute	wycisz
+src/states/options.lua:402		display	obraz
+src/states/options.lua:404		fullscreen	pełny ekran
+src/states/options.lua:411		vsync	vsync
+src/states/options.lua:418		chromab	aberracja
+src/states/options.lua:427		scanlines	scanlines
+src/states/options.lua:436		bulge	wypukłość
+src/states/options.lua:446		accessibility	dostępność
+src/states/options.lua:448		screenshake	trzęsienie ekranu
+src/states/options.lua:457		tips	wskazówki
+src/states/options.lua:464		cursor size	
+src/states/options.lua:473		fast animation	szybkie animacje
+src/states/options.lua:480		scroll bgs	ruchome tła
+src/states/options.lua:491		danger zone	strefa zagrożenia
+src/states/options.lua:495		locale	język
+src/states/options.lua:499		nuke entire save	wysadź cały zapis
+src/states/options.lua:504		Delete the entire game's save file\nresetting everything\nand losing all your progress forever?	Usunąć cały plik zapisu gry,\nresetując wszystko\ni tracąc cały postęp na zawsze?
+src/states/options.lua:519		reset options	resetuj opcje
+src/states/options.lua:524		Reset all the game options\nto their default values?	Przywrócić wszystkie opcje gry\ndo wartości domyślnych?
+src/states/options.lua:545		reset tips	resetuj wskazówki
+src/states/options.lua:550		reset all the hover tooltip counters\nso that all the tips show again?	zresetować liczniki podpowiedzi\nżeby wszystkie wskazówki pokazały się znowu?
+src/states/options.lua:569		replay tutorial	powtórz samouczek
+src/states/options.lua:598		(BETA)	
 src/states/outside.lua:18		by Franek and Max	
 src/states/outside.lua:19		this was a game about waking up	
 src/states/scoreboard.lua:39		Loading Scores...	Wczytywanie wyników...

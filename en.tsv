@@ -1112,15 +1112,15 @@ src/powers.lua:387		Fishy Deal
 src/powers.lua:388		-1 Bust, +1 ¥. Bump difficulty.	
 src/powers.lua:407		Level Skip	
 src/powers.lua:408		Skip a level. Spawns a random die and a random snack.	
-src/powers.lua:470		Fishy Loan	
-src/powers.lua:471		+100 Points, +1 ¥. Take on debt.	
-src/powers.lua:507		Nibble	
-src/powers.lua:508		${nibble}% chance to take a proper bite\nRegain 1 bust.${die}	
-src/powers.lua:510		You might be finished	
-src/powers.lua:515		Munch	
-src/powers.lua:516		Take a big bite to regain all busts.	
-src/powers.lua:606		Reincarnate	
-src/powers.lua:607		Selected die is reborn	
+src/powers.lua:476		Fishy Loan	
+src/powers.lua:477		+100 Points, +1 ¥. Take on debt.	
+src/powers.lua:513		Nibble	
+src/powers.lua:514		${nibble}% chance to take a proper bite\nRegain 1 bust.${die}	
+src/powers.lua:516		You might be finished	
+src/powers.lua:521		Munch	
+src/powers.lua:522		Take a big bite to regain all busts.	
+src/powers.lua:612		Reincarnate	
+src/powers.lua:613		Selected die is reborn	
 src/special_conditions.lua:7		Solo	
 src/special_conditions.lua:18		Pair	
 src/special_conditions.lua:28		Short Straight	
@@ -1363,34 +1363,34 @@ src/states/options.lua:67		keybinds >
 src/states/options.lua:97		Build ID: ${id}	
 src/states/options.lua:110		translator	
 src/states/options.lua:116		Translated by ${name} ♥	
-src/states/options.lua:368		audio	
-src/states/options.lua:372		master	
-src/states/options.lua:373		music	
-src/states/options.lua:374		ambient	
-src/states/options.lua:375		sfx	
-src/states/options.lua:390		mute	
-src/states/options.lua:398		display	
-src/states/options.lua:400		fullscreen	
-src/states/options.lua:407		vsync	
-src/states/options.lua:414		chromab	
-src/states/options.lua:423		scanlines	
-src/states/options.lua:432		bulge	
-src/states/options.lua:442		accessibility	
-src/states/options.lua:444		screenshake	
-src/states/options.lua:453		tips	
-src/states/options.lua:460		cursor size	
-src/states/options.lua:469		fast animation	
-src/states/options.lua:476		scroll bgs	
-src/states/options.lua:487		danger zone	
-src/states/options.lua:491		locale	
-src/states/options.lua:495		nuke entire save	
-src/states/options.lua:500		Delete the entire game's save file\nresetting everything\nand losing all your progress forever?	
-src/states/options.lua:515		reset options	
-src/states/options.lua:520		Reset all the game options\nto their default values?	
-src/states/options.lua:541		reset tips	
-src/states/options.lua:546		reset all the hover tooltip counters\nso that all the tips show again?	
-src/states/options.lua:565		replay tutorial	
-src/states/options.lua:594		(BETA)	
+src/states/options.lua:372		audio	
+src/states/options.lua:376		master	
+src/states/options.lua:377		music	
+src/states/options.lua:378		ambient	
+src/states/options.lua:379		sfx	
+src/states/options.lua:394		mute	
+src/states/options.lua:402		display	
+src/states/options.lua:404		fullscreen	
+src/states/options.lua:411		vsync	
+src/states/options.lua:418		chromab	
+src/states/options.lua:427		scanlines	
+src/states/options.lua:436		bulge	
+src/states/options.lua:446		accessibility	
+src/states/options.lua:448		screenshake	
+src/states/options.lua:457		tips	
+src/states/options.lua:464		cursor size	
+src/states/options.lua:473		fast animation	
+src/states/options.lua:480		scroll bgs	
+src/states/options.lua:491		danger zone	
+src/states/options.lua:495		locale	
+src/states/options.lua:499		nuke entire save	
+src/states/options.lua:504		Delete the entire game's save file\nresetting everything\nand losing all your progress forever?	
+src/states/options.lua:519		reset options	
+src/states/options.lua:524		Reset all the game options\nto their default values?	
+src/states/options.lua:545		reset tips	
+src/states/options.lua:550		reset all the hover tooltip counters\nso that all the tips show again?	
+src/states/options.lua:569		replay tutorial	
+src/states/options.lua:598		(BETA)	
 src/states/outside.lua:18		by Franek and Max	
 src/states/outside.lua:19		this was a game about waking up	
 src/states/scoreboard.lua:39		Loading Scores...	
