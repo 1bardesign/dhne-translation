@@ -600,7 +600,7 @@ src/items.lua:1035		Block 1s for the next roll	Блокирует 1 на сле�
 src/items.lua:1052		Grape	Виноградина
 src/items.lua:1053 (+1 others)		Add 1 Bonus side	Добавляет 1 Бонусную сторону
 src/items.lua:1068 (+1 others)		Bonus Side Added	Бонусная сторона добавлена
-src/items.lua:1073		pieróg z kapusto	перог с капустой
+src/items.lua:1073		Pieróg z Kapusto	перог с капустой
 src/items.lua:1091		Crack Candy	Крэк Кэнди
 src/items.lua:1092		Add 2 Power sides	Добавляет 2 стороны Силы
 src/items.lua:1110		Power Sides Added	Стороны Силы добавлены
@@ -772,7 +772,7 @@ src/items.lua:2768		Double Down	Упорность
 src/items.lua:2771		Flipping a single coin x2 Mult	х2 Множителя при броске одной монетки
 src/items.lua:2796		Just An Anxious Guy	Просто тревожный парень
 src/items.lua:2799		+4 Mult for Four Of A Kind	+4 Множителя за Каре
-src/items.lua:2813		Double Three Blibber	Двойной Тройной Блиббер
+src/items.lua:2813		Double Thfree Blibber	Двойной Тройной Блиббер
 src/items.lua:2816		+3 Mult for Three Of A Kind	+3 Множителя за Тройку
 src/items.lua:2829		Two Pair Mult Cat	Кот Множителя Двух Пар
 src/items.lua:2832		+4 Mult for Two Pair	+4 Множителя за Две Пары
@@ -983,7 +983,7 @@ src/items.lua:5388		Triple Trouble	Тройная беда
 src/items.lua:5389		Combos containing Three Of A Kind -4 Mult	Комбо с Тройкой дают -4 Множителя
 src/items.lua:5413		No Four Kind	Без Каре
 src/items.lua:5414		Four Of A Kind gives no score	Каре не приносит очков
-src/items.lua:5439		No Full House	Без Фулл-Хауса
+src/items.lua:5439		Empty House	Без Фулл-Хауса
 src/items.lua:5440		Full House gives no score	Фулл-Хаус не приносит очков
 src/items.lua:5466		No Bonanza	Без Бонанзы
 src/items.lua:5467		Star Bonanza gives no score	Звездная Бонанза не приносит очков
@@ -995,7 +995,7 @@ src/items.lua:5603		Slippery Threes	Скользкие трёшки
 src/items.lua:5604		Auto-reroll dice that show a 3, score 33 Points for each	Автоматически перебрасывает кубики, показывающие 3, дает 33 Очка за каждый
 src/items.lua:5625 (+4 others)		Bad Tooth	Плохой зуб
 src/items.lua:5626		-3 Mult	-3 Множителя
-src/items.lua:5654		-1 Dice Space	-1 место для кубика
+src/items.lua:5654		Dice Limit -1	Лимит кубиков -1
 src/items.lua:5715 (+12 others)		Dues	Взносы
 src/items.lua:5716		Rerolls all dice and coins.\n5% chance to activate on dice rolls.	Перебрасывает все кубики и монетки.\n5% шанс сработать при броске кубиков.
 src/items.lua:5737		Rerolled!	Переброшены!
@@ -1096,7 +1096,7 @@ src/powers.lua:162		Flip the selected die to its opposite face.	Перевора
 src/powers.lua:182		Smite	Кара
 src/powers.lua:183		Sacrifice selected die, +3 ¥	Приносит выбранный кубик в жертву, +3 ¥
 src/powers.lua:214		Pip Pip	Пип-пип
-src/powers.lua:215		Set the second selected die to the same pip value as the first.	Устанавливает второму выбранному кубику то же значение, что и у первого.
+src/powers.lua:215		Nudge the second selected die to the same pip value as the first.	Устанавливает второму выбранному кубику то же значение, что и у первого.
 src/powers.lua:236		Ghost Clone	Призрачный клон
 src/powers.lua:237		Spawn a ghost copy of the selected die.	Создает призрачную копию выбранного кубика.
 src/powers.lua:286		Reroll	Переброс

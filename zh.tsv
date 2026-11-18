@@ -600,7 +600,7 @@ src/items.lua:1035		Block 1s for the next roll	下一次投出时屏蔽1
 src/items.lua:1052		Grape	葡萄
 src/items.lua:1053 (+1 others)		Add 1 Bonus side	增加一个加点面
 src/items.lua:1068 (+1 others)		Bonus Side Added	加点面已增加
-src/items.lua:1073		pieróg z kapusto	高丽菜波兰饺子
+src/items.lua:1073		Pieróg z Kapusto	高丽菜波兰饺子
 src/items.lua:1091		Crack Candy	特制糖块
 src/items.lua:1092		Add 2 Power sides	增加2个能力面
 src/items.lua:1110		Power Sides Added	能力面已增加
@@ -772,7 +772,7 @@ src/items.lua:2768		Double Down	落井下石
 src/items.lua:2771		Flipping a single coin x2 Mult	抛出单枚硬币x2乘数
 src/items.lua:2796		Just An Anxious Guy	有些焦虑的路人
 src/items.lua:2799		+4 Mult for Four Of A Kind	四条+4乘数
-src/items.lua:2813		Double Three Blibber	三眼巨人
+src/items.lua:2813		Double Thfree Blibber	三眼巨人
 src/items.lua:2816		+3 Mult for Three Of A Kind	三条+3乘数
 src/items.lua:2829		Two Pair Mult Cat	两对乘数猫
 src/items.lua:2832		+4 Mult for Two Pair	两对+4乘数
@@ -983,7 +983,7 @@ src/items.lua:5388		Triple Trouble	三个臭皮匠
 src/items.lua:5389		Combos containing Three Of A Kind -4 Mult	包含三条的组合-3乘数
 src/items.lua:5413		No Four Kind	禁止四条
 src/items.lua:5414		Four Of A Kind gives no score	四条不得分
-src/items.lua:5439		No Full House	禁止满堂红
+src/items.lua:5439		Empty House	禁止满堂红
 src/items.lua:5440		Full House gives no score	满堂红不得分
 src/items.lua:5466		No Bonanza	禁止头彩
 src/items.lua:5467		Star Bonanza gives no score	星星头彩不得分
@@ -995,7 +995,7 @@ src/items.lua:5603		Slippery Threes	三溜溜的
 src/items.lua:5604		Auto-reroll dice that show a 3, score 33 Points for each	投出3的骰子自动重新投掷，每次+33点数
 src/items.lua:5625 (+4 others)		Bad Tooth	坏齿
 src/items.lua:5626		-3 Mult	-3乘数
-src/items.lua:5654		-1 Dice Space	骰子上限-1
+src/items.lua:5654		Dice Limit -1	骰子上限-1
 src/items.lua:5715 (+12 others)		Dues	应缴债务
 src/items.lua:5716		Rerolls all dice and coins.\n5% chance to activate on dice rolls.	重新投出所有骰子和硬币。\n每次投出骰子有5%几率触发。
 src/items.lua:5737		Rerolled!	重新投掷！
@@ -1096,7 +1096,7 @@ src/powers.lua:162		Flip the selected die to its opposite face.	将已选中的�
 src/powers.lua:182		Smite	天罚
 src/powers.lua:183		Sacrifice selected die, +3 ¥	献祭已选中的骰子，+3¥
 src/powers.lua:214		Pip Pip	复制面值
-src/powers.lua:215		Set the second selected die to the same pip value as the first.	将第二个选中的骰子翻至与第一个选中的骰子相同的面值。
+src/powers.lua:215		Nudge the second selected die to the same pip value as the first.	将第二个选中的骰子翻至与第一个选中的骰子相同的面值。
 src/powers.lua:236		Ghost Clone	幽灵克隆
 src/powers.lua:237		Spawn a ghost copy of the selected die.	为选中的骰子生成一个幽灵复制品。
 src/powers.lua:286		Reroll	重投

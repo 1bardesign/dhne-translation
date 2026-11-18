@@ -600,7 +600,7 @@ src/items.lua:1035		Block 1s for the next roll
 src/items.lua:1052		Grape	
 src/items.lua:1053 (+1 others)		Add 1 Bonus side	
 src/items.lua:1068 (+1 others)		Bonus Side Added	
-src/items.lua:1073		pieróg z kapusto	
+src/items.lua:1073		Pieróg z Kapusto	
 src/items.lua:1091		Crack Candy	
 src/items.lua:1092		Add 2 Power sides	
 src/items.lua:1110		Power Sides Added	
@@ -772,7 +772,7 @@ src/items.lua:2768		Double Down
 src/items.lua:2771		Flipping a single coin x2 Mult	
 src/items.lua:2796		Just An Anxious Guy	
 src/items.lua:2799		+4 Mult for Four Of A Kind	
-src/items.lua:2813		Double Three Blibber	
+src/items.lua:2813		Double Thfree Blibber	
 src/items.lua:2816		+3 Mult for Three Of A Kind	
 src/items.lua:2829		Two Pair Mult Cat	
 src/items.lua:2832		+4 Mult for Two Pair	
@@ -983,7 +983,7 @@ src/items.lua:5388		Triple Trouble
 src/items.lua:5389		Combos containing Three Of A Kind -4 Mult	
 src/items.lua:5413		No Four Kind	
 src/items.lua:5414		Four Of A Kind gives no score	
-src/items.lua:5439		No Full House	
+src/items.lua:5439		Empty House	
 src/items.lua:5440		Full House gives no score	
 src/items.lua:5466		No Bonanza	
 src/items.lua:5467		Star Bonanza gives no score	
@@ -995,7 +995,7 @@ src/items.lua:5603		Slippery Threes
 src/items.lua:5604		Auto-reroll dice that show a 3, score 33 Points for each	
 src/items.lua:5625 (+4 others)		Bad Tooth	
 src/items.lua:5626		-3 Mult	
-src/items.lua:5654		-1 Dice Space	
+src/items.lua:5654		Dice Limit -1	
 src/items.lua:5715 (+12 others)		Dues	
 src/items.lua:5716		Rerolls all dice and coins.\n5% chance to activate on dice rolls.	
 src/items.lua:5737		Rerolled!	
@@ -1096,7 +1096,7 @@ src/powers.lua:162		Flip the selected die to its opposite face.
 src/powers.lua:182		Smite	
 src/powers.lua:183		Sacrifice selected die, +3 ¥	
 src/powers.lua:214		Pip Pip	
-src/powers.lua:215		Set the second selected die to the same pip value as the first.	
+src/powers.lua:215		Nudge the second selected die to the same pip value as the first.	
 src/powers.lua:236		Ghost Clone	
 src/powers.lua:237		Spawn a ghost copy of the selected die.	
 src/powers.lua:286		Reroll	

@@ -502,7 +502,7 @@ src/items.lua:165		Uplift	Podnieś
 src/items.lua:168		Nudge all dice +1 pip (no loop)	Podbij wszystkie kostki o +1 oczko (bez zawijania)
 src/items.lua:181		+1 all	+1 wszystkie
 src/items.lua:186		Downshift	Redukcja
-src/items.lua:189		Nudge all dice -1 pip (no loop)	
+src/items.lua:189		Nudge all dice -1 pip (no loop)	Podbij wszystkie kostki o -1 oczko (bez zawijania)
 src/items.lua:203		-1 all	-1 wszystkie
 src/items.lua:208		Clamp High	Ścisk w Górę
 src/items.lua:211		All dice above 4 become 4	Wszystkie kostki powyżej 4 zmieniają się w 4
@@ -600,7 +600,7 @@ src/items.lua:1035		Block 1s for the next roll	Zablokuj jedynki w następnym rzu
 src/items.lua:1052		Grape	Winogrono
 src/items.lua:1053 (+1 others)		Add 1 Bonus side	Dodaj 1 ściankę Bonus
 src/items.lua:1068 (+1 others)		Bonus Side Added	Dodano ściankę Bonus
-src/items.lua:1073		pieróg z kapusto	pieróg z kapustą
+src/items.lua:1073		Pieróg z Kapusto	pieróg z kapustą
 src/items.lua:1091		Crack Candy	Cukierki Crack
 src/items.lua:1092		Add 2 Power sides	Dodaj 2 ścianki Moc
 src/items.lua:1110		Power Sides Added	Dodano ścianki Moc
@@ -772,7 +772,7 @@ src/items.lua:2768		Double Down	Podwójna Stawka
 src/items.lua:2771		Flipping a single coin x2 Mult	Rzut jedną monetą: x2 Mnożnik
 src/items.lua:2796		Just An Anxious Guy	Po Prostu Zestresowany Gość
 src/items.lua:2799		+4 Mult for Four Of A Kind	+4 Mnożnika za Karetę
-src/items.lua:2813		Double Three Blibber	Podwójna Trójka Blibber
+src/items.lua:2813		Double Thfree Blibber	Podwójna Trójka Blibber
 src/items.lua:2816		+3 Mult for Three Of A Kind	+3 Mnożnika za Trójkę
 src/items.lua:2829		Two Pair Mult Cat	Kot Dwie Pary Mnożnik
 src/items.lua:2832		+4 Mult for Two Pair	+4 Mnożnika za Dwie Pary
@@ -983,7 +983,7 @@ src/items.lua:5388		Triple Trouble	Potrójny Kłopot
 src/items.lua:5389		Combos containing Three Of A Kind -4 Mult	Kombinacje zawierające Trójkę: -4 Mnożnika
 src/items.lua:5413		No Four Kind	Bez Karety
 src/items.lua:5414		Four Of A Kind gives no score	Kareta nie daje punktów
-src/items.lua:5439		No Full House	Bez Fula
+src/items.lua:5439		Empty House	Bez Fula
 src/items.lua:5440		Full House gives no score	Ful nie daje punktów
 src/items.lua:5466		No Bonanza	Bez Bonanzy
 src/items.lua:5467		Star Bonanza gives no score	Gwiezdna Bonanza nie daje punktów
@@ -995,7 +995,7 @@ src/items.lua:5603		Slippery Threes	Śliskie Trójki
 src/items.lua:5604		Auto-reroll dice that show a 3, score 33 Points for each	Automatycznie przerzuca kostki pokazujące 3, 33 Punkty za każdą
 src/items.lua:5625 (+4 others)		Bad Tooth	Zepsuty Ząb
 src/items.lua:5626		-3 Mult	-3 Mnożnika
-src/items.lua:5654		-1 Dice Space	-1 Miejsce na Kostkę
+src/items.lua:5654		Dice Limit -1	Limit Kostek -1
 src/items.lua:5715 (+12 others)		Dues	Haracz
 src/items.lua:5716		Rerolls all dice and coins.\n5% chance to activate on dice rolls.	Przerzuca wszystkie kostki i monety.\n5% szansy na aktywację przy rzutach.
 src/items.lua:5737		Rerolled!	Przerzucone!
@@ -1096,7 +1096,7 @@ src/powers.lua:162		Flip the selected die to its opposite face.	Obróć zaznaczo
 src/powers.lua:182		Smite	Gniew Boży
 src/powers.lua:183		Sacrifice selected die, +3 ¥	Poświęć zaznaczoną kostkę, +3 ¥
 src/powers.lua:214		Pip Pip	Pip Pip
-src/powers.lua:215		Set the second selected die to the same pip value as the first.	Ustaw drugą zaznaczoną kostkę na tę samą liczbę oczek co pierwszą.
+src/powers.lua:215		Nudge the second selected die to the same pip value as the first.	Przesuń drugą zaznaczoną kostkę na tę samą liczbę oczek co pierwszą.
 src/powers.lua:236		Ghost Clone	Duch-Klon
 src/powers.lua:237		Spawn a ghost copy of the selected die.	Przywołaj ducha-kopię zaznaczonej kostki.
 src/powers.lua:286		Reroll	Przerzut

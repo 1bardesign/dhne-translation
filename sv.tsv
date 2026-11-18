@@ -600,7 +600,7 @@ src/items.lua:1035		Block 1s for the next roll	Blockera 1:or i nästa kast
 src/items.lua:1052		Grape	Vindruva
 src/items.lua:1053 (+1 others)		Add 1 Bonus side	Lägg till 1 bonussida
 src/items.lua:1068 (+1 others)		Bonus Side Added	Bonussida tillagd
-src/items.lua:1073		pieróg z kapusto	Kålpierog
+src/items.lua:1073		Pieróg z Kapusto	Kålpierog
 src/items.lua:1091		Crack Candy	Knarkgodis
 src/items.lua:1092		Add 2 Power sides	Lägg till 2 kraftsidor
 src/items.lua:1110		Power Sides Added	Kraftsidor tillagda
@@ -772,7 +772,7 @@ src/items.lua:2768		Double Down	Dubbelt upp
 src/items.lua:2771		Flipping a single coin x2 Mult	x2 multi när du singlar ett enda mynt
 src/items.lua:2796		Just An Anxious Guy	Bara en orolig snubbe
 src/items.lua:2799		+4 Mult for Four Of A Kind	+4 multi för fyrtal
-src/items.lua:2813		Double Three Blibber	Dubbeltrissblibber
+src/items.lua:2813		Double Thfree Blibber	Dubbeltrissblibber
 src/items.lua:2816		+3 Mult for Three Of A Kind	+3 multi för triss
 src/items.lua:2829		Two Pair Mult Cat	Tvåparsmultikatt
 src/items.lua:2832		+4 Mult for Two Pair	+4 multi för tvåpar
@@ -983,7 +983,7 @@ src/items.lua:5388		Triple Trouble	Trippeltrubbel
 src/items.lua:5389		Combos containing Three Of A Kind -4 Mult	Kombinationer som innehåller triss ger -4 multi
 src/items.lua:5413		No Four Kind	Inget fyrtal
 src/items.lua:5414		Four Of A Kind gives no score	Fyrtal ger inga poäng
-src/items.lua:5439		No Full House	Ingen kåk
+src/items.lua:5439		Empty House	Ingen kåk
 src/items.lua:5440		Full House gives no score	Kåk ger inga poäng
 src/items.lua:5466		No Bonanza	Ingen bonanza
 src/items.lua:5467		Star Bonanza gives no score	Stjärnbonanza ger inga poäng
@@ -995,7 +995,7 @@ src/items.lua:5603		Slippery Threes	Hala treor
 src/items.lua:5604		Auto-reroll dice that show a 3, score 33 Points for each	Kasta automatiskt om tärningar som visar 3, få 33 poäng för varje
 src/items.lua:5625 (+4 others)		Bad Tooth	Dålig tand
 src/items.lua:5626		-3 Mult	-3 multi
-src/items.lua:5654		-1 Dice Space	-1 tärningsplats
+src/items.lua:5654		Dice Limit -1	Tärningsgräns -1
 src/items.lua:5715 (+12 others)		Dues	Avgifter
 src/items.lua:5716		Rerolls all dice and coins.\n5% chance to activate on dice rolls.	Kastar om alla tärningar och mynt.\n5% chans att aktiveras vid tärningskast.
 src/items.lua:5737		Rerolled!	Omkastat!
@@ -1096,7 +1096,7 @@ src/powers.lua:162		Flip the selected die to its opposite face.	Vänd den marker
 src/powers.lua:182		Smite	Vredesdom
 src/powers.lua:183		Sacrifice selected die, +3 ¥	Offra den markerade tärningen, +3 ¥
 src/powers.lua:214		Pip Pip	Prick prick
-src/powers.lua:215		Set the second selected die to the same pip value as the first.	Ge den andra markerade tärningen samma prickvärde som den första.
+src/powers.lua:215		Nudge the second selected die to the same pip value as the first.	Ge den andra markerade tärningen samma prickvärde som den första.
 src/powers.lua:236		Ghost Clone	Spökklon
 src/powers.lua:237		Spawn a ghost copy of the selected die.	Skapa en spökkopia av den markerade tärningen.
 src/powers.lua:286		Reroll	Kasta om
