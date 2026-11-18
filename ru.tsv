@@ -37,8 +37,8 @@ src/character_unlocks.lua:105		slimy	скользкий
 src/character_unlocks.lua:114		say aaaaaaaa	скажи аааааааа
 src/character_unlocks.lua:120		Plasticine	Пластилин
 src/character_unlocks.lua:121		like putty in your hands\ncharacter customisation option	как пластилин в руках\nопция настройки персонажа
-src/character_unlocks.lua:134		Bets	Ставки
-src/character_unlocks.lua:135		bet ¤ to increase difficulty and reward	поставь ¤ чтобы повысить сложность и награду
+src/character_unlocks.lua:134		Wagers	Ставки
+src/character_unlocks.lua:135		wager ¤ to increase difficulty and reward	поставь ¤ чтобы повысить сложность и награду
 src/characters/anais.lua:2		Anais	Анаис
 src/characters/anais.lua:38		Biblically Accurate	Библейски Точный
 src/characters/anais.lua:56 (+10 others)		${count} levels til the end	${count} уровней до конца
@@ -78,7 +78,7 @@ src/characters/god.lua:15	dialogue	fall back	отступи
 src/characters/god.lua:34	dialogue	begone	убирайся
 src/characters/god.lua:40		wager your soul	поставь свою душу на кон
 src/characters/god.lua:41		Wager your Soul?	поставить свою душу на кон?
-src/characters/god.lua:42		You are betting your soul.\nIf you lose, your save is gone forever.	Ты ставитшь на кон свою душу.\nЕсли проиграешь, твой файл потерян навсегда.
+src/characters/god.lua:42		You are wagering your soul.\nIf you lose, your save is gone forever.	Ты ставитшь на кон свою душу.\nЕсли проиграешь, твой файл потерян навсегда.
 src/characters/god.lua:51	dialogue	i hope you are feeling lucky	надеюсь ты удачник
 src/characters/god.lua:70		but you have earned nothing	но ты ничего не заработала
 src/characters/god.lua:72		but you need ${stars} ¤	но тебе нужно ${stars} ¤
@@ -1211,7 +1211,7 @@ src/states/ending_demo.lua:215		back to title	в главное меню
 src/states/ending_finale.lua:87	dialogue	well well well	ну надо же
 src/states/ending_finale.lua:88	dialogue	how did we get here?	как мы здесь оказались?
 src/states/ending_finale.lua:90	dialogue	ah, i remember	ах, я вспомнил
-src/states/ending_finale.lua:96	dialogue	you bet your soul	ты поставила на кон свою душу
+src/states/ending_finale.lua:96	dialogue	you wagered your soul	ты поставила на кон свою душу
 src/states/ending_finale.lua:98	dialogue	and you lost	и проиграла
 src/states/ending_finale.lua:101	dialogue	embrace oblivion	прими забвение
 src/states/ending_finale.lua:103	dialogue	none of this ever happened	ничего из этого никогда не было
@@ -1237,14 +1237,14 @@ src/states/fish_market.lua:265		Next!	Дальше!
 src/states/game.lua:146 (+2 others)		back	
 src/states/game.lua:160		PAUSE II	ПАУЗА II
 src/states/game.lua:167 (+1 others)		Continue	Продолжать
-src/states/game.lua:171 (+1 others)		Cannot Restart Bet Runs	Нельзя перезапустить забег со ставкой
+src/states/game.lua:171 (+1 others)		Cannot Restart Wager Runs	Нельзя перезапустить забег со ставкой
 src/states/game.lua:174		Restart	Перезапуск
 src/states/game.lua:176		Restart the run from scratch\nand lose all gained stars?	Начать забег заново и потерять все полученные звезды?
 src/states/game.lua:182 (+3 others)		Options	Настройки
 src/states/game.lua:190		Save Run	
 src/states/game.lua:191		(Cant Save Right Now)	
 src/states/game.lua:194		Quit to menu and save run for later?	
-src/states/game.lua:202		Surrender	
+src/states/game.lua:202		Abandon	
 src/states/game.lua:204		Quit to menu and lose all gained stars?	Выйти в меню и потерять все полученные звезды?
 src/states/game.lua:209		No way out	Выхода нет
 src/states/game.lua:514		secure the points\nend the turn\nrecharge character power\nclear momentum	сохранить очки\nзавершить ход\nвосстановить силу персонажа\nобнулить инерцию
@@ -1257,7 +1257,7 @@ src/states/game.lua:934		ALL BUST BLOCKED	ВСЕ БАСТЫ ЗАБЛОКИРОВ
 src/states/game.lua:950		SHIELD OVERLOADED	ЩИТ ПЕРЕГРУЖЕН
 src/states/game.lua:951		${count} BUSTS BLOCKED	ЗАБЛОКИРОВАНО БАСТОВ: ${count}
 src/states/game.lua:951		${count} BUST BLOCKED	ЗАБЛОКИРОВАН БАСТ
-src/states/game.lua:1001		bet 	ставка 
+src/states/game.lua:1001		wager ${amount} ¤	ставка ${amount} ¤
 src/states/game.lua:1004		${STARS} Stars Unbanked	${STARS} несбереженных звезд
 src/states/game.lua:1006		bank stars after each nightmare level or win the run to secure them	сбереги звезды после каждого кошмарного уровня или выиграй забег, чтобы сохранить их
 src/states/game.lua:1076		praying...	молитва...
@@ -1290,12 +1290,12 @@ src/states/game.lua:3323		Overshoot! +${amount} stars
 src/states/game.lua:3356		Level Coins	Монетки уровня
 src/states/game.lua:3367		Extra Turn Coins	Монетки за доп. ходы
 src/states/game.lua:3379		Combine Coins	Объедининение монеток
-src/states/game.lua:3396		Bet bonus! +	Бонус ставки! +
+src/states/game.lua:3396		Wager bonus! +${amount} stars	Бонус ставки! +${amount} звёзд
 src/states/game.lua:3446		--  Level ${number} Complete!  --	--  Уровень ${number} пройден!  --
 src/states/game.lua:3462		Score:	Счет:
 src/states/game.lua:3464		Reward:	Награда:
 src/states/game.lua:3465		Extra turns:	Доп. ходы:
-src/states/game.lua:3466		Bet bonus:	Бонус ставки:
+src/states/game.lua:3466		Wager bonus:	Бонус ставки:
 src/states/game.lua:3467		Overshoot:	Перебор:
 src/states/game.lua:3469		Total:	Итого:
 src/states/game.lua:3567		don't lose it	не потеряй её
@@ -1324,7 +1324,7 @@ src/states/game_setup.lua:1098		${stars} ¤ reward limit	Лимит наград
 src/states/gameover.lua:224		Congratulations, you lost.	Поздравляю, ты проиграла.
 src/states/gameover.lua:225		Better luck next time.	В следующий раз повезёт больше.
 src/states/gameover.lua:226		Maybe next time.	Может, в следующий раз.
-src/states/gameover.lua:266		Bet ${BET}¤	Ставка ${BET}¤
+src/states/gameover.lua:266		Wager ${BET}¤	Ставка ${BET}¤
 src/states/gameover.lua:274		Death Tax ${STARS}¤	Налог за смерть ${STARS}¤
 src/states/gameover.lua:283		GAME OVER	ИГРА ОКОНЧЕНА
 src/states/gameover.lua:315		Death tax:	Налог за смерть:
@@ -1477,11 +1477,11 @@ src/ui/character_body.lua:299 (+2 others)	ui	LOCKED	ЗАКРЫТО
 src/ui/combination_table.lua:34 (+1 others)	ui	flush	флеш
 src/ui/combination_table.lua:50	ui	Combinations	Комбинации
 src/ui/combination_table.lua:50	ui	hello :)	привет :)
-src/ui/game_setup_options.lua:4	ui	easy bet	легкая ставка
+src/ui/game_setup_options.lua:4	ui	easy wager	легкая ставка
 src/ui/game_setup_options.lua:5	ui	increase difficulty by 1	увеличить сложность на 1
-src/ui/game_setup_options.lua:16	ui	medium bet	средняя ставка
+src/ui/game_setup_options.lua:16	ui	medium wager	средняя ставка
 src/ui/game_setup_options.lua:17	ui	increase difficulty by 2	увеличить сложность на 2
-src/ui/game_setup_options.lua:28	ui	hard bet	тяжелая ставка
+src/ui/game_setup_options.lua:28	ui	hard wager	тяжелая ставка
 src/ui/game_setup_options.lua:29	ui	increase difficulty by 3	увеличить сложность на 3
 src/ui/help_screen.lua:18	ui	HELP ME!	ПОМОГИ!
 src/ui/help_screen.lua:74	ui	INFO DUMP :)	ИНФОДАМП :)

@@ -37,8 +37,8 @@ src/character_unlocks.lua:105		slimy	slämmig
 src/character_unlocks.lua:114		say aaaaaaaa	säg aaaaaaaa
 src/character_unlocks.lua:120		Plasticine	Modellera
 src/character_unlocks.lua:121		like putty in your hands\ncharacter customisation option	som lera i dina händer\nmöjlighet att anpassa karaktären
-src/character_unlocks.lua:134		Bets	Slå vad
-src/character_unlocks.lua:135		bet ¤ to increase difficulty and reward	satsning ¤ höj svårighetsgraden och belöning
+src/character_unlocks.lua:134		Wagers	Slå vad
+src/character_unlocks.lua:135		wager ¤ to increase difficulty and reward	satsning ¤ höj svårighetsgraden och belöning
 src/characters/anais.lua:2		Anais	Anais
 src/characters/anais.lua:38		Biblically Accurate	Bibliskt korrekt
 src/characters/anais.lua:56 (+10 others)		${count} levels til the end	${count} nivåer kvar till slutet
@@ -78,7 +78,7 @@ src/characters/god.lua:15	dialogue	fall back	dra dig tillbaka
 src/characters/god.lua:34	dialogue	begone	försvinn
 src/characters/god.lua:40		wager your soul	satsa din själ
 src/characters/god.lua:41		Wager your Soul?	Satsa din själ?
-src/characters/god.lua:42		You are betting your soul.\nIf you lose, your save is gone forever.	Du satsar din själ.\nFörlorar du är din sparfil borta för alltid.
+src/characters/god.lua:42		You are wagering your soul.\nIf you lose, your save is gone forever.	Du satsar din själ.\nFörlorar du är din sparfil borta för alltid.
 src/characters/god.lua:51	dialogue	i hope you are feeling lucky	jag hoppas att du känner att turen är på din sida
 src/characters/god.lua:70		but you have earned nothing	men du har inte tjänat ihop något
 src/characters/god.lua:72		but you need ${stars} ¤	men du behöver ${stars} ¤
@@ -1211,7 +1211,7 @@ src/states/ending_demo.lua:215		back to title	till titelskärmen
 src/states/ending_finale.lua:87	dialogue	well well well	nå, nå, nå
 src/states/ending_finale.lua:88	dialogue	how did we get here?	hur hamnade vi här?
 src/states/ending_finale.lua:90	dialogue	ah, i remember	just det, nu minns jag
-src/states/ending_finale.lua:96	dialogue	you bet your soul	du satsade din själ
+src/states/ending_finale.lua:96	dialogue	you wagered your soul	du satsade din själ
 src/states/ending_finale.lua:98	dialogue	and you lost	och du förlorade
 src/states/ending_finale.lua:101	dialogue	embrace oblivion	ge dig hän åt intet
 src/states/ending_finale.lua:103	dialogue	none of this ever happened	inget av detta har någonsin hänt
@@ -1237,14 +1237,14 @@ src/states/fish_market.lua:265		Next!	Nästa!
 src/states/game.lua:146 (+2 others)		back	
 src/states/game.lua:160		PAUSE II	PAUS II
 src/states/game.lua:167 (+1 others)		Continue	Fortsätt
-src/states/game.lua:171 (+1 others)		Cannot Restart Bet Runs	Kan inte starta om omgångar med vad
+src/states/game.lua:171 (+1 others)		Cannot Restart Wager Runs	Kan inte starta om omgångar med vad
 src/states/game.lua:174		Restart	Starta om
 src/states/game.lua:176		Restart the run from scratch\nand lose all gained stars?	Starta om spelomgången från början\noch förlora alla intjänade stjärnor?
 src/states/game.lua:182 (+3 others)		Options	Inställningar
 src/states/game.lua:190		Save Run	Spara spelomgång
 src/states/game.lua:191		(Cant Save Right Now)	(Kan inte spara just nu)
 src/states/game.lua:194		Quit to menu and save run for later?	Gå till menyn och spara spelomgången till senare?
-src/states/game.lua:202		Surrender	Ge upp
+src/states/game.lua:202		Abandon	Ge upp
 src/states/game.lua:204		Quit to menu and lose all gained stars?	Gå till menyn och förlora alla intjänade stjärnor?
 src/states/game.lua:209		No way out	Ingen utväg
 src/states/game.lua:514		secure the points\nend the turn\nrecharge character power\nclear momentum	säkra poängen\navsluta rundan\nladda karaktärens kraft\nnollställ flytet
@@ -1257,7 +1257,7 @@ src/states/game.lua:934		ALL BUST BLOCKED	ALLA NITAR BLOCKERADE
 src/states/game.lua:950		SHIELD OVERLOADED	SKÖLD ÖVERBELASTAD
 src/states/game.lua:951		${count} BUSTS BLOCKED	${count} NITAR BLOCKERADE
 src/states/game.lua:951		${count} BUST BLOCKED	${count} NIT BLOCKERAD
-src/states/game.lua:1001		bet 	satsning
+src/states/game.lua:1001		wager ${amount} ¤	satsning ${amount} ¤
 src/states/game.lua:1004		${STARS} Stars Unbanked	${STARS} osäkrade stjärnor
 src/states/game.lua:1006		bank stars after each nightmare level or win the run to secure them	säkra stjärnor efter varje mardrömsnivå eller vinn spelomgången för att behålla dem
 src/states/game.lua:1076		praying...	ber...
@@ -1290,12 +1290,12 @@ src/states/game.lua:3323		Overshoot! +${amount} stars
 src/states/game.lua:3356		Level Coins	Nivåmynt
 src/states/game.lua:3367		Extra Turn Coins	Mynt för extra rundor
 src/states/game.lua:3379		Combine Coins	Kombinationsmynt
-src/states/game.lua:3396		Bet bonus! +	Satsningsbonus! +
+src/states/game.lua:3396		Wager bonus! +${amount} stars	Satsningsbonus! +${amount} stjärnor
 src/states/game.lua:3446		--  Level ${number} Complete!  --	--  Nivå ${number} avklarad!  --
 src/states/game.lua:3462		Score:	Poäng:
 src/states/game.lua:3464		Reward:	Belöning:
 src/states/game.lua:3465		Extra turns:	Extra rundor:
-src/states/game.lua:3466		Bet bonus:	Satsningsbonus:
+src/states/game.lua:3466		Wager bonus:	Satsningsbonus:
 src/states/game.lua:3467		Overshoot:	Överskott:
 src/states/game.lua:3469		Total:	Totalt:
 src/states/game.lua:3567		don't lose it	tappa inte bort den
@@ -1324,7 +1324,7 @@ src/states/game_setup.lua:1098		${stars} ¤ reward limit	Belöningsgräns: ${sta
 src/states/gameover.lua:224		Congratulations, you lost.	Grattis, du förlorade.
 src/states/gameover.lua:225		Better luck next time.	Bättre lycka nästa gång.
 src/states/gameover.lua:226		Maybe next time.	Kanske nästa gång.
-src/states/gameover.lua:266		Bet ${BET}¤	Satsning ${BET}¤
+src/states/gameover.lua:266		Wager ${BET}¤	Satsning ${BET}¤
 src/states/gameover.lua:274		Death Tax ${STARS}¤	Dödsskatt ${STARS}¤
 src/states/gameover.lua:283		GAME OVER	SPELET ÄR ÖVER
 src/states/gameover.lua:315		Death tax:	Dödsskatt:
@@ -1477,11 +1477,11 @@ src/ui/character_body.lua:299 (+2 others)	ui	LOCKED	LÅST
 src/ui/combination_table.lua:34 (+1 others)	ui	flush	färg
 src/ui/combination_table.lua:50	ui	Combinations	Kombinationer
 src/ui/combination_table.lua:50	ui	hello :)	hej :)
-src/ui/game_setup_options.lua:4	ui	easy bet	lätt satsning
+src/ui/game_setup_options.lua:4	ui	easy wager	lätt satsning
 src/ui/game_setup_options.lua:5	ui	increase difficulty by 1	höj svårighetsgraden med 1
-src/ui/game_setup_options.lua:16	ui	medium bet	medelsvår satsning
+src/ui/game_setup_options.lua:16	ui	medium wager	medelsvår satsning
 src/ui/game_setup_options.lua:17	ui	increase difficulty by 2	höj svårighetsgraden med 2
-src/ui/game_setup_options.lua:28	ui	hard bet	svår satsning
+src/ui/game_setup_options.lua:28	ui	hard wager	svår satsning
 src/ui/game_setup_options.lua:29	ui	increase difficulty by 3	höj svårighetsgraden med 3
 src/ui/help_screen.lua:18	ui	HELP ME!	HJÄLP MIG!
 src/ui/help_screen.lua:74	ui	INFO DUMP :)	INFODUMP :)

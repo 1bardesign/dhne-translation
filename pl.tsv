@@ -37,8 +37,8 @@ src/character_unlocks.lua:105		slimy	oślizgły
 src/character_unlocks.lua:114		say aaaaaaaa	
 src/character_unlocks.lua:120		Plasticine	Plastelina
 src/character_unlocks.lua:121		like putty in your hands\ncharacter customisation option	jak plastelina w twoich rękach\nopcja personalizacji postaci
-src/character_unlocks.lua:134		Bets	Zakłady
-src/character_unlocks.lua:135		bet ¤ to increase difficulty and reward	postaw ¤, by podnieść trudność i nagrodę
+src/character_unlocks.lua:134		Wagers	Zakłady
+src/character_unlocks.lua:135		wager ¤ to increase difficulty and reward	postaw ¤, by podnieść trudność i nagrodę
 src/characters/anais.lua:2		Anais	Anais
 src/characters/anais.lua:38		Biblically Accurate	Biblijnie Poprawna
 src/characters/anais.lua:56 (+10 others)		${count} levels til the end	
@@ -78,7 +78,7 @@ src/characters/god.lua:15	dialogue	fall back	cofnij się
 src/characters/god.lua:34	dialogue	begone	precz
 src/characters/god.lua:40		wager your soul	postaw swoją duszę
 src/characters/god.lua:41		Wager your Soul?	Postawić Duszę?
-src/characters/god.lua:42		You are betting your soul.\nIf you lose, your save is gone forever.	Stawiasz swoją duszę.\nJeśli przegrasz, twój zapis zniknie na zawsze.
+src/characters/god.lua:42		You are wagering your soul.\nIf you lose, your save is gone forever.	Stawiasz swoją duszę.\nJeśli przegrasz, twój zapis zniknie na zawsze.
 src/characters/god.lua:51	dialogue	i hope you are feeling lucky	mam nadzieję, że czujesz farta
 src/characters/god.lua:70		but you have earned nothing	ale niczego nie zarobiłaś
 src/characters/god.lua:72		but you need ${stars} ¤	
@@ -1211,7 +1211,7 @@ src/states/ending_demo.lua:215		back to title	wróć do menu
 src/states/ending_finale.lua:87	dialogue	well well well	proszę, proszę, proszę
 src/states/ending_finale.lua:88	dialogue	how did we get here?	jak do tego doszło?
 src/states/ending_finale.lua:90	dialogue	ah, i remember	ach, pamiętam
-src/states/ending_finale.lua:96	dialogue	you bet your soul	postawiłaś swoją duszę
+src/states/ending_finale.lua:96	dialogue	you wagered your soul	postawiłaś swoją duszę
 src/states/ending_finale.lua:98	dialogue	and you lost	i przegrałaś
 src/states/ending_finale.lua:101	dialogue	embrace oblivion	przyjmij niebyt
 src/states/ending_finale.lua:103	dialogue	none of this ever happened	nic z tego nigdy się nie wydarzyło
@@ -1237,14 +1237,14 @@ src/states/fish_market.lua:265		Next!	Następna!
 src/states/game.lua:146 (+2 others)		back	
 src/states/game.lua:160		PAUSE II	PAUZA II
 src/states/game.lua:167 (+1 others)		Continue	Kontynuuj
-src/states/game.lua:171 (+1 others)		Cannot Restart Bet Runs	Nie można zrestartować podejść z zakładem
+src/states/game.lua:171 (+1 others)		Cannot Restart Wager Runs	Nie można zrestartować podejść z zakładem
 src/states/game.lua:174		Restart	Restart
 src/states/game.lua:176		Restart the run from scratch\nand lose all gained stars?	Zacząć podejście od nowa\ni stracić wszystkie zdobyte gwiazdki?
 src/states/game.lua:182 (+3 others)		Options	Opcje
 src/states/game.lua:190		Save Run	
 src/states/game.lua:191		(Cant Save Right Now)	
 src/states/game.lua:194		Quit to menu and save run for later?	
-src/states/game.lua:202		Surrender	
+src/states/game.lua:202		Abandon	
 src/states/game.lua:204		Quit to menu and lose all gained stars?	Wyjść do menu i stracić wszystkie zdobyte gwiazdki?
 src/states/game.lua:209		No way out	
 src/states/game.lua:514		secure the points\nend the turn\nrecharge character power\nclear momentum	zabezpiecz punkty\nzakończ turę\nnaładuj moc postaci\nwyzeruj rozpęd
@@ -1257,7 +1257,7 @@ src/states/game.lua:934		ALL BUST BLOCKED	WSZYSTKIE BUSTY ZABLOKOWANE
 src/states/game.lua:950		SHIELD OVERLOADED	TARCZA PRZECIĄŻONA
 src/states/game.lua:951		${count} BUSTS BLOCKED	
 src/states/game.lua:951		${count} BUST BLOCKED	
-src/states/game.lua:1001		bet 	zakład 
+src/states/game.lua:1001		wager ${amount} ¤	zakład ${amount} ¤
 src/states/game.lua:1004		${STARS} Stars Unbanked	Niezbankowane gwiazdki: ${STARS}
 src/states/game.lua:1006		bank stars after each nightmare level or win the run to secure them	bankuj gwiazdki po każdym poziomie koszmaru albo wygraj podejście, by je zabezpieczyć
 src/states/game.lua:1076		praying...	modlitwa...
@@ -1290,12 +1290,12 @@ src/states/game.lua:3323		Overshoot! +${amount} stars
 src/states/game.lua:3356		Level Coins	Monety za Poziom
 src/states/game.lua:3367		Extra Turn Coins	Monety za Dodatkowe Tury
 src/states/game.lua:3379		Combine Coins	Połącz Monety
-src/states/game.lua:3396		Bet bonus! +	Bonus za zakład! +
+src/states/game.lua:3396		Wager bonus! +${amount} stars	Bonus za zakład! +${amount} gwiazdek
 src/states/game.lua:3446		--  Level ${number} Complete!  --	--  Poziom ${number} ukończony!  --
 src/states/game.lua:3462		Score:	Wynik:
 src/states/game.lua:3464		Reward:	Nagroda:
 src/states/game.lua:3465		Extra turns:	Dodatkowe tury:
-src/states/game.lua:3466		Bet bonus:	Bonus za zakład:
+src/states/game.lua:3466		Wager bonus:	Bonus za zakład:
 src/states/game.lua:3467		Overshoot:	Nadwyżka:
 src/states/game.lua:3469		Total:	Razem:
 src/states/game.lua:3567		don't lose it	nie zgub jej
@@ -1324,7 +1324,7 @@ src/states/game_setup.lua:1098		${stars} ¤ reward limit	Limit nagrody: ${stars}
 src/states/gameover.lua:224		Congratulations, you lost.	Gratulacje, przegrałaś.
 src/states/gameover.lua:225		Better luck next time.	Więcej farta następnym razem.
 src/states/gameover.lua:226		Maybe next time.	Może następnym razem.
-src/states/gameover.lua:266		Bet ${BET}¤	Zakład ${BET}¤
+src/states/gameover.lua:266		Wager ${BET}¤	Zakład ${BET}¤
 src/states/gameover.lua:274		Death Tax ${STARS}¤	Podatek od Śmierci ${STARS}¤
 src/states/gameover.lua:283		GAME OVER	KONIEC GRY
 src/states/gameover.lua:315		Death tax:	Podatek od śmierci:
@@ -1477,11 +1477,11 @@ src/ui/character_body.lua:299 (+2 others)	ui	LOCKED	ZABLOKOWANE
 src/ui/combination_table.lua:34 (+1 others)	ui	flush	kolor
 src/ui/combination_table.lua:50	ui	Combinations	Kombinacje
 src/ui/combination_table.lua:50	ui	hello :)	cześć :)
-src/ui/game_setup_options.lua:4	ui	easy bet	łatwy zakład
+src/ui/game_setup_options.lua:4	ui	easy wager	łatwy zakład
 src/ui/game_setup_options.lua:5	ui	increase difficulty by 1	trudność +1
-src/ui/game_setup_options.lua:16	ui	medium bet	średni zakład
+src/ui/game_setup_options.lua:16	ui	medium wager	średni zakład
 src/ui/game_setup_options.lua:17	ui	increase difficulty by 2	trudność +2
-src/ui/game_setup_options.lua:28	ui	hard bet	trudny zakład
+src/ui/game_setup_options.lua:28	ui	hard wager	trudny zakład
 src/ui/game_setup_options.lua:29	ui	increase difficulty by 3	trudność +3
 src/ui/help_screen.lua:18	ui	HELP ME!	POMOCY!
 src/ui/help_screen.lua:74	ui	INFO DUMP :)	ŚCIĄGAWKA :)

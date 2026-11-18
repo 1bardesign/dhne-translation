@@ -37,8 +37,8 @@ src/character_unlocks.lua:105		slimy	滑溜溜的
 src/character_unlocks.lua:114		say aaaaaaaa	说 啊啊啊啊
 src/character_unlocks.lua:120		Plasticine	橡皮泥
 src/character_unlocks.lua:121		like putty in your hands\ncharacter customisation option	随你心意\n角色个性化选项
-src/character_unlocks.lua:134		Bets	下注
-src/character_unlocks.lua:135		bet ¤ to increase difficulty and reward	赌上¤增加难度和奖励
+src/character_unlocks.lua:134		Wagers	下注
+src/character_unlocks.lua:135		wager ¤ to increase difficulty and reward	赌上¤增加难度和奖励
 src/characters/anais.lua:2		Anais	Anais
 src/characters/anais.lua:38		Biblically Accurate	正如圣经中所说
 src/characters/anais.lua:56 (+10 others)		${count} levels til the end	离终结还有${count}关
@@ -78,7 +78,7 @@ src/characters/god.lua:15	dialogue	fall back	退下
 src/characters/god.lua:34	dialogue	begone	消失吧
 src/characters/god.lua:40		wager your soul	赌上你的灵魂
 src/characters/god.lua:41		Wager your Soul?	赌上灵魂？
-src/characters/god.lua:42		You are betting your soul.\nIf you lose, your save is gone forever.	你将赌上你的灵魂。\n如果输了，你将会永久丢失存档。
+src/characters/god.lua:42		You are wagering your soul.\nIf you lose, your save is gone forever.	你将赌上你的灵魂。\n如果输了，你将会永久丢失存档。
 src/characters/god.lua:51	dialogue	i hope you are feeling lucky	希望你今天手气不错
 src/characters/god.lua:70		but you have earned nothing	你什么也没赚到
 src/characters/god.lua:72		but you need ${stars} ¤	但你需要${stars} ¤
@@ -1211,7 +1211,7 @@ src/states/ending_demo.lua:215		back to title	返回标题
 src/states/ending_finale.lua:87	dialogue	well well well	嚯嚯
 src/states/ending_finale.lua:88	dialogue	how did we get here?	怎么回事呢？
 src/states/ending_finale.lua:90	dialogue	ah, i remember	哦，我记起来了
-src/states/ending_finale.lua:96	dialogue	you bet your soul	你赌上了你的灵魂
+src/states/ending_finale.lua:96	dialogue	you wagered your soul	你赌上了你的灵魂
 src/states/ending_finale.lua:98	dialogue	and you lost	而你输掉了
 src/states/ending_finale.lua:101	dialogue	embrace oblivion	拥抱虚无吧
 src/states/ending_finale.lua:103	dialogue	none of this ever happened	这一切从来没有发生过
@@ -1237,14 +1237,14 @@ src/states/fish_market.lua:265		Next!	完成！
 src/states/game.lua:146 (+2 others)		back	
 src/states/game.lua:160		PAUSE II	暂停中  I I
 src/states/game.lua:167 (+1 others)		Continue	继续
-src/states/game.lua:171 (+1 others)		Cannot Restart Bet Runs	无法重新开始已下注的游戏
+src/states/game.lua:171 (+1 others)		Cannot Restart Wager Runs	无法重新开始已下注的游戏
 src/states/game.lua:174		Restart	重新开始
 src/states/game.lua:176		Restart the run from scratch\nand lose all gained stars?	确定重新开始\n并失去所有获得的星星？
 src/states/game.lua:182 (+3 others)		Options	选项
 src/states/game.lua:190		Save Run	保存进度
 src/states/game.lua:191		(Cant Save Right Now)	（当下无法保存）
 src/states/game.lua:194		Quit to menu and save run for later?	退出至菜单并保存游玩进度？
-src/states/game.lua:202		Surrender	放弃
+src/states/game.lua:202		Abandon	放弃
 src/states/game.lua:204		Quit to menu and lose all gained stars?	退出至菜单并失去所有获得的星星？
 src/states/game.lua:209		No way out	无处可逃
 src/states/game.lua:514		secure the points\nend the turn\nrecharge character power\nclear momentum	保全分数\n结束该回合\n重置角色能力值\n清空惯性
@@ -1257,7 +1257,7 @@ src/states/game.lua:934		ALL BUST BLOCKED	已阻挡全部BUST
 src/states/game.lua:950		SHIELD OVERLOADED	护盾超载
 src/states/game.lua:951		${count} BUSTS BLOCKED	阻挡${count}个BUST
 src/states/game.lua:951		${count} BUST BLOCKED	阻挡${count}个BUST
-src/states/game.lua:1001		bet 	赌上
+src/states/game.lua:1001		wager ${amount} ¤	赌上 ${amount} ¤
 src/states/game.lua:1004		${STARS} Stars Unbanked	${STARS}个未收获的星星
 src/states/game.lua:1006		bank stars after each nightmare level or win the run to secure them	在每个噩梦关卡结束后收获星星或者通关整个游戏以收获星星
 src/states/game.lua:1076		praying...	祈祷中。。
@@ -1290,12 +1290,12 @@ src/states/game.lua:3323		Overshoot! +${amount} stars	超额！+${amount}星星
 src/states/game.lua:3356		Level Coins	关卡硬币
 src/states/game.lua:3367		Extra Turn Coins	多余回合硬币
 src/states/game.lua:3379		Combine Coins	合成硬币
-src/states/game.lua:3396		Bet bonus! +	下注加成！+
+src/states/game.lua:3396		Wager bonus! +${amount} stars	下注加成！+${amount}星星
 src/states/game.lua:3446		--  Level ${number} Complete!  --	— 第${number}关完成！ —
 src/states/game.lua:3462		Score:	分数：
 src/states/game.lua:3464		Reward:	奖励：
 src/states/game.lua:3465		Extra turns:	多余回合：
-src/states/game.lua:3466		Bet bonus:	下注加成：
+src/states/game.lua:3466		Wager bonus:	下注加成：
 src/states/game.lua:3467		Overshoot:	超额：
 src/states/game.lua:3469		Total:	共：
 src/states/game.lua:3567		don't lose it	可别输光光了
@@ -1324,7 +1324,7 @@ src/states/game_setup.lua:1098		${stars} ¤ reward limit	${stars} ¤ 奖励上�
 src/states/gameover.lua:224		Congratulations, you lost.	恭喜你，你输了。
 src/states/gameover.lua:225		Better luck next time.	欢迎下次光临。
 src/states/gameover.lua:226		Maybe next time.	下次再来吧。
-src/states/gameover.lua:266		Bet ${BET}¤	赌上${BET}¤
+src/states/gameover.lua:266		Wager ${BET}¤	赌上${BET}¤
 src/states/gameover.lua:274		Death Tax ${STARS}¤	死亡亏损${STARS}¤
 src/states/gameover.lua:283		GAME OVER	GAME OVER
 src/states/gameover.lua:315		Death tax:	死亡亏损：
@@ -1477,11 +1477,11 @@ src/ui/character_body.lua:299 (+2 others)	ui	LOCKED	未解锁
 src/ui/combination_table.lua:34 (+1 others)	ui	flush	同花
 src/ui/combination_table.lua:50	ui	Combinations	组合
 src/ui/combination_table.lua:50	ui	hello :)	哈咯 :)
-src/ui/game_setup_options.lua:4	ui	easy bet	轻松下注
+src/ui/game_setup_options.lua:4	ui	easy wager	轻松下注
 src/ui/game_setup_options.lua:5	ui	increase difficulty by 1	难度增加1
-src/ui/game_setup_options.lua:16	ui	medium bet	认真下注
+src/ui/game_setup_options.lua:16	ui	medium wager	认真下注
 src/ui/game_setup_options.lua:17	ui	increase difficulty by 2	难度增加2
-src/ui/game_setup_options.lua:28	ui	hard bet	困难下注
+src/ui/game_setup_options.lua:28	ui	hard wager	困难下注
 src/ui/game_setup_options.lua:29	ui	increase difficulty by 3	难度增加3
 src/ui/help_screen.lua:18	ui	HELP ME!	帮帮我！
 src/ui/help_screen.lua:74	ui	INFO DUMP :)	腹泻式教程 :)

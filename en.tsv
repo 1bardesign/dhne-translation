@@ -37,8 +37,8 @@ src/character_unlocks.lua:105		slimy
 src/character_unlocks.lua:114		say aaaaaaaa	
 src/character_unlocks.lua:120		Plasticine	
 src/character_unlocks.lua:121		like putty in your hands\ncharacter customisation option	
-src/character_unlocks.lua:134		Bets	
-src/character_unlocks.lua:135		bet ¤ to increase difficulty and reward	
+src/character_unlocks.lua:134		Wagers	
+src/character_unlocks.lua:135		wager ¤ to increase difficulty and reward	
 src/characters/anais.lua:2		Anais	
 src/characters/anais.lua:38		Biblically Accurate	
 src/characters/anais.lua:56 (+10 others)		${count} levels til the end	
@@ -78,7 +78,7 @@ src/characters/god.lua:15	dialogue	fall back
 src/characters/god.lua:34	dialogue	begone	
 src/characters/god.lua:40		wager your soul	
 src/characters/god.lua:41		Wager your Soul?	
-src/characters/god.lua:42		You are betting your soul.\nIf you lose, your save is gone forever.	
+src/characters/god.lua:42		You are wagering your soul.\nIf you lose, your save is gone forever.	
 src/characters/god.lua:51	dialogue	i hope you are feeling lucky	
 src/characters/god.lua:70		but you have earned nothing	
 src/characters/god.lua:72		but you need ${stars} ¤	
@@ -1211,7 +1211,7 @@ src/states/ending_demo.lua:215		back to title
 src/states/ending_finale.lua:87	dialogue	well well well	
 src/states/ending_finale.lua:88	dialogue	how did we get here?	
 src/states/ending_finale.lua:90	dialogue	ah, i remember	
-src/states/ending_finale.lua:96	dialogue	you bet your soul	
+src/states/ending_finale.lua:96	dialogue	you wagered your soul	
 src/states/ending_finale.lua:98	dialogue	and you lost	
 src/states/ending_finale.lua:101	dialogue	embrace oblivion	
 src/states/ending_finale.lua:103	dialogue	none of this ever happened	
@@ -1237,14 +1237,14 @@ src/states/fish_market.lua:265		Next!
 src/states/game.lua:146 (+2 others)		back	
 src/states/game.lua:160		PAUSE II	
 src/states/game.lua:167 (+1 others)		Continue	
-src/states/game.lua:171 (+1 others)		Cannot Restart Bet Runs	
+src/states/game.lua:171 (+1 others)		Cannot Restart Wager Runs	
 src/states/game.lua:174		Restart	
 src/states/game.lua:176		Restart the run from scratch\nand lose all gained stars?	
 src/states/game.lua:182 (+3 others)		Options	
 src/states/game.lua:190		Save Run	
 src/states/game.lua:191		(Cant Save Right Now)	
 src/states/game.lua:194		Quit to menu and save run for later?	
-src/states/game.lua:202		Surrender	
+src/states/game.lua:202		Abandon	
 src/states/game.lua:204		Quit to menu and lose all gained stars?	
 src/states/game.lua:209		No way out	
 src/states/game.lua:514		secure the points\nend the turn\nrecharge character power\nclear momentum	
@@ -1257,7 +1257,7 @@ src/states/game.lua:934		ALL BUST BLOCKED
 src/states/game.lua:950		SHIELD OVERLOADED	
 src/states/game.lua:951		${count} BUSTS BLOCKED	
 src/states/game.lua:951		${count} BUST BLOCKED	
-src/states/game.lua:1001		bet 	
+src/states/game.lua:1001		wager ${amount} ¤	
 src/states/game.lua:1004		${STARS} Stars Unbanked	
 src/states/game.lua:1006		bank stars after each nightmare level or win the run to secure them	
 src/states/game.lua:1076		praying...	
@@ -1290,12 +1290,12 @@ src/states/game.lua:3323		Overshoot! +${amount} stars
 src/states/game.lua:3356		Level Coins	
 src/states/game.lua:3367		Extra Turn Coins	
 src/states/game.lua:3379		Combine Coins	
-src/states/game.lua:3396		Bet bonus! +	
+src/states/game.lua:3396		Wager bonus! +${amount} stars	
 src/states/game.lua:3446		--  Level ${number} Complete!  --	
 src/states/game.lua:3462		Score:	
 src/states/game.lua:3464		Reward:	
 src/states/game.lua:3465		Extra turns:	
-src/states/game.lua:3466		Bet bonus:	
+src/states/game.lua:3466		Wager bonus:	
 src/states/game.lua:3467		Overshoot:	
 src/states/game.lua:3469		Total:	
 src/states/game.lua:3567		don't lose it	
@@ -1324,7 +1324,7 @@ src/states/game_setup.lua:1098		${stars} ¤ reward limit
 src/states/gameover.lua:224		Congratulations, you lost.	
 src/states/gameover.lua:225		Better luck next time.	
 src/states/gameover.lua:226		Maybe next time.	
-src/states/gameover.lua:266		Bet ${BET}¤	
+src/states/gameover.lua:266		Wager ${BET}¤	
 src/states/gameover.lua:274		Death Tax ${STARS}¤	
 src/states/gameover.lua:283		GAME OVER	
 src/states/gameover.lua:315		Death tax:	
@@ -1477,11 +1477,11 @@ src/ui/character_body.lua:299 (+2 others)	ui	LOCKED
 src/ui/combination_table.lua:34 (+1 others)	ui	flush	
 src/ui/combination_table.lua:50	ui	Combinations	
 src/ui/combination_table.lua:50	ui	hello :)	
-src/ui/game_setup_options.lua:4	ui	easy bet	
+src/ui/game_setup_options.lua:4	ui	easy wager	
 src/ui/game_setup_options.lua:5	ui	increase difficulty by 1	
-src/ui/game_setup_options.lua:16	ui	medium bet	
+src/ui/game_setup_options.lua:16	ui	medium wager	
 src/ui/game_setup_options.lua:17	ui	increase difficulty by 2	
-src/ui/game_setup_options.lua:28	ui	hard bet	
+src/ui/game_setup_options.lua:28	ui	hard wager	
 src/ui/game_setup_options.lua:29	ui	increase difficulty by 3	
 src/ui/help_screen.lua:18	ui	HELP ME!	
 src/ui/help_screen.lua:74	ui	INFO DUMP :)	
