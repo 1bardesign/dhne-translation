@@ -1119,8 +1119,8 @@ src/powers.lua:508		${nibble}% chance to take a proper bite\nRegain 1 bust.${die
 src/powers.lua:510		You might be finished	
 src/powers.lua:515		Munch	
 src/powers.lua:516		Take a big bite to regain all busts.	
-src/powers.lua:600		Reincarnate	
-src/powers.lua:601		Selected die is reborn	
+src/powers.lua:606		Reincarnate	
+src/powers.lua:607		Selected die is reborn	
 src/special_conditions.lua:7		Solo	
 src/special_conditions.lua:18		Pair	
 src/special_conditions.lua:28		Short Straight	
@@ -1234,79 +1234,80 @@ src/states/fish_market.lua:87		--  Fish Market  --
 src/states/fish_market.lua:193		Sell Fish	
 src/states/fish_market.lua:222		Buy Fish	
 src/states/fish_market.lua:265		Next!	
-src/states/game.lua:152		PAUSE II	
-src/states/game.lua:159 (+1 others)		Continue	
-src/states/game.lua:163 (+1 others)		Cannot Restart Bet Runs	
-src/states/game.lua:166		Restart	
-src/states/game.lua:168		Restart the run from scratch\nand lose all gained stars?	
-src/states/game.lua:174 (+3 others)		Options	
-src/states/game.lua:180		Save Run	
-src/states/game.lua:182		Quit to menu and save run for later?	
-src/states/game.lua:190		Surrender	
-src/states/game.lua:192		Quit to menu and lose all gained stars?	
-src/states/game.lua:197		No way out	
-src/states/game.lua:490		secure the points\nend the turn\nrecharge character power\nclear momentum	
-src/states/game.lua:595		you must have some points to bank	
-src/states/game.lua:697		momentum: ${amount}	
-src/states/game.lua:702		adds extra ${momentum} points and mult	
-src/states/game.lua:887		Losing all Busts ends the turn.\nBusts refill at the start of each Turn	
-src/states/game.lua:891		Blocks up to ${count} busts, disappears when damaged	
-src/states/game.lua:910		ALL BUST BLOCKED	
-src/states/game.lua:926		SHIELD OVERLOADED	
-src/states/game.lua:927		${count} BUSTS BLOCKED	
-src/states/game.lua:927		${count} BUST BLOCKED	
-src/states/game.lua:977		bet 	
-src/states/game.lua:980		${STARS} Stars Unbanked	
-src/states/game.lua:982		bank stars after each nightmare level or win the run to secure them	
-src/states/game.lua:1052		praying...	
-src/states/game.lua:1052		pray	
-src/states/game.lua:1130		Losing all Turns ends the game.\nTurns refill at the start of each level.	
-src/states/game.lua:1381 (+1 others)		MERGED	
-src/states/game.lua:1858 (+1 others)		Level $level/$count $name	
-src/states/game.lua:1910		NIGHTMARE LEVEL	
-src/states/game.lua:2019 (+1 others)		Rift	
-src/states/game.lua:2185		this coin is an affront to life itself	
-src/states/game.lua:2186		this die is an affront to life itself	
-src/states/game.lua:2187		we shall not suffer such an unholy thing	
-src/states/game.lua:2188		thou shalt not shy from risk	
-src/states/game.lua:2189		you thought you could get away with this?	
-src/states/game.lua:2190		extremely naughty	
-src/states/game.lua:2193	dialogue	no downside not allowed	
-src/states/game.lua:2211	dialogue	WHAT	
-src/states/game.lua:2226		refilled	
-src/states/game.lua:2253		LAST TURN	
-src/states/game.lua:2372		- Out Of Dice -	
-src/states/game.lua:2373		never	
-src/states/game.lua:2375		Looks like you're cooked\n\nGive up?	
-src/states/game.lua:2525		INSTANT WIPE	
-src/states/game.lua:2526		${rolled} OUT OF ${rolled} DICE ROLLED BUST	
-src/states/game.lua:2543		W I P E	
-src/states/game.lua:2971		SKIP ${pip}	
-src/states/game.lua:2983		SKIP LOOPED	
-src/states/game.lua:3222		Level Complete	
-src/states/game.lua:3263		Overshoot! +	
-src/states/game.lua:3294		Level Coins	
-src/states/game.lua:3305		Extra Turn Coins	
-src/states/game.lua:3317		Combine Coins	
-src/states/game.lua:3334		Bet bonus! +	
-src/states/game.lua:3384		--  Level ${number} Complete!  --	
-src/states/game.lua:3400		Score:	
-src/states/game.lua:3402		Reward:	
-src/states/game.lua:3403		Extra turns:	
-src/states/game.lua:3404		Bet bonus:	
-src/states/game.lua:3405		Overshoot:	
-src/states/game.lua:3407		Total:	
-src/states/game.lua:3505		don't lose it	
-src/states/game.lua:3505		Soul on line	
-src/states/game.lua:3512		¤${BET} wagered	
-src/states/game.lua:3516		¤ Banked	
-src/states/game.lua:3517		Bank ¤${KEPT}?	
-src/states/game.lua:3518		Win To Bank ¤	
-src/states/game.lua:3519		Bank ¤ in ${LEVELS} lvl	
-src/states/game.lua:3533		Secure your Stars for the run\nyou won't be able to gain more this run	
-src/states/game.lua:3535		Stars already banked this run	
-src/states/game.lua:3537		Securing Stars available after each nightmare level	
-src/states/game.lua:3598 (+7 others)		no	
+src/states/game.lua:160		PAUSE II	
+src/states/game.lua:167 (+1 others)		Continue	
+src/states/game.lua:171 (+1 others)		Cannot Restart Bet Runs	
+src/states/game.lua:174		Restart	
+src/states/game.lua:176		Restart the run from scratch\nand lose all gained stars?	
+src/states/game.lua:182 (+3 others)		Options	
+src/states/game.lua:190		Save Run	
+src/states/game.lua:191		(Cant Save Right Now)	
+src/states/game.lua:194		Quit to menu and save run for later?	
+src/states/game.lua:202		Surrender	
+src/states/game.lua:204		Quit to menu and lose all gained stars?	
+src/states/game.lua:209		No way out	
+src/states/game.lua:514		secure the points\nend the turn\nrecharge character power\nclear momentum	
+src/states/game.lua:619		you must have some points to bank	
+src/states/game.lua:721		momentum: ${amount}	
+src/states/game.lua:726		adds extra ${momentum} points and mult	
+src/states/game.lua:911		Losing all Busts ends the turn.\nBusts refill at the start of each Turn	
+src/states/game.lua:915		Blocks up to ${count} busts, disappears when damaged	
+src/states/game.lua:934		ALL BUST BLOCKED	
+src/states/game.lua:950		SHIELD OVERLOADED	
+src/states/game.lua:951		${count} BUSTS BLOCKED	
+src/states/game.lua:951		${count} BUST BLOCKED	
+src/states/game.lua:1001		bet 	
+src/states/game.lua:1004		${STARS} Stars Unbanked	
+src/states/game.lua:1006		bank stars after each nightmare level or win the run to secure them	
+src/states/game.lua:1076		praying...	
+src/states/game.lua:1076		pray	
+src/states/game.lua:1154		Losing all Turns ends the game.\nTurns refill at the start of each level.	
+src/states/game.lua:1405 (+1 others)		MERGED	
+src/states/game.lua:1878 (+2 others)		Level $level/$count $name	
+src/states/game.lua:1930		NIGHTMARE LEVEL	
+src/states/game.lua:2052 (+1 others)		Rift	
+src/states/game.lua:2238		this coin is an affront to life itself	
+src/states/game.lua:2239		this die is an affront to life itself	
+src/states/game.lua:2240		we shall not suffer such an unholy thing	
+src/states/game.lua:2241		thou shalt not shy from risk	
+src/states/game.lua:2242		you thought you could get away with this?	
+src/states/game.lua:2243		extremely naughty	
+src/states/game.lua:2246	dialogue	no downside not allowed	
+src/states/game.lua:2264	dialogue	WHAT	
+src/states/game.lua:2286		refilled	
+src/states/game.lua:2313		LAST TURN	
+src/states/game.lua:2432		- Out Of Dice -	
+src/states/game.lua:2433		never	
+src/states/game.lua:2435		Looks like you're cooked\n\nGive up?	
+src/states/game.lua:2585		INSTANT WIPE	
+src/states/game.lua:2586		${rolled} OUT OF ${rolled} DICE ROLLED BUST	
+src/states/game.lua:2603		W I P E	
+src/states/game.lua:3031		SKIP ${pip}	
+src/states/game.lua:3043		SKIP LOOPED	
+src/states/game.lua:3282		Level Complete	
+src/states/game.lua:3323		Overshoot! +	
+src/states/game.lua:3354		Level Coins	
+src/states/game.lua:3365		Extra Turn Coins	
+src/states/game.lua:3377		Combine Coins	
+src/states/game.lua:3394		Bet bonus! +	
+src/states/game.lua:3444		--  Level ${number} Complete!  --	
+src/states/game.lua:3460		Score:	
+src/states/game.lua:3462		Reward:	
+src/states/game.lua:3463		Extra turns:	
+src/states/game.lua:3464		Bet bonus:	
+src/states/game.lua:3465		Overshoot:	
+src/states/game.lua:3467		Total:	
+src/states/game.lua:3565		don't lose it	
+src/states/game.lua:3565		Soul on line	
+src/states/game.lua:3572		¤${BET} wagered	
+src/states/game.lua:3576		¤ Banked	
+src/states/game.lua:3577		Bank ¤${KEPT}?	
+src/states/game.lua:3578		Win To Bank ¤	
+src/states/game.lua:3579		Bank ¤ in ${LEVELS} lvl	
+src/states/game.lua:3593		Secure your Stars for the run\nyou won't be able to gain more this run	
+src/states/game.lua:3595		Stars already banked this run	
+src/states/game.lua:3597		Securing Stars available after each nightmare level	
+src/states/game.lua:3658 (+7 others)		no	
 src/states/game_setup.lua:161		play!	
 src/states/game_setup.lua:164		need ${stars} ¤	
 src/states/game_setup.lua:197		the young will inherit the earth	
@@ -1390,20 +1391,20 @@ src/states/options.lua:558		(BETA)
 src/states/outside.lua:18		by Franek and Max	
 src/states/outside.lua:19		this was a game about waking up	
 src/states/scoreboard.lua:39		Loading Scores...	
-src/states/scoreboard.lua:111		# player	
-src/states/scoreboard.lua:128		lemme try	
-src/states/scoreboard.lua:197		Your Luck	
-src/states/scoreboard.lua:202		luckier than ${percent}%	
-src/states/scoreboard.lua:210		need more rolls	
-src/states/scoreboard.lua:218		rolls	
-src/states/scoreboard.lua:222		busts	
-src/states/scoreboard.lua:226		your bust rate	
-src/states/scoreboard.lua:230		expected	
-src/states/scoreboard.lua:234		player average	
-src/states/scoreboard.lua:239		Guts Completion	
-src/states/scoreboard.lua:249		runs played	
-src/states/scoreboard.lua:253		runs won	
-src/states/scoreboard.lua:257		achievements	
+src/states/scoreboard.lua:116		# player	
+src/states/scoreboard.lua:133		lemme try	
+src/states/scoreboard.lua:202		Your Luck	
+src/states/scoreboard.lua:207		luckier than ${percent}%	
+src/states/scoreboard.lua:215		need more rolls	
+src/states/scoreboard.lua:223		rolls	
+src/states/scoreboard.lua:227		busts	
+src/states/scoreboard.lua:231		your bust rate	
+src/states/scoreboard.lua:235		expected	
+src/states/scoreboard.lua:239		player average	
+src/states/scoreboard.lua:244		Guts Completion	
+src/states/scoreboard.lua:254		runs played	
+src/states/scoreboard.lua:258		runs won	
+src/states/scoreboard.lua:262		achievements	
 src/states/tax_audit.lua:43		--  TAX AUDIT  --	
 src/states/tax_audit.lua:79		You haven't paid your debt.\nPay ${debt} § or bribe your way out.	
 src/states/tax_audit.lua:102		Pay ${debt} §	
