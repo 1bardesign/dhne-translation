@@ -222,7 +222,7 @@ src/coloured_text.lua:14		instant
 src/coloured_text.lua:16		turn	
 src/coloured_text.lua:20		turns	
 src/coloured_text.lua:24 (+3 others)		bank	
-src/coloured_text.lua:27 (+2 others)		stars	
+src/coloured_text.lua:27 (+1 others)		stars	
 src/coloured_text.lua:31 (+5 others)		points	
 src/coloured_text.lua:35 (+9 others)		mult	
 src/coloured_text.lua:39 (+8 others)		bonus	
@@ -1285,29 +1285,29 @@ src/states/game.lua:2603		W I P E
 src/states/game.lua:3031		SKIP ${pip}	
 src/states/game.lua:3043		SKIP LOOPED	
 src/states/game.lua:3282		Level Complete	
-src/states/game.lua:3323		Overshoot! +	
-src/states/game.lua:3354		Level Coins	
-src/states/game.lua:3365		Extra Turn Coins	
-src/states/game.lua:3377		Combine Coins	
-src/states/game.lua:3394		Bet bonus! +	
-src/states/game.lua:3444		--  Level ${number} Complete!  --	
-src/states/game.lua:3460		Score:	
-src/states/game.lua:3462		Reward:	
-src/states/game.lua:3463		Extra turns:	
-src/states/game.lua:3464		Bet bonus:	
-src/states/game.lua:3465		Overshoot:	
-src/states/game.lua:3467		Total:	
-src/states/game.lua:3565		don't lose it	
-src/states/game.lua:3565		Soul on line	
-src/states/game.lua:3572		¤${BET} wagered	
-src/states/game.lua:3576		¤ Banked	
-src/states/game.lua:3577		Bank ¤${KEPT}?	
-src/states/game.lua:3578		Win To Bank ¤	
-src/states/game.lua:3579		Bank ¤ in ${LEVELS} lvl	
-src/states/game.lua:3593		Secure your Stars for the run\nyou won't be able to gain more this run	
-src/states/game.lua:3595		Stars already banked this run	
-src/states/game.lua:3597		Securing Stars available after each nightmare level	
-src/states/game.lua:3658 (+7 others)		no	
+src/states/game.lua:3323		Overshoot! +${amount} stars	
+src/states/game.lua:3356		Level Coins	
+src/states/game.lua:3367		Extra Turn Coins	
+src/states/game.lua:3379		Combine Coins	
+src/states/game.lua:3396		Bet bonus! +	
+src/states/game.lua:3446		--  Level ${number} Complete!  --	
+src/states/game.lua:3462		Score:	
+src/states/game.lua:3464		Reward:	
+src/states/game.lua:3465		Extra turns:	
+src/states/game.lua:3466		Bet bonus:	
+src/states/game.lua:3467		Overshoot:	
+src/states/game.lua:3469		Total:	
+src/states/game.lua:3567		don't lose it	
+src/states/game.lua:3567		Soul on line	
+src/states/game.lua:3574		¤${BET} wagered	
+src/states/game.lua:3578		¤ Banked	
+src/states/game.lua:3579		Bank ¤${KEPT}?	
+src/states/game.lua:3580		Win To Bank ¤	
+src/states/game.lua:3581		Bank ¤ in ${LEVELS} lvl	
+src/states/game.lua:3595		Secure your Stars for the run\nyou won't be able to gain more this run	
+src/states/game.lua:3597		Stars already banked this run	
+src/states/game.lua:3599		Securing Stars available after each nightmare level	
+src/states/game.lua:3660 (+7 others)		no	
 src/states/game_setup.lua:161		play!	
 src/states/game_setup.lua:164		need ${stars} ¤	
 src/states/game_setup.lua:197		the young will inherit the earth	

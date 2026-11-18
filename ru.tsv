@@ -222,7 +222,7 @@ src/coloured_text.lua:14		instant	полный
 src/coloured_text.lua:16		turn	ход
 src/coloured_text.lua:20		turns	хоыд
 src/coloured_text.lua:24 (+3 others)		bank	сберечь
-src/coloured_text.lua:27 (+2 others)		stars	звёзды
+src/coloured_text.lua:27 (+1 others)		stars	звёзды
 src/coloured_text.lua:31 (+5 others)		points	очки
 src/coloured_text.lua:35 (+9 others)		mult	множитель
 src/coloured_text.lua:39 (+8 others)		bonus	бонус
@@ -1285,29 +1285,29 @@ src/states/game.lua:2603		W I P E	П Р О В А Л
 src/states/game.lua:3031		SKIP ${pip}	ПРОПУСК ${pip}
 src/states/game.lua:3043		SKIP LOOPED	ПРОПУСК ЗАЦИКЛЕН
 src/states/game.lua:3282		Level Complete	Уровень пройден
-src/states/game.lua:3323		Overshoot! +	Перебор! +
-src/states/game.lua:3354		Level Coins	Монетки уровня
-src/states/game.lua:3365		Extra Turn Coins	Монетки за доп. ходы
-src/states/game.lua:3377		Combine Coins	Объедининение монеток
-src/states/game.lua:3394		Bet bonus! +	Бонус ставки! +
-src/states/game.lua:3444		--  Level ${number} Complete!  --	--  Уровень ${number} пройден!  --
-src/states/game.lua:3460		Score:	Счет:
-src/states/game.lua:3462		Reward:	Награда:
-src/states/game.lua:3463		Extra turns:	Доп. ходы:
-src/states/game.lua:3464		Bet bonus:	Бонус ставки:
-src/states/game.lua:3465		Overshoot:	Перебор:
-src/states/game.lua:3467		Total:	Итого:
-src/states/game.lua:3565		don't lose it	не потеряй её
-src/states/game.lua:3565		Soul on line	Душа на кону
-src/states/game.lua:3572		¤${BET} wagered	Поставлено ¤${BET}
-src/states/game.lua:3576		¤ Banked	¤ Сбережено
-src/states/game.lua:3577		Bank ¤${KEPT}?	Сберечь ¤${KEPT}?
-src/states/game.lua:3578		Win To Bank ¤	Победи, чтобы сберечь ¤
-src/states/game.lua:3579		Bank ¤ in ${LEVELS} lvl	Сберечь ¤ через ${LEVELS} ур.
-src/states/game.lua:3593		Secure your Stars for the run\nyou won't be able to gain more this run	Сохрани свои Звезды за забег\nты больше не сможешь заработать их в этом забеге
-src/states/game.lua:3595		Stars already banked this run	Звезды в этом забеге уже сбережены
-src/states/game.lua:3597		Securing Stars available after each nightmare level	Сбережение Звезд доступно после каждого кошмарного уровня
-src/states/game.lua:3658 (+7 others)		no	нет
+src/states/game.lua:3323		Overshoot! +${amount} stars	
+src/states/game.lua:3356		Level Coins	Монетки уровня
+src/states/game.lua:3367		Extra Turn Coins	Монетки за доп. ходы
+src/states/game.lua:3379		Combine Coins	Объедининение монеток
+src/states/game.lua:3396		Bet bonus! +	Бонус ставки! +
+src/states/game.lua:3446		--  Level ${number} Complete!  --	--  Уровень ${number} пройден!  --
+src/states/game.lua:3462		Score:	Счет:
+src/states/game.lua:3464		Reward:	Награда:
+src/states/game.lua:3465		Extra turns:	Доп. ходы:
+src/states/game.lua:3466		Bet bonus:	Бонус ставки:
+src/states/game.lua:3467		Overshoot:	Перебор:
+src/states/game.lua:3469		Total:	Итого:
+src/states/game.lua:3567		don't lose it	не потеряй её
+src/states/game.lua:3567		Soul on line	Душа на кону
+src/states/game.lua:3574		¤${BET} wagered	Поставлено ¤${BET}
+src/states/game.lua:3578		¤ Banked	¤ Сбережено
+src/states/game.lua:3579		Bank ¤${KEPT}?	Сберечь ¤${KEPT}?
+src/states/game.lua:3580		Win To Bank ¤	Победи, чтобы сберечь ¤
+src/states/game.lua:3581		Bank ¤ in ${LEVELS} lvl	Сберечь ¤ через ${LEVELS} ур.
+src/states/game.lua:3595		Secure your Stars for the run\nyou won't be able to gain more this run	Сохрани свои Звезды за забег\nты больше не сможешь заработать их в этом забеге
+src/states/game.lua:3597		Stars already banked this run	Звезды в этом забеге уже сбережены
+src/states/game.lua:3599		Securing Stars available after each nightmare level	Сбережение Звезд доступно после каждого кошмарного уровня
+src/states/game.lua:3660 (+7 others)		no	нет
 src/states/game_setup.lua:161		play!	играть!
 src/states/game_setup.lua:164		need ${stars} ¤	нужно ${stars} ¤
 src/states/game_setup.lua:197		the young will inherit the earth	молодые унаследуют землю

@@ -222,7 +222,7 @@ src/coloured_text.lua:14		instant	natychmiastowy
 src/coloured_text.lua:16		turn	tura
 src/coloured_text.lua:20		turns	tury
 src/coloured_text.lua:24 (+3 others)		bank	bank
-src/coloured_text.lua:27 (+2 others)		stars	
+src/coloured_text.lua:27 (+1 others)		stars	
 src/coloured_text.lua:31 (+5 others)		points	punkty
 src/coloured_text.lua:35 (+9 others)		mult	mnoż.
 src/coloured_text.lua:39 (+8 others)		bonus	bonus
@@ -1285,29 +1285,29 @@ src/states/game.lua:2603		W I P E	W I P E
 src/states/game.lua:3031		SKIP ${pip}	PRZESKOK ${pip}
 src/states/game.lua:3043		SKIP LOOPED	PRZESKOK ZAWINIĘTY
 src/states/game.lua:3282		Level Complete	Poziom ukończony
-src/states/game.lua:3323		Overshoot! +	Nadwyżka! +
-src/states/game.lua:3354		Level Coins	Monety za Poziom
-src/states/game.lua:3365		Extra Turn Coins	Monety za Dodatkowe Tury
-src/states/game.lua:3377		Combine Coins	Połącz Monety
-src/states/game.lua:3394		Bet bonus! +	Bonus za zakład! +
-src/states/game.lua:3444		--  Level ${number} Complete!  --	--  Poziom ${number} ukończony!  --
-src/states/game.lua:3460		Score:	Wynik:
-src/states/game.lua:3462		Reward:	Nagroda:
-src/states/game.lua:3463		Extra turns:	Dodatkowe tury:
-src/states/game.lua:3464		Bet bonus:	Bonus za zakład:
-src/states/game.lua:3465		Overshoot:	Nadwyżka:
-src/states/game.lua:3467		Total:	Razem:
-src/states/game.lua:3565		don't lose it	nie zgub jej
-src/states/game.lua:3565		Soul on line	Dusza na szali
-src/states/game.lua:3572		¤${BET} wagered	Postawiono ${BET}¤
-src/states/game.lua:3576		¤ Banked	¤ Zbankowane
-src/states/game.lua:3577		Bank ¤${KEPT}?	Zbankować ${KEPT}¤?
-src/states/game.lua:3578		Win To Bank ¤	Wygraj, by zbankować ¤
-src/states/game.lua:3579		Bank ¤ in ${LEVELS} lvl	BANK ¤ za ${LEVELS} poz.
-src/states/game.lua:3593		Secure your Stars for the run\nyou won't be able to gain more this run	Zabezpiecz swoje Gwiazdki w tym podejściu\nnie zdobędziesz już więcej w tym podejściu
-src/states/game.lua:3595		Stars already banked this run	Gwiazdki już zbankowane w tym podejściu
-src/states/game.lua:3597		Securing Stars available after each nightmare level	Zabezpieczanie Gwiazdek dostępne po każdym poziomie koszmaru
-src/states/game.lua:3658 (+7 others)		no	nie
+src/states/game.lua:3323		Overshoot! +${amount} stars	
+src/states/game.lua:3356		Level Coins	Monety za Poziom
+src/states/game.lua:3367		Extra Turn Coins	Monety za Dodatkowe Tury
+src/states/game.lua:3379		Combine Coins	Połącz Monety
+src/states/game.lua:3396		Bet bonus! +	Bonus za zakład! +
+src/states/game.lua:3446		--  Level ${number} Complete!  --	--  Poziom ${number} ukończony!  --
+src/states/game.lua:3462		Score:	Wynik:
+src/states/game.lua:3464		Reward:	Nagroda:
+src/states/game.lua:3465		Extra turns:	Dodatkowe tury:
+src/states/game.lua:3466		Bet bonus:	Bonus za zakład:
+src/states/game.lua:3467		Overshoot:	Nadwyżka:
+src/states/game.lua:3469		Total:	Razem:
+src/states/game.lua:3567		don't lose it	nie zgub jej
+src/states/game.lua:3567		Soul on line	Dusza na szali
+src/states/game.lua:3574		¤${BET} wagered	Postawiono ${BET}¤
+src/states/game.lua:3578		¤ Banked	¤ Zbankowane
+src/states/game.lua:3579		Bank ¤${KEPT}?	Zbankować ${KEPT}¤?
+src/states/game.lua:3580		Win To Bank ¤	Wygraj, by zbankować ¤
+src/states/game.lua:3581		Bank ¤ in ${LEVELS} lvl	BANK ¤ za ${LEVELS} poz.
+src/states/game.lua:3595		Secure your Stars for the run\nyou won't be able to gain more this run	Zabezpiecz swoje Gwiazdki w tym podejściu\nnie zdobędziesz już więcej w tym podejściu
+src/states/game.lua:3597		Stars already banked this run	Gwiazdki już zbankowane w tym podejściu
+src/states/game.lua:3599		Securing Stars available after each nightmare level	Zabezpieczanie Gwiazdek dostępne po każdym poziomie koszmaru
+src/states/game.lua:3660 (+7 others)		no	nie
 src/states/game_setup.lua:161		play!	graj!
 src/states/game_setup.lua:164		need ${stars} ¤	
 src/states/game_setup.lua:197		the young will inherit the earth	młodzi odziedziczą ziemię

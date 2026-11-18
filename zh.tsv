@@ -222,7 +222,7 @@ src/coloured_text.lua:14		instant	Instant
 src/coloured_text.lua:16		turn	回合
 src/coloured_text.lua:20		turns	回合
 src/coloured_text.lua:24 (+3 others)		bank	bank
-src/coloured_text.lua:27 (+2 others)		stars	星星
+src/coloured_text.lua:27 (+1 others)		stars	星星
 src/coloured_text.lua:31 (+5 others)		points	点数
 src/coloured_text.lua:35 (+9 others)		mult	乘数
 src/coloured_text.lua:39 (+8 others)		bonus	加点
@@ -1285,29 +1285,29 @@ src/states/game.lua:2603		W I P E	W I P E
 src/states/game.lua:3031		SKIP ${pip}	跳过${pip}
 src/states/game.lua:3043		SKIP LOOPED	跳过循环中
 src/states/game.lua:3282		Level Complete	关卡完成
-src/states/game.lua:3323		Overshoot! +	超额！+
-src/states/game.lua:3354		Level Coins	关卡硬币
-src/states/game.lua:3365		Extra Turn Coins	多余回合硬币
-src/states/game.lua:3377		Combine Coins	合成硬币
-src/states/game.lua:3394		Bet bonus! +	下注加成！+
-src/states/game.lua:3444		--  Level ${number} Complete!  --	— 第${number}关完成！ —
-src/states/game.lua:3460		Score:	分数：
-src/states/game.lua:3462		Reward:	奖励：
-src/states/game.lua:3463		Extra turns:	多余回合：
-src/states/game.lua:3464		Bet bonus:	下注加成：
-src/states/game.lua:3465		Overshoot:	超额：
-src/states/game.lua:3467		Total:	共：
-src/states/game.lua:3565		don't lose it	可别输光光了
-src/states/game.lua:3565		Soul on line	事关灵魂
-src/states/game.lua:3572		¤${BET} wagered	已下注 ¤${BET}
-src/states/game.lua:3576		¤ Banked	已收获 ¤
-src/states/game.lua:3577		Bank ¤${KEPT}?	是否收获 ¤${KEPT}?
-src/states/game.lua:3578		Win To Bank ¤	通关以收获¤
-src/states/game.lua:3579		Bank ¤ in ${LEVELS} lvl	${LEVELS}关后可收获 ¤
-src/states/game.lua:3593		Secure your Stars for the run\nyou won't be able to gain more this run	收获本场游戏的星星\n本场游戏无法获得更多星星
-src/states/game.lua:3595		Stars already banked this run	本场游戏已收获的星星
-src/states/game.lua:3597		Securing Stars available after each nightmare level	每次噩梦关卡后均可收获星星
-src/states/game.lua:3658 (+7 others)		no	关
+src/states/game.lua:3323		Overshoot! +${amount} stars	
+src/states/game.lua:3356		Level Coins	关卡硬币
+src/states/game.lua:3367		Extra Turn Coins	多余回合硬币
+src/states/game.lua:3379		Combine Coins	合成硬币
+src/states/game.lua:3396		Bet bonus! +	下注加成！+
+src/states/game.lua:3446		--  Level ${number} Complete!  --	— 第${number}关完成！ —
+src/states/game.lua:3462		Score:	分数：
+src/states/game.lua:3464		Reward:	奖励：
+src/states/game.lua:3465		Extra turns:	多余回合：
+src/states/game.lua:3466		Bet bonus:	下注加成：
+src/states/game.lua:3467		Overshoot:	超额：
+src/states/game.lua:3469		Total:	共：
+src/states/game.lua:3567		don't lose it	可别输光光了
+src/states/game.lua:3567		Soul on line	事关灵魂
+src/states/game.lua:3574		¤${BET} wagered	已下注 ¤${BET}
+src/states/game.lua:3578		¤ Banked	已收获 ¤
+src/states/game.lua:3579		Bank ¤${KEPT}?	是否收获 ¤${KEPT}?
+src/states/game.lua:3580		Win To Bank ¤	通关以收获¤
+src/states/game.lua:3581		Bank ¤ in ${LEVELS} lvl	${LEVELS}关后可收获 ¤
+src/states/game.lua:3595		Secure your Stars for the run\nyou won't be able to gain more this run	收获本场游戏的星星\n本场游戏无法获得更多星星
+src/states/game.lua:3597		Stars already banked this run	本场游戏已收获的星星
+src/states/game.lua:3599		Securing Stars available after each nightmare level	每次噩梦关卡后均可收获星星
+src/states/game.lua:3660 (+7 others)		no	关
 src/states/game_setup.lua:161		play!	开玩！
 src/states/game_setup.lua:164		need ${stars} ¤	需要 ${stars} ¤
 src/states/game_setup.lua:197		the young will inherit the earth	年轻之人将继承这片大地

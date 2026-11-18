@@ -5,7 +5,7 @@ Are you sure?		src/states/options.lua	483	options
 Are you sure?		src/states/options.lua	509	options
 yes		src/are_you_sure.lua	15	are_you_sure
 yes		src/states/game.lua	2434	game
-yes		src/states/game.lua	3634	game
+yes		src/states/game.lua	3636	game
 yes		src/states/options.lua	355	options
 yes		src/states/options.lua	365	options
 yes		src/states/options.lua	372	options
@@ -16,7 +16,7 @@ yes		src/states/options.lua	463	options
 yes		src/states/options.lua	483	options
 yes		src/states/options.lua	509	options
 yes		src/states/options.lua	530	options
-no		src/states/game.lua	3658	game
+no		src/states/game.lua	3660	game
 no		src/states/options.lua	355	options
 no		src/states/options.lua	365	options
 no		src/states/options.lua	372	options
@@ -51,8 +51,8 @@ bust		src/states/game.lua	2200	game
 bust		src/states/game.lua	3083	game
 bust		src/states/game.lua	3107	game
 bust		src/states/game.lua	3128	game
-bust		src/states/game.lua	3955	game
-bust		src/states/game.lua	3958	game
+bust		src/states/game.lua	3957	game
+bust		src/states/game.lua	3960	game
 bust		src/states/game_setup.lua	57	game_setup
 bust		src/states/gameover.lua	593	gameover
 bust		src/states/intro.lua	47	intro
@@ -149,8 +149,7 @@ bank		src/keybinds.lua	5	keybinds
 bank		src/characters/tutorial_character.lua	161	tutorial_character
 bank		src/characters/tutorial_character.lua	162	tutorial_character
 stars		src/coloured_text.lua	27	coloured_text
-stars		src/states/game.lua	3323	game
-stars		src/states/game.lua	3394	game
+stars		src/states/game.lua	3396	game
 points		src/coloured_text.lua	31	coloured_text
 points		src/items.lua	2253	items
 points		src/items.lua	2276	items
@@ -173,7 +172,7 @@ bonus		src/items.lua	1066	items
 bonus		src/items.lua	1298	items
 bonus		src/items.lua	3426	items
 bonus		src/items.lua	3515	items
-bonus		src/states/game.lua	4093	game
+bonus		src/states/game.lua	4095	game
 bonus		src/entities/shop.lua	584	shop
 bonus		src/entities/shop.lua	727	shop
 debust		src/coloured_text.lua	43	coloured_text
@@ -302,7 +301,7 @@ Score		src/entities/buttons_clump.lua	136	buttons_clump
 BANK		src/keybinds.lua	5	keybinds
 BANK		src/states/game.lua	585	game
 Trade!		src/keybinds.lua	10	keybinds
-Trade!		src/states/game.lua	3511	game
+Trade!		src/states/game.lua	3513	game
 luck		src/sync_scoreboards.lua	142	sync_scoreboards
 luck		src/states/intro_greed.lua	63	intro_greed
 you		src/sync_scoreboards.lua	203	sync_scoreboards
