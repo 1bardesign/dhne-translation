@@ -1246,68 +1246,68 @@ src/states/game.lua:194		Quit to menu and save run for later?
 src/states/game.lua:202		Surrender	
 src/states/game.lua:204		Quit to menu and lose all gained stars?	退出至菜单并失去所有获得的星星？
 src/states/game.lua:209		No way out	无处可逃
-src/states/game.lua:516		secure the points\nend the turn\nrecharge character power\nclear momentum	保全分数\n结束该回合\n重置角色能力值\n清空惯性
-src/states/game.lua:621		you must have some points to bank	没有可bank的分数
-src/states/game.lua:723		momentum: ${amount}	惯性：${amount}
-src/states/game.lua:728		adds extra ${momentum} points and mult	增加额外${momentum}分数和乘数
-src/states/game.lua:913		Losing all Busts ends the turn.\nBusts refill at the start of each Turn	失去全部Bust将结束回合。\nBust计数在每回合开始时重置
-src/states/game.lua:917		Blocks up to ${count} busts, disappears when damaged	可阻挡最多${count}个bust，受到伤害时消失
-src/states/game.lua:936		ALL BUST BLOCKED	已阻挡全部BUST
-src/states/game.lua:952		SHIELD OVERLOADED	护盾超载
-src/states/game.lua:953		${count} BUSTS BLOCKED	阻挡${count}个BUST
-src/states/game.lua:953		${count} BUST BLOCKED	阻挡${count}个BUST
-src/states/game.lua:1003		bet 	赌上
-src/states/game.lua:1006		${STARS} Stars Unbanked	${STARS}个未收获的星星
-src/states/game.lua:1008		bank stars after each nightmare level or win the run to secure them	在每个噩梦关卡结束后收获星星或者通关整个游戏以收获星星
-src/states/game.lua:1078		praying...	祈祷中。。
-src/states/game.lua:1078		pray	祈祷
-src/states/game.lua:1156		Losing all Turns ends the game.\nTurns refill at the start of each level.	所有回合耗尽后将结束游戏。\n回合在每关开始时重置。
-src/states/game.lua:1407 (+1 others)		MERGED	合成
-src/states/game.lua:1883 (+2 others)		Level $level/$count $name	关卡 $level/$count $name
-src/states/game.lua:1935		NIGHTMARE LEVEL	噩梦关卡
-src/states/game.lua:2054 (+1 others)		Rift	裂谷
-src/states/game.lua:2233		this coin is an affront to life itself	这颗硬币是对生命的侮辱
-src/states/game.lua:2234		this die is an affront to life itself	这颗骰子是对生命的侮辱
-src/states/game.lua:2235		we shall not suffer such an unholy thing	吾不允许如此不洁之物存在
-src/states/game.lua:2236		thou shalt not shy from risk	汝不应逃避风险
-src/states/game.lua:2237		you thought you could get away with this?	你还真以为能蒙混过关？
-src/states/game.lua:2238		extremely naughty	真不听话
-src/states/game.lua:2241	dialogue	no downside not allowed	吾不允许没有反面
-src/states/game.lua:2259	dialogue	WHAT	干什么！！
-src/states/game.lua:2281		refilled	已重置
-src/states/game.lua:2308		LAST TURN	最终回合
-src/states/game.lua:2427		- Out Of Dice -	- 没骰子了 -
-src/states/game.lua:2428		never	绝不
-src/states/game.lua:2430		Looks like you're cooked\n\nGive up?	看上去没救了欸\n\n要放弃吗？
-src/states/game.lua:2580		INSTANT WIPE	INSTANT WIPE
-src/states/game.lua:2581		${rolled} OUT OF ${rolled} DICE ROLLED BUST	${rolled}个骰子中${rolled}个已BUST
-src/states/game.lua:2598		W I P E	W I P E
-src/states/game.lua:3026		SKIP ${pip}	跳过${pip}
-src/states/game.lua:3038		SKIP LOOPED	跳过循环中
-src/states/game.lua:3277		Level Complete	关卡完成
-src/states/game.lua:3318		Overshoot! +	超额！+
-src/states/game.lua:3349		Level Coins	关卡硬币
-src/states/game.lua:3360		Extra Turn Coins	多余回合硬币
-src/states/game.lua:3372		Combine Coins	合成硬币
-src/states/game.lua:3389		Bet bonus! +	下注加成！+
-src/states/game.lua:3439		--  Level ${number} Complete!  --	— 第${number}关完成！ —
-src/states/game.lua:3455		Score:	分数：
-src/states/game.lua:3457		Reward:	奖励：
-src/states/game.lua:3458		Extra turns:	多余回合：
-src/states/game.lua:3459		Bet bonus:	下注加成：
-src/states/game.lua:3460		Overshoot:	超额：
-src/states/game.lua:3462		Total:	共：
-src/states/game.lua:3560		don't lose it	可别输光光了
-src/states/game.lua:3560		Soul on line	事关灵魂
-src/states/game.lua:3567		¤${BET} wagered	已下注 ¤${BET}
-src/states/game.lua:3571		¤ Banked	已收获 ¤
-src/states/game.lua:3572		Bank ¤${KEPT}?	是否收获 ¤${KEPT}?
-src/states/game.lua:3573		Win To Bank ¤	通关以收获¤
-src/states/game.lua:3574		Bank ¤ in ${LEVELS} lvl	${LEVELS}关后可收获 ¤
-src/states/game.lua:3588		Secure your Stars for the run\nyou won't be able to gain more this run	收获本场游戏的星星\n本场游戏无法获得更多星星
-src/states/game.lua:3590		Stars already banked this run	本场游戏已收获的星星
-src/states/game.lua:3592		Securing Stars available after each nightmare level	每次噩梦关卡后均可收获星星
-src/states/game.lua:3653 (+7 others)		no	关
+src/states/game.lua:514		secure the points\nend the turn\nrecharge character power\nclear momentum	保全分数\n结束该回合\n重置角色能力值\n清空惯性
+src/states/game.lua:619		you must have some points to bank	没有可bank的分数
+src/states/game.lua:721		momentum: ${amount}	惯性：${amount}
+src/states/game.lua:726		adds extra ${momentum} points and mult	增加额外${momentum}分数和乘数
+src/states/game.lua:911		Losing all Busts ends the turn.\nBusts refill at the start of each Turn	失去全部Bust将结束回合。\nBust计数在每回合开始时重置
+src/states/game.lua:915		Blocks up to ${count} busts, disappears when damaged	可阻挡最多${count}个bust，受到伤害时消失
+src/states/game.lua:934		ALL BUST BLOCKED	已阻挡全部BUST
+src/states/game.lua:950		SHIELD OVERLOADED	护盾超载
+src/states/game.lua:951		${count} BUSTS BLOCKED	阻挡${count}个BUST
+src/states/game.lua:951		${count} BUST BLOCKED	阻挡${count}个BUST
+src/states/game.lua:1001		bet 	赌上
+src/states/game.lua:1004		${STARS} Stars Unbanked	${STARS}个未收获的星星
+src/states/game.lua:1006		bank stars after each nightmare level or win the run to secure them	在每个噩梦关卡结束后收获星星或者通关整个游戏以收获星星
+src/states/game.lua:1076		praying...	祈祷中。。
+src/states/game.lua:1076		pray	祈祷
+src/states/game.lua:1154		Losing all Turns ends the game.\nTurns refill at the start of each level.	所有回合耗尽后将结束游戏。\n回合在每关开始时重置。
+src/states/game.lua:1405 (+1 others)		MERGED	合成
+src/states/game.lua:1881 (+2 others)		Level $level/$count $name	关卡 $level/$count $name
+src/states/game.lua:1933		NIGHTMARE LEVEL	噩梦关卡
+src/states/game.lua:2055 (+1 others)		Rift	裂谷
+src/states/game.lua:2241		this coin is an affront to life itself	这颗硬币是对生命的侮辱
+src/states/game.lua:2242		this die is an affront to life itself	这颗骰子是对生命的侮辱
+src/states/game.lua:2243		we shall not suffer such an unholy thing	吾不允许如此不洁之物存在
+src/states/game.lua:2244		thou shalt not shy from risk	汝不应逃避风险
+src/states/game.lua:2245		you thought you could get away with this?	你还真以为能蒙混过关？
+src/states/game.lua:2246		extremely naughty	真不听话
+src/states/game.lua:2249	dialogue	no downside not allowed	吾不允许没有反面
+src/states/game.lua:2267	dialogue	WHAT	干什么！！
+src/states/game.lua:2289		refilled	已重置
+src/states/game.lua:2316		LAST TURN	最终回合
+src/states/game.lua:2435		- Out Of Dice -	- 没骰子了 -
+src/states/game.lua:2436		never	绝不
+src/states/game.lua:2438		Looks like you're cooked\n\nGive up?	看上去没救了欸\n\n要放弃吗？
+src/states/game.lua:2588		INSTANT WIPE	INSTANT WIPE
+src/states/game.lua:2589		${rolled} OUT OF ${rolled} DICE ROLLED BUST	${rolled}个骰子中${rolled}个已BUST
+src/states/game.lua:2606		W I P E	W I P E
+src/states/game.lua:3034		SKIP ${pip}	跳过${pip}
+src/states/game.lua:3046		SKIP LOOPED	跳过循环中
+src/states/game.lua:3285		Level Complete	关卡完成
+src/states/game.lua:3326		Overshoot! +	超额！+
+src/states/game.lua:3357		Level Coins	关卡硬币
+src/states/game.lua:3368		Extra Turn Coins	多余回合硬币
+src/states/game.lua:3380		Combine Coins	合成硬币
+src/states/game.lua:3397		Bet bonus! +	下注加成！+
+src/states/game.lua:3447		--  Level ${number} Complete!  --	— 第${number}关完成！ —
+src/states/game.lua:3463		Score:	分数：
+src/states/game.lua:3465		Reward:	奖励：
+src/states/game.lua:3466		Extra turns:	多余回合：
+src/states/game.lua:3467		Bet bonus:	下注加成：
+src/states/game.lua:3468		Overshoot:	超额：
+src/states/game.lua:3470		Total:	共：
+src/states/game.lua:3568		don't lose it	可别输光光了
+src/states/game.lua:3568		Soul on line	事关灵魂
+src/states/game.lua:3575		¤${BET} wagered	已下注 ¤${BET}
+src/states/game.lua:3579		¤ Banked	已收获 ¤
+src/states/game.lua:3580		Bank ¤${KEPT}?	是否收获 ¤${KEPT}?
+src/states/game.lua:3581		Win To Bank ¤	通关以收获¤
+src/states/game.lua:3582		Bank ¤ in ${LEVELS} lvl	${LEVELS}关后可收获 ¤
+src/states/game.lua:3596		Secure your Stars for the run\nyou won't be able to gain more this run	收获本场游戏的星星\n本场游戏无法获得更多星星
+src/states/game.lua:3598		Stars already banked this run	本场游戏已收获的星星
+src/states/game.lua:3600		Securing Stars available after each nightmare level	每次噩梦关卡后均可收获星星
+src/states/game.lua:3661 (+7 others)		no	关
 src/states/game_setup.lua:161		play!	开玩！
 src/states/game_setup.lua:164		need ${stars} ¤	需要 ${stars} ¤
 src/states/game_setup.lua:197		the young will inherit the earth	年轻之人将继承这片大地
