@@ -1,7 +1,7 @@
 location	extra context	en	zh
 gather_strings.lua:1		No	否
 gather_strings.lua:1		momentum	惯性
-gather_strings.lua:1		greed	贪婪
+gather_strings.lua:1		greed	贪欲
 gather_strings.lua:1		CD	CD
 gather_strings.lua:1		xnx	xnx
 src/are_you_sure.lua:14 (+3 others)		Are you sure?	你确定？
@@ -1457,7 +1457,7 @@ src/sync_scoreboards.lua:27		Highest Level	最高关卡
 src/sync_scoreboards.lua:32		level	关卡
 src/sync_scoreboards.lua:39		Best Level Score	最高关卡分数
 src/sync_scoreboards.lua:51		Biggest Combo	最大单次计分
-src/sync_scoreboards.lua:63		Greed Intro	贪婪开屏
+src/sync_scoreboards.lua:63		Greed Intro	贪欲开屏
 src/sync_scoreboards.lua:68		stars won	星星数量
 src/sync_scoreboards.lua:75		Most Wins	通关次数
 src/sync_scoreboards.lua:80		wins	通关
