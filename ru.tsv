@@ -1263,51 +1263,51 @@ src/states/game.lua:1076		praying...	молитва...
 src/states/game.lua:1076		pray	молиться
 src/states/game.lua:1154		Losing all Turns ends the game.\nTurns refill at the start of each level.	Потеря всех Ходов завершает игру.\nХоды восполняются в начале каждого уровня.
 src/states/game.lua:1405 (+1 others)		MERGED	ОБЪЕДИНЕНЫ
-src/states/game.lua:1881 (+2 others)		Level $level/$count $name	Уровень $level/$count $name
-src/states/game.lua:1933		NIGHTMARE LEVEL	КОШМАРНЫЙ УРОВЕНЬ
-src/states/game.lua:2055 (+1 others)		Rift	Разлом
-src/states/game.lua:2241		this coin is an affront to life itself	эта монетка — оскорбление самой жизни
-src/states/game.lua:2242		this die is an affront to life itself	этот кубик — оскорбление самой жизни
-src/states/game.lua:2243		we shall not suffer such an unholy thing	мы не допустим подобного нечестивого деяния
-src/states/game.lua:2244		thou shalt not shy from risk	не уклоняйся от риска
-src/states/game.lua:2245		you thought you could get away with this?	ты думалф, тебе это сойдет с рук?
-src/states/game.lua:2246		extremely naughty	крайне непослушная
-src/states/game.lua:2249	dialogue	no downside not allowed	никаких минусов — не допустимо
-src/states/game.lua:2267	dialogue	WHAT	ЧТО
-src/states/game.lua:2289		refilled	восполнено
-src/states/game.lua:2316		LAST TURN	ПОСЛЕДНИЙ ХОД
-src/states/game.lua:2435		- Out Of Dice -	- Нет кубиков -
-src/states/game.lua:2436		never	никогда
-src/states/game.lua:2438		Looks like you're cooked\n\nGive up?	Похоже, тебе конец.\n\nСдаёшься?
-src/states/game.lua:2588		INSTANT WIPE	ПОЛНЫЙ ПРОВАЛ
-src/states/game.lua:2589		${rolled} OUT OF ${rolled} DICE ROLLED BUST	${rolled} ИЗ ${rolled} КУБИКОВ ВЫПАЛИ НА БАСТ
-src/states/game.lua:2606		W I P E	П Р О В А Л
-src/states/game.lua:3034		SKIP ${pip}	ПРОПУСК ${pip}
-src/states/game.lua:3046		SKIP LOOPED	ПРОПУСК ЗАЦИКЛЕН
-src/states/game.lua:3285		Level Complete	Уровень пройден
-src/states/game.lua:3326		Overshoot! +	Перебор! +
-src/states/game.lua:3357		Level Coins	Монетки уровня
-src/states/game.lua:3368		Extra Turn Coins	Монетки за доп. ходы
-src/states/game.lua:3380		Combine Coins	Объедининение монеток
-src/states/game.lua:3397		Bet bonus! +	Бонус ставки! +
-src/states/game.lua:3447		--  Level ${number} Complete!  --	--  Уровень ${number} пройден!  --
-src/states/game.lua:3463		Score:	Счет:
-src/states/game.lua:3465		Reward:	Награда:
-src/states/game.lua:3466		Extra turns:	Доп. ходы:
-src/states/game.lua:3467		Bet bonus:	Бонус ставки:
-src/states/game.lua:3468		Overshoot:	Перебор:
-src/states/game.lua:3470		Total:	Итого:
-src/states/game.lua:3568		don't lose it	не потеряй её
-src/states/game.lua:3568		Soul on line	Душа на кону
-src/states/game.lua:3575		¤${BET} wagered	Поставлено ¤${BET}
-src/states/game.lua:3579		¤ Banked	¤ Сбережено
-src/states/game.lua:3580		Bank ¤${KEPT}?	Сберечь ¤${KEPT}?
-src/states/game.lua:3581		Win To Bank ¤	Победи, чтобы сберечь ¤
-src/states/game.lua:3582		Bank ¤ in ${LEVELS} lvl	Сберечь ¤ через ${LEVELS} ур.
-src/states/game.lua:3596		Secure your Stars for the run\nyou won't be able to gain more this run	Сохрани свои Звезды за забег\nты больше не сможешь заработать их в этом забеге
-src/states/game.lua:3598		Stars already banked this run	Звезды в этом забеге уже сбережены
-src/states/game.lua:3600		Securing Stars available after each nightmare level	Сбережение Звезд доступно после каждого кошмарного уровня
-src/states/game.lua:3661 (+7 others)		no	нет
+src/states/game.lua:1878 (+2 others)		Level $level/$count $name	Уровень $level/$count $name
+src/states/game.lua:1930		NIGHTMARE LEVEL	КОШМАРНЫЙ УРОВЕНЬ
+src/states/game.lua:2052 (+1 others)		Rift	Разлом
+src/states/game.lua:2238		this coin is an affront to life itself	эта монетка — оскорбление самой жизни
+src/states/game.lua:2239		this die is an affront to life itself	этот кубик — оскорбление самой жизни
+src/states/game.lua:2240		we shall not suffer such an unholy thing	мы не допустим подобного нечестивого деяния
+src/states/game.lua:2241		thou shalt not shy from risk	не уклоняйся от риска
+src/states/game.lua:2242		you thought you could get away with this?	ты думалф, тебе это сойдет с рук?
+src/states/game.lua:2243		extremely naughty	крайне непослушная
+src/states/game.lua:2246	dialogue	no downside not allowed	никаких минусов — не допустимо
+src/states/game.lua:2264	dialogue	WHAT	ЧТО
+src/states/game.lua:2286		refilled	восполнено
+src/states/game.lua:2313		LAST TURN	ПОСЛЕДНИЙ ХОД
+src/states/game.lua:2432		- Out Of Dice -	- Нет кубиков -
+src/states/game.lua:2433		never	никогда
+src/states/game.lua:2435		Looks like you're cooked\n\nGive up?	Похоже, тебе конец.\n\nСдаёшься?
+src/states/game.lua:2585		INSTANT WIPE	ПОЛНЫЙ ПРОВАЛ
+src/states/game.lua:2586		${rolled} OUT OF ${rolled} DICE ROLLED BUST	${rolled} ИЗ ${rolled} КУБИКОВ ВЫПАЛИ НА БАСТ
+src/states/game.lua:2603		W I P E	П Р О В А Л
+src/states/game.lua:3031		SKIP ${pip}	ПРОПУСК ${pip}
+src/states/game.lua:3043		SKIP LOOPED	ПРОПУСК ЗАЦИКЛЕН
+src/states/game.lua:3282		Level Complete	Уровень пройден
+src/states/game.lua:3323		Overshoot! +	Перебор! +
+src/states/game.lua:3354		Level Coins	Монетки уровня
+src/states/game.lua:3365		Extra Turn Coins	Монетки за доп. ходы
+src/states/game.lua:3377		Combine Coins	Объедининение монеток
+src/states/game.lua:3394		Bet bonus! +	Бонус ставки! +
+src/states/game.lua:3444		--  Level ${number} Complete!  --	--  Уровень ${number} пройден!  --
+src/states/game.lua:3460		Score:	Счет:
+src/states/game.lua:3462		Reward:	Награда:
+src/states/game.lua:3463		Extra turns:	Доп. ходы:
+src/states/game.lua:3464		Bet bonus:	Бонус ставки:
+src/states/game.lua:3465		Overshoot:	Перебор:
+src/states/game.lua:3467		Total:	Итого:
+src/states/game.lua:3565		don't lose it	не потеряй её
+src/states/game.lua:3565		Soul on line	Душа на кону
+src/states/game.lua:3572		¤${BET} wagered	Поставлено ¤${BET}
+src/states/game.lua:3576		¤ Banked	¤ Сбережено
+src/states/game.lua:3577		Bank ¤${KEPT}?	Сберечь ¤${KEPT}?
+src/states/game.lua:3578		Win To Bank ¤	Победи, чтобы сберечь ¤
+src/states/game.lua:3579		Bank ¤ in ${LEVELS} lvl	Сберечь ¤ через ${LEVELS} ур.
+src/states/game.lua:3593		Secure your Stars for the run\nyou won't be able to gain more this run	Сохрани свои Звезды за забег\nты больше не сможешь заработать их в этом забеге
+src/states/game.lua:3595		Stars already banked this run	Звезды в этом забеге уже сбережены
+src/states/game.lua:3597		Securing Stars available after each nightmare level	Сбережение Звезд доступно после каждого кошмарного уровня
+src/states/game.lua:3658 (+7 others)		no	нет
 src/states/game_setup.lua:161		play!	играть!
 src/states/game_setup.lua:164		need ${stars} ¤	нужно ${stars} ¤
 src/states/game_setup.lua:197		the young will inherit the earth	молодые унаследуют землю

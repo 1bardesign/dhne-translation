@@ -1263,51 +1263,51 @@ src/states/game.lua:1076		praying...
 src/states/game.lua:1076		pray	
 src/states/game.lua:1154		Losing all Turns ends the game.\nTurns refill at the start of each level.	
 src/states/game.lua:1405 (+1 others)		MERGED	
-src/states/game.lua:1881 (+2 others)		Level $level/$count $name	
-src/states/game.lua:1933		NIGHTMARE LEVEL	
-src/states/game.lua:2055 (+1 others)		Rift	
-src/states/game.lua:2241		this coin is an affront to life itself	
-src/states/game.lua:2242		this die is an affront to life itself	
-src/states/game.lua:2243		we shall not suffer such an unholy thing	
-src/states/game.lua:2244		thou shalt not shy from risk	
-src/states/game.lua:2245		you thought you could get away with this?	
-src/states/game.lua:2246		extremely naughty	
-src/states/game.lua:2249	dialogue	no downside not allowed	
-src/states/game.lua:2267	dialogue	WHAT	
-src/states/game.lua:2289		refilled	
-src/states/game.lua:2316		LAST TURN	
-src/states/game.lua:2435		- Out Of Dice -	
-src/states/game.lua:2436		never	
-src/states/game.lua:2438		Looks like you're cooked\n\nGive up?	
-src/states/game.lua:2588		INSTANT WIPE	
-src/states/game.lua:2589		${rolled} OUT OF ${rolled} DICE ROLLED BUST	
-src/states/game.lua:2606		W I P E	
-src/states/game.lua:3034		SKIP ${pip}	
-src/states/game.lua:3046		SKIP LOOPED	
-src/states/game.lua:3285		Level Complete	
-src/states/game.lua:3326		Overshoot! +	
-src/states/game.lua:3357		Level Coins	
-src/states/game.lua:3368		Extra Turn Coins	
-src/states/game.lua:3380		Combine Coins	
-src/states/game.lua:3397		Bet bonus! +	
-src/states/game.lua:3447		--  Level ${number} Complete!  --	
-src/states/game.lua:3463		Score:	
-src/states/game.lua:3465		Reward:	
-src/states/game.lua:3466		Extra turns:	
-src/states/game.lua:3467		Bet bonus:	
-src/states/game.lua:3468		Overshoot:	
-src/states/game.lua:3470		Total:	
-src/states/game.lua:3568		don't lose it	
-src/states/game.lua:3568		Soul on line	
-src/states/game.lua:3575		¤${BET} wagered	
-src/states/game.lua:3579		¤ Banked	
-src/states/game.lua:3580		Bank ¤${KEPT}?	
-src/states/game.lua:3581		Win To Bank ¤	
-src/states/game.lua:3582		Bank ¤ in ${LEVELS} lvl	
-src/states/game.lua:3596		Secure your Stars for the run\nyou won't be able to gain more this run	
-src/states/game.lua:3598		Stars already banked this run	
-src/states/game.lua:3600		Securing Stars available after each nightmare level	
-src/states/game.lua:3661 (+7 others)		no	
+src/states/game.lua:1878 (+2 others)		Level $level/$count $name	
+src/states/game.lua:1930		NIGHTMARE LEVEL	
+src/states/game.lua:2052 (+1 others)		Rift	
+src/states/game.lua:2238		this coin is an affront to life itself	
+src/states/game.lua:2239		this die is an affront to life itself	
+src/states/game.lua:2240		we shall not suffer such an unholy thing	
+src/states/game.lua:2241		thou shalt not shy from risk	
+src/states/game.lua:2242		you thought you could get away with this?	
+src/states/game.lua:2243		extremely naughty	
+src/states/game.lua:2246	dialogue	no downside not allowed	
+src/states/game.lua:2264	dialogue	WHAT	
+src/states/game.lua:2286		refilled	
+src/states/game.lua:2313		LAST TURN	
+src/states/game.lua:2432		- Out Of Dice -	
+src/states/game.lua:2433		never	
+src/states/game.lua:2435		Looks like you're cooked\n\nGive up?	
+src/states/game.lua:2585		INSTANT WIPE	
+src/states/game.lua:2586		${rolled} OUT OF ${rolled} DICE ROLLED BUST	
+src/states/game.lua:2603		W I P E	
+src/states/game.lua:3031		SKIP ${pip}	
+src/states/game.lua:3043		SKIP LOOPED	
+src/states/game.lua:3282		Level Complete	
+src/states/game.lua:3323		Overshoot! +	
+src/states/game.lua:3354		Level Coins	
+src/states/game.lua:3365		Extra Turn Coins	
+src/states/game.lua:3377		Combine Coins	
+src/states/game.lua:3394		Bet bonus! +	
+src/states/game.lua:3444		--  Level ${number} Complete!  --	
+src/states/game.lua:3460		Score:	
+src/states/game.lua:3462		Reward:	
+src/states/game.lua:3463		Extra turns:	
+src/states/game.lua:3464		Bet bonus:	
+src/states/game.lua:3465		Overshoot:	
+src/states/game.lua:3467		Total:	
+src/states/game.lua:3565		don't lose it	
+src/states/game.lua:3565		Soul on line	
+src/states/game.lua:3572		¤${BET} wagered	
+src/states/game.lua:3576		¤ Banked	
+src/states/game.lua:3577		Bank ¤${KEPT}?	
+src/states/game.lua:3578		Win To Bank ¤	
+src/states/game.lua:3579		Bank ¤ in ${LEVELS} lvl	
+src/states/game.lua:3593		Secure your Stars for the run\nyou won't be able to gain more this run	
+src/states/game.lua:3595		Stars already banked this run	
+src/states/game.lua:3597		Securing Stars available after each nightmare level	
+src/states/game.lua:3658 (+7 others)		no	
 src/states/game_setup.lua:161		play!	
 src/states/game_setup.lua:164		need ${stars} ¤	
 src/states/game_setup.lua:197		the young will inherit the earth	
