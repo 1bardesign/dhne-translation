@@ -596,7 +596,7 @@ src/items.lua:1008 (+1 others)		Pig Side Added	Grissida tillagd
 src/items.lua:1014 (+1 others)		Add 1 Skip side	Lägg till 1 skippsida
 src/items.lua:1029 (+1 others)		Skip Side Added	Skippsida tillagd
 src/items.lua:1034		Black Eyed Pea	Svartögd böna
-src/items.lua:1035		Block 1s for the next roll	Blockera 1:or i nästa kast
+src/items.lua:1035		This die can't roll a 1 on its next roll	Den här tärningen kan inte slå 1 på sitt nästa kast
 src/items.lua:1052		Grape	Vindruva
 src/items.lua:1053 (+1 others)		Add 1 Bonus side	Lägg till 1 bonussida
 src/items.lua:1068 (+1 others)		Bonus Side Added	Bonussida tillagd
@@ -1234,7 +1234,7 @@ src/states/fish_market.lua:87		--  Fish Market  --	--  Fiskmarknad  --
 src/states/fish_market.lua:193		Sell Fish	Sälj fisk
 src/states/fish_market.lua:222		Buy Fish	Köp fisk
 src/states/fish_market.lua:265		Next!	Nästa!
-src/states/game.lua:146 (+2 others)		back	
+src/states/game.lua:146 (+2 others)		back	tillbaka
 src/states/game.lua:160		PAUSE II	PAUS II
 src/states/game.lua:167 (+1 others)		Continue	Fortsätt
 src/states/game.lua:171 (+1 others)		Cannot Restart Wager Runs	Kan inte starta om omgångar med vad
@@ -1517,3 +1517,4 @@ src/states/intro_greed.lua:66		This is a game about patience.	Det här är ett s
 src/states/intro_greed.lua:67		This is a game about fate.	Det här är ett spel om öde.
 src/states/intro_greed.lua:68		This is a game about destiny.	Det här är ett spel om bestämmelse.
 src/states/intro_greed.lua:69		This is a game about God.	Det här är ett spel om Gud.
+src/endings/tooth_fairy.lua:30		hit the guts	

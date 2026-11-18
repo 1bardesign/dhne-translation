@@ -596,7 +596,7 @@ src/items.lua:1008 (+1 others)		Pig Side Added	Добавлена Свиная �
 src/items.lua:1014 (+1 others)		Add 1 Skip side	Добавляет 1 сторону Пропуска
 src/items.lua:1029 (+1 others)		Skip Side Added	Добавлена сторона Пропуска
 src/items.lua:1034		Black Eyed Pea	Черноглазый горох
-src/items.lua:1035		Block 1s for the next roll	Блокирует 1 на следующем броске
+src/items.lua:1035		This die can't roll a 1 on its next roll	Эта кость не выбросит 1 при следующем броске
 src/items.lua:1052		Grape	Виноградина
 src/items.lua:1053 (+1 others)		Add 1 Bonus side	Добавляет 1 Бонусную сторону
 src/items.lua:1068 (+1 others)		Bonus Side Added	Бонусная сторона добавлена
@@ -1234,17 +1234,17 @@ src/states/fish_market.lua:87		--  Fish Market  --	-- Рыбный рынок --
 src/states/fish_market.lua:193		Sell Fish	Продать рыбу
 src/states/fish_market.lua:222		Buy Fish	Купить рыбу
 src/states/fish_market.lua:265		Next!	Дальше!
-src/states/game.lua:146 (+2 others)		back	
+src/states/game.lua:146 (+2 others)		back	назад
 src/states/game.lua:160		PAUSE II	ПАУЗА II
 src/states/game.lua:167 (+1 others)		Continue	Продолжать
 src/states/game.lua:171 (+1 others)		Cannot Restart Wager Runs	Нельзя перезапустить забег со ставкой
 src/states/game.lua:174		Restart	Перезапуск
 src/states/game.lua:176		Restart the run from scratch\nand lose all gained stars?	Начать забег заново и потерять все полученные звезды?
 src/states/game.lua:182 (+3 others)		Options	Настройки
-src/states/game.lua:190		Save Run	
-src/states/game.lua:191		(Cant Save Right Now)	
-src/states/game.lua:194		Quit to menu and save run for later?	
-src/states/game.lua:202		Abandon	
+src/states/game.lua:190		Save Run	Сохранить забег
+src/states/game.lua:191		(Cant Save Right Now)	(Сейчас нельзя сохранить)
+src/states/game.lua:194		Quit to menu and save run for later?	Выйти в меню и сохранить забег на потом?
+src/states/game.lua:202		Abandon	Сдаться
 src/states/game.lua:204		Quit to menu and lose all gained stars?	Выйти в меню и потерять все полученные звезды?
 src/states/game.lua:209		No way out	Выхода нет
 src/states/game.lua:514		secure the points\nend the turn\nrecharge character power\nclear momentum	сохранить очки\nзавершить ход\nвосстановить силу персонажа\nобнулить инерцию
@@ -1517,3 +1517,4 @@ src/states/intro_greed.lua:66		This is a game about patience.	Это игра о
 src/states/intro_greed.lua:67		This is a game about fate.	Это игра о судьбе.
 src/states/intro_greed.lua:68		This is a game about destiny.	Это игра о предназначении.
 src/states/intro_greed.lua:69		This is a game about God.	Это игра о Боге.
+src/endings/tooth_fairy.lua:30		hit the guts	

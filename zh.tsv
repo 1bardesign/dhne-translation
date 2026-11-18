@@ -596,7 +596,7 @@ src/items.lua:1008 (+1 others)		Pig Side Added	猪面已增加
 src/items.lua:1014 (+1 others)		Add 1 Skip side	增加一个跳过面
 src/items.lua:1029 (+1 others)		Skip Side Added	跳过面已增加
 src/items.lua:1034		Black Eyed Pea	黑眼豆
-src/items.lua:1035		Block 1s for the next roll	下一次投出时屏蔽1
+src/items.lua:1035		This die can't roll a 1 on its next roll	这颗骰子下一次投掷不会投出1
 src/items.lua:1052		Grape	葡萄
 src/items.lua:1053 (+1 others)		Add 1 Bonus side	增加一个加点面
 src/items.lua:1068 (+1 others)		Bonus Side Added	加点面已增加
@@ -1234,7 +1234,7 @@ src/states/fish_market.lua:87		--  Fish Market  --	— 鱼市 —
 src/states/fish_market.lua:193		Sell Fish	卖鱼
 src/states/fish_market.lua:222		Buy Fish	卖鱼
 src/states/fish_market.lua:265		Next!	完成！
-src/states/game.lua:146 (+2 others)		back	
+src/states/game.lua:146 (+2 others)		back	返回
 src/states/game.lua:160		PAUSE II	暂停中  I I
 src/states/game.lua:167 (+1 others)		Continue	继续
 src/states/game.lua:171 (+1 others)		Cannot Restart Wager Runs	无法重新开始已下注的游戏
@@ -1517,3 +1517,4 @@ src/states/intro_greed.lua:66		This is a game about patience.	这是一个关于
 src/states/intro_greed.lua:67		This is a game about fate.	这是一个关于命运的游戏。
 src/states/intro_greed.lua:68		This is a game about destiny.	这是一个关于天命的游戏。
 src/states/intro_greed.lua:69		This is a game about God.	这是一个关于神的游戏。
+src/endings/tooth_fairy.lua:30		hit the guts	
