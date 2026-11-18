@@ -11,7 +11,7 @@ src/board_unlocks.lua:7		chill vibes	chill vibes
 src/board_unlocks.lua:17		the real game begins	det riktiga spelet börjar
 src/board_unlocks.lua:27		something smells fishy	här ligger en fisk begraven
 src/boards/easy.lua:2		Shallows	Grund
-src/boards/easy.lua:3		Chill Vibes.\nShort run, extra bust limit, capped rewards.	Chill Vibes.\nKort spelomgång, högre nitgräns, begränsade belöningar.
+src/boards/easy.lua:3		Chill Vibes. Short run, extra bust limit.	Chill Vibes. Kort spelomgång, högre nitgräns.
 src/boards/easy.lua:4		the friendliest pond around	den mest vänligaste dammen
 src/boards/fish_board.lua:2		The Bay	Bukten
 src/boards/fish_board.lua:3		Smells Fishy	Luktar Fisk

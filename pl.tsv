@@ -11,7 +11,7 @@ src/board_unlocks.lua:7		chill vibes	luźny klimat
 src/board_unlocks.lua:17		the real game begins	zaczyna się prawdziwa gra
 src/board_unlocks.lua:27		something smells fishy	coś tu śmierdzi rybą
 src/boards/easy.lua:2		Shallows	Płycizna
-src/boards/easy.lua:3		Chill Vibes.\nShort run, extra bust limit, capped rewards.	Luźny klimat.\nKrótkie podejście, wyższy limit Bustów, ograniczone nagrody.
+src/boards/easy.lua:3		Chill Vibes. Short run, extra bust limit.	Luźny klimat. Krótkie podejście, wyższy limit Bustów.
 src/boards/easy.lua:4		the friendliest pond around	najprzyjaźniejszy staw w okolicy
 src/boards/fish_board.lua:2		The Bay	Zatoka
 src/boards/fish_board.lua:3		Smells Fishy	Coś tu śmierdzi rybą

@@ -11,7 +11,7 @@ src/board_unlocks.lua:7		chill vibes	轻轻松松
 src/board_unlocks.lua:17		the real game begins	游戏开始
 src/board_unlocks.lua:27		something smells fishy	不太对劲
 src/boards/easy.lua:2		Shallows	浅滩
-src/boards/easy.lua:3		Chill Vibes.\nShort run, extra bust limit, capped rewards.	轻轻松松。\n游戏时长缩短，bust上限增加，有奖励上限。
+src/boards/easy.lua:3		Chill Vibes. Short run, extra bust limit.	轻轻松松。游戏时长缩短，bust上限增加。
 src/boards/easy.lua:4		the friendliest pond around	全村最友善的池塘
 src/boards/fish_board.lua:2		The Bay	港湾
 src/boards/fish_board.lua:3		Smells Fishy	不太对劲
