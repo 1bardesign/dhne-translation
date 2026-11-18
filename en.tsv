@@ -1510,3 +1510,10 @@ src/ui/level_map.lua:174	ui	Nightmare level
 src/ui/level_map.lua:181		- ${points} pts	
 src/ui/state_tabs.lua:5 (+2 others)	ui	unlock	
 src/ui/tooltip.lua:82	ui	tip	
+src/states/intro_greed.lua:62		This is a game about greed.	
+src/states/intro_greed.lua:64		This is a game about skill.	
+src/states/intro_greed.lua:65		This is a game about talent.	
+src/states/intro_greed.lua:66		This is a game about patience.	
+src/states/intro_greed.lua:67		This is a game about fate.	
+src/states/intro_greed.lua:68		This is a game about destiny.	
+src/states/intro_greed.lua:69		This is a game about God.	
