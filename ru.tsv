@@ -1354,8 +1354,8 @@ src/states/intro_greed.lua:65		talent	таланте
 src/states/intro_greed.lua:66		patience	терпении
 src/states/intro_greed.lua:67		fate	судьбе
 src/states/intro_greed.lua:68		destiny	предназначении
-src/states/intro_greed.lua:80		Roll to gain Stars.	Брось кубик чтобы заработать звёзды.
-src/states/intro_greed.lua:81		Roll 1 to lose Stars.	Брось 1 чтобы потерять звёзды.
+src/states/intro_greed.lua:80		Roll to gain Stars.	Брось кубик, чтобы заработать звёзды.
+src/states/intro_greed.lua:81		Roll 1 to lose Stars.	Выбрось 1, чтобы потерять звёзды.
 src/states/intro_greed.lua:110		This is a game about ${reason}.	Это игра о ${reason}.
 src/states/intro_greed.lua:152		bank and start	сберечь и начать
 src/states/intro_greed.lua:152		pass and start	пасовать и начать
