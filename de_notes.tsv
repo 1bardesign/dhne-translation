@@ -14,7 +14,7 @@ src/boards/easy.lua:2		Shallows	Seichte Gewässer	Any other way to call this? Se
 src/boards/easy.lua:3		Chill Vibes.\nShort run, extra bust limit, capped rewards.	Chillige Vibes.\nKurzer Run, höheres Bust-Limit, Sterne gedeckelt	
 src/boards/easy.lua:4		the friendliest pond around	der freundlichste teich\nin der nachbarschaft	
 src/boards/fish_board.lua:2		The Bay	Die Bucht	
-src/boards/fish_board.lua:3		Smells Fishy	Riecht Nach Fisch	
+src/boards/fish_board.lua:3		Smells Fishy	Riecht Nach Fisch.	
 src/boards/fish_board.lua:4		come for the fish, stay for the fish	komm für die fische,\nbleib für die fische	
 src/boards/normal.lua:2		Lands Adrift	Treibende Länder	
 src/boards/normal.lua:3		Real game begins.	Das Spiel Beginnt.	
@@ -57,7 +57,7 @@ src/characters/business_fish.lua:75 (+1 others)	dialogue	This ain't it	Das geht 
 src/characters/business_fish.lua:76 (+1 others)	dialogue	Take me into deep waters baby.	Bring mich in tiefe Gewässer, Baby.	
 src/characters/business_fish.lua:78	dialogue	Tuff' day in fish business	Harter Tag für's Fischgeschäft	
 src/characters/business_fish.lua:104	dialogue	Let's talk business	Kommen wir zum Geschäft	
-src/characters/business_fish.lua:106		I'll revive you for $cost ¤ and $amount dues, payable later.	Ich belebe dich wieder für $cost ¤ und $amount Gebühren, welche du später zurückzahlen kannst.	
+src/characters/business_fish.lua:106		I'll revive you for $cost ¤ and $amount dues, payable later.	Ich belebe dich wieder für $cost ¤ und $amount Schulden, welche du später begleichen kannst.	
 src/characters/business_fish.lua:113	dialogue	Bad investment	Schlecht investiert	
 src/characters/business_fish.lua:125	dialogue	Pleasure doing business	War mir ein Vergnügen	
 src/characters/cool_fish.lua:2		Cool Fish	Cooler Fisch	
@@ -323,7 +323,7 @@ src/entities/dice.lua:259		Negative\n-50 Points when scored	Negativ\n-50 Punkte 
 src/entities/dice.lua:269		Power\nRecharge power when scored	Power\nLädt deine Power auf bei Wertung	
 src/entities/dice.lua:278		Stuck\nCan't be rerolled	Klebrig\nKann nicht neu gewürfelt werden	
 src/entities/dice.lua:287		Golden\n+1¥ when scored	Golden\n+1¥ bei Wertung	
-src/entities/dice.lua:305		Skip\nRolls to the next value	Skip\nKippt zum nächsten Wert	
+src/entities/dice.lua:305		Skip\nRolls to the next value	Skip\nWürfelt zum nächsten Wert	make sure its clear this throws dice
 src/entities/dice.lua:314		Mirror\nFlips to value of next clicked die	Spiegel\nKippt zum Wert des danach gewählten Würfels	
 src/entities/dice.lua:323		Cracked\n -1 ♥ when rolled	Brüchig\n -1 ♥ wenn geworfen	
 src/entities/dice.lua:333		Empty\nCan't be rolled	Leer\nKann nicht geworfen werden	
@@ -334,7 +334,7 @@ src/entities/dice_peek.lua:50		ingestion might hurt tummy	könnte bauchschmerzen
 src/entities/dice_peek.lua:253		Impatient	Ungeduldig	
 src/entities/dice_peek.lua:253		Nudges up everytime anything is rolled.	Kippt jedes mal +1 wenn irgendwas geworfen wird.	
 src/entities/dice_peek.lua:254		Disappears after being scored.	Verchwindet nach Wertung.	
-src/entities/dice_peek.lua:255		Cycle	Kreislauf	
+src/entities/dice_peek.lua:255		Cycle	Zyklisch	
 src/entities/dice_peek.lua:255		Rolls to its next value.\nDamage on score.	Würfelt immer auf den nächsten Wert.\nErleidet Schaden bei Wertung.	
 src/entities/dice_peek.lua:267		Scores x${times}	Wertet x${times}	
 src/entities/dice_peek.lua:268		Scores multiple times.	Wird mehrfach gewertet.	
@@ -448,7 +448,7 @@ src/item_unlocks.lua:232		Biscuit	Keks
 src/item_unlocks.lua:233		worth risking it for	geh mir nicht drauf	
 src/item_unlocks.lua:241		Send It	Hau Raus	
 src/item_unlocks.lua:242		when in doubt go flat out	im zweifel vollgas	
-src/item_unlocks.lua:251 (+1 others)		Ghost	Geister	
+src/item_unlocks.lua:251 (+1 others)		Ghost	Geist	
 src/item_unlocks.lua:252		pretty spooky	ziemlich gruselig	
 src/item_unlocks.lua:261 (+1 others)		Shield	Schild	
 src/item_unlocks.lua:262		bust protection	schützt vor busts	
@@ -993,10 +993,10 @@ src/items.lua:5512		Stupid Dice	Blöde Würfel
 src/items.lua:5513		Dice randomly reroll on their own.	Würfel werfen sich zufällig neu.	randomly hier manchmal? ab und zuß
 src/items.lua:5603		Slippery Threes	Scheuer Dreier	
 src/items.lua:5604		Auto-reroll dice that show a 3, score 33 Points for each	Würfel, die auf 3 landen, werden automatisch neu geworfen	
-src/items.lua:5625 (+4 others)		Bad Tooth	Schlechter Zahn	nur schlecht? faulig?
+src/items.lua:5625 (+4 others)		Bad Tooth	Fauler Zahn	
 src/items.lua:5626		-3 Mult	-3 Multi	
 src/items.lua:5654		-1 Dice Space	-1 Würfel Platz	what's this? Like the limit of dice?
-src/items.lua:5715 (+12 others)		Dues	Fällige Rechnungen	is that what this is?
+src/items.lua:5715 (+12 others)		Dues	Schulden	
 src/items.lua:5716		Rerolls all dice and coins.\n5% chance to activate on dice rolls.	5% Chance, dass bei Würfelwurf alle Würfel und Münzen neu zu werfen	
 src/items.lua:5737		Rerolled!	Neu geworfen!	
 src/items.lua:5743		Rerolls a single random coin.\n5% chance to activate on dice rolls.	5% Chance, dass bei Würfelwurf eine einzelne Münze neu zu werfen	
@@ -1073,7 +1073,7 @@ src/items.lua:6595		Nudge all dice individually between +0 and +2 pips.	Kippe je
 src/keybinds.lua:3 (+2 others)		Roll	Würfeln	
 src/keybinds.lua:4 (+2 others)		Score	Werten	context?
 src/keybinds.lua:5 (+1 others)		BANK	BANK	
-src/keybinds.lua:6		Use Power	Power benutzen	
+src/keybinds.lua:6		Use Power	Power	
 src/keybinds.lua:7		Arrange Dice	Würfel Anordnen	
 src/keybinds.lua:8		Left Click	Linksklick	
 src/keybinds.lua:9		Right Click	Rechtsklick	
@@ -1088,7 +1088,7 @@ src/powers.lua:52		Lock one selected die. Spawn 2 ghost dice.	Erzeuge 2 Geisterw
 src/powers.lua:75		Tell The Future	Wahrsagerei	Or a person?
 src/powers.lua:76		Block 2 sides from being rolled on the selected die next roll.	Verhindere 2 Seiten für den nächsten Wurf.	
 src/powers.lua:104		Nudge Skip	Skip-Kippen	
-src/powers.lua:105		+1 pip to the selected die, skipping values already showing.	Kippt den gewählten Würfel +1 Auge. Überspringt dabei Augenzahlen, welche andere Würfel zeigen	this is clunky
+src/powers.lua:105		+1 pip to the selected die, skipping values already showing.	Kippt den gewählten Würfel +1 Auge. Überspringt dabei Augenzahlen,\nwelche andere Würfel zeigen	this is clunky
 src/powers.lua:140		Nudge Up	Hoch Kippen	
 src/powers.lua:141		+1 pip to the selected die	Kippt den gewählten Würfel +1 Auge.	
 src/powers.lua:161		Flip	Umdrehen	
@@ -1118,7 +1118,7 @@ src/powers.lua:507		Nibble	Knabbern
 src/powers.lua:508		${nibble}% chance to take a proper bite\nRegain 1 bust.${die}	${nibble}% Chance, einen ganzen Bissen zu nehmen.\nFüllt 1 Bust auf.${die}	what does die at the end do?
 src/powers.lua:510		You might be finished	Das könnte es für dich gewesen sein	finished as in dead or good finished?
 src/powers.lua:515		Munch	Mampf	
-src/powers.lua:516		Take a big bite to regain all busts.	Nimm einen großen Bissen um alle Busts aufzufüllen.	
+src/powers.lua:516		Take a big bite to regain all busts.	Nimm einen großen Bissen\num alle Busts aufzufüllen.	
 src/powers.lua:606		Reincarnate	Wiedergeburt	
 src/powers.lua:607		Selected die is reborn	Der gewählte Würfel wird wiedergeboren.	
 src/special_conditions.lua:7		Solo	Solo	
@@ -1151,7 +1151,7 @@ src/states/catalogue.lua:86 (+4 others)		dawn mode	dämmerung
 src/states/catalogue.lua:86 (+4 others)		night mode	mitternacht	
 src/states/controls.lua:53		Keybinds	Tastenbelegung	
 src/states/controls.lua:131		press a key	drück eine taste	
-src/states/controls.lua:142		reset keybinds	tastenbelegung zurücksetzen	
+src/states/controls.lua:142		reset keybinds	zurücksetzen	
 src/states/credits.lua:43		Created by	Ein Spiel von	
 src/states/credits.lua:49		Translation	Übersetzung	
 src/states/credits.lua:56		Special Thanks	Besonderer Dank an	
@@ -1233,7 +1233,7 @@ src/states/ending_finale.lua:300		I can't do it	Ich kann es nicht tun
 src/states/fish_market.lua:87		--  Fish Market  --	-- Fischmarkt --	
 src/states/fish_market.lua:193		Sell Fish	Fisch Verkaufen	
 src/states/fish_market.lua:222		Buy Fish	Fisch Kaufen	
-src/states/fish_market.lua:265		Next!	Nächster!	Nächste/r/s? context?
+src/states/fish_market.lua:265		Next!	Weiter!	
 src/states/game.lua:160		PAUSE II	PAUSE II	
 src/states/game.lua:167 (+1 others)		Continue	Weiter	
 src/states/game.lua:171 (+1 others)		Cannot Restart Bet Runs	Kein Neustart Für Wetten	
@@ -1353,8 +1353,8 @@ src/states/intro_greed.lua:65		talent	Talent
 src/states/intro_greed.lua:66		patience	Geduld	
 src/states/intro_greed.lua:67		fate	Schicksal	
 src/states/intro_greed.lua:68		destiny	Bestimmung	
-src/states/intro_greed.lua:80		Roll to gain Stars.	Wirf den Würfel, um Sterne zu bekommen.	
-src/states/intro_greed.lua:81		Roll 1 to lose Stars.	Wirf eine 1, um Sterne zu verlieren.	
+src/states/intro_greed.lua:80		Roll to gain Stars.	Würfel um Sterne zu gewinnen.	
+src/states/intro_greed.lua:81		Roll 1 to lose Stars.	Bei einer 1 verlierst du die Sterne.	
 src/states/intro_greed.lua:110		This is a game about ${reason}.	Dieses Spiel dreht sich um ${reason}.	What is inserted here?
 src/states/intro_greed.lua:152		bank and start	sichern und spiel starten	
 src/states/intro_greed.lua:152		pass and start	passen und spiel starten	
@@ -1386,7 +1386,7 @@ src/states/options.lua:479		reset options	optionen rückgängig
 src/states/options.lua:484		Reset all the game options\nto their default values?	Willst du alle Optionen auf ihren Standard zurücksetzen? 	
 src/states/options.lua:505		reset tips	tipps rückgängig	
 src/states/options.lua:510		reset all the hover tooltip counters\nso that all the tips show again?	Willst du alle Tipps wieder anzeigen lassen?	
-src/states/options.lua:529		replay tutorial	tutorial nochmal	"""replay"" gives the option in main menu? better wording?"
+src/states/options.lua:529		replay tutorial	tutorial	
 src/states/options.lua:558		(BETA)	(BETA)	
 src/states/outside.lua:18		by Franek and Max	von Franek und Max	
 src/states/outside.lua:19		this was a game about waking up	dieses spiel drehte ich um's aufwachen	
@@ -1414,7 +1414,7 @@ src/states/tax_audit.lua:142 (+1 others)		Give up a die	Gib einen Würfel ab
 src/states/tax_audit.lua:193		You haven't paid your debt.\nWe will take your dice now.	Du hast unbezahlte Schulden.\nWir beschlagnahmen all deine Würfel.	
 src/states/tax_audit.lua:285		You've entered upper tax bracket.\nPay up ${amount} § of your fish.	Deine Steuerklasse ist gestiegen.\nZahle ${amount} § deiner Fische.	
 src/states/tax_audit.lua:307 (+1 others)		Pay Up	Bezahlen	
-src/states/tax_audit.lua:330 (+1 others)		Take on 2 Debt Dues	Nimm 2 Schulden auf	"Debt ""due""? Fällige Schulden? context"
+src/states/tax_audit.lua:330 (+1 others)		Take on 2 Debt Dues	2 Schulden aufnehmen	"Debt ""due""? Fällige Schulden? context"
 src/states/tax_audit.lua:350		You've been audited.\nYou haven't paid taxes.\nWe will be taking ${amount} § of your fish.	Du wurdest geprüft.\nDeine Steuern wurden nicht gezahlt.\nWir beschlagnahmen ${amount} § deiner Fische.	
 src/states/title.lua:79		roll 6 to play\nroll 1 to quit	wirf 6 zum spielen\nwirf 1 zum beenden	zum? is that good?
 src/states/title.lua:159 (+1 others)	dialogue	so you chose to come back	du bist zurückgekehrt	
