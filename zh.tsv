@@ -1111,7 +1111,7 @@ src/powers.lua:372		Gain an extra blue Bust for this turn.	这回合获得一个
 src/powers.lua:387		Fishy Deal	“公平”交易
 src/powers.lua:388		-1 Bust, +1 ¥. Bump difficulty.	-1 Bust，+1¥。提升难度。
 src/powers.lua:407		Level Skip	跳过关卡
-src/powers.lua:408		Skip a level. Spawns 2 random dice.	跳过该关卡。生成两颗随机骰子。
+src/powers.lua:408		Skip a level. Spawns a random die and a random snack.	跳过该关卡。生成一颗随机骰子和一个随机零食。
 src/powers.lua:470		Fishy Loan	“免费”贷款
 src/powers.lua:471		+100 Points, +1 ¥. Take on debt.	+100点数，+1 ¥。负起债务。
 src/powers.lua:507		Nibble	咬一小口

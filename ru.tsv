@@ -1111,7 +1111,7 @@ src/powers.lua:372		Gain an extra blue Bust for this turn.	Дает дополн
 src/powers.lua:387		Fishy Deal	Рыбная сделка
 src/powers.lua:388		-1 Bust, +1 ¥. Bump difficulty.	-1 Баст, +1 ¥. Повышает сложность.
 src/powers.lua:407		Level Skip	Пропуск уровня
-src/powers.lua:408		Skip a level. Spawns 2 random dice.	
+src/powers.lua:408		Skip a level. Spawns a random die and a random snack.	Пропускает уровень. Создаёт случайный кубик и случайную закуску.
 src/powers.lua:470		Fishy Loan	Подозрительный кредит
 src/powers.lua:471		+100 Points, +1 ¥. Take on debt.	+100 Очков, +1 ¥. Влезаешь в долги.
 src/powers.lua:507		Nibble	Кусь

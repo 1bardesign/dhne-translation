@@ -1111,7 +1111,7 @@ src/powers.lua:372		Gain an extra blue Bust for this turn.	Zyskaj dodatkowy nieb
 src/powers.lua:387		Fishy Deal	Śliski Interes
 src/powers.lua:388		-1 Bust, +1 ¥. Bump difficulty.	-1 Bust, +1 ¥. Podbij trudność.
 src/powers.lua:407		Level Skip	Przeskok Poziomu
-src/powers.lua:408		Skip a level. Spawns 2 random dice.	
+src/powers.lua:408		Skip a level. Spawns a random die and a random snack.	Pomiń poziom. Przywołuje losową kostkę i losową przekąskę.
 src/powers.lua:470		Fishy Loan	Śliska Pożyczka
 src/powers.lua:471		+100 Points, +1 ¥. Take on debt.	+100 Punktów, +1 ¥. Zaciągnij dług.
 src/powers.lua:507		Nibble	Skubnięcie

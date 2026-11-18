@@ -1111,7 +1111,7 @@ src/powers.lua:372		Gain an extra blue Bust for this turn.	Få en extra blå nit
 src/powers.lua:387		Fishy Deal	Skum affär
 src/powers.lua:388		-1 Bust, +1 ¥. Bump difficulty.	-1 nit, +1 ¥. Höj svårighetsgraden.
 src/powers.lua:407		Level Skip	Hoppa över nivå
-src/powers.lua:408		Skip a level. Spawns 2 random dice.	Hoppa över en nivå. Skapar 2 slumpmässiga tärningar.
+src/powers.lua:408		Skip a level. Spawns a random die and a random snack.	Hoppa över en nivå. Skapar en slumpmässig tärning och ett slumpmässigt snacks.
 src/powers.lua:470		Fishy Loan	Skumt lån
 src/powers.lua:471		+100 Points, +1 ¥. Take on debt.	+100 poäng, +1 ¥. Dra på dig en skuld.
 src/powers.lua:507		Nibble	Småbit
