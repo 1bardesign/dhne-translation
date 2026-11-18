@@ -11,7 +11,7 @@ src/board_unlocks.lua:7		chill vibes	chillige vibes
 src/board_unlocks.lua:17		the real game begins	das spiel beginnt
 src/board_unlocks.lua:27		something smells fishy	irgendwas riecht nach fisch
 src/boards/easy.lua:2		Shallows	Seichte Gewässer
-src/boards/easy.lua:3		Chill Vibes.\nShort run, extra bust limit, capped rewards.	Chillige Vibes.\nKurzer Run, höheres Bust-Limit, Sterne gedeckelt
+src/boards/easy.lua:3		Chill Vibes. Short run, extra bust limit.	Chillige Vibes.\nKurzer Run, Höheres Bust-Limit.
 src/boards/easy.lua:4		the friendliest pond around	der freundlichste teich\nin der nachbarschaft
 src/boards/fish_board.lua:2		The Bay	Die Bucht
 src/boards/fish_board.lua:3		Smells Fishy	Riecht Nach Fisch.
@@ -37,8 +37,8 @@ src/character_unlocks.lua:105		slimy	schleimig
 src/character_unlocks.lua:114		say aaaaaaaa	sag mal aaaaaaah
 src/character_unlocks.lua:120		Plasticine	Knetmasse
 src/character_unlocks.lua:121		like putty in your hands\ncharacter customisation option	forme deine fantasie\ncharakteranpassungen
-src/character_unlocks.lua:134		Bets	Wetten
-src/character_unlocks.lua:135		bet ¤ to increase difficulty and reward	setze ¤ ein, um schwierigkeit\nund belohnung zu erhöhen
+src/character_unlocks.lua:134		Wagers	Wetten
+src/character_unlocks.lua:135		wager ¤ to increase difficulty and reward	setze ¤ ein um schwierigkeit und gewinn zu erhöhen
 src/characters/anais.lua:2		Anais	Anais
 src/characters/anais.lua:38		Biblically Accurate	Biblisch Akkurat
 src/characters/anais.lua:56 (+10 others)		${count} levels til the end	${count} Level bis zum Ende
@@ -78,7 +78,7 @@ src/characters/god.lua:15	dialogue	fall back	bleib zurück
 src/characters/god.lua:34	dialogue	begone	weiche
 src/characters/god.lua:40		wager your soul	wette deine seele
 src/characters/god.lua:41		Wager your Soul?	Willst du deine Seele auf's Spiel setzen?
-src/characters/god.lua:42		You are betting your soul.\nIf you lose, your save is gone forever.	Du wettest deine Seele.\nFalls du verlierst ist dein Spielstand für immer verschollen.
+src/characters/god.lua:42		You are wagering your soul.\nIf you lose, your save is gone forever.	Du setzt deine Seele ein.\nVerlierst du ist dein Speicherstand für immer weg.
 src/characters/god.lua:51	dialogue	i hope you are feeling lucky	ich hoffe das glück ist dir hold
 src/characters/god.lua:70		but you have earned nothing	aber du hast nichts gesammelt
 src/characters/god.lua:72		but you need ${stars} ¤	aber du brauchst ${stars} ¤
@@ -103,11 +103,11 @@ src/characters/god.lua:349		i always believed in you	ich hab immer an dich gegla
 src/characters/guy.lua:2		Guy	Typ
 src/characters/guy.lua:46		Eye Wide Open	Auge Weit Offen
 src/characters/guy.lua:53		Lil Bro	Kleiner Brudi
-src/characters/guy.lua:85	dialogue	Reach level 7 to break free!	Erreiche Level 7 um dich zu befreien!
-src/characters/guy.lua:87	dialogue	Reach level 10 to break free!	Erreiche Level 10 um dich zu befreien!
+src/characters/guy.lua:85	dialogue	Reach level 7 to break free!	Erreich Level 7 um dich zu befreien!
+src/characters/guy.lua:87	dialogue	Reach level 10 to break free!	Erreich Level 10 um dich zu befreien!
 src/characters/guy.lua:115	dialogue	Keep riding?	Weiterreiten?
 src/characters/guy.lua:117	dialogue	I'll revive you for $cost ¤ and one passive item	Ich belebe dich für $cost ¤ und ein passives Item wieder
-src/characters/guy.lua:123	dialogue	Live your truth	Lebe deine Wahrheit
+src/characters/guy.lua:123	dialogue	Live your truth	Leb aufrecht
 src/characters/guy.lua:136	dialogue	Ride on	Lass dich nicht aufhalten
 src/characters/hotdog.lua:2		Hot Dawg	Hotdog
 src/characters/hotdog.lua:53		Jalapeno	Jalapeño
@@ -205,15 +205,15 @@ src/characters/tutorial_character.lua:303	dialogue	Pretty good for the first go.
 src/characters/tutorial_character.lua:305	dialogue	I didn't explain it all but you're a smart cookie.	Ich hab nicht alles erklärt, aber du bist nicht auf den Kopf gefallen.
 src/characters/tutorial_character.lua:306	dialogue	You can figure out the rest.	Den Rest findest du\nselbst heraus.
 src/characters/tutorial_character.lua:308	dialogue	I'll see you in the real game.	Wir sehen uns\nim echten Spiel.
-src/characters/tutorial_character.lua:309	dialogue	Remember, luck helps. Judgement matters more.	Denk dran,\nGlück ist hilfreich.\n\nEntscheidungen sind wichtig.
+src/characters/tutorial_character.lua:309	dialogue	Remember, luck helps. Judgement matters more.	Glück kann dich nur so weit bringen. Deine Entscheidungen machen den Unterschied.
 src/characters/wizard.lua:2		Wizard	Zauberin
 src/characters/wizard.lua:43		Soucerer	Flexenmeisterin
 src/characters/wizard.lua:50		Archmogus	Erzmoggierin
 src/characters/wizard.lua:57		Orb	Kugel
 src/characters/wizard.lua:89	dialogue	Get to level 7, and you're free.	Schaffst du es bis Level 7 bist du frei.
 src/characters/wizard.lua:92	dialogue	Get to level 10, and you're free.	Schaffst du es bis Level 10 bist du frei.
-src/characters/wizard.lua:213	dialogue	Another chance buddy?	Noch ne Runde, Kumpeline?
-src/characters/wizard.lua:215	dialogue	I'll revive you for $cost ¤ and difficulty increase.	Ich belebe dich für $cost ¤ und eine höhere Schwierigkeit wieder.
+src/characters/wizard.lua:213	dialogue	Another chance buddy?	Noch ne Runde, mein Lehrling?
+src/characters/wizard.lua:215	dialogue	I'll revive you for $cost ¤ and difficulty increase.	Ich belebe dich für $cost ¤ und einen Schwierigkeitsanstieg wieder.
 src/characters/wizard.lua:221	dialogue	Hmpf.	Hmpf.
 src/characters/wizard.lua:238	dialogue	Tada!	Tada!
 src/coloured_text.lua:8 (+117 others)		bust	bust
@@ -222,7 +222,7 @@ src/coloured_text.lua:14		instant	instant
 src/coloured_text.lua:16		turn	zug
 src/coloured_text.lua:20		turns	züge
 src/coloured_text.lua:24 (+3 others)		bank	bank
-src/coloured_text.lua:27 (+2 others)		stars	sterne
+src/coloured_text.lua:27 (+1 others)		stars	sterne
 src/coloured_text.lua:31 (+5 others)		points	punkte
 src/coloured_text.lua:35 (+9 others)		mult	multi
 src/coloured_text.lua:39 (+8 others)		bonus	bonus
@@ -254,7 +254,7 @@ src/endings/alley.lua:110	dialogue	i don't have to brush my teeth	ich muss meine
 src/endings/anais.lua:124	dialogue	don't leave again	verlass mich nicht nochmal
 src/endings/anais.lua:125	dialogue	you're safe here	du bist hier sicher
 src/endings/anais.lua:126	dialogue	with me	mit mir
-src/endings/boardroom.lua:34		hit da bricks	mach nen polnischen
+src/endings/boardroom.lua:34		hit da bricks	zieh ab
 src/endings/boardroom.lua:120	dialogue	you believe in the wrong things	du glaubst an die falschen dinge
 src/endings/boardroom.lua:121	dialogue	you believe in me now	jetzt glaubst du an mich
 src/endings/cool_fish.lua:29		lets hit that shit	komm wir ziehen den scheiß
@@ -349,7 +349,7 @@ src/entities/dupe_baby.lua:7		Dupe Baby	Duplikator Baby
 src/entities/dupe_baby.lua:59		Duplicated!	Dupliziert!
 src/entities/encounter_timeline.lua:136		Goal Reached	Ziel Erreicht
 src/entities/encounter_timeline.lua:437		GOAL REACHED	ZIEL ERREICHT
-src/entities/encounter_timeline.lua:438		${to_go} TO GO	${to_go} ÜBRIG
+src/entities/encounter_timeline.lua:438		${to_go} TO GO	${to_go} NOCH
 src/entities/eye_baby.lua:7		Eye Baby	Augen Baby
 src/entities/fish_spawner.lua:215		Cool Fish Available	Cooler Fisch Verfügbar
 src/entities/god_shop.lua:68		CHOOSE	WÄHLE
@@ -600,7 +600,7 @@ src/items.lua:1035		Block 1s for the next roll	Blockiert 1er für den nächsten 
 src/items.lua:1052		Grape	Traube
 src/items.lua:1053 (+1 others)		Add 1 Bonus side	Fügt 1 Bonus-Seite hinzu
 src/items.lua:1068 (+1 others)		Bonus Side Added	Bonus-Seite Hinzugefügt
-src/items.lua:1073		pieróg z kapusto	Pieróg z kapusto
+src/items.lua:1073		Pieróg z Kapusto	Pieróg z Kapusto
 src/items.lua:1091		Crack Candy	Kandiszucker
 src/items.lua:1092		Add 2 Power sides	Fügt 2 Power-Seiten hinzu
 src/items.lua:1110		Power Sides Added	Power-Seiten Hinzugefügt
@@ -874,11 +874,11 @@ src/items.lua:4049		Scoring a Full House spawns a ghost die	Erzeugt einen Geiste
 src/items.lua:4063 (+5 others)		Ghost!	Geist!
 src/items.lua:4069		Ghostanza	Geistanza
 src/items.lua:4072		Scoring a Star Bonanza spawns 4 ghost dice	Erzeugt 4 Geisterwürfel wenn eine Sternbonanza gewertet wird
-src/items.lua:4092		Ghost Biscuit	Geisterkeks
+src/items.lua:4092		Ghost Biscuit	Gruselkeks
 src/items.lua:4095		Roll exactly 1 die - if it's a 5 or 6, spawn a ghost die	Erzeugt einen Geisterwürfel wenn ein einzelner Würfel geworfen wird und auf 5 oder 6 landet.
-src/items.lua:4115		Coin Biscuit	Münz-Keks
+src/items.lua:4115		Coin Biscuit	Münzkeks
 src/items.lua:4118		Roll exactly 1 die - if it's a 2, +1¥	+1¥ wenn ein einzelner Würfel geworfen wird und auf 2 landet
-src/items.lua:4139		Mult Biscuit	Multi-Keks
+src/items.lua:4139		Mult Biscuit	Multikeks
 src/items.lua:4142		Roll exactly 1 die - if it's a 3 or 4, +1 Mult	+1 Multi wenn ein einzelner Würfel geworfen wird und auf 3 oder 4 landet
 src/items.lua:4160		Flask Of Ghost	Geisterflasche
 src/items.lua:4163		Rerolling a combo that contains a Three Of A Kind creates 2 ghost dice	Erzeugt zwei Geisterwürfel, wenn eine Combo, die einen Drilling beinhaltet, neu geworfen wird
@@ -983,7 +983,7 @@ src/items.lua:5388		Triple Trouble	Dreiecks-Drama
 src/items.lua:5389		Combos containing Three Of A Kind -4 Mult	-4 Multi für Combos mit einem Dreierpasch
 src/items.lua:5413		No Four Kind	Keine Viererpasche
 src/items.lua:5414		Four Of A Kind gives no score	Viererpasche werten keine Punkte
-src/items.lua:5439		No Full House	Leeres Haus
+src/items.lua:5439		Empty House	Leeres Haus
 src/items.lua:5440		Full House gives no score	Full House wertet keine Punkte
 src/items.lua:5466		No Bonanza	Keine Bonanza
 src/items.lua:5467		Star Bonanza gives no score	Sternbonanza wertet keine Punkte
@@ -995,7 +995,7 @@ src/items.lua:5603		Slippery Threes	Scheuer Dreier
 src/items.lua:5604		Auto-reroll dice that show a 3, score 33 Points for each	Würfel, die auf 3 landen, werden automatisch neu geworfen
 src/items.lua:5625 (+4 others)		Bad Tooth	Fauler Zahn
 src/items.lua:5626		-3 Mult	-3 Multi
-src/items.lua:5654		-1 Dice Space	-1 Würfel Platz
+src/items.lua:5654		Dice Limit -1	-1 Würfel-Limit
 src/items.lua:5715 (+12 others)		Dues	Schulden
 src/items.lua:5716		Rerolls all dice and coins.\n5% chance to activate on dice rolls.	5% Chance, dass bei Würfelwurf alle Würfel und Münzen neu zu werfen
 src/items.lua:5737		Rerolled!	Neu geworfen!
@@ -1096,7 +1096,7 @@ src/powers.lua:162		Flip the selected die to its opposite face.	Dreht den gewäh
 src/powers.lua:182		Smite	Opfergabe
 src/powers.lua:183		Sacrifice selected die, +3 ¥	Opfert den gewählten Würfel für +3¥.
 src/powers.lua:214		Pip Pip	Auge Auge
-src/powers.lua:215		Set the second selected die to the same pip value as the first.	Setzt den zweiten gewählten Würfel auf den Augenwert des ersten.
+src/powers.lua:215		Nudge the second selected die to the same pip value as the first.	Kippt den zweiten gewählten Würfel auf den Augenwert des ersten.
 src/powers.lua:236		Ghost Clone	Geist-Klon
 src/powers.lua:237		Spawn a ghost copy of the selected die.	Erzeugt eine Geist-Kopie des gewählten Würfels.
 src/powers.lua:286		Reroll	Neuwurf
@@ -1107,20 +1107,20 @@ src/powers.lua:330		Mystery Die	Rätselwürfel
 src/powers.lua:331		Spawn a random die.	Erzeugt einen zufälligen Würfel.
 src/powers.lua:354		Gain a Bust Shield.	Erzeugt ein Bust-Schild. 
 src/powers.lua:371		Ghost Bust	Geist-Bust
-src/powers.lua:372		Gain an extra blue Bust for this turn.	Erzeugt einen extra blauen Bust für diesen Zug.
+src/powers.lua:372		Gain an extra blue Bust for this turn.	Erzeugt einen zusätzlichen blauen Bust für diesen Zug.
 src/powers.lua:387		Fishy Deal	Fauler Deal
 src/powers.lua:388		-1 Bust, +1 ¥. Bump difficulty.	-1 Bust, +1¥. Erhöht die Schwierigkeit.
 src/powers.lua:407		Level Skip	Level Überspringen
-src/powers.lua:408		Skip a level. Spawns 2 random dice.	Übersprint ein Level. Erzeugt 2 zufällige Würfel.
-src/powers.lua:470		Fishy Loan	Fauler Kredit
-src/powers.lua:471		+100 Points, +1 ¥. Take on debt.	+100 Punkte, +1¥. Nimm Schulden auf.
-src/powers.lua:507		Nibble	Knabbern
-src/powers.lua:508		${nibble}% chance to take a proper bite\nRegain 1 bust.${die}	${nibble}% Chance, einen ganzen Bissen zu nehmen.\nFüllt 1 Bust auf.${die}
-src/powers.lua:510		You might be finished	Das könnte es für dich gewesen sein
-src/powers.lua:515		Munch	Mampf
-src/powers.lua:516		Take a big bite to regain all busts.	Nimm einen großen Bissen\num alle Busts aufzufüllen.
-src/powers.lua:606		Reincarnate	Wiedergeburt
-src/powers.lua:607		Selected die is reborn	Der gewählte Würfel wird wiedergeboren.
+src/powers.lua:408		Skip a level. Spawns a random die and a random snack.	Überspringt ein Level. Erzeugt einen zufälligen Würfel und einen zufälligen Snack.
+src/powers.lua:476		Fishy Loan	Fauler Kredit
+src/powers.lua:477		+100 Points, +1 ¥. Take on debt.	+100 Punkte, +1¥. Nimm Schulden auf.
+src/powers.lua:513		Nibble	Knabbern
+src/powers.lua:514		${nibble}% chance to take a proper bite\nRegain 1 bust.${die}	${nibble}% Chance, einen ganzen Bissen zu nehmen.\nFüllt 1 Bust auf.${die}
+src/powers.lua:516		You might be finished	Das könnte es für dich gewesen sein
+src/powers.lua:521		Munch	Mampf
+src/powers.lua:522		Take a big bite to regain all busts.	Nimm einen großen Bissen\num alle Busts aufzufüllen.
+src/powers.lua:612		Reincarnate	Wiedergeburt
+src/powers.lua:613		Selected die is reborn	Der gewählte Würfel wird wiedergeboren.
 src/special_conditions.lua:7		Solo	Solo
 src/special_conditions.lua:18		Pair	Paar
 src/special_conditions.lua:28		Short Straight	Kurze Straße
@@ -1149,9 +1149,9 @@ src/special_conditions.lua:361		How?	Wie?
 src/states/catalogue.lua:50 (+7 others)		< back	< zurück
 src/states/catalogue.lua:86 (+4 others)		dawn mode	dämmerung
 src/states/catalogue.lua:86 (+4 others)		night mode	mitternacht
-src/states/controls.lua:53		Keybinds	Tastenbelegung
-src/states/controls.lua:131		press a key	drück eine taste
-src/states/controls.lua:142		reset keybinds	zurücksetzen
+src/states/controls.lua:65		Keybinds	Tastenbelegung
+src/states/controls.lua:144		press a key	drück eine taste
+src/states/controls.lua:155		reset keybinds	zurücksetzen
 src/states/credits.lua:43		Created by	Ein Spiel von
 src/states/credits.lua:49		Translation	Übersetzung
 src/states/credits.lua:56		Special Thanks	Besonderer Dank an
@@ -1184,7 +1184,7 @@ src/states/ending_bet.lua:77 (+1 others)		Bust rate:	Bust-Rate:
 src/states/ending_bet.lua:79 (+1 others)		Run stars:	Run-Sterne:
 src/states/ending_bet.lua:93 (+4 others)		¤ banked	¤ in der bank
 src/states/ending_bet.lua:156	dialogue	you won	du hast gewonnen
-src/states/ending_bet.lua:161	dialogue	you have done very well	das hast du sehr gut gemacht
+src/states/ending_bet.lua:161	dialogue	you have done very well	sehr gut gemacht
 src/states/ending_bet.lua:163	dialogue	a treat for a brave child	eine belohnung für ein mutiges kind
 src/states/ending_bet.lua:180	dialogue	banking early though?	aber früh zu sichern?
 src/states/ending_bet.lua:181 (+1 others)	dialogue	how boring	wie langweilig
@@ -1194,11 +1194,11 @@ src/states/ending_bet.lua:193 (+2 others)		star	stern
 src/states/ending_bet.lua:197	dialogue	toss a coin\n\ndouble or nothing	wirf eine münze\n\ndoppelt oder nichts
 src/states/ending_bet.lua:198	dialogue	i create reality	ich schaffe die realität
 src/states/ending_bet.lua:215	dialogue	brave	mutig
-src/states/ending_bet.lua:216	dialogue	but not enough faith	aber nicht genug glaube
+src/states/ending_bet.lua:216	dialogue	but not enough faith	doch dir fehlt es an glauben
 src/states/ending_bet.lua:218	dialogue	you did well	gut gemacht
 src/states/ending_bet.lua:219	dialogue	you are my child	du bist mein kind
 src/states/ending_bet.lua:220 (+1 others)	dialogue	and i am your god	und ich bin dein gott
-src/states/ending_bet.lua:280		pass and bank	passen und in die bank einzahlen
+src/states/ending_bet.lua:280		pass and bank	passen und in der bank sichern
 src/states/ending_demo.lua:132 (+8 others)	dialogue	i am god	ich bin gott
 src/states/ending_demo.lua:133	dialogue	thats it for the demo	das war es für die demo
 src/states/ending_demo.lua:135	dialogue	buy the game now	spiel jetzt kaufen
@@ -1211,7 +1211,7 @@ src/states/ending_demo.lua:215		back to title	zurück zum titelbild
 src/states/ending_finale.lua:87	dialogue	well well well	sieh mal einer an
 src/states/ending_finale.lua:88	dialogue	how did we get here?	wie bist du hier her gekommen?
 src/states/ending_finale.lua:90	dialogue	ah, i remember	ah, ich entsinne mich
-src/states/ending_finale.lua:96	dialogue	you bet your soul	du hast deine seele gewettet
+src/states/ending_finale.lua:96	dialogue	you wagered your soul	du hast deine seele eingesetzt
 src/states/ending_finale.lua:98	dialogue	and you lost	und verloren
 src/states/ending_finale.lua:101	dialogue	embrace oblivion	ergib dich der leere
 src/states/ending_finale.lua:103	dialogue	none of this ever happened	nichts hiervon ist je geschehen
@@ -1234,16 +1234,17 @@ src/states/fish_market.lua:87		--  Fish Market  --	-- Fischmarkt --
 src/states/fish_market.lua:193		Sell Fish	Fisch Verkaufen
 src/states/fish_market.lua:222		Buy Fish	Fisch Kaufen
 src/states/fish_market.lua:265		Next!	Weiter!
+src/states/game.lua:146 (+2 others)		back	zurück
 src/states/game.lua:160		PAUSE II	PAUSE II
 src/states/game.lua:167 (+1 others)		Continue	Weiter
-src/states/game.lua:171 (+1 others)		Cannot Restart Bet Runs	Kein Neustart Für Wetten
+src/states/game.lua:171 (+1 others)		Cannot Restart Wager Runs	Neustart Unmöglich Bei Wetten
 src/states/game.lua:174		Restart	Neustart
 src/states/game.lua:176		Restart the run from scratch\nand lose all gained stars?	Willst du den Run neu starten\nund alle gesammelten Sterne verlieren?
 src/states/game.lua:182 (+3 others)		Options	Optionen
 src/states/game.lua:190		Save Run	Run Speichern
 src/states/game.lua:191		(Cant Save Right Now)	(Speichern Gerade Nicht Möglich)
 src/states/game.lua:194		Quit to menu and save run for later?	Willst du den aktuellen Run speichern\nund ins Hauptmenü zurückkehren?
-src/states/game.lua:202		Surrender	Aufgeben
+src/states/game.lua:202		Abandon	Aufgeben
 src/states/game.lua:204		Quit to menu and lose all gained stars?	Willst du ins Hauptmenü zurückkehren\nund alle gesammelten Sterne verlieren?
 src/states/game.lua:209		No way out	Kein Ausweg
 src/states/game.lua:514		secure the points\nend the turn\nrecharge character power\nclear momentum	sichert die punkte\nbeendet den zug\nlädt charakter power auf\nsetzt momentum zurück
@@ -1256,7 +1257,7 @@ src/states/game.lua:934		ALL BUST BLOCKED	ALLE BUSTS GEBLOCKT
 src/states/game.lua:950		SHIELD OVERLOADED	SCHILD ÜBERLADEN
 src/states/game.lua:951		${count} BUSTS BLOCKED	${count} BUSTS GEBLOCKT
 src/states/game.lua:951		${count} BUST BLOCKED	${count} BUST GEBLOCKT
-src/states/game.lua:1001		bet 	wetten
+src/states/game.lua:1001		wager ${amount} ¤	${amount} ¤ wetten
 src/states/game.lua:1004		${STARS} Stars Unbanked	${STARS} Sterne nicht in der BANK
 src/states/game.lua:1006		bank stars after each nightmare level or win the run to secure them	zahle sterne in die BANK nach einem albtraum-level oder gewinne den run um sie zu sichern
 src/states/game.lua:1076		praying...	betet...
@@ -1285,29 +1286,29 @@ src/states/game.lua:2603		W I P E	W I P E
 src/states/game.lua:3031		SKIP ${pip}	SKIP ${pip}
 src/states/game.lua:3043		SKIP LOOPED	SKIP SCHLEIFE
 src/states/game.lua:3282		Level Complete	Level Geschafft
-src/states/game.lua:3323		Overshoot! +	Überschuss! +
-src/states/game.lua:3354		Level Coins	Level-Münzen
-src/states/game.lua:3365		Extra Turn Coins	Extra-Zug-Münzen
-src/states/game.lua:3377		Combine Coins	Münzen Kombiniert
-src/states/game.lua:3394		Bet bonus! +	Wettgewinn! +
-src/states/game.lua:3444		--  Level ${number} Complete!  --	--  Level ${number} Geschafft!  --
-src/states/game.lua:3460		Score:	Punktzahl:
-src/states/game.lua:3462		Reward:	Belohnung:
-src/states/game.lua:3463		Extra turns:	Extra-Züge:
-src/states/game.lua:3464		Bet bonus:	Wettgewinn:
-src/states/game.lua:3465		Overshoot:	Überschuss:
-src/states/game.lua:3467		Total:	Gesamt:
-src/states/game.lua:3565		don't lose it	verlier sie nicht
-src/states/game.lua:3565		Soul on line	Seele auf dem Spiel
-src/states/game.lua:3572		¤${BET} wagered	¤${BET} gewettet
-src/states/game.lua:3576		¤ Banked	¤ in der BANK
-src/states/game.lua:3577		Bank ¤${KEPT}?	¤${KEPT} sichern?
-src/states/game.lua:3578		Win To Bank ¤	Gewinne, um ¤ in der BANK zu sichern
-src/states/game.lua:3579		Bank ¤ in ${LEVELS} lvl	¤ sichern in ${LEVELS} lvl
-src/states/game.lua:3593		Secure your Stars for the run\nyou won't be able to gain more this run	Sichere deine Sterne für diesen Run\ndu kannst diesen Run keine Sterne mehr sammeln
-src/states/game.lua:3595		Stars already banked this run	Sterne in diesem Run schon gesichert
-src/states/game.lua:3597		Securing Stars available after each nightmare level	Sterne Sichern ist nach jedem Albtraum-Level möglich
-src/states/game.lua:3658 (+7 others)		no	nein
+src/states/game.lua:3323		Overshoot! +${amount} stars	
+src/states/game.lua:3356		Level Coins	Level-Münzen
+src/states/game.lua:3367		Extra Turn Coins	Extra-Zug-Münzen
+src/states/game.lua:3379		Combine Coins	Münzen Kombiniert
+src/states/game.lua:3396		Wager bonus! +${amount} stars	
+src/states/game.lua:3446		--  Level ${number} Complete!  --	--  Level ${number} Geschafft!  --
+src/states/game.lua:3462		Score:	Punktzahl:
+src/states/game.lua:3464		Reward:	Belohnung:
+src/states/game.lua:3465		Extra turns:	Extra-Züge:
+src/states/game.lua:3466		Wager bonus:	
+src/states/game.lua:3467		Overshoot:	Überschuss:
+src/states/game.lua:3469		Total:	Gesamt:
+src/states/game.lua:3567		don't lose it	verlier sie nicht
+src/states/game.lua:3567		Soul on line	Seele auf dem Spiel
+src/states/game.lua:3574		¤${BET} wagered	¤${BET} gewettet
+src/states/game.lua:3578		¤ Banked	¤ in der BANK
+src/states/game.lua:3579		Bank ¤${KEPT}?	¤${KEPT} sichern?
+src/states/game.lua:3580		Win To Bank ¤	Gewinne, um ¤ in der BANK zu sichern
+src/states/game.lua:3581		Bank ¤ in ${LEVELS} lvl	¤ sichern in ${LEVELS} lvl
+src/states/game.lua:3595		Secure your Stars for the run\nyou won't be able to gain more this run	Sichere deine Sterne für diesen Run\ndu kannst diesen Run keine Sterne mehr sammeln
+src/states/game.lua:3597		Stars already banked this run	Sterne in diesem Run schon gesichert
+src/states/game.lua:3599		Securing Stars available after each nightmare level	Sterne Sichern ist nach jedem Albtraum-Level möglich
+src/states/game.lua:3660 (+7 others)		no	nein
 src/states/game_setup.lua:161		play!	spielen!
 src/states/game_setup.lua:164		need ${stars} ¤	${stars} ¤ benötigt
 src/states/game_setup.lua:197		the young will inherit the earth	die jugend wird die erde erben
@@ -1323,7 +1324,7 @@ src/states/game_setup.lua:1098		${stars} ¤ reward limit	${stars} ¤ Belohnungs-
 src/states/gameover.lua:224		Congratulations, you lost.	Herzlichen Glückwunsch, du hast verloren.
 src/states/gameover.lua:225		Better luck next time.	Mehr Glück beim nächsten Mal.
 src/states/gameover.lua:226		Maybe next time.	Vielleicht beim nächsten Mal.
-src/states/gameover.lua:266		Bet ${BET}¤	Wette ${BET}¤
+src/states/gameover.lua:266		Wager ${BET}¤	Wetteinsatz ${BET}¤
 src/states/gameover.lua:274		Death Tax ${STARS}¤	Todessteuer ${STARS}¤
 src/states/gameover.lua:283		GAME OVER	GAME OVER
 src/states/gameover.lua:315		Death tax:	Todessteuer:
@@ -1358,36 +1359,38 @@ src/states/intro_greed.lua:81		Roll 1 to lose Stars.	Bei einer 1 verlierst du di
 src/states/intro_greed.lua:110		This is a game about ${reason}.	Dieses Spiel dreht sich um ${reason}.
 src/states/intro_greed.lua:152		bank and start	sichern und spiel starten
 src/states/intro_greed.lua:152		pass and start	passen und spiel starten
-src/states/options.lua:55		keybinds >	tastenbelegung >
-src/states/options.lua:85		Build ID: ${id}	Build ID: ${id}
-src/states/options.lua:332		audio	audio
-src/states/options.lua:336		master	gesamt
-src/states/options.lua:337		music	musik
-src/states/options.lua:338		ambient	umgebung
-src/states/options.lua:339		sfx	soundeffekte
-src/states/options.lua:354		mute	stumm
-src/states/options.lua:362		display	anzeige
-src/states/options.lua:364		fullscreen	vollbild
-src/states/options.lua:371		vsync	vsync
-src/states/options.lua:378		chromab	chromab
-src/states/options.lua:387		scanlines	scanlines
-src/states/options.lua:396		bulge	wölbung
-src/states/options.lua:406		accessibility	barrierefreiheit
-src/states/options.lua:408		screenshake	bildschirm-\nwackeln
-src/states/options.lua:417		tips	tipps
-src/states/options.lua:424		cursor size	cursor größe
-src/states/options.lua:433		fast animation	schnelle\nanimationen
-src/states/options.lua:440		scroll bgs	hintergrundscroll
-src/states/options.lua:451		danger zone	gefahrenzone
-src/states/options.lua:455		locale	sprache
-src/states/options.lua:459		nuke entire save	spielstand löschen
-src/states/options.lua:464		Delete the entire game's save file\nresetting everything\nand losing all your progress forever?	Willst du deinen ganzen Spielstand löschen,\nAlles zurücksetzen und deinen Fortschritt für immer verlieren?
-src/states/options.lua:479		reset options	optionen rückgängig
-src/states/options.lua:484		Reset all the game options\nto their default values?	Willst du alle Optionen auf ihren Standard zurücksetzen? 
-src/states/options.lua:505		reset tips	tipps rückgängig
-src/states/options.lua:510		reset all the hover tooltip counters\nso that all the tips show again?	Willst du alle Tipps wieder anzeigen lassen?
-src/states/options.lua:529		replay tutorial	tutorial
-src/states/options.lua:558		(BETA)	(BETA)
+src/states/options.lua:67		keybinds >	tastenbelegung >
+src/states/options.lua:97		Build ID: ${id}	Build ID: ${id}
+src/states/options.lua:110		translator	übersetzer
+src/states/options.lua:116		Translated by ${name} ♥	Übersetzt von ${name} ♥
+src/states/options.lua:372		audio	audio
+src/states/options.lua:376		master	gesamt
+src/states/options.lua:377		music	musik
+src/states/options.lua:378		ambient	umgebung
+src/states/options.lua:379		sfx	soundeffekte
+src/states/options.lua:394		mute	stumm
+src/states/options.lua:402		display	anzeige
+src/states/options.lua:404		fullscreen	vollbild
+src/states/options.lua:411		vsync	vsync
+src/states/options.lua:418		chromab	chromab
+src/states/options.lua:427		scanlines	scanlines
+src/states/options.lua:436		bulge	wölbung
+src/states/options.lua:446		accessibility	barrierefreiheit
+src/states/options.lua:448		screenshake	bildschirm-\nwackeln
+src/states/options.lua:457		tips	tipps
+src/states/options.lua:464		cursor size	cursor größe
+src/states/options.lua:473		fast animation	schnelle\nanimationen
+src/states/options.lua:480		scroll bgs	hintergrundscroll
+src/states/options.lua:491		danger zone	gefahrenzone
+src/states/options.lua:495		locale	sprache
+src/states/options.lua:499		nuke entire save	spielstand löschen
+src/states/options.lua:504		Delete the entire game's save file\nresetting everything\nand losing all your progress forever?	Willst du deinen ganzen Spielstand löschen,\nAlles zurücksetzen und deinen Fortschritt für immer verlieren?
+src/states/options.lua:519		reset options	optionen rückgängig
+src/states/options.lua:524		Reset all the game options\nto their default values?	Willst du alle Optionen auf ihren Standard zurücksetzen? 
+src/states/options.lua:545		reset tips	tipps rückgängig
+src/states/options.lua:550		reset all the hover tooltip counters\nso that all the tips show again?	Willst du alle Tipps wieder anzeigen lassen?
+src/states/options.lua:569		replay tutorial	tutorial
+src/states/options.lua:598		(BETA)	(BETA)
 src/states/outside.lua:18		by Franek and Max	von Franek und Max
 src/states/outside.lua:19		this was a game about waking up	dieses spiel drehte ich um's aufwachen
 src/states/scoreboard.lua:39		Loading Scores...	Lädt Punkte...
@@ -1474,11 +1477,11 @@ src/ui/character_body.lua:299 (+2 others)	ui	LOCKED	GESPERRT
 src/ui/combination_table.lua:34 (+1 others)	ui	flush	flush
 src/ui/combination_table.lua:50	ui	Combinations	Kombinationen
 src/ui/combination_table.lua:50	ui	hello :)	hallo :)
-src/ui/game_setup_options.lua:4	ui	easy bet	einfache wette
+src/ui/game_setup_options.lua:4	ui	easy wager	einfache wette
 src/ui/game_setup_options.lua:5	ui	increase difficulty by 1	schwierigkeit um 1 erhöhen
-src/ui/game_setup_options.lua:16	ui	medium bet	normale wette
+src/ui/game_setup_options.lua:16	ui	medium wager	normale wette
 src/ui/game_setup_options.lua:17	ui	increase difficulty by 2	schwierigkeit um 2 erhöhen
-src/ui/game_setup_options.lua:28	ui	hard bet	schwere wette
+src/ui/game_setup_options.lua:28	ui	hard wager	schwierige wette
 src/ui/game_setup_options.lua:29	ui	increase difficulty by 3	schwierigkeit um 3 erhöhen
 src/ui/help_screen.lua:18	ui	HELP ME!	HILFE!
 src/ui/help_screen.lua:74	ui	INFO DUMP :)	INFO DUMP :)
@@ -1507,3 +1510,10 @@ src/ui/level_map.lua:174	ui	Nightmare level	Albtraum-Level
 src/ui/level_map.lua:181		- ${points} pts	- ${points} pkt
 src/ui/state_tabs.lua:5 (+2 others)	ui	unlock	freischalten
 src/ui/tooltip.lua:82	ui	tip	tipp
+src/states/intro_greed.lua:62		This is a game about greed.	Dieses Spiel dreht sich um Gier.
+src/states/intro_greed.lua:64		This is a game about skill.	Dieses Spiel dreht sich um Können.
+src/states/intro_greed.lua:65		This is a game about talent.	Dieses Spiel dreht sich um Talent.
+src/states/intro_greed.lua:66		This is a game about patience.	Dieses Spiel dreht sich um Geduld.
+src/states/intro_greed.lua:67		This is a game about fate.	Dieses Spiel dreht sich um Schicksal.
+src/states/intro_greed.lua:68		This is a game about destiny.	Dieses Spiel dreht sich um Bestimmung.
+src/states/intro_greed.lua:69		This is a game about God.	Dieses Spiel dreht sich um Gott.
