@@ -1149,9 +1149,9 @@ src/special_conditions.lua:361		How?	怎么做到的？
 src/states/catalogue.lua:50 (+7 others)		< back	< 返回
 src/states/catalogue.lua:86 (+4 others)		dawn mode	日间模式
 src/states/catalogue.lua:86 (+4 others)		night mode	夜间模式
-src/states/controls.lua:53		Keybinds	键位绑定
-src/states/controls.lua:131		press a key	按下任意键
-src/states/controls.lua:142		reset keybinds	重置键位绑定
+src/states/controls.lua:65		Keybinds	键位绑定
+src/states/controls.lua:144		press a key	按下任意键
+src/states/controls.lua:155		reset keybinds	重置键位绑定
 src/states/credits.lua:43		Created by	创作者
 src/states/credits.lua:49		Translation	翻译
 src/states/credits.lua:56		Special Thanks	特别鸣谢
@@ -1234,6 +1234,7 @@ src/states/fish_market.lua:87		--  Fish Market  --	— 鱼市 —
 src/states/fish_market.lua:193		Sell Fish	卖鱼
 src/states/fish_market.lua:222		Buy Fish	卖鱼
 src/states/fish_market.lua:265		Next!	完成！
+src/states/game.lua:146 (+2 others)		back	
 src/states/game.lua:160		PAUSE II	暂停中  I I
 src/states/game.lua:167 (+1 others)		Continue	继续
 src/states/game.lua:171 (+1 others)		Cannot Restart Bet Runs	无法重新开始已下注的游戏
@@ -1358,36 +1359,38 @@ src/states/intro_greed.lua:81		Roll 1 to lose Stars.	投出1以失去星星。
 src/states/intro_greed.lua:110		This is a game about ${reason}.	这是一个关于${reason}的游戏。
 src/states/intro_greed.lua:152		bank and start	收获并开始
 src/states/intro_greed.lua:152		pass and start	跳过并开始
-src/states/options.lua:55		keybinds >	键位绑定 >
-src/states/options.lua:85		Build ID: ${id}	Build ID: ${id}
-src/states/options.lua:332		audio	音频
-src/states/options.lua:336		master	总控制
-src/states/options.lua:337		music	音乐
-src/states/options.lua:338		ambient	环境声
-src/states/options.lua:339		sfx	音效
-src/states/options.lua:354		mute	静音
-src/states/options.lua:362		display	显示
-src/states/options.lua:364		fullscreen	全屏
-src/states/options.lua:371		vsync	垂直同步
-src/states/options.lua:378		chromab	色差
-src/states/options.lua:387		scanlines	扫描线
-src/states/options.lua:396		bulge	屏幕凸起
-src/states/options.lua:406		accessibility	无障碍
-src/states/options.lua:408		screenshake	屏幕抖动
-src/states/options.lua:417		tips	提示
-src/states/options.lua:424		cursor size	鼠标大小
-src/states/options.lua:433		fast animation	动画加速
-src/states/options.lua:440		scroll bgs	背景漂移
-src/states/options.lua:451		danger zone	危险区域
-src/states/options.lua:455		locale	本地化
-src/states/options.lua:459		nuke entire save	摧毁存档
-src/states/options.lua:464		Delete the entire game's save file\nresetting everything\nand losing all your progress forever?	是否要删除整个游戏的存档\n重置一切\n并永远失去你所有的进度？
-src/states/options.lua:479		reset options	重置选项
-src/states/options.lua:484		Reset all the game options\nto their default values?	是否要将所有游戏选项\n重置为默认状态？
-src/states/options.lua:505		reset tips	重置提示
-src/states/options.lua:510		reset all the hover tooltip counters\nso that all the tips show again?	是否要重置所有悬浮提示窗口\n使其全部重新显示？
-src/states/options.lua:529		replay tutorial	重新游玩教程
-src/states/options.lua:558		(BETA)	(BETA)
+src/states/options.lua:67		keybinds >	键位绑定 >
+src/states/options.lua:97		Build ID: ${id}	Build ID: ${id}
+src/states/options.lua:110		translator	
+src/states/options.lua:116		Translated by ${name} ♥	翻译：${name} ♥
+src/states/options.lua:368		audio	音频
+src/states/options.lua:372		master	总控制
+src/states/options.lua:373		music	音乐
+src/states/options.lua:374		ambient	环境声
+src/states/options.lua:375		sfx	音效
+src/states/options.lua:390		mute	静音
+src/states/options.lua:398		display	显示
+src/states/options.lua:400		fullscreen	全屏
+src/states/options.lua:407		vsync	垂直同步
+src/states/options.lua:414		chromab	色差
+src/states/options.lua:423		scanlines	扫描线
+src/states/options.lua:432		bulge	屏幕凸起
+src/states/options.lua:442		accessibility	无障碍
+src/states/options.lua:444		screenshake	屏幕抖动
+src/states/options.lua:453		tips	提示
+src/states/options.lua:460		cursor size	鼠标大小
+src/states/options.lua:469		fast animation	动画加速
+src/states/options.lua:476		scroll bgs	背景漂移
+src/states/options.lua:487		danger zone	危险区域
+src/states/options.lua:491		locale	本地化
+src/states/options.lua:495		nuke entire save	摧毁存档
+src/states/options.lua:500		Delete the entire game's save file\nresetting everything\nand losing all your progress forever?	是否要删除整个游戏的存档\n重置一切\n并永远失去你所有的进度？
+src/states/options.lua:515		reset options	重置选项
+src/states/options.lua:520		Reset all the game options\nto their default values?	是否要将所有游戏选项\n重置为默认状态？
+src/states/options.lua:541		reset tips	重置提示
+src/states/options.lua:546		reset all the hover tooltip counters\nso that all the tips show again?	是否要重置所有悬浮提示窗口\n使其全部重新显示？
+src/states/options.lua:565		replay tutorial	重新游玩教程
+src/states/options.lua:594		(BETA)	(BETA)
 src/states/outside.lua:18		by Franek and Max	由Franek与Max制作
 src/states/outside.lua:19		this was a game about waking up	这是一个关于醒来的游戏
 src/states/scoreboard.lua:39		Loading Scores...	分数加载中。。

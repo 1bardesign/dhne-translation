@@ -1149,9 +1149,9 @@ src/special_conditions.lua:361		How?
 src/states/catalogue.lua:50 (+7 others)		< back	
 src/states/catalogue.lua:86 (+4 others)		dawn mode	
 src/states/catalogue.lua:86 (+4 others)		night mode	
-src/states/controls.lua:53		Keybinds	
-src/states/controls.lua:131		press a key	
-src/states/controls.lua:142		reset keybinds	
+src/states/controls.lua:65		Keybinds	
+src/states/controls.lua:144		press a key	
+src/states/controls.lua:155		reset keybinds	
 src/states/credits.lua:43		Created by	
 src/states/credits.lua:49		Translation	
 src/states/credits.lua:56		Special Thanks	
@@ -1234,6 +1234,7 @@ src/states/fish_market.lua:87		--  Fish Market  --
 src/states/fish_market.lua:193		Sell Fish	
 src/states/fish_market.lua:222		Buy Fish	
 src/states/fish_market.lua:265		Next!	
+src/states/game.lua:146 (+2 others)		back	
 src/states/game.lua:160		PAUSE II	
 src/states/game.lua:167 (+1 others)		Continue	
 src/states/game.lua:171 (+1 others)		Cannot Restart Bet Runs	
@@ -1358,36 +1359,38 @@ src/states/intro_greed.lua:81		Roll 1 to lose Stars.
 src/states/intro_greed.lua:110		This is a game about ${reason}.	
 src/states/intro_greed.lua:152		bank and start	
 src/states/intro_greed.lua:152		pass and start	
-src/states/options.lua:55		keybinds >	
-src/states/options.lua:85		Build ID: ${id}	
-src/states/options.lua:332		audio	
-src/states/options.lua:336		master	
-src/states/options.lua:337		music	
-src/states/options.lua:338		ambient	
-src/states/options.lua:339		sfx	
-src/states/options.lua:354		mute	
-src/states/options.lua:362		display	
-src/states/options.lua:364		fullscreen	
-src/states/options.lua:371		vsync	
-src/states/options.lua:378		chromab	
-src/states/options.lua:387		scanlines	
-src/states/options.lua:396		bulge	
-src/states/options.lua:406		accessibility	
-src/states/options.lua:408		screenshake	
-src/states/options.lua:417		tips	
-src/states/options.lua:424		cursor size	
-src/states/options.lua:433		fast animation	
-src/states/options.lua:440		scroll bgs	
-src/states/options.lua:451		danger zone	
-src/states/options.lua:455		locale	
-src/states/options.lua:459		nuke entire save	
-src/states/options.lua:464		Delete the entire game's save file\nresetting everything\nand losing all your progress forever?	
-src/states/options.lua:479		reset options	
-src/states/options.lua:484		Reset all the game options\nto their default values?	
-src/states/options.lua:505		reset tips	
-src/states/options.lua:510		reset all the hover tooltip counters\nso that all the tips show again?	
-src/states/options.lua:529		replay tutorial	
-src/states/options.lua:558		(BETA)	
+src/states/options.lua:67		keybinds >	
+src/states/options.lua:97		Build ID: ${id}	
+src/states/options.lua:110		translator	
+src/states/options.lua:116		Translated by ${name} ♥	
+src/states/options.lua:368		audio	
+src/states/options.lua:372		master	
+src/states/options.lua:373		music	
+src/states/options.lua:374		ambient	
+src/states/options.lua:375		sfx	
+src/states/options.lua:390		mute	
+src/states/options.lua:398		display	
+src/states/options.lua:400		fullscreen	
+src/states/options.lua:407		vsync	
+src/states/options.lua:414		chromab	
+src/states/options.lua:423		scanlines	
+src/states/options.lua:432		bulge	
+src/states/options.lua:442		accessibility	
+src/states/options.lua:444		screenshake	
+src/states/options.lua:453		tips	
+src/states/options.lua:460		cursor size	
+src/states/options.lua:469		fast animation	
+src/states/options.lua:476		scroll bgs	
+src/states/options.lua:487		danger zone	
+src/states/options.lua:491		locale	
+src/states/options.lua:495		nuke entire save	
+src/states/options.lua:500		Delete the entire game's save file\nresetting everything\nand losing all your progress forever?	
+src/states/options.lua:515		reset options	
+src/states/options.lua:520		Reset all the game options\nto their default values?	
+src/states/options.lua:541		reset tips	
+src/states/options.lua:546		reset all the hover tooltip counters\nso that all the tips show again?	
+src/states/options.lua:565		replay tutorial	
+src/states/options.lua:594		(BETA)	
 src/states/outside.lua:18		by Franek and Max	
 src/states/outside.lua:19		this was a game about waking up	
 src/states/scoreboard.lua:39		Loading Scores...	

@@ -1149,9 +1149,9 @@ src/special_conditions.lua:361		How?	Hur?
 src/states/catalogue.lua:50 (+7 others)		< back	< tillbaka
 src/states/catalogue.lua:86 (+4 others)		dawn mode	ljust tema
 src/states/catalogue.lua:86 (+4 others)		night mode	mörkt tema
-src/states/controls.lua:53		Keybinds	Tangentbindningar
-src/states/controls.lua:131		press a key	tryck på en tangent
-src/states/controls.lua:142		reset keybinds	återställ tangentbindningar
+src/states/controls.lua:65		Keybinds	Tangentbindningar
+src/states/controls.lua:144		press a key	tryck på en tangent
+src/states/controls.lua:155		reset keybinds	återställ tangentbindningar
 src/states/credits.lua:43		Created by	Skapat av
 src/states/credits.lua:49		Translation	Översättning
 src/states/credits.lua:56		Special Thanks	Särskilt tack
@@ -1234,6 +1234,7 @@ src/states/fish_market.lua:87		--  Fish Market  --	--  Fiskmarknad  --
 src/states/fish_market.lua:193		Sell Fish	Sälj fisk
 src/states/fish_market.lua:222		Buy Fish	Köp fisk
 src/states/fish_market.lua:265		Next!	Nästa!
+src/states/game.lua:146 (+2 others)		back	
 src/states/game.lua:160		PAUSE II	PAUS II
 src/states/game.lua:167 (+1 others)		Continue	Fortsätt
 src/states/game.lua:171 (+1 others)		Cannot Restart Bet Runs	Kan inte starta om omgångar med vad
@@ -1358,36 +1359,38 @@ src/states/intro_greed.lua:81		Roll 1 to lose Stars.	Slå 1 för att förlora st
 src/states/intro_greed.lua:110		This is a game about ${reason}.	Det här är ett spel om ${reason}.
 src/states/intro_greed.lua:152		bank and start	säkra och börja
 src/states/intro_greed.lua:152		pass and start	avstå och börja
-src/states/options.lua:55		keybinds >	tangentbindningar >
-src/states/options.lua:85		Build ID: ${id}	Versions-ID: ${id}
-src/states/options.lua:332		audio	ljud
-src/states/options.lua:336		master	huvudvolym
-src/states/options.lua:337		music	musik
-src/states/options.lua:338		ambient	bakgrundsljud
-src/states/options.lua:339		sfx	ljudeffekter
-src/states/options.lua:354		mute	tysta
-src/states/options.lua:362		display	bild
-src/states/options.lua:364		fullscreen	helskärm
-src/states/options.lua:371		vsync	vsync
-src/states/options.lua:378		chromab	kromatisk aberration
-src/states/options.lua:387		scanlines	skanningslinjer
-src/states/options.lua:396		bulge	utbuktning
-src/states/options.lua:406		accessibility	tillgänglighet
-src/states/options.lua:408		screenshake	skärmskakning
-src/states/options.lua:417		tips	tips
-src/states/options.lua:424		cursor size	markörstorlek
-src/states/options.lua:433		fast animation	snabb animering
-src/states/options.lua:440		scroll bgs	rörliga bakgrunder
-src/states/options.lua:451		danger zone	riskzon
-src/states/options.lua:455		locale	språk
-src/states/options.lua:459		nuke entire save	radera hela sparfilen
-src/states/options.lua:464		Delete the entire game's save file\nresetting everything\nand losing all your progress forever?	Radera spelets hela sparfil,\nåterställa allt\noch förlora alla dina framsteg för alltid?
-src/states/options.lua:479		reset options	återställ inställningar
-src/states/options.lua:484		Reset all the game options\nto their default values?	Återställ alla spelinställningar\ntill standardvärdena?
-src/states/options.lua:505		reset tips	återställ tips
-src/states/options.lua:510		reset all the hover tooltip counters\nso that all the tips show again?	återställ alla tips\nså att alla tips visas igen?
-src/states/options.lua:529		replay tutorial	spela introduktionen igen
-src/states/options.lua:558		(BETA)	(BETA)
+src/states/options.lua:67		keybinds >	tangentbindningar >
+src/states/options.lua:97		Build ID: ${id}	Versions-ID: ${id}
+src/states/options.lua:110		translator	
+src/states/options.lua:116		Translated by ${name} ♥	Översatt av ${name} ♥
+src/states/options.lua:368		audio	ljud
+src/states/options.lua:372		master	huvudvolym
+src/states/options.lua:373		music	musik
+src/states/options.lua:374		ambient	bakgrundsljud
+src/states/options.lua:375		sfx	ljudeffekter
+src/states/options.lua:390		mute	tysta
+src/states/options.lua:398		display	bild
+src/states/options.lua:400		fullscreen	helskärm
+src/states/options.lua:407		vsync	vsync
+src/states/options.lua:414		chromab	kromatisk aberration
+src/states/options.lua:423		scanlines	skanningslinjer
+src/states/options.lua:432		bulge	utbuktning
+src/states/options.lua:442		accessibility	tillgänglighet
+src/states/options.lua:444		screenshake	skärmskakning
+src/states/options.lua:453		tips	tips
+src/states/options.lua:460		cursor size	markörstorlek
+src/states/options.lua:469		fast animation	snabb animering
+src/states/options.lua:476		scroll bgs	rörliga bakgrunder
+src/states/options.lua:487		danger zone	riskzon
+src/states/options.lua:491		locale	språk
+src/states/options.lua:495		nuke entire save	radera hela sparfilen
+src/states/options.lua:500		Delete the entire game's save file\nresetting everything\nand losing all your progress forever?	Radera spelets hela sparfil,\nåterställa allt\noch förlora alla dina framsteg för alltid?
+src/states/options.lua:515		reset options	återställ inställningar
+src/states/options.lua:520		Reset all the game options\nto their default values?	Återställ alla spelinställningar\ntill standardvärdena?
+src/states/options.lua:541		reset tips	återställ tips
+src/states/options.lua:546		reset all the hover tooltip counters\nso that all the tips show again?	återställ alla tips\nså att alla tips visas igen?
+src/states/options.lua:565		replay tutorial	spela introduktionen igen
+src/states/options.lua:594		(BETA)	(BETA)
 src/states/outside.lua:18		by Franek and Max	av Franek och Max
 src/states/outside.lua:19		this was a game about waking up	det här var ett spel om att vakna
 src/states/scoreboard.lua:39		Loading Scores...	Laddar resultat...

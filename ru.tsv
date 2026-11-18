@@ -1149,9 +1149,9 @@ src/special_conditions.lua:361		How?	Как?
 src/states/catalogue.lua:50 (+7 others)		< back	< назад
 src/states/catalogue.lua:86 (+4 others)		dawn mode	дневной режим
 src/states/catalogue.lua:86 (+4 others)		night mode	ночной режим
-src/states/controls.lua:53		Keybinds	
-src/states/controls.lua:131		press a key	
-src/states/controls.lua:142		reset keybinds	
+src/states/controls.lua:65		Keybinds	
+src/states/controls.lua:144		press a key	
+src/states/controls.lua:155		reset keybinds	
 src/states/credits.lua:43		Created by	Авторы
 src/states/credits.lua:49		Translation	Перевод
 src/states/credits.lua:56		Special Thanks	Особая благодарность
@@ -1234,6 +1234,7 @@ src/states/fish_market.lua:87		--  Fish Market  --	-- Рыбный рынок --
 src/states/fish_market.lua:193		Sell Fish	Продать рыбу
 src/states/fish_market.lua:222		Buy Fish	Купить рыбу
 src/states/fish_market.lua:265		Next!	Дальше!
+src/states/game.lua:146 (+2 others)		back	
 src/states/game.lua:160		PAUSE II	ПАУЗА II
 src/states/game.lua:167 (+1 others)		Continue	Продолжать
 src/states/game.lua:171 (+1 others)		Cannot Restart Bet Runs	Нельзя перезапустить забег со ставкой
@@ -1358,36 +1359,38 @@ src/states/intro_greed.lua:81		Roll 1 to lose Stars.	Брось 1 чтобы п�
 src/states/intro_greed.lua:110		This is a game about ${reason}.	Это игра о ${reason}.
 src/states/intro_greed.lua:152		bank and start	сберечь и начать
 src/states/intro_greed.lua:152		pass and start	пасовать и начать
-src/states/options.lua:55		keybinds >	
-src/states/options.lua:85		Build ID: ${id}	Идентификатор сборки: ${id}
-src/states/options.lua:332		audio	аудио
-src/states/options.lua:336		master	общая громкость
-src/states/options.lua:337		music	музыка
-src/states/options.lua:338		ambient	фон
-src/states/options.lua:339		sfx	звуковые эффекты
-src/states/options.lua:354		mute	без звука
-src/states/options.lua:362		display	дисплей
-src/states/options.lua:364		fullscreen	полный экран
-src/states/options.lua:371		vsync	вертикальная синхронизация
-src/states/options.lua:378		chromab	хром. аберрация
-src/states/options.lua:387		scanlines	сканлайны
-src/states/options.lua:396		bulge	выпуклость
-src/states/options.lua:406		accessibility	доступность
-src/states/options.lua:408		screenshake	тряска экрана
-src/states/options.lua:417		tips	подсказки
-src/states/options.lua:424		cursor size	
-src/states/options.lua:433		fast animation	быстрая анимация
-src/states/options.lua:440		scroll bgs	прокрутка фона
-src/states/options.lua:451		danger zone	опасная зона
-src/states/options.lua:455		locale	язык
-src/states/options.lua:459		nuke entire save	стереть всё сохранение
-src/states/options.lua:464		Delete the entire game's save file\nresetting everything\nand losing all your progress forever?	Удалить весь файл сохранения игры\nсбросив всё\nпотеряв весь прогресс навсегда?
-src/states/options.lua:479		reset options	сбросить настройки
-src/states/options.lua:484		Reset all the game options\nto their default values?	Сбросить все настройки игры\nк значениям по умолчанию?
-src/states/options.lua:505		reset tips	сбросить подсказки
-src/states/options.lua:510		reset all the hover tooltip counters\nso that all the tips show again?	сбросить все счетчики всплывающих подсказок,\nчтобы все подсказки снова показывались?
-src/states/options.lua:529		replay tutorial	перепройти обучение
-src/states/options.lua:558		(BETA)	(БЕТА)
+src/states/options.lua:67		keybinds >	
+src/states/options.lua:97		Build ID: ${id}	Идентификатор сборки: ${id}
+src/states/options.lua:110		translator	
+src/states/options.lua:116		Translated by ${name} ♥	Перевод: ${name} ♥
+src/states/options.lua:368		audio	аудио
+src/states/options.lua:372		master	общая громкость
+src/states/options.lua:373		music	музыка
+src/states/options.lua:374		ambient	фон
+src/states/options.lua:375		sfx	звуковые эффекты
+src/states/options.lua:390		mute	без звука
+src/states/options.lua:398		display	дисплей
+src/states/options.lua:400		fullscreen	полный экран
+src/states/options.lua:407		vsync	вертикальная синхронизация
+src/states/options.lua:414		chromab	хром. аберрация
+src/states/options.lua:423		scanlines	сканлайны
+src/states/options.lua:432		bulge	выпуклость
+src/states/options.lua:442		accessibility	доступность
+src/states/options.lua:444		screenshake	тряска экрана
+src/states/options.lua:453		tips	подсказки
+src/states/options.lua:460		cursor size	
+src/states/options.lua:469		fast animation	быстрая анимация
+src/states/options.lua:476		scroll bgs	прокрутка фона
+src/states/options.lua:487		danger zone	опасная зона
+src/states/options.lua:491		locale	язык
+src/states/options.lua:495		nuke entire save	стереть всё сохранение
+src/states/options.lua:500		Delete the entire game's save file\nresetting everything\nand losing all your progress forever?	Удалить весь файл сохранения игры\nсбросив всё\nпотеряв весь прогресс навсегда?
+src/states/options.lua:515		reset options	сбросить настройки
+src/states/options.lua:520		Reset all the game options\nto their default values?	Сбросить все настройки игры\nк значениям по умолчанию?
+src/states/options.lua:541		reset tips	сбросить подсказки
+src/states/options.lua:546		reset all the hover tooltip counters\nso that all the tips show again?	сбросить все счетчики всплывающих подсказок,\nчтобы все подсказки снова показывались?
+src/states/options.lua:565		replay tutorial	перепройти обучение
+src/states/options.lua:594		(BETA)	(БЕТА)
 src/states/outside.lua:18		by Franek and Max	от Франека и Макса
 src/states/outside.lua:19		this was a game about waking up	это была игра о пробуждении
 src/states/scoreboard.lua:39		Loading Scores...	Загрузка рекордов...

@@ -1149,9 +1149,9 @@ src/special_conditions.lua:361		How?	Jak?
 src/states/catalogue.lua:50 (+7 others)		< back	< wróć
 src/states/catalogue.lua:86 (+4 others)		dawn mode	tryb świtu
 src/states/catalogue.lua:86 (+4 others)		night mode	tryb nocy
-src/states/controls.lua:53		Keybinds	
-src/states/controls.lua:131		press a key	
-src/states/controls.lua:142		reset keybinds	
+src/states/controls.lua:65		Keybinds	
+src/states/controls.lua:144		press a key	
+src/states/controls.lua:155		reset keybinds	
 src/states/credits.lua:43		Created by	Twórcy
 src/states/credits.lua:49		Translation	Tłumaczenie
 src/states/credits.lua:56		Special Thanks	Specjalne podziękowania
@@ -1234,6 +1234,7 @@ src/states/fish_market.lua:87		--  Fish Market  --	--  Targ Rybny  --
 src/states/fish_market.lua:193		Sell Fish	Sprzedaj Ryby
 src/states/fish_market.lua:222		Buy Fish	Kup Ryby
 src/states/fish_market.lua:265		Next!	Następna!
+src/states/game.lua:146 (+2 others)		back	
 src/states/game.lua:160		PAUSE II	PAUZA II
 src/states/game.lua:167 (+1 others)		Continue	Kontynuuj
 src/states/game.lua:171 (+1 others)		Cannot Restart Bet Runs	Nie można zrestartować podejść z zakładem
@@ -1358,36 +1359,38 @@ src/states/intro_greed.lua:81		Roll 1 to lose Stars.	Wyrzuć 1, a stracisz Gwiaz
 src/states/intro_greed.lua:110		This is a game about ${reason}.	To gra o ${reason}.
 src/states/intro_greed.lua:152		bank and start	bank i start
 src/states/intro_greed.lua:152		pass and start	pas i start
-src/states/options.lua:55		keybinds >	
-src/states/options.lua:85		Build ID: ${id}	Build ID: ${id}
-src/states/options.lua:332		audio	dźwięk
-src/states/options.lua:336		master	główna
-src/states/options.lua:337		music	muzyka
-src/states/options.lua:338		ambient	otoczenie
-src/states/options.lua:339		sfx	efekty
-src/states/options.lua:354		mute	wycisz
-src/states/options.lua:362		display	obraz
-src/states/options.lua:364		fullscreen	pełny ekran
-src/states/options.lua:371		vsync	vsync
-src/states/options.lua:378		chromab	aberracja
-src/states/options.lua:387		scanlines	scanlines
-src/states/options.lua:396		bulge	wypukłość
-src/states/options.lua:406		accessibility	dostępność
-src/states/options.lua:408		screenshake	trzęsienie ekranu
-src/states/options.lua:417		tips	wskazówki
-src/states/options.lua:424		cursor size	
-src/states/options.lua:433		fast animation	szybkie animacje
-src/states/options.lua:440		scroll bgs	ruchome tła
-src/states/options.lua:451		danger zone	strefa zagrożenia
-src/states/options.lua:455		locale	język
-src/states/options.lua:459		nuke entire save	wysadź cały zapis
-src/states/options.lua:464		Delete the entire game's save file\nresetting everything\nand losing all your progress forever?	Usunąć cały plik zapisu gry,\nresetując wszystko\ni tracąc cały postęp na zawsze?
-src/states/options.lua:479		reset options	resetuj opcje
-src/states/options.lua:484		Reset all the game options\nto their default values?	Przywrócić wszystkie opcje gry\ndo wartości domyślnych?
-src/states/options.lua:505		reset tips	resetuj wskazówki
-src/states/options.lua:510		reset all the hover tooltip counters\nso that all the tips show again?	zresetować liczniki podpowiedzi\nżeby wszystkie wskazówki pokazały się znowu?
-src/states/options.lua:529		replay tutorial	powtórz samouczek
-src/states/options.lua:558		(BETA)	
+src/states/options.lua:67		keybinds >	
+src/states/options.lua:97		Build ID: ${id}	Build ID: ${id}
+src/states/options.lua:110		translator	
+src/states/options.lua:116		Translated by ${name} ♥	Tłumaczenie: ${name} ♥
+src/states/options.lua:368		audio	dźwięk
+src/states/options.lua:372		master	główna
+src/states/options.lua:373		music	muzyka
+src/states/options.lua:374		ambient	otoczenie
+src/states/options.lua:375		sfx	efekty
+src/states/options.lua:390		mute	wycisz
+src/states/options.lua:398		display	obraz
+src/states/options.lua:400		fullscreen	pełny ekran
+src/states/options.lua:407		vsync	vsync
+src/states/options.lua:414		chromab	aberracja
+src/states/options.lua:423		scanlines	scanlines
+src/states/options.lua:432		bulge	wypukłość
+src/states/options.lua:442		accessibility	dostępność
+src/states/options.lua:444		screenshake	trzęsienie ekranu
+src/states/options.lua:453		tips	wskazówki
+src/states/options.lua:460		cursor size	
+src/states/options.lua:469		fast animation	szybkie animacje
+src/states/options.lua:476		scroll bgs	ruchome tła
+src/states/options.lua:487		danger zone	strefa zagrożenia
+src/states/options.lua:491		locale	język
+src/states/options.lua:495		nuke entire save	wysadź cały zapis
+src/states/options.lua:500		Delete the entire game's save file\nresetting everything\nand losing all your progress forever?	Usunąć cały plik zapisu gry,\nresetując wszystko\ni tracąc cały postęp na zawsze?
+src/states/options.lua:515		reset options	resetuj opcje
+src/states/options.lua:520		Reset all the game options\nto their default values?	Przywrócić wszystkie opcje gry\ndo wartości domyślnych?
+src/states/options.lua:541		reset tips	resetuj wskazówki
+src/states/options.lua:546		reset all the hover tooltip counters\nso that all the tips show again?	zresetować liczniki podpowiedzi\nżeby wszystkie wskazówki pokazały się znowu?
+src/states/options.lua:565		replay tutorial	powtórz samouczek
+src/states/options.lua:594		(BETA)	
 src/states/outside.lua:18		by Franek and Max	
 src/states/outside.lua:19		this was a game about waking up	
 src/states/scoreboard.lua:39		Loading Scores...	Wczytywanie wyników...
