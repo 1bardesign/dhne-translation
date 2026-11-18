@@ -370,7 +370,7 @@ src/entities/shop.lua:1288		too many dice	za dużo kostek
 src/entities/shop.lua:1300		too many trinkets	za dużo błyskotek
 src/entities/shop.lua:1314		pay up	płacę
 src/entities/shop.lua:1314		take change	reszta
-src/entities/shop.lua:1386		bye	pa
+src/entities/shop.lua:1386		bye	pa pa
 src/entities/shop.lua:1434		Reroll - ${current_cost}¥	Przelosuj - ${current_cost}¥
 src/entities/tape.lua:453		- web	- strona
 src/entities/title_text.lua:3		DICE HAVE\nNO EYES	DICE HAVE\nNO EYES
