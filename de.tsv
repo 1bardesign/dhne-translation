@@ -518,12 +518,12 @@ src/items.lua:342 (+1 others)		No momentum!	Kein momentum!
 src/items.lua:354		GOTTA GO FAST	BRUDER MUSS LOS
 src/items.lua:357		Momentum x2	Momentum x2
 src/items.lua:366		x2 momentum	x2 momentum
-src/items.lua:371		Peek	Kurzer Blick
+src/items.lua:371		Peek	Einblick
 src/items.lua:374		Gain 1¥ per die showing 1	+1¥ pro Würfel,\nder 1 zeigt
-src/items.lua:396 (+2 others)		No 1s!	Keine Einsen!
-src/items.lua:402		Peek II	Kurzer Blick II
+src/items.lua:396 (+2 others)		No 1s!	Keine 1en!
+src/items.lua:402		Peek II	Dreiblick
 src/items.lua:405		Gain 1¥ per die showing 3	+1¥ pro Würfel,\nder 3 zeigt
-src/items.lua:427		No 3s!	Keine Dreien!
+src/items.lua:427		No 3s!	Keine 3en!
 src/items.lua:436		-1 Bust per die showing 1	-1 Bust pro Würfel auf 1
 src/items.lua:462		Scratchie	Rubbellos
 src/items.lua:465		Gain 0-3¥	Gewinne 0-3¥
@@ -537,7 +537,7 @@ src/items.lua:540		Copycat	Nachahmer
 src/items.lua:543		Repeat the last spell used	Wiederhole den\nletzten Zauber
 src/items.lua:553 (+1 others)		Nothing to copy!	Kein Zauber benutzt!
 src/items.lua:556 (+1 others)		Copy!	Nachgeahmt!
-src/items.lua:562		Copybigdog	Copybigdog
+src/items.lua:562		Copybigdog	Nachnachahmer
 src/items.lua:566		Repeat the last spell used, twice	Wiederhole den letzten Zauber zwei mal
 src/items.lua:585		Heal	Heilung
 src/items.lua:588		All dice +1 ♥	Alle Würfel +1 ♥
@@ -652,8 +652,8 @@ src/items.lua:1545		Finger	Finger
 src/items.lua:1546		Puke a special effect out	Kotze einen Seiten-Effekt aus
 src/items.lua:1570		Emetique (TM)	Emetique (TM)
 src/items.lua:1571		Puke all special effects out	Kotze alle Seiten-Effekte aus
-src/items.lua:1611		Pig Run	Schweine Run
-src/items.lua:1614		Pig sides score +${dynamic} Points, gains +5 per pig rerolled this turn. Resets each turn.	Schwein-Seiten werten +${dynamic} Punkte, +5 pro Schwein das diesen Zug geworfen wurde.
+src/items.lua:1611		Pig Run	Schweinelauf
+src/items.lua:1614		Pig sides score +${dynamic} Points, gains +5 per pig rerolled this turn. Resets each turn.	Schwein-Seiten werten +${dynamic} Punkte, +5 pro Schwein das diesen Zug neu geworfen wurde.
 src/items.lua:1638		pig bonus +${amount}!	schwein bonus +{amount}!
 src/items.lua:1643		Thurible	Thuribulum
 src/items.lua:1646		+${dynamic} Mult, gains +1 Mult each time a die is destroyed	+${dynamic} Multi, bekommt +1 Multi jedes Mal, wenn ein Würfel zerstört wird
@@ -711,7 +711,7 @@ src/items.lua:2204		Two Pair Cat	Zwei-Paar-Katze
 src/items.lua:2207		+200 Points for a combo containing Two Pair	+200 Punkte für eine Combo, die zwei Paare beinhaltet
 src/items.lua:2221		Just A Pair	Nur Ein Paar
 src/items.lua:2224		+100 Points for a Pair	+100 Punkte für ein Paar
-src/items.lua:2242		Fifteen Sum	Summe Fünfzehn
+src/items.lua:2242		Fifteen Sum	Fünfzehnäuger
 src/items.lua:2245		x3 Mult if the scored dice sum to 15	x3 Multi wenn die gewerteten Würfel in Summe 15 Augen zeigen
 src/items.lua:2265		Sumush	Summenpilz
 src/items.lua:2268		x2 Mult if the scored dice sum to 10	x2 Multi wenn die gewerteten Würfel in Summe 10 Augen zeigen
@@ -745,8 +745,8 @@ src/items.lua:2540 (+1 others)		+${amount} mult	+${amount} multi
 src/items.lua:2547		Sardine	Sardine
 src/items.lua:2550		+50 Points per scored coin	+50 Punkte pro gewerteter Münze
 src/items.lua:2561		+${amount} pts	+${amount} pkt
-src/items.lua:2570		Snake Hold	Oroboros
-src/items.lua:2573		Snake Eyes hold score	Ein 1er-Paar behält
+src/items.lua:2570		Snake Hold	Ouroboros
+src/items.lua:2573		Snake Eyes hold score	Ein 1er-Paar hält die Punkte zurück
 src/items.lua:2590		The Mask	Die Maske
 src/items.lua:2593		Combos with 6s hold score	Combos mit 6en halten die Punktzahl
 src/items.lua:2611		Black Eye	Das Schwarze Auge
@@ -768,11 +768,11 @@ src/items.lua:2728		Lemonade Stand	Limonadenstand
 src/items.lua:2731		Spawns a citrus slice each turn	Erzeugt jedes Level eine Zitrusscheibe
 src/items.lua:2748		Crowd Pleaser	Publikumshit
 src/items.lua:2751		+50 Points per trinket on board	+50 Punkte pro Glücksbringer im Spiel
-src/items.lua:2768		Double Down	Einsatz Verdoppeln
+src/items.lua:2768		Double Down	Draufgänger
 src/items.lua:2771		Flipping a single coin x2 Mult	x2 Multi wenn eine einzelne Münze geworfen wird
 src/items.lua:2796		Just An Anxious Guy	Angsthase
 src/items.lua:2799		+4 Mult for Four Of A Kind	+4 Multi für einen Viererpasch
-src/items.lua:2813		Double Three Blibber	Doppel Dreier Blubber
+src/items.lua:2813		Double Three Blibber	Doppeldrei Blibber
 src/items.lua:2816		+3 Mult for Three Of A Kind	+3 Multi für einen Dreierpasch
 src/items.lua:2829		Two Pair Mult Cat	Zwei-Paar-Multi-Katze
 src/items.lua:2832		+4 Mult for Two Pair	+4 Multi für Zwei Paare
@@ -851,7 +851,7 @@ src/items.lua:3767		${combo} Upgraded	${combo} Verbessert
 src/items.lua:3780		Gouda	Gouda
 src/items.lua:3783		Rerolling a Three Of A Kind gives 2¥	+2¥ wenn ein Dreierpasch neu geworfen wird
 src/items.lua:3805		Pearl	Perle
-src/items.lua:3808		+1¥ for every two scored 1s	+1¥ für je zwei gewertete 1er-Würfel
+src/items.lua:3808		+1¥ for every two scored 1s	+1¥ je zwei gemeinsam gewerteten 1er-Würfeln
 src/items.lua:3831		Queen's Jug	Königinnenkrug
 src/items.lua:3834		+1¥ for a Full House	+1¥ für ein Full House
 src/items.lua:3851		Star Biscuit	Sternkeks
@@ -859,17 +859,17 @@ src/items.lua:3854		Rolling 2+ dice while at 1 Bust gives 2¥	+2¥ wenn nur 1 Bu
 src/items.lua:3879		Overtime Star	Überstunden-Stern
 src/items.lua:3882		Gain a Bust Shield for scoring Star Bonanza	Bekomme ein Bust-Schild bei Wertung einer Sternenbonanza
 src/items.lua:3895		Already shielded	Schild bereits aktiv
-src/items.lua:3902		Trotter	Schweinsfuß
+src/items.lua:3902		Trotter	Spitzbein
 src/items.lua:3905		Pig Points x2	Schwein-Punkte x2
 src/items.lua:3920		Piglet	Schweinchen
 src/items.lua:3923		+3 Mult for rerolling 3 or more Pig sides	+3 Multi wenn 3 oder mehr Schwein-Seiten neu geworfen werden
-src/items.lua:3942		Chew Toy	Kauspielzeug
+src/items.lua:3942		Chew Toy	Schweineohr
 src/items.lua:3945		1 in 6 chance to spawn a coin when rerolling a Pig side	1 in 6 Chance eine Münze zu erzeugen wenn eine Schwein-Seite neu geworfen wird
 src/items.lua:4000		Paw	Pfote
 src/items.lua:4003		Rolling a single die adds +2 Mult	+2 Multi wenn ein einzelner Würfel neu geworfen wird
 src/items.lua:4016		Incel	Incel
 src/items.lua:4019		Rerolling a combo containing a Pair gives +100 Points and +1 Mult	+100 Punkte und +1 Multi, wenn eine Combo, die ein Paar beinhaltet, neu geworfen wird
-src/items.lua:4046		Ghost Carriage	Geisterkutsche
+src/items.lua:4046		Ghost Carriage	Geisterhaus
 src/items.lua:4049		Scoring a Full House spawns a ghost die	Erzeugt einen Geisterwürfel wenn ein Full House gewertet wird
 src/items.lua:4063 (+5 others)		Ghost!	Geist!
 src/items.lua:4069		Ghostanza	Geistanza
@@ -908,11 +908,11 @@ src/items.lua:4487		Taro Jelly	Taro-Gelee
 src/items.lua:4490		Scoring 5s flips them to 6s	5er-Würfel drehen sich nach Wertung auf 6
 src/items.lua:4504		Osmanthus Jelly	Osmanthus-Gelee
 src/items.lua:4507		Scoring 1s flips them to 3s	1er-Würfel drehen sich nach Wertung auf 3
-src/items.lua:4523		Sludge Jelly	Schlamm-Gelee
+src/items.lua:4523		Sludge Jelly	Schleim-Gelee
 src/items.lua:4526		2s always reroll into 3s	2er-Würfel landen bei einem Neuwurf immer auf 3
 src/items.lua:4551		Bubblegum Jelly	Kaugummi-Gelee
 src/items.lua:4554		3s always reroll into 5s	3er-Würfel landen bei einem Neuwurf immer auf 5
-src/items.lua:4579		Flip Flop	Flip-Flop
+src/items.lua:4579		Flip Flop	Flip-Flop-Gelee
 src/items.lua:4583		Odd numbers roll into even and vice versa.\nDoesn't affect coins.	Ungerade Würfel landen bei einen Neuwurf immer auf einer geraden Seite, und andersherum
 src/items.lua:4611		Second Chance Jelly	Zweite-Chance-Gelee
 src/items.lua:4615		1s can't reroll into 1s\nDoesn't affect coins.	1er-Würfel landen bei einem Neuwurf nie auf 1
@@ -983,7 +983,7 @@ src/items.lua:5388		Triple Trouble	Dreiecks-Drama
 src/items.lua:5389		Combos containing Three Of A Kind -4 Mult	-4 Multi für Combos mit einem Dreierpasch
 src/items.lua:5413		No Four Kind	Keine Viererpasche
 src/items.lua:5414		Four Of A Kind gives no score	Viererpasche werten keine Punkte
-src/items.lua:5439		No Full House	Kein Full House
+src/items.lua:5439		No Full House	Leeres Haus
 src/items.lua:5440		Full House gives no score	Full House wertet keine Punkte
 src/items.lua:5466		No Bonanza	Keine Bonanza
 src/items.lua:5467		Star Bonanza gives no score	Sternbonanza wertet keine Punkte
