@@ -1,6 +1,6 @@
 location	extra context	en	pl
-gather_strings.lua:1		No	
-gather_strings.lua:1		momentum	
+gather_strings.lua:1		No	Nie
+gather_strings.lua:1		momentum	rozpęd
 gather_strings.lua:1		greed	chciwości
 gather_strings.lua:1		CD	
 gather_strings.lua:1		xnx	
@@ -24,55 +24,55 @@ src/boards/rift.lua:4		please mind the gap	uwaga na przepaść
 src/boards/the_end.lua:2		The End	Koniec
 src/boards/the_end.lua:3		This is it.	To już.
 src/boards/the_end.lua:4		thank you for visiting	dziękujemy za odwiedziny
-src/character_unlocks.lua:10		the crown hung heavy from before he was born	
+src/character_unlocks.lua:10		the crown hung heavy from before he was born	korona ciążyła mu, zanim się urodził
 src/character_unlocks.lua:21		tries her best	stara się jak może
 src/character_unlocks.lua:31		likes watching you bust	lubi patrzeć, jak łapiesz Busty
 src/character_unlocks.lua:42		just a dude	zwykły ziom
 src/character_unlocks.lua:53		gets away with it	wszystko mu uchodzi na sucho
-src/character_unlocks.lua:63		god's stronger warrior	
+src/character_unlocks.lua:63		god's stronger warrior	silniejsza wojowniczka boga
 src/character_unlocks.lua:74		woof	hau
 src/character_unlocks.lua:84 (+1 others)	dialogue	woof?	hau?
 src/character_unlocks.lua:95		he's so cool	jest taki spoko
 src/character_unlocks.lua:105		slimy	oślizgły
-src/character_unlocks.lua:114		say aaaaaaaa	
+src/character_unlocks.lua:114		say aaaaaaaa	powiedz aaaaaaaa
 src/character_unlocks.lua:120		Plasticine	Plastelina
 src/character_unlocks.lua:121		like putty in your hands\ncharacter customisation option	jak plastelina w twoich rękach\nopcja personalizacji postaci
 src/character_unlocks.lua:134		Wagers	Zakłady
 src/character_unlocks.lua:135		wager ¤ to increase difficulty and reward	postaw ¤, by podnieść trudność i nagrodę
 src/characters/anais.lua:2		Anais	Anais
 src/characters/anais.lua:38		Biblically Accurate	Biblijnie Poprawna
-src/characters/anais.lua:56 (+10 others)		${count} levels til the end	
-src/characters/anais.lua:59 (+10 others)	dialogue	The teeth trail will lead you to her	
+src/characters/anais.lua:56 (+10 others)		${count} levels til the end	poziomów do końca: ${count}
+src/characters/anais.lua:59 (+10 others)	dialogue	The teeth trail will lead you to her	Szlak zębów zaprowadzi cię do niej
 src/characters/anais.lua:61	dialogue	Kill what you love	Zabij to, co kochasz
-src/characters/anais.lua:77	dialogue	Not yet	
-src/characters/anais.lua:79		Rise again for $cost ¤. Something will follow you back.	
+src/characters/anais.lua:77	dialogue	Not yet	Jeszcze nie
+src/characters/anais.lua:79		Rise again for $cost ¤. Something will follow you back.	Powstań znów za $cost ¤. Coś pójdzie za tobą z powrotem.
 src/characters/anais.lua:82 (+9 others)		Yes	Tak
-src/characters/anais.lua:85	dialogue	Rest then	
-src/characters/anais.lua:98	dialogue	Be not afraid	
+src/characters/anais.lua:85	dialogue	Rest then	Odpocznij więc
+src/characters/anais.lua:98	dialogue	Be not afraid	Nie lękaj się
 src/characters/business_fish.lua:2		Business Fish	Rybiznesmen
 src/characters/business_fish.lua:33		Promotion	Awans
-src/characters/business_fish.lua:40		Gains	
+src/characters/business_fish.lua:40		Gains	Zyski
 src/characters/business_fish.lua:74 (+1 others)	dialogue	You're playing shallows?	Grasz na płyciźnie?
 src/characters/business_fish.lua:75 (+1 others)	dialogue	This ain't it	To nie to
 src/characters/business_fish.lua:76 (+1 others)	dialogue	Take me into deep waters baby.	Zabierz mnie na głęboką wodę, mała.
 src/characters/business_fish.lua:78	dialogue	Tuff' day in fish business	Ciężki dzień w rybnym biznesie
-src/characters/business_fish.lua:104	dialogue	Let's talk business	
-src/characters/business_fish.lua:106		I'll revive you for $cost ¤ and $amount dues, payable later.	
-src/characters/business_fish.lua:113	dialogue	Bad investment	
-src/characters/business_fish.lua:125	dialogue	Pleasure doing business	
+src/characters/business_fish.lua:104	dialogue	Let's talk business	Pogadajmy o interesach
+src/characters/business_fish.lua:106		I'll revive you for $cost ¤ and $amount dues, payable later.	Wskrzeszę cię za $cost ¤ i Haracz ×$amount, płatny później.
+src/characters/business_fish.lua:113	dialogue	Bad investment	Zła inwestycja
+src/characters/business_fish.lua:125	dialogue	Pleasure doing business	Miło robić z tobą interesy
 src/characters/cool_fish.lua:2		Cool Fish	Fajna Ryba
-src/characters/cool_fish.lua:34		Good Ol' Herrington	
-src/characters/cool_fish.lua:41		Winter Fit	
-src/characters/cool_fish.lua:48		Ciggy	
+src/characters/cool_fish.lua:34		Good Ol' Herrington	Stary Dobry Śledzington
+src/characters/cool_fish.lua:41		Winter Fit	Zimowa Stylówa
+src/characters/cool_fish.lua:48		Ciggy	Fajka
 src/characters/cool_fish.lua:89	dialogue	Oh, this jacket?\nIt was 3000¥	A, ta kurtka?\nKosztowała 3000¥
 src/characters/cool_fish.lua:90	dialogue	It's from Japan yeah	No, z Japonii
-src/characters/cool_fish.lua:111	dialogue	Nice coins	
-src/characters/cool_fish.lua:113		I'll revive you for all your $yen ¥ and $cost ¤	
-src/characters/cool_fish.lua:120	dialogue	Uncool	
-src/characters/cool_fish.lua:133	dialogue	Stay cool	
+src/characters/cool_fish.lua:111	dialogue	Nice coins	Niezłe monety
+src/characters/cool_fish.lua:113		I'll revive you for all your $yen ¥ and $cost ¤	Wskrzeszę cię za wszystkie twoje $yen ¥ i $cost ¤
+src/characters/cool_fish.lua:120	dialogue	Uncool	Niefajnie
+src/characters/cool_fish.lua:133	dialogue	Stay cool	Bądź fajna
 src/characters/dog.lua:2		Dog	Pies
-src/characters/dog.lua:34		So Fancy	
-src/characters/dog.lua:41		Stick	
+src/characters/dog.lua:34		So Fancy	Ale Elegancko
+src/characters/dog.lua:41		Stick	Patyk
 src/characters/god.lua:11	dialogue	unworthy	niegodna
 src/characters/god.lua:15	dialogue	fall back	cofnij się
 src/characters/god.lua:34	dialogue	begone	precz
@@ -81,19 +81,19 @@ src/characters/god.lua:41		Wager your Soul?	Postawić Duszę?
 src/characters/god.lua:42		You are wagering your soul.\nIf you lose, your save is gone forever.	Stawiasz swoją duszę.\nJeśli przegrasz, twój zapis gry przepadnie na zawsze.
 src/characters/god.lua:51	dialogue	i hope you are feeling lucky	mam nadzieję, że czujesz farta
 src/characters/god.lua:70		but you have earned nothing	ale niczego nie zarobiłaś
-src/characters/god.lua:72		but you need ${stars} ¤	
+src/characters/god.lua:72		but you need ${stars} ¤	ale potrzebujesz ${stars} ¤
 src/characters/god.lua:77		wager a gold ¤	postaw złotą ¤
-src/characters/god.lua:79		wager ${stars} ¤	
-src/characters/god.lua:81		wager all ${stars} ¤ and ${gold} gold ¤	
-src/characters/god.lua:83		wager all ${stars} ¤	
-src/characters/god.lua:85		wager all ${gold} gold ¤	
-src/characters/god.lua:87		wager everything	
+src/characters/god.lua:79		wager ${stars} ¤	postaw ${stars} ¤
+src/characters/god.lua:81		wager all ${stars} ¤ and ${gold} gold ¤	postaw wszystkie ${stars} ¤ i ${gold} złotych ¤
+src/characters/god.lua:83		wager all ${stars} ¤	postaw wszystkie ${stars} ¤
+src/characters/god.lua:85		wager all ${gold} gold ¤	postaw wszystkie ${gold} złotych ¤
+src/characters/god.lua:87		wager everything	postaw wszystko
 src/characters/god.lua:97	dialogue	you always were my bravest child	zawsze byłaś moim najdzielniejszym dzieckiem
 src/characters/god.lua:102		God?	Bóg?
-src/characters/god.lua:135	dialogue	cheating? me? god?	
-src/characters/god.lua:136	dialogue	i appreciate the boldness	
-src/characters/god.lua:137	dialogue	it will not work again	
-src/characters/god.lua:161	dialogue	no tickle	
+src/characters/god.lua:135	dialogue	cheating? me? god?	oszukiwać? mnie? boga?
+src/characters/god.lua:136	dialogue	i appreciate the boldness	doceniam tupet
+src/characters/god.lua:137	dialogue	it will not work again	drugi raz to nie przejdzie
+src/characters/god.lua:161	dialogue	no tickle	bez łaskotek
 src/characters/god.lua:288		i demand commitment	żądam zaangażowania
 src/characters/god.lua:292		show me what you have earned	pokaż mi, co zarobiłaś
 src/characters/god.lua:296		give me everything	oddaj mi wszystko
@@ -101,8 +101,8 @@ src/characters/god.lua:298		do you have what it takes?	czy masz to, czego trzeba
 src/characters/god.lua:302		you are never getting out of here	nigdy się stąd nie wydostaniesz
 src/characters/god.lua:349		i always believed in you	zawsze w ciebie wierzyłem
 src/characters/guy.lua:2		Guy	Typ
-src/characters/guy.lua:46		Eye Wide Open	
-src/characters/guy.lua:53		Lil Bro	
+src/characters/guy.lua:46		Eye Wide Open	Szeroko Otwarte Oko
+src/characters/guy.lua:53		Lil Bro	Braciszek
 src/characters/guy.lua:85	dialogue	Reach level 7 to break free!	Dojdź do poziomu 7, by się wyrwać!
 src/characters/guy.lua:87	dialogue	Reach level 10 to break free!	Dojdź do poziomu 10, by się wyrwać!
 src/characters/guy.lua:115	dialogue	Keep riding?	Jedziemy dalej?
@@ -110,13 +110,13 @@ src/characters/guy.lua:117	dialogue	I'll revive you for $cost ¤ and one passive
 src/characters/guy.lua:123	dialogue	Live your truth	Żyj po swojemu
 src/characters/guy.lua:136	dialogue	Ride on	Jedziemy dalej
 src/characters/hotdog.lua:2		Hot Dawg	Hot Dawg
-src/characters/hotdog.lua:53		Jalapeno	
-src/characters/hotdog.lua:94	dialogue	Hungry for more?	
-src/characters/hotdog.lua:96		I'll revive you for $cost ¤ and a bad tooth	
-src/characters/hotdog.lua:102	dialogue	More for me	
-src/characters/hotdog.lua:113	dialogue	Chew carefully	
+src/characters/hotdog.lua:53		Jalapeno	Jalapeño
+src/characters/hotdog.lua:94	dialogue	Hungry for more?	Masz apetyt na więcej?
+src/characters/hotdog.lua:96		I'll revive you for $cost ¤ and a bad tooth	Wskrzeszę cię za $cost ¤ i zepsuty ząb
+src/characters/hotdog.lua:102	dialogue	More for me	Więcej dla mnie
+src/characters/hotdog.lua:113	dialogue	Chew carefully	Gryź ostrożnie
 src/characters/king_fetus.lua:2		King Foetus	Król Płód
-src/characters/king_fetus.lua:38		Princess	
+src/characters/king_fetus.lua:38		Princess	Księżniczka
 src/characters/king_fetus.lua:62	dialogue	Reach level 7 to escape!	Dojdź do poziomu 7, by uciec!
 src/characters/king_fetus.lua:63 (+1 others)	dialogue	goo goo gaa gaa	gu gu ga ga
 src/characters/king_fetus.lua:65	dialogue	Reach level 10 to escape!	Dojdź do poziomu 10, by uciec!
@@ -124,7 +124,7 @@ src/characters/king_fetus.lua:85	dialogue	go more?	jeszcze?
 src/characters/king_fetus.lua:87	dialogue	revive for $cost ¤ and 1 max bust	wskrzeszenie za $cost ¤ i 1 maks. Bust
 src/characters/king_fetus.lua:106	dialogue	glob gob	glub glub
 src/characters/liz.lua:2 (+1 others)		Liz	El
-src/characters/liz.lua:30		Off Duty	
+src/characters/liz.lua:30		Off Duty	Po Służbie
 src/characters/liz.lua:37		Halo	Aureola
 src/characters/liz.lua:77	dialogue	Hey, my love	Hej, kochana
 src/characters/liz.lua:78	dialogue	Remember, ${count} levels and you're out of here!	Pamiętaj, ${count} poziomów i wychodzisz stąd!
@@ -139,7 +139,7 @@ src/characters/saimi.lua:2		Saimi	Saimi
 src/characters/saimi.lua:31 (+2 others)	dialogue	Moi	Moi
 src/characters/saimi.lua:32	dialogue	Get past level ${count}, and you're free.	Przejdź poziom ${count} i jesteś wolna.
 src/characters/shirin.lua:2		Shirin	Shirin
-src/characters/shirin.lua:40		Mermaid	
+src/characters/shirin.lua:40		Mermaid	Syrena
 src/characters/shirin.lua:64 (+1 others)	dialogue	Oh. You’re mine now.	O. Teraz jesteś moja.
 src/characters/shirin.lua:65	dialogue	I’ll let you go if you reach level 7.	Puszczę cię, jeśli dojdziesz do poziomu 7.
 src/characters/shirin.lua:68	dialogue	I’ll let you go if you reach level 10.	Puszczę cię, jeśli dojdziesz do poziomu 10.
@@ -147,9 +147,9 @@ src/characters/shirin.lua:194	dialogue	Feeling lucky?	Czujesz farta?
 src/characters/shirin.lua:196	dialogue	I'll let you toss a coin to revive you for $cost ¤	Pozwolę ci rzucić monetą o wskrzeszenie za $cost ¤
 src/characters/shirin.lua:202	dialogue	RIP	RIP
 src/characters/shirin.lua:212	dialogue	Bad luck...	Pech...
-src/characters/shirin.lua:220	dialogue	Lucky!	
+src/characters/shirin.lua:220	dialogue	Lucky!	Fart!
 src/characters/tooth_fairy.lua:2		Tooth Fairy	Wróżka Zębuszka
-src/characters/tooth_fairy.lua:30		Cavity	
+src/characters/tooth_fairy.lua:30		Cavity	Próchnica
 src/characters/tooth_fairy.lua:56	dialogue	Reach level 7 and I'll leave your teeth alone.	Dojdź do poziomu 7, a zostawię twoje zęby w spokoju.
 src/characters/tooth_fairy.lua:58	dialogue	Reach level 10 and I'll leave your teeth alone.	Dojdź do poziomu 10, a zostawię twoje zęby w spokoju.
 src/characters/tutorial_character.lua:38	dialogue	Hi! Welcome!	Cześć! Witaj!
@@ -207,14 +207,14 @@ src/characters/tutorial_character.lua:306	dialogue	You can figure out the rest.	
 src/characters/tutorial_character.lua:308	dialogue	I'll see you in the real game.	Do zobaczenia w prawdziwej grze.
 src/characters/tutorial_character.lua:309	dialogue	Remember, luck helps. Judgement matters more.	Pamiętaj: fart pomaga. Rozsądek znaczy więcej.
 src/characters/wizard.lua:2		Wizard	Czarodziej
-src/characters/wizard.lua:43		Soucerer	
-src/characters/wizard.lua:50		Archmogus	
-src/characters/wizard.lua:57		Orb	
+src/characters/wizard.lua:43		Soucerer	Sosoczarownik
+src/characters/wizard.lua:50		Archmogus	Arcymagus
+src/characters/wizard.lua:57		Orb	Kula
 src/characters/wizard.lua:89	dialogue	Get to level 7, and you're free.	Dojdź do poziomu 7 i jesteś wolna.
 src/characters/wizard.lua:92	dialogue	Get to level 10, and you're free.	Dojdź do poziomu 10 i jesteś wolna.
-src/characters/wizard.lua:213	dialogue	Another chance buddy?	
+src/characters/wizard.lua:213	dialogue	Another chance buddy?	Jeszcze jedna szansa, kumpelo?
 src/characters/wizard.lua:215	dialogue	I'll revive you for $cost ¤ and difficulty increase.	Wskrzeszę cię za $cost ¤ i wyższą trudność.
-src/characters/wizard.lua:221	dialogue	Hmpf.	
+src/characters/wizard.lua:221	dialogue	Hmpf.	Hmpf.
 src/characters/wizard.lua:238	dialogue	Tada!	Tadam!
 src/coloured_text.lua:8 (+117 others)		bust	bust
 src/coloured_text.lua:12		wipe	wipe
@@ -222,7 +222,7 @@ src/coloured_text.lua:14		instant	natychmiastowy
 src/coloured_text.lua:16		turn	tura
 src/coloured_text.lua:20		turns	tury
 src/coloured_text.lua:24 (+3 others)		bank	bank
-src/coloured_text.lua:27 (+1 others)		stars	
+src/coloured_text.lua:27		stars	gwiazdki
 src/coloured_text.lua:31 (+5 others)		points	punkty
 src/coloured_text.lua:35 (+9 others)		mult	mnoż.
 src/coloured_text.lua:39 (+8 others)		bonus	bonus
@@ -243,25 +243,26 @@ src/coloured_text.lua:95 (+12 others)		stuck	przyklejona
 src/coloured_text.lua:98 (+2 others)		empty	pusta
 src/display_loc.lua:3		Normal	Normalna
 src/display_loc.lua:4		Pixel	Pikselowa
-src/endings/alley.lua:56		hit that shit	zaciągnij się tym gównem
-src/endings/alley.lua:101	dialogue	at least the tooth fairy will come	przynajmniej przyjdzie wróżka zębuszka
-src/endings/alley.lua:102	dialogue	i haven't lost my baby teeth yet	jeszcze nie straciłem mlecznych zębów
-src/endings/alley.lua:103	dialogue	because i don't have baby teeth	bo nie mam mlecznych zębów
-src/endings/alley.lua:104 (+1 others)	dialogue	because i am god	bo jestem bogiem
-src/endings/alley.lua:108	dialogue	being late to the dentist is always a bit risky	spóźnianie się do dentysty to zawsze ryzyko
-src/endings/alley.lua:109	dialogue	have you been brushing?	myłaś zęby?
-src/endings/alley.lua:110	dialogue	i don't have to brush my teeth	nie muszę myć zębów
-src/endings/anais.lua:124	dialogue	don't leave again	
-src/endings/anais.lua:125	dialogue	you're safe here	
-src/endings/anais.lua:126	dialogue	with me	
-src/endings/boardroom.lua:34		hit da bricks	spadamy stąd
-src/endings/boardroom.lua:120	dialogue	you believe in the wrong things	
-src/endings/boardroom.lua:121	dialogue	you believe in me now	
-src/endings/cool_fish.lua:29		lets hit that shit	dajemy czadu
-src/endings/cool_fish.lua:132	dialogue	you are cool	
-src/endings/cool_fish.lua:133	dialogue	but i am god	
-src/endings/cool_fish.lua:134	dialogue	believe in me	
-src/endings/dog.lua:67		throw that shit	rzuć to gówno
+src/endings/alley.lua:55		fix that shit	
+src/endings/alley.lua:55		hit that shit	pierdolnij se
+src/endings/alley.lua:112	dialogue	at least the tooth fairy will come	przynajmniej przyjdzie wróżka zębuszka
+src/endings/alley.lua:113	dialogue	i haven't lost my baby teeth yet	jeszcze nie straciłem mlecznych zębów
+src/endings/alley.lua:114	dialogue	because i don't have baby teeth	bo nie mam mlecznych zębów
+src/endings/alley.lua:115 (+1 others)	dialogue	because i am god	bo jestem bogiem
+src/endings/alley.lua:119	dialogue	being late to the dentist is always a bit risky	spóźnianie się do dentysty to zawsze ryzyko
+src/endings/alley.lua:120	dialogue	have you been brushing?	myłaś zęby?
+src/endings/alley.lua:121	dialogue	i don't have to brush my teeth	nie muszę myć zębów
+src/endings/anais.lua:124	dialogue	don't leave again	nie odchodź znowu
+src/endings/anais.lua:125	dialogue	you're safe here	tu jesteś bezpieczna
+src/endings/anais.lua:126	dialogue	with me	ze mną
+src/endings/boardroom.lua:34		hit da bricks	spadaj stąd
+src/endings/boardroom.lua:120	dialogue	you believe in the wrong things	wierzysz w złe rzeczy
+src/endings/boardroom.lua:121	dialogue	you believe in me now	teraz wierzysz we mnie
+src/endings/cool_fish.lua:29		lets hit that shit	pierdolnijmy se
+src/endings/cool_fish.lua:132	dialogue	you are cool	jesteś fajna
+src/endings/cool_fish.lua:133	dialogue	but i am god	ale ja jestem bogiem
+src/endings/cool_fish.lua:134	dialogue	believe in me	uwierz we mnie
+src/endings/dog.lua:67		throw that shit	rzuć se
 src/endings/dog.lua:129	dialogue	what a good boy	kto tu jest grzecznym pieskiem
 src/endings/dog.lua:130	dialogue	i am neither good nor bad	nie jestem ani dobry, ani zły
 src/endings/god.lua:155	dialogue	it was very brave of you to come back	to bardzo odważne z twojej strony, że wróciłaś
@@ -271,15 +272,15 @@ src/endings/god.lua:158	dialogue	and i am god	a ja jestem bogiem
 src/endings/guy.lua:158	dialogue	have you looked into a mirror recently?	patrzyłaś ostatnio w lustro?
 src/endings/guy.lua:159	dialogue	what do you see?	co widzisz?
 src/endings/guy.lua:160	dialogue	i see my bravest child	widzę moje najdzielniejsze dziecko
-src/endings/hotdog.lua:33		eat that shit	
-src/endings/hotdog.lua:57	dialogue	you are a weird one	
-src/endings/hotdog.lua:58	dialogue	i am the opposite	
+src/endings/hotdog.lua:33		eat that shit	zjedz jom
+src/endings/hotdog.lua:57	dialogue	you are a weird one	dziwna z ciebie istota
+src/endings/hotdog.lua:58	dialogue	i am the opposite	ja jestem przeciwieństwem
 src/endings/king_fetus.lua:52		nope nope nope	nie nie nie
-src/endings/king_fetus.lua:147	dialogue	don't go again	
-src/endings/king_fetus.lua:148	dialogue	you're so young	
-src/endings/king_fetus.lua:149	dialogue	don't face the world	
-src/endings/king_fetus.lua:150	dialogue	stay here	
-src/endings/liz.lua:33		hit that mochi?	
+src/endings/king_fetus.lua:147	dialogue	don't go again	nie odchodź znowu
+src/endings/king_fetus.lua:148	dialogue	you're so young	jesteś taka młoda
+src/endings/king_fetus.lua:149	dialogue	don't face the world	nie mierz się ze światem
+src/endings/king_fetus.lua:150	dialogue	stay here	zostań tutaj
+src/endings/liz.lua:33		hit that mochi?	walnij se mochi
 src/endings/liz.lua:175	dialogue	how did you do?	jak ci poszło?
 src/endings/liz.lua:176	dialogue	in the test, i mean	w sensie, na teście
 src/endings/liz.lua:177	dialogue	we all pass\nin one way or another	wszyscy zdajemy\ntak czy inaczej
@@ -288,18 +289,19 @@ src/endings/marooned.lua:75	dialogue	i am your salvation	jestem twoim zbawieniem
 src/endings/marooned.lua:76	dialogue	you are not drowning	nie toniesz
 src/endings/party.lua:130	dialogue	You finished the Shallows!	Płycizna zaliczona!
 src/endings/party.lua:131	dialogue	Unlock the next Depth from Star Guts for a bigger challenge.	Odblokuj następną Głębię w Gwiezdnym Brzusiu, jeśli chcesz większego wyzwania.
-src/endings/shirin.lua:136	dialogue	welcome back	
-src/endings/shirin.lua:137	dialogue	so you believe	
-src/endings/shirin.lua:138	dialogue	i am here	
-src/endings/tooth_fairy.lua:129	dialogue	hello friend	
-src/endings/tooth_fairy.lua:130	dialogue	any good finds?	
-src/endings/wizard.lua:49		ponder that orb	
-src/endings/wizard.lua:140	dialogue	keep playing with me	
-src/endings/wizard.lua:141	dialogue	and you will see	
-src/endings/wizard.lua:142	dialogue	one day you will not get out	
-src/endings/wizard.lua:143	dialogue	you are nothing	
-src/endings/wizard.lua:144	dialogue	your spells suck	
-src/endings/wizard.lua:145	dialogue	your hat stinks	
+src/endings/shirin.lua:136	dialogue	welcome back	witaj z powrotem
+src/endings/shirin.lua:137	dialogue	so you believe	więc wierzysz
+src/endings/shirin.lua:138	dialogue	i am here	jestem tutaj
+src/endings/tooth_fairy.lua:30		hit the guts	wskocz se do brzusia
+src/endings/tooth_fairy.lua:88	dialogue	hello friend	witaj, przyjaciółko
+src/endings/tooth_fairy.lua:89	dialogue	any good finds?	znalazłaś coś ciekawego?
+src/endings/wizard.lua:49		ponder that orb	pokontempluj se kulę
+src/endings/wizard.lua:141	dialogue	keep playing with me	graj ze mną dalej
+src/endings/wizard.lua:142	dialogue	and you will see	a zobaczysz
+src/endings/wizard.lua:143	dialogue	one day you will not get out	pewnego dnia się nie wydostaniesz
+src/endings/wizard.lua:144	dialogue	you are nothing	jesteś niczym
+src/endings/wizard.lua:145	dialogue	your spells suck	twoje zaklęcia są do bani
+src/endings/wizard.lua:146	dialogue	your hat stinks	twój kapelusz śmierdzi
 src/entities/buttons_clump.lua:128		Scoring adds points and clears all dice in the combo	Punktowanie dodaje punkty i usuwa wszystkie kostki z combo
 src/entities/buttons_clump.lua:130		Select All	Zaznacz wszystko
 src/entities/buttons_clump.lua:131		Select your dice to score them or roll them	Zaznacz kostki, by nimi punktować albo je przerzucić
@@ -330,20 +332,20 @@ src/entities/dice.lua:333		Empty\nCan't be rolled	Pusta\nNie da się nią rzuci�
 src/entities/dice.lua:342		Hardy\n+1 ♥ when rolled	Krzepka\n+1 ♥ przy rzucie
 src/entities/dice.lua:352		Doom\n-3♥ when rolled	Zagłada\n-3♥ przy rzucie
 src/entities/dice.lua:627		CRACK	TRZASK
-src/entities/dice_peek.lua:50		ingestion might hurt tummy	
+src/entities/dice_peek.lua:50		ingestion might hurt tummy	zjedzenie może zaszkodzić brzuszkowi
 src/entities/dice_peek.lua:253		Impatient	Niecierpliwa
 src/entities/dice_peek.lua:253		Nudges up everytime anything is rolled.	Przy każdym rzucie przeskakuje o oczko w górę.
 src/entities/dice_peek.lua:254		Disappears after being scored.	Znika po punktowaniu.
 src/entities/dice_peek.lua:255		Cycle	Cykl
 src/entities/dice_peek.lua:255		Rolls to its next value.\nDamage on score.	Przechodzi na następną wartość.\nTraci ♥ po punktowaniu.
-src/entities/dice_peek.lua:267		Scores x${times}	
+src/entities/dice_peek.lua:267		Scores x${times}	Punktuje x${times}
 src/entities/dice_peek.lua:268		Scores multiple times.	Punktuje wielokrotnie.
 src/entities/dice_peek.lua:281		Dice live forever	Kostki żyją wiecznie
 src/entities/dice_peek.lua:281		Dice are mortal	Kostki są śmiertelne
 src/entities/dice_pick.lua:7		Swap Dice	Zamień kostki
 src/entities/dice_pick.lua:20		Swap	Zamień
 src/entities/dice_pick.lua:28		Skip	Pomiń
-src/entities/die_baby.lua:7		Old Baby	
+src/entities/die_baby.lua:7		Old Baby	Stary Bobas
 src/entities/die_baby.lua:13		Scores x	Punktuje x
 src/entities/dupe_baby.lua:7		Dupe Baby	Bobas Klon
 src/entities/dupe_baby.lua:59		Duplicated!	Zduplikowano!
@@ -354,49 +356,49 @@ src/entities/eye_baby.lua:7		Eye Baby	Bobas Oko
 src/entities/fish_spawner.lua:215		Cool Fish Available	Fajna Ryba dostępna
 src/entities/god_shop.lua:68		CHOOSE	WYBIERZ
 src/entities/god_shop.lua:486		reroll %d ¤	przelosuj %d ¤
-src/entities/item.lua:498		Tooth ${count}/${limit}	
+src/entities/item.lua:498		Tooth ${count}/${limit}	Ząb ${count}/${limit}
 src/entities/item.lua:508		a to use spells	A, by użyć zaklęć
 src/entities/item.lua:510		right click to use spells	prawy przycisk, by użyć zaklęć
 src/entities/item.lua:513		drag snacks over rolled dice	przeciągnij przekąski na rzucone kostki
 src/entities/power_ui.lua:97	ui	Use	Użyj
 src/entities/power_ui.lua:130	ui	Power recharges each turn\nSelect a die with Left Click then press this button to use it	Moc ładuje się co turę\nZaznacz kostkę lewym przyciskiem, a potem naciśnij ten przycisk, by jej użyć
 src/entities/shop.lua:82		TAB: ${total} ¥	RACHUNEK: ${total} ¥
-src/entities/shop.lua:115		Dice $count/$limit	Kostki $count/$limit
-src/entities/shop.lua:142		Trinkets $count/$limit	Błyskotki $count/$limit
-src/entities/shop.lua:169		Actives $count/$limit	Aktywne $count/$limit
-src/entities/shop.lua:1264		cant sell eternal	wiecznych nie da się sprzedać
-src/entities/shop.lua:1276		sell cursed	sprzedaj przeklęte
-src/entities/shop.lua:1288		too many dice	za dużo kostek
-src/entities/shop.lua:1300		too many trinkets	za dużo błyskotek
-src/entities/shop.lua:1314		pay up	płacę
-src/entities/shop.lua:1314		take change	reszta
-src/entities/shop.lua:1386		bye	pa pa
-src/entities/shop.lua:1434		Reroll - ${current_cost}¥	Przelosuj - ${current_cost}¥
+src/entities/shop.lua:107		Dice $count/$limit	Kostki $count/$limit
+src/entities/shop.lua:136		Trinkets $count/$limit	Błyskotki $count/$limit
+src/entities/shop.lua:165		Actives $count/$limit	Aktywne $count/$limit
+src/entities/shop.lua:1283		cant sell eternal	wiecznych nie da się sprzedać
+src/entities/shop.lua:1295		sell cursed	sprzedaj przeklęte
+src/entities/shop.lua:1307		too many dice	za dużo kostek
+src/entities/shop.lua:1319		too many trinkets	za dużo błyskotek
+src/entities/shop.lua:1333		pay up	płacę
+src/entities/shop.lua:1333		take change	reszta
+src/entities/shop.lua:1405		bye	pa pa
+src/entities/shop.lua:1453		Reroll - ${current_cost}¥	Przelosuj - ${current_cost}¥
 src/entities/tape.lua:453		- web	- strona
 src/entities/title_text.lua:3		DICE HAVE\nNO EYES	DICE HAVE\nNO EYES
 src/entities/title_text.lua:5		DICE HAVE\nNÕ EYES	DICE HAVE\nNÕ EYES
 src/entities/title_text.lua:6		DICE HAVE\nNÖ EYES	DICE HAVE\nNÖ EYES
 src/entities/title_text.lua:127		DEMO	DEMO
-src/haunt.lua:14 (+2 others)		wake up	
-src/haunt.lua:17		leave	
-src/haunt.lua:18		please leave	
-src/haunt.lua:19 (+1 others)		you don't belong here	
-src/haunt.lua:21 (+2 others)		go outside	
-src/haunt.lua:23		you're dreaming	
-src/haunt.lua:24		you're stuck in the loop	
-src/haunt.lua:25		are you stuck?	
-src/haunt.lua:26		move on	
-src/haunt.lua:27		break the pattern	
-src/haunt.lua:28		what are you doing	
-src/haunt.lua:29		you've consumed enough	
-src/haunt.lua:30		it's all made up	
-src/haunt.lua:31		consume sleep repeat	
-src/haunt.lua:32 (+1 others)		get out	
-src/haunt.lua:34		this isn't real	
-src/haunt.lua:35		call your friends	
-src/haunt.lua:36		no no no no no	
-src/haunt.lua:37		why are you here	
-src/haunt.lua:38		please wake up	
+src/haunt.lua:14 (+2 others)		wake up	obudź się
+src/haunt.lua:17		leave	odejdź
+src/haunt.lua:18		please leave	proszę, odejdź
+src/haunt.lua:19 (+1 others)		you don't belong here	nie powinno cię tu być
+src/haunt.lua:21 (+2 others)		go outside	wyjdź na dwór
+src/haunt.lua:23		you're dreaming	śnisz
+src/haunt.lua:24		you're stuck in the loop	utknęłaś w pętli
+src/haunt.lua:25		are you stuck?	utknęłaś?
+src/haunt.lua:26		move on	idź dalej
+src/haunt.lua:27		break the pattern	przerwij schemat
+src/haunt.lua:28		what are you doing	co ty robisz
+src/haunt.lua:29		you've consumed enough	dość już skonsumowałaś
+src/haunt.lua:30		it's all made up	to wszystko jest zmyślone
+src/haunt.lua:31		consume sleep repeat	konsumuj śpij powtórz
+src/haunt.lua:32 (+1 others)		get out	wynoś się
+src/haunt.lua:34		this isn't real	to nie jest prawdziwe
+src/haunt.lua:35		call your friends	zadzwoń do przyjaciół
+src/haunt.lua:36		no no no no no	nie nie nie nie nie
+src/haunt.lua:37		why are you here	po co tu jesteś
+src/haunt.lua:38		please wake up	proszę, obudź się
 src/item_unlocks.lua:6		Basic Spells	Podstawowe Zaklęcia
 src/item_unlocks.lua:7		beginner magic	magia dla początkujących
 src/item_unlocks.lua:15		Basic Passives	Podstawowe Pasywki
@@ -475,7 +477,7 @@ src/item_unlocks.lua:366		Special Side Effects in shops!\nSkip, Mirror, Hardy an
 src/item_unlocks.lua:377		Fish Trinkets	Rybne Błyskotki
 src/item_unlocks.lua:378		from the sea	prosto z morza
 src/item_unlocks.lua:386		Sardine Magic	Sardynkowa Magia
-src/item_unlocks.lua:387		abracodabra	
+src/item_unlocks.lua:387		abracodabra	abrakadorsz
 src/item_unlocks.lua:395		Bans	Bany
 src/item_unlocks.lua:396		ban item sets from your runs	wyklucz zestawy przedmiotów ze swoich podejść
 src/item_unlocks.lua:408 (+1 others)		Scoreboards	Rankingi
@@ -537,7 +539,7 @@ src/items.lua:540		Copycat	Naśladowczyni
 src/items.lua:543		Repeat the last spell used	Powtórz ostatnio użyte zaklęcie
 src/items.lua:553 (+1 others)		Nothing to copy!	Nie ma czego skopiować!
 src/items.lua:556 (+1 others)		Copy!	Kopia!
-src/items.lua:562		Copybigdog	
+src/items.lua:562		Copybigdog	Kopiopsisko
 src/items.lua:566		Repeat the last spell used, twice	Powtórz ostatnio użyte zaklęcie, dwa razy
 src/items.lua:585		Heal	Leczenie
 src/items.lua:588		All dice +1 ♥	Wszystkie kostki +1 ♥
@@ -596,7 +598,7 @@ src/items.lua:1008 (+1 others)		Pig Side Added	Dodano stronę ze Świnką
 src/items.lua:1014 (+1 others)		Add 1 Skip side	Dodaj 1 stronę z Przeskokiem
 src/items.lua:1029 (+1 others)		Skip Side Added	Dodano stronę z Przeskokiem
 src/items.lua:1034		Black Eyed Pea	Fasolka Czarne Oczko
-src/items.lua:1035		Block 1s for the next roll	Zablokuj jedynki w następnym rzucie
+src/items.lua:1035		This die can't roll a 1 on its next roll	Ta kostka nie wyrzuci 1 w swoim następnym rzucie
 src/items.lua:1052		Grape	Winogrono
 src/items.lua:1053 (+1 others)		Add 1 Bonus side	Dodaj 1 stronę z Bonusem
 src/items.lua:1068 (+1 others)		Bonus Side Added	Dodano stronę z Bonusem
@@ -653,20 +655,20 @@ src/items.lua:1546		Puke a special effect out	Wyrzygaj jeden efekt specjalny
 src/items.lua:1570		Emetique (TM)	Emetique (TM)
 src/items.lua:1571		Puke all special effects out	Wyrzygaj wszystkie efekty specjalne
 src/items.lua:1611		Pig Run	Świński Bieg
-src/items.lua:1614		Pig sides score +${dynamic} Points, gains +5 per pig rerolled this turn. Resets each turn.	
+src/items.lua:1614		Pig sides score +${dynamic} Points, gains +5 per pig rerolled this turn. Resets each turn.	Strony ze Świnką dają +${dynamic} Punktów, rośnie o +5 za każdą przerzuconą Świnkę w tej turze. Zeruje się co turę.
 src/items.lua:1638		pig bonus +${amount}!	bonus za świnki +${amount}!
 src/items.lua:1643		Thurible	Kadzielnica
-src/items.lua:1646		+${dynamic} Mult, gains +1 Mult each time a die is destroyed	
+src/items.lua:1646		+${dynamic} Mult, gains +1 Mult each time a die is destroyed	+${dynamic} Mnożnika, rośnie o +1 Mnożnika za każdą zniszczoną kostkę
 src/items.lua:1660 (+1 others)		+1 mult	+1 mnoż.
 src/items.lua:1673		Aging Baby	Starzejący się Bobas
-src/items.lua:1676		+${dynamic} Points, loses 10 each time it activates	
+src/items.lua:1676		+${dynamic} Points, loses 10 each time it activates	+${dynamic} Punktów, traci 10 przy każdej aktywacji
 src/items.lua:1699		Growing Baby	Rosnący Bobas
-src/items.lua:1702		+${dynamic} Points, gains +1 for each die rolled	
+src/items.lua:1702		+${dynamic} Points, gains +1 for each die rolled	+${dynamic} Punktów, rośnie o +1 za każdą rzuconą kostkę
 src/items.lua:1718		+${amount} pts!	+${amount} pkt!
 src/items.lua:1729		Bleeding Baby	Krwawiący Bobas
-src/items.lua:1732		+${dynamic} Mult, gains +1 Mult each time you bust, resets on wipe	
+src/items.lua:1732		+${dynamic} Mult, gains +1 Mult each time you bust, resets on wipe	+${dynamic} Mnożnika, rośnie o +1 Mnożnika przy każdym Buście, zeruje się przy WIPE
 src/items.lua:1762		Grudge Baby	Pamiętliwy Bobas
-src/items.lua:1765		+${dynamic} Mult, loses 1 Mult each time you bank	
+src/items.lua:1765		+${dynamic} Mult, loses 1 Mult each time you bank	+${dynamic} Mnożnika, traci 1 Mnożnika przy każdym BANKU
 src/items.lua:1781		-1 mult	-1 mnoż.
 src/items.lua:1793		Glass Gecko	Szklany Gekon
 src/items.lua:1794		+10 Mult, destroyed on Bust	+10 Mnożnika, rozbija się przy Buście
@@ -1156,7 +1158,7 @@ src/states/credits.lua:43		Created by	Twórcy
 src/states/credits.lua:49		Translation	Tłumaczenie
 src/states/credits.lua:56		Special Thanks	Specjalne podziękowania
 src/states/credits.lua:60		The Dice	Kostki
-src/states/credits.lua:61 (+1 others)		God	Bóg
+src/states/credits.lua:61		God	Bóg
 src/states/credits.lua:65		And you!	I ty!
 src/states/credits.lua:66		Thanks for playing! <3	Dzięki za grę! <3
 src/states/customisation.lua:167		Nothing Available	Nic tu nie ma
@@ -1172,9 +1174,9 @@ src/states/customisation.lua:454		stretch	rozciągnij
 src/states/customisation.lua:454		squash	zgnieć
 src/states/customisation.lua:461		Dye	Farba
 src/states/customisation.lua:462		recolour	przefarbuj
-src/states/ending.lua:244 (+7 others)		hit that shit?	zaciągnąć się tym gównem?
-src/states/ending.lua:302 (+4 others)		play	graj
-src/states/ending.lua:486 (+4 others)		done	gotowe
+src/states/ending.lua:244 (+6 others)		hit that shit?	pierdolnij se
+src/states/ending.lua:303 (+4 others)		play	graj
+src/states/ending.lua:490 (+4 others)		done	gotowe
 src/states/ending_bet.lua:59 (+1 others)		--  Run Summary  --	--  Podsumowanie Podejścia  --
 src/states/ending_bet.lua:73 (+1 others)		Level reached:	Osiągnięty poziom:
 src/states/ending_bet.lua:74 (+1 others)		Points scored:	Zdobyte punkty:
@@ -1222,7 +1224,7 @@ src/states/ending_finale.lua:158	dialogue	you are brave	jesteś dzielna
 src/states/ending_finale.lua:159	dialogue	you are worthy	jesteś godna
 src/states/ending_finale.lua:161	dialogue	i will offer you one final wager	zaproponuję ci ostatni zakład
 src/states/ending_finale.lua:167	dialogue	heads: you're free	orzeł: jesteś wolna
-src/states/ending_finale.lua:174	dialogue	tails: i will personally destroy all the files i can access on this device	reszka: osobiście zniszczę wszystkie pliki, do których mam dostęp na tym urządzeniu
+src/states/ending_finale.lua:174	dialogue	tails: i will personally destroy all your files one by one	
 src/states/ending_finale.lua:190	dialogue	do it, all in	no dalej, va banque
 src/states/ending_finale.lua:192		flick it like you mean it	pstryknij, jakby od tego wszystko zależało
 src/states/ending_finale.lua:192		this is real	to dzieje się naprawdę
@@ -1241,74 +1243,73 @@ src/states/game.lua:171 (+1 others)		Cannot Restart Wager Runs	Nie można zresta
 src/states/game.lua:174		Restart	Restart
 src/states/game.lua:176		Restart the run from scratch\nand lose all gained stars?	Zacząć podejście od nowa\ni stracić wszystkie zdobyte gwiazdki?
 src/states/game.lua:182 (+3 others)		Options	Opcje
-src/states/game.lua:190		Save Run	Zapisz Podejście
+src/states/game.lua:190		Save and Quit	
 src/states/game.lua:191		(Cant Save Right Now)	(Nie Można Teraz Zapisać)
-src/states/game.lua:194		Quit to menu and save run for later?	Wyjść do menu i zapisać podejście na później?
-src/states/game.lua:202		Abandon	Porzuć
-src/states/game.lua:204		Quit to menu and lose all gained stars?	Wyjść do menu i stracić wszystkie zdobyte gwiazdki?
-src/states/game.lua:209		No way out	Nie ma wyjścia
-src/states/game.lua:514		secure the points\nend the turn\nrecharge character power\nclear momentum	zabezpiecz punkty\nzakończ turę\nnaładuj moc postaci\nwyzeruj rozpęd
-src/states/game.lua:619		you must have some points to bank	musisz mieć jakieś punkty, żeby zbankować
-src/states/game.lua:721		momentum: ${amount}	rozpęd: ${amount}
-src/states/game.lua:726		adds extra ${momentum} points and mult	dodaje dodatkowe ${momentum} punktów i mnożnika
-src/states/game.lua:911		Losing all Busts ends the turn.\nBusts refill at the start of each Turn	Utrata wszystkich Bustów kończy turę.\nBusty odnawiają się na początku każdej Tury
-src/states/game.lua:915		Blocks up to ${count} busts, disappears when damaged	Blokuje do ${count} bustów, znika po uszkodzeniu
-src/states/game.lua:934		ALL BUST BLOCKED	WSZYSTKIE BUSTY ZABLOKOWANE
-src/states/game.lua:950		SHIELD OVERLOADED	TARCZA PRZECIĄŻONA
-src/states/game.lua:951		${count} BUSTS BLOCKED	ZABLOKOWANE BUSTY: ${count}
-src/states/game.lua:951		${count} BUST BLOCKED	ZABLOKOWANE BUSTY: ${count}
-src/states/game.lua:1001		wager ${amount} ¤	zakład ${amount} ¤
-src/states/game.lua:1004		${STARS} Stars Unbanked	Niezbankowane gwiazdki: ${STARS}
-src/states/game.lua:1006		bank stars after each nightmare level or win the run to secure them	bankuj gwiazdki po każdym poziomie koszmaru albo wygraj podejście, by je zabezpieczyć
-src/states/game.lua:1076		praying...	modlitwa...
-src/states/game.lua:1076		pray	módl się
-src/states/game.lua:1154		Losing all Turns ends the game.\nTurns refill at the start of each level.	Utrata wszystkich Tur kończy grę.\nTury odnawiają się na początku każdego poziomu.
-src/states/game.lua:1405 (+1 others)		MERGED	POŁĄCZONO
-src/states/game.lua:1878 (+2 others)		Level $level/$count $name	Poziom $level/$count $name
-src/states/game.lua:1930		NIGHTMARE LEVEL	POZIOM KOSZMARU
-src/states/game.lua:2052 (+1 others)		Rift	Przepaść
-src/states/game.lua:2238		this coin is an affront to life itself	ta moneta to obraza dla samego życia
-src/states/game.lua:2239		this die is an affront to life itself	ta kostka to obraza dla samego życia
-src/states/game.lua:2240		we shall not suffer such an unholy thing	nie ścierpimy takiej bezbożności
-src/states/game.lua:2241		thou shalt not shy from risk	nie będziesz unikać ryzyka
-src/states/game.lua:2242		you thought you could get away with this?	myślałaś, że ujdzie ci to na sucho?
-src/states/game.lua:2243		extremely naughty	wyjątkowo niegrzeczna
-src/states/game.lua:2246	dialogue	no downside not allowed	bez wad nie wolno
-src/states/game.lua:2264	dialogue	WHAT	CO
-src/states/game.lua:2286		refilled	uzupełniono
-src/states/game.lua:2313		LAST TURN	OSTATNIA TURA
-src/states/game.lua:2432		- Out Of Dice -	- Brak Kostek -
-src/states/game.lua:2433		never	nigdy
-src/states/game.lua:2435		Looks like you're cooked\n\nGive up?	Wygląda na to, że po tobie\n\nPoddajesz się?
-src/states/game.lua:2585		INSTANT WIPE	NATYCHMIASTOWY WIPE
-src/states/game.lua:2586		${rolled} OUT OF ${rolled} DICE ROLLED BUST	${rolled} Z ${rolled} RZUCONYCH KOSTEK TO BUST
-src/states/game.lua:2603		W I P E	W I P E
-src/states/game.lua:3031		SKIP ${pip}	PRZESKOK ${pip}
-src/states/game.lua:3043		SKIP LOOPED	PRZESKOK ZAWINIĘTY
-src/states/game.lua:3282		Level Complete	Poziom ukończony
-src/states/game.lua:3323		Overshoot! +${amount} stars	Nadwyżka! +${amount} gwiazdek
-src/states/game.lua:3356		Level Coins	Monety za Poziom
-src/states/game.lua:3367		Extra Turn Coins	Monety za Dodatkowe Tury
-src/states/game.lua:3379		Combine Coins	Łączenie Monet
-src/states/game.lua:3396		Wager bonus! +${amount} stars	Bonus za zakład! +${amount} gwiazdek
-src/states/game.lua:3446		--  Level ${number} Complete!  --	--  Poziom ${number} ukończony!  --
-src/states/game.lua:3462		Score:	Wynik:
-src/states/game.lua:3464		Reward:	Nagroda:
-src/states/game.lua:3465		Extra turns:	Dodatkowe tury:
-src/states/game.lua:3466		Wager bonus:	Bonus za zakład:
-src/states/game.lua:3467		Overshoot:	Nadwyżka:
-src/states/game.lua:3469		Total:	Razem:
-src/states/game.lua:3567		don't lose it	nie zgub jej
-src/states/game.lua:3567		Soul on line	Dusza na szali
-src/states/game.lua:3574		¤${BET} wagered	Postawiono ${BET}¤
-src/states/game.lua:3578		¤ Banked	¤ Zbankowane
-src/states/game.lua:3579		Bank ¤${KEPT}?	Zbankować ${KEPT}¤?
-src/states/game.lua:3580		Win To Bank ¤	Wygraj, by zbankować ¤
-src/states/game.lua:3581		Bank ¤ in ${LEVELS} lvl	BANK ¤ za ${LEVELS} poz.
-src/states/game.lua:3595		Secure your Stars for the run\nyou won't be able to gain more this run	Zabezpiecz Gwiazdki z tego podejścia\npotem nie zdobędziesz już kolejnych
-src/states/game.lua:3597		Stars already banked this run	Gwiazdki już zbankowane w tym podejściu
-src/states/game.lua:3599		Securing Stars available after each nightmare level	Zabezpieczanie Gwiazdek dostępne po każdym poziomie koszmaru
-src/states/game.lua:3660 (+7 others)		no	nie
+src/states/game.lua:197		Abandon	Porzuć
+src/states/game.lua:199		Quit to menu and lose all gained stars?	Wyjść do menu i stracić wszystkie zdobyte gwiazdki?
+src/states/game.lua:204		No way out	Nie ma wyjścia
+src/states/game.lua:515		secure the points\nend the turn\nrecharge character power\nclear momentum	zabezpiecz punkty\nzakończ turę\nnaładuj moc postaci\nwyzeruj rozpęd
+src/states/game.lua:620		you must have some points to bank	musisz mieć jakieś punkty, żeby zbankować
+src/states/game.lua:722		momentum: ${amount}	rozpęd: ${amount}
+src/states/game.lua:727		adds extra ${momentum} points and mult	dodaje dodatkowe ${momentum} punktów i mnożnika
+src/states/game.lua:912		Losing all Busts ends the turn.\nBusts refill at the start of each Turn	Utrata wszystkich Bustów kończy turę.\nBusty odnawiają się na początku każdej Tury
+src/states/game.lua:916		Blocks up to ${count} busts, disappears when damaged	Blokuje do ${count} bustów, znika po uszkodzeniu
+src/states/game.lua:935		ALL BUST BLOCKED	WSZYSTKIE BUSTY ZABLOKOWANE
+src/states/game.lua:951		SHIELD OVERLOADED	TARCZA PRZECIĄŻONA
+src/states/game.lua:952		${count} BUSTS BLOCKED	ZABLOKOWANE BUSTY: ${count}
+src/states/game.lua:952		${count} BUST BLOCKED	ZABLOKOWANE BUSTY: ${count}
+src/states/game.lua:1002		wager ${amount} ¤	zakład ${amount} ¤
+src/states/game.lua:1005		${STARS} Stars Unbanked	Niezbankowane gwiazdki: ${STARS}
+src/states/game.lua:1007		bank stars after each nightmare level or win the run to secure them	bankuj gwiazdki po każdym poziomie koszmaru albo wygraj podejście, by je zabezpieczyć
+src/states/game.lua:1088		praying...	modlitwa...
+src/states/game.lua:1088		pray	módl się
+src/states/game.lua:1166		Losing all Turns ends the game.\nTurns refill at the start of each level.	Utrata wszystkich Tur kończy grę.\nTury odnawiają się na początku każdego poziomu.
+src/states/game.lua:1417 (+1 others)		MERGED	POŁĄCZONO
+src/states/game.lua:1890 (+2 others)		Level $level/$count $name	Poziom $level/$count $name
+src/states/game.lua:1942		NIGHTMARE LEVEL	POZIOM KOSZMARU
+src/states/game.lua:2064 (+1 others)		Rift	Przepaść
+src/states/game.lua:2250		this coin is an affront to life itself	ta moneta to obraza dla samego życia
+src/states/game.lua:2251		this die is an affront to life itself	ta kostka to obraza dla samego życia
+src/states/game.lua:2252		we shall not suffer such an unholy thing	nie ścierpimy takiej bezbożności
+src/states/game.lua:2253		thou shalt not shy from risk	nie będziesz unikać ryzyka
+src/states/game.lua:2254		you thought you could get away with this?	myślałaś, że ujdzie ci to na sucho?
+src/states/game.lua:2255		extremely naughty	wyjątkowo niegrzeczna
+src/states/game.lua:2258	dialogue	no downside not allowed	bez wad nie wolno
+src/states/game.lua:2276	dialogue	WHAT	CO
+src/states/game.lua:2298		refilled	uzupełniono
+src/states/game.lua:2325		LAST TURN	OSTATNIA TURA
+src/states/game.lua:2444		- Out Of Dice -	- Brak Kostek -
+src/states/game.lua:2445		never	nigdy
+src/states/game.lua:2447		Looks like you're cooked\n\nGive up?	Wygląda na to, że po tobie\n\nPoddajesz się?
+src/states/game.lua:2597		INSTANT WIPE	NATYCHMIASTOWY WIPE
+src/states/game.lua:2598		${rolled} OUT OF ${rolled} DICE ROLLED BUST	${rolled} Z ${rolled} RZUCONYCH KOSTEK TO BUST
+src/states/game.lua:2615		W I P E	W I P E
+src/states/game.lua:3043		SKIP ${pip}	PRZESKOK ${pip}
+src/states/game.lua:3055		SKIP LOOPED	PRZESKOK ZAWINIĘTY
+src/states/game.lua:3294		Level Complete	Poziom ukończony
+src/states/game.lua:3335		Overshoot! +${amount} stars	Nadwyżka! +${amount} gwiazdek
+src/states/game.lua:3368		Level Coins	Monety za Poziom
+src/states/game.lua:3379		Extra Turn Coins	Monety za Dodatkowe Tury
+src/states/game.lua:3391		Combine Coins	Łączenie Monet
+src/states/game.lua:3408		Wager bonus! +${amount} stars	Bonus za zakład! +${amount} gwiazdek
+src/states/game.lua:3458		--  Level ${number} Complete!  --	--  Poziom ${number} ukończony!  --
+src/states/game.lua:3474		Score:	Wynik:
+src/states/game.lua:3476		Reward:	Nagroda:
+src/states/game.lua:3477		Extra turns:	Dodatkowe tury:
+src/states/game.lua:3478		Wager bonus:	Bonus za zakład:
+src/states/game.lua:3479		Overshoot:	Nadwyżka:
+src/states/game.lua:3481		Total:	Razem:
+src/states/game.lua:3579		don't lose it	nie zgub jej
+src/states/game.lua:3579		Soul on line	Dusza na szali
+src/states/game.lua:3586		¤${BET} wagered	Postawiono ${BET}¤
+src/states/game.lua:3590		¤ Banked	¤ Zbankowane
+src/states/game.lua:3591		Bank ¤${KEPT}?	Zbankować ${KEPT}¤?
+src/states/game.lua:3592		Win To Bank ¤	Wygraj, by zbankować ¤
+src/states/game.lua:3593		Bank ¤ in ${LEVELS} lvl	BANK ¤ za ${LEVELS} poz.
+src/states/game.lua:3607		Secure your Stars for the run\nyou won't be able to gain more this run	Zabezpiecz Gwiazdki z tego podejścia\npotem nie zdobędziesz już kolejnych
+src/states/game.lua:3609		Stars already banked this run	Gwiazdki już zbankowane w tym podejściu
+src/states/game.lua:3611		Securing Stars available after each nightmare level	Zabezpieczanie Gwiazdek dostępne po każdym poziomie koszmaru
+src/states/game.lua:3672 (+7 others)		no	nie
 src/states/game_setup.lua:161		play!	graj!
 src/states/game_setup.lua:164		need ${stars} ¤	potrzeba ${stars} ¤
 src/states/game_setup.lua:197		the young will inherit the earth	młodzi odziedziczą ziemię
@@ -1333,7 +1334,7 @@ src/states/gameover.lua:370		restart	restart
 src/states/gameover.lua:575		Press Circle To Toss	Wciśnij Kółko, by rzucić
 src/states/gameover.lua:575		Press B To Toss	Wciśnij B, by rzucić
 src/states/gameover.lua:575		Right Click To Toss	Kliknij prawym, by rzucić
-src/states/intro.lua:54		This is a game about luck.	To gra o farcie.
+src/states/intro.lua:54 (+1 others)		This is a game about luck.	To gra o farcie.
 src/states/intro.lua:55		This is still a game about luck.	To nadal gra o farcie.
 src/states/intro.lua:56		This is a game about rolling ones, apparently.	Najwyraźniej to gra o wyrzucaniu jedynek.
 src/states/intro.lua:57		Yikes. Still no luck huh?	Auć. Dalej bez farta, co?
@@ -1349,16 +1350,17 @@ src/states/intro.lua:144		Press Circle To Roll	Wciśnij Kółko, by rzucić
 src/states/intro.lua:144		Press B To Roll	Wciśnij B, by rzucić
 src/states/intro.lua:145		Right Click To Roll	Kliknij prawym, by rzucić
 src/states/intro.lua:237		Franek & Max	Franek i Max
-src/states/intro_greed.lua:64		skill	skillu
-src/states/intro_greed.lua:65		talent	talencie
-src/states/intro_greed.lua:66		patience	cierpliwości
-src/states/intro_greed.lua:67		fate	losie
-src/states/intro_greed.lua:68		destiny	przeznaczeniu
+src/states/intro_greed.lua:62		This is a game about greed.	To gra o chciwości.
+src/states/intro_greed.lua:64		This is a game about skill.	To gra o skillu.
+src/states/intro_greed.lua:65		This is a game about talent.	To gra o talencie.
+src/states/intro_greed.lua:66		This is a game about patience.	To gra o cierpliwości.
+src/states/intro_greed.lua:67		This is a game about fate.	To gra o losie.
+src/states/intro_greed.lua:68		This is a game about destiny.	To gra o przeznaczeniu.
+src/states/intro_greed.lua:69		This is a game about God.	To gra o Bogu.
 src/states/intro_greed.lua:80		Roll to gain Stars.	Rzuć, by zdobyć Gwiazdki.
 src/states/intro_greed.lua:81		Roll 1 to lose Stars.	Wyrzuć 1, a stracisz Gwiazdki.
-src/states/intro_greed.lua:110		This is a game about ${reason}.	To gra o ${reason}.
-src/states/intro_greed.lua:152		bank and start	bank i start
-src/states/intro_greed.lua:152		pass and start	pas i start
+src/states/intro_greed.lua:150		bank and start	bank i start
+src/states/intro_greed.lua:150		pass and start	pas i start
 src/states/options.lua:67		keybinds >	klawisze >
 src/states/options.lua:97		Build ID: ${id}	Build ID: ${id}
 src/states/options.lua:110		translator	
@@ -1440,20 +1442,20 @@ src/states/title.lua:464		community chat	czat społeczności
 src/states/title.lua:467 (+1 others)		ost	ost
 src/states/title.lua:468		artists' web	strony artystów
 src/states/unlock.lua:79		representations are still solidifying - physical form is meaningless - you're imagining it	reprezentacje wciąż się krystalizują - fizyczna forma nic nie znaczy - to sobie wyobrażasz
-src/states/unlock.lua:93		Upgrades	Ulepszenia
-src/states/unlock.lua:94		buy upgrades with ¤	kupuj ulepszenia za ¤
-src/states/unlock.lua:112		you have to do something to unlock this :)	musisz coś zrobić, żeby to odblokować :)
-src/states/unlock.lua:114		coming in a future update <3	w przyszłej aktualizacji <3
-src/states/unlock.lua:117		only available in the full game <3	dostępne tylko w pełnej wersji <3
-src/states/unlock.lua:121		debug: 	debug: 
-src/states/unlock.lua:141		playable character	grywalna postać
-src/states/unlock.lua:151		new depths	nowe głębie
-src/states/unlock.lua:190 (+3 others)		SNACK	PRZEKĄSKA
-src/states/unlock.lua:469		feed	nakarm
-src/states/unlock.lua:538 (+1 others)		ban	zbanuj
-src/states/unlock.lua:587		Customise	Personalizuj
-src/states/unlock.lua:946		Tape Worm	Tasiemiec
-src/states/unlock.lua:947		gold in, pink out	złote wchodzą, różowe wychodzą
+src/states/unlock.lua:96 (+3 others)		SNACK	PRZEKĄSKA
+src/states/unlock.lua:163		Upgrades	Ulepszenia
+src/states/unlock.lua:164		buy upgrades with ¤	kupuj ulepszenia za ¤
+src/states/unlock.lua:182		you have to do something to unlock this :)	musisz coś zrobić, żeby to odblokować :)
+src/states/unlock.lua:184		coming in a future update <3	w przyszłej aktualizacji <3
+src/states/unlock.lua:187		only available in the full game <3	dostępne tylko w pełnej wersji <3
+src/states/unlock.lua:191		debug: 	debug: 
+src/states/unlock.lua:211		playable character	grywalna postać
+src/states/unlock.lua:221		new depths	nowe głębie
+src/states/unlock.lua:495		feed	nakarm
+src/states/unlock.lua:564 (+1 others)		ban	zbanuj
+src/states/unlock.lua:613		Customise	Personalizuj
+src/states/unlock.lua:972		Tape Worm	Tasiemiec
+src/states/unlock.lua:973		gold in, pink out	złote wchodzą, różowe wychodzą
 src/sync_scoreboards.lua:14		Most Stars	Najwięcej Gwiazdek
 src/sync_scoreboards.lua:19		stars held	posiadane gwiazdki
 src/sync_scoreboards.lua:27		Highest Level	Najwyższy Poziom
@@ -1471,7 +1473,7 @@ src/sync_scoreboards.lua:100		Biggest Loser	Największy Przegrany
 src/sync_scoreboards.lua:105		death tax	podatek od śmierci
 src/sync_scoreboards.lua:113		The End Any%	Koniec Any%
 src/sync_scoreboards.lua:118		runs	podejścia
-src/sync_scoreboards.lua:142 (+1 others)		luck	fart
+src/sync_scoreboards.lua:142		luck	fart
 src/sync_scoreboards.lua:203 (+1 others)	dialogue	you	ty
 src/ui/character_body.lua:299 (+2 others)	ui	LOCKED	ZABLOKOWANE
 src/ui/combination_table.lua:34 (+1 others)	ui	flush	kolor
@@ -1510,10 +1512,3 @@ src/ui/level_map.lua:174	ui	Nightmare level	Poziom koszmaru
 src/ui/level_map.lua:181		- ${points} pts	- ${points} pkt
 src/ui/state_tabs.lua:5 (+2 others)	ui	unlock	odblokuj
 src/ui/tooltip.lua:82	ui	tip	wskazówka
-src/states/intro_greed.lua:62		This is a game about greed.	To gra o chciwości.
-src/states/intro_greed.lua:64		This is a game about skill.	To gra o skillu.
-src/states/intro_greed.lua:65		This is a game about talent.	To gra o talencie.
-src/states/intro_greed.lua:66		This is a game about patience.	To gra o cierpliwości.
-src/states/intro_greed.lua:67		This is a game about fate.	To gra o losie.
-src/states/intro_greed.lua:68		This is a game about destiny.	To gra o przeznaczeniu.
-src/states/intro_greed.lua:69		This is a game about God.	To gra o Bogu.
