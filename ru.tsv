@@ -243,7 +243,7 @@ src/coloured_text.lua:95 (+12 others)		stuck	липучка
 src/coloured_text.lua:98 (+2 others)		empty	пустота
 src/display_loc.lua:3		Normal	Нормальный
 src/display_loc.lua:4		Pixel	Пиксель
-src/endings/alley.lua:55		fix that shit	
+src/endings/alley.lua:55		fix that shit	починить эту дичь
 src/endings/alley.lua:55		hit that shit	замутить эту дичь
 src/endings/alley.lua:112	dialogue	at least the tooth fairy will come	по крайней мере, зубная фея придёт
 src/endings/alley.lua:113	dialogue	i haven't lost my baby teeth yet	у меня ещё не выпали молочные зубы
@@ -292,7 +292,7 @@ src/endings/party.lua:131	dialogue	Unlock the next Depth from Star Guts for a bi
 src/endings/shirin.lua:136	dialogue	welcome back	с возвращением
 src/endings/shirin.lua:137	dialogue	so you believe	значит, ты веришь
 src/endings/shirin.lua:138	dialogue	i am here	я здесь
-src/endings/tooth_fairy.lua:30		hit the guts	
+src/endings/tooth_fairy.lua:30		hit the guts	замутить кишки
 src/endings/tooth_fairy.lua:88	dialogue	hello friend	привет, подруга
 src/endings/tooth_fairy.lua:89	dialogue	any good finds?	нашла что-нибудь хорошее?
 src/endings/wizard.lua:49		ponder that orb	поразмышлять над шаром
