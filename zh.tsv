@@ -222,7 +222,7 @@ src/coloured_text.lua:14		instant	Instant
 src/coloured_text.lua:16		turn	回合
 src/coloured_text.lua:20		turns	回合
 src/coloured_text.lua:24 (+3 others)		bank	bank
-src/coloured_text.lua:27 (+1 others)		stars	星星
+src/coloured_text.lua:27		stars	星星
 src/coloured_text.lua:31 (+5 others)		points	点数
 src/coloured_text.lua:35 (+9 others)		mult	乘数
 src/coloured_text.lua:39 (+8 others)		bonus	加点
@@ -291,15 +291,16 @@ src/endings/party.lua:131	dialogue	Unlock the next Depth from Star Guts for a bi
 src/endings/shirin.lua:136	dialogue	welcome back	欢迎回来
 src/endings/shirin.lua:137	dialogue	so you believe	所以你相信
 src/endings/shirin.lua:138	dialogue	i am here	吾在此
-src/endings/tooth_fairy.lua:129	dialogue	hello friend	你好我的朋友
-src/endings/tooth_fairy.lua:130	dialogue	any good finds?	淘到好东西了吗？
+src/endings/tooth_fairy.lua:30		hit the guts	
+src/endings/tooth_fairy.lua:88	dialogue	hello friend	你好我的朋友
+src/endings/tooth_fairy.lua:89	dialogue	any good finds?	淘到好东西了吗？
 src/endings/wizard.lua:49		ponder that orb	注视水晶球
-src/endings/wizard.lua:140	dialogue	keep playing with me	继续和我一起玩
-src/endings/wizard.lua:141	dialogue	and you will see	你会明白
-src/endings/wizard.lua:142	dialogue	one day you will not get out	总有一天你会出不去的
-src/endings/wizard.lua:143	dialogue	you are nothing	你什么都不是
-src/endings/wizard.lua:144	dialogue	your spells suck	你的咒语烂透了
-src/endings/wizard.lua:145	dialogue	your hat stinks	你的帽子好丑
+src/endings/wizard.lua:141	dialogue	keep playing with me	继续和我一起玩
+src/endings/wizard.lua:142	dialogue	and you will see	你会明白
+src/endings/wizard.lua:143	dialogue	one day you will not get out	总有一天你会出不去的
+src/endings/wizard.lua:144	dialogue	you are nothing	你什么都不是
+src/endings/wizard.lua:145	dialogue	your spells suck	你的咒语烂透了
+src/endings/wizard.lua:146	dialogue	your hat stinks	你的帽子好丑
 src/entities/buttons_clump.lua:128		Scoring adds points and clears all dice in the combo	计分会增加分数并清空组合中的所有骰子
 src/entities/buttons_clump.lua:130		Select All	全部选中
 src/entities/buttons_clump.lua:131		Select your dice to score them or roll them	选中所有骰子以计分或投掷
@@ -361,17 +362,17 @@ src/entities/item.lua:513		drag snacks over rolled dice	拖住零食悬于已投
 src/entities/power_ui.lua:97	ui	Use	使用
 src/entities/power_ui.lua:130	ui	Power recharges each turn\nSelect a die with Left Click then press this button to use it	能力值每回合充满\n左键选中骰子，然后点击此按钮以使用。
 src/entities/shop.lua:82		TAB: ${total} ¥	一共: ${total} ¥
-src/entities/shop.lua:115		Dice $count/$limit	骰子 $count/$limit
-src/entities/shop.lua:142		Trinkets $count/$limit	玩意儿 $count/$limit
-src/entities/shop.lua:169		Actives $count/$limit	主动 $count/$limit
-src/entities/shop.lua:1264		cant sell eternal	没法卖永恒物品
-src/entities/shop.lua:1276		sell cursed	卖出诅咒物品
-src/entities/shop.lua:1288		too many dice	太多骰子
-src/entities/shop.lua:1300		too many trinkets	太多玩意儿
-src/entities/shop.lua:1314		pay up	结账
-src/entities/shop.lua:1314		take change	找零
-src/entities/shop.lua:1386		bye	溜
-src/entities/shop.lua:1434		Reroll - ${current_cost}¥	刷新 - ${current_cost}¥
+src/entities/shop.lua:107		Dice $count/$limit	骰子 $count/$limit
+src/entities/shop.lua:136		Trinkets $count/$limit	玩意儿 $count/$limit
+src/entities/shop.lua:165		Actives $count/$limit	主动 $count/$limit
+src/entities/shop.lua:1283		cant sell eternal	没法卖永恒物品
+src/entities/shop.lua:1295		sell cursed	卖出诅咒物品
+src/entities/shop.lua:1307		too many dice	太多骰子
+src/entities/shop.lua:1319		too many trinkets	太多玩意儿
+src/entities/shop.lua:1333		pay up	结账
+src/entities/shop.lua:1333		take change	找零
+src/entities/shop.lua:1405		bye	溜
+src/entities/shop.lua:1453		Reroll - ${current_cost}¥	刷新 - ${current_cost}¥
 src/entities/tape.lua:453		- web	- 网
 src/entities/title_text.lua:3		DICE HAVE\nNO EYES	骰子\n不长眼
 src/entities/title_text.lua:5		DICE HAVE\nNÕ EYES	骰子\n不长眼
@@ -1156,7 +1157,7 @@ src/states/credits.lua:43		Created by	创作者
 src/states/credits.lua:49		Translation	翻译
 src/states/credits.lua:56		Special Thanks	特别鸣谢
 src/states/credits.lua:60		The Dice	骰子们
-src/states/credits.lua:61 (+1 others)		God	神
+src/states/credits.lua:61		God	神
 src/states/credits.lua:65		And you!	还有你！
 src/states/credits.lua:66		Thanks for playing! <3	感谢游玩！<3
 src/states/customisation.lua:167		Nothing Available	无选项
@@ -1172,9 +1173,9 @@ src/states/customisation.lua:454		stretch	拉伸
 src/states/customisation.lua:454		squash	压缩
 src/states/customisation.lua:461		Dye	染色
 src/states/customisation.lua:462		recolour	重新上色
-src/states/ending.lua:244 (+7 others)		hit that shit?	来一口？
-src/states/ending.lua:302 (+4 others)		play	开玩
-src/states/ending.lua:486 (+4 others)		done	完成
+src/states/ending.lua:244 (+6 others)		hit that shit?	来一口？
+src/states/ending.lua:303 (+4 others)		play	开玩
+src/states/ending.lua:490 (+4 others)		done	完成
 src/states/ending_bet.lua:59 (+1 others)		--  Run Summary  --	— 游戏总结 —
 src/states/ending_bet.lua:73 (+1 others)		Level reached:	到达关卡：
 src/states/ending_bet.lua:74 (+1 others)		Points scored:	总积分：
@@ -1333,7 +1334,7 @@ src/states/gameover.lua:370		restart	重新开始
 src/states/gameover.lua:575		Press Circle To Toss	按圆圈以抛出
 src/states/gameover.lua:575		Press B To Toss	按B以抛出
 src/states/gameover.lua:575		Right Click To Toss	鼠标右键以抛出
-src/states/intro.lua:54		This is a game about luck.	这是一个关于运气的游戏。
+src/states/intro.lua:54 (+1 others)		This is a game about luck.	这是一个关于运气的游戏。
 src/states/intro.lua:55		This is still a game about luck.	这依然是一个关于运气的游戏。
 src/states/intro.lua:56		This is a game about rolling ones, apparently.	看来，这是一个关于投出1的游戏。
 src/states/intro.lua:57		Yikes. Still no luck huh?	这都没戏？真有你的。
@@ -1349,16 +1350,17 @@ src/states/intro.lua:144		Press Circle To Roll	按圆圈以投出
 src/states/intro.lua:144		Press B To Roll	按B以投出
 src/states/intro.lua:145		Right Click To Roll	鼠标右键以投出
 src/states/intro.lua:237		Franek & Max	Franek & Max
-src/states/intro_greed.lua:64		skill	技巧
-src/states/intro_greed.lua:65		talent	天分
-src/states/intro_greed.lua:66		patience	耐心
-src/states/intro_greed.lua:67		fate	命运
-src/states/intro_greed.lua:68		destiny	天命
+src/states/intro_greed.lua:62		This is a game about greed.	这是一个关于贪欲的游戏。
+src/states/intro_greed.lua:64		This is a game about skill.	这是一个关于技巧的游戏。
+src/states/intro_greed.lua:65		This is a game about talent.	这是一个关于天分的游戏。
+src/states/intro_greed.lua:66		This is a game about patience.	这是一个关于耐心的游戏。
+src/states/intro_greed.lua:67		This is a game about fate.	这是一个关于命运的游戏。
+src/states/intro_greed.lua:68		This is a game about destiny.	这是一个关于天命的游戏。
+src/states/intro_greed.lua:69		This is a game about God.	这是一个关于神的游戏。
 src/states/intro_greed.lua:80		Roll to gain Stars.	投掷以获得星星。
 src/states/intro_greed.lua:81		Roll 1 to lose Stars.	投出1以失去星星。
-src/states/intro_greed.lua:110		This is a game about ${reason}.	这是一个关于${reason}的游戏。
-src/states/intro_greed.lua:152		bank and start	收获并开始
-src/states/intro_greed.lua:152		pass and start	跳过并开始
+src/states/intro_greed.lua:150		bank and start	收获并开始
+src/states/intro_greed.lua:150		pass and start	跳过并开始
 src/states/options.lua:67		keybinds >	键位绑定 >
 src/states/options.lua:97		Build ID: ${id}	Build ID: ${id}
 src/states/options.lua:110		translator	
@@ -1440,20 +1442,20 @@ src/states/title.lua:464		community chat	社区板块
 src/states/title.lua:467 (+1 others)		ost	ost
 src/states/title.lua:468		artists' web	创作者网站
 src/states/unlock.lua:79		representations are still solidifying - physical form is meaningless - you're imagining it	形象仍在固化 - 物理形态无意义 - 一切只是你的想象
-src/states/unlock.lua:93		Upgrades	拓展
-src/states/unlock.lua:94		buy upgrades with ¤	用 ¤ 购买拓展
-src/states/unlock.lua:112		you have to do something to unlock this :)	你得先干点什么才能解锁这个 :)
-src/states/unlock.lua:114		coming in a future update <3	敬请期待后续更新 <3
-src/states/unlock.lua:117		only available in the full game <3	在完整游戏中解锁 <3
-src/states/unlock.lua:121		debug: 	debug:
-src/states/unlock.lua:141		playable character	可游玩角色
-src/states/unlock.lua:151		new depths	新的挑战模式
-src/states/unlock.lua:190 (+3 others)		SNACK	零食
-src/states/unlock.lua:469		feed	喂食
-src/states/unlock.lua:538 (+1 others)		ban	ban
-src/states/unlock.lua:587		Customise	个性化
-src/states/unlock.lua:946		Tape Worm	绦虫
-src/states/unlock.lua:947		gold in, pink out	金色进，粉色出
+src/states/unlock.lua:96 (+3 others)		SNACK	零食
+src/states/unlock.lua:163		Upgrades	拓展
+src/states/unlock.lua:164		buy upgrades with ¤	用 ¤ 购买拓展
+src/states/unlock.lua:182		you have to do something to unlock this :)	你得先干点什么才能解锁这个 :)
+src/states/unlock.lua:184		coming in a future update <3	敬请期待后续更新 <3
+src/states/unlock.lua:187		only available in the full game <3	在完整游戏中解锁 <3
+src/states/unlock.lua:191		debug: 	debug:
+src/states/unlock.lua:211		playable character	可游玩角色
+src/states/unlock.lua:221		new depths	新的挑战模式
+src/states/unlock.lua:495		feed	喂食
+src/states/unlock.lua:564 (+1 others)		ban	ban
+src/states/unlock.lua:613		Customise	个性化
+src/states/unlock.lua:972		Tape Worm	绦虫
+src/states/unlock.lua:973		gold in, pink out	金色进，粉色出
 src/sync_scoreboards.lua:14		Most Stars	星星总量
 src/sync_scoreboards.lua:19		stars held	拥有星星
 src/sync_scoreboards.lua:27		Highest Level	最高关卡
@@ -1471,7 +1473,7 @@ src/sync_scoreboards.lua:100		Biggest Loser	最大输家
 src/sync_scoreboards.lua:105		death tax	死亡亏损
 src/sync_scoreboards.lua:113		The End Any%	终点 Any%
 src/sync_scoreboards.lua:118		runs	游玩次数
-src/sync_scoreboards.lua:142 (+1 others)		luck	运气
+src/sync_scoreboards.lua:142		luck	运气
 src/sync_scoreboards.lua:203 (+1 others)	dialogue	you	你
 src/ui/character_body.lua:299 (+2 others)	ui	LOCKED	未解锁
 src/ui/combination_table.lua:34 (+1 others)	ui	flush	同花
@@ -1510,11 +1512,3 @@ src/ui/level_map.lua:174	ui	Nightmare level	噩梦关卡
 src/ui/level_map.lua:181		- ${points} pts	- ${points}分
 src/ui/state_tabs.lua:5 (+2 others)	ui	unlock	解锁
 src/ui/tooltip.lua:82	ui	tip	提示
-src/states/intro_greed.lua:62		This is a game about greed.	这是一个关于贪欲的游戏。
-src/states/intro_greed.lua:64		This is a game about skill.	这是一个关于技巧的游戏。
-src/states/intro_greed.lua:65		This is a game about talent.	这是一个关于天分的游戏。
-src/states/intro_greed.lua:66		This is a game about patience.	这是一个关于耐心的游戏。
-src/states/intro_greed.lua:67		This is a game about fate.	这是一个关于命运的游戏。
-src/states/intro_greed.lua:68		This is a game about destiny.	这是一个关于天命的游戏。
-src/states/intro_greed.lua:69		This is a game about God.	这是一个关于神的游戏。
-src/endings/tooth_fairy.lua:30		hit the guts	
