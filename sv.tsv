@@ -222,7 +222,7 @@ src/coloured_text.lua:14		instant	omedelbart
 src/coloured_text.lua:16		turn	runda
 src/coloured_text.lua:20		turns	rundor
 src/coloured_text.lua:24 (+3 others)		bank	säkra
-src/coloured_text.lua:27 (+1 others)		stars	stjärnor
+src/coloured_text.lua:27		stars	stjärnor
 src/coloured_text.lua:31 (+5 others)		points	poäng
 src/coloured_text.lua:35 (+9 others)		mult	multi
 src/coloured_text.lua:39 (+8 others)		bonus	bonus
@@ -291,15 +291,16 @@ src/endings/party.lua:131	dialogue	Unlock the next Depth from Star Guts for a bi
 src/endings/shirin.lua:136	dialogue	welcome back	välkommen tillbaka
 src/endings/shirin.lua:137	dialogue	so you believe	så du tror
 src/endings/shirin.lua:138	dialogue	i am here	jag är här
-src/endings/tooth_fairy.lua:129	dialogue	hello friend	hej, vännen
-src/endings/tooth_fairy.lua:130	dialogue	any good finds?	några bra fynd?
+src/endings/tooth_fairy.lua:30		hit the guts	
+src/endings/tooth_fairy.lua:88	dialogue	hello friend	hej, vännen
+src/endings/tooth_fairy.lua:89	dialogue	any good finds?	några bra fynd?
 src/endings/wizard.lua:49		ponder that orb	begrunda det där klotet
-src/endings/wizard.lua:140	dialogue	keep playing with me	fortsätt spela med mig
-src/endings/wizard.lua:141	dialogue	and you will see	så ska du få se
-src/endings/wizard.lua:142	dialogue	one day you will not get out	en dag kommer du inte ut
-src/endings/wizard.lua:143	dialogue	you are nothing	du är ingenting
-src/endings/wizard.lua:144	dialogue	your spells suck	dina trollformler suger
-src/endings/wizard.lua:145	dialogue	your hat stinks	din hatt stinker
+src/endings/wizard.lua:141	dialogue	keep playing with me	fortsätt spela med mig
+src/endings/wizard.lua:142	dialogue	and you will see	så ska du få se
+src/endings/wizard.lua:143	dialogue	one day you will not get out	en dag kommer du inte ut
+src/endings/wizard.lua:144	dialogue	you are nothing	du är ingenting
+src/endings/wizard.lua:145	dialogue	your spells suck	dina trollformler suger
+src/endings/wizard.lua:146	dialogue	your hat stinks	din hatt stinker
 src/entities/buttons_clump.lua:128		Scoring adds points and clears all dice in the combo	Att ta poäng ger dig poäng och tar bort alla tärningar i kombinationen
 src/entities/buttons_clump.lua:130		Select All	Markera alla
 src/entities/buttons_clump.lua:131		Select your dice to score them or roll them	Markera dina tärningar för att ta poäng eller kasta dem
@@ -361,17 +362,17 @@ src/entities/item.lua:513		drag snacks over rolled dice	dra snacks över kastade
 src/entities/power_ui.lua:97	ui	Use	Använd
 src/entities/power_ui.lua:130	ui	Power recharges each turn\nSelect a die with Left Click then press this button to use it	Kraft laddas varje runda\nMarkera en tärning med vänsterklick och tryck sedan på den här knappen för att använda kraften
 src/entities/shop.lua:82		TAB: ${total} ¥	NOTA: ${total} ¥
-src/entities/shop.lua:115		Dice $count/$limit	Tärningar $count/$limit
-src/entities/shop.lua:142		Trinkets $count/$limit	Krimskrams $count/$limit
-src/entities/shop.lua:169		Actives $count/$limit	Aktiva föremål $count/$limit
-src/entities/shop.lua:1264		cant sell eternal	kan inte sälja eviga föremål
-src/entities/shop.lua:1276		sell cursed	sälj förhäxade föremål
-src/entities/shop.lua:1288		too many dice	för många tärningar
-src/entities/shop.lua:1300		too many trinkets	för mycket krimskrams
-src/entities/shop.lua:1314		pay up	betala
-src/entities/shop.lua:1314		take change	ta växeln
-src/entities/shop.lua:1386		bye	hej då
-src/entities/shop.lua:1434		Reroll - ${current_cost}¥	Kasta om - ${current_cost}¥
+src/entities/shop.lua:107		Dice $count/$limit	Tärningar $count/$limit
+src/entities/shop.lua:136		Trinkets $count/$limit	Krimskrams $count/$limit
+src/entities/shop.lua:165		Actives $count/$limit	Aktiva föremål $count/$limit
+src/entities/shop.lua:1283		cant sell eternal	kan inte sälja eviga föremål
+src/entities/shop.lua:1295		sell cursed	sälj förhäxade föremål
+src/entities/shop.lua:1307		too many dice	för många tärningar
+src/entities/shop.lua:1319		too many trinkets	för mycket krimskrams
+src/entities/shop.lua:1333		pay up	betala
+src/entities/shop.lua:1333		take change	ta växeln
+src/entities/shop.lua:1405		bye	hej då
+src/entities/shop.lua:1453		Reroll - ${current_cost}¥	Kasta om - ${current_cost}¥
 src/entities/tape.lua:453		- web	- webb
 src/entities/title_text.lua:3		DICE HAVE\nNO EYES	TÄRNINGAR HAR\nINGA ÖGON
 src/entities/title_text.lua:5		DICE HAVE\nNÕ EYES	TÄRNINGAR HAR\nINGA ÕGON
@@ -1156,7 +1157,7 @@ src/states/credits.lua:43		Created by	Skapat av
 src/states/credits.lua:49		Translation	Översättning
 src/states/credits.lua:56		Special Thanks	Särskilt tack
 src/states/credits.lua:60		The Dice	Tärningarna
-src/states/credits.lua:61 (+1 others)		God	Gud
+src/states/credits.lua:61		God	Gud
 src/states/credits.lua:65		And you!	Och dig!
 src/states/credits.lua:66		Thanks for playing! <3	Tack för att du spelade! <3
 src/states/customisation.lua:167		Nothing Available	Inget tillgängligt
@@ -1172,9 +1173,9 @@ src/states/customisation.lua:454		stretch	sträck
 src/states/customisation.lua:454		squash	tryck ihop
 src/states/customisation.lua:461		Dye	Färg
 src/states/customisation.lua:462		recolour	färga om
-src/states/ending.lua:244 (+7 others)		hit that shit?	ska vi köra skiten?
-src/states/ending.lua:302 (+4 others)		play	spela
-src/states/ending.lua:486 (+4 others)		done	klar
+src/states/ending.lua:244 (+6 others)		hit that shit?	ska vi köra skiten?
+src/states/ending.lua:303 (+4 others)		play	spela
+src/states/ending.lua:490 (+4 others)		done	klar
 src/states/ending_bet.lua:59 (+1 others)		--  Run Summary  --	--  Omgångssammanfattning  --
 src/states/ending_bet.lua:73 (+1 others)		Level reached:	Nådd nivå:
 src/states/ending_bet.lua:74 (+1 others)		Points scored:	Tagna poäng:
@@ -1222,7 +1223,7 @@ src/states/ending_finale.lua:158	dialogue	you are brave	du är modig
 src/states/ending_finale.lua:159	dialogue	you are worthy	du är värdig
 src/states/ending_finale.lua:161	dialogue	i will offer you one final wager	jag erbjuder dig ett sista vad
 src/states/ending_finale.lua:167	dialogue	heads: you're free	krona: du är fri
-src/states/ending_finale.lua:174	dialogue	tails: i will personally destroy all the files i can access on this device	klave: jag förstör personligen alla filer jag kommer åt på den här enheten
+src/states/ending_finale.lua:174	dialogue	tails: i will personally destroy all your files one by one	
 src/states/ending_finale.lua:190	dialogue	do it, all in	gör det, allt på spel
 src/states/ending_finale.lua:192		flick it like you mean it	knäpp till ordentligt
 src/states/ending_finale.lua:192		this is real	det här är på riktigt
@@ -1241,74 +1242,73 @@ src/states/game.lua:171 (+1 others)		Cannot Restart Wager Runs	Kan inte starta o
 src/states/game.lua:174		Restart	Starta om
 src/states/game.lua:176		Restart the run from scratch\nand lose all gained stars?	Starta om spelomgången från början\noch förlora alla intjänade stjärnor?
 src/states/game.lua:182 (+3 others)		Options	Inställningar
-src/states/game.lua:190		Save Run	Spara spelomgång
+src/states/game.lua:190		Save and Quit	
 src/states/game.lua:191		(Cant Save Right Now)	(Kan inte spara just nu)
-src/states/game.lua:194		Quit to menu and save run for later?	Gå till menyn och spara spelomgången till senare?
-src/states/game.lua:202		Abandon	Ge upp
-src/states/game.lua:204		Quit to menu and lose all gained stars?	Gå till menyn och förlora alla intjänade stjärnor?
-src/states/game.lua:209		No way out	Ingen utväg
-src/states/game.lua:514		secure the points\nend the turn\nrecharge character power\nclear momentum	säkra poängen\navsluta rundan\nladda karaktärens kraft\nnollställ flytet
-src/states/game.lua:619		you must have some points to bank	du måste ha poäng för att säkra dem
-src/states/game.lua:721		momentum: ${amount}	flyt: ${amount}
-src/states/game.lua:726		adds extra ${momentum} points and mult	ger ${momentum} extra poäng och multi
-src/states/game.lua:911		Losing all Busts ends the turn.\nBusts refill at the start of each Turn	När alla nitar är slut avslutas rundan.\nNitar fylls på i början av varje runda
-src/states/game.lua:915		Blocks up to ${count} busts, disappears when damaged	Blockerar upp till ${count} nitar, försvinner vid skada
-src/states/game.lua:934		ALL BUST BLOCKED	ALLA NITAR BLOCKERADE
-src/states/game.lua:950		SHIELD OVERLOADED	SKÖLD ÖVERBELASTAD
-src/states/game.lua:951		${count} BUSTS BLOCKED	${count} NITAR BLOCKERADE
-src/states/game.lua:951		${count} BUST BLOCKED	${count} NIT BLOCKERAD
-src/states/game.lua:1001		wager ${amount} ¤	satsning ${amount} ¤
-src/states/game.lua:1004		${STARS} Stars Unbanked	${STARS} osäkrade stjärnor
-src/states/game.lua:1006		bank stars after each nightmare level or win the run to secure them	säkra stjärnor efter varje mardrömsnivå eller vinn spelomgången för att behålla dem
-src/states/game.lua:1076		praying...	ber...
-src/states/game.lua:1076		pray	be
-src/states/game.lua:1154		Losing all Turns ends the game.\nTurns refill at the start of each level.	När alla rundor är slut är spelet över.\nRundor fylls på i början av varje nivå.
-src/states/game.lua:1405 (+1 others)		MERGED	SAMMANSLAGET
-src/states/game.lua:1878 (+2 others)		Level $level/$count $name	Nivå $level/$count $name
-src/states/game.lua:1930		NIGHTMARE LEVEL	MARDRÖMSNIVÅ
-src/states/game.lua:2052 (+1 others)		Rift	Reva
-src/states/game.lua:2238		this coin is an affront to life itself	detta mynt är en skymf mot livet självt
-src/states/game.lua:2239		this die is an affront to life itself	denna tärning är en skymf mot livet självt
-src/states/game.lua:2240		we shall not suffer such an unholy thing	vi skall inte tåla något så oheligt
-src/states/game.lua:2241		thou shalt not shy from risk	du skall inte rygga för risker
-src/states/game.lua:2242		you thought you could get away with this?	trodde du att du skulle komma undan med det här?
-src/states/game.lua:2243		extremely naughty	oerhört olydigt
-src/states/game.lua:2246	dialogue	no downside not allowed	inga nackdelar är inte tillåtet
-src/states/game.lua:2264	dialogue	WHAT	VA
-src/states/game.lua:2286		refilled	påfyllt
-src/states/game.lua:2313		LAST TURN	SISTA RUNDAN
-src/states/game.lua:2432		- Out Of Dice -	- Slut på tärningar -
-src/states/game.lua:2433		never	aldrig
-src/states/game.lua:2435		Looks like you're cooked\n\nGive up?	Det ser kört för dig\n\nGe upp?
-src/states/game.lua:2585		INSTANT WIPE	DIREKT BOM
-src/states/game.lua:2586		${rolled} OUT OF ${rolled} DICE ROLLED BUST	${rolled} AV ${rolled} TÄRNINGAR SLOG NIT
-src/states/game.lua:2603		W I P E	B O M
-src/states/game.lua:3031		SKIP ${pip}	SKIPPA ${pip}
-src/states/game.lua:3043		SKIP LOOPED	SKIPPA GICK RUNT
-src/states/game.lua:3282		Level Complete	Nivå avklarad
-src/states/game.lua:3323		Overshoot! +${amount} stars	
-src/states/game.lua:3356		Level Coins	Nivåmynt
-src/states/game.lua:3367		Extra Turn Coins	Mynt för extra rundor
-src/states/game.lua:3379		Combine Coins	Kombinationsmynt
-src/states/game.lua:3396		Wager bonus! +${amount} stars	Satsningsbonus! +${amount} stjärnor
-src/states/game.lua:3446		--  Level ${number} Complete!  --	--  Nivå ${number} avklarad!  --
-src/states/game.lua:3462		Score:	Poäng:
-src/states/game.lua:3464		Reward:	Belöning:
-src/states/game.lua:3465		Extra turns:	Extra rundor:
-src/states/game.lua:3466		Wager bonus:	Satsningsbonus:
-src/states/game.lua:3467		Overshoot:	Överskott:
-src/states/game.lua:3469		Total:	Totalt:
-src/states/game.lua:3567		don't lose it	tappa inte bort den
-src/states/game.lua:3567		Soul on line	Själen på spel
-src/states/game.lua:3574		¤${BET} wagered	¤${BET} satsade
-src/states/game.lua:3578		¤ Banked	¤ säkrade
-src/states/game.lua:3579		Bank ¤${KEPT}?	Säkra ¤${KEPT}?
-src/states/game.lua:3580		Win To Bank ¤	Vinn för att säkra ¤
-src/states/game.lua:3581		Bank ¤ in ${LEVELS} lvl	Säkra ¤ om ${LEVELS} nivåer
-src/states/game.lua:3595		Secure your Stars for the run\nyou won't be able to gain more this run	Säkra dina stjärnor för spelomgången\ndu kan inte tjäna fler under denna spelomgång
-src/states/game.lua:3597		Stars already banked this run	Stjärnorna är redan säkrade denna spelomgång
-src/states/game.lua:3599		Securing Stars available after each nightmare level	Du kan säkra stjärnor efter varje mardrömsnivå
-src/states/game.lua:3660 (+7 others)		no	nej
+src/states/game.lua:197		Abandon	Ge upp
+src/states/game.lua:199		Quit to menu and lose all gained stars?	Gå till menyn och förlora alla intjänade stjärnor?
+src/states/game.lua:204		No way out	Ingen utväg
+src/states/game.lua:511		secure the points\nend the turn\nrecharge character power\nclear momentum	säkra poängen\navsluta rundan\nladda karaktärens kraft\nnollställ flytet
+src/states/game.lua:616		you must have some points to bank	du måste ha poäng för att säkra dem
+src/states/game.lua:718		momentum: ${amount}	flyt: ${amount}
+src/states/game.lua:723		adds extra ${momentum} points and mult	ger ${momentum} extra poäng och multi
+src/states/game.lua:908		Losing all Busts ends the turn.\nBusts refill at the start of each Turn	När alla nitar är slut avslutas rundan.\nNitar fylls på i början av varje runda
+src/states/game.lua:912		Blocks up to ${count} busts, disappears when damaged	Blockerar upp till ${count} nitar, försvinner vid skada
+src/states/game.lua:931		ALL BUST BLOCKED	ALLA NITAR BLOCKERADE
+src/states/game.lua:947		SHIELD OVERLOADED	SKÖLD ÖVERBELASTAD
+src/states/game.lua:948		${count} BUSTS BLOCKED	${count} NITAR BLOCKERADE
+src/states/game.lua:948		${count} BUST BLOCKED	${count} NIT BLOCKERAD
+src/states/game.lua:998		wager ${amount} ¤	satsning ${amount} ¤
+src/states/game.lua:1001		${STARS} Stars Unbanked	${STARS} osäkrade stjärnor
+src/states/game.lua:1003		bank stars after each nightmare level or win the run to secure them	säkra stjärnor efter varje mardrömsnivå eller vinn spelomgången för att behålla dem
+src/states/game.lua:1073		praying...	ber...
+src/states/game.lua:1073		pray	be
+src/states/game.lua:1151		Losing all Turns ends the game.\nTurns refill at the start of each level.	När alla rundor är slut är spelet över.\nRundor fylls på i början av varje nivå.
+src/states/game.lua:1402 (+1 others)		MERGED	SAMMANSLAGET
+src/states/game.lua:1875 (+2 others)		Level $level/$count $name	Nivå $level/$count $name
+src/states/game.lua:1927		NIGHTMARE LEVEL	MARDRÖMSNIVÅ
+src/states/game.lua:2049 (+1 others)		Rift	Reva
+src/states/game.lua:2235		this coin is an affront to life itself	detta mynt är en skymf mot livet självt
+src/states/game.lua:2236		this die is an affront to life itself	denna tärning är en skymf mot livet självt
+src/states/game.lua:2237		we shall not suffer such an unholy thing	vi skall inte tåla något så oheligt
+src/states/game.lua:2238		thou shalt not shy from risk	du skall inte rygga för risker
+src/states/game.lua:2239		you thought you could get away with this?	trodde du att du skulle komma undan med det här?
+src/states/game.lua:2240		extremely naughty	oerhört olydigt
+src/states/game.lua:2243	dialogue	no downside not allowed	inga nackdelar är inte tillåtet
+src/states/game.lua:2261	dialogue	WHAT	VA
+src/states/game.lua:2283		refilled	påfyllt
+src/states/game.lua:2310		LAST TURN	SISTA RUNDAN
+src/states/game.lua:2429		- Out Of Dice -	- Slut på tärningar -
+src/states/game.lua:2430		never	aldrig
+src/states/game.lua:2432		Looks like you're cooked\n\nGive up?	Det ser kört för dig\n\nGe upp?
+src/states/game.lua:2582		INSTANT WIPE	DIREKT BOM
+src/states/game.lua:2583		${rolled} OUT OF ${rolled} DICE ROLLED BUST	${rolled} AV ${rolled} TÄRNINGAR SLOG NIT
+src/states/game.lua:2600		W I P E	B O M
+src/states/game.lua:3028		SKIP ${pip}	SKIPPA ${pip}
+src/states/game.lua:3040		SKIP LOOPED	SKIPPA GICK RUNT
+src/states/game.lua:3279		Level Complete	Nivå avklarad
+src/states/game.lua:3320		Overshoot! +${amount} stars	
+src/states/game.lua:3353		Level Coins	Nivåmynt
+src/states/game.lua:3364		Extra Turn Coins	Mynt för extra rundor
+src/states/game.lua:3376		Combine Coins	Kombinationsmynt
+src/states/game.lua:3393		Wager bonus! +${amount} stars	Satsningsbonus! +${amount} stjärnor
+src/states/game.lua:3443		--  Level ${number} Complete!  --	--  Nivå ${number} avklarad!  --
+src/states/game.lua:3459		Score:	Poäng:
+src/states/game.lua:3461		Reward:	Belöning:
+src/states/game.lua:3462		Extra turns:	Extra rundor:
+src/states/game.lua:3463		Wager bonus:	Satsningsbonus:
+src/states/game.lua:3464		Overshoot:	Överskott:
+src/states/game.lua:3466		Total:	Totalt:
+src/states/game.lua:3564		don't lose it	tappa inte bort den
+src/states/game.lua:3564		Soul on line	Själen på spel
+src/states/game.lua:3571		¤${BET} wagered	¤${BET} satsade
+src/states/game.lua:3575		¤ Banked	¤ säkrade
+src/states/game.lua:3576		Bank ¤${KEPT}?	Säkra ¤${KEPT}?
+src/states/game.lua:3577		Win To Bank ¤	Vinn för att säkra ¤
+src/states/game.lua:3578		Bank ¤ in ${LEVELS} lvl	Säkra ¤ om ${LEVELS} nivåer
+src/states/game.lua:3592		Secure your Stars for the run\nyou won't be able to gain more this run	Säkra dina stjärnor för spelomgången\ndu kan inte tjäna fler under denna spelomgång
+src/states/game.lua:3594		Stars already banked this run	Stjärnorna är redan säkrade denna spelomgång
+src/states/game.lua:3596		Securing Stars available after each nightmare level	Du kan säkra stjärnor efter varje mardrömsnivå
+src/states/game.lua:3657 (+7 others)		no	nej
 src/states/game_setup.lua:161		play!	spela!
 src/states/game_setup.lua:164		need ${stars} ¤	behöver ${stars} ¤
 src/states/game_setup.lua:197		the young will inherit the earth	de unga skall ärva jorden
@@ -1333,7 +1333,7 @@ src/states/gameover.lua:370		restart	starta om
 src/states/gameover.lua:575		Press Circle To Toss	Tryck på cirkel för att singla
 src/states/gameover.lua:575		Press B To Toss	Tryck på B för att singla
 src/states/gameover.lua:575		Right Click To Toss	Högerklicka för att singla
-src/states/intro.lua:54		This is a game about luck.	Det här är ett spel om tur.
+src/states/intro.lua:54 (+1 others)		This is a game about luck.	Det här är ett spel om tur.
 src/states/intro.lua:55		This is still a game about luck.	Det här är fortfarande ett spel om tur.
 src/states/intro.lua:56		This is a game about rolling ones, apparently.	Det här är tydligen ett spel om att slå ettor.
 src/states/intro.lua:57		Yikes. Still no luck huh?	Aj då. Fortfarande ingen tur, va?
@@ -1349,16 +1349,17 @@ src/states/intro.lua:144		Press Circle To Roll	Tryck på cirkel för att kasta
 src/states/intro.lua:144		Press B To Roll	Tryck på B för att kasta
 src/states/intro.lua:145		Right Click To Roll	Högerklicka för att kasta
 src/states/intro.lua:237		Franek & Max	Franek & Max
-src/states/intro_greed.lua:64		skill	skicklighet
-src/states/intro_greed.lua:65		talent	talang
-src/states/intro_greed.lua:66		patience	tålamod
-src/states/intro_greed.lua:67		fate	öde
-src/states/intro_greed.lua:68		destiny	bestämmelse
+src/states/intro_greed.lua:62		This is a game about greed.	Det här är ett spel om girighet.
+src/states/intro_greed.lua:64		This is a game about skill.	Det här är ett spel om skicklighet.
+src/states/intro_greed.lua:65		This is a game about talent.	Det här är ett spel om talang.
+src/states/intro_greed.lua:66		This is a game about patience.	Det här är ett spel om tålamod.
+src/states/intro_greed.lua:67		This is a game about fate.	Det här är ett spel om öde.
+src/states/intro_greed.lua:68		This is a game about destiny.	Det här är ett spel om bestämmelse.
+src/states/intro_greed.lua:69		This is a game about God.	Det här är ett spel om Gud.
 src/states/intro_greed.lua:80		Roll to gain Stars.	Kasta för att få stjärnor.
 src/states/intro_greed.lua:81		Roll 1 to lose Stars.	Slå 1 för att förlora stjärnor.
-src/states/intro_greed.lua:110		This is a game about ${reason}.	Det här är ett spel om ${reason}.
-src/states/intro_greed.lua:152		bank and start	säkra och börja
-src/states/intro_greed.lua:152		pass and start	avstå och börja
+src/states/intro_greed.lua:150		bank and start	säkra och börja
+src/states/intro_greed.lua:150		pass and start	avstå och börja
 src/states/options.lua:67		keybinds >	tangentbindningar >
 src/states/options.lua:97		Build ID: ${id}	Versions-ID: ${id}
 src/states/options.lua:110		translator	
@@ -1440,20 +1441,20 @@ src/states/title.lua:464		community chat	gemenskapschatt
 src/states/title.lua:467 (+1 others)		ost	soundtrack
 src/states/title.lua:468		artists' web	artisternas webbplatser
 src/states/unlock.lua:79		representations are still solidifying - physical form is meaningless - you're imagining it	gestalterna tar fortfarande form - fysisk form saknar betydelse - du inbillar dig
-src/states/unlock.lua:93		Upgrades	Uppgraderingar
-src/states/unlock.lua:94		buy upgrades with ¤	köp uppgraderingar med ¤
-src/states/unlock.lua:112		you have to do something to unlock this :)	du måste göra något för att låsa upp detta :)
-src/states/unlock.lua:114		coming in a future update <3	kommer i en framtida uppdatering <3
-src/states/unlock.lua:117		only available in the full game <3	finns bara i hela spelet <3
-src/states/unlock.lua:121		debug: 	felsökning:
-src/states/unlock.lua:141		playable character	spelbar karaktär
-src/states/unlock.lua:151		new depths	nya djup
-src/states/unlock.lua:190 (+3 others)		SNACK	SNACKS
-src/states/unlock.lua:469		feed	mata
-src/states/unlock.lua:538 (+1 others)		ban	bannlys
-src/states/unlock.lua:587		Customise	Anpassa
-src/states/unlock.lua:946		Tape Worm	Binnikemask
-src/states/unlock.lua:947		gold in, pink out	guld in, rosa ut
+src/states/unlock.lua:96 (+3 others)		SNACK	SNACKS
+src/states/unlock.lua:163		Upgrades	Uppgraderingar
+src/states/unlock.lua:164		buy upgrades with ¤	köp uppgraderingar med ¤
+src/states/unlock.lua:182		you have to do something to unlock this :)	du måste göra något för att låsa upp detta :)
+src/states/unlock.lua:184		coming in a future update <3	kommer i en framtida uppdatering <3
+src/states/unlock.lua:187		only available in the full game <3	finns bara i hela spelet <3
+src/states/unlock.lua:191		debug: 	felsökning:
+src/states/unlock.lua:211		playable character	spelbar karaktär
+src/states/unlock.lua:221		new depths	nya djup
+src/states/unlock.lua:495		feed	mata
+src/states/unlock.lua:564 (+1 others)		ban	bannlys
+src/states/unlock.lua:613		Customise	Anpassa
+src/states/unlock.lua:972		Tape Worm	Binnikemask
+src/states/unlock.lua:973		gold in, pink out	guld in, rosa ut
 src/sync_scoreboards.lua:14		Most Stars	Flest stjärnor
 src/sync_scoreboards.lua:19		stars held	innehavda stjärnor
 src/sync_scoreboards.lua:27		Highest Level	Högsta nivå
@@ -1471,7 +1472,7 @@ src/sync_scoreboards.lua:100		Biggest Loser	Största förlorare
 src/sync_scoreboards.lua:105		death tax	dödsskatt
 src/sync_scoreboards.lua:113		The End Any%	Slutet Any%
 src/sync_scoreboards.lua:118		runs	spelomgångar
-src/sync_scoreboards.lua:142 (+1 others)		luck	tur
+src/sync_scoreboards.lua:142		luck	tur
 src/sync_scoreboards.lua:203 (+1 others)	dialogue	you	du
 src/ui/character_body.lua:299 (+2 others)	ui	LOCKED	LÅST
 src/ui/combination_table.lua:34 (+1 others)	ui	flush	färg
@@ -1510,11 +1511,3 @@ src/ui/level_map.lua:174	ui	Nightmare level	Mardrömsnivå
 src/ui/level_map.lua:181		- ${points} pts	- ${points} p
 src/ui/state_tabs.lua:5 (+2 others)	ui	unlock	lås upp
 src/ui/tooltip.lua:82	ui	tip	tips
-src/states/intro_greed.lua:62		This is a game about greed.	Det här är ett spel om girighet.
-src/states/intro_greed.lua:64		This is a game about skill.	Det här är ett spel om skicklighet.
-src/states/intro_greed.lua:65		This is a game about talent.	Det här är ett spel om talang.
-src/states/intro_greed.lua:66		This is a game about patience.	Det här är ett spel om tålamod.
-src/states/intro_greed.lua:67		This is a game about fate.	Det här är ett spel om öde.
-src/states/intro_greed.lua:68		This is a game about destiny.	Det här är ett spel om bestämmelse.
-src/states/intro_greed.lua:69		This is a game about God.	Det här är ett spel om Gud.
-src/endings/tooth_fairy.lua:30		hit the guts	
