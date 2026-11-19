@@ -222,7 +222,7 @@ src/coloured_text.lua:14		instant	полный
 src/coloured_text.lua:16		turn	ход
 src/coloured_text.lua:20		turns	ходы
 src/coloured_text.lua:24 (+3 others)		bank	сберечь
-src/coloured_text.lua:27 (+1 others)		stars	звёзды
+src/coloured_text.lua:27		stars	звёзды
 src/coloured_text.lua:31 (+5 others)		points	очки
 src/coloured_text.lua:35 (+9 others)		mult	множитель
 src/coloured_text.lua:39 (+8 others)		bonus	бонус
@@ -243,14 +243,15 @@ src/coloured_text.lua:95 (+12 others)		stuck	липучка
 src/coloured_text.lua:98 (+2 others)		empty	пустота
 src/display_loc.lua:3		Normal	Нормальный
 src/display_loc.lua:4		Pixel	Пиксель
-src/endings/alley.lua:56		hit that shit	замутить эту дичь
-src/endings/alley.lua:101	dialogue	at least the tooth fairy will come	по крайней мере, зубная фея придёт
-src/endings/alley.lua:102	dialogue	i haven't lost my baby teeth yet	у меня ещё не выпали молочные зубы
-src/endings/alley.lua:103	dialogue	because i don't have baby teeth	потому что у меня нет молочных зубов
-src/endings/alley.lua:104 (+1 others)	dialogue	because i am god	потому что я Бог
-src/endings/alley.lua:108	dialogue	being late to the dentist is always a bit risky	опоздать к стоматологу немного рискованно
-src/endings/alley.lua:109	dialogue	have you been brushing?	ты чистишь?
-src/endings/alley.lua:110	dialogue	i don't have to brush my teeth	мне не приходится чистить зубы.
+src/endings/alley.lua:55		fix that shit	
+src/endings/alley.lua:55		hit that shit	замутить эту дичь
+src/endings/alley.lua:112	dialogue	at least the tooth fairy will come	по крайней мере, зубная фея придёт
+src/endings/alley.lua:113	dialogue	i haven't lost my baby teeth yet	у меня ещё не выпали молочные зубы
+src/endings/alley.lua:114	dialogue	because i don't have baby teeth	потому что у меня нет молочных зубов
+src/endings/alley.lua:115 (+1 others)	dialogue	because i am god	потому что я Бог
+src/endings/alley.lua:119	dialogue	being late to the dentist is always a bit risky	опоздать к стоматологу немного рискованно
+src/endings/alley.lua:120	dialogue	have you been brushing?	ты чистишь?
+src/endings/alley.lua:121	dialogue	i don't have to brush my teeth	мне не приходится чистить зубы.
 src/endings/anais.lua:124	dialogue	don't leave again	не уходи
 src/endings/anais.lua:125	dialogue	you're safe here	ты здесь в безопасности
 src/endings/anais.lua:126	dialogue	with me	со мной
@@ -291,15 +292,16 @@ src/endings/party.lua:131	dialogue	Unlock the next Depth from Star Guts for a bi
 src/endings/shirin.lua:136	dialogue	welcome back	с возвращением
 src/endings/shirin.lua:137	dialogue	so you believe	значит, ты веришь
 src/endings/shirin.lua:138	dialogue	i am here	я здесь
-src/endings/tooth_fairy.lua:129	dialogue	hello friend	привет, подруга
-src/endings/tooth_fairy.lua:130	dialogue	any good finds?	нашла что-нибудь хорошее?
+src/endings/tooth_fairy.lua:30		hit the guts	
+src/endings/tooth_fairy.lua:88	dialogue	hello friend	привет, подруга
+src/endings/tooth_fairy.lua:89	dialogue	any good finds?	нашла что-нибудь хорошее?
 src/endings/wizard.lua:49		ponder that orb	поразмышлять над шаром
-src/endings/wizard.lua:140	dialogue	keep playing with me	продолжай играть со мной
-src/endings/wizard.lua:141	dialogue	and you will see	и сама увидишь
-src/endings/wizard.lua:142	dialogue	one day you will not get out	однажды ты отсюда не выберешься
-src/endings/wizard.lua:143	dialogue	you are nothing	ты ничтожество
-src/endings/wizard.lua:144	dialogue	your spells suck	твои заклинания отстой
-src/endings/wizard.lua:145	dialogue	your hat stinks	твоя шляпа воняет
+src/endings/wizard.lua:141	dialogue	keep playing with me	продолжай играть со мной
+src/endings/wizard.lua:142	dialogue	and you will see	и сама увидишь
+src/endings/wizard.lua:143	dialogue	one day you will not get out	однажды ты отсюда не выберешься
+src/endings/wizard.lua:144	dialogue	you are nothing	ты ничтожество
+src/endings/wizard.lua:145	dialogue	your spells suck	твои заклинания отстой
+src/endings/wizard.lua:146	dialogue	your hat stinks	твоя шляпа воняет
 src/entities/buttons_clump.lua:128		Scoring adds points and clears all dice in the combo	Засчет добавляет очки и обнуляет все кубики в Комбо
 src/entities/buttons_clump.lua:130		Select All	Выбрать Все
 src/entities/buttons_clump.lua:131		Select your dice to score them or roll them	Выбери кубики, чтобы засчитать или бросить их
@@ -361,17 +363,17 @@ src/entities/item.lua:513		drag snacks over rolled dice	дай закуску б
 src/entities/power_ui.lua:97	ui	Use	Использовать
 src/entities/power_ui.lua:130	ui	Power recharges each turn\nSelect a die with Left Click then press this button to use it	Сила восстанавливается с каждым ходом.\nВыбери кубик левой кнопкой мыши, затем нажми эту кнопку, чтобы использовать его.
 src/entities/shop.lua:82		TAB: ${total} ¥	ЧЕК: ${total} ¥
-src/entities/shop.lua:115		Dice $count/$limit	Кубики $count/$limit
-src/entities/shop.lua:142		Trinkets $count/$limit	Безделушки $count/$limit
-src/entities/shop.lua:169		Actives $count/$limit	Активки $count/$limit
-src/entities/shop.lua:1264		cant sell eternal	нельзя продать вечное
-src/entities/shop.lua:1276		sell cursed	продать проклятого
-src/entities/shop.lua:1288		too many dice	слишком много кубиков
-src/entities/shop.lua:1300		too many trinkets	слишком много безделушек
-src/entities/shop.lua:1314		pay up	оплатить
-src/entities/shop.lua:1314		take change	взять сдачу
-src/entities/shop.lua:1386		bye	пока
-src/entities/shop.lua:1434		Reroll - ${current_cost}¥	Переброс - ${current_cost}¥
+src/entities/shop.lua:107		Dice $count/$limit	Кубики $count/$limit
+src/entities/shop.lua:136		Trinkets $count/$limit	Безделушки $count/$limit
+src/entities/shop.lua:165		Actives $count/$limit	Активки $count/$limit
+src/entities/shop.lua:1283		cant sell eternal	нельзя продать вечное
+src/entities/shop.lua:1295		sell cursed	продать проклятого
+src/entities/shop.lua:1307		too many dice	слишком много кубиков
+src/entities/shop.lua:1319		too many trinkets	слишком много безделушек
+src/entities/shop.lua:1333		pay up	оплатить
+src/entities/shop.lua:1333		take change	взять сдачу
+src/entities/shop.lua:1405		bye	пока
+src/entities/shop.lua:1453		Reroll - ${current_cost}¥	Переброс - ${current_cost}¥
 src/entities/tape.lua:453		- web	- сайт
 src/entities/title_text.lua:3		DICE HAVE\nNO EYES	У КУБИКOВ\nНЕТ ГЛАЗ
 src/entities/title_text.lua:5		DICE HAVE\nNÕ EYES	У КУБИКÕВ\nНЕТ ГЛАЗ
@@ -596,7 +598,7 @@ src/items.lua:1008 (+1 others)		Pig Side Added	Добавлена Свиная �
 src/items.lua:1014 (+1 others)		Add 1 Skip side	Добавляет 1 сторону Пропуска
 src/items.lua:1029 (+1 others)		Skip Side Added	Добавлена сторона Пропуска
 src/items.lua:1034		Black Eyed Pea	Черноглазый горох
-src/items.lua:1035		Block 1s for the next roll	Блокирует 1 на следующем броске
+src/items.lua:1035		This die can't roll a 1 on its next roll	Эта кость не выбросит 1 при следующем броске
 src/items.lua:1052		Grape	Виноградина
 src/items.lua:1053 (+1 others)		Add 1 Bonus side	Добавляет 1 Бонусную сторону
 src/items.lua:1068 (+1 others)		Bonus Side Added	Бонусная сторона добавлена
@@ -1156,7 +1158,7 @@ src/states/credits.lua:43		Created by	Авторы
 src/states/credits.lua:49		Translation	Перевод
 src/states/credits.lua:56		Special Thanks	Особая благодарность
 src/states/credits.lua:60		The Dice	Кубики
-src/states/credits.lua:61 (+1 others)		God	Бог
+src/states/credits.lua:61		God	Бог
 src/states/credits.lua:65		And you!	И ты!
 src/states/credits.lua:66		Thanks for playing! <3	Спасибо за игру! <3
 src/states/customisation.lua:167		Nothing Available	Ничего нет в наличии
@@ -1172,9 +1174,9 @@ src/states/customisation.lua:454		stretch	растянуть
 src/states/customisation.lua:454		squash	сжать
 src/states/customisation.lua:461		Dye	Краска
 src/states/customisation.lua:462		recolour	перекрасить
-src/states/ending.lua:244 (+7 others)		hit that shit?	замутить эту дичь?
-src/states/ending.lua:302 (+4 others)		play	играть
-src/states/ending.lua:486 (+4 others)		done	готово
+src/states/ending.lua:244 (+6 others)		hit that shit?	замутить эту дичь?
+src/states/ending.lua:303 (+4 others)		play	играть
+src/states/ending.lua:490 (+4 others)		done	готово
 src/states/ending_bet.lua:59 (+1 others)		--  Run Summary  --	--  Итоги забега  --
 src/states/ending_bet.lua:73 (+1 others)		Level reached:	Уровень:
 src/states/ending_bet.lua:74 (+1 others)		Points scored:	Набрано очков:
@@ -1222,7 +1224,7 @@ src/states/ending_finale.lua:158	dialogue	you are brave	ты храбрая
 src/states/ending_finale.lua:159	dialogue	you are worthy	ты достойная
 src/states/ending_finale.lua:161	dialogue	i will offer you one final wager	я предложу тебе последнее пари
 src/states/ending_finale.lua:167	dialogue	heads: you're free	орёл: ты свободна
-src/states/ending_finale.lua:174	dialogue	tails: i will personally destroy all the files i can access on this device	решка: я лично уничтожу все файлы, к которым смогу получить доступ на этом устройстве
+src/states/ending_finale.lua:174	dialogue	tails: i will personally destroy all your files one by one	решка: я лично уничтожу все твои файлы, один за другим
 src/states/ending_finale.lua:190	dialogue	do it, all in	давай, ва-банк
 src/states/ending_finale.lua:192		flick it like you mean it	щелкни как следует
 src/states/ending_finale.lua:192		this is real	это по-настоящему
@@ -1241,74 +1243,73 @@ src/states/game.lua:171 (+1 others)		Cannot Restart Wager Runs	Нельзя пе
 src/states/game.lua:174		Restart	Перезапуск
 src/states/game.lua:176		Restart the run from scratch\nand lose all gained stars?	Начать забег заново и потерять все полученные звезды?
 src/states/game.lua:182 (+3 others)		Options	Настройки
-src/states/game.lua:190		Save Run	Сохранить забег
+src/states/game.lua:190		Save and Quit	Сохранить и выйти
 src/states/game.lua:191		(Cant Save Right Now)	(Сейчас нельзя сохранить)
-src/states/game.lua:194		Quit to menu and save run for later?	Выйти в меню и сохранить забег на потом?
-src/states/game.lua:202		Abandon	Сдаться
-src/states/game.lua:204		Quit to menu and lose all gained stars?	Выйти в меню и потерять все полученные звезды?
-src/states/game.lua:209		No way out	Выхода нет
-src/states/game.lua:514		secure the points\nend the turn\nrecharge character power\nclear momentum	сохранить очки\nзавершить ход\nвосстановить силу персонажа\nобнулить инерцию
-src/states/game.lua:619		you must have some points to bank	нужно набрать хоть сколько-то очков, чтобы сберечь
-src/states/game.lua:721		momentum: ${amount}	инерция: ${amount}
-src/states/game.lua:726		adds extra ${momentum} points and mult	добавляет ${momentum} доп. очков и множителя
-src/states/game.lua:911		Losing all Busts ends the turn.\nBusts refill at the start of each Turn	Потеря всех Бастов завершает Ход.\nБасты восполняются в начале каждого Хода
-src/states/game.lua:915		Blocks up to ${count} busts, disappears when damaged	Блокирует до ${count} бастов, исчезает при получении урона
-src/states/game.lua:934		ALL BUST BLOCKED	ВСЕ БАСТЫ ЗАБЛОКИРОВАНЫ
-src/states/game.lua:950		SHIELD OVERLOADED	ЩИТ ПЕРЕГРУЖЕН
-src/states/game.lua:951		${count} BUSTS BLOCKED	ЗАБЛОКИРОВАНО БАСТОВ: ${count}
-src/states/game.lua:951		${count} BUST BLOCKED	ЗАБЛОКИРОВАН БАСТ
-src/states/game.lua:1001		wager ${amount} ¤	ставка ${amount} ¤
-src/states/game.lua:1004		${STARS} Stars Unbanked	${STARS} несбереженных звезд
-src/states/game.lua:1006		bank stars after each nightmare level or win the run to secure them	сбереги звезды после каждого кошмарного уровня или выиграй забег, чтобы сохранить их
-src/states/game.lua:1076		praying...	молитва...
-src/states/game.lua:1076		pray	молиться
-src/states/game.lua:1154		Losing all Turns ends the game.\nTurns refill at the start of each level.	Потеря всех Ходов завершает игру.\nХоды восполняются в начале каждого уровня.
-src/states/game.lua:1405 (+1 others)		MERGED	ОБЪЕДИНЕНЫ
-src/states/game.lua:1878 (+2 others)		Level $level/$count $name	Уровень $level/$count $name
-src/states/game.lua:1930		NIGHTMARE LEVEL	КОШМАР
-src/states/game.lua:2052 (+1 others)		Rift	Разлом
-src/states/game.lua:2238		this coin is an affront to life itself	эта монетка — оскорбление самой жизни
-src/states/game.lua:2239		this die is an affront to life itself	этот кубик — оскорбление самой жизни
-src/states/game.lua:2240		we shall not suffer such an unholy thing	мы не допустим подобного нечестивого деяния
-src/states/game.lua:2241		thou shalt not shy from risk	не уклоняйся от риска
-src/states/game.lua:2242		you thought you could get away with this?	ты думала, тебе это сойдет с рук?
-src/states/game.lua:2243		extremely naughty	крайне непослушная
-src/states/game.lua:2246	dialogue	no downside not allowed	никаких минусов — недопустимо
-src/states/game.lua:2264	dialogue	WHAT	ЧТО
-src/states/game.lua:2286		refilled	восполнено
-src/states/game.lua:2313		LAST TURN	ПОСЛЕДНИЙ ХОД
-src/states/game.lua:2432		- Out Of Dice -	- Нет кубиков -
-src/states/game.lua:2433		never	никогда
-src/states/game.lua:2435		Looks like you're cooked\n\nGive up?	Похоже, тебе конец.\n\nСдаёшься?
-src/states/game.lua:2585		INSTANT WIPE	ПОЛНЫЙ ПРОВАЛ
-src/states/game.lua:2586		${rolled} OUT OF ${rolled} DICE ROLLED BUST	${rolled} ИЗ ${rolled} КУБИКОВ ВЫПАЛИ НА БАСТ
-src/states/game.lua:2603		W I P E	П Р О В А Л
-src/states/game.lua:3031		SKIP ${pip}	ПРОПУСК ${pip}
-src/states/game.lua:3043		SKIP LOOPED	ПРОПУСК ЗАЦИКЛЕН
-src/states/game.lua:3282		Level Complete	Уровень пройден
-src/states/game.lua:3323		Overshoot! +${amount} stars	Перебор! +${amount} звезд
-src/states/game.lua:3356		Level Coins	Монетки уровня
-src/states/game.lua:3367		Extra Turn Coins	Монетки за доп. ходы
-src/states/game.lua:3379		Combine Coins	Объедининение монеток
-src/states/game.lua:3396		Wager bonus! +${amount} stars	Бонус ставки! +${amount} звёзд
-src/states/game.lua:3446		--  Level ${number} Complete!  --	--  Уровень ${number} пройден!  --
-src/states/game.lua:3462		Score:	Счет:
-src/states/game.lua:3464		Reward:	Награда:
-src/states/game.lua:3465		Extra turns:	Доп. ходы:
-src/states/game.lua:3466		Wager bonus:	Бонус ставки:
-src/states/game.lua:3467		Overshoot:	Перебор:
-src/states/game.lua:3469		Total:	Итого:
-src/states/game.lua:3567		don't lose it	не потеряй её
-src/states/game.lua:3567		Soul on line	Душа на кону
-src/states/game.lua:3574		¤${BET} wagered	Поставлено ¤${BET}
-src/states/game.lua:3578		¤ Banked	¤ Сбережено
-src/states/game.lua:3579		Bank ¤${KEPT}?	Сберечь ¤${KEPT}?
-src/states/game.lua:3580		Win To Bank ¤	Победи, чтобы сберечь ¤
-src/states/game.lua:3581		Bank ¤ in ${LEVELS} lvl	Сберечь ¤ через ${LEVELS} ур.
-src/states/game.lua:3595		Secure your Stars for the run\nyou won't be able to gain more this run	Сохрани свои Звезды за забег\nты больше не сможешь заработать их в этом забеге
-src/states/game.lua:3597		Stars already banked this run	Звезды в этом забеге уже сбережены
-src/states/game.lua:3599		Securing Stars available after each nightmare level	Сбережение Звезд доступно после каждого кошмарного уровня
-src/states/game.lua:3660 (+7 others)		no	нет
+src/states/game.lua:197		Abandon	Сдаться
+src/states/game.lua:199		Quit to menu and lose all gained stars?	Выйти в меню и потерять все полученные звезды?
+src/states/game.lua:204		No way out	Выхода нет
+src/states/game.lua:515		secure the points\nend the turn\nrecharge character power\nclear momentum	сохранить очки\nзавершить ход\nвосстановить силу персонажа\nобнулить инерцию
+src/states/game.lua:620		you must have some points to bank	нужно набрать хоть сколько-то очков, чтобы сберечь
+src/states/game.lua:722		momentum: ${amount}	инерция: ${amount}
+src/states/game.lua:727		adds extra ${momentum} points and mult	добавляет ${momentum} доп. очков и множителя
+src/states/game.lua:912		Losing all Busts ends the turn.\nBusts refill at the start of each Turn	Потеря всех Бастов завершает Ход.\nБасты восполняются в начале каждого Хода
+src/states/game.lua:916		Blocks up to ${count} busts, disappears when damaged	Блокирует до ${count} бастов, исчезает при получении урона
+src/states/game.lua:935		ALL BUST BLOCKED	ВСЕ БАСТЫ ЗАБЛОКИРОВАНЫ
+src/states/game.lua:951		SHIELD OVERLOADED	ЩИТ ПЕРЕГРУЖЕН
+src/states/game.lua:952		${count} BUSTS BLOCKED	ЗАБЛОКИРОВАНО БАСТОВ: ${count}
+src/states/game.lua:952		${count} BUST BLOCKED	ЗАБЛОКИРОВАН БАСТ
+src/states/game.lua:1002		wager ${amount} ¤	ставка ${amount} ¤
+src/states/game.lua:1005		${STARS} Stars Unbanked	${STARS} несбереженных звезд
+src/states/game.lua:1007		bank stars after each nightmare level or win the run to secure them	сбереги звезды после каждого кошмарного уровня или выиграй забег, чтобы сохранить их
+src/states/game.lua:1088		praying...	молитва...
+src/states/game.lua:1088		pray	молиться
+src/states/game.lua:1166		Losing all Turns ends the game.\nTurns refill at the start of each level.	Потеря всех Ходов завершает игру.\nХоды восполняются в начале каждого уровня.
+src/states/game.lua:1417 (+1 others)		MERGED	ОБЪЕДИНЕНЫ
+src/states/game.lua:1890 (+2 others)		Level $level/$count $name	Уровень $level/$count $name
+src/states/game.lua:1942		NIGHTMARE LEVEL	КОШМАР
+src/states/game.lua:2064 (+1 others)		Rift	Разлом
+src/states/game.lua:2250		this coin is an affront to life itself	эта монетка — оскорбление самой жизни
+src/states/game.lua:2251		this die is an affront to life itself	этот кубик — оскорбление самой жизни
+src/states/game.lua:2252		we shall not suffer such an unholy thing	мы не допустим подобного нечестивого деяния
+src/states/game.lua:2253		thou shalt not shy from risk	не уклоняйся от риска
+src/states/game.lua:2254		you thought you could get away with this?	ты думала, тебе это сойдет с рук?
+src/states/game.lua:2255		extremely naughty	крайне непослушная
+src/states/game.lua:2258	dialogue	no downside not allowed	никаких минусов — недопустимо
+src/states/game.lua:2276	dialogue	WHAT	ЧТО
+src/states/game.lua:2298		refilled	восполнено
+src/states/game.lua:2325		LAST TURN	ПОСЛЕДНИЙ ХОД
+src/states/game.lua:2444		- Out Of Dice -	- Нет кубиков -
+src/states/game.lua:2445		never	никогда
+src/states/game.lua:2447		Looks like you're cooked\n\nGive up?	Похоже, тебе конец.\n\nСдаёшься?
+src/states/game.lua:2597		INSTANT WIPE	ПОЛНЫЙ ПРОВАЛ
+src/states/game.lua:2598		${rolled} OUT OF ${rolled} DICE ROLLED BUST	${rolled} ИЗ ${rolled} КУБИКОВ ВЫПАЛИ НА БАСТ
+src/states/game.lua:2615		W I P E	П Р О В А Л
+src/states/game.lua:3043		SKIP ${pip}	ПРОПУСК ${pip}
+src/states/game.lua:3055		SKIP LOOPED	ПРОПУСК ЗАЦИКЛЕН
+src/states/game.lua:3294		Level Complete	Уровень пройден
+src/states/game.lua:3335		Overshoot! +${amount} stars	Перебор! +${amount} звезд
+src/states/game.lua:3368		Level Coins	Монетки уровня
+src/states/game.lua:3379		Extra Turn Coins	Монетки за доп. ходы
+src/states/game.lua:3391		Combine Coins	Объедининение монеток
+src/states/game.lua:3408		Wager bonus! +${amount} stars	Бонус ставки! +${amount} звёзд
+src/states/game.lua:3458		--  Level ${number} Complete!  --	--  Уровень ${number} пройден!  --
+src/states/game.lua:3474		Score:	Счет:
+src/states/game.lua:3476		Reward:	Награда:
+src/states/game.lua:3477		Extra turns:	Доп. ходы:
+src/states/game.lua:3478		Wager bonus:	Бонус ставки:
+src/states/game.lua:3479		Overshoot:	Перебор:
+src/states/game.lua:3481		Total:	Итого:
+src/states/game.lua:3579		don't lose it	не потеряй её
+src/states/game.lua:3579		Soul on line	Душа на кону
+src/states/game.lua:3586		¤${BET} wagered	Поставлено ¤${BET}
+src/states/game.lua:3590		¤ Banked	¤ Сбережено
+src/states/game.lua:3591		Bank ¤${KEPT}?	Сберечь ¤${KEPT}?
+src/states/game.lua:3592		Win To Bank ¤	Победи, чтобы сберечь ¤
+src/states/game.lua:3593		Bank ¤ in ${LEVELS} lvl	Сберечь ¤ через ${LEVELS} ур.
+src/states/game.lua:3607		Secure your Stars for the run\nyou won't be able to gain more this run	Сохрани свои Звезды за забег\nты больше не сможешь заработать их в этом забеге
+src/states/game.lua:3609		Stars already banked this run	Звезды в этом забеге уже сбережены
+src/states/game.lua:3611		Securing Stars available after each nightmare level	Сбережение Звезд доступно после каждого кошмарного уровня
+src/states/game.lua:3672 (+7 others)		no	нет
 src/states/game_setup.lua:161		play!	играть!
 src/states/game_setup.lua:164		need ${stars} ¤	нужно ${stars} ¤
 src/states/game_setup.lua:197		the young will inherit the earth	молодые унаследуют землю
@@ -1333,7 +1334,7 @@ src/states/gameover.lua:370		restart	заново
 src/states/gameover.lua:575		Press Circle To Toss	Нажми Круг чтобы бросить
 src/states/gameover.lua:575		Press B To Toss	Нажми B чтобы бросить
 src/states/gameover.lua:575		Right Click To Toss	Правый клик чтобы бросить
-src/states/intro.lua:54		This is a game about luck.	Это игра об удаче.
+src/states/intro.lua:54 (+1 others)		This is a game about luck.	Это игра об удаче.
 src/states/intro.lua:55		This is still a game about luck.	Это всё ещё игра об удаче.
 src/states/intro.lua:56		This is a game about rolling ones, apparently.	Видимо, это игра о выбрасывании единиц.
 src/states/intro.lua:57		Yikes. Still no luck huh?	Ой-ой. Всё ещё не везёт, да?
@@ -1349,16 +1350,17 @@ src/states/intro.lua:144		Press Circle To Roll	Нажми Круг чтобы б
 src/states/intro.lua:144		Press B To Roll	Нажми B чтобы бросить
 src/states/intro.lua:145		Right Click To Roll	Правый клик чтобы бросить
 src/states/intro.lua:237		Franek & Max	Франек и Макс
-src/states/intro_greed.lua:64		skill	навыке
-src/states/intro_greed.lua:65		talent	таланте
-src/states/intro_greed.lua:66		patience	терпении
-src/states/intro_greed.lua:67		fate	судьбе
-src/states/intro_greed.lua:68		destiny	предназначении
-src/states/intro_greed.lua:80		Roll to gain Stars.	Брось кубик, чтобы заработать звёзды.
-src/states/intro_greed.lua:81		Roll 1 to lose Stars.	Выбрось 1, чтобы потерять звёзды.
-src/states/intro_greed.lua:110		This is a game about ${reason}.	Это игра о ${reason}.
-src/states/intro_greed.lua:152		bank and start	сберечь и начать
-src/states/intro_greed.lua:152		pass and start	пасовать и начать
+src/states/intro_greed.lua:62		This is a game about greed.	Это игра о жадности.
+src/states/intro_greed.lua:64		This is a game about skill.	Это игра о навыке.
+src/states/intro_greed.lua:65		This is a game about talent.	Это игра о таланте.
+src/states/intro_greed.lua:66		This is a game about patience.	Это игра о терпении.
+src/states/intro_greed.lua:67		This is a game about fate.	Это игра о судьбе.
+src/states/intro_greed.lua:68		This is a game about destiny.	Это игра о предназначении.
+src/states/intro_greed.lua:69		This is a game about God.	Это игра о Боге.
+src/states/intro_greed.lua:80		Roll to gain Stars.	Брось кубик чтобы заработать звёзды.
+src/states/intro_greed.lua:81		Roll 1 to lose Stars.	Брось 1 чтобы потерять звёзды.
+src/states/intro_greed.lua:150		bank and start	сберечь и начать
+src/states/intro_greed.lua:150		pass and start	пасовать и начать
 src/states/options.lua:67		keybinds >	горячие клавиши >
 src/states/options.lua:97		Build ID: ${id}	Идентификатор сборки: ${id}
 src/states/options.lua:110		translator	переводчик
@@ -1440,20 +1442,20 @@ src/states/title.lua:464		community chat	чат сообщества
 src/states/title.lua:467 (+1 others)		ost	саундтрек
 src/states/title.lua:468		artists' web	сайт художников
 src/states/unlock.lua:79		representations are still solidifying - physical form is meaningless - you're imagining it	образы всё ещё обретают форму — физическая оболочка бессмысленна — ты всё это выдумала
-src/states/unlock.lua:93		Upgrades	Улучшения
-src/states/unlock.lua:94		buy upgrades with ¤	покупай улучшения за ¤
-src/states/unlock.lua:112		you have to do something to unlock this :)	нужно кое-что сделать, чтобы это открыть :)
-src/states/unlock.lua:114		coming in a future update <3	появится в будущем обновлении <3
-src/states/unlock.lua:117		only available in the full game <3	доступно только в полной версии игры <3
-src/states/unlock.lua:121		debug: 	отладка: 
-src/states/unlock.lua:141		playable character	игровой персонаж
-src/states/unlock.lua:151		new depths	новые глубины
-src/states/unlock.lua:190 (+3 others)		SNACK	ЗАКУСКА
-src/states/unlock.lua:469		feed	покормить
-src/states/unlock.lua:538 (+1 others)		ban	забанить
-src/states/unlock.lua:587		Customise	Настройка
-src/states/unlock.lua:946		Tape Worm	Ленточный червь
-src/states/unlock.lua:947		gold in, pink out	золото на вход, розовое на выход
+src/states/unlock.lua:96 (+3 others)		SNACK	ЗАКУСКА
+src/states/unlock.lua:163		Upgrades	Улучшения
+src/states/unlock.lua:164		buy upgrades with ¤	покупай улучшения за ¤
+src/states/unlock.lua:182		you have to do something to unlock this :)	нужно кое-что сделать, чтобы это открыть :)
+src/states/unlock.lua:184		coming in a future update <3	появится в будущем обновлении <3
+src/states/unlock.lua:187		only available in the full game <3	доступно только в полной версии игры <3
+src/states/unlock.lua:191		debug: 	отладка: 
+src/states/unlock.lua:211		playable character	игровой персонаж
+src/states/unlock.lua:221		new depths	новые глубины
+src/states/unlock.lua:495		feed	покормить
+src/states/unlock.lua:564 (+1 others)		ban	забанить
+src/states/unlock.lua:613		Customise	Настройка
+src/states/unlock.lua:972		Tape Worm	Ленточный червь
+src/states/unlock.lua:973		gold in, pink out	золото на вход, розовое на выход
 src/sync_scoreboards.lua:14		Most Stars	Наибольшее количество звёзд
 src/sync_scoreboards.lua:19		stars held	баланс звёзд
 src/sync_scoreboards.lua:27		Highest Level	Высший уровень
@@ -1471,7 +1473,7 @@ src/sync_scoreboards.lua:100		Biggest Loser	Крупнейший проигры�
 src/sync_scoreboards.lua:105		death tax	налог на смерть
 src/sync_scoreboards.lua:113		The End Any%	Конец Any%
 src/sync_scoreboards.lua:118		runs	забегов
-src/sync_scoreboards.lua:142 (+1 others)		luck	удачи
+src/sync_scoreboards.lua:142		luck	удачи
 src/sync_scoreboards.lua:203 (+1 others)	dialogue	you	ты
 src/ui/character_body.lua:299 (+2 others)	ui	LOCKED	ЗАКРЫТО
 src/ui/combination_table.lua:34 (+1 others)	ui	flush	флеш
@@ -1510,10 +1512,3 @@ src/ui/level_map.lua:174	ui	Nightmare level	Кошмарный уровень
 src/ui/level_map.lua:181		- ${points} pts	- ${points} очков
 src/ui/state_tabs.lua:5 (+2 others)	ui	unlock	открыть
 src/ui/tooltip.lua:82	ui	tip	подсказка
-src/states/intro_greed.lua:62		This is a game about greed.	Это игра о жадности.
-src/states/intro_greed.lua:64		This is a game about skill.	Это игра о навыке.
-src/states/intro_greed.lua:65		This is a game about talent.	Это игра о таланте.
-src/states/intro_greed.lua:66		This is a game about patience.	Это игра о терпении.
-src/states/intro_greed.lua:67		This is a game about fate.	Это игра о судьбе.
-src/states/intro_greed.lua:68		This is a game about destiny.	Это игра о предназначении.
-src/states/intro_greed.lua:69		This is a game about God.	Это игра о Боге.
