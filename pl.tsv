@@ -243,14 +243,15 @@ src/coloured_text.lua:95 (+12 others)		stuck	przyklejona
 src/coloured_text.lua:98 (+2 others)		empty	pusta
 src/display_loc.lua:3		Normal	Normalna
 src/display_loc.lua:4		Pixel	Pikselowa
-src/endings/alley.lua:56		hit that shit	pierdolnij se
-src/endings/alley.lua:101	dialogue	at least the tooth fairy will come	przynajmniej przyjdzie wróżka zębuszka
-src/endings/alley.lua:102	dialogue	i haven't lost my baby teeth yet	jeszcze nie straciłem mlecznych zębów
-src/endings/alley.lua:103	dialogue	because i don't have baby teeth	bo nie mam mlecznych zębów
-src/endings/alley.lua:104 (+1 others)	dialogue	because i am god	bo jestem bogiem
-src/endings/alley.lua:108	dialogue	being late to the dentist is always a bit risky	spóźnianie się do dentysty to zawsze ryzyko
-src/endings/alley.lua:109	dialogue	have you been brushing?	myłaś zęby?
-src/endings/alley.lua:110	dialogue	i don't have to brush my teeth	nie muszę myć zębów
+src/endings/alley.lua:55		fix that shit	napraw se
+src/endings/alley.lua:55		hit that shit	pierdolnij se
+src/endings/alley.lua:112	dialogue	at least the tooth fairy will come	przynajmniej przyjdzie wróżka zębuszka
+src/endings/alley.lua:113	dialogue	i haven't lost my baby teeth yet	jeszcze nie straciłem mlecznych zębów
+src/endings/alley.lua:114	dialogue	because i don't have baby teeth	bo nie mam mlecznych zębów
+src/endings/alley.lua:115 (+1 others)	dialogue	because i am god	bo jestem bogiem
+src/endings/alley.lua:119	dialogue	being late to the dentist is always a bit risky	spóźnianie się do dentysty to zawsze ryzyko
+src/endings/alley.lua:120	dialogue	have you been brushing?	myłaś zęby?
+src/endings/alley.lua:121	dialogue	i don't have to brush my teeth	nie muszę myć zębów
 src/endings/anais.lua:124	dialogue	don't leave again	nie odchodź znowu
 src/endings/anais.lua:125	dialogue	you're safe here	tu jesteś bezpieczna
 src/endings/anais.lua:126	dialogue	with me	ze mną
@@ -1223,7 +1224,7 @@ src/states/ending_finale.lua:158	dialogue	you are brave	jesteś dzielna
 src/states/ending_finale.lua:159	dialogue	you are worthy	jesteś godna
 src/states/ending_finale.lua:161	dialogue	i will offer you one final wager	zaproponuję ci ostatni zakład
 src/states/ending_finale.lua:167	dialogue	heads: you're free	orzeł: jesteś wolna
-src/states/ending_finale.lua:174	dialogue	tails: i will personally destroy all the files i can access on this device	reszka: osobiście zniszczę wszystkie pliki, do których mam dostęp na tym urządzeniu
+src/states/ending_finale.lua:174	dialogue	tails: i will personally destroy all your files one by one	reszka: osobiście zniszczę wszystkie twoje pliki, jeden po drugim
 src/states/ending_finale.lua:190	dialogue	do it, all in	no dalej, va banque
 src/states/ending_finale.lua:192		flick it like you mean it	pstryknij, jakby od tego wszystko zależało
 src/states/ending_finale.lua:192		this is real	to dzieje się naprawdę
@@ -1242,74 +1243,73 @@ src/states/game.lua:171 (+1 others)		Cannot Restart Wager Runs	Nie można zresta
 src/states/game.lua:174		Restart	Restart
 src/states/game.lua:176		Restart the run from scratch\nand lose all gained stars?	Zacząć podejście od nowa\ni stracić wszystkie zdobyte gwiazdki?
 src/states/game.lua:182 (+3 others)		Options	Opcje
-src/states/game.lua:190		Save Run	Zapisz Podejście
+src/states/game.lua:190		Save and Quit	Zapisz i Wyjdź
 src/states/game.lua:191		(Cant Save Right Now)	(Nie Można Teraz Zapisać)
-src/states/game.lua:194		Quit to menu and save run for later?	Wyjść do menu i zapisać podejście na później?
-src/states/game.lua:202		Abandon	Porzuć
-src/states/game.lua:204		Quit to menu and lose all gained stars?	Wyjść do menu i stracić wszystkie zdobyte gwiazdki?
-src/states/game.lua:209		No way out	Nie ma wyjścia
-src/states/game.lua:514		secure the points\nend the turn\nrecharge character power\nclear momentum	zabezpiecz punkty\nzakończ turę\nnaładuj moc postaci\nwyzeruj rozpęd
-src/states/game.lua:619		you must have some points to bank	musisz mieć jakieś punkty, żeby zbankować
-src/states/game.lua:721		momentum: ${amount}	rozpęd: ${amount}
-src/states/game.lua:726		adds extra ${momentum} points and mult	dodaje dodatkowe ${momentum} punktów i mnożnika
-src/states/game.lua:911		Losing all Busts ends the turn.\nBusts refill at the start of each Turn	Utrata wszystkich Bustów kończy turę.\nBusty odnawiają się na początku każdej Tury
-src/states/game.lua:915		Blocks up to ${count} busts, disappears when damaged	Blokuje do ${count} bustów, znika po uszkodzeniu
-src/states/game.lua:934		ALL BUST BLOCKED	WSZYSTKIE BUSTY ZABLOKOWANE
-src/states/game.lua:950		SHIELD OVERLOADED	TARCZA PRZECIĄŻONA
-src/states/game.lua:951		${count} BUSTS BLOCKED	ZABLOKOWANE BUSTY: ${count}
-src/states/game.lua:951		${count} BUST BLOCKED	ZABLOKOWANE BUSTY: ${count}
-src/states/game.lua:1001		wager ${amount} ¤	zakład ${amount} ¤
-src/states/game.lua:1004		${STARS} Stars Unbanked	Niezbankowane gwiazdki: ${STARS}
-src/states/game.lua:1006		bank stars after each nightmare level or win the run to secure them	bankuj gwiazdki po każdym poziomie koszmaru albo wygraj podejście, by je zabezpieczyć
-src/states/game.lua:1076		praying...	modlitwa...
-src/states/game.lua:1076		pray	módl się
-src/states/game.lua:1154		Losing all Turns ends the game.\nTurns refill at the start of each level.	Utrata wszystkich Tur kończy grę.\nTury odnawiają się na początku każdego poziomu.
-src/states/game.lua:1405 (+1 others)		MERGED	POŁĄCZONO
-src/states/game.lua:1878 (+2 others)		Level $level/$count $name	Poziom $level/$count $name
-src/states/game.lua:1930		NIGHTMARE LEVEL	POZIOM KOSZMARU
-src/states/game.lua:2052 (+1 others)		Rift	Przepaść
-src/states/game.lua:2238		this coin is an affront to life itself	ta moneta to obraza dla samego życia
-src/states/game.lua:2239		this die is an affront to life itself	ta kostka to obraza dla samego życia
-src/states/game.lua:2240		we shall not suffer such an unholy thing	nie ścierpimy takiej bezbożności
-src/states/game.lua:2241		thou shalt not shy from risk	nie będziesz unikać ryzyka
-src/states/game.lua:2242		you thought you could get away with this?	myślałaś, że ujdzie ci to na sucho?
-src/states/game.lua:2243		extremely naughty	wyjątkowo niegrzeczna
-src/states/game.lua:2246	dialogue	no downside not allowed	bez wad nie wolno
-src/states/game.lua:2264	dialogue	WHAT	CO
-src/states/game.lua:2286		refilled	uzupełniono
-src/states/game.lua:2313		LAST TURN	OSTATNIA TURA
-src/states/game.lua:2432		- Out Of Dice -	- Brak Kostek -
-src/states/game.lua:2433		never	nigdy
-src/states/game.lua:2435		Looks like you're cooked\n\nGive up?	Wygląda na to, że po tobie\n\nPoddajesz się?
-src/states/game.lua:2585		INSTANT WIPE	NATYCHMIASTOWY WIPE
-src/states/game.lua:2586		${rolled} OUT OF ${rolled} DICE ROLLED BUST	${rolled} Z ${rolled} RZUCONYCH KOSTEK TO BUST
-src/states/game.lua:2603		W I P E	W I P E
-src/states/game.lua:3031		SKIP ${pip}	PRZESKOK ${pip}
-src/states/game.lua:3043		SKIP LOOPED	PRZESKOK ZAWINIĘTY
-src/states/game.lua:3282		Level Complete	Poziom ukończony
-src/states/game.lua:3323		Overshoot! +${amount} stars	Nadwyżka! +${amount} gwiazdek
-src/states/game.lua:3356		Level Coins	Monety za Poziom
-src/states/game.lua:3367		Extra Turn Coins	Monety za Dodatkowe Tury
-src/states/game.lua:3379		Combine Coins	Łączenie Monet
-src/states/game.lua:3396		Wager bonus! +${amount} stars	Bonus za zakład! +${amount} gwiazdek
-src/states/game.lua:3446		--  Level ${number} Complete!  --	--  Poziom ${number} ukończony!  --
-src/states/game.lua:3462		Score:	Wynik:
-src/states/game.lua:3464		Reward:	Nagroda:
-src/states/game.lua:3465		Extra turns:	Dodatkowe tury:
-src/states/game.lua:3466		Wager bonus:	Bonus za zakład:
-src/states/game.lua:3467		Overshoot:	Nadwyżka:
-src/states/game.lua:3469		Total:	Razem:
-src/states/game.lua:3567		don't lose it	nie zgub jej
-src/states/game.lua:3567		Soul on line	Dusza na szali
-src/states/game.lua:3574		¤${BET} wagered	Postawiono ${BET}¤
-src/states/game.lua:3578		¤ Banked	¤ Zbankowane
-src/states/game.lua:3579		Bank ¤${KEPT}?	Zbankować ${KEPT}¤?
-src/states/game.lua:3580		Win To Bank ¤	Wygraj, by zbankować ¤
-src/states/game.lua:3581		Bank ¤ in ${LEVELS} lvl	BANK ¤ za ${LEVELS} poz.
-src/states/game.lua:3595		Secure your Stars for the run\nyou won't be able to gain more this run	Zabezpiecz Gwiazdki z tego podejścia\npotem nie zdobędziesz już kolejnych
-src/states/game.lua:3597		Stars already banked this run	Gwiazdki już zbankowane w tym podejściu
-src/states/game.lua:3599		Securing Stars available after each nightmare level	Zabezpieczanie Gwiazdek dostępne po każdym poziomie koszmaru
-src/states/game.lua:3660 (+7 others)		no	nie
+src/states/game.lua:197		Abandon	Porzuć
+src/states/game.lua:199		Quit to menu and lose all gained stars?	Wyjść do menu i stracić wszystkie zdobyte gwiazdki?
+src/states/game.lua:204		No way out	Nie ma wyjścia
+src/states/game.lua:515		secure the points\nend the turn\nrecharge character power\nclear momentum	zabezpiecz punkty\nzakończ turę\nnaładuj moc postaci\nwyzeruj rozpęd
+src/states/game.lua:620		you must have some points to bank	musisz mieć jakieś punkty, żeby zbankować
+src/states/game.lua:722		momentum: ${amount}	rozpęd: ${amount}
+src/states/game.lua:727		adds extra ${momentum} points and mult	dodaje dodatkowe ${momentum} punktów i mnożnika
+src/states/game.lua:912		Losing all Busts ends the turn.\nBusts refill at the start of each Turn	Utrata wszystkich Bustów kończy turę.\nBusty odnawiają się na początku każdej Tury
+src/states/game.lua:916		Blocks up to ${count} busts, disappears when damaged	Blokuje do ${count} bustów, znika po uszkodzeniu
+src/states/game.lua:935		ALL BUST BLOCKED	WSZYSTKIE BUSTY ZABLOKOWANE
+src/states/game.lua:951		SHIELD OVERLOADED	TARCZA PRZECIĄŻONA
+src/states/game.lua:952		${count} BUSTS BLOCKED	ZABLOKOWANE BUSTY: ${count}
+src/states/game.lua:952		${count} BUST BLOCKED	ZABLOKOWANE BUSTY: ${count}
+src/states/game.lua:1002		wager ${amount} ¤	zakład ${amount} ¤
+src/states/game.lua:1005		${STARS} Stars Unbanked	Niezbankowane gwiazdki: ${STARS}
+src/states/game.lua:1007		bank stars after each nightmare level or win the run to secure them	bankuj gwiazdki po każdym poziomie koszmaru albo wygraj podejście, by je zabezpieczyć
+src/states/game.lua:1088		praying...	modlitwa...
+src/states/game.lua:1088		pray	módl się
+src/states/game.lua:1166		Losing all Turns ends the game.\nTurns refill at the start of each level.	Utrata wszystkich Tur kończy grę.\nTury odnawiają się na początku każdego poziomu.
+src/states/game.lua:1417 (+1 others)		MERGED	POŁĄCZONO
+src/states/game.lua:1890 (+2 others)		Level $level/$count $name	Poziom $level/$count $name
+src/states/game.lua:1942		NIGHTMARE LEVEL	POZIOM KOSZMARU
+src/states/game.lua:2064 (+1 others)		Rift	Przepaść
+src/states/game.lua:2250		this coin is an affront to life itself	ta moneta to obraza dla samego życia
+src/states/game.lua:2251		this die is an affront to life itself	ta kostka to obraza dla samego życia
+src/states/game.lua:2252		we shall not suffer such an unholy thing	nie ścierpimy takiej bezbożności
+src/states/game.lua:2253		thou shalt not shy from risk	nie będziesz unikać ryzyka
+src/states/game.lua:2254		you thought you could get away with this?	myślałaś, że ujdzie ci to na sucho?
+src/states/game.lua:2255		extremely naughty	wyjątkowo niegrzeczna
+src/states/game.lua:2258	dialogue	no downside not allowed	bez wad nie wolno
+src/states/game.lua:2276	dialogue	WHAT	CO
+src/states/game.lua:2298		refilled	uzupełniono
+src/states/game.lua:2325		LAST TURN	OSTATNIA TURA
+src/states/game.lua:2444		- Out Of Dice -	- Brak Kostek -
+src/states/game.lua:2445		never	nigdy
+src/states/game.lua:2447		Looks like you're cooked\n\nGive up?	Wygląda na to, że po tobie\n\nPoddajesz się?
+src/states/game.lua:2597		INSTANT WIPE	NATYCHMIASTOWY WIPE
+src/states/game.lua:2598		${rolled} OUT OF ${rolled} DICE ROLLED BUST	${rolled} Z ${rolled} RZUCONYCH KOSTEK TO BUST
+src/states/game.lua:2615		W I P E	W I P E
+src/states/game.lua:3043		SKIP ${pip}	PRZESKOK ${pip}
+src/states/game.lua:3055		SKIP LOOPED	PRZESKOK ZAWINIĘTY
+src/states/game.lua:3294		Level Complete	Poziom ukończony
+src/states/game.lua:3335		Overshoot! +${amount} stars	Nadwyżka! +${amount} gwiazdek
+src/states/game.lua:3368		Level Coins	Monety za Poziom
+src/states/game.lua:3379		Extra Turn Coins	Monety za Dodatkowe Tury
+src/states/game.lua:3391		Combine Coins	Łączenie Monet
+src/states/game.lua:3408		Wager bonus! +${amount} stars	Bonus za zakład! +${amount} gwiazdek
+src/states/game.lua:3458		--  Level ${number} Complete!  --	--  Poziom ${number} ukończony!  --
+src/states/game.lua:3474		Score:	Wynik:
+src/states/game.lua:3476		Reward:	Nagroda:
+src/states/game.lua:3477		Extra turns:	Dodatkowe tury:
+src/states/game.lua:3478		Wager bonus:	Bonus za zakład:
+src/states/game.lua:3479		Overshoot:	Nadwyżka:
+src/states/game.lua:3481		Total:	Razem:
+src/states/game.lua:3579		don't lose it	nie zgub jej
+src/states/game.lua:3579		Soul on line	Dusza na szali
+src/states/game.lua:3586		¤${BET} wagered	Postawiono ${BET}¤
+src/states/game.lua:3590		¤ Banked	¤ Zbankowane
+src/states/game.lua:3591		Bank ¤${KEPT}?	Zbankować ${KEPT}¤?
+src/states/game.lua:3592		Win To Bank ¤	Wygraj, by zbankować ¤
+src/states/game.lua:3593		Bank ¤ in ${LEVELS} lvl	BANK ¤ za ${LEVELS} poz.
+src/states/game.lua:3607		Secure your Stars for the run\nyou won't be able to gain more this run	Zabezpiecz Gwiazdki z tego podejścia\npotem nie zdobędziesz już kolejnych
+src/states/game.lua:3609		Stars already banked this run	Gwiazdki już zbankowane w tym podejściu
+src/states/game.lua:3611		Securing Stars available after each nightmare level	Zabezpieczanie Gwiazdek dostępne po każdym poziomie koszmaru
+src/states/game.lua:3672 (+7 others)		no	nie
 src/states/game_setup.lua:161		play!	graj!
 src/states/game_setup.lua:164		need ${stars} ¤	potrzeba ${stars} ¤
 src/states/game_setup.lua:197		the young will inherit the earth	młodzi odziedziczą ziemię
