@@ -243,7 +243,7 @@ src/coloured_text.lua:95 (+12 others)		stuck	klebrig
 src/coloured_text.lua:98 (+2 others)		empty	leer
 src/display_loc.lua:3		Normal	Normal
 src/display_loc.lua:4		Pixel	Pixel
-src/endings/alley.lua:55		fix that shit	
+src/endings/alley.lua:55		fix that shit	reparier den scheiß
 src/endings/alley.lua:55		hit that shit	zieh den scheiß
 src/endings/alley.lua:112	dialogue	at least the tooth fairy will come	wenigstens kommt die zahnfee
 src/endings/alley.lua:113	dialogue	i haven't lost my baby teeth yet	ich hab meine milchzähne noch nicht verloren
@@ -292,7 +292,7 @@ src/endings/party.lua:131	dialogue	Unlock the next Depth from Star Guts for a bi
 src/endings/shirin.lua:136	dialogue	welcome back	willkommen zurück
 src/endings/shirin.lua:137	dialogue	so you believe	also glaubst du
 src/endings/shirin.lua:138	dialogue	i am here	ich bin hier
-src/endings/tooth_fairy.lua:30		hit the guts	
+src/endings/tooth_fairy.lua:30		hit the guts	zieh die gedärme
 src/endings/tooth_fairy.lua:88	dialogue	hello friend	hallo freund
 src/endings/tooth_fairy.lua:89	dialogue	any good finds?	irgendwas gutes gefunden?
 src/endings/wizard.lua:49		ponder that orb	über die kugel grübeln
@@ -598,7 +598,7 @@ src/items.lua:1008 (+1 others)		Pig Side Added	Schwein-Seite Hinzugefügt
 src/items.lua:1014 (+1 others)		Add 1 Skip side	Fügt 1 Skip-Seite hinzu
 src/items.lua:1029 (+1 others)		Skip Side Added	Skip-Seite Hinzugefügt
 src/items.lua:1034		Black Eyed Pea	Schwarzaugenbohne
-src/items.lua:1035		This die can't roll a 1 on its next roll	
+src/items.lua:1035		This die can't roll a 1 on its next roll	Der Würfel kann in seinem nächsten Wurf keine 1 werfen
 src/items.lua:1052		Grape	Traube
 src/items.lua:1053 (+1 others)		Add 1 Bonus side	Fügt 1 Bonus-Seite hinzu
 src/items.lua:1068 (+1 others)		Bonus Side Added	Bonus-Seite Hinzugefügt
@@ -1224,7 +1224,7 @@ src/states/ending_finale.lua:158	dialogue	you are brave	du bist mutig
 src/states/ending_finale.lua:159	dialogue	you are worthy	du bist würdig
 src/states/ending_finale.lua:161	dialogue	i will offer you one final wager	ich biete dir eine letzte wette
 src/states/ending_finale.lua:167	dialogue	heads: you're free	kopf: du bist frei
-src/states/ending_finale.lua:174	dialogue	tails: i will personally destroy all your files one by one	
+src/states/ending_finale.lua:174	dialogue	tails: i will personally destroy all your files one by one	zug: ich persönlich zerstöre alle deine dateien
 src/states/ending_finale.lua:190	dialogue	do it, all in	tu es, gehe all-in
 src/states/ending_finale.lua:192		flick it like you mean it	wirf um dein leben
 src/states/ending_finale.lua:192		this is real	Das hier ist echt
@@ -1287,16 +1287,16 @@ src/states/game.lua:2615		W I P E	W I P E
 src/states/game.lua:3043		SKIP ${pip}	SKIP ${pip}
 src/states/game.lua:3055		SKIP LOOPED	SKIP SCHLEIFE
 src/states/game.lua:3294		Level Complete	Level Geschafft
-src/states/game.lua:3335		Overshoot! +${amount} stars	
+src/states/game.lua:3335		Overshoot! +${amount} stars	Überschuss! +${amount} Sterne
 src/states/game.lua:3368		Level Coins	Level-Münzen
 src/states/game.lua:3379		Extra Turn Coins	Extra-Zug-Münzen
 src/states/game.lua:3391		Combine Coins	Münzen Kombiniert
-src/states/game.lua:3408		Wager bonus! +${amount} stars	
+src/states/game.lua:3408		Wager bonus! +${amount} stars	Wettgewinn! +${amount} Sterne
 src/states/game.lua:3458		--  Level ${number} Complete!  --	--  Level ${number} Geschafft!  --
 src/states/game.lua:3474		Score:	Punktzahl:
 src/states/game.lua:3476		Reward:	Belohnung:
 src/states/game.lua:3477		Extra turns:	Extra-Züge:
-src/states/game.lua:3478		Wager bonus:	
+src/states/game.lua:3478		Wager bonus:	Wettgewinn:
 src/states/game.lua:3479		Overshoot:	Überschuss:
 src/states/game.lua:3481		Total:	Gesamt:
 src/states/game.lua:3579		don't lose it	verlier sie nicht
