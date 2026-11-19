@@ -149,9 +149,9 @@ src/characters/shirin.lua:202	dialogue	RIP	RIP
 src/characters/shirin.lua:212	dialogue	Bad luck...	运气好烂。。。
 src/characters/shirin.lua:220	dialogue	Lucky!	运气不错！
 src/characters/tooth_fairy.lua:2		Tooth Fairy	牙仙
-src/characters/tooth_fairy.lua:30		Cavity	牙洞
-src/characters/tooth_fairy.lua:56	dialogue	Reach level 7 and I'll leave your teeth alone.	撑到第7关我就放过你的牙齿。
-src/characters/tooth_fairy.lua:58	dialogue	Reach level 10 and I'll leave your teeth alone.	撑到第10关我就放过你的牙齿。
+src/characters/tooth_fairy.lua:31		Cavity	牙洞
+src/characters/tooth_fairy.lua:57	dialogue	Reach level 7 and I'll leave your teeth alone.	撑到第7关我就放过你的牙齿。
+src/characters/tooth_fairy.lua:59	dialogue	Reach level 10 and I'll leave your teeth alone.	撑到第10关我就放过你的牙齿。
 src/characters/tutorial_character.lua:38	dialogue	Hi! Welcome!	嗨！欢迎光临！
 src/characters/tutorial_character.lua:39	dialogue	You're dead!	你已经死啦！
 src/characters/tutorial_character.lua:40	dialogue	Or asleep!	也可能是睡着了！
@@ -292,9 +292,9 @@ src/endings/party.lua:131	dialogue	Unlock the next Depth from Star Guts for a bi
 src/endings/shirin.lua:136	dialogue	welcome back	欢迎回来
 src/endings/shirin.lua:137	dialogue	so you believe	所以你相信
 src/endings/shirin.lua:138	dialogue	i am here	吾在此
-src/endings/tooth_fairy.lua:30		hit the guts	
-src/endings/tooth_fairy.lua:88	dialogue	hello friend	你好我的朋友
-src/endings/tooth_fairy.lua:89	dialogue	any good finds?	淘到好东西了吗？
+src/endings/tooth_fairy.lua:36		hit the guts	
+src/endings/tooth_fairy.lua:105	dialogue	hello friend	你好我的朋友
+src/endings/tooth_fairy.lua:106	dialogue	any good finds?	淘到好东西了吗？
 src/endings/wizard.lua:49		ponder that orb	注视水晶球
 src/endings/wizard.lua:141	dialogue	keep playing with me	继续和我一起玩
 src/endings/wizard.lua:142	dialogue	and you will see	你会明白
@@ -308,7 +308,7 @@ src/entities/buttons_clump.lua:131		Select your dice to score them or roll them	
 src/entities/buttons_clump.lua:133		Deselect	取消选中
 src/entities/buttons_clump.lua:134		Deselect everything to make a new selection	取消选中的所有内容以重新选中
 src/entities/buttons_clump.lua:257		Roll just the selected dice	只投掷已选中的骰子
-src/entities/buttons_clump.lua:259		Roll Blank	空投
+src/entities/buttons_clump.lua:259		Roll Blank	投出空骰子
 src/entities/buttons_clump.lua:260		Roll all blank dice	投掷所有空骰子
 src/entities/buttons_clump.lua:262		Roll All	全部重投
 src/entities/buttons_clump.lua:263		Re-roll all your dice	重新投掷你所有的骰子
@@ -355,7 +355,7 @@ src/entities/encounter_timeline.lua:438		${to_go} TO GO	还差 ${to_go}
 src/entities/eye_baby.lua:7		Eye Baby	眼睛宝宝
 src/entities/fish_spawner.lua:215		Cool Fish Available	酷鱼已解锁
 src/entities/god_shop.lua:68		CHOOSE	选吧
-src/entities/god_shop.lua:486		reroll %d ¤	刷新 %d ¤
+src/entities/god_shop.lua:499		reroll %d ¤	刷新 %d ¤
 src/entities/item.lua:498		Tooth ${count}/${limit}	牙齿 ${count}/${limit}
 src/entities/item.lua:508		a to use spells	按a以使用咒语
 src/entities/item.lua:510		right click to use spells	鼠标右键以使用咒语
@@ -450,7 +450,7 @@ src/item_unlocks.lua:232		Biscuit	饼干
 src/item_unlocks.lua:233		worth risking it for	值了
 src/item_unlocks.lua:241		Send It	放手一搏
 src/item_unlocks.lua:242		when in doubt go flat out	不知道干啥就全押
-src/item_unlocks.lua:251 (+1 others)		Ghost	幽灵
+src/item_unlocks.lua:251 (+2 others)		Ghost	幽灵
 src/item_unlocks.lua:252		pretty spooky	蛮吓人的
 src/item_unlocks.lua:261 (+1 others)		Shield	护盾
 src/item_unlocks.lua:262		bust protection	防bust
@@ -871,7 +871,6 @@ src/items.lua:4000		Paw	爪子
 src/items.lua:4003		Rolling a single die adds +2 Mult	重新投出单颗骰子时+2乘数
 src/items.lua:4016		Incel	Incel
 src/items.lua:4019		Rerolling a combo containing a Pair gives +100 Points and +1 Mult	重新投掷包含对子的任意组合时+100点数，+1乘数
-src/items.lua:4046		Ghost Carriage	幽灵马车
 src/items.lua:4049		Scoring a Full House spawns a ghost die	满堂红计分时生成一颗幽灵骰子
 src/items.lua:4063 (+5 others)		Ghost!	幽灵！
 src/items.lua:4069		Ghostanza	幽灵兰
@@ -926,152 +925,152 @@ src/items.lua:4695		Loopongo	回环菇
 src/items.lua:4698		Straights can loop	任意顺子均可循环
 src/items.lua:4736		Lotus Loan	莲子债
 src/items.lua:4739		Free money?	天上掉馅饼？
-src/items.lua:4805 (+2 others)		Even Bad	偶数坏
-src/items.lua:4806		-50 Points per scored even die	每有一个被计分的偶数面值-50点数
-src/items.lua:4825 (+2 others)		Odd Bad	奇数坏
-src/items.lua:4826		-1 Mult per scored odd die	每有一个被计分的奇数面值-1乘数
-src/items.lua:4845		-150 Points per scored even die	每有一个被计分的偶数面值-150点数
-src/items.lua:4864		-3 Mult per scored odd die	每有一个被计分的奇数面值-3乘数
-src/items.lua:4883 (+1 others)		-200 Points per scored even die	每有一个被计分的偶数面值-200点数
-src/items.lua:4902 (+1 others)		-5 Mult per scored odd die	每有一个被计分的奇数面值-5乘数
-src/items.lua:4920		Points -100	点数-100
-src/items.lua:4921 (+1 others)		-100 Points	-100点数
-src/items.lua:4935		Points -150	点数-150
-src/items.lua:4936		-150 Points	-150点数
-src/items.lua:4949		Points -250	点数-250
-src/items.lua:4950		-250 Points	-250点数
-src/items.lua:4963		Mult -1	乘数-1
-src/items.lua:4964		-1 Mult	-1乘数
-src/items.lua:4977		Mult -2	乘数-2
-src/items.lua:4978		-2 Mult	-2乘数
-src/items.lua:4991		Mult -4	乘数-4
-src/items.lua:4992		-4 Mult	-4乘数
-src/items.lua:5005		Half Points	点数减半
-src/items.lua:5006		Halves the Points	将点数减半
-src/items.lua:5021		Half Mult	乘数减半
-src/items.lua:5022		Halves the Mult	将乘数减半
-src/items.lua:5037 (+1 others)		Bad Momentum	坏惯性
-src/items.lua:5038		Start each turn with -2 Momentum	每回合开始时获得-2惯性
-src/items.lua:5048		-2 Momentum	-2惯性
-src/items.lua:5054 (+1 others)		-1 Momentum	-1惯性
-src/items.lua:5069		Sore Loser	输不起
-src/items.lua:5070		Bust resets Momentum	Bust时重置惯性
-src/items.lua:5086		Two Left Feet	两只左脚
-src/items.lua:5087		-100 Points for rerolling exactly 2 dice	重投正好2枚骰子时-100点数
-src/items.lua:5103		6s and 4s to 1s	6和4变为1
-src/items.lua:5104		6s and 4s always reroll into 1s	6和4重新投掷时将翻至1
-src/items.lua:5134		6s to 1s	6变为1
-src/items.lua:5135		6s always reroll into 1s	6重新投掷时将翻至1
-src/items.lua:5166		Minus Max Bust	减bust上限
-src/items.lua:5167		Bust Limit -1	Bust上限-1
-src/items.lua:5184		Turn Down Power Up	减回合加能力
-src/items.lua:5185		Turn Limit -1, Power Limit +2	回合上限-1，能力值上限+2
-src/items.lua:5210 (+1 others)		Cursed Score	诅咒分数
-src/items.lua:5216 (+1 others)		Feels bad for you	感觉蛮对不起你的
-src/items.lua:5217		Each time you score, 1 random die takes damage	每次计分时，随机一颗骰子受到伤害
-src/items.lua:5234 (+1 others)		cursed!	诅咒！
-src/items.lua:5246		Each time you bank, 5 random dice take damage	每次bank时，随机5颗骰子受到伤害
-src/items.lua:5273		Small Minded	心胸狭隘
-src/items.lua:5274		Combos above 4 dice give no score	大于4颗骰子的组合不计分
-src/items.lua:5312		Bad Threes	三坏
-src/items.lua:5313		-3 Mult per scored 3	每计分一个3时-3乘数
-src/items.lua:5330		Bad Fours	四坏
-src/items.lua:5331		-4 Mult per scored 4	每计分一个4时-4乘数
-src/items.lua:5348		Bad Sixes	六坏
-src/items.lua:5349		-6 Mult per scored 6	每计分一个6时-6乘数
-src/items.lua:5367		Pair Aversion	坏事成双
-src/items.lua:5368		Combos containing a Pair -3 Mult	包含对子的组合-3乘数
-src/items.lua:5388		Triple Trouble	三个臭皮匠
-src/items.lua:5389		Combos containing Three Of A Kind -4 Mult	包含三条的组合-3乘数
-src/items.lua:5413		No Four Kind	禁止四条
-src/items.lua:5414		Four Of A Kind gives no score	四条不得分
-src/items.lua:5439		Empty House	禁止满堂红
-src/items.lua:5440		Full House gives no score	满堂红不得分
-src/items.lua:5466		No Bonanza	禁止头彩
-src/items.lua:5467		Star Bonanza gives no score	星星头彩不得分
-src/items.lua:5493		Slippery 6s	滑六六的
-src/items.lua:5494		Auto-reroll dice that show a 6	投出6的骰子自动重新投掷
-src/items.lua:5512		Stupid Dice	笨骰子
-src/items.lua:5513		Dice randomly reroll on their own.	骰子会自行随机重新投掷。
-src/items.lua:5603		Slippery Threes	三溜溜的
-src/items.lua:5604		Auto-reroll dice that show a 3, score 33 Points for each	投出3的骰子自动重新投掷，每次+33点数
-src/items.lua:5625 (+4 others)		Bad Tooth	坏齿
-src/items.lua:5626		-3 Mult	-3乘数
-src/items.lua:5654		Dice Limit -1	骰子上限-1
-src/items.lua:5715 (+12 others)		Dues	应缴债务
-src/items.lua:5716		Rerolls all dice and coins.\n5% chance to activate on dice rolls.	重新投出所有骰子和硬币。\n每次投出骰子有5%几率触发。
-src/items.lua:5737		Rerolled!	重新投掷！
-src/items.lua:5743		Rerolls a single random coin.\n5% chance to activate on dice rolls.	重新抛出任意单枚硬币。\n每次投出骰子有5%几率触发。
-src/items.lua:5765		Coin rerolled!	抛出硬币！
-src/items.lua:5771		All dice roll 1s.\n5% chance to activate on dice rolls.	所有骰子投出1。\n每次投出骰子有5%几率触发。
-src/items.lua:5798		Deal 4 damage spread randomly across dice.\n5% chance to activate on dice rolls.	使所有骰子平分4点伤害。\n每次投出骰子有5%几率触发。
-src/items.lua:5815 (+1 others)		No dice!	没有骰子！
-src/items.lua:5824		Cursed!	诅咒！
-src/items.lua:5831		Deal 1 damage to all dice.\n5% chance to activate on dice rolls.	使所有骰子受到1点伤害。\n每次投出骰子有5%几率触发。
-src/items.lua:5855		Damaged!	受伤！
-src/items.lua:5861		Deal 2 damage to the selected die.\n5% chance to activate on dice rolls.	使所选中的骰子受到2点伤害。\n每次投出骰子有5%几率触发。
-src/items.lua:5883 (+4 others)		Select 1 die	选择一颗骰子
-src/items.lua:5893		Add 1 Bust side to the selected die.\n5% chance to activate on dice rolls.	为选中的骰子增加1个Bust面。\n每次投出骰子有5%几率触发。
-src/items.lua:5926 (+2 others)		No free side	没有空余面
-src/items.lua:5937		Destroy the selected die.\n5% chance to activate on dice rolls.	毁灭所选中的骰子。\n每次投出骰子有5%几率触发。
-src/items.lua:5969		Add 1 Cracked side to the selected die.\n5% chance to activate on dice rolls.	为选中的骰子增加1个开裂面。\n每次投出骰子有5%几率触发。
-src/items.lua:6013		Add 1 Doom side to the selected die.\n5% chance to activate on dice rolls.	为选中的骰子增加1个厄运面。\n每次投出骰子有5%几率触发。
-src/items.lua:6057		+1 Bust.\n5% chance to activate on dice rolls.	+1 Bust.\n每次投出骰子有5%几率触发。
-src/items.lua:6073		+1 Bust	+1 Bust
-src/items.lua:6084		+3 Bust.\n5% chance to activate on dice rolls.	+3 Bust.\n每次投出骰子有5%几率触发。
-src/items.lua:6100		+3 Bust	+3 Bust
-src/items.lua:6111		-1 Turn.\n5% chance to activate on dice rolls.	-1回合。\n每次投出骰子有5%几率触发。
-src/items.lua:6128		-1 Turn	-1回合
-src/items.lua:6141		Fish Bucket	鱼桶
-src/items.lua:6151		No fish power!	没有鱼力！
-src/items.lua:6161		+15 Fish!	+15条鱼！
-src/items.lua:6166		Fish Offering	上供
-src/items.lua:6167		-10 §, -5% difficulty	-10 §, -5% 难度
-src/items.lua:6176		Need 10 fish!	需要10条鱼！
-src/items.lua:6183		-5% difficulty!	-5%难度！
-src/items.lua:6188		Option Call	看涨期权
-src/items.lua:6198		Need 20 fish!	需要20条鱼！
-src/items.lua:6214		Pump	炒作
-src/items.lua:6215		+10 § price at the next market	下一场鱼市+10 § 价格
-src/items.lua:6225		Price pumped!	已炒作！
-src/items.lua:6230		Dump	砸盘
-src/items.lua:6231		-10 § price at the next market	下一场鱼市-10 § 价格
-src/items.lua:6241		Price dumped!	已砸盘！
-src/items.lua:6248		Roe	鱼籽
-src/items.lua:6249		+3 § at the start of each level	每关开始时+3 §
-src/items.lua:6270		Whale Oil	鲸鱼油
-src/items.lua:6271		+1 Points per § on score	计分时每有1 § ，+1点数
-src/items.lua:6285		Carp Aspic	水晶鲤鱼
-src/items.lua:6286		+1 Mult per 5 § spent this level	该关卡每消耗5 § ，+1点数
-src/items.lua:6294		+${MULT} Mult, gains +1 per 5 § spent this level	+${MULT}乘数，本关每消耗5 § ，+1
-src/items.lua:6317		Piranha	食人鱼
-src/items.lua:6318		+5 Mult.\nEats 10 § at the start of each level.\nIf you can't feed it, it eats a die instead.	+5乘数。\n回合开始时吃掉10 § 。\n如果你无法喂饱它，它会吃掉一颗骰子。
-src/items.lua:6339		Ate a die!	吃掉了骰子！
-src/items.lua:6341		Hungry!	饿了！
-src/items.lua:6351		Barnacle	藤壶
-src/items.lua:6352		+1 § per 10 § held at the start of each level	每关开始时每拥有10 § ，额外获得1 §
-src/items.lua:6375		Ball Gag	口球
-src/items.lua:6376		Dice pip becomes 1	蹭至1
-src/items.lua:6394		Peanut	花生
-src/items.lua:6395		Dice pip becomes 2	蹭至2
-src/items.lua:6413		Wood Sorrel	酢浆草
-src/items.lua:6414		Dice pip becomes 3	蹭至3
-src/items.lua:6432		Picture Frame	相框
-src/items.lua:6433		Dice pip becomes 4	蹭至4
-src/items.lua:6451		Paper Star	纸星星
-src/items.lua:6452		Dice pip becomes 5	蹭至5
-src/items.lua:6470		Honeycomb	蜂巢
-src/items.lua:6471		Dice pip becomes 6	蹭至6
-src/items.lua:6490		Scrambled Eggs	炒蛋
-src/items.lua:6491		Dice pip becomes ???	蹭至???
-src/items.lua:6518		Maths Test	数学考试
-src/items.lua:6521		Spawn 0-6 random numeracy foods	生成0-6个随机数理学食物
-src/items.lua:6551		Result: $grade / $total	得分：$grade / $total
-src/items.lua:6562		Clown Shoes	小丑鞋
-src/items.lua:6565		Nudge all dice either -1 or +3 pips	所有骰子跳至-1至+3范围内的面值
-src/items.lua:6574 (+1 others)		roll dice first	先投出骰子
-src/items.lua:6592		Bamboozle	迷惑
-src/items.lua:6595		Nudge all dice individually between +0 and +2 pips.	所有骰子跳至0至+2范围内的面值
+src/items.lua:4806 (+2 others)		Even Bad	偶数坏
+src/items.lua:4807		-50 Points per scored even die	每有一个被计分的偶数面值-50点数
+src/items.lua:4826 (+2 others)		Odd Bad	奇数坏
+src/items.lua:4827		-1 Mult per scored odd die	每有一个被计分的奇数面值-1乘数
+src/items.lua:4846		-150 Points per scored even die	每有一个被计分的偶数面值-150点数
+src/items.lua:4865		-3 Mult per scored odd die	每有一个被计分的奇数面值-3乘数
+src/items.lua:4884 (+1 others)		-200 Points per scored even die	每有一个被计分的偶数面值-200点数
+src/items.lua:4903 (+1 others)		-5 Mult per scored odd die	每有一个被计分的奇数面值-5乘数
+src/items.lua:4921		Points -100	点数-100
+src/items.lua:4922 (+1 others)		-100 Points	-100点数
+src/items.lua:4936		Points -150	点数-150
+src/items.lua:4937		-150 Points	-150点数
+src/items.lua:4950		Points -250	点数-250
+src/items.lua:4951		-250 Points	-250点数
+src/items.lua:4964		Mult -1	乘数-1
+src/items.lua:4965		-1 Mult	-1乘数
+src/items.lua:4978		Mult -2	乘数-2
+src/items.lua:4979		-2 Mult	-2乘数
+src/items.lua:4992		Mult -4	乘数-4
+src/items.lua:4993		-4 Mult	-4乘数
+src/items.lua:5006		Half Points	点数减半
+src/items.lua:5007		Halves the Points	将点数减半
+src/items.lua:5022		Half Mult	乘数减半
+src/items.lua:5023		Halves the Mult	将乘数减半
+src/items.lua:5038 (+1 others)		Bad Momentum	坏惯性
+src/items.lua:5039		Start each turn with -2 Momentum	每回合开始时获得-2惯性
+src/items.lua:5049		-2 Momentum	-2惯性
+src/items.lua:5055 (+1 others)		-1 Momentum	-1惯性
+src/items.lua:5070		Sore Loser	输不起
+src/items.lua:5071		Bust resets Momentum	Bust时重置惯性
+src/items.lua:5087		Two Left Feet	两只左脚
+src/items.lua:5088		-100 Points for rerolling exactly 2 dice	重投正好2枚骰子时-100点数
+src/items.lua:5104		6s and 4s to 1s	6和4变为1
+src/items.lua:5105		6s and 4s always reroll into 1s	6和4重新投掷时将翻至1
+src/items.lua:5135		6s to 1s	6变为1
+src/items.lua:5136		6s always reroll into 1s	6重新投掷时将翻至1
+src/items.lua:5167		Minus Max Bust	减bust上限
+src/items.lua:5168		Bust Limit -1	Bust上限-1
+src/items.lua:5185		Turn Down Power Up	减回合加能力
+src/items.lua:5186		Turn Limit -1, Power Limit +2	回合上限-1，能力值上限+2
+src/items.lua:5211 (+1 others)		Cursed Score	诅咒分数
+src/items.lua:5217 (+1 others)		Feels bad for you	感觉蛮对不起你的
+src/items.lua:5218		Each time you score, 1 random die takes damage	每次计分时，随机一颗骰子受到伤害
+src/items.lua:5235 (+1 others)		cursed!	诅咒！
+src/items.lua:5247		Each time you bank, 5 random dice take damage	每次bank时，随机5颗骰子受到伤害
+src/items.lua:5274		Small Minded	心胸狭隘
+src/items.lua:5275		Combos above 4 dice give no score	大于4颗骰子的组合不计分
+src/items.lua:5313		Bad Threes	三坏
+src/items.lua:5314		-3 Mult per scored 3	每计分一个3时-3乘数
+src/items.lua:5331		Bad Fours	四坏
+src/items.lua:5332		-4 Mult per scored 4	每计分一个4时-4乘数
+src/items.lua:5349		Bad Sixes	六坏
+src/items.lua:5350		-6 Mult per scored 6	每计分一个6时-6乘数
+src/items.lua:5368		Pair Aversion	坏事成双
+src/items.lua:5369		Combos containing a Pair -3 Mult	包含对子的组合-3乘数
+src/items.lua:5389		Triple Trouble	三个臭皮匠
+src/items.lua:5390		Combos containing Three Of A Kind -4 Mult	包含三条的组合-3乘数
+src/items.lua:5414		No Four Kind	禁止四条
+src/items.lua:5415		Four Of A Kind gives no score	四条不得分
+src/items.lua:5440		Empty House	禁止满堂红
+src/items.lua:5441		Full House gives no score	满堂红不得分
+src/items.lua:5467		No Bonanza	禁止头彩
+src/items.lua:5468		Star Bonanza gives no score	星星头彩不得分
+src/items.lua:5494		Slippery 6s	滑六六的
+src/items.lua:5495		Auto-reroll dice that show a 6	投出6的骰子自动重新投掷
+src/items.lua:5513		Stupid Dice	笨骰子
+src/items.lua:5514		Dice randomly reroll on their own.	骰子会自行随机重新投掷。
+src/items.lua:5604		Slippery Threes	三溜溜的
+src/items.lua:5605		Auto-reroll dice that show a 3, score 33 Points for each	投出3的骰子自动重新投掷，每次+33点数
+src/items.lua:5626 (+4 others)		Bad Tooth	坏齿
+src/items.lua:5627		-3 Mult	-3乘数
+src/items.lua:5655		Dice Limit -1	骰子上限-1
+src/items.lua:5716 (+12 others)		Dues	应缴债务
+src/items.lua:5717		Rerolls all dice and coins.\n5% chance to activate on dice rolls.	重新投出所有骰子和硬币。\n每次投出骰子有5%几率触发。
+src/items.lua:5738		Rerolled!	重新投掷！
+src/items.lua:5744		Rerolls a single random coin.\n5% chance to activate on dice rolls.	重新抛出任意单枚硬币。\n每次投出骰子有5%几率触发。
+src/items.lua:5766		Coin rerolled!	抛出硬币！
+src/items.lua:5772		All dice roll 1s.\n5% chance to activate on dice rolls.	所有骰子投出1。\n每次投出骰子有5%几率触发。
+src/items.lua:5799		Deal 4 damage spread randomly across dice.\n5% chance to activate on dice rolls.	使所有骰子平分4点伤害。\n每次投出骰子有5%几率触发。
+src/items.lua:5816 (+1 others)		No dice!	没有骰子！
+src/items.lua:5825		Cursed!	诅咒！
+src/items.lua:5832		Deal 1 damage to all dice.\n5% chance to activate on dice rolls.	使所有骰子受到1点伤害。\n每次投出骰子有5%几率触发。
+src/items.lua:5856		Damaged!	受伤！
+src/items.lua:5862		Deal 2 damage to the selected die.\n5% chance to activate on dice rolls.	使所选中的骰子受到2点伤害。\n每次投出骰子有5%几率触发。
+src/items.lua:5884 (+4 others)		Select 1 die	选择一颗骰子
+src/items.lua:5894		Add 1 Bust side to the selected die.\n5% chance to activate on dice rolls.	为选中的骰子增加1个Bust面。\n每次投出骰子有5%几率触发。
+src/items.lua:5927 (+2 others)		No free side	没有空余面
+src/items.lua:5938		Destroy the selected die.\n5% chance to activate on dice rolls.	毁灭所选中的骰子。\n每次投出骰子有5%几率触发。
+src/items.lua:5970		Add 1 Cracked side to the selected die.\n5% chance to activate on dice rolls.	为选中的骰子增加1个开裂面。\n每次投出骰子有5%几率触发。
+src/items.lua:6014		Add 1 Doom side to the selected die.\n5% chance to activate on dice rolls.	为选中的骰子增加1个厄运面。\n每次投出骰子有5%几率触发。
+src/items.lua:6058		+1 Bust.\n5% chance to activate on dice rolls.	+1 Bust.\n每次投出骰子有5%几率触发。
+src/items.lua:6074		+1 Bust	+1 Bust
+src/items.lua:6085		+3 Bust.\n5% chance to activate on dice rolls.	+3 Bust.\n每次投出骰子有5%几率触发。
+src/items.lua:6101		+3 Bust	+3 Bust
+src/items.lua:6112		-1 Turn.\n5% chance to activate on dice rolls.	-1回合。\n每次投出骰子有5%几率触发。
+src/items.lua:6129		-1 Turn	-1回合
+src/items.lua:6142		Fish Bucket	鱼桶
+src/items.lua:6152		No fish power!	没有鱼力！
+src/items.lua:6162		+15 Fish!	+15条鱼！
+src/items.lua:6167		Fish Offering	上供
+src/items.lua:6168		-10 §, -5% difficulty	-10 §, -5% 难度
+src/items.lua:6177		Need 10 fish!	需要10条鱼！
+src/items.lua:6184		-5% difficulty!	-5%难度！
+src/items.lua:6189		Option Call	看涨期权
+src/items.lua:6199		Need 20 fish!	需要20条鱼！
+src/items.lua:6215		Pump	炒作
+src/items.lua:6216		+10 § price at the next market	下一场鱼市+10 § 价格
+src/items.lua:6226		Price pumped!	已炒作！
+src/items.lua:6231		Dump	砸盘
+src/items.lua:6232		-10 § price at the next market	下一场鱼市-10 § 价格
+src/items.lua:6242		Price dumped!	已砸盘！
+src/items.lua:6249		Roe	鱼籽
+src/items.lua:6250		+3 § at the start of each level	每关开始时+3 §
+src/items.lua:6271		Whale Oil	鲸鱼油
+src/items.lua:6272		+1 Points per § on score	计分时每有1 § ，+1点数
+src/items.lua:6286		Carp Aspic	水晶鲤鱼
+src/items.lua:6287		+1 Mult per 5 § spent this level	该关卡每消耗5 § ，+1点数
+src/items.lua:6295		+${MULT} Mult, gains +1 per 5 § spent this level	+${MULT}乘数，本关每消耗5 § ，+1
+src/items.lua:6318		Piranha	食人鱼
+src/items.lua:6319		+5 Mult.\nEats 10 § at the start of each level.\nIf you can't feed it, it eats a die instead.	+5乘数。\n回合开始时吃掉10 § 。\n如果你无法喂饱它，它会吃掉一颗骰子。
+src/items.lua:6340		Ate a die!	吃掉了骰子！
+src/items.lua:6342		Hungry!	饿了！
+src/items.lua:6352		Barnacle	藤壶
+src/items.lua:6353		+1 § per 10 § held at the start of each level	每关开始时每拥有10 § ，额外获得1 §
+src/items.lua:6376		Ball Gag	口球
+src/items.lua:6377		Dice pip becomes 1	蹭至1
+src/items.lua:6395		Peanut	花生
+src/items.lua:6396		Dice pip becomes 2	蹭至2
+src/items.lua:6414		Wood Sorrel	酢浆草
+src/items.lua:6415		Dice pip becomes 3	蹭至3
+src/items.lua:6433		Picture Frame	相框
+src/items.lua:6434		Dice pip becomes 4	蹭至4
+src/items.lua:6452		Paper Star	纸星星
+src/items.lua:6453		Dice pip becomes 5	蹭至5
+src/items.lua:6471		Honeycomb	蜂巢
+src/items.lua:6472		Dice pip becomes 6	蹭至6
+src/items.lua:6491		Scrambled Eggs	炒蛋
+src/items.lua:6492		Dice pip becomes ???	蹭至???
+src/items.lua:6519		Maths Test	数学考试
+src/items.lua:6522		Spawn 0-6 random numeracy foods	生成0-6个随机数理学食物
+src/items.lua:6552		Result: $grade / $total	得分：$grade / $total
+src/items.lua:6563		Clown Shoes	小丑鞋
+src/items.lua:6566		Nudge all dice either -1 or +3 pips	所有骰子跳至-1至+3范围内的面值
+src/items.lua:6575 (+1 others)		roll dice first	先投出骰子
+src/items.lua:6593		Bamboozle	迷惑
+src/items.lua:6596		Nudge all dice individually between +0 and +2 pips.	所有骰子跳至0至+2范围内的面值
 src/keybinds.lua:3 (+2 others)		Roll	投掷
 src/keybinds.lua:4 (+2 others)		Score	计分
 src/keybinds.lua:5 (+1 others)		BANK	BANK
@@ -1152,8 +1151,8 @@ src/states/catalogue.lua:50 (+7 others)		< back	< 返回
 src/states/catalogue.lua:86 (+4 others)		dawn mode	日间模式
 src/states/catalogue.lua:86 (+4 others)		night mode	夜间模式
 src/states/controls.lua:65		Keybinds	键位绑定
-src/states/controls.lua:144		press a key	按下任意键
-src/states/controls.lua:155		reset keybinds	重置键位绑定
+src/states/controls.lua:145		press a key	按下任意键
+src/states/controls.lua:156		reset keybinds	重置键位绑定
 src/states/credits.lua:43		Created by	创作者
 src/states/credits.lua:49		Translation	翻译
 src/states/credits.lua:56		Special Thanks	特别鸣谢
@@ -1176,31 +1175,31 @@ src/states/customisation.lua:461		Dye	染色
 src/states/customisation.lua:462		recolour	重新上色
 src/states/ending.lua:244 (+6 others)		hit that shit?	来一口？
 src/states/ending.lua:303 (+4 others)		play	开玩
-src/states/ending.lua:490 (+4 others)		done	完成
-src/states/ending_bet.lua:59 (+1 others)		--  Run Summary  --	— 游戏总结 —
-src/states/ending_bet.lua:73 (+1 others)		Level reached:	到达关卡：
-src/states/ending_bet.lua:74 (+1 others)		Points scored:	总积分：
-src/states/ending_bet.lua:75 (+1 others)		Dice rolled:	投出的骰子：
-src/states/ending_bet.lua:76 (+1 others)		Ones rolled:	投出的1：
-src/states/ending_bet.lua:77 (+1 others)		Bust rate:	Bust率：
-src/states/ending_bet.lua:79 (+1 others)		Run stars:	本次游戏的星星：
-src/states/ending_bet.lua:93 (+4 others)		¤ banked	¤ 已收获
-src/states/ending_bet.lua:156	dialogue	you won	你赢了
-src/states/ending_bet.lua:161	dialogue	you have done very well	你做得很好
-src/states/ending_bet.lua:163	dialogue	a treat for a brave child	这是给勇敢孩子的一点儿奖励
-src/states/ending_bet.lua:180	dialogue	banking early though?	不过提前收获这一点？
-src/states/ending_bet.lua:181 (+1 others)	dialogue	how boring	真无趣
-src/states/ending_bet.lua:185	dialogue	no more waking up	不准再醒来了
-src/states/ending_bet.lua:186	dialogue	i am god i forbid it	吾是神吾禁止如此
-src/states/ending_bet.lua:193 (+2 others)		star	星星
-src/states/ending_bet.lua:197	dialogue	toss a coin\n\ndouble or nothing	抛枚硬币吧\n\n要么双倍要么回家
-src/states/ending_bet.lua:198	dialogue	i create reality	现实由吾编织
-src/states/ending_bet.lua:215	dialogue	brave	很有勇气
-src/states/ending_bet.lua:216	dialogue	but not enough faith	但是信念不够
-src/states/ending_bet.lua:218	dialogue	you did well	你做的不错
-src/states/ending_bet.lua:219	dialogue	you are my child	你是吾得孩子
-src/states/ending_bet.lua:220 (+1 others)	dialogue	and i am your god	而吾是你的神
-src/states/ending_bet.lua:280		pass and bank	跳过并bank
+src/states/ending.lua:497 (+4 others)		done	完成
+src/states/ending_bet.lua:60 (+1 others)		--  Run Summary  --	— 游戏总结 —
+src/states/ending_bet.lua:74 (+1 others)		Level reached:	到达关卡：
+src/states/ending_bet.lua:75 (+1 others)		Points scored:	总积分：
+src/states/ending_bet.lua:76 (+1 others)		Dice rolled:	投出的骰子：
+src/states/ending_bet.lua:77 (+1 others)		Ones rolled:	投出的1：
+src/states/ending_bet.lua:78 (+1 others)		Bust rate:	Bust率：
+src/states/ending_bet.lua:80 (+1 others)		Run stars:	本次游戏的星星：
+src/states/ending_bet.lua:94 (+4 others)		¤ banked	¤ 已收获
+src/states/ending_bet.lua:157	dialogue	you won	你赢了
+src/states/ending_bet.lua:162	dialogue	you have done very well	你做得很好
+src/states/ending_bet.lua:164	dialogue	a treat for a brave child	这是给勇敢孩子的一点儿奖励
+src/states/ending_bet.lua:181	dialogue	banking early though?	不过提前收获这一点？
+src/states/ending_bet.lua:182 (+1 others)	dialogue	how boring	真无趣
+src/states/ending_bet.lua:186	dialogue	no more waking up	不准再醒来了
+src/states/ending_bet.lua:187	dialogue	i am god i forbid it	吾是神吾禁止如此
+src/states/ending_bet.lua:194 (+2 others)		star	星星
+src/states/ending_bet.lua:198	dialogue	toss a coin\n\ndouble or nothing	抛枚硬币吧\n\n要么双倍要么回家
+src/states/ending_bet.lua:199	dialogue	i create reality	现实由吾编织
+src/states/ending_bet.lua:216	dialogue	brave	很有勇气
+src/states/ending_bet.lua:217	dialogue	but not enough faith	但是信念不够
+src/states/ending_bet.lua:219	dialogue	you did well	你做的不错
+src/states/ending_bet.lua:220	dialogue	you are my child	你是吾得孩子
+src/states/ending_bet.lua:221 (+1 others)	dialogue	and i am your god	而吾是你的神
+src/states/ending_bet.lua:281		pass and bank	跳过并bank
 src/states/ending_demo.lua:132 (+8 others)	dialogue	i am god	吾即是神
 src/states/ending_demo.lua:133	dialogue	thats it for the demo	demo到此为止啦
 src/states/ending_demo.lua:135	dialogue	buy the game now	现在去购买游戏吧
@@ -1236,80 +1235,82 @@ src/states/fish_market.lua:87		--  Fish Market  --	— 鱼市 —
 src/states/fish_market.lua:193		Sell Fish	卖鱼
 src/states/fish_market.lua:222		Buy Fish	卖鱼
 src/states/fish_market.lua:265		Next!	完成！
-src/states/game.lua:146 (+2 others)		back	返回
-src/states/game.lua:160		PAUSE II	暂停中  I I
-src/states/game.lua:167 (+1 others)		Continue	继续
-src/states/game.lua:171 (+1 others)		Cannot Restart Wager Runs	无法重新开始已下注的游戏
-src/states/game.lua:174		Restart	重新开始
-src/states/game.lua:176		Restart the run from scratch\nand lose all gained stars?	确定重新开始\n并失去所有获得的星星？
-src/states/game.lua:182 (+3 others)		Options	选项
-src/states/game.lua:190		Save and Quit	保存并退出
-src/states/game.lua:191		(Cant Save Right Now)	（当下无法保存）
-src/states/game.lua:197		Abandon	放弃
-src/states/game.lua:199		Quit to menu and lose all gained stars?	退出至菜单并失去所有获得的星星？
-src/states/game.lua:204		No way out	无处可逃
-src/states/game.lua:515		secure the points\nend the turn\nrecharge character power\nclear momentum	保全分数\n结束该回合\n重置角色能力值\n清空惯性
-src/states/game.lua:620		you must have some points to bank	没有可bank的分数
-src/states/game.lua:722		momentum: ${amount}	惯性：${amount}
-src/states/game.lua:727		adds extra ${momentum} points and mult	增加额外${momentum}分数和乘数
-src/states/game.lua:912		Losing all Busts ends the turn.\nBusts refill at the start of each Turn	失去全部Bust将结束回合。\nBust计数在每回合开始时重置
-src/states/game.lua:916		Blocks up to ${count} busts, disappears when damaged	可阻挡最多${count}个bust，受到伤害时消失
-src/states/game.lua:935		ALL BUST BLOCKED	已阻挡全部BUST
-src/states/game.lua:951		SHIELD OVERLOADED	护盾超载
-src/states/game.lua:952		${count} BUSTS BLOCKED	阻挡${count}个BUST
-src/states/game.lua:952		${count} BUST BLOCKED	阻挡${count}个BUST
-src/states/game.lua:1002		wager ${amount} ¤	赌上 ${amount} ¤
-src/states/game.lua:1005		${STARS} Stars Unbanked	${STARS}个未收获的星星
-src/states/game.lua:1007		bank stars after each nightmare level or win the run to secure them	在每个噩梦关卡结束后收获星星或者通关整个游戏以收获星星
-src/states/game.lua:1088		praying...	祈祷中。。
-src/states/game.lua:1088		pray	祈祷
-src/states/game.lua:1166		Losing all Turns ends the game.\nTurns refill at the start of each level.	所有回合耗尽后将结束游戏。\n回合在每关开始时重置。
-src/states/game.lua:1417 (+1 others)		MERGED	合成
-src/states/game.lua:1890 (+2 others)		Level $level/$count $name	关卡 $level/$count $name
-src/states/game.lua:1942		NIGHTMARE LEVEL	噩梦关卡
-src/states/game.lua:2064 (+1 others)		Rift	裂谷
-src/states/game.lua:2250		this coin is an affront to life itself	这颗硬币是对生命的侮辱
-src/states/game.lua:2251		this die is an affront to life itself	这颗骰子是对生命的侮辱
-src/states/game.lua:2252		we shall not suffer such an unholy thing	吾不允许如此不洁之物存在
-src/states/game.lua:2253		thou shalt not shy from risk	汝不应逃避风险
-src/states/game.lua:2254		you thought you could get away with this?	你还真以为能蒙混过关？
-src/states/game.lua:2255		extremely naughty	真不听话
-src/states/game.lua:2258	dialogue	no downside not allowed	吾不允许没有反面
-src/states/game.lua:2276	dialogue	WHAT	干什么！！
-src/states/game.lua:2298		refilled	已重置
-src/states/game.lua:2325		LAST TURN	最终回合
-src/states/game.lua:2444		- Out Of Dice -	- 没骰子了 -
-src/states/game.lua:2445		never	绝不
-src/states/game.lua:2447		Looks like you're cooked\n\nGive up?	看上去没救了欸\n\n要放弃吗？
-src/states/game.lua:2597		INSTANT WIPE	INSTANT WIPE
-src/states/game.lua:2598		${rolled} OUT OF ${rolled} DICE ROLLED BUST	${rolled}个骰子中${rolled}个已BUST
-src/states/game.lua:2615		W I P E	W I P E
-src/states/game.lua:3043		SKIP ${pip}	跳过${pip}
-src/states/game.lua:3055		SKIP LOOPED	跳过循环中
-src/states/game.lua:3294		Level Complete	关卡完成
-src/states/game.lua:3335		Overshoot! +${amount} stars	超额！+${amount}星星
-src/states/game.lua:3368		Level Coins	关卡硬币
-src/states/game.lua:3379		Extra Turn Coins	多余回合硬币
-src/states/game.lua:3391		Combine Coins	合成硬币
-src/states/game.lua:3408		Wager bonus! +${amount} stars	下注加成！+${amount}星星
-src/states/game.lua:3458		--  Level ${number} Complete!  --	— 第${number}关完成！ —
-src/states/game.lua:3474		Score:	分数：
-src/states/game.lua:3476		Reward:	奖励：
-src/states/game.lua:3477		Extra turns:	多余回合：
-src/states/game.lua:3478		Wager bonus:	下注加成：
-src/states/game.lua:3479		Overshoot:	超额：
-src/states/game.lua:3481		Total:	共：
-src/states/game.lua:3579		don't lose it	可别输光光了
-src/states/game.lua:3579		Soul on line	事关灵魂
-src/states/game.lua:3586		¤${BET} wagered	已下注 ¤${BET}
-src/states/game.lua:3590		¤ Banked	已收获 ¤
-src/states/game.lua:3591		Bank ¤${KEPT}?	是否收获 ¤${KEPT}?
-src/states/game.lua:3592		Win To Bank ¤	通关以收获¤
-src/states/game.lua:3593		Bank ¤ in ${LEVELS} lvl	${LEVELS}关后可收获 ¤
-src/states/game.lua:3607		Secure your Stars for the run\nyou won't be able to gain more this run	收获本场游戏的星星\n本场游戏无法获得更多星星
-src/states/game.lua:3609		Stars already banked this run	本场游戏已收获的星星
-src/states/game.lua:3611		Securing Stars available after each nightmare level	每次噩梦关卡后均可收获星星
-src/states/game.lua:3672 (+7 others)		no	关
+src/states/game.lua:147 (+2 others)		back	返回
+src/states/game.lua:161		PAUSE II	暂停中  I I
+src/states/game.lua:169 (+1 others)		Continue	继续
+src/states/game.lua:173 (+1 others)		Cannot Restart Wager Runs	无法重新开始已下注的游戏
+src/states/game.lua:176		Restart	重新开始
+src/states/game.lua:178		Restart the run from scratch\nand lose all gained stars?	确定重新开始\n并失去所有获得的星星？
+src/states/game.lua:184 (+3 others)		Options	选项
+src/states/game.lua:192		Save and Quit	保存并退出
+src/states/game.lua:193		(Cant Save Right Now)	（当下无法保存）
+src/states/game.lua:198		No escape	
+src/states/game.lua:200		Abandon	放弃
+src/states/game.lua:202		Quit to menu and lose all gained stars?	退出至菜单并失去所有获得的星星？
+src/states/game.lua:207		No way out	无处可逃
+src/states/game.lua:518		secure the points\nend the turn\nrecharge character power\nclear momentum	保全分数\n结束该回合\n重置角色能力值\n清空惯性
+src/states/game.lua:623		you must have some points to bank	没有可bank的分数
+src/states/game.lua:725		momentum: ${amount}	惯性：${amount}
+src/states/game.lua:730		adds extra ${momentum} points and mult	增加额外${momentum}分数和乘数
+src/states/game.lua:915		Losing all Busts ends the turn.\nBusts refill at the start of each Turn	失去全部Bust将结束回合。\nBust计数在每回合开始时重置
+src/states/game.lua:919		Blocks up to ${count} busts, disappears when damaged	可阻挡最多${count}个bust，受到伤害时消失
+src/states/game.lua:938		ALL BUST BLOCKED	已阻挡全部BUST
+src/states/game.lua:954		SHIELD OVERLOADED	护盾超载
+src/states/game.lua:955		${count} BUSTS BLOCKED	阻挡${count}个BUST
+src/states/game.lua:955		${count} BUST BLOCKED	阻挡${count}个BUST
+src/states/game.lua:1005		wager ${amount} ¤	赌上 ${amount} ¤
+src/states/game.lua:1008		${STARS} Stars Unbanked	${STARS}个未收获的星星
+src/states/game.lua:1010		bank stars after each nightmare level or win the run to secure them	在每个噩梦关卡结束后收获星星或者通关整个游戏以收获星星
+src/states/game.lua:1091		praying...	祈祷中。。
+src/states/game.lua:1091		pray	祈祷
+src/states/game.lua:1169		Losing all Turns ends the game.\nTurns refill at the start of each level.	所有回合耗尽后将结束游戏。\n回合在每关开始时重置。
+src/states/game.lua:1420 (+1 others)		MERGED	合成
+src/states/game.lua:1629		pause	
+src/states/game.lua:1904 (+2 others)		Level $level/$count $name	关卡 $level/$count $name
+src/states/game.lua:1956		NIGHTMARE LEVEL	噩梦关卡
+src/states/game.lua:2078 (+1 others)		Rift	裂谷
+src/states/game.lua:2264		this coin is an affront to life itself	这颗硬币是对生命的侮辱
+src/states/game.lua:2265		this die is an affront to life itself	这颗骰子是对生命的侮辱
+src/states/game.lua:2266		we shall not suffer such an unholy thing	吾不允许如此不洁之物存在
+src/states/game.lua:2267		thou shalt not shy from risk	汝不应逃避风险
+src/states/game.lua:2268		you thought you could get away with this?	你还真以为能蒙混过关？
+src/states/game.lua:2269		extremely naughty	真不听话
+src/states/game.lua:2272	dialogue	no downside not allowed	吾不允许没有反面
+src/states/game.lua:2290	dialogue	WHAT	干什么！！
+src/states/game.lua:2312		refilled	已重置
+src/states/game.lua:2339		LAST TURN	最终回合
+src/states/game.lua:2458		- Out Of Dice -	- 没骰子了 -
+src/states/game.lua:2459		never	绝不
+src/states/game.lua:2461		Looks like you're cooked\n\nGive up?	看上去没救了欸\n\n要放弃吗？
+src/states/game.lua:2611		INSTANT WIPE	INSTANT WIPE
+src/states/game.lua:2612		${rolled} OUT OF ${rolled} DICE ROLLED BUST	${rolled}个骰子中${rolled}个已BUST
+src/states/game.lua:2629		W I P E	W I P E
+src/states/game.lua:3057		SKIP ${pip}	跳过${pip}
+src/states/game.lua:3069		SKIP LOOPED	跳过循环中
+src/states/game.lua:3308		Level Complete	关卡完成
+src/states/game.lua:3349		Overshoot! +${amount} stars	超额！+${amount}星星
+src/states/game.lua:3382		Level Coins	关卡硬币
+src/states/game.lua:3393		Extra Turn Coins	多余回合硬币
+src/states/game.lua:3405		Combine Coins	合成硬币
+src/states/game.lua:3422		Wager bonus! +${amount} stars	下注加成！+${amount}星星
+src/states/game.lua:3472		--  Level ${number} Complete!  --	— 第${number}关完成！ —
+src/states/game.lua:3488		Score:	分数：
+src/states/game.lua:3490		Reward:	奖励：
+src/states/game.lua:3491		Extra turns:	多余回合：
+src/states/game.lua:3492		Wager bonus:	下注加成：
+src/states/game.lua:3493		Overshoot:	超额：
+src/states/game.lua:3495		Total:	共：
+src/states/game.lua:3593		don't lose it	可别输光光了
+src/states/game.lua:3593		Soul on line	事关灵魂
+src/states/game.lua:3600		¤${BET} wagered	已下注 ¤${BET}
+src/states/game.lua:3604		¤ Banked	已收获 ¤
+src/states/game.lua:3605		Bank ¤${KEPT}?	是否收获 ¤${KEPT}?
+src/states/game.lua:3606		Win To Bank ¤	通关以收获¤
+src/states/game.lua:3607		Bank ¤ in ${LEVELS} lvl	${LEVELS}关后可收获 ¤
+src/states/game.lua:3621		Secure your Stars for the run\nyou won't be able to gain more this run	收获本场游戏的星星\n本场游戏无法获得更多星星
+src/states/game.lua:3623		Stars already banked this run	本场游戏已收获的星星
+src/states/game.lua:3625		Securing Stars available after each nightmare level	每次噩梦关卡后均可收获星星
+src/states/game.lua:3686 (+7 others)		no	关
 src/states/game_setup.lua:161		play!	开玩！
 src/states/game_setup.lua:164		need ${stars} ¤	需要 ${stars} ¤
 src/states/game_setup.lua:197		the young will inherit the earth	年轻之人将继承这片大地
@@ -1319,7 +1320,7 @@ src/states/game_setup.lua:706		Wager half your stars.\nMinimum 500 ¤\nHigher st
 src/states/game_setup.lua:716		Wager all your stars.\nMinimum 1000 ¤\nEven more star rewards.	赌上你所有的星星。\n1000 ¤ 起步\n赢得更多更多的星星。
 src/states/game_setup.lua:774		Wager	赌注
 src/states/game_setup.lua:856		Levels	关卡
-src/states/game_setup.lua:863		Wager stars to add levels,\nnext level 	赌上星星以增加关卡，\n下一关
+src/states/game_setup.lua:863		Wager stars to add levels,\nnext level %d ¤	
 src/states/game_setup.lua:1095		Difficulty	难度
 src/states/game_setup.lua:1098		${stars} ¤ reward limit	${stars} ¤ 奖励上限
 src/states/gameover.lua:224		Congratulations, you lost.	恭喜你，你输了。
@@ -1363,36 +1364,35 @@ src/states/intro_greed.lua:150		bank and start	收获并开始
 src/states/intro_greed.lua:150		pass and start	跳过并开始
 src/states/options.lua:67		keybinds >	键位绑定 >
 src/states/options.lua:97		Build ID: ${id}	Build ID: ${id}
-src/states/options.lua:110		translator	
-src/states/options.lua:116		Translated by ${name} ♥	翻译：${name} ♥
-src/states/options.lua:372		audio	音频
-src/states/options.lua:376		master	总控制
-src/states/options.lua:377		music	音乐
-src/states/options.lua:378		ambient	环境声
-src/states/options.lua:379		sfx	音效
-src/states/options.lua:394		mute	静音
-src/states/options.lua:402		display	显示
-src/states/options.lua:404		fullscreen	全屏
-src/states/options.lua:411		vsync	垂直同步
-src/states/options.lua:418		chromab	色差
-src/states/options.lua:427		scanlines	扫描线
-src/states/options.lua:436		bulge	屏幕凸起
-src/states/options.lua:446		accessibility	无障碍
-src/states/options.lua:448		screenshake	屏幕抖动
-src/states/options.lua:457		tips	提示
-src/states/options.lua:464		cursor size	鼠标大小
-src/states/options.lua:473		fast animation	动画加速
-src/states/options.lua:480		scroll bgs	背景漂移
-src/states/options.lua:491		danger zone	危险区域
-src/states/options.lua:495		locale	本地化
-src/states/options.lua:499		nuke entire save	摧毁存档
-src/states/options.lua:504		Delete the entire game's save file\nresetting everything\nand losing all your progress forever?	是否要删除整个游戏的存档\n重置一切\n并永远失去你所有的进度？
-src/states/options.lua:519		reset options	重置选项
-src/states/options.lua:524		Reset all the game options\nto their default values?	是否要将所有游戏选项\n重置为默认状态？
-src/states/options.lua:545		reset tips	重置提示
-src/states/options.lua:550		reset all the hover tooltip counters\nso that all the tips show again?	是否要重置所有悬浮提示窗口\n使其全部重新显示？
-src/states/options.lua:569		replay tutorial	重新游玩教程
-src/states/options.lua:598		(BETA)	(BETA)
+src/states/options.lua:117		Translated by ${name} ♥	翻译：${name} ♥
+src/states/options.lua:373		audio	音频
+src/states/options.lua:377		master	总控制
+src/states/options.lua:378		music	音乐
+src/states/options.lua:379		ambient	环境声
+src/states/options.lua:380		sfx	音效
+src/states/options.lua:395		mute	静音
+src/states/options.lua:403		display	显示
+src/states/options.lua:405		fullscreen	全屏
+src/states/options.lua:412		vsync	垂直同步
+src/states/options.lua:419		chromab	色差
+src/states/options.lua:428		scanlines	扫描线
+src/states/options.lua:437		bulge	屏幕凸起
+src/states/options.lua:447		accessibility	无障碍
+src/states/options.lua:449		screenshake	屏幕抖动
+src/states/options.lua:458		tips	提示
+src/states/options.lua:465		cursor size	鼠标大小
+src/states/options.lua:474		fast animation	动画加速
+src/states/options.lua:481		scroll bgs	背景漂移
+src/states/options.lua:492		danger zone	危险区域
+src/states/options.lua:496		locale	本地化
+src/states/options.lua:500		nuke entire save	摧毁存档
+src/states/options.lua:505		Delete the entire game's save file\nresetting everything\nand losing all your progress forever?	是否要删除整个游戏的存档\n重置一切\n并永远失去你所有的进度？
+src/states/options.lua:520		reset options	重置选项
+src/states/options.lua:525		Reset all the game options\nto their default values?	是否要将所有游戏选项\n重置为默认状态？
+src/states/options.lua:546		reset tips	重置提示
+src/states/options.lua:551		reset all the hover tooltip counters\nso that all the tips show again?	是否要重置所有悬浮提示窗口\n使其全部重新显示？
+src/states/options.lua:570		replay tutorial	重新游玩教程
+src/states/options.lua:599		(BETA)	(BETA)
 src/states/outside.lua:18		by Franek and Max	由Franek与Max制作
 src/states/outside.lua:19		this was a game about waking up	这是一个关于醒来的游戏
 src/states/scoreboard.lua:39		Loading Scores...	分数加载中。。
@@ -1451,11 +1451,11 @@ src/states/unlock.lua:187		only available in the full game <3	在完整游戏中
 src/states/unlock.lua:191		debug: 	debug:
 src/states/unlock.lua:211		playable character	可游玩角色
 src/states/unlock.lua:221		new depths	新的挑战模式
-src/states/unlock.lua:495		feed	喂食
-src/states/unlock.lua:564 (+1 others)		ban	ban
-src/states/unlock.lua:613		Customise	个性化
-src/states/unlock.lua:972		Tape Worm	绦虫
-src/states/unlock.lua:973		gold in, pink out	金色进，粉色出
+src/states/unlock.lua:498		feed	喂食
+src/states/unlock.lua:567 (+1 others)		ban	ban
+src/states/unlock.lua:616		Customise	个性化
+src/states/unlock.lua:975		Tape Worm	绦虫
+src/states/unlock.lua:976		gold in, pink out	金色进，粉色出
 src/sync_scoreboards.lua:14		Most Stars	星星总量
 src/sync_scoreboards.lua:19		stars held	拥有星星
 src/sync_scoreboards.lua:27		Highest Level	最高关卡
