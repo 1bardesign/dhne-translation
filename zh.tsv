@@ -243,7 +243,7 @@ src/coloured_text.lua:95 (+12 others)		stuck	卡住
 src/coloured_text.lua:98 (+2 others)		empty	空白
 src/display_loc.lua:3		Normal	
 src/display_loc.lua:4		Pixel	
-src/endings/alley.lua:55		fix that shit	
+src/endings/alley.lua:55		fix that shit	修理一下
 src/endings/alley.lua:55		hit that shit	来一口
 src/endings/alley.lua:112	dialogue	at least the tooth fairy will come	至少牙仙会出现的
 src/endings/alley.lua:113	dialogue	i haven't lost my baby teeth yet	吾还没丢掉乳牙呢
