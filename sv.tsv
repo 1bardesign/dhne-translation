@@ -243,10 +243,10 @@ src/coloured_text.lua:95 (+12 others)		stuck	låst
 src/coloured_text.lua:98 (+2 others)		empty	tom
 src/display_loc.lua:3		Normal	Normal
 src/display_loc.lua:4		Pixel	Pixel
-src/endings/alley.lua:28	dialogue	very well	
-src/endings/alley.lua:29	dialogue	next time bring me all the teeth	
-src/endings/alley.lua:64		knock	
-src/endings/alley.lua:135	dialogue	i'll be waiting in your guts	
+src/endings/alley.lua:28	dialogue	very well	nåväl
+src/endings/alley.lua:29	dialogue	next time bring me all the teeth	nästa gång tar du med dig alla tänder
+src/endings/alley.lua:64		knock	knack
+src/endings/alley.lua:135	dialogue	i'll be waiting in your guts	jag väntar i dina inälvor
 src/endings/anais.lua:124	dialogue	don't leave again	lämna mig inte igen
 src/endings/anais.lua:125	dialogue	you're safe here	du är trygg här
 src/endings/anais.lua:126	dialogue	with me	hos mig
@@ -1126,8 +1126,8 @@ src/special_conditions.lua:102		Full House	Kåk
 src/special_conditions.lua:115		Four Of A Kind	Fyrtal
 src/special_conditions.lua:126		Straight	Stege
 src/special_conditions.lua:179		Long Straight	Lång stege
-src/special_conditions.lua:190		Long Long Straight	
-src/special_conditions.lua:201		Long Long Long Straight	
+src/special_conditions.lua:190		Long Long Straight	Extra lång stege
+src/special_conditions.lua:201		Long Long Long Straight	Superlång stege
 src/special_conditions.lua:212		Star Bonanza	Stjärnbonanza
 src/special_conditions.lua:223		Star Extravaganza	Stjärnextravaganza
 src/special_conditions.lua:234		Star Bonanzovaganza	Stjärnbonanzovaganza
@@ -1244,7 +1244,7 @@ src/states/game.lua:185 (+3 others)		Options	Inställningar
 src/states/game.lua:193		Save and Quit	Spara och Avsluta
 src/states/game.lua:194		(Cant Save Right Now)	(Kan inte spara just nu)
 src/states/game.lua:199		No escape	Ingen utväg
-src/states/game.lua:202		Skip Tutorial	Hoppa över introt
+src/states/game.lua:202		Skip Tutorial	Skippa introt
 src/states/game.lua:202		Abandon	Ge upp
 src/states/game.lua:210		Quit to menu and lose all gained stars?	Gå till menyn och förlora alla intjänade stjärnor?
 src/states/game.lua:215		No way out	Ingen utväg
@@ -1406,7 +1406,7 @@ src/states/scoreboard.lua:227		busts	nitar
 src/states/scoreboard.lua:231		your bust rate	din nitfrekvens
 src/states/scoreboard.lua:235		expected	förväntat
 src/states/scoreboard.lua:239		player average	spelargenomsnitt
-src/states/scoreboard.lua:244		Guts Completion	Guts-avklarande
+src/states/scoreboard.lua:244		Guts Completion	Tarmprogress
 src/states/scoreboard.lua:254		runs played	spelade omgångar
 src/states/scoreboard.lua:258		runs won	vunna omgångar
 src/states/scoreboard.lua:262		achievements	prestationer
@@ -1426,7 +1426,7 @@ src/states/title.lua:159 (+1 others)	dialogue	so you chose to come back	så du v
 src/states/title.lua:161 (+1 others)	dialogue	you will see, very soon	du ska få se, mycket snart
 src/states/title.lua:237		GAMEPAD WARNING: support is still pretty rough - report bugs on steam or discord <3	HANDKONTROLLSVARNING: stödet är fortfarande rätt bristfälligt - rapportera buggar på Steam eller Discord <3
 src/states/title.lua:246 (+1 others)		the world you grew up in no longer exists	världen du växte upp i finns inte längre
-src/states/title.lua:263		get back in here	kom tillbaka hit
+src/states/title.lua:263		get back in here	tillbaka hit med dig!
 src/states/title.lua:267		Play	Spela
 src/states/title.lua:271		feeling lucky?	känner du dig tursam?
 src/states/title.lua:291 (+1 others)		Tutorial	Intro
@@ -1439,10 +1439,10 @@ src/states/title.lua:379 (+1 others)		bye?	hej då?
 src/states/title.lua:474		brighten up	ljus upp
 src/states/title.lua:475		rest your eyes	vila ögonen
 src/states/title.lua:486		community chat	gemenskapschatt
-src/states/title.lua:635		Welcome To 1.0!	
-src/states/title.lua:636		thanks so much for supporting the game ♥\nyou are looking fabulous today\n\nlots has changed since early access\nwe recommend starting 1.0 with a fresh save, but its up to you	
-src/states/title.lua:637		sure, delete it!	
-src/states/title.lua:638		yikes, no thanks	
+src/states/title.lua:635		Welcome To 1.0!	Välkommen till 1.0!
+src/states/title.lua:636		thanks so much for supporting the game ♥\nyou are looking fabulous today\n\nlots has changed since early access\nwe recommend starting 1.0 with a fresh save, but its up to you	tack så mycket för att du stöttar spelet ♥\ndu är strålande fin idag\n\nmycket har ändrats sedan early access\nvi rekommenderar att börja 1.0 med en ny sparfil, men du bestämmer
+src/states/title.lua:637		sure, delete it!	visst, radera den!
+src/states/title.lua:638		yikes, no thanks	oj då, nej tack
 src/states/unlock.lua:79		representations are still solidifying - physical form is meaningless - you're imagining it	gestalterna tar fortfarande form - fysisk form saknar betydelse - du inbillar dig
 src/states/unlock.lua:96 (+3 others)		SNACK	SNACKS
 src/states/unlock.lua:163		Upgrades	Uppgraderingar
@@ -1479,7 +1479,7 @@ src/sync_scoreboards.lua:142		luck	tur
 src/sync_scoreboards.lua:203 (+1 others)	dialogue	you	du
 src/ui/character_body.lua:302 (+2 others)	ui	LOCKED	LÅST
 src/ui/combination_table.lua:34 (+1 others)	ui	flush	färg
-src/ui/combination_table.lua:50	ui	Combinations	kombos
+src/ui/combination_table.lua:50	ui	Combinations	Kombos
 src/ui/combination_table.lua:50	ui	hello :)	hej :)
 src/ui/game_setup_options.lua:4	ui	easy wager	lätt satsning
 src/ui/game_setup_options.lua:5	ui	increase difficulty by 1	höj svårighetsgraden med 1

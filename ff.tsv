@@ -1,0 +1,1516 @@
+location	extra context	en	ff
+gather_strings.lua:1		No	Glupp!
+gather_strings.lua:1		momentum	bubbl
+gather_strings.lua:1		greed	plupp
+gather_strings.lua:1		CD	BRUBBL
+gather_strings.lua:1		xnx	blup
+src/are_you_sure.lua:14 (+3 others)		Are you sure?	Blar blu plupp?
+src/are_you_sure.lua:15 (+12 others)		yes	Blubb!
+src/are_you_sure.lua:17		really?	Blubb blubb?
+src/board_unlocks.lua:7		chill vibes	looo-blubb
+src/board_unlocks.lua:17		the real game begins	bl plopp glupp glubbl
+src/board_unlocks.lua:27		something smells fishy	glubbl blup glubbl
+src/boards/easy.lua:2		Shallows	Blublu
+src/boards/easy.lua:3		Chill Vibes. Short run, extra bust limit.	Glupp Glubb. Blubb plupp, blorp glupp plupp.
+src/boards/easy.lua:4		the friendliest pond around	bl flubbflubb glubbl blubb
+src/boards/fish_board.lua:2		The Bay	Bl Brrl
+src/boards/fish_board.lua:3		Smells Fishy	Blup Glubbl
+src/boards/fish_board.lua:4		come for the fish, stay for the fish	glubbl flor bl bloop, blorp flor bl bloop
+src/boards/normal.lua:2		Lands Adrift	Glorp Blup
+src/boards/normal.lua:3		Real game begins.	Plopp glupp glubbl.
+src/boards/normal.lua:4		you'll never want to leave	blorp brubbl splubb blo glubbl
+src/boards/rift.lua:3		Decide how deep you can go.	Glubbl bloop glubb blu blupp blubb.
+src/boards/rift.lua:4		please mind the gap	glorp blupp bl glupp
+src/boards/the_end.lua:2		The End	Bl Blorp
+src/boards/the_end.lua:3		This is it.	Brubbl blis blupp.
+src/boards/the_end.lua:4		thank you for visiting	flubb blu flor blorp
+src/character_unlocks.lua:10		the crown hung heavy from before he was born	bl flubb glubb glupp glupp brubbl flubb blubbl blup
+src/character_unlocks.lua:21		tries her best	bloop glorp plopp
+src/character_unlocks.lua:31		likes watching you bust	plupp brrl blu glupp
+src/character_unlocks.lua:42		just a dude	splubb bu brubbl
+src/character_unlocks.lua:53		gets away with it	blubbl glorp blith blupp
+src/character_unlocks.lua:63		god's stronger warrior	blupp flubb blup
+src/character_unlocks.lua:74		woof	glubb
+src/character_unlocks.lua:84 (+1 others)	dialogue	woof?	glubb?
+src/character_unlocks.lua:95		he's so cool	blupp glubbl blubb
+src/character_unlocks.lua:105		slimy	glubb
+src/character_unlocks.lua:114		say aaaaaaaa	glubbl glorp
+src/character_unlocks.lua:120		Plasticine	Splubbglubbl
+src/character_unlocks.lua:121		like putty in your hands\ncharacter customisation option	blup glorp blin bluu blup\nblorp blubblbloop plupp
+src/character_unlocks.lua:134		Wagers	Blubbl
+src/character_unlocks.lua:135		wager ¤ to increase difficulty and reward	bloop ¤ blo plupp glubblblorp blan splubb
+src/characters/anais.lua:2		Anais	Glubb
+src/characters/anais.lua:38		Biblically Accurate	Blorpglupp Brrl
+src/characters/anais.lua:56 (+10 others)		${count} levels til the end	${count} blubbos brrl bl blorp
+src/characters/anais.lua:59 (+10 others)	dialogue	The teeth trail will lead you to her	Bl bloop plupp splubb glupp blu blo glorp
+src/characters/anais.lua:61	dialogue	Kill what you love	Plupp plupp blu flubb
+src/characters/anais.lua:77	dialogue	Not yet	Glupp glubbl
+src/characters/anais.lua:79		Rise again for $cost ¤. Something will follow you back.	Blubbl glubbl flor $cost ¤. Glubbl splubb blorp blu blupp.
+src/characters/anais.lua:82 (+9 others)		Yes	Blubb
+src/characters/anais.lua:85	dialogue	Rest then	Glubbl flubb
+src/characters/anais.lua:98	dialogue	Be not afraid	Glubbl glupp plopp
+src/characters/business_fish.lua:2		Business Fish	Bloop Bloop
+src/characters/business_fish.lua:33		Promotion	Blupp
+src/characters/business_fish.lua:40		Gains	Blorp
+src/characters/business_fish.lua:74 (+1 others)	dialogue	You're playing shallows?	Glorp brubbl plopp?
+src/characters/business_fish.lua:75 (+1 others)	dialogue	This ain't it	Brubbl glubbl blupp
+src/characters/business_fish.lua:76 (+1 others)	dialogue	Take me into deep waters baby.	Blubb bloop bloop glubb glubb plupp.
+src/characters/business_fish.lua:78	dialogue	Tuff' day in fish business	Blupp' glorp blin bloop bloop
+src/characters/business_fish.lua:104	dialogue	Let's talk business	Glupp splubb bloop
+src/characters/business_fish.lua:106		I'll revive you for $cost ¤ and $amount dues, payable later.	Flubb glupp blu flor $cost ¤ blan $amount brubbl, blubb blup.
+src/characters/business_fish.lua:113	dialogue	Bad investment	Glupp blupglorp
+src/characters/business_fish.lua:125	dialogue	Pleasure doing business	Glupp glupp bloop
+src/characters/cool_fish.lua:2		Cool Fish	Blubb Bloop
+src/characters/cool_fish.lua:34		Good Ol' Herrington	Blorp Blupp' Bloopplopp
+src/characters/cool_fish.lua:41		Winter Fit	Glupp Blup
+src/characters/cool_fish.lua:48		Ciggy	Plupp
+src/characters/cool_fish.lua:89	dialogue	Oh, this jacket?\nIt was 3000¥	Bloop, brubbl flubb?\nBlupp blubbl 3000¥
+src/characters/cool_fish.lua:90	dialogue	It's from Japan yeah	Blorp glupp Blorp glupp
+src/characters/cool_fish.lua:111	dialogue	Nice coins	Splubb plings
+src/characters/cool_fish.lua:113		I'll revive you for all your $yen ¥ and $cost ¤	Flubb glupp blu flor glupp bluu $yen ¥ blan $cost ¤
+src/characters/cool_fish.lua:120	dialogue	Uncool	Blupp
+src/characters/cool_fish.lua:133	dialogue	Stay cool	Blorp blubb
+src/characters/dog.lua:2		Dog	Blovv
+src/characters/dog.lua:34		So Fancy	Glubbl Bloop
+src/characters/dog.lua:41		Stick	Plopp
+src/characters/god.lua:11	dialogue	unworthy	blorp
+src/characters/god.lua:15	dialogue	fall back	bloop blupp
+src/characters/god.lua:34	dialogue	begone	glubb
+src/characters/god.lua:40		wager your soul	bloop bluu flubb
+src/characters/god.lua:41		Wager your Soul?	Bloop bluu Flubb?
+src/characters/god.lua:42		You are wagering your soul.\nIf you lose, your save is gone forever.	Blu blar blubbl bluu flubb.\nFlubb blu glorp, bluu brrl blis blubbl blubb.
+src/characters/god.lua:51	dialogue	i hope you are feeling lucky	glu blup blu blar plupp flubb
+src/characters/god.lua:70		but you have earned nothing	blup blu glorp bloop glupp
+src/characters/god.lua:72		but you need ${stars} ¤	blup blu brrl ${stars} ¤
+src/characters/god.lua:77		wager a gold ¤	bloop bu brubbl ¤
+src/characters/god.lua:79		wager ${stars} ¤	bloop ${stars} ¤
+src/characters/god.lua:81		wager all ${stars} ¤ and ${gold} gold ¤	bloop glupp ${stars} ¤ blan ${gold} brubbl ¤
+src/characters/god.lua:83		wager all ${stars} ¤	bloop glupp ${stars} ¤
+src/characters/god.lua:85		wager all ${gold} gold ¤	bloop glupp ${gold} brubbl ¤
+src/characters/god.lua:87		wager everything	bloop bloopblorp
+src/characters/god.lua:97	dialogue	you always were my bravest child	blu glorp plupp gluu blubb glubbl
+src/characters/god.lua:102		God?	GLUBB?
+src/characters/god.lua:135	dialogue	cheating? me? god?	splubb? bloop? GLUBB?
+src/characters/god.lua:136	dialogue	i appreciate the boldness	glu bluppplopp bl glorp
+src/characters/god.lua:137	dialogue	it will not work again	blupp splubb glupp glubb glubbl
+src/characters/god.lua:161	dialogue	no tickle	glupp brubbl
+src/characters/god.lua:288		i demand commitment	glu glorp glubblblubb
+src/characters/god.lua:292		show me what you have earned	plopp bloop plupp blu glorp bloop
+src/characters/god.lua:296		give me everything	glupp bloop bloopblorp
+src/characters/god.lua:298		do you have what it takes?	blubbl blu glorp plupp blupp blubbl?
+src/characters/god.lua:302		you are never getting out of here	blu blar brubbl plopp blubb blov glorp
+src/characters/god.lua:349		i always believed in you	glu glorp plupp blin blu
+src/characters/guy.lua:2		Guy	Glubbl
+src/characters/guy.lua:46		Eye Wide Open	Blup Plupp Blupp
+src/characters/guy.lua:53		Lil Bro	Glubbl Brubbl
+src/characters/guy.lua:85	dialogue	Reach level 7 to break free!	Glupp blubbo 7 blo blubbl glupp!
+src/characters/guy.lua:87	dialogue	Reach level 10 to break free!	Glupp blubbo 10 blo blubbl glupp!
+src/characters/guy.lua:115	dialogue	Keep riding?	Brubbl splubb?
+src/characters/guy.lua:117	dialogue	I'll revive you for $cost ¤ and one passive item	Flubb glupp blu flor $cost ¤ blan blup glubb plopp
+src/characters/guy.lua:123	dialogue	Live your truth	Splubb bluu bloop
+src/characters/guy.lua:136	dialogue	Ride on	Glubbl glon
+src/characters/hotdog.lua:2		Hot Dawg	Brrl Blorp
+src/characters/hotdog.lua:53		Jalapeno	Glubbl
+src/characters/hotdog.lua:95	dialogue	Hungry for more?	Glubb flor blupp?
+src/characters/hotdog.lua:97		I'll revive you for $cost ¤ and a bad tooth	Flubb glupp blu flor $cost ¤ blan bu glupp blup
+src/characters/hotdog.lua:103	dialogue	More for me	Blupp flor bloop
+src/characters/hotdog.lua:114	dialogue	Chew carefully	Plopp blupp
+src/characters/king_fetus.lua:2		King Foetus	Brrl Plopp
+src/characters/king_fetus.lua:38		Princess	Brubbl
+src/characters/king_fetus.lua:62	dialogue	Reach level 7 to escape!	Glupp blubbo 7 blo bloop!
+src/characters/king_fetus.lua:63 (+1 others)	dialogue	goo goo gaa gaa	plupp plupp blubb blubb
+src/characters/king_fetus.lua:65	dialogue	Reach level 10 to escape!	Glupp blubbo 10 blo bloop!
+src/characters/king_fetus.lua:85	dialogue	go more?	blubb blupp?
+src/characters/king_fetus.lua:87	dialogue	revive for $cost ¤ and 1 max bust	glupp flor $cost ¤ blan 1 flubb glupp
+src/characters/king_fetus.lua:106	dialogue	glob gob	blup brrl
+src/characters/liz.lua:2 (+1 others)		Liz	Plupp
+src/characters/liz.lua:30		Off Duty	Glorp Blubb
+src/characters/liz.lua:37		Halo	Splubb
+src/characters/liz.lua:77	dialogue	Hey, my love	Glubbl, gluu flubb
+src/characters/liz.lua:78	dialogue	Remember, ${count} levels and you're out of here!	Brubbl, ${count} blubbos blan glorp blubb blov glorp!
+src/characters/liz.lua:89	dialogue	Ah well	Blubb blup
+src/characters/liz.lua:90	dialogue	You'll get it next time!	Blorp blupp blupp glubb blubb!
+src/characters/liz.lua:120	dialogue	...Want to keep going?	...Splubb blo brubbl brrl?
+src/characters/liz.lua:122	dialogue	I'll revive you for $cost ¤ and one die	Flubb glupp blu flor $cost ¤ blan blup blobb
+src/characters/liz.lua:128	dialogue	Your loss :)	Bluu brubbl :)
+src/characters/liz.lua:141	dialogue	Hope it's worth it!	Blup blorp splubb blupp!
+src/characters/mushroom.lua:2		Srop M.	Splubb SPLUBB.
+src/characters/saimi.lua:2		Saimi	Bloop
+src/characters/saimi.lua:31 (+2 others)	dialogue	Moi	Blubb
+src/characters/saimi.lua:32	dialogue	Get past level ${count}, and you're free.	Blupp glorp blubbo ${count}, blan glorp glupp.
+src/characters/shirin.lua:2		Shirin	Blubb
+src/characters/shirin.lua:40		Mermaid	Glorp
+src/characters/shirin.lua:64 (+1 others)	dialogue	Oh. You’re mine now.	Bloop. Splubb plopp blorp.
+src/characters/shirin.lua:65	dialogue	I’ll let you go if you reach level 7.	Plopp bloop blu blubb flubb blu glupp blubbo 7.
+src/characters/shirin.lua:68	dialogue	I’ll let you go if you reach level 10.	Plopp bloop blu blubb flubb blu glupp blubbo 10.
+src/characters/shirin.lua:194	dialogue	Feeling lucky?	Blubb plopp?
+src/characters/shirin.lua:196	dialogue	I'll let you toss a coin to revive you for $cost ¤	Flubb bloop blu glubb bu pling blo glupp blu flor $cost ¤
+src/characters/shirin.lua:202	dialogue	RIP	PLOPP
+src/characters/shirin.lua:212	dialogue	Bad luck...	Glupp...
+src/characters/shirin.lua:220	dialogue	Lucky!	Plopp!
+src/characters/tooth_fairy.lua:2		Tooth Fairy	Blup Glubb
+src/characters/tooth_fairy.lua:31		Cavity	Blubbl
+src/characters/tooth_fairy.lua:57	dialogue	Reach level 7 and I'll leave your teeth alone.	Glupp blubbo 7 blan Flubb glubbl bluu bloop flubb.
+src/characters/tooth_fairy.lua:59	dialogue	Reach level 10 and I'll leave your teeth alone.	Glupp blubbo 10 blan Flubb glubbl bluu bloop flubb.
+src/characters/tutorial_character.lua:49	dialogue	Hi! Welcome!	Plopp! Brrl!
+src/characters/tutorial_character.lua:50	dialogue	You're dead!	Glorp plopp!
+src/characters/tutorial_character.lua:51	dialogue	Or asleep!	Glor glubb!
+src/characters/tutorial_character.lua:52	dialogue	... Either way, you won't remember this :)	... Glubb glupp, blu blorp brubbl brubbl :)
+src/characters/tutorial_character.lua:53	dialogue	Now let's play.\nRoll the dice.	Blorp glupp bloop.\nBlubba bl blobbs.
+src/characters/tutorial_character.lua:70	dialogue	Good. You gained some points.	Blorp. Blu glubbl bloop blips.
+src/characters/tutorial_character.lua:71	dialogue	They're not safe until you BANK them.	Blubbl glupp plopp blup blu BLOOBA blupp.
+src/characters/tutorial_character.lua:72	dialogue	You have ${TURNS} Turns to reach your goal.\nBANKing ends your Turn.	Blu glorp ${TURNS} Glubbos blo glupp bluu bloop.\nBloobing brubbl bluu Glubbo.
+src/characters/tutorial_character.lua:76	dialogue	Bigger combos give you exponentially bigger rewards.	Brrl bloms glupp blu gluppblupp brrl blupp.
+src/characters/tutorial_character.lua:80		<- See what combos are available up here	<- Blorp plupp bloms blar glubbl blup glorp
+src/characters/tutorial_character.lua:94	dialogue	Roll blank dice and keep going!	Blubba glubb blobbs blan brubbl brrl!
+src/characters/tutorial_character.lua:106	dialogue	Oh also, you can hold and drag Left Click to box select	Bloop glorp, blu blupp blup blan glupp Flubb Brubbl blo blupp plopp
+src/characters/tutorial_character.lua:118	dialogue	Each time you Score more Combos in a Turn, you gain Momentum	Glubb blubb blu Glupp blupp Bloms blin bu Glubbo, blu brrl Bubbl
+src/characters/tutorial_character.lua:119	dialogue	Momentum gives you extra Points and Mult on your next Score	Bubbl plupp blu blorp Blips blan Glubbi glon bluu glubb Glupp
+src/characters/tutorial_character.lua:120	dialogue	Your momentum is reset to zero at the start of each Turn.	Bluu bubbl blis blorp blo glubbl splubb bl brrl blov glubb Glubbo.
+src/characters/tutorial_character.lua:130	dialogue	You've hit the target!	Plopp blubb bl blubb!
+src/characters/tutorial_character.lua:131	dialogue	BANK your Points to complete the level.	BLOOBA bluu Blips blo blubbl bl blubbo.
+src/characters/tutorial_character.lua:141	dialogue	You made it through the first level!	Blu blupp blupp brubbl bl plopp blubbo!
+src/characters/tutorial_character.lua:142	dialogue	Between levels, you'll visit The Shop, buy Trinkets, Snacks and Spells.\nAll the fun stuff.	Blup blubbos, blorp splubb Bl Blubb, glubbl Blinkles, Nombls blan Glims.\nGlupp bl bloop plupp.
+src/characters/tutorial_character.lua:159		combo	blom
+src/characters/tutorial_character.lua:160	dialogue	That's a ${combo_label}!	Brubbl bu ${combo_label}!
+src/characters/tutorial_character.lua:161	dialogue	Select and score it!	Plopp blan glupp blupp!
+src/characters/tutorial_character.lua:173	dialogue	Nice, those Points are safe now.	Splubb, blubb Blips blar plopp blorp.
+src/characters/tutorial_character.lua:174	dialogue	BANK refilled your Bust meter.	BLOOBA glorp bluu Glupp flubb.
+src/characters/tutorial_character.lua:177	dialogue	You have $TURNS BANKS left, so make sure you only BANK when you need to!	Blu glorp $TURNS GLUBB flubb, glubbl plupp plupp blu glupp BLOOBA plupp blu brrl blo!
+src/characters/tutorial_character.lua:190	dialogue	Red sides are BUST! If you roll too many, you will WIPE!	Glupp flubb blar GLUPP! Flubb blu blubba blubb brubbl, blu splubb SPLATT!
+src/characters/tutorial_character.lua:196		<- BUST meter here	<- GLUPP flubb glorp
+src/characters/tutorial_character.lua:210	dialogue	One more BUST and you'll WIPE!	Blup blupp GLUPP blan blorp SPLATT!
+src/characters/tutorial_character.lua:211	dialogue	Consider BANKing your points now to keep them safe.	Glubb Bloobing bluu blips blorp blo brubbl blupp plopp.
+src/characters/tutorial_character.lua:223	dialogue	Now that you accumulated some points try banking!	Blorp flubb blu blupglorp bloop blips splubb bloobing!
+src/characters/tutorial_character.lua:224	dialogue	Each time you BANK, you use up a Turn.	Glubb blubb blu BLOOBA, blu glubb blup bu Glubbo.
+src/characters/tutorial_character.lua:225	dialogue	When you run out of Turns, the game ends.	Plupp blu plupp blubb blov Glubbos, bl glupp brubbl.
+src/characters/tutorial_character.lua:229		See turns left here ->	Blorp glubbos flubb glorp ->
+src/characters/tutorial_character.lua:235		<- Click here to bank	<- Brubbl glorp blo blooba
+src/characters/tutorial_character.lua:246	dialogue	You rolled too many BUSTs!	Blu glorp blubb brubbl Glupps!
+src/characters/tutorial_character.lua:248	dialogue	That's a WIPE! All unbanked Points gone!	Brubbl bu SPLATT! Glupp blup Blips blubbl!
+src/characters/tutorial_character.lua:249	dialogue	Don't worry, it happens.	Splubb blup, blupp splubb.
+src/characters/tutorial_character.lua:251	dialogue	Next time you should BANK before that happens :)	Glubb blubb blu blubbl BLOOBA brubbl flubb splubb :)
+src/characters/tutorial_character.lua:264	dialogue	Ah. Yeah...	Blubb. Glupp...
+src/characters/tutorial_character.lua:265	dialogue	Instant WIPE	Brrl SPLATT
+src/characters/tutorial_character.lua:266	dialogue	When ALL DICE you rolled roll BUST, your Turn is over straight away.	Plupp GLUPP BLOBBS blu glorp blubba GLUPP, bluu Glubbo blis splubb blup glorp.
+src/characters/tutorial_character.lua:267	dialogue	Rolling a single die makes that very likely, but it can happen with any roll!	Blubbl bu flubb blobb brrl flubb plupp blubbl, blup blupp blupp flubb blith brubbl blubba!
+src/characters/tutorial_character.lua:280	dialogue	This is your last turn.	Brubbl blis bluu brubbl glubbo.
+src/characters/tutorial_character.lua:281	dialogue	You have to go all in now, no point in BANKing early.	Blu glorp blo blubb glupp blin blorp, glupp blip blin Bloobing blupp.
+src/characters/tutorial_character.lua:282	dialogue	You can still do it!	Blu blupp blupp blubbl blupp!
+src/characters/tutorial_character.lua:292	dialogue	Well, you failed the tutorial.	Blup, blu blupp bl blubb.
+src/characters/tutorial_character.lua:293	dialogue	I'll bring you back this time.	Flubb glubb blu blupp brubbl blubb.
+src/characters/tutorial_character.lua:297	dialogue	Be better.	Glubbl glupp.
+src/characters/tutorial_character.lua:306	dialogue	Welp.	Glubb.
+src/characters/tutorial_character.lua:307	dialogue	Pretty good for the first go.	Bloop blorp flor bl plopp blubb.
+src/characters/tutorial_character.lua:309	dialogue	I didn't explain it all but you're a smart cookie.	GLU plupp blupp blupp glupp blup glorp bu blorp blupp.
+src/characters/tutorial_character.lua:310	dialogue	You can figure out the rest.	Blu blupp plopp blubb bl glubbl.
+src/characters/tutorial_character.lua:312	dialogue	I'll see you in the real game.	Flubb blorp blu blin bl plopp glupp.
+src/characters/tutorial_character.lua:313	dialogue	Remember, luck helps. Judgement matters more.	Brubbl, bloop glubbl. Glubbl plupp blupp.
+src/characters/wizard.lua:2		Wizard	Brubbl
+src/characters/wizard.lua:43		Soucerer	Glubb
+src/characters/wizard.lua:50		Archmogus	Brubbl
+src/characters/wizard.lua:57		Orb	Brubbl
+src/characters/wizard.lua:89	dialogue	Get to level 7, and you're free.	Blupp blo blubbo 7, blan glorp glupp.
+src/characters/wizard.lua:92	dialogue	Get to level 10, and you're free.	Blupp blo blubbo 10, blan glorp glupp.
+src/characters/wizard.lua:213	dialogue	Another chance buddy?	Bloop blubb blupp?
+src/characters/wizard.lua:215	dialogue	I'll revive you for $cost ¤ and difficulty increase.	Flubb glupp blu flor $cost ¤ blan glubblblorp plupp.
+src/characters/wizard.lua:221	dialogue	Hmpf.	Brrl.
+src/characters/wizard.lua:238	dialogue	Tada!	BLOBBLO!
+src/coloured_text.lua:8 (+117 others)		bust	glupp
+src/coloured_text.lua:12		wipe	splatt
+src/coloured_text.lua:14		instant	brrl
+src/coloured_text.lua:16		turn	glubbo
+src/coloured_text.lua:20		turns	glubbos
+src/coloured_text.lua:24 (+3 others)		bank	blooba
+src/coloured_text.lua:27		stars	plopps
+src/coloured_text.lua:31 (+5 others)		points	blips
+src/coloured_text.lua:35 (+9 others)		mult	glubbi
+src/coloured_text.lua:39 (+8 others)		bonus	blup
+src/coloured_text.lua:43 (+5 others)		debust	brubbl
+src/coloured_text.lua:46 (+17 others)		pig	blupp
+src/coloured_text.lua:49 (+11 others)	ui	power	brubbl
+src/coloured_text.lua:52		golden	splubb
+src/coloured_text.lua:58 (+3 others)		coin	pling
+src/coloured_text.lua:61		coins	plings
+src/coloured_text.lua:73		shield	plupp
+src/coloured_text.lua:77 (+9 others)		skip	glubbl
+src/coloured_text.lua:80 (+2 others)		mirror	glupp
+src/coloured_text.lua:83 (+23 others)		cracked	blubbl
+src/coloured_text.lua:86 (+2 others)		hardy	splubb
+src/coloured_text.lua:89 (+5 others)		doom	blorp
+src/coloured_text.lua:92 (+1 others)		negative	blubb
+src/coloured_text.lua:95 (+12 others)		stuck	glupp
+src/coloured_text.lua:98 (+2 others)		empty	glorp
+src/display_loc.lua:3		Normal	Blubbl
+src/display_loc.lua:4		Pixel	Brrl
+src/endings/alley.lua:28	dialogue	very well	blubb glubb
+src/endings/alley.lua:29	dialogue	next time bring me all the teeth	splubb blorp glupp bloop blubbl bl glipglop
+src/endings/alley.lua:64		knock	blop blop
+src/endings/alley.lua:135	dialogue	i'll be waiting in your guts	glu blubbl glubbl blin blu glubbguts
+src/endings/anais.lua:124	dialogue	don't leave again	splubb glubbl glubbl
+src/endings/anais.lua:125	dialogue	you're safe here	glorp plopp glorp
+src/endings/anais.lua:126	dialogue	with me	blith bloop
+src/endings/boardroom.lua:34		hit da bricks	blubb blupp bloop
+src/endings/boardroom.lua:120	dialogue	you believe in the wrong things	blu blupp blin bl blubb brrl
+src/endings/boardroom.lua:121	dialogue	you believe in me now	blu blupp blin bloop blorp
+src/endings/cool_fish.lua:29		lets hit that shit	blup blubb flubb glorp
+src/endings/cool_fish.lua:132	dialogue	you are cool	blu blar blubb
+src/endings/cool_fish.lua:133	dialogue	but i am god	blup glu blam GLUBB
+src/endings/cool_fish.lua:134	dialogue	believe in me	blupp blin bloop
+src/endings/dog.lua:67		throw that shit	bloop flubb glorp
+src/endings/dog.lua:129	dialogue	what a good boy	blu blubb blovv!
+src/endings/dog.lua:130	dialogue	i am neither good nor bad	glu blam splubb blorp bloop glupp
+src/endings/god.lua:155	dialogue	it was very brave of you to come back	blupp blubbl plupp blubbl blov blu blo glubbl blupp
+src/endings/god.lua:156	dialogue	again	glubbl
+src/endings/god.lua:157	dialogue	you are my bravest child	blu blar gluu blubb glubbl
+src/endings/god.lua:158	dialogue	and i am god	blan glu blam GLUBB
+src/endings/guy.lua:158	dialogue	have you looked into a mirror recently?	glorp blu bloop bloop bu glupp brubbl?
+src/endings/guy.lua:159	dialogue	what do you see?	plupp blubbl blu blorp?
+src/endings/guy.lua:160	dialogue	i see my bravest child	glu blorp gluu blubb glubbl
+src/endings/hotdog.lua:35		eat that shit	blubbl flubb glorp
+src/endings/hotdog.lua:59	dialogue	you are a weird one	blu blar bu blupp blup
+src/endings/hotdog.lua:60	dialogue	i am the opposite	glu blam bl splubb
+src/endings/king_fetus.lua:52		nope nope nope	brubbl brubbl brubbl
+src/endings/king_fetus.lua:147	dialogue	don't go again	splubb blubb glubbl
+src/endings/king_fetus.lua:148	dialogue	you're so young	glorp glubbl plupp
+src/endings/king_fetus.lua:149	dialogue	don't face the world	splubb blup bl blorp
+src/endings/king_fetus.lua:150	dialogue	stay here	blorp glorp
+src/endings/liz.lua:33		hit that mochi?	blubb flubb blubb?
+src/endings/liz.lua:175	dialogue	how did you do?	bloop plupp blu blubbl?
+src/endings/liz.lua:176	dialogue	in the test, i mean	blin bl splubb, glu blup
+src/endings/liz.lua:177	dialogue	we all pass\nin one way or another	glorp glupp flubb\nblin blup glupp glor bloop
+src/endings/liz.lua:178	dialogue	eventually	flubbblup
+src/endings/marooned.lua:75	dialogue	i am your salvation	glu blam bluu flubb
+src/endings/marooned.lua:76	dialogue	you are not drowning	blu blar glupp glorp
+src/endings/party.lua:130	dialogue	You finished the Shallows!	Blu bloop bl Plopp!
+src/endings/party.lua:131	dialogue	Unlock the next Depth from Star Guts for a bigger challenge.	Splubb bl glubb Plopp glupp Plopp Glurgl flor bu brrl blubb.
+src/endings/shirin.lua:136	dialogue	welcome back	brrl blupp
+src/endings/shirin.lua:137	dialogue	so you believe	glubbl blu blupp
+src/endings/shirin.lua:138	dialogue	i am here	glu blam glorp
+src/endings/tooth_fairy.lua:36		hit the guts	blubb bl glurgl
+src/endings/tooth_fairy.lua:105	dialogue	hello friend	blup bloop
+src/endings/tooth_fairy.lua:106	dialogue	any good finds?	brubbl blorp glubbl?
+src/endings/wizard.lua:49		ponder that orb	plupp flubb brubbl
+src/endings/wizard.lua:141	dialogue	keep playing with me	brubbl brubbl blith bloop
+src/endings/wizard.lua:142	dialogue	and you will see	blan blu splubb blorp
+src/endings/wizard.lua:143	dialogue	one day you will not get out	blup glorp blu splubb glupp blupp blubb
+src/endings/wizard.lua:144	dialogue	you are nothing	blu blar glupp
+src/endings/wizard.lua:145	dialogue	your spells suck	bluu glims blubbl
+src/endings/wizard.lua:146	dialogue	your hat stinks	bluu glubb blubb
+src/entities/buttons_clump.lua:128		Scoring adds points and clears all dice in the combo	Glupp glubbl blips blan blubb glupp blobbs blin bl blom
+src/entities/buttons_clump.lua:130		Select All	Plopp Glupp
+src/entities/buttons_clump.lua:131		Select your dice to score them or roll them	Plopp bluu blobbs blo glupp blupp glor blubba blupp
+src/entities/buttons_clump.lua:133		Deselect	Glorp
+src/entities/buttons_clump.lua:134		Deselect everything to make a new selection	Glorp bloopblorp blo plupp bu blubb bloop
+src/entities/buttons_clump.lua:257		Roll just the selected dice	Blubba splubb bl blubbl blobbs
+src/entities/buttons_clump.lua:259		Roll Blank	Blubba Glubb
+src/entities/buttons_clump.lua:260		Roll all blank dice	Blubba glupp glubb blobbs
+src/entities/buttons_clump.lua:262		Roll All	Blubba Glupp
+src/entities/buttons_clump.lua:263		Re-roll all your dice	Glubb-blubba glupp bluu blobbs
+src/entities/buttons_clump.lua:353		any bust:\ninstant wipe:	brubbl glupp:\nbrrl splatt:
+src/entities/buttons_clump.lua:410 (+2 others)		no combo	glupp blom
+src/entities/cycle_baby.lua:7		Cycle Baby	Glubb Plupp
+src/entities/cycle_baby.lua:13		Cycle!	Glubb!
+src/entities/dice.lua:212		Bust	Glupp
+src/entities/dice.lua:221		Bonus\n+100 Points when scored	Blup\n+100 Blips plupp blup
+src/entities/dice.lua:231		Mult\n+2 Mult when scored	Glubbi\n+2 Glubbi plupp blup
+src/entities/dice.lua:241		Debust\n-1 Bust and -1 ♥ when scored	Brubbl\n-1 Glupp blan -1 ♥ plupp blup
+src/entities/dice.lua:250		Pig\nReroll for instant points	Blupp\nReblubba flor brrl blips
+src/entities/dice.lua:259		Negative\n-50 Points when scored	Blubb\n-50 Blips plupp blup
+src/entities/dice.lua:269		Power\nRecharge power when scored	Brubbl\nBlup brubbl plupp blup
+src/entities/dice.lua:278		Stuck\nCan't be rerolled	Glupp\nBrubbl glubbl bloop
+src/entities/dice.lua:287		Golden\n+1¥ when scored	Splubb\n+1¥ plupp blup
+src/entities/dice.lua:305		Skip\nRolls to the next value	Glubbl\nBlupp blo bl glubb blup
+src/entities/dice.lua:314		Mirror\nFlips to value of next clicked die	Glupp\nGlubbl blo blup blov glubb bloop blobb
+src/entities/dice.lua:323		Cracked\n -1 ♥ when rolled	Blubbl\n -1 ♥ plupp glorp
+src/entities/dice.lua:333		Empty\nCan't be rolled	Glorp\nBrubbl glubbl glorp
+src/entities/dice.lua:342		Hardy\n+1 ♥ when rolled	Splubb\n+1 ♥ plupp glorp
+src/entities/dice.lua:352		Doom\n-3♥ when rolled	Blorp\n-3♥ plupp glorp
+src/entities/dice.lua:627		CRACK	GLUBBL
+src/entities/dice_peek.lua:50		ingestion might hurt tummy	bloop blubbl blubb plupp
+src/entities/dice_peek.lua:253		Impatient	Brubbl
+src/entities/dice_peek.lua:253		Nudges up everytime anything is rolled.	Bloop blup bloop blupp blis glorp.
+src/entities/dice_peek.lua:254		Disappears after being scored.	Brubblglubb glupp brubbl blup.
+src/entities/dice_peek.lua:255		Cycle	Glubb
+src/entities/dice_peek.lua:255		Rolls to its next value.\nDamage on score.	Blupp blo blubb glubb blup.\nPlupp glon glupp.
+src/entities/dice_peek.lua:267		Scores x${times}	Plopp glubb${times}
+src/entities/dice_peek.lua:268		Scores multiple times.	Plopp plupp splubb.
+src/entities/dice_peek.lua:281		Dice live forever	Blobbs splubb blubb
+src/entities/dice_peek.lua:281		Dice are mortal	Blobbs blar flubb
+src/entities/dice_pick.lua:7		Swap Dice	Brubbl Blobbs
+src/entities/dice_pick.lua:20		Swap	Brubbl
+src/entities/dice_pick.lua:28		Skip	Glubbl
+src/entities/die_baby.lua:7		Old Baby	Blubb Plupp
+src/entities/die_baby.lua:13		Scores x	Plopp glubb
+src/entities/dupe_baby.lua:7		Dupe Baby	Splubb Plupp
+src/entities/dupe_baby.lua:59		Duplicated!	Glubbblupp!
+src/entities/encounter_timeline.lua:136		Goal Reached	Bloop Brubbl
+src/entities/encounter_timeline.lua:437		GOAL REACHED	BLOOP BRUBBL
+src/entities/encounter_timeline.lua:438		${to_go} TO GO	${to_go} BLO BLUBB
+src/entities/eye_baby.lua:7		Eye Baby	Blup Plupp
+src/entities/fish_spawner.lua:215		Cool Fish Available	Blubb Bloop Glubbl
+src/entities/god_shop.lua:68		CHOOSE	FLUBB
+src/entities/god_shop.lua:499		reroll %d ¤	reblubba %d ¤
+src/entities/item.lua:498		Tooth ${count}/${limit}	Blup ${count}/${limit}
+src/entities/item.lua:508		a to use spells	bu blo glubb glims
+src/entities/item.lua:510		right click to use spells	bloop brubbl blo glubb glims
+src/entities/item.lua:513		drag snacks over rolled dice	glupp nombls splubb glorp blobbs
+src/entities/power_ui.lua:97	ui	Use	Glubb
+src/entities/power_ui.lua:130	ui	Power recharges each turn\nSelect a die with Left Click then press this button to use it	Brubbl plupp glubb glubbo\nPlopp bu blobb blith Flubb Brubbl flubb flubb brubbl blup blo glubb blupp
+src/entities/shop.lua:82		TAB: ${total} ¥	BLUPP: ${total} ¥
+src/entities/shop.lua:107		Dice $count/$limit	Blobbs $count/$limit
+src/entities/shop.lua:136		Trinkets $count/$limit	Blinkles $count/$limit
+src/entities/shop.lua:165		Actives $count/$limit	Splubb $count/$limit
+src/entities/shop.lua:1283		cant sell eternal	brrl blup brubbl
+src/entities/shop.lua:1295		sell cursed	blup brubbl
+src/entities/shop.lua:1307		too many dice	blubb brubbl blobbs
+src/entities/shop.lua:1319		too many trinkets	blubb brubbl blinkles
+src/entities/shop.lua:1333		pay up	blubb blup
+src/entities/shop.lua:1333		take change	blubb plupp
+src/entities/shop.lua:1405		bye	flubb
+src/entities/shop.lua:1453		Reroll - ${current_cost}¥	Reblubba - ${current_cost}¥
+src/entities/tape.lua:453		- web	- blorp
+src/entities/title_text.lua:3		DICE HAVE\nNO EYES	BLOBBS GLORP\nGLUPP BLORP
+src/entities/title_text.lua:5		DICE HAVE\nNÕ EYES	BLOBBS GLORP\nGLORP BLORP
+src/entities/title_text.lua:6		DICE HAVE\nNÖ EYES	BLOBBS GLORP\nBLUP BLORP
+src/entities/title_text.lua:127		DEMO	BRUBBL
+src/haunt.lua:14 (+2 others)		wake up	glubbl blup
+src/haunt.lua:17		leave	glubbl
+src/haunt.lua:18		please leave	glorp glubbl
+src/haunt.lua:19 (+1 others)		you don't belong here	blu splubb blupp glorp
+src/haunt.lua:21 (+2 others)		go outside	blubb blubb
+src/haunt.lua:23		you're dreaming	glorp glubbl
+src/haunt.lua:24		you're stuck in the loop	glorp glupp blin bl splubb
+src/haunt.lua:25		are you stuck?	blar blu glupp?
+src/haunt.lua:26		move on	plupp glon
+src/haunt.lua:27		break the pattern	blubbl bl plopp
+src/haunt.lua:28		what are you doing	plupp blar blu glupp
+src/haunt.lua:29		you've consumed enough	plopp blup bloop
+src/haunt.lua:30		it's all made up	blorp glupp blupp blup
+src/haunt.lua:31		consume sleep repeat	plopp plupp blup
+src/haunt.lua:32 (+1 others)		get out	blupp blubb
+src/haunt.lua:34		this isn't real	brubbl splubb plopp
+src/haunt.lua:35		call your friends	blubbl bluu blubbl
+src/haunt.lua:36		no no no no no	glupp glupp glupp glupp glupp
+src/haunt.lua:37		why are you here	blup blar blu glorp
+src/haunt.lua:38		please wake up	glorp glubbl blup
+src/item_unlocks.lua:6		Basic Spells	Brubbl Glims
+src/item_unlocks.lua:7		beginner magic	blup brubbl
+src/item_unlocks.lua:15		Basic Passives	Brubbl Bloop
+src/item_unlocks.lua:16		situational benefits	glubblblup splubb
+src/item_unlocks.lua:24		Basic Combos	Brubbl Bloms
+src/item_unlocks.lua:25		upgrade your faves	flubb bluu flubb
+src/item_unlocks.lua:33		Basic Snacks	Brubbl Nombls
+src/item_unlocks.lua:34		tasty treats for hungry dice	glubbl blubbl flor glubb blobbs
+src/item_unlocks.lua:42		Basic Quests	Brubbl Plupp
+src/item_unlocks.lua:53		Parenting	Brubbl
+src/item_unlocks.lua:54		life comes at you fast	brrl blupp splubb blu brrl
+src/item_unlocks.lua:61		Hold	Blup
+src/item_unlocks.lua:62		HOLD!!!	BLUP!!!
+src/item_unlocks.lua:72		Numerology	Blorpblubbl
+src/item_unlocks.lua:73		special numbers are special	glorp brubbl blar glorp
+src/item_unlocks.lua:81		More Spells	Blupp Glims
+src/item_unlocks.lua:82		advanced magic	flubb brubbl
+src/item_unlocks.lua:90		More Snacks	Blupp Nombls
+src/item_unlocks.lua:91		get some variety in your diet	blupp bloop blubb blin bluu glorp
+src/item_unlocks.lua:100		Diet Culture	Glorp Bloop
+src/item_unlocks.lua:101		its real bad for you	blubb plopp glupp flor blu
+src/item_unlocks.lua:108		All In	Glupp Blin
+src/item_unlocks.lua:109		for when youve got nothing to lose	flor plupp glubbl brubbl glupp blo glorp
+src/item_unlocks.lua:118		Lover	Blup
+src/item_unlocks.lua:119		everything to do with pairs	bloopblorp blo blubbl blith glubbl
+src/item_unlocks.lua:127		Multipliers	Pluppsplubb
+src/item_unlocks.lua:128		make number go bigger	plupp blupp blubb brrl
+src/item_unlocks.lua:136		Maximalist	Brrlblup
+src/item_unlocks.lua:137		more dice more better	blupp blobbs blupp glupp
+src/item_unlocks.lua:145		Self Control	Splubb Brrl
+src/item_unlocks.lua:146		as if	flubb flubb
+src/item_unlocks.lua:154		Pain	Blupp
+src/item_unlocks.lua:155		it hurts but in a good way	blupp plopp blup blin bu blorp glupp
+src/item_unlocks.lua:164 (+1 others)		Comeback	Brubbl
+src/item_unlocks.lua:165		you've still got plenty left	plopp blupp brubbl glupp flubb
+src/item_unlocks.lua:174		Momentum	Bubbl
+src/item_unlocks.lua:175		chain combos forever	bloop bloms blubb
+src/item_unlocks.lua:183		Workaholic	Brrlbrubbl
+src/item_unlocks.lua:184		put your power back to work	glorp bluu brubbl blupp blo glubb
+src/item_unlocks.lua:193		Mind Expansion	Blupp Flubb
+src/item_unlocks.lua:194		gigabrained complicated nonsense	GLUBBGLUBB glubblbrubbl blorplorp
+src/item_unlocks.lua:203		Actualisation	Brrlblubb
+src/item_unlocks.lua:204		get actualised	blupp glorpglubb
+src/item_unlocks.lua:212		Rich Man	Plupp Splubb
+src/item_unlocks.lua:213		money money money	plupp plupp plupp
+src/item_unlocks.lua:222		Degenerate	Gluppblup
+src/item_unlocks.lua:223		as luck would have it	blubb blan plopp
+src/item_unlocks.lua:232		Biscuit	Flubb
+src/item_unlocks.lua:233		worth risking it for	splubb blorp blupp flor
+src/item_unlocks.lua:241		Send It	Blorp Blupp
+src/item_unlocks.lua:242		when in doubt go flat out	plupp blin splubb blubb blup blubb
+src/item_unlocks.lua:251 (+2 others)		Ghost	Splubb
+src/item_unlocks.lua:252		pretty spooky	bloop bloop
+src/item_unlocks.lua:261 (+1 others)		Shield	Plupp
+src/item_unlocks.lua:262		bust protection	glupp glorpglupp
+src/item_unlocks.lua:271		Slow N Steady	Glorp SPLUBB Glubb
+src/item_unlocks.lua:272		gets you nowhere	blubbl blu blorp
+src/item_unlocks.lua:280		Patience	Splubb
+src/item_unlocks.lua:281		a virtue	bu glubb
+src/item_unlocks.lua:290		Straights	Flubb
+src/item_unlocks.lua:291		they're at it again	blubbl splubb blupp glubbl
+src/item_unlocks.lua:299		Dumplings	Glubbl
+src/item_unlocks.lua:300		yum yum in my tum	glorp glorp blin gluu blorp
+src/item_unlocks.lua:308		Pig	Blupp
+src/item_unlocks.lua:309		get greedy	blupp plupp
+src/item_unlocks.lua:319		Numeracy	Glupp
+src/item_unlocks.lua:320		make the numbers behave	plupp bl brubbl glorp
+src/item_unlocks.lua:333		Shop Expansion	Blubb Flubb
+src/item_unlocks.lua:334		more items more good	blupp glorp blupp blorp
+src/item_unlocks.lua:343		Mega Shop	Blupp Blubb
+src/item_unlocks.lua:344		more items more items more items	blupp glorp blupp glorp blupp glorp
+src/item_unlocks.lua:355		More Funky Dice	Blupp Glubb Blobbs
+src/item_unlocks.lua:356		Special Side Effects in shops!\nMult, Debust, Power and Cracked	Glorp Blubbl Plupp blin brubbl!\nGlubbi, Brubbl, Brubbl blan Blubbl
+src/item_unlocks.lua:365		Even More Dice	Blupp Blupp Blobbs
+src/item_unlocks.lua:366		Special Side Effects in shops!\nSkip, Mirror, Hardy and Doom	Glorp Blubbl Plupp blin brubbl!\nGlubbl, Glupp, Splubb blan Blorp
+src/item_unlocks.lua:377		Fish Trinkets	Bloop Blinkles
+src/item_unlocks.lua:378		from the sea	glupp bl glubbl
+src/item_unlocks.lua:386		Sardine Magic	Plupp Brubbl
+src/item_unlocks.lua:387		abracodabra	brrlblubb
+src/item_unlocks.lua:395		Bans	Blubbl
+src/item_unlocks.lua:396		ban item sets from your runs	glubbl plopp splubb glupp bluu bloop
+src/item_unlocks.lua:408 (+1 others)		Scoreboards	Blorpglupp
+src/item_unlocks.lua:409 (+1 others)		be the goat	glubbl bl blubb
+src/items.lua:22		Something fell from the sky	Glubbl plupp glupp bl glupp
+src/items.lua:48		Power Limit Up	Brubbl Plupp Blup
+src/items.lua:51		Power Limit +1	Brubbl Plupp +1
+src/items.lua:62		Power Limit +1!	Brubbl Plupp +1!
+src/items.lua:67		Trinket Limit Up	Blinkle Plupp Blup
+src/items.lua:70		Trinket Limit +1	Blinkle Plupp +1
+src/items.lua:79		Trinket Limit +1!	Blinkle Plupp +1!
+src/items.lua:84		Dice Limit Up	Blobbs Plupp Blup
+src/items.lua:87		Dice Limit +1	Blobbs Plupp +1
+src/items.lua:96		Dice Limit +1!	Blobbs Plupp +1!
+src/items.lua:102		Coin Burst	Pling Glupp
+src/items.lua:105		+300 Points per coin you own	+300 Blips brubbl pling blu glubbl
+src/items.lua:119 (+1 others)		No coins!	Glupp plings!
+src/items.lua:125		Ghost Jar	Splubb Plopp
+src/items.lua:128		Spawn 3 ghost dice	Plupp 3 splubb blobbs
+src/items.lua:146		Bust Shield	Glupp Plupp
+src/items.lua:149		Bust Shield On	Glupp Plupp Glon
+src/items.lua:159 (+5 others)		Shield!	Plupp!
+src/items.lua:165		Uplift	Plopp
+src/items.lua:168		Nudge all dice +1 pip (no loop)	Blupp glupp blobbs +1 glupp (glupp splubb)
+src/items.lua:181		+1 all	+1 glupp
+src/items.lua:186		Downshift	Glupp
+src/items.lua:189		Nudge all dice -1 pip (no loop)	Blupp glupp blobbs -1 glupp (glupp splubb)
+src/items.lua:203		-1 all	-1 glupp
+src/items.lua:208		Clamp High	Brrl Brubbl
+src/items.lua:211		All dice above 4 become 4	Glupp blobbs brubbl 4 blubbl 4
+src/items.lua:229		Clamp 4	Brrl 4
+src/items.lua:234		Money Reroll	Plupp Reblubba
+src/items.lua:237		Reroll all dice, gain +1¥ per 6 rolled	Reblubba glupp blobbs, brrl +1¥ brubbl 6 glorp
+src/items.lua:268 (+1 others)		Unlucky	Brrl
+src/items.lua:279		Money Reroll II	Plupp Reblubba FLUBB
+src/items.lua:282		Reroll all dice, gain +2¥ per 1 rolled	Reblubba glupp blobbs, brrl +2¥ brubbl 1 glorp
+src/items.lua:327		Piggy Bank	Glubb Blooba
+src/items.lua:330		Gain 1¥ per Momentum and clear it	Brrl 1¥ brubbl Bubbl blan plupp blupp
+src/items.lua:342 (+1 others)		No momentum!	Glupp bubbl!
+src/items.lua:354		GOTTA GO FAST	BLORP BLUBB BRRL
+src/items.lua:357		Momentum x2	Bubbl x2
+src/items.lua:366		x2 momentum	x2 bubbl
+src/items.lua:371		Peek	Blupp
+src/items.lua:374		Gain 1¥ per die showing 1	Brrl 1¥ brubbl blobb glubbl 1
+src/items.lua:396 (+2 others)		No 1s!	Glupp 1plupp!
+src/items.lua:402		Peek II	Blupp FLUBB
+src/items.lua:405		Gain 1¥ per die showing 3	Brrl 1¥ brubbl blobb glubbl 3
+src/items.lua:427		No 3s!	Glupp 3plupp!
+src/items.lua:436		-1 Bust per die showing 1	-1 Glupp brubbl blobb glubbl 1
+src/items.lua:462		Scratchie	Bloop
+src/items.lua:465		Gain 0-3¥	Brrl 0-3¥
+src/items.lua:482 (+1 others)		Nothing!	Glupp!
+src/items.lua:488		Scratchie II	Bloop FLUBB
+src/items.lua:491		1 in 3 chance to win 6¥	1 blin 3 blubb blo plupp 6¥
+src/items.lua:507		No luck	Glupp bloop
+src/items.lua:513		Scratchie III	Bloop GLUPP
+src/items.lua:516		Gain 1-4¥	Brrl 1-4¥
+src/items.lua:540		Copycat	Blubb
+src/items.lua:543		Repeat the last spell used	Blup bl brubbl glim glubbl
+src/items.lua:553 (+1 others)		Nothing to copy!	Glupp blo plupp!
+src/items.lua:556 (+1 others)		Copy!	Plupp!
+src/items.lua:562		Copybigdog	Blorpblorp
+src/items.lua:566		Repeat the last spell used, twice	Blup bl brubbl glim glubbl, flubb
+src/items.lua:585		Heal	Flubb
+src/items.lua:588		All dice +1 ♥	Glupp blobbs +1 ♥
+src/items.lua:602		Healed!	Glubb!
+src/items.lua:607		Clutch	Blupp
+src/items.lua:610		Hold your next score	Blup bluu glubb glupp
+src/items.lua:619 (+2 others)		Hold!	Blup!
+src/items.lua:625		Snack Bag	Nombl Blupp
+src/items.lua:628		Spawn 2-3 random snack items	Plupp 2-3 glubb nombl glorp
+src/items.lua:648		${amount} foods!	${amount} glubbl!
+src/items.lua:653		Gambling Bag	Blubb Blupp
+src/items.lua:656		Send it	Blorp blupp
+src/items.lua:677		${amount} chances!	${amount} blubb!
+src/items.lua:682		Citrus Bag	Blupp Blupp
+src/items.lua:685		Spawn 5 citrus slices	Plupp 5 blupp blupp
+src/items.lua:699		Citrus!	Blupp!
+src/items.lua:704		Butcher's Bag	Flubb Blupp
+src/items.lua:707		Spawn 3 pig snacks	Plupp 3 blupp nombls
+src/items.lua:720		Rare find!	Brubbl bloop!
+src/items.lua:727		Meat!	Splubb!
+src/items.lua:733		Dumpling Bag	Plopp Blupp
+src/items.lua:736		Spawn 3 random dumplings	Plupp 3 glubb glubbl
+src/items.lua:750		3 dumplings!	3 glubbl!
+src/items.lua:757		Caffeine Pill	Glubb Blup
+src/items.lua:758		Make a die impatient	Plupp bu blobb brubbl
+src/items.lua:772		Impatient!	Brubbl!
+src/items.lua:777		Tab	Blupp
+src/items.lua:778		Make a die cycle	Plupp bu blobb glubb
+src/items.lua:792		Cycling!	Brubbl!
+src/items.lua:797		Bolero	Splubb
+src/items.lua:798		Add 3 Bonus sides	Blorp 3 Blup flubb
+src/items.lua:816		Bonus Sides Added	Blup Flubb Blubbl
+src/items.lua:821		Eggplant	Plopp
+src/items.lua:822		Add 3 Mult sides	Blorp 3 Glubbi flubb
+src/items.lua:840 (+1 others)		Mult Sides Added	Glubbi Flubb Blubbl
+src/items.lua:845		Mangosteen	Blupbloop
+src/items.lua:846 (+1 others)		Add 1 Mult side	Blorp 1 Glubbi blubbl
+src/items.lua:870		Har Gow	Blup Blup
+src/items.lua:871 (+1 others)		Add 1 Golden side	Blorp 1 Splubb blubbl
+src/items.lua:890		Golden side Added	Splubb blubbl Blubbl
+src/items.lua:895		Pork Chop	Plupp Bloop
+src/items.lua:896		Add 4 Pig sides	Blorp 4 Blupp flubb
+src/items.lua:914		Pig Sides Added	Blupp Flubb Blubbl
+src/items.lua:919		Hubba Bubba	Plopp Blupp
+src/items.lua:920 (+1 others)		Add 1 Debust side	Blorp 1 Brubbl blubbl
+src/items.lua:938 (+1 others)		Debust Side Added	Brubbl Blubbl Blubbl
+src/items.lua:943		Ritalin	Blorp
+src/items.lua:944 (+1 others)		Add 1 Power side	Blorp 1 Brubbl blubbl
+src/items.lua:963 (+1 others)		Power Side Added	Brubbl Blubbl Blubbl
+src/items.lua:968		Mochi	Blubb
+src/items.lua:969		Add 5 Stuck sides	Blorp 5 Glupp flubb
+src/items.lua:987		Stuck Sides Added	Glupp Flubb Blubbl
+src/items.lua:992		Bacon	Plupp
+src/items.lua:993 (+1 others)		Add 1 Pig side	Blorp 1 Blupp blubbl
+src/items.lua:1008 (+1 others)		Pig Side Added	Blupp Blubbl Blubbl
+src/items.lua:1014 (+1 others)		Add 1 Skip side	Blorp 1 Glubbl blubbl
+src/items.lua:1029 (+1 others)		Skip Side Added	Glubbl Blubbl Blubbl
+src/items.lua:1034		Black Eyed Pea	Splubb Flubb Blubb
+src/items.lua:1035		This die can't roll a 1 on its next roll	Brubbl blobb brubbl blubba bu 1 glon blubb glubb blubba
+src/items.lua:1052		Grape	Blupp
+src/items.lua:1053 (+1 others)		Add 1 Bonus side	Blorp 1 Blup blubbl
+src/items.lua:1068 (+1 others)		Bonus Side Added	Blup Blubbl Blubbl
+src/items.lua:1073		Pieróg z Kapusto	Glubbl blorp Glorp
+src/items.lua:1091		Crack Candy	Glubbl Splubb
+src/items.lua:1092		Add 2 Power sides	Blorp 2 Brubbl flubb
+src/items.lua:1110		Power Sides Added	Brubbl Flubb Blubbl
+src/items.lua:1115		Lemon	Bloop
+src/items.lua:1116		Nudge this die +1 pip	Blupp brubbl blobb +1 glupp
+src/items.lua:1131 (+1 others)		+1 pip!	+1 glupp!
+src/items.lua:1136		Lime	Plupp
+src/items.lua:1137		Nudge this die -1 pip	Blupp brubbl blobb -1 glupp
+src/items.lua:1153		-1 pip!	-1 glupp!
+src/items.lua:1158		Pomelo	Splubb
+src/items.lua:1159		Flip this die to its opposite face	Bloop brubbl blobb blo blubb splubb blup
+src/items.lua:1174		Flipped!	Blorp!
+src/items.lua:1179		Orange	Glorp
+src/items.lua:1180		Nudge all other dice one pip towards this die's value	Blupp glupp glubbl blobbs blup glupp glorp brubbl plupp blup
+src/items.lua:1208		Pull!	Glupp!
+src/items.lua:1213		Tumor	Plopp
+src/items.lua:1214		Spawn a ghost clone of this die	Plupp bu splubb splubb blov brubbl blobb
+src/items.lua:1256		Cloned!	Glorp!
+src/items.lua:1261		Eye	Blup
+src/items.lua:1262		Add 1 pip to the shown side	Blorp 1 glupp blo bl flubb blubbl
+src/items.lua:1285		Bonus Puke	Blup Blup
+src/items.lua:1305		Mult Puke	Glubbi Blup
+src/items.lua:1320		Mult Side Added	Glubbi Blubbl Blubbl
+src/items.lua:1325		Debust Puke	Brubbl Blup
+src/items.lua:1345		Pig Puke	Blupp Blup
+src/items.lua:1365		Power Puke	Brubbl Blup
+src/items.lua:1386		Stuck Puke	Glupp Blup
+src/items.lua:1387		Add 1 Stuck side	Blorp 1 Glupp blubbl
+src/items.lua:1401		Stuck Side Added	Glupp Blubbl Blubbl
+src/items.lua:1406		Money Puke	Plupp Blup
+src/items.lua:1421		Golden Side Added	Splubb Blubbl Blubbl
+src/items.lua:1426		Skip Puke	Glubbl Blup
+src/items.lua:1446		Mirror Puke	Glupp Blup
+src/items.lua:1447		Add 1 Mirror side	Blorp 1 Glupp blubbl
+src/items.lua:1461		Mirror Side Added	Glupp Blubbl Blubbl
+src/items.lua:1466		Cracked Puke	Blubbl Blup
+src/items.lua:1467		Add 1 Cracked side	Blorp 1 Blubbl blubbl
+src/items.lua:1481 (+2 others)		Cracked Side Added	Blubbl Blubbl Blubbl
+src/items.lua:1486		Hardy Puke	Splubb Blup
+src/items.lua:1487		Add 1 Hardy side	Blorp 1 Splubb blubbl
+src/items.lua:1501		Hardy Side Added	Splubb Blubbl Blubbl
+src/items.lua:1506		Doom Puke	Blorp Blup
+src/items.lua:1507		Add 1 Doom side	Blorp 1 Blorp blubbl
+src/items.lua:1521 (+2 others)		Doom Side Added	Blorp Blubbl Blubbl
+src/items.lua:1526		Bust Puke	Glupp Blup
+src/items.lua:1527		Add 1 Bust side	Blorp 1 Glupp blubbl
+src/items.lua:1541 (+2 others)		Bust Side Added	Glupp Blubbl Blubbl
+src/items.lua:1546		Finger	Blubbl
+src/items.lua:1547		Puke a special effect out	Blup bu glorp glupp blubb
+src/items.lua:1571		Emetique (TM)	Blorp (BLORP)
+src/items.lua:1572		Puke all special effects out	Blup glupp glorp plupp blubb
+src/items.lua:1612		Pig Run	Blupp Plupp
+src/items.lua:1615		Pig sides score +${dynamic} Points, gains +5 per pig rerolled this turn. Resets each turn.	Blupp flubb glupp +${dynamic} Blips, blorp +5 brubbl blupp bloop brubbl glubbo. Blubbl glubb glubbo.
+src/items.lua:1639		pig bonus +${amount}!	blupp blup +${amount}!
+src/items.lua:1644		Thurible	Glubbl
+src/items.lua:1647		+${dynamic} Mult, gains +1 Mult each time a die is destroyed	+${dynamic} Glubbi, blorp +1 Glubbi glubb blubb bu blobb blis flubb
+src/items.lua:1661 (+1 others)		+1 mult	+1 glubbi
+src/items.lua:1674		Aging Baby	Glorp Plupp
+src/items.lua:1677		+${dynamic} Points, loses 10 each time it activates	+${dynamic} Blips, plupp 10 glubb blubb blupp blorp
+src/items.lua:1700		Growing Baby	Splubb Plupp
+src/items.lua:1703		+${dynamic} Points, gains +1 for each die rolled	+${dynamic} Blips, blorp +1 flor glubb blobb glorp
+src/items.lua:1719		+${amount} pts!	+${amount} blup!
+src/items.lua:1730		Bleeding Baby	Splubb Plupp
+src/items.lua:1733		+${dynamic} Mult, gains +1 Mult each time you bust, resets on wipe	+${dynamic} Glubbi, blorp +1 Glubbi glubb blubb blu glupp, blubbl glon splatt
+src/items.lua:1763		Grudge Baby	Blupp Plupp
+src/items.lua:1766		+${dynamic} Mult, loses 1 Mult each time you bank	+${dynamic} Glubbi, plupp 1 Glubbi glubb blubb blu blooba
+src/items.lua:1782		-1 mult	-1 glubbi
+src/items.lua:1794		Glass Gecko	Plupp Blup
+src/items.lua:1795		+10 Mult, destroyed on Bust	+10 Glubbi, flubb glon Glupp
+src/items.lua:1812		Belly	Splubb
+src/items.lua:1815		+${dynamic} Mult, gains +0.1 Mult each time a snack is eaten	+${dynamic} Glubbi, blorp +0.1 Glubbi glubb blubb bu nombl blis glubb
+src/items.lua:1830		+0.1 mult	+0.1 glubbi
+src/items.lua:1848		Worm	Flubb
+src/items.lua:1851 (+1 others)		+1 Mult	+1 Glubbi
+src/items.lua:1862		Mahjong Tile	Blup Splubb
+src/items.lua:1865		+2 Mult	+2 Glubbi
+src/items.lua:1877		Clam	Blup
+src/items.lua:1880		+50 Points	+50 Blips
+src/items.lua:1895		+10 Mult, -2 Mult for each die scored	+10 Glubbi, -2 Glubbi flor glubb blobb blup
+src/items.lua:1912		Papa	Glorp
+src/items.lua:1915		+1 Mult per die scored	+1 Glubbi brubbl blobb blup
+src/items.lua:1931		Powered Claw	Glubbl Blorp
+src/items.lua:1934		+5 Mult, uses 1 Power	+5 Glubbi, blubb 1 Brubbl
+src/items.lua:1949		POY SIAN	SPLUBB GLORP
+src/items.lua:1952		+40 Points for each unrolled 4	+40 Blips flor glubb glubbl 4
+src/items.lua:1970		Hold The Ones	Blup Bl Plopp
+src/items.lua:1973		+1 Mult for each unrolled 1	+1 Glubbi flor glubb glubbl 1
+src/items.lua:1994		Zero Bust Turbo	Glubbl Glupp Bloop
+src/items.lua:1997		Banking with no Busts starts next turn with 10 Momentum	Bloobing blith glupp Glupps blorp glubb glubbo blith 10 Bubbl
+src/items.lua:2012		10 momentum!	10 bubbl!
+src/items.lua:2019		Mushieltador	Brrlblorp
+src/items.lua:2022		Gain a Bust Shield when banking if your last combo was any Straight	Brrl bu Glupp Plupp plupp bloobing flubb bluu brubbl blom blubbl brubbl Blup
+src/items.lua:2048		Survival Instinct	Blup Glupp
+src/items.lua:2051		x2 Mult on 1 turn left	x2 Glubbi glon 1 glubbo flubb
+src/items.lua:2082		Mandarin Peel	Brubbl Plupp
+src/items.lua:2085		+5 Mult for your first scored combo each turn	+5 Glubbi flor bluu plopp blup blom glubb glubbo
+src/items.lua:2106		Octopus Ting	Plopp Flubb
+src/items.lua:2109		x3 Mult for your first scored combo each level	x3 Glubbi flor bluu plopp blup blom glubb blubbo
+src/items.lua:2134		Four Legged Star	Flubb Glubb Plopp
+src/items.lua:2137		+300 Points for a combo containing Four Of A Kind	+300 Blips flor bu blom gluppglorp Flubb Blov BU Brubbl
+src/items.lua:2155		Minnesota Fats	Glorp Blorp
+src/items.lua:2158		+200 Points for any Straight	+200 Blips flor brubbl Blup
+src/items.lua:2171		Bimber	Bloop
+src/items.lua:2174		+200 Points for a Full House	+200 Blips flor bu Blubbl Blup
+src/items.lua:2188		Kind Berry Three	Brubbl Glorp Blubbl
+src/items.lua:2191		+200 Points for Three Of A Kind	+200 Blips flor Blubbl Blov BU Brubbl
+src/items.lua:2205		Two Pair Cat	Bloop Blupp Flubb
+src/items.lua:2208		+200 Points for a combo containing Two Pair	+200 Blips flor bu blom gluppglorp Bloop Blupp
+src/items.lua:2222		Just A Pair	Splubb BU Blupp
+src/items.lua:2225		+100 Points for a Pair	+100 Blips flor bu Blupp
+src/items.lua:2243		Fifteen Sum	Plopp Glupp
+src/items.lua:2246		x3 Mult if the scored dice sum to 15	x3 Glubbi flubb bl blup blobbs glupp blo 15
+src/items.lua:2266		Sumush	Bloop
+src/items.lua:2269		x2 Mult if the scored dice sum to 10	x2 Glubbi flubb bl blup blobbs glupp blo 10
+src/items.lua:2288		Lil' Choy	Glubbl' Brubbl
+src/items.lua:2291		x2 Mult when scoring 3 or fewer dice	x2 Glubbi plupp glupp 3 glor brrl blobbs
+src/items.lua:2309		Toad Hut	Bloop Brubbl
+src/items.lua:2312		x2 Mult for a combo containing Four Of A Kind	x2 Glubbi flor bu blom gluppglorp Flubb Blov BU Brubbl
+src/items.lua:2333		Pink Top	Plupp Blup
+src/items.lua:2336		x2 Mult for any Straight	x2 Glubbi flor brubbl Blup
+src/items.lua:2351		Absinthe	Plupp
+src/items.lua:2354		x2 Mult for a Full House	x2 Glubbi flor bu Blubbl Blup
+src/items.lua:2369		Three Legged Pirate	Blubbl Glubb Brrl
+src/items.lua:2372		x2 Mult for Three Of A Kind	x2 Glubbi flor Blubbl Blov BU Brubbl
+src/items.lua:2388		Two Pair Fat Cat	Bloop Blupp Brubbl Flubb
+src/items.lua:2391		x1.5 Mult for a combo containing Two Pair	x1.5 Glubbi flor bu blom gluppglorp Bloop Blupp
+src/items.lua:2407		Pair Mult Dog	Blupp Glubbi Plopp
+src/items.lua:2410		x1.5 Mult for Pair, Two Pair and Three Pair	x1.5 Glubbi flor Blupp, Bloop Blupp blan Blubbl Blupp
+src/items.lua:2427		Poppy	Plopp
+src/items.lua:2430		x2 Mult for a combo containing three 6s	x2 Glubbi flor bu blom gluppglorp blubbl 6plupp
+src/items.lua:2446		Sunnies	Splubb
+src/items.lua:2449		+0.5x Mult for each scored 2	+0.5glubb Glubbi flor glubb blup 2
+src/items.lua:2467		Cactus	Blorp
+src/items.lua:2470		+0.5x Mult per scored die	+0.5glubb Glubbi brubbl blup blobb
+src/items.lua:2488		Yolk	Blup
+src/items.lua:2491		Flipping a single coin +5 Mult	Glubbl bu flubb pling +5 Glubbi
+src/items.lua:2507		Lucky Leaf	Flubb Glubb
+src/items.lua:2510		x2 Mult if a coin is scored	x2 Glubbi flubb bu pling blis blup
+src/items.lua:2527		Soy Fish	Splubb Bloop
+src/items.lua:2530		+1 Mult per scored coin	+1 Glubbi brubbl blup pling
+src/items.lua:2541 (+1 others)		+${amount} mult	+${amount} glubbi
+src/items.lua:2548		Sardine	Plupp
+src/items.lua:2551		+50 Points per scored coin	+50 Blips brubbl blup pling
+src/items.lua:2562		+${amount} pts	+${amount} blup
+src/items.lua:2571		Snake Hold	Brrl Blup
+src/items.lua:2574		Snake Eyes hold score	Brrl Blorp blup glupp
+src/items.lua:2591		The Mask	Bl Flubb
+src/items.lua:2594		Combos with 6s hold score	Bloms blith 6plupp blup glupp
+src/items.lua:2612		Black Eye	Splubb Blup
+src/items.lua:2615		Spawn a Black Eyed Pea on Bust	Plupp bu Splubb Flubb Blubb glon Glupp
+src/items.lua:2623		Pea!	Blubb!
+src/items.lua:2629		Pain Tolerance	Blupp Glubb
+src/items.lua:2632		+1 Mult on Bust	+1 Glubbi glon Glupp
+src/items.lua:2646		Masochist Rock	Glupp Plupp
+src/items.lua:2649		x2 Mult on Bust	x2 Glubbi glon Glupp
+src/items.lua:2658		x2 Mult	x2 Glubbi
+src/items.lua:2664		Palosanto	Splubb
+src/items.lua:2667		If Mult is over 10: +5 Mult	Flubb Glubbi blis splubb 10: +5 Glubbi
+src/items.lua:2680		Chestnut	Glubbl
+src/items.lua:2683		+50 Points when any item triggers	+50 Blips plupp brubbl plopp plopp
+src/items.lua:2696		Dolphin	Flubb
+src/items.lua:2699		Spawns a random snack each level	Blubb bu glubb nombl glubb blubbo
+src/items.lua:2723 (+1 others)		Snack!	Nombl!
+src/items.lua:2729		Lemonade Stand	Glorp Plupp
+src/items.lua:2732		Spawns a citrus slice each turn	Blubb bu blupp brrl glubb glubbo
+src/items.lua:2749		Crowd Pleaser	Glupp Bloop
+src/items.lua:2752		+50 Points per trinket on board	+50 Blips brubbl blinkle glon glubb
+src/items.lua:2769		Double Down	Blubb Plupp
+src/items.lua:2772		Flipping a single coin x2 Mult	Glubbl bu flubb pling x2 Glubbi
+src/items.lua:2797		Just An Anxious Guy	Splubb Bu Flubb Glubbl
+src/items.lua:2800		+4 Mult for Four Of A Kind	+4 Glubbi flor Flubb Blov BU Brubbl
+src/items.lua:2814		Double Three Blibber	Blubb Blubbl Plopp
+src/items.lua:2817		+3 Mult for Three Of A Kind	+3 Glubbi flor Blubbl Blov BU Brubbl
+src/items.lua:2830		Two Pair Mult Cat	Bloop Blupp Glubbi Flubb
+src/items.lua:2833		+4 Mult for Two Pair	+4 Glubbi flor Bloop Blupp
+src/items.lua:2846		Pair Cat	Blupp Flubb
+src/items.lua:2849		+2 Mult for Pair, Two Pair and Three Pair	+2 Glubbi flor Blupp, Bloop Blupp blan Blubbl Blupp
+src/items.lua:2866		Threes Gobber	Blupp Flubb
+src/items.lua:2869		+100 Points for a combo containing Three Of A Kind	+100 Blips flor bu blom gluppglorp Blubbl Blov BU Brubbl
+src/items.lua:2902		Gay Moth	Plupp Plopp
+src/items.lua:2905		+60 Points for rerolling a 6	+60 Blips flor plupp bu 6
+src/items.lua:2924		Mini Goob	Blupp Glorp
+src/items.lua:2927		+0.1 Mult per die rolled	+0.1 Glubbi brubbl blobb glorp
+src/items.lua:2942		Faster	Plupp
+src/items.lua:2945		+1 Momentum	+1 Bubbl
+src/items.lua:2953 (+1 others)		+1 momentum	+1 bubbl
+src/items.lua:2958		Spite	Blup
+src/items.lua:2961		On Bust, gain +1 Momentum	Glon Glupp, brrl +1 Bubbl
+src/items.lua:2976		Shortbread Biscuit	Ploppblupp Flubb
+src/items.lua:2979		+100 Points for rerolling a single die	+100 Blips flor plupp bu flubb blobb
+src/items.lua:3037		Banksia	Glorp
+src/items.lua:3040		Rerolling a Pair recharges Power	Plupp bu Blupp plupp Brubbl
+src/items.lua:3052 (+4 others)		Power Recharged	Brubbl Blorp
+src/items.lua:3059		Lycheye	Splubb
+src/items.lua:3060		Two Pair recharges Power	Bloop Blupp plupp Brubbl
+src/items.lua:3079		Bump Jug	Brrl Blup
+src/items.lua:3082		Scoring a Full House recharges Power	Glupp bu Blubbl Blup plupp Brubbl
+src/items.lua:3099		Full Send	Blubbl Blorp
+src/items.lua:3102		Rerolling 5 or more dice recharges Power	Plupp 5 glor blupp blobbs plupp Brubbl
+src/items.lua:3119		God Give Me Strength	GLUBB Glupp Bloop Blupp
+src/items.lua:3122		Rerolling a single die recharges Power	Plupp bu flubb blobb plupp Brubbl
+src/items.lua:3143		High Roller	Brubbl Brubbl
+src/items.lua:3146		+1 Mult for each 6 scored	+1 Glubbi flor glubb 6 blup
+src/items.lua:3161		Low Ball	Flubb Blorp
+src/items.lua:3164		x2 Mult if all scored dice are 3 or under	x2 Glubbi flubb glupp blup blobbs blar 3 glor brubbl
+src/items.lua:3187		Even Now	Blupp Blorp
+src/items.lua:3190		+50 Points per scored even die	+50 Blips brubbl blup blupp blobb
+src/items.lua:3207		Flesh Ring	Brrl Glubbl
+src/items.lua:3210		+1 Mult per scored odd die	+1 Glubbi brubbl blup glorp blobb
+src/items.lua:3226		Goldfish	Glubb
+src/items.lua:3229		+2 Mult for each scored 5	+2 Glubbi flor glubb blup 5
+src/items.lua:3244		Antler	Blorp
+src/items.lua:3247		+2 Mult for each scored 2	+2 Glubbi flor glubb blup 2
+src/items.lua:3262		Evil Eye	Glubb Blup
+src/items.lua:3265		+1 Mult for each scored 1	+1 Glubbi flor glubb blup 1
+src/items.lua:3280		Lil Buddy	Glubbl Blupp
+src/items.lua:3283		+60 Points for each scored 6	+60 Blips flor glubb blup 6
+src/items.lua:3298		Eagle's Claw	Plupp Blorp
+src/items.lua:3301		+100 Points for each scored 1	+100 Blips flor glubb blup 1
+src/items.lua:3316		Fast Glasses	Brrl Glupp
+src/items.lua:3319		+100 Points for each scored 2	+100 Blips flor glubb blup 2
+src/items.lua:3334		Shard	Glupp
+src/items.lua:3337		+1 Mult for each scored 3	+1 Glubbi flor glubb blup 3
+src/items.lua:3352		Shrimp	Brubbl
+src/items.lua:3355		+40 Points for each scored 4	+40 Blips flor glubb blup 4
+src/items.lua:3393		Stuck Bonus	Glupp Blup
+src/items.lua:3396		Each Stuck side scored gives +100 Points	Glubb Glupp blubbl blup plupp +100 Blips
+src/items.lua:3415		Bonus Bonus	Blup Blup
+src/items.lua:3418		Each Bonus side scored gives +100 Points	Glubb Blup blubbl blup plupp +100 Blips
+src/items.lua:3437		Power Bonus	Brubbl Blup
+src/items.lua:3440		Each Power side scored gives +100 Points	Glubb Brubbl blubbl blup plupp +100 Blips
+src/items.lua:3483		Stuck Mult	Glupp Glubbi
+src/items.lua:3486		Each Stuck side scored gives +4 Mult	Glubb Glupp blubbl blup plupp +4 Glubbi
+src/items.lua:3505		Bonus Mult	Blup Glubbi
+src/items.lua:3508		Each Bonus side scored gives +3 Mult	Glubb Blup blubbl blup plupp +3 Glubbi
+src/items.lua:3526		Power Mult	Brubbl Glubbi
+src/items.lua:3529		Each Power side scored gives +2 Mult	Glubb Brubbl blubbl blup plupp +2 Glubbi
+src/items.lua:3566		Rowan	Glupp
+src/items.lua:3569		+5 Mult if the combo contains at least three 1s	+5 Glubbi flubb bl blom blubbl splubb blubbl blubbl 1plupp
+src/items.lua:3693		House Stamp	Blup Flubb
+src/items.lua:3696		Rerolling a Three Of A Kind permanently upgrades Full House. Fades with use.	Plupp bu Blubbl Blov BU Brubbl bloopplupp glubbl Blubbl Blup. Plupp blith glubb.
+src/items.lua:3711 (+1 others)		Faded	Blubbl
+src/items.lua:3725		Full House Upgraded	Blubbl Blup Blorp
+src/items.lua:3733		Stamp	Flubb
+src/items.lua:3736		Rerolling a combo upgrades it permanently. Fades with use.	Plupp bu blom glubbl blupp bloopplupp. Plupp blith glubb.
+src/items.lua:3740		On Roll	Glon Blubba
+src/items.lua:3768		${combo} Upgraded	${combo} Blorp
+src/items.lua:3781		Gouda	Brubbl
+src/items.lua:3784		Rerolling a Three Of A Kind gives 2¥	Plupp bu Blubbl Blov BU Brubbl plupp 2¥
+src/items.lua:3806		Pearl	Plopp
+src/items.lua:3809		+1¥ for every two scored 1s	+1¥ flor bloop bloop blup 1plupp
+src/items.lua:3832		Queen's Jug	Plupp Blup
+src/items.lua:3835		+1¥ for a Full House	+1¥ flor bu Blubbl Blup
+src/items.lua:3852		Star Biscuit	Plopp Flubb
+src/items.lua:3855		Rolling 2+ dice while at 1 Bust gives 2¥	Blubbl 2+ blobbs blupp splubb 1 Glupp plupp 2¥
+src/items.lua:3880		Overtime Star	Blupp Plopp
+src/items.lua:3883		Gain a Bust Shield for scoring Star Bonanza	Brrl bu Glupp Plupp flor glupp Plopp Brrl
+src/items.lua:3896		Already shielded	Plopp brubbl
+src/items.lua:3903		Trotter	Brrl
+src/items.lua:3906		Pig Points x2	Blupp Blips x2
+src/items.lua:3921		Piglet	Blublet
+src/items.lua:3924		+3 Mult for rerolling 3 or more Pig sides	+3 Glubbi flor plupp 3 glor blupp Blupp flubb
+src/items.lua:3943		Chew Toy	Plopp Plopp
+src/items.lua:3946		1 in 6 chance to spawn a coin when rerolling a Pig side	1 blin 6 blubb blo plupp bu pling plupp plupp bu Blupp blubbl
+src/items.lua:4001		Paw	Blubbl
+src/items.lua:4004		Rolling a single die adds +2 Mult	Blubbl bu flubb blobb glubbl +2 Glubbi
+src/items.lua:4017		Incel	Blubbl
+src/items.lua:4020		Rerolling a combo containing a Pair gives +100 Points and +1 Mult	Plupp bu blom gluppglorp bu Blupp plupp +100 Blips blan +1 Glubbi
+src/items.lua:4050		Scoring a Full House spawns a ghost die	Glupp bu Blubbl Blup blubb bu splubb blobb
+src/items.lua:4064 (+5 others)		Ghost!	Splubb!
+src/items.lua:4070		Ghostanza	Glorp
+src/items.lua:4073		Scoring a Star Bonanza spawns 4 ghost dice	Glupp bu Plopp Brrl blubb 4 splubb blobbs
+src/items.lua:4093		Ghost Biscuit	Splubb Flubb
+src/items.lua:4096		Roll exactly 1 die - if it's a 5 or 6, spawn a ghost die	Blubba splubb 1 blobb - flubb blorp bu 5 glor 6, plupp bu splubb blobb
+src/items.lua:4116		Coin Biscuit	Pling Flubb
+src/items.lua:4119		Roll exactly 1 die - if it's a 2, +1¥	Blubba splubb 1 blobb - flubb blorp bu 2, +1¥
+src/items.lua:4140		Mult Biscuit	Glubbi Flubb
+src/items.lua:4143		Roll exactly 1 die - if it's a 3 or 4, +1 Mult	Blubba splubb 1 blobb - flubb blorp bu 3 glor 4, +1 Glubbi
+src/items.lua:4161		Flask Of Ghost	Plupp Blov Splubb
+src/items.lua:4164		Rerolling a combo that contains a Three Of A Kind creates 2 ghost dice	Plupp bu blom flubb blubbl bu Blubbl Blov BU Brubbl brrl 2 splubb blobbs
+src/items.lua:4186		Bone	Plupp
+src/items.lua:4189		Combos containing a ghost die score +100 Points	Bloms gluppglorp bu splubb blobb glupp +100 Blips
+src/items.lua:4207		Razor	Flubb
+src/items.lua:4210		1 in 3 chance to spawn a ghost die on Bust	1 blin 3 blubb blo plupp bu splubb blobb glon Glupp
+src/items.lua:4233		Scared Straight	Brubbl Blup
+src/items.lua:4236		Scoring a Straight spawns a ghost die	Glupp bu Blup blubb bu splubb blobb
+src/items.lua:4259		Cell	Blubb
+src/items.lua:4262		Start each turn with a Bust Shield	Brrl glubb glubbo blith bu Glupp Plupp
+src/items.lua:4273		shield!	plupp!
+src/items.lua:4282		Jade Bracelet	Splubb Flubb
+src/items.lua:4285		3 in 4 chance to block an instant wipe.\n${dynamic} uses left.	3 blin 4 blubb blo plupp bu brrl splatt.\n${dynamic} blubb flubb.
+src/items.lua:4308		Shattered!	Glubbl!
+src/items.lua:4323		Four Cell	Flubb Blubb
+src/items.lua:4326		If you would bust, each unrolled 4 gives a 20% chance to cancel it	Flubb blu blup glupp, glubb glubbl 4 plupp bu 20% cglorp blo bloop blupp
+src/items.lua:4353		Candle	Glupp
+src/items.lua:4354		1 in 2 chance to turn an instant wipe into a single Bust	1 blin 2 blubb blo glubbo bu brrl splatt bloop bu flubb Glupp
+src/items.lua:4365		oof	bloop
+src/items.lua:4377		Reduced!	Bloop!
+src/items.lua:4389		Anis Star	Blorp Plopp
+src/items.lua:4392		Bust Limit +1	Glupp Plupp +1
+src/items.lua:4466		Soft Wipes	Bloop Blupp
+src/items.lua:4469		Wiping doesn't clear dice or score	Blupp blupp plupp blobbs glor glupp
+src/items.lua:4488		Taro Jelly	Glupp Blupp
+src/items.lua:4491		Scoring 5s flips them to 6s	Glupp 5plupp glubbl blupp blo 6plupp
+src/items.lua:4505		Osmanthus Jelly	Plopp Blupp
+src/items.lua:4508		Scoring 1s flips them to 3s	Glupp 1plupp glubbl blupp blo 3plupp
+src/items.lua:4524		Sludge Jelly	Glorp Blupp
+src/items.lua:4527		2s always reroll into 3s	2plupp glorp reblubba bloop 3plupp
+src/items.lua:4552		Bubblegum Jelly	Blup Blupp
+src/items.lua:4555		3s always reroll into 5s	3plupp glorp reblubba bloop 5plupp
+src/items.lua:4580		Flip Flop	Bloop Blupp
+src/items.lua:4584		Odd numbers roll into even and vice versa.\nDoesn't affect coins.	Glorp brubbl blubba bloop blupp blan flubb plopp.\nBlupp blupp plings.
+src/items.lua:4612		Second Chance Jelly	Splubb Blubb Blupp
+src/items.lua:4616		1s can't reroll into 1s\nDoesn't affect coins.	1plupp brubbl reblubba bloop 1plupp\nBlupp blupp plings.
+src/items.lua:4644		Knucklebone	Splubbbrubbl
+src/items.lua:4647		+1 Bust Limit, -1 Turn Limit 	+1 Glupp Plupp, -1 Glubbo Plupp
+src/items.lua:4670		Turn Plus Bust Minus	Glubbo Blorp Glupp Flubb
+src/items.lua:4673		-1 Bust Limit, +1 Turn Limit 	-1 Glupp Plupp, +1 Glubbo Plupp
+src/items.lua:4696		Loopongo	Brrl
+src/items.lua:4699		Straights can loop	Flubb blupp splubb
+src/items.lua:4737		Lotus Loan	Plopp Blubbl
+src/items.lua:4740		Free money?	Glupp plupp?
+src/items.lua:4807 (+2 others)		Even Bad	Blupp Glupp
+src/items.lua:4808		-50 Points per scored even die	-50 Blips brubbl blup blupp blobb
+src/items.lua:4827 (+2 others)		Odd Bad	Glorp Glupp
+src/items.lua:4828		-1 Mult per scored odd die	-1 Glubbi brubbl blup glorp blobb
+src/items.lua:4847		-150 Points per scored even die	-150 Blips brubbl blup blupp blobb
+src/items.lua:4866		-3 Mult per scored odd die	-3 Glubbi brubbl blup glorp blobb
+src/items.lua:4885 (+1 others)		-200 Points per scored even die	-200 Blips brubbl blup blupp blobb
+src/items.lua:4904 (+1 others)		-5 Mult per scored odd die	-5 Glubbi brubbl blup glorp blobb
+src/items.lua:4922		Points -100	Blips -100
+src/items.lua:4923 (+1 others)		-100 Points	-100 Blips
+src/items.lua:4937		Points -150	Blips -150
+src/items.lua:4938		-150 Points	-150 Blips
+src/items.lua:4951		Points -250	Blips -250
+src/items.lua:4952		-250 Points	-250 Blips
+src/items.lua:4965		Mult -1	Glubbi -1
+src/items.lua:4966		-1 Mult	-1 Glubbi
+src/items.lua:4979		Mult -2	Glubbi -2
+src/items.lua:4980		-2 Mult	-2 Glubbi
+src/items.lua:4993		Mult -4	Glubbi -4
+src/items.lua:4994		-4 Mult	-4 Glubbi
+src/items.lua:5007		Half Points	Plupp Blips
+src/items.lua:5008		Halves the Points	Blubb bl Blips
+src/items.lua:5023		Half Mult	Plupp Glubbi
+src/items.lua:5024		Halves the Mult	Blubb bl Glubbi
+src/items.lua:5039 (+1 others)		Bad Momentum	Glupp Bubbl
+src/items.lua:5040		Start each turn with -2 Momentum	Brrl glubb glubbo blith -2 Bubbl
+src/items.lua:5050		-2 Momentum	-2 Bubbl
+src/items.lua:5056 (+1 others)		-1 Momentum	-1 Bubbl
+src/items.lua:5071		Sore Loser	Blubbl Plupp
+src/items.lua:5072		Bust resets Momentum	Glupp blubbl Bubbl
+src/items.lua:5088		Two Left Feet	Bloop Flubb Brrl
+src/items.lua:5089		-100 Points for rerolling exactly 2 dice	-100 Blips flor plupp splubb 2 blobbs
+src/items.lua:5105		6s and 4s to 1s	6plupp blan 4plupp blo 1plupp
+src/items.lua:5106		6s and 4s always reroll into 1s	6plupp blan 4plupp glorp reblubba bloop 1plupp
+src/items.lua:5136		6s to 1s	6plupp blo 1plupp
+src/items.lua:5137		6s always reroll into 1s	6plupp glorp reblubba bloop 1plupp
+src/items.lua:5168		Minus Max Bust	Flubb Flubb Glupp
+src/items.lua:5169		Bust Limit -1	Glupp Plupp -1
+src/items.lua:5186		Turn Down Power Up	Glubbo Plupp Brubbl Blup
+src/items.lua:5187		Turn Limit -1, Power Limit +2	Glubbo Plupp -1, Brubbl Plupp +2
+src/items.lua:5212 (+1 others)		Cursed Score	Brubbl Glupp
+src/items.lua:5218 (+1 others)		Feels bad for you	Glubb glupp flor blu
+src/items.lua:5219		Each time you score, 1 random die takes damage	Glubb blubb blu glupp, 1 glubb blobb blubbl plupp
+src/items.lua:5236 (+1 others)		cursed!	brubbl!
+src/items.lua:5248		Each time you bank, 5 random dice take damage	Glubb blubb blu blooba, 5 glubb blobbs blubb plupp
+src/items.lua:5275		Small Minded	Blubbl Glupp
+src/items.lua:5276		Combos above 4 dice give no score	Bloms brubbl 4 blobbs glupp glupp glupp
+src/items.lua:5314		Bad Threes	Glupp Blupp
+src/items.lua:5315		-3 Mult per scored 3	-3 Glubbi brubbl blup 3
+src/items.lua:5332		Bad Fours	Glupp Brrl
+src/items.lua:5333		-4 Mult per scored 4	-4 Glubbi brubbl blup 4
+src/items.lua:5350		Bad Sixes	Glupp Glubbl
+src/items.lua:5351		-6 Mult per scored 6	-6 Glubbi brubbl blup 6
+src/items.lua:5369		Pair Aversion	Blupp Plupp
+src/items.lua:5370		Combos containing a Pair -3 Mult	Bloms gluppglorp bu Blupp -3 Glubbi
+src/items.lua:5390		Triple Trouble	Glubbl Blubb
+src/items.lua:5391		Combos containing Three Of A Kind -4 Mult	Bloms gluppglorp Blubbl Blov BU Brubbl -4 Glubbi
+src/items.lua:5415		No Four Kind	Glupp Flubb Brubbl
+src/items.lua:5416		Four Of A Kind gives no score	Flubb Blov BU Brubbl plupp glupp glupp
+src/items.lua:5441		Empty House	Glorp Blup
+src/items.lua:5442		Full House gives no score	Blubbl Blup plupp glupp glupp
+src/items.lua:5468		No Bonanza	Glupp Brrl
+src/items.lua:5469		Star Bonanza gives no score	Plopp Brrl plupp glupp glupp
+src/items.lua:5495		Slippery 6s	Flubb 6plupp
+src/items.lua:5496		Auto-reroll dice that show a 6	Blup-reblubba blobbs flubb plopp bu 6
+src/items.lua:5514		Stupid Dice	Blup Blobbs
+src/items.lua:5515		Dice randomly reroll on their own.	Blobbs glubb reblubba glon splubb glubbl.
+src/items.lua:5605		Slippery Threes	Flubb Blupp
+src/items.lua:5606		Auto-reroll dice that show a 3, score 33 Points for each	Blup-reblubba blobbs flubb plopp bu 3, glupp 33 Blips flor glubb
+src/items.lua:5627 (+4 others)		Bad Tooth	Glupp Blup
+src/items.lua:5628		-3 Mult	-3 Glubbi
+src/items.lua:5656		Dice Limit -1	Blobbs Plupp -1
+src/items.lua:5717 (+12 others)		Dues	Brubbl
+src/items.lua:5718		Rerolls all dice and coins.\n5% chance to activate on dice rolls.	Glubbl glupp blobbs blan plings.\n5% cglorp blo glorp glon blobbs blupp.
+src/items.lua:5739		Rerolled!	Bloop!
+src/items.lua:5745		Rerolls a single random coin.\n5% chance to activate on dice rolls.	Glubbl bu flubb glubb pling.\n5% cglorp blo glorp glon blobbs blupp.
+src/items.lua:5767		Coin rerolled!	Pling bloop!
+src/items.lua:5773		All dice roll 1s.\n5% chance to activate on dice rolls.	Glupp blobbs blubba 1plupp.\n5% cglorp blo glorp glon blobbs blupp.
+src/items.lua:5800		Deal 4 damage spread randomly across dice.\n5% chance to activate on dice rolls.	Glorp 4 plupp blupp glubb glupp blobbs.\n5% cglorp blo glorp glon blobbs blupp.
+src/items.lua:5817 (+1 others)		No dice!	Glupp blobbs!
+src/items.lua:5826		Cursed!	Brubbl!
+src/items.lua:5833		Deal 1 damage to all dice.\n5% chance to activate on dice rolls.	Glorp 1 plupp blo glupp blobbs.\n5% cglorp blo glorp glon blobbs blupp.
+src/items.lua:5857		Damaged!	Blubb!
+src/items.lua:5863		Deal 2 damage to the selected die.\n5% chance to activate on dice rolls.	Glorp 2 plupp blo bl blubbl blobb.\n5% cglorp blo glorp glon blobbs blupp.
+src/items.lua:5885 (+4 others)		Select 1 die	Plopp 1 blobb
+src/items.lua:5895		Add 1 Bust side to the selected die.\n5% chance to activate on dice rolls.	Blorp 1 Glupp blubbl blo bl blubbl blobb.\n5% cglorp blo glorp glon blobbs blupp.
+src/items.lua:5928 (+2 others)		No free side	Glupp glupp blubbl
+src/items.lua:5939		Destroy the selected die.\n5% chance to activate on dice rolls.	Glubb bl blubbl blobb.\n5% cglorp blo glorp glon blobbs blupp.
+src/items.lua:5971		Add 1 Cracked side to the selected die.\n5% chance to activate on dice rolls.	Blorp 1 Blubbl blubbl blo bl blubbl blobb.\n5% cglorp blo glorp glon blobbs blupp.
+src/items.lua:6015		Add 1 Doom side to the selected die.\n5% chance to activate on dice rolls.	Blorp 1 Blorp blubbl blo bl blubbl blobb.\n5% cglorp blo glorp glon blobbs blupp.
+src/items.lua:6059		+1 Bust.\n5% chance to activate on dice rolls.	+1 Glupp.\n5% cglorp blo glorp glon blobbs blupp.
+src/items.lua:6075		+1 Bust	+1 Glupp
+src/items.lua:6086		+3 Bust.\n5% chance to activate on dice rolls.	+3 Glupp.\n5% cglorp blo glorp glon blobbs blupp.
+src/items.lua:6102		+3 Bust	+3 Glupp
+src/items.lua:6113		-1 Turn.\n5% chance to activate on dice rolls.	-1 Glubbo.\n5% cglorp blo glorp glon blobbs blupp.
+src/items.lua:6130		-1 Turn	-1 Glubbo
+src/items.lua:6143		Fish Bucket	Bloop Brubbl
+src/items.lua:6153		No fish power!	Glupp bloop brubbl!
+src/items.lua:6163		+15 Fish!	+15 Bloop!
+src/items.lua:6168		Fish Offering	Bloop Glubb
+src/items.lua:6169		-10 §, -5% difficulty	-10 §, -5% dblubb
+src/items.lua:6178		Need 10 fish!	Brrl 10 bloop!
+src/items.lua:6185		-5% difficulty!	-5% dblubb!
+src/items.lua:6190		Option Call	Plupp Blubbl
+src/items.lua:6200		Need 20 fish!	Brrl 20 bloop!
+src/items.lua:6216		Pump	Blubb
+src/items.lua:6217		+10 § price at the next market	+10 § blubbl splubb bl glubb splubb
+src/items.lua:6227		Price pumped!	Blubbl blorp!
+src/items.lua:6232		Dump	Plupp
+src/items.lua:6233		-10 § price at the next market	-10 § blubbl splubb bl glubb splubb
+src/items.lua:6243		Price dumped!	Blubbl bloop!
+src/items.lua:6250		Roe	Blorp
+src/items.lua:6251		+3 § at the start of each level	+3 § splubb bl brrl blov glubb blubbo
+src/items.lua:6272		Whale Oil	Blup Glubbl
+src/items.lua:6273		+1 Points per § on score	+1 Blips brubbl § glon glupp
+src/items.lua:6287		Carp Aspic	Brrl Bloop
+src/items.lua:6288		+1 Mult per 5 § spent this level	+1 Glubbi brubbl 5 § glupp brubbl blubbo
+src/items.lua:6296		+${MULT} Mult, gains +1 per 5 § spent this level	+${MULT} Glubbi, blorp +1 brubbl 5 § glupp brubbl blubbo
+src/items.lua:6319		Piranha	Plopp
+src/items.lua:6320		+5 Mult.\nEats 10 § at the start of each level.\nIf you can't feed it, it eats a die instead.	+5 Glubbi.\nBloop 10 § splubb bl brrl blov glubb blubbo.\nFlubb blu brubbl glorp blupp, blupp bloop bu blobb splubb.
+src/items.lua:6341		Ate a die!	Plopp bu blobb!
+src/items.lua:6343		Hungry!	Glubb!
+src/items.lua:6353		Barnacle	Glupp
+src/items.lua:6354		+1 § per 10 § held at the start of each level	+1 § brubbl 10 § brrl splubb bl brrl blov glubb blubbo
+src/items.lua:6377		Ball Gag	Blorp Glupp
+src/items.lua:6378		Dice pip becomes 1	Blobbs glupp plupp 1
+src/items.lua:6396		Peanut	Glubbl
+src/items.lua:6397		Dice pip becomes 2	Blobbs glupp plupp 2
+src/items.lua:6415		Wood Sorrel	Brubbl Plupp
+src/items.lua:6416		Dice pip becomes 3	Blobbs glupp plupp 3
+src/items.lua:6434		Picture Frame	Plupp Flubb
+src/items.lua:6435		Dice pip becomes 4	Blobbs glupp plupp 4
+src/items.lua:6453		Paper Star	Splubb Plopp
+src/items.lua:6454		Dice pip becomes 5	Blobbs glupp plupp 5
+src/items.lua:6472		Honeycomb	Glorp
+src/items.lua:6473		Dice pip becomes 6	Blobbs glupp plupp 6
+src/items.lua:6492		Scrambled Eggs	Blorp Plupp
+src/items.lua:6493		Dice pip becomes ???	Blobbs glupp plupp ???
+src/items.lua:6520		Maths Test	Blubb Splubb
+src/items.lua:6523		Spawn 0-6 random numeracy foods	Plupp 0-6 glubb glupp glubbl
+src/items.lua:6553		Result: $grade / $total	Blup: $grade / $total
+src/items.lua:6564		Clown Shoes	Glorp Plupp
+src/items.lua:6567		Nudge all dice either -1 or +3 pips	Blupp glupp blobbs glubb -1 glor +3 brubbl
+src/items.lua:6576 (+1 others)		roll dice first	blubba blobbs plopp
+src/items.lua:6594		Bamboozle	Plupp
+src/items.lua:6597		Nudge all dice individually between +0 and +2 pips.	Blupp glupp blobbs glorpglupp blup +0 blan +2 brubbl.
+src/keybinds.lua:3 (+2 others)		Roll	Blubba
+src/keybinds.lua:4 (+2 others)		Score	Glupp
+src/keybinds.lua:5 (+1 others)		BANK	BLOOBA
+src/keybinds.lua:6		Use Power	Glubb Brubbl
+src/keybinds.lua:7		Arrange Dice	Flubb Blobbs
+src/keybinds.lua:8		Left Click	Flubb Brubbl
+src/keybinds.lua:9		Right Click	Bloop Brubbl
+src/keybinds.lua:10 (+1 others)		Trade!	Bloop!
+src/keybinds.lua:11		Leave Shop	Glubbl Blubb
+src/powers.lua:7		Stuck Debust	Glupp Brubbl
+src/powers.lua:8		Add Stuck to the selected die's current face. -1 Bust.	Blorp Glupp blo bl blubbl plupp blubb blup. -1 Glupp.
+src/powers.lua:30		Hard Reset	Bloop Blorp
+src/powers.lua:31		Lock one selected die, -1 Bust.	Plopp blup blubbl blobb, -1 Glupp.
+src/powers.lua:51		Ghost Trade	Splubb Bloop
+src/powers.lua:52		Lock one selected die. Spawn 2 ghost dice.	Plopp blup blubbl blobb. Plupp 2 splubb blobbs.
+src/powers.lua:75		Tell The Future	Glubbl Bl Plopp
+src/powers.lua:76		Block 2 sides from being rolled on the selected die next roll.	Plupp 2 flubb glupp brubbl glorp glon bl blubbl blobb glubb blubba.
+src/powers.lua:104		Nudge Skip	Blupp Glubbl
+src/powers.lua:105		+1 pip to the selected die, skipping values already showing.	+1 glupp blo bl blubbl blobb, brrl bloop plopp glubbl.
+src/powers.lua:140		Nudge Up	Blupp Blup
+src/powers.lua:141		+1 pip to the selected die	+1 glupp blo bl blubbl blobb
+src/powers.lua:161		Flip	Bloop
+src/powers.lua:162		Flip the selected die to its opposite face.	Bloop bl blubbl blobb blo blubb splubb blup.
+src/powers.lua:182		Smite	Blup
+src/powers.lua:183		Sacrifice selected die, +3 ¥	Blubbl blubbl blobb, +3 ¥
+src/powers.lua:214		Pip Pip	Glupp Glupp
+src/powers.lua:215		Nudge the second selected die to the same pip value as the first.	Blupp bl splubb blubbl blobb blo bl brubbl glupp blup flubb bl plopp.
+src/powers.lua:236		Ghost Clone	Splubb Splubb
+src/powers.lua:237		Spawn a ghost copy of the selected die.	Plupp bu splubb plupp blov bl blubbl blobb.
+src/powers.lua:286		Reroll	Reblubba
+src/powers.lua:287		Reroll all selected dice. 1s can't be rolled.	Reblubba glupp blubbl blobbs. 1plupp brubbl glubbl glorp.
+src/powers.lua:306		Roll over	Blubba splubb
+src/powers.lua:307		Reroll two selected dice to their next lower value.	Reblubba bloop blubbl blobbs blo splubb glubb flubb blup.
+src/powers.lua:330		Mystery Die	Brrl Blobb
+src/powers.lua:331		Spawn a random die.	Plupp bu glubb blobb.
+src/powers.lua:354		Gain a Bust Shield.	Brrl bu Glupp Plupp.
+src/powers.lua:371		Ghost Bust	Splubb Glupp
+src/powers.lua:372		Gain an extra blue Bust for this turn.	Brrl bu blorp brubbl Glupp flor brubbl glubbo.
+src/powers.lua:387		Fishy Deal	Glubbl Glorp
+src/powers.lua:388		-1 Bust, +1 ¥. Bump difficulty.	-1 Glupp, +1 ¥. Brrl glubblblorp.
+src/powers.lua:407		Level Skip	Blubbo Glubbl
+src/powers.lua:408		Skip a level. Spawns a random die and a random snack.	Glubbl bu blubbo. Blubb bu glubb blobb blan bu glubb nombl.
+src/powers.lua:476		Fishy Loan	Glubbl Blubbl
+src/powers.lua:477		+100 Points, +1 ¥. Take on debt.	+100 Blips, +1 ¥. Blubb glon brrl.
+src/powers.lua:513		Nibble	Bloop
+src/powers.lua:514		${nibble}% chance to take a proper bite\nRegain 1 bust.${die}	${nibble}% cglorp blo blubb bu glorp blubb\nGlubb 1 glupp.${die}
+src/powers.lua:516		You might be finished	Blu blubbl glubbl bloop
+src/powers.lua:521		Munch	Blubbl
+src/powers.lua:522		Take a big bite to regain all busts.	Blubb bu glubb blubb blo glubb glupp glupps.
+src/powers.lua:612		Reincarnate	Brubblblup
+src/powers.lua:613		Selected die is reborn	Blubbl blobb blis blubbl
+src/special_conditions.lua:7		Solo	Bloop
+src/special_conditions.lua:18		Pair	Blupp
+src/special_conditions.lua:28		Short Straight	Blubb Blup
+src/special_conditions.lua:70		Two Pair	Bloop Blupp
+src/special_conditions.lua:81		Three Of A Kind	Blubbl Blov BU Brubbl
+src/special_conditions.lua:102		Full House	Glubblubbl
+src/special_conditions.lua:115		Four Of A Kind	Flubb Blov BU Brubbl
+src/special_conditions.lua:126		Straight	Blup
+src/special_conditions.lua:179		Long Straight	Splubb Blup
+src/special_conditions.lua:190		Long Long Straight	Splubb Splubb Blup
+src/special_conditions.lua:201		Long Long Long Straight	Splubb Splubb Splubb Blup
+src/special_conditions.lua:212		Star Bonanza	Plopp Brrl
+src/special_conditions.lua:223		Star Extravaganza	Plopp Blubbblupp
+src/special_conditions.lua:234		Star Bonanzovaganza	Plopp Blorpblup
+src/special_conditions.lua:245		Three Pair	Blubbl Blupp
+src/special_conditions.lua:256		Flush	Glubb
+src/special_conditions.lua:273		Straight Flush	Blup Glubb
+src/special_conditions.lua:315		Triple 7	Glubbl 7
+src/special_conditions.lua:329		JACKPOT	PLUPP
+src/special_conditions.lua:330		gain a gold star	brrl bu brubbl plopp
+src/special_conditions.lua:338		Triple 8	Glubbl 8
+src/special_conditions.lua:351		BLESSED 	PLOPP
+src/special_conditions.lua:352		-1 bust	-1 glupp
+src/special_conditions.lua:360		Lucky 8	Flubb 8
+src/special_conditions.lua:371		Unlucky 13	Brrl 13
+src/special_conditions.lua:382		Lucky 88	Flubb 88
+src/special_conditions.lua:383		How?	Bloop?
+src/states/catalogue.lua:50 (+7 others)		< back	< blupp
+src/states/catalogue.lua:86 (+4 others)		dawn mode	splubb blup
+src/states/catalogue.lua:86 (+4 others)		night mode	bloop blup
+src/states/catalogue.lua:114 (+2 others)		ost	blorp
+src/states/catalogue.lua:116 (+1 others)		artists' web	glorp' blorp
+src/states/controls.lua:65		Keybinds	Plopp
+src/states/controls.lua:145		press a key	flubb bu blubb
+src/states/controls.lua:156		reset keybinds	blorp plopp
+src/states/credits.lua:43		Created by	Blorp blup
+src/states/credits.lua:49		Translation	Glorpglubb
+src/states/credits.lua:56		Special Thanks	Glorp Blup
+src/states/credits.lua:60		The Dice	Bl Blobbs
+src/states/credits.lua:61		God	GLUBB
+src/states/credits.lua:65		And you!	Blan blu!
+src/states/credits.lua:66		Thanks for playing! <3	Blup flor brubbl! <3
+src/states/customisation.lua:167		Nothing Available	Glupp Glubbl
+src/states/customisation.lua:168		sorry sorry	plupp plupp
+src/states/customisation.lua:203		outfit	brubbl
+src/states/customisation.lua:203		accessory	splubb
+src/states/customisation.lua:225		on	glon
+src/states/customisation.lua:225 (+2 others)		off	glorp
+src/states/customisation.lua:359		Distort A	Blorp BU
+src/states/customisation.lua:360		Distort B	Blorp PLOPP
+src/states/customisation.lua:441		stretch or squash	glubbl glor plupp
+src/states/customisation.lua:454		stretch	glubbl
+src/states/customisation.lua:454		squash	plupp
+src/states/customisation.lua:461		Dye	Blupp
+src/states/customisation.lua:462		recolour	plopp
+src/states/ending.lua:244 (+6 others)		hit that shit?	blubb flubb glorp?
+src/states/ending.lua:303 (+4 others)		play	blubb!
+src/states/ending.lua:505 (+4 others)		done	plopp
+src/states/ending_bet.lua:60 (+1 others)		--  Run Summary  --	--  Plupp Blubbl  --
+src/states/ending_bet.lua:74 (+1 others)		Level reached:	Blubbo brubbl:
+src/states/ending_bet.lua:75 (+1 others)		Points scored:	Blips blup:
+src/states/ending_bet.lua:76 (+1 others)		Dice rolled:	Blobbs glorp:
+src/states/ending_bet.lua:77 (+1 others)		Ones rolled:	Plopp glorp:
+src/states/ending_bet.lua:78 (+1 others)		Bust rate:	Glupp glubbl:
+src/states/ending_bet.lua:80 (+1 others)		Run stars:	Plupp plopps:
+src/states/ending_bet.lua:94 (+4 others)		¤ banked	¤ glupp
+src/states/ending_bet.lua:157	dialogue	you won	blu BLOBBLO!
+src/states/ending_bet.lua:162	dialogue	you have done very well	blu glorp plopp plupp blup
+src/states/ending_bet.lua:164	dialogue	a treat for a brave child	bu brubbl flor bu blubbl glubbl
+src/states/ending_bet.lua:181	dialogue	banking early though?	bloobing blupp blubbl?
+src/states/ending_bet.lua:182 (+1 others)	dialogue	how boring	bloop plopp
+src/states/ending_bet.lua:186	dialogue	no more waking up	glupp blupp glorp blup
+src/states/ending_bet.lua:187	dialogue	i am god i forbid it	glu blam GLUBB glu blup blupp
+src/states/ending_bet.lua:194 (+2 others)		star	plopp
+src/states/ending_bet.lua:198	dialogue	toss a coin\n\ndouble or nothing	glubb bu pling\n\nblubb glor glupp
+src/states/ending_bet.lua:199	dialogue	i create reality	glu blupp glorp
+src/states/ending_bet.lua:216	dialogue	brave	blubbl
+src/states/ending_bet.lua:217	dialogue	but not enough faith	blup glupp bloop plopp
+src/states/ending_bet.lua:219	dialogue	you did well	blu plupp blup
+src/states/ending_bet.lua:220	dialogue	you are my child	blu blar gluu glubbl
+src/states/ending_bet.lua:221 (+1 others)	dialogue	and i am your god	blan glu blam bluu GLUBB
+src/states/ending_bet.lua:288		pass and bank	flubb blan blooba
+src/states/ending_demo.lua:132 (+8 others)	dialogue	i am god	glu blam GLUBB
+src/states/ending_demo.lua:133	dialogue	thats it for the demo	plopp blupp flor bl brubbl
+src/states/ending_demo.lua:135	dialogue	buy the game now	glubbl bl glupp blorp
+src/states/ending_demo.lua:137	dialogue	wishlist the game	blorp bl glupp
+src/states/ending_demo.lua:184 (+1 others)		Browser Opened!	Plopp Plopp!
+src/states/ending_demo.lua:185 (+1 others)		Thanks <3	Blup <3
+src/states/ending_demo.lua:187 (+1 others)		Buy Here	Glubbl Glorp
+src/states/ending_demo.lua:187 (+1 others)		Wishlist Here	Blorp Glorp
+src/states/ending_demo.lua:215		back to title	blupp blo blup
+src/states/ending_finale.lua:87	dialogue	well well well	blubb, blubb, blubb
+src/states/ending_finale.lua:88	dialogue	how did we get here?	bloop plupp glorp blupp glorp?
+src/states/ending_finale.lua:90	dialogue	ah, i remember	blubb, glu brubbl
+src/states/ending_finale.lua:96	dialogue	you wagered your soul	blu glorp bluu flubb
+src/states/ending_finale.lua:98	dialogue	and you lost	blan blu brubbl
+src/states/ending_finale.lua:101	dialogue	embrace oblivion	blup bloop
+src/states/ending_finale.lua:103	dialogue	none of this ever happened	blubbl blov brubbl glubb brrl
+src/states/ending_finale.lua:106	dialogue	and remember,\nmy brave child	blan brubbl,\ngluu blubbl glubbl
+src/states/ending_finale.lua:108	dialogue	you agreed to this	blu glorp blo brubbl
+src/states/ending_finale.lua:157	dialogue	well done child	blup plopp glubbl
+src/states/ending_finale.lua:158	dialogue	you are brave	blu blar blubbl
+src/states/ending_finale.lua:159	dialogue	you are worthy	blu blar plupp
+src/states/ending_finale.lua:161	dialogue	i will offer you one final wager	glu splubb glubb blu blup plopp bloop
+src/states/ending_finale.lua:167	dialogue	heads: you're free	blubbl: glorp glupp
+src/states/ending_finale.lua:174	dialogue	tails: i will personally destroy all your files one by one	plupp: glu splubb splubbflubb glubb glupp bluu brrl blup blup blup
+src/states/ending_finale.lua:190	dialogue	do it, all in	blubbl blupp, glupp blin
+src/states/ending_finale.lua:192		flick it like you mean it	glupp blupp blup blu blup blupp
+src/states/ending_finale.lua:192		this is real	brubbl blis plopp
+src/states/ending_finale.lua:254	dialogue	disappointing	brubblglubb
+src/states/ending_finale.lua:255	dialogue	you will be ready	blu splubb glubbl brrl
+src/states/ending_finale.lua:256	dialogue	one day	blup glorp
+src/states/ending_finale.lua:300		I can't do it	GLU brubbl blubbl blupp
+src/states/fish_market.lua:87		--  Fish Market  --	--  Bloop Splubb  --
+src/states/fish_market.lua:193		Sell Fish	Blup Bloop
+src/states/fish_market.lua:222		Buy Fish	Glubbl Bloop
+src/states/fish_market.lua:265		Next!	Glubb!
+src/states/game.lua:148 (+2 others)		back	blupp
+src/states/game.lua:162		PAUSE II	BLUBB FLUBB
+src/states/game.lua:170 (+1 others)		Continue	Splubb
+src/states/game.lua:174 (+1 others)		Cannot Restart Wager Runs	Plopp Blorp Bloop Bloop
+src/states/game.lua:177		Restart	Blorp
+src/states/game.lua:179		Restart the run from scratch\nand lose all gained stars?	Blorp bl plupp glupp glorp\nblan glorp glupp glubbl plopps?
+src/states/game.lua:185 (+3 others)		Options	Plopp
+src/states/game.lua:193		Save and Quit	Blooba blan plopp
+src/states/game.lua:194		(Cant Save Right Now)	(Brrl Brrl Bloop Blorp)
+src/states/game.lua:199		No escape	Glupp glupp
+src/states/game.lua:202		Skip Tutorial	Glubbl Blubbablubb
+src/states/game.lua:202		Abandon	Splubb
+src/states/game.lua:210		Quit to menu and lose all gained stars?	Brubbl blo glubbl blan glorp glupp glubbl plopps?
+src/states/game.lua:215		No way out	Glupp glupp blubb
+src/states/game.lua:526		secure the points\nend the turn\nrecharge character power\nclear momentum	plopp bl blips\nblorp bl glubbo\nblup blorp brubbl\nplupp bubbl
+src/states/game.lua:631		you must have some points to bank	blu brubbl glorp bloop blips blo blooba
+src/states/game.lua:733		momentum: ${amount}	bubbl: ${amount}
+src/states/game.lua:738		adds extra ${momentum} points and mult	glubbl blorp ${momentum} blips blan glubbi
+src/states/game.lua:923		Losing all Busts ends the turn.\nBusts refill at the start of each Turn	Plopp glupp Glupps brubbl bl glubbo.\nGlupps blorp splubb bl brrl blov glubb Glubbo
+src/states/game.lua:927		Blocks up to ${count} busts, disappears when damaged	Blup blup blo ${count} glupps, brubblglubb plupp blubb
+src/states/game.lua:946		ALL BUST BLOCKED	GLUPP GLUPP PLOPP
+src/states/game.lua:962		SHIELD OVERLOADED	PLUPP GLUBBBLUBBL
+src/states/game.lua:963		${count} BUSTS BLOCKED	${count} GLUPPS PLOPP
+src/states/game.lua:963		${count} BUST BLOCKED	${count} GLUPP PLOPP
+src/states/game.lua:1013		wager ${amount} ¤	bloop ${amount} ¤
+src/states/game.lua:1016		${STARS} Stars Unbanked	${STARS} Plopps Blup
+src/states/game.lua:1018		bank stars after each nightmare level or win the run to secure them	blooba plopps glupp glubb plupp blubbo glor plupp bl plupp blo plopp blupp
+src/states/game.lua:1099		praying...	blup...
+src/states/game.lua:1099		pray	bloop
+src/states/game.lua:1177		Losing all Turns ends the game.\nTurns refill at the start of each level.	Plopp glupp Glubbos brubbl bl glupp.\nGlubbos blorp splubb bl brrl blov glubb blubbo.
+src/states/game.lua:1428 (+1 others)		MERGED	FLUBB
+src/states/game.lua:1637		pause	brrl
+src/states/game.lua:1911 (+2 others)		Level $level/$count $name	Blubbo $level/$count $name
+src/states/game.lua:1963		NIGHTMARE LEVEL	PLUPP BLUBBO
+src/states/game.lua:2085 (+1 others)		Rift	Blorp
+src/states/game.lua:2271		this coin is an affront to life itself	brubbl pling blis bu blubb blo brrl glubb
+src/states/game.lua:2272		this die is an affront to life itself	brubbl blobb blis bu blubb blo brrl glubb
+src/states/game.lua:2273		we shall not suffer such an unholy thing	glorp blorp glupp glubb glubbl bu blorp glubbl
+src/states/game.lua:2274		thou shalt not shy from risk	glorp blup glupp brubbl glupp blorp
+src/states/game.lua:2275		you thought you could get away with this?	blu glubbl blu plopp blupp glorp blith brubbl?
+src/states/game.lua:2276		extremely naughty	blubb blubb
+src/states/game.lua:2279	dialogue	no downside not allowed	glupp glubb glupp glorp
+src/states/game.lua:2297	dialogue	WHAT	PLUPP
+src/states/game.lua:2319		refilled	glorp
+src/states/game.lua:2346		LAST TURN	BRUBBL GLUBBO
+src/states/game.lua:2465		- Out Of Dice -	- Blubb Blov Blobbs -
+src/states/game.lua:2466		never	brubbl
+src/states/game.lua:2468		Looks like you're cooked\n\nGive up?	Blubb blup glorp plupp\n\nGlupp blup?
+src/states/game.lua:2618		INSTANT WIPE	BRRL SPLATT
+src/states/game.lua:2619		${rolled} OUT OF ${rolled} DICE ROLLED BUST	${rolled} BLUBB BLOV ${rolled} BLOBBS GLORP GLUPP
+src/states/game.lua:2636		W I P E	BRUBBL GLU BRRL GLUBBL
+src/states/game.lua:3064		SKIP ${pip}	GLUBBL ${pip}
+src/states/game.lua:3076		SKIP LOOPED	GLUBBL GLUBB
+src/states/game.lua:3317		Level Complete	Blubbo Blubbl
+src/states/game.lua:3358		Overshoot! +${amount} stars	Blubbl! +${amount} plopps
+src/states/game.lua:3391		Level Coins	Blubbo Plings
+src/states/game.lua:3402		Extra Turn Coins	Blorp Glubbo Plings
+src/states/game.lua:3414		Combine Coins	Glubb Plings
+src/states/game.lua:3431		Wager bonus! +${amount} stars	Bloop blup! +${amount} plopps
+src/states/game.lua:3481		--  Level ${number} Complete!  --	--  Blubbo ${number} Blubbl!  --
+src/states/game.lua:3497		Score:	Glupp:
+src/states/game.lua:3499		Reward:	Splubb:
+src/states/game.lua:3500		Extra turns:	Blorp glubbos:
+src/states/game.lua:3501		Wager bonus:	Bloop blup:
+src/states/game.lua:3502		Overshoot:	Blubbl:
+src/states/game.lua:3504		Total:	Plopp:
+src/states/game.lua:3602		don't lose it	splubb glorp blupp
+src/states/game.lua:3602		Soul on line	Flubb glon glubbl
+src/states/game.lua:3609		¤${BET} wagered	¤${BET} glorp
+src/states/game.lua:3613		¤ Banked	¤ Glupp
+src/states/game.lua:3614		Bank ¤${KEPT}?	Blooba ¤${KEPT}?
+src/states/game.lua:3615		Win To Bank ¤	Plupp Blo Blooba ¤
+src/states/game.lua:3616		Bank ¤ in ${LEVELS} lvl	Blooba ¤ blin ${LEVELS} blubb
+src/states/game.lua:3630		Secure your Stars for the run\nyou won't be able to gain more this run	Plopp bluu Plopps flor bl plupp\nblu blorp glubbl brrl blo brrl blupp brubbl plupp
+src/states/game.lua:3632		Stars already banked this run	Plopps plopp glupp brubbl plupp
+src/states/game.lua:3634		Securing Stars available after each nightmare level	Blupp Plopps glubbl glupp glubb plupp blubbo
+src/states/game.lua:3695 (+7 others)		no	glupp
+src/states/game_setup.lua:161		play!	bloop!
+src/states/game_setup.lua:164		need ${stars} ¤	brrl ${stars} ¤
+src/states/game_setup.lua:197		the young will inherit the earth	bl plupp splubb plopp bl bloop
+src/states/game_setup.lua:591		get more gold ¤ with wagers	blupp blupp brubbl ¤ blith blubbl
+src/states/game_setup.lua:696		A modest wager.\nWin and keep your stars plus a small bonus.	BU splubb bloop.\nPlupp blan brubbl bluu plopps blorp bu blubbl blup.
+src/states/game_setup.lua:706		Wager half your stars.\nMinimum 500 ¤\nHigher stakes, more stars.	Bloop plupp bluu plopps.\nBlorp 500 ¤\nFlubb glupp, blupp plopps.
+src/states/game_setup.lua:716		Wager all your stars.\nMinimum 1000 ¤\nEven more star rewards.	Bloop glupp bluu plopps.\nBlorp 1000 ¤\nBlupp blupp plopp blupp.
+src/states/game_setup.lua:774		Wager	Bloop
+src/states/game_setup.lua:856		Levels	Blubbos
+src/states/game_setup.lua:863		Wager stars to add levels,\nnext level %d ¤	Bloop plopps blo blorp blubbos,\nglubb blubbo %d ¤
+src/states/game_setup.lua:1095		Difficulty	Glubblblorp
+src/states/game_setup.lua:1098		${stars} ¤ reward limit	${stars} ¤ splubb plupp
+src/states/gameover.lua:224		Congratulations, you lost.	Glorpflubb, blu brubbl.
+src/states/gameover.lua:225		Better luck next time.	Glupp bloop glubb blubb.
+src/states/gameover.lua:226		Maybe next time.	Flubb glubb blubb.
+src/states/gameover.lua:266		Wager ${BET}¤	Bloop ${BET}¤
+src/states/gameover.lua:274		Death Tax ${STARS}¤	Blupp Glorp ${STARS}¤
+src/states/gameover.lua:283		GAME OVER	GLUPP SPLUBB
+src/states/gameover.lua:315		Death tax:	Blupp glorp:
+src/states/gameover.lua:331		run info	plupp brubbl
+src/states/gameover.lua:370		restart	blorp
+src/states/gameover.lua:575		Press Circle To Toss	Flubb Glubbl Blo Glubb
+src/states/gameover.lua:575		Press B To Toss	Flubb PLOPP Blo Glubb
+src/states/gameover.lua:575		Right Click To Toss	Bloop Brubbl Blo Glubb
+src/states/intro.lua:54 (+1 others)		This is a game about luck.	Brubbl blis bu glupp splubb bloop.
+src/states/intro.lua:55		This is still a game about luck.	Brubbl blis blupp bu glupp splubb bloop.
+src/states/intro.lua:56		This is a game about rolling ones, apparently.	Brubbl blis bu glupp splubb blubbl plopp, blupglubbl.
+src/states/intro.lua:57		Yikes. Still no luck huh?	Brubbl. Blupp glupp bloop glupp?
+src/states/intro.lua:58		This game might not be for you.	Brubbl glupp blubbl glupp glubbl flor blu.
+src/states/intro.lua:59		It can't be that hard.	Blupp brubbl glubbl flubb bloop.
+src/states/intro.lua:60		At this point, you might consider refunding.	Splubb brubbl blip, blu blubbl glubb blorp.
+src/states/intro.lua:61		You might be special.	Blu blubbl glubbl glorp.
+src/states/intro.lua:67		Game by	Glupp blup
+src/states/intro.lua:95		Roll 6 to start.	Blubba 6 blo brrl.
+src/states/intro.lua:97		Roll 1 to quit.	Blubba 1 blo brubbl.
+src/states/intro.lua:121		right\nclick	bloop\nbrubbl
+src/states/intro.lua:144		Press Circle To Roll	Flubb Glubbl Blo Blubba
+src/states/intro.lua:144		Press B To Roll	Flubb PLOPP Blo Blubba
+src/states/intro.lua:145		Right Click To Roll	Bloop Brubbl Blo Blubba
+src/states/intro.lua:237		Franek & Max	Blubb & Flubb
+src/states/intro_greed.lua:62		This is a game about greed.	Brubbl blis bu glupp splubb plupp.
+src/states/intro_greed.lua:64		This is a game about skill.	Brubbl blis bu glupp splubb plopp.
+src/states/intro_greed.lua:65		This is a game about talent.	Brubbl blis bu glupp splubb blubbl.
+src/states/intro_greed.lua:66		This is a game about patience.	Brubbl blis bu glupp splubb splubb.
+src/states/intro_greed.lua:67		This is a game about fate.	Brubbl blis bu glupp splubb plupp.
+src/states/intro_greed.lua:68		This is a game about destiny.	Brubbl blis bu glupp splubb brubbl.
+src/states/intro_greed.lua:69		This is a game about God.	Brubbl blis bu glupp splubb GLUBB.
+src/states/intro_greed.lua:80		Roll to gain Stars.	Blubba blo brrl Plopps.
+src/states/intro_greed.lua:81		Roll 1 to lose Stars.	Blubba 1 blo glorp Plopps.
+src/states/intro_greed.lua:150		bank and start	blooba blan brrl
+src/states/intro_greed.lua:150		pass and start	flubb blan brrl
+src/states/options.lua:67		keybinds >	plopp >
+src/states/options.lua:97		Build ID: ${id}	Brubbl GLUBB: ${id}
+src/states/options.lua:117		Translated by ${name} ♥	Brrlblupp blup ${name} ♥
+src/states/options.lua:373		audio	blupp
+src/states/options.lua:377		master	glubb
+src/states/options.lua:378		music	glubb
+src/states/options.lua:379		ambient	glubb
+src/states/options.lua:380		sfx	brrl
+src/states/options.lua:395		mute	plupp
+src/states/options.lua:403		display	blubbl
+src/states/options.lua:405		fullscreen	pluppglupp
+src/states/options.lua:412		vsync	splubb
+src/states/options.lua:419		chromab	glorp
+src/states/options.lua:428		scanlines	blupp
+src/states/options.lua:437		bulge	blup
+src/states/options.lua:447		accessibility	brrlblupp
+src/states/options.lua:449		screenshake	glubbblorp
+src/states/options.lua:458		tips	blup
+src/states/options.lua:465		cursor size	bloop glorp
+src/states/options.lua:474		fast animation	brrl plopp
+src/states/options.lua:481		scroll bgs	plupp flubb
+src/states/options.lua:492		danger zone	flubb blorp
+src/states/options.lua:496		locale	glubbl
+src/states/options.lua:500		nuke entire save	blubbl blubbl brrl
+src/states/options.lua:505		Delete the entire game's save file\nresetting everything\nand losing all your progress forever?	Brubbl bl blubbl blup brrl glorp\nblup bloopblorp\nblan plopp glupp bluu glubbl blubb?
+src/states/options.lua:520		reset options	blorp plopp
+src/states/options.lua:525		Reset all the game options\nto their default values?	Blorp glupp bl glupp plopp\nblo splubb blupp bloop?
+src/states/options.lua:546		reset tips	blorp blup
+src/states/options.lua:551		reset all the hover tooltip counters\nso that all the tips show again?	blorp glupp bl blubbl splubb brrl\nglubbl flubb glupp bl blup plopp glubbl?
+src/states/options.lua:570		replay tutorial	blubb blubb
+src/states/options.lua:599		(BETA)	(BLORP)
+src/states/outside.lua:18		by Franek and Max	blup Blubb blan Flubb
+src/states/outside.lua:19		this was a game about waking up	brubbl blubbl bu glupp splubb glorp blup
+src/states/scoreboard.lua:39		Loading Scores...	Blubb Plopp...
+src/states/scoreboard.lua:116		# player	# glupp
+src/states/scoreboard.lua:133		lemme try	glubbl splubb
+src/states/scoreboard.lua:202		Your Luck	Bluu Bloop
+src/states/scoreboard.lua:207		luckier than ${percent}%	bloop plopp ${percent}%
+src/states/scoreboard.lua:215		need more rolls	brrl blupp blupp
+src/states/scoreboard.lua:223		rolls	blupp
+src/states/scoreboard.lua:227		busts	glupps
+src/states/scoreboard.lua:231		your bust rate	bluu glupp glubbl
+src/states/scoreboard.lua:235		expected	blup
+src/states/scoreboard.lua:239		player average	glupp brrl
+src/states/scoreboard.lua:244		Guts Completion	Glurgl Blubbblubbl
+src/states/scoreboard.lua:254		runs played	bloop blubb
+src/states/scoreboard.lua:258		runs won	bloop glorp
+src/states/scoreboard.lua:262		achievements	glubbblubbl
+src/states/tax_audit.lua:43		--  TAX AUDIT  --	--  GLORP FLUBB  --
+src/states/tax_audit.lua:79		You haven't paid your debt.\nPay ${debt} § or bribe your way out.	Blu flubb plupp bluu brrl.\nBlubb ${debt} § glor blubb bluu glupp blubb.
+src/states/tax_audit.lua:102		Pay ${debt} §	Blubb ${debt} §
+src/states/tax_audit.lua:132 (+1 others)		50% success	50% sblorp
+src/states/tax_audit.lua:133 (+1 others)		Bribe ${cost}¥	Blubb ${cost}¥
+src/states/tax_audit.lua:142 (+1 others)		Give up a die	Glupp blup bu blobb
+src/states/tax_audit.lua:193		You haven't paid your debt.\nWe will take your dice now.	Blu flubb plupp bluu brrl.\nGlorp splubb blubb bluu blobbs blorp.
+src/states/tax_audit.lua:285		You've entered upper tax bracket.\nPay up ${amount} § of your fish.	Plopp brubbl splubb glorp glubb.\nBlubb blup ${amount} § blov bluu bloop.
+src/states/tax_audit.lua:307 (+1 others)		Pay Up	Blubb Blup
+src/states/tax_audit.lua:330 (+1 others)		Take on 2 Debt Dues	Blubb glon 2 Brrl Brubbl
+src/states/tax_audit.lua:350		You've been audited.\nYou haven't paid taxes.\nWe will be taking ${amount} § of your fish.	Plopp glubbl blubbl.\nBlu flubb plupp brrl.\nGlorp splubb glubbl glupp ${amount} § blov bluu bloop.
+src/states/title.lua:79		roll 6 to play\nroll 1 to quit	blubba 6 blo bloop\nblubba 1 blo brubbl
+src/states/title.lua:159 (+1 others)	dialogue	so you chose to come back	glubbl blu brubbl blo glubbl blupp
+src/states/title.lua:161 (+1 others)	dialogue	you will see, very soon	blu splubb blorp, plupp glupp
+src/states/title.lua:237		GAMEPAD WARNING: support is still pretty rough - report bugs on steam or discord <3	BLUBBL GLUBBL: splubb blis blupp bloop glubb - blorp plupp glon flubb glor plupp <3
+src/states/title.lua:246 (+1 others)		the world you grew up in no longer exists	bl blorp blu plupp blup blin glupp plopp plupp
+src/states/title.lua:263		get back in here	blupp blupp blin glorp
+src/states/title.lua:267		Play	Blubb!
+src/states/title.lua:271		feeling lucky?	plupp flubb?
+src/states/title.lua:291 (+1 others)		Tutorial	Blubbablubb
+src/states/title.lua:298 (+1 others)		learn to play	brrl blo bloop
+src/states/title.lua:302		Star Guts	Ploppglurgl
+src/states/title.lua:306		unlock stuff	splubb plupp
+src/states/title.lua:370 (+1 others)		game setup	glupp splubb
+src/states/title.lua:375 (+1 others)		Quit	Plopp!
+src/states/title.lua:379 (+1 others)		bye?	flubb?
+src/states/title.lua:474		brighten up	glorp blup
+src/states/title.lua:475		rest your eyes	glubbl bluu blorp
+src/states/title.lua:486		community chat	bloop blubb
+src/states/title.lua:635		Welcome To 1.0!	Blubbalo Blup 1.0!
+src/states/title.lua:636		thanks so much for supporting the game ♥\nyou are looking fabulous today\n\nlots has changed since early access\nwe recommend starting 1.0 with a fresh save, but its up to you	blubb blubbl glubb blor glupping bl blubb ♥\nblu blar blupping glubbulous bloday\n\nblots blaz glubbed blince blarly blaccess\nblu blupp glarting 1.0 blith bl blresh blave, blup blits blup blu blu
+src/states/title.lua:637		sure, delete it!	blubb, glubbl blit!
+src/states/title.lua:638		yikes, no thanks	glurp, glupp blubb
+src/states/unlock.lua:79		representations are still solidifying - physical form is meaningless - you're imagining it	splubbglubbl blar blupp gluppsplubb - blubb glubbl blis blorpglubbl - glorp flubb blupp
+src/states/unlock.lua:96 (+3 others)		SNACK	NOMBL
+src/states/unlock.lua:163		Upgrades	Glubbl
+src/states/unlock.lua:164		buy upgrades with ¤	glubbl glubbl blith ¤
+src/states/unlock.lua:182		you have to do something to unlock this :)	blu glorp blo blubbl glubbl blo splubb brubbl :)
+src/states/unlock.lua:184		coming in a future update <3	flubb blin bu plopp brubbl <3
+src/states/unlock.lua:187		only available in the full game <3	glupp glubbl blin bl blubbl glupp <3
+src/states/unlock.lua:191		debug: 	blorp:
+src/states/unlock.lua:211		playable character	glubb blorp
+src/states/unlock.lua:221		new depths	blubb blupp
+src/states/unlock.lua:498		feed	glorp
+src/states/unlock.lua:567 (+1 others)		ban	glubbl
+src/states/unlock.lua:616		Customise	Plopp
+src/states/unlock.lua:975		Tape Worm	Bloop Flubb
+src/states/unlock.lua:976		gold in, pink out	brubbl blin, plupp blubb
+src/sync_scoreboards.lua:14		Most Stars	Plupp Plopps
+src/sync_scoreboards.lua:19		stars held	plopps brrl
+src/sync_scoreboards.lua:27		Highest Level	Flubb Blubbo
+src/sync_scoreboards.lua:32		level	blubbo
+src/sync_scoreboards.lua:39		Best Level Score	Plopp Blubbo Glupp
+src/sync_scoreboards.lua:51		Biggest Combo	Glubbl Blom
+src/sync_scoreboards.lua:63		Greed Intro	Plupp Blup
+src/sync_scoreboards.lua:68		stars won	plopps glorp
+src/sync_scoreboards.lua:75		Most Wins	Plupp Blup
+src/sync_scoreboards.lua:80		wins	blup
+src/sync_scoreboards.lua:87		Most Fish	Plupp Bloop
+src/sync_scoreboards.lua:92		fish in a run	bloop blin bu plupp
+src/sync_scoreboards.lua:95 (+3 others)		(data did not load)	(blorp plupp glupp splubb)
+src/sync_scoreboards.lua:100		Biggest Loser	Glubbl Plupp
+src/sync_scoreboards.lua:105		death tax	blupp glorp
+src/sync_scoreboards.lua:113		The End Any%	Bl Blorp Brubbl%
+src/sync_scoreboards.lua:118		runs	bloop
+src/sync_scoreboards.lua:142		luck	bloop
+src/sync_scoreboards.lua:203 (+1 others)	dialogue	you	blu
+src/ui/character_body.lua:302 (+2 others)	ui	LOCKED	GLUBBL
+src/ui/combination_table.lua:34 (+1 others)	ui	flush	glubb
+src/ui/combination_table.lua:50	ui	Combinations	Glubbglubbl
+src/ui/combination_table.lua:50	ui	hello :)	blup :)
+src/ui/game_setup_options.lua:4	ui	easy wager	glubb bloop
+src/ui/game_setup_options.lua:5	ui	increase difficulty by 1	plupp glubblblorp blup 1
+src/ui/game_setup_options.lua:16	ui	medium wager	blup bloop
+src/ui/game_setup_options.lua:17	ui	increase difficulty by 2	plupp glubblblorp blup 2
+src/ui/game_setup_options.lua:28	ui	hard wager	bloop bloop
+src/ui/game_setup_options.lua:29	ui	increase difficulty by 3	plupp glubblblorp blup 3
+src/ui/help_screen.lua:18	ui	HELP ME!	PLUPP BLOOP!
+src/ui/help_screen.lua:74	ui	INFO DUMP :)	BRUBBL PLUPP :)
+src/ui/help_screen.lua:111	ui	BUST	GLUPP
+src/ui/help_screen.lua:112	ui	Each die has a red Bust side.\nRolling Bust side reduces your Bust meter.\n\nIf Bust meter goes to 0 you WIPE.\nAll unbanked points are gone, turn ends.	Glubb blobb blubb bu glupp Glupp blubbl.\nBlubbl Glupp blubbl blupp bluu Glupp flubb.\n\nFlubb Glupp flubb plopp blo 0 blu SPLATT.\nGlupp blup blips blar blubbl, glubbo brubbl.
+src/ui/help_screen.lua:115	ui	ALL BUST - INSTANT WIPE	GLUPP GLUPP - BRRL SPLATT
+src/ui/help_screen.lua:116	ui	The tricky part!\n\nIf all dice you rolled at once show Bust,\nyou WIPE instantly, regardless of the Bust meter.\n\nExample: 3 out of 3 dice rolled Bust	Bl blubb splubb!\n\nFlubb glupp blobbs blu glorp splubb splubb plopp Glupp,\nblu SPLATT flubb, glorpflubb blov bl Glupp flubb.\n\nBlupp: 3 blubb blov 3 blobbs glorp Glupp
+src/ui/help_screen.lua:119	ui	BANKING	BLOOBING
+src/ui/help_screen.lua:120	ui	BANK to lock in your points and refill the Bust meter.\nEach BANK ends your Turn.	BLOOBA blo plopp blin bluu blips blan blorp bl Glupp flubb.\nGlubb BLOOBA brubbl bluu Glubbo.
+src/ui/help_screen.lua:123	ui	TURN	GLUBBO
+src/ui/help_screen.lua:124	ui	Each level you get limited Turns.\nTurns end when you BANK or WIPE.\nWhen you run out of Turns the game is over.\nBust meter and Power charge refill each turn.	Glubb blubbo blu blupp blubb Glubbos.\nGlubbos blorp plupp blu BLOOBA glor SPLATT.\nPlupp blu plupp blubb blov Glubbos bl glupp blis splubb.\nGlupp flubb blan Brubbl blupp blorp glubb glubbo.
+src/ui/help_screen.lua:129	ui	SCORING	GLUPP
+src/ui/help_screen.lua:130	ui	Select dice that form a combo and score them.\nPoints x Mult = Score.\nBigger combos score exponentially more.\nScore multiple combos in one Turn to build Momentum for extra Points and Mult	Plopp blobbs flubb glubbl bu blom blan glupp blupp.\nBlips glubb Glubbi = Glupp.\nBrrl bloms glupp gluppblupp blupp.\nGlupp plupp bloms blin blup Glubbo blo brubbl Bubbl flor blorp Blips blan Glubbi
+src/ui/help_screen.lua:133	ui	TRINKETS, SPELLS & SNACKS	BLINKLES, GLIMS & NOMBLS
+src/ui/help_screen.lua:134	ui	- Trinkets are passive, they trigger automatically.\n- Spells are one time use!\n- Snacks are dragged onto a die to add special effects.	- Blinkles blar glubb, blorp blup glorpplupp.\n- Glims blar blup blubb glubb!\n- Nombls blar glupp blupp bu blobb blo blorp glorp plupp.
+src/ui/help_screen.lua:137	ui	CHARACTER POWER	BLORP BRUBBL
+src/ui/help_screen.lua:138	ui	Each character has a unique Power. Use them to modify dice, reduce risk and get better combos.\n\nPower recharges each turn or with die side effects and items.	Glubb blorp blubb bu blup Brubbl. Glubb blupp blo splubb blobbs, blorp blorp blan blupp glupp bloms.\n\nBrubbl plupp glubb glubbo glor blith blobb blubbl plupp blan glorp.
+src/ui/help_screen.lua:141	ui	BASIC TACTICS	BRUBBL GLUBBL
+src/ui/help_screen.lua:142	ui	The more dice you roll at once the bigger chance of any Bust, but smaller chance of All Bust.\n\nRerolling a single die is ballsy! Prioritize rerolling blank dice. Scoring a single big combo is better than few pairs.	Bl blupp blobbs blu blubba splubb splubb bl brrl blubb blov brubbl Glupp, blup plopp blubb blov Glupp Glupp.\n\nPlupp bu flubb blobb blis blup! Glubblbrrl plupp glubb blobbs. Glupp bu flubb glubb blom blis glupp plopp glupp glubbl.
+src/ui/item_hover.lua:73 (+4 others)	ui	SPELL	GLIM
+src/ui/level_map.lua:65	ui	LEVEL MAP	BLUBBO BLORP
+src/ui/level_map.lua:165		Level ${level}	Blubbo ${level}
+src/ui/level_map.lua:168	ui	Final nightmare level	Plopp plupp blubbo
+src/ui/level_map.lua:171	ui	Final level	Plopp blubbo
+src/ui/level_map.lua:174	ui	Nightmare level	Plupp blubbo
+src/ui/level_map.lua:181		- ${points} pts	- ${points} blup
+src/ui/state_tabs.lua:5 (+2 others)	ui	unlock	splubb
+src/ui/tooltip.lua:82	ui	tip	blupp
