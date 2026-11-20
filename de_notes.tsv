@@ -243,10 +243,10 @@ src/coloured_text.lua:95 (+12 others)		stuck	klebrig
 src/coloured_text.lua:98 (+2 others)		empty	leer	
 src/display_loc.lua:3		Normal	Normal	
 src/display_loc.lua:4		Pixel	Pixel	
-src/endings/alley.lua:28	dialogue	very well		
-src/endings/alley.lua:29	dialogue	next time bring me all the teeth		
-src/endings/alley.lua:64		knock		
-src/endings/alley.lua:135	dialogue	i'll be waiting in your guts		
+src/endings/alley.lua:28	dialogue	very well	sehr gut	
+src/endings/alley.lua:29	dialogue	next time bring me all the teeth	bring mir nächstes mal alle zähne	CONTEXT
+src/endings/alley.lua:64		knock	klopf	CONTEXT
+src/endings/alley.lua:135	dialogue	i'll be waiting in your guts	ich warte in deinen innereien	CONTEXT
 src/endings/anais.lua:124	dialogue	don't leave again	verlass mich nicht nochmal	
 src/endings/anais.lua:125	dialogue	you're safe here	du bist hier sicher	
 src/endings/anais.lua:126	dialogue	with me	mit mir	
@@ -433,7 +433,7 @@ src/item_unlocks.lua:174		Momentum	Momentum
 src/item_unlocks.lua:175		chain combos forever	nach der combo ist vor der combo	
 src/item_unlocks.lua:183		Workaholic	Workaholic	
 src/item_unlocks.lua:184		put your power back to work	lass deine power für dich arbeiten	
-src/item_unlocks.lua:193		Mind Expansion	Bewusstseins-\nerweiterung	fits with linebreak?
+src/item_unlocks.lua:193		Mind Expansion	Bewusstseins-\nerweiterung	
 src/item_unlocks.lua:194		gigabrained complicated nonsense	überkomplizierter schwachsinn	
 src/item_unlocks.lua:203		Actualisation	Verwirklichung	
 src/item_unlocks.lua:204		get actualised	macht wirkbar wirklich	
@@ -469,7 +469,7 @@ src/item_unlocks.lua:355		More Funky Dice	Mehr Würfel
 src/item_unlocks.lua:356		Special Side Effects in shops!\nMult, Debust, Power and Cracked	Spezielle Seiten-Effekte im Shop!\nMulti, Debust, Power und Brüchig	
 src/item_unlocks.lua:365		Even More Dice	Noch Mehr Würfel	
 src/item_unlocks.lua:366		Special Side Effects in shops!\nSkip, Mirror, Hardy and Doom	Spezielle Seiten-Effekte im Shop!\nSkip, Spiegel, Zäh und Unheil	
-src/item_unlocks.lua:377		Fish Trinkets	Fische	REDO - Fisch-Glücksb.?
+src/item_unlocks.lua:377		Fish Trinkets	Fisch-\nGlücksbringer	
 src/item_unlocks.lua:378		from the sea	unten im meer	
 src/item_unlocks.lua:386		Sardine Magic	Sardinenmagie	
 src/item_unlocks.lua:387		abracodabra	abrakarpfdabra	
@@ -544,7 +544,7 @@ src/items.lua:610		Hold your next score	Halte deine nächste Wertung	HOLD
 src/items.lua:619 (+2 others)		Hold!	Behalten!	HOLD
 src/items.lua:625		Snack Bag	Fresstüte	
 src/items.lua:628		Spawn 2-3 random snack items	Erzeugt 2-3 zufällige Snacks	
-src/items.lua:648		${amount} foods!	${amount} mal Essen!	REDO
+src/items.lua:648		${amount} foods!	${amount} Essen!	REDO
 src/items.lua:653		Gambling Bag	Wundertüte	
 src/items.lua:656		Send it	Was ist drin?	REDO - something more fun with Wundertüte?
 src/items.lua:677		${amount} chances!	${amount} Chancen!	
@@ -1126,8 +1126,8 @@ src/special_conditions.lua:102		Full House	Full House
 src/special_conditions.lua:115		Four Of A Kind	Viererpasch	
 src/special_conditions.lua:126		Straight	Straße	
 src/special_conditions.lua:179		Long Straight	Lange Straße	
-src/special_conditions.lua:190		Long Long Straight		
-src/special_conditions.lua:201		Long Long Long Straight		
+src/special_conditions.lua:190		Long Long Straight	Lange Lange Straße	
+src/special_conditions.lua:201		Long Long Long Straight	Lange Lange Lange Straße	
 src/special_conditions.lua:212		Star Bonanza	Stern-Bonanza	
 src/special_conditions.lua:223		Star Extravaganza	Stern-Extravaganza	
 src/special_conditions.lua:234		Star Bonanzovaganza	Stern-Bonanzovaganza	
@@ -1237,14 +1237,14 @@ src/states/fish_market.lua:265		Next!	Weiter!
 src/states/game.lua:148 (+2 others)		back	zurück	
 src/states/game.lua:162		PAUSE II	PAUSE II	
 src/states/game.lua:170 (+1 others)		Continue	Weiter	
-src/states/game.lua:174 (+1 others)		Cannot Restart Wager Runs	Neustart Unmöglich Bei Wetten	
+src/states/game.lua:174 (+1 others)		Cannot Restart Wager Runs	Neustart unmöglich bei Wetten	
 src/states/game.lua:177		Restart	Neustart	
 src/states/game.lua:179		Restart the run from scratch\nand lose all gained stars?	Willst du den Run neu starten\nund alle gesammelten Sterne verlieren?	
 src/states/game.lua:185 (+3 others)		Options	Optionen	
-src/states/game.lua:193		Save and Quit		
-src/states/game.lua:194		(Cant Save Right Now)	(Speichern Gerade Nicht Möglich)	
-src/states/game.lua:199		No escape		
-src/states/game.lua:202		Skip Tutorial		
+src/states/game.lua:193		Save and Quit	Speichern und Beenden	
+src/states/game.lua:194		(Cant Save Right Now)	(Speichern gerade unmöglich)	
+src/states/game.lua:199		No escape	Kein Ausweg	
+src/states/game.lua:202		Skip Tutorial	Tutorial Überspringen	
 src/states/game.lua:202		Abandon	Aufgeben	
 src/states/game.lua:210		Quit to menu and lose all gained stars?	Willst du ins Hauptmenü zurückkehren\nund alle gesammelten Sterne verlieren?	
 src/states/game.lua:215		No way out	Kein Ausweg	
@@ -1265,7 +1265,7 @@ src/states/game.lua:1099		praying...	betet...	CONTEXT
 src/states/game.lua:1099		pray	bete	CONTEXT
 src/states/game.lua:1177		Losing all Turns ends the game.\nTurns refill at the start of each level.	Alle Züge zu verlieren beendet das Spiel.\nZüge werden am Anfang jedes Levels wieder aufgefüllt.	
 src/states/game.lua:1428 (+1 others)		MERGED	VERSCHMOLZEN	
-src/states/game.lua:1637		pause		
+src/states/game.lua:1637		pause	pause	
 src/states/game.lua:1911 (+2 others)		Level $level/$count $name	Level $level/$count $name	
 src/states/game.lua:1963		NIGHTMARE LEVEL	ALBTRAUM-LEVEL	
 src/states/game.lua:2085 (+1 others)		Rift	Riss	REDO - Riss Spalt Kluft
@@ -1320,7 +1320,7 @@ src/states/game_setup.lua:706		Wager half your stars.\nMinimum 500 ¤\nHigher st
 src/states/game_setup.lua:716		Wager all your stars.\nMinimum 1000 ¤\nEven more star rewards.	Setze alle deine Sterne ein.\nMindestens 1000 ¤\nNoch mehr Stern-Gewinn.	
 src/states/game_setup.lua:774		Wager	Wette	
 src/states/game_setup.lua:856		Levels	Level	
-src/states/game_setup.lua:863		Wager stars to add levels,\nnext level %d ¤		
+src/states/game_setup.lua:863		Wager stars to add levels,\nnext level %d ¤	Setze Sterne ein um Level hinzuzufügen,\nnächstes Level %d ¤	
 src/states/game_setup.lua:1095		Difficulty	Schwierigkeit	
 src/states/game_setup.lua:1098		${stars} ¤ reward limit	${stars} ¤ Belohnungs-Limit	
 src/states/gameover.lua:224		Congratulations, you lost.	Herzlichen Glückwunsch, du hast verloren.	
@@ -1439,10 +1439,10 @@ src/states/title.lua:379 (+1 others)		bye?	bye?
 src/states/title.lua:474		brighten up	licht reinlassen	
 src/states/title.lua:475		rest your eyes	die augen schonen	
 src/states/title.lua:486		community chat	community chat	
-src/states/title.lua:635		Welcome To 1.0!		
-src/states/title.lua:636		thanks so much for supporting the game ♥\nyou are looking fabulous today\n\nlots has changed since early access\nwe recommend starting 1.0 with a fresh save, but its up to you		
-src/states/title.lua:637		sure, delete it!		
-src/states/title.lua:638		yikes, no thanks		
+src/states/title.lua:635		Welcome To 1.0!	Willkomen in der 1.0 Version!	
+src/states/title.lua:636		thanks so much for supporting the game ♥\nyou are looking fabulous today\n\nlots has changed since early access\nwe recommend starting 1.0 with a fresh save, but its up to you	vielen dank für deine unterstützung ♥\ndu siehst heute gut aus\n\nvieles hat sich seit early access geändert\nwir empfehlen, 1.0 mit einem neuen Spielstand zu starten, aber das ist dir überlassen	
+src/states/title.lua:637		sure, delete it!	klar, lösch ihn!	
+src/states/title.lua:638		yikes, no thanks	igitt, nein danke	
 src/states/unlock.lua:79		representations are still solidifying - physical form is meaningless - you're imagining it	darstellungen noch schwammig - form ist bedeutungslos - du bildest es dir ein	
 src/states/unlock.lua:96 (+3 others)		SNACK	SNACK	
 src/states/unlock.lua:163		Upgrades	Upgrades	
