@@ -90,7 +90,7 @@ src/characters/god.lua:85		wager all ${gold} gold ¤	miser la totalité de vos $
 src/characters/god.lua:87		wager everything	miser tout
 src/characters/god.lua:97	dialogue	you always were my bravest child	tu as toujours été mon enfant le plus brave
 src/characters/god.lua:102		God?	Dieu ?
-src/characters/god.lua:135	dialogue	cheating? me? god?	tricher ? moi ? dieu ?
+src/characters/god.lua:135	dialogue	cheating? me? god?	tu as voulu me duper ? moi ? dieu ?
 src/characters/god.lua:136	dialogue	i appreciate the boldness	j’apprécie l’audace
 src/characters/god.lua:137	dialogue	it will not work again	ça ne marchera plus
 src/characters/god.lua:161	dialogue	no tickle	un peu de sérieux
