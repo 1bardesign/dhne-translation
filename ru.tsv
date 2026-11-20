@@ -64,7 +64,7 @@ src/characters/cool_fish.lua:2		Cool Fish	Крутая Рыба
 src/characters/cool_fish.lua:34		Good Ol' Herrington	Старина Харрингтон
 src/characters/cool_fish.lua:41		Winter Fit	Зимний Наряд
 src/characters/cool_fish.lua:48		Ciggy	Сига
-src/characters/cool_fish.lua:89	dialogue	Oh, this jacket?\nIt was 3000¥	А, эта куртка? Стоила 3000¥
+src/characters/cool_fish.lua:89	dialogue	Oh, this jacket?\nIt was 3000¥	А, эта куртка?\nСтоила 3000¥
 src/characters/cool_fish.lua:90	dialogue	It's from Japan yeah	Да, из Японии
 src/characters/cool_fish.lua:111	dialogue	Nice coins	Классные монетки
 src/characters/cool_fish.lua:113		I'll revive you for all your $yen ¥ and $cost ¤	Я воскрешу тебя за все твои $yen ¥ и $cost ¤
@@ -90,7 +90,7 @@ src/characters/god.lua:85		wager all ${gold} gold ¤	поставить все $
 src/characters/god.lua:87		wager everything	поставить всё
 src/characters/god.lua:97	dialogue	you always were my bravest child	Ты всегда была моим самым храбрым ребёнком
 src/characters/god.lua:102		God?	Бог?
-src/characters/god.lua:135	dialogue	cheating? me? god?	мухлюю? я? бог?
+src/characters/god.lua:135	dialogue	cheating? me? god?	мухлюешь? у меня под носом? у бога?
 src/characters/god.lua:136	dialogue	i appreciate the boldness	я ценю смелость
 src/characters/god.lua:137	dialogue	it will not work again	больше это не сработает
 src/characters/god.lua:161	dialogue	no tickle	без щекотки
@@ -110,7 +110,7 @@ src/characters/guy.lua:117	dialogue	I'll revive you for $cost ¤ and one passive
 src/characters/guy.lua:123	dialogue	Live your truth	Живи свою истину
 src/characters/guy.lua:136	dialogue	Ride on	Вперёд!
 src/characters/hotdog.lua:2		Hot Dawg	Хот-Дог
-src/characters/hotdog.lua:53		Jalapeno	"Халапеньо"
+src/characters/hotdog.lua:53		Jalapeno	Халапеньо
 src/characters/hotdog.lua:95	dialogue	Hungry for more?	Все еще есть аппетит?
 src/characters/hotdog.lua:97		I'll revive you for $cost ¤ and a bad tooth	Я воскрешу тебя за $cost ¤ и плохой зуб
 src/characters/hotdog.lua:103	dialogue	More for me	Мне же больше
@@ -129,8 +129,8 @@ src/characters/liz.lua:37		Halo	Нимб
 src/characters/liz.lua:77	dialogue	Hey, my love	Привет, любовь
 src/characters/liz.lua:78	dialogue	Remember, ${count} levels and you're out of here!	Помни, ${count} уровней, и ты свободна!
 src/characters/liz.lua:89	dialogue	Ah well	Ничего
-src/characters/liz.lua:90	dialogue	You'll get it next time!	В следующий раз у тебя все получиться!
-src/characters/liz.lua:120	dialogue	...Want to keep going?	... Хочешь продолжить?
+src/characters/liz.lua:90	dialogue	You'll get it next time!	В следующий раз у тебя все получится!
+src/characters/liz.lua:120	dialogue	...Want to keep going?	...Хочешь продолжить?
 src/characters/liz.lua:122	dialogue	I'll revive you for $cost ¤ and one die	Я тебя воскрешу за $cost ¤ и один кубик
 src/characters/liz.lua:128	dialogue	Your loss :)	Твоя потеря :)
 src/characters/liz.lua:141	dialogue	Hope it's worth it!	Надеюсь это того стоит!
@@ -156,7 +156,7 @@ src/characters/tutorial_character.lua:49	dialogue	Hi! Welcome!	Привет! Д�
 src/characters/tutorial_character.lua:50	dialogue	You're dead!	Ты мертва!
 src/characters/tutorial_character.lua:51	dialogue	Or asleep!	Или спишь!
 src/characters/tutorial_character.lua:52	dialogue	... Either way, you won't remember this :)	... В любом случае, ты это не запомнишь :)
-src/characters/tutorial_character.lua:53	dialogue	Now let's play.\nRoll the dice.	А теперь давай играть. Брось кубики.
+src/characters/tutorial_character.lua:53	dialogue	Now let's play.\nRoll the dice.	А теперь давай играть.\nБрось кубики.
 src/characters/tutorial_character.lua:70	dialogue	Good. You gained some points.	Молодец. Ты заработала очки.
 src/characters/tutorial_character.lua:71	dialogue	They're not safe until you BANK them.	Они не в безопасности, пока ты их не СБЕРЕЖЕШЬ.
 src/characters/tutorial_character.lua:72	dialogue	You have ${TURNS} Turns to reach your goal.\nBANKing ends your Turn.	У тебя есть ${TURNS} ходов, чтобы достичь цели.\nСБЕРЕЖЕНИЕ очков завершает твой ход.
@@ -213,7 +213,7 @@ src/characters/wizard.lua:57		Orb	Шар
 src/characters/wizard.lua:89	dialogue	Get to level 7, and you're free.	Доберись до 7-го уровня, и ты свободна.
 src/characters/wizard.lua:92	dialogue	Get to level 10, and you're free.	Доберись до 10-го уровня, и ты свободна.
 src/characters/wizard.lua:213	dialogue	Another chance buddy?	Еще один шанс подружка?
-src/characters/wizard.lua:215	dialogue	I'll revive you for $cost ¤ and difficulty increase.	Я тебя воскрешу за $cost ¤ и добавку к солжности.
+src/characters/wizard.lua:215	dialogue	I'll revive you for $cost ¤ and difficulty increase.	Я тебя воскрешу за $cost ¤ и добавку к сложности.
 src/characters/wizard.lua:221	dialogue	Hmpf.	Гм.
 src/characters/wizard.lua:238	dialogue	Tada!	Та-да!
 src/coloured_text.lua:8 (+117 others)		bust	баст
@@ -243,10 +243,10 @@ src/coloured_text.lua:95 (+12 others)		stuck	липучка
 src/coloured_text.lua:98 (+2 others)		empty	пустота
 src/display_loc.lua:3		Normal	Нормальный
 src/display_loc.lua:4		Pixel	Пиксель
-src/endings/alley.lua:28	dialogue	very well	
-src/endings/alley.lua:29	dialogue	next time bring me all the teeth	
-src/endings/alley.lua:64		knock	
-src/endings/alley.lua:135	dialogue	i'll be waiting in your guts	
+src/endings/alley.lua:28	dialogue	very well	ну хорошо
+src/endings/alley.lua:29	dialogue	next time bring me all the teeth	в следующий раз принеси мне все зубы
+src/endings/alley.lua:64		knock	тук-тук
+src/endings/alley.lua:135	dialogue	i'll be waiting in your guts	я буду ждать в твоих кишках
 src/endings/anais.lua:124	dialogue	don't leave again	не уходи
 src/endings/anais.lua:125	dialogue	you're safe here	ты здесь в безопасности
 src/endings/anais.lua:126	dialogue	with me	со мной
@@ -386,7 +386,7 @@ src/haunt.lua:26		move on	оставь это позади
 src/haunt.lua:27		break the pattern	прерви цикл
 src/haunt.lua:28		what are you doing	что ты делаешь
 src/haunt.lua:29		you've consumed enough	достаточно
-src/haunt.lua:30		it's all made up	это всё придуманно
+src/haunt.lua:30		it's all made up	это всё придумано
 src/haunt.lua:31		consume sleep repeat	потреблять спать повторять
 src/haunt.lua:32 (+1 others)		get out	выйди
 src/haunt.lua:34		this isn't real	это не реальность
@@ -440,7 +440,7 @@ src/item_unlocks.lua:204		get actualised	ха, актуализируйся
 src/item_unlocks.lua:212		Rich Man	Богатый человек
 src/item_unlocks.lua:213		money money money	деньги деньги деньги
 src/item_unlocks.lua:222		Degenerate	Деген
-src/item_unlocks.lua:223		as luck would have it	как назло
+src/item_unlocks.lua:223		as luck would have it	как повезёт
 src/item_unlocks.lua:232		Biscuit	Кто не рискует
 src/item_unlocks.lua:233		worth risking it for	тот не ест печенья
 src/item_unlocks.lua:241		Send It	Погнали
@@ -450,7 +450,7 @@ src/item_unlocks.lua:252		pretty spooky	какая жуть
 src/item_unlocks.lua:261 (+1 others)		Shield	Щит
 src/item_unlocks.lua:262		bust protection	защита от бастов
 src/item_unlocks.lua:271		Slow N Steady	Тише едешь
-src/item_unlocks.lua:272		gets you nowhere	нигде не будешь
+src/item_unlocks.lua:272		gets you nowhere	дальше не уедешь
 src/item_unlocks.lua:280		Patience	Терпение
 src/item_unlocks.lua:281		a virtue	добродетель
 src/item_unlocks.lua:290		Straights	Стриты
@@ -792,7 +792,7 @@ src/items.lua:3037		Banksia	Банксия
 src/items.lua:3040		Rerolling a Pair recharges Power	Переброс Пары восстанавливает Силу
 src/items.lua:3052 (+4 others)		Power Recharged	Сила восстановлена
 src/items.lua:3059		Lycheye	Личай
-src/items.lua:3060		Two Pair recharges Power	Две Пары восстанавливает Силу
+src/items.lua:3060		Two Pair recharges Power	Две Пары восстанавливают Силу
 src/items.lua:3079		Bump Jug	Кувшин-удар
 src/items.lua:3082		Scoring a Full House recharges Power	Засчет Фулл-Хауса восстанавливает Силу
 src/items.lua:3099		Full Send	На полную
@@ -1126,8 +1126,8 @@ src/special_conditions.lua:102		Full House	Фулл-Хаус
 src/special_conditions.lua:115		Four Of A Kind	Каре
 src/special_conditions.lua:126		Straight	Стрит
 src/special_conditions.lua:179		Long Straight	Длинный Стрит
-src/special_conditions.lua:190		Long Long Straight	
-src/special_conditions.lua:201		Long Long Long Straight	
+src/special_conditions.lua:190		Long Long Straight	Длинный Длинный Стрит
+src/special_conditions.lua:201		Long Long Long Straight	Длинный Длинный Длинный Стрит
 src/special_conditions.lua:212		Star Bonanza	Звездная Бонанза
 src/special_conditions.lua:223		Star Extravaganza	Звездная Экстраваганза
 src/special_conditions.lua:234		Star Bonanzovaganza	Звездная Бонанзоваганза
@@ -1206,7 +1206,7 @@ src/states/ending_demo.lua:137	dialogue	wishlist the game	добавь игру 
 src/states/ending_demo.lua:184 (+1 others)		Browser Opened!	Браузер открыт!
 src/states/ending_demo.lua:185 (+1 others)		Thanks <3	Спасибо <3
 src/states/ending_demo.lua:187 (+1 others)		Buy Here	Купить здесь
-src/states/ending_demo.lua:187 (+1 others)		Wishlist Here	Вишлист здесь
+src/states/ending_demo.lua:187 (+1 others)		Wishlist Here	На вишлист
 src/states/ending_demo.lua:215		back to title	в главное меню
 src/states/ending_finale.lua:87	dialogue	well well well	ну надо же
 src/states/ending_finale.lua:88	dialogue	how did we get here?	как мы здесь оказались?
@@ -1243,8 +1243,8 @@ src/states/game.lua:179		Restart the run from scratch\nand lose all gained stars
 src/states/game.lua:185 (+3 others)		Options	Настройки
 src/states/game.lua:193		Save and Quit	Сохранить и выйти
 src/states/game.lua:194		(Cant Save Right Now)	(Сейчас нельзя сохранить)
-src/states/game.lua:199		No escape	
-src/states/game.lua:202		Skip Tutorial	
+src/states/game.lua:199		No escape	Выхода нет
+src/states/game.lua:202		Skip Tutorial	Пропустить обучение
 src/states/game.lua:202		Abandon	Сдаться
 src/states/game.lua:210		Quit to menu and lose all gained stars?	Выйти в меню и потерять все полученные звезды?
 src/states/game.lua:215		No way out	Выхода нет
@@ -1265,7 +1265,7 @@ src/states/game.lua:1099		praying...	молитва...
 src/states/game.lua:1099		pray	молиться
 src/states/game.lua:1177		Losing all Turns ends the game.\nTurns refill at the start of each level.	Потеря всех Ходов завершает игру.\nХоды восполняются в начале каждого уровня.
 src/states/game.lua:1428 (+1 others)		MERGED	ОБЪЕДИНЕНЫ
-src/states/game.lua:1637		pause	
+src/states/game.lua:1637		pause	пауза
 src/states/game.lua:1911 (+2 others)		Level $level/$count $name	Уровень $level/$count $name
 src/states/game.lua:1963		NIGHTMARE LEVEL	КОШМАР
 src/states/game.lua:2085 (+1 others)		Rift	Разлом
@@ -1320,7 +1320,7 @@ src/states/game_setup.lua:706		Wager half your stars.\nMinimum 500 ¤\nHigher st
 src/states/game_setup.lua:716		Wager all your stars.\nMinimum 1000 ¤\nEven more star rewards.	Поставь все свои звезды.\nМинимум 1000 ¤\nЕщё больше звездных наград.
 src/states/game_setup.lua:774		Wager	Ставка
 src/states/game_setup.lua:856		Levels	Уровни
-src/states/game_setup.lua:863		Wager stars to add levels,\nnext level %d ¤	
+src/states/game_setup.lua:863		Wager stars to add levels,\nnext level %d ¤	Ставь звёзды чтобы добавить уровни,\nследующий уровень %d ¤
 src/states/game_setup.lua:1095		Difficulty	Сложность
 src/states/game_setup.lua:1098		${stars} ¤ reward limit	Лимит награды ${stars} ¤
 src/states/gameover.lua:224		Congratulations, you lost.	Поздравляю, ты проиграла.
@@ -1439,10 +1439,10 @@ src/states/title.lua:379 (+1 others)		bye?	пока?
 src/states/title.lua:474		brighten up	просветлей
 src/states/title.lua:475		rest your eyes	дай глазам отдохнуть
 src/states/title.lua:486		community chat	чат сообщества
-src/states/title.lua:635		Welcome To 1.0!	
-src/states/title.lua:636		thanks so much for supporting the game ♥\nyou are looking fabulous today\n\nlots has changed since early access\nwe recommend starting 1.0 with a fresh save, but its up to you	
-src/states/title.lua:637		sure, delete it!	
-src/states/title.lua:638		yikes, no thanks	
+src/states/title.lua:635		Welcome To 1.0!	Добро пожаловать в 1.0!
+src/states/title.lua:636		thanks so much for supporting the game ♥\nyou are looking fabulous today\n\nlots has changed since early access\nwe recommend starting 1.0 with a fresh save, but its up to you	большое спасибо за поддержку игры ♥\nсегодня ты выглядишь просто потрясающе\nс раннего доступа многое изменилось\nрекомендуем начать версию 1.0 с нового сохранения, но выбор за тобой
+src/states/title.lua:637		sure, delete it!	конечно, удаляй!
+src/states/title.lua:638		yikes, no thanks	ой, нет, спасибо
 src/states/unlock.lua:79		representations are still solidifying - physical form is meaningless - you're imagining it	образы всё ещё обретают форму — физическая оболочка бессмысленна — ты всё это выдумала
 src/states/unlock.lua:96 (+3 others)		SNACK	ЗАКУСКА
 src/states/unlock.lua:163		Upgrades	Улучшения

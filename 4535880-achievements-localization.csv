@@ -32,9 +32,9 @@ BONANZA_IN_ONE,description,Star Bonanza on a 5-dice roll,Получи «Звез
 PURE_SKILL,name,Pure Skill,Чистый скилл,纯技术,Le talent,Pures Talent
 PURE_SKILL,description,Long Straight on a 6-dice roll,Получи «Длинный Стрит» при броске 6 кубиков,用6枚骰子投出大顺子,Lancer six dés et tirer une Grande Suite,Wirf eine Lange Straße mit einem 6-Würfel-Wurf
 OH_YEAH,name,Oh Yeah,О да!,好耶,T’es chaud,Oh Yeah
-OH_YEAH,description,Reach 50000 points in one level,Набери 50000 очков на одном уровне,在一关内获得50000分数,Atteindre 50000 points en un niveau,Erreiche 50.000 Punkte in einem Level
+OH_YEAH,description,Reach 100000 points in one level,Набери 100000 очков на одном уровне,在一关内获得100000分数,Atteindre 100000 points en un niveau,Erreiche 100.000 Punkte in einem Level
 TOO_EASY,name,Too Easy,Слишком легко,简简单单,Trop facile,Zu Einfach
-TOO_EASY,description,Score 10000 points with one hand,Набери 10000 очков за один ход,一次计分获得10000分数,Jouer une main à 10000 points,Werte 10.000 Punkte mit einer Combo
+TOO_EASY,description,Score 25000 points with one hand,Набери 25000 очков за один ход,一次计分获得25000分数,Jouer une main à 25000 points,Werte 25.000 Punkte mit einer Combo
 SELF_ESTEEM,name,Self Esteem,Самооценка,自我认同,Estime de soi,Selbstwertgefühl
 SELF_ESTEEM,description,Hold middle click to flip yourself off,"Зажми среднюю кнопку мыши, чтобы показать себе неприличный жест",按下鼠标滚轮对自己竖起中指,Se faire un doigt d’honneur en maintenant le clic molette,Halte die mittlere Maustaste um dir selbst den Vogel zu zeigen
 CANIBALISM,name,Cannibalism?,Каннибализм?,同类相食？,C’est du cannibalisme ?,Kannibalismus?
@@ -51,3 +51,7 @@ CHOSEN_ONE,name,Chosen One,Избрание,天选之人,L’Élu,Auserkoren
 CHOSEN_ONE,description,Satisfy God,Угоди Богу,满足神,Satisfaire dieu,Stelle Gott zufrieden
 FISHY,name,Fishy Business,Рыбные дела,鱼生意,Magnat du poisson,Fischmarkt
 FISHY,description,Hold 500 fish at once,Накопи 500 рыбы,同时持有500条鱼,Posséder 500 poissons,Besitze 500 Fische gleichzeitig
+LEVEL_20,name,Deep End,,,Abysse,Abgrundtief
+LEVEL_20,description,Reach level 20,,,Atteindre le niveau 20,Erreiche Level 20
+OPEN_WIDE,name,Open Wide,,,Ouvrez grand,"Mund Auf, Zunge Raus"
+OPEN_WIDE,description,Bring all the teeth to the Rift dentist,,,Apporter toutes les dents à la dentiste de la Faille,Bringe alle Zähne zur Riss-Zahnärztin

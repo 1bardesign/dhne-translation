@@ -5,13 +5,13 @@ gather_strings.lua:1		greed	girighet
 gather_strings.lua:1		CD	CD
 gather_strings.lua:1		xnx	xnx
 src/are_you_sure.lua:14 (+3 others)		Are you sure?	Är du säker?
-src/are_you_sure.lua:15 (+12 others)		yes	Ja
+src/are_you_sure.lua:15 (+12 others)		yes	ja
 src/are_you_sure.lua:17		really?	Verkligen?
-src/board_unlocks.lua:7		chill vibes	chill vibes
+src/board_unlocks.lua:7		chill vibes	skön stämning
 src/board_unlocks.lua:17		the real game begins	det riktiga spelet börjar
 src/board_unlocks.lua:27		something smells fishy	här ligger en fisk begraven
-src/boards/easy.lua:2		Shallows	Grund
-src/boards/easy.lua:3		Chill Vibes. Short run, extra bust limit.	Chill Vibes. Kort spelomgång, högre nitgräns.
+src/boards/easy.lua:2		Shallows	Långgrunt
+src/boards/easy.lua:3		Chill Vibes. Short run, extra bust limit.	Skön stämning. Kort spelomgång, högre nitgräns.
 src/boards/easy.lua:4		the friendliest pond around	den mest vänligaste dammen
 src/boards/fish_board.lua:2		The Bay	Bukten
 src/boards/fish_board.lua:3		Smells Fishy	Luktar Fisk
@@ -38,7 +38,7 @@ src/character_unlocks.lua:114		say aaaaaaaa	säg aaaaaaaa
 src/character_unlocks.lua:120		Plasticine	Modellera
 src/character_unlocks.lua:121		like putty in your hands\ncharacter customisation option	som lera i dina händer\nmöjlighet att anpassa karaktären
 src/character_unlocks.lua:134		Wagers	Slå vad
-src/character_unlocks.lua:135		wager ¤ to increase difficulty and reward	satsning ¤ höj svårighetsgraden och belöning
+src/character_unlocks.lua:135		wager ¤ to increase difficulty and reward	Satsa ¤ höj svårighetsgraden och belöning
 src/characters/anais.lua:2		Anais	Anais
 src/characters/anais.lua:38		Biblically Accurate	Bibliskt korrekt
 src/characters/anais.lua:56 (+10 others)		${count} levels til the end	${count} nivåer kvar till slutet
@@ -52,25 +52,25 @@ src/characters/anais.lua:98	dialogue	Be not afraid	Var ej rädd
 src/characters/business_fish.lua:2		Business Fish	Affärsfisk
 src/characters/business_fish.lua:33		Promotion	Befordring
 src/characters/business_fish.lua:40		Gains	Muskler
-src/characters/business_fish.lua:74 (+1 others)	dialogue	You're playing shallows?	Spelar du grund?
-src/characters/business_fish.lua:75 (+1 others)	dialogue	This ain't it	Detta är inte det
+src/characters/business_fish.lua:74 (+1 others)	dialogue	You're playing shallows?	Spelar du på Grundet?
+src/characters/business_fish.lua:75 (+1 others)	dialogue	This ain't it	Nä, det här duger inte
 src/characters/business_fish.lua:76 (+1 others)	dialogue	Take me into deep waters baby.	Ta mig till djupare vatten, älskling
 src/characters/business_fish.lua:78	dialogue	Tuff' day in fish business	Tuff dag i fiskbranschen
-src/characters/business_fish.lua:104	dialogue	Let's talk business	Låt oss prata affärer
+src/characters/business_fish.lua:104	dialogue	Let's talk business	Ska vi snacka affärer?
 src/characters/business_fish.lua:106		I'll revive you for $cost ¤ and $amount dues, payable later.	Jag återupplivar dig mot en avgift på $cost ¤ och $amount, som ska betalas senare.
 src/characters/business_fish.lua:113	dialogue	Bad investment	Dålig investering
-src/characters/business_fish.lua:125	dialogue	Pleasure doing business	Trevligt att göra affärer
+src/characters/business_fish.lua:125	dialogue	Pleasure doing business	Kul att göra affärer!
 src/characters/cool_fish.lua:2		Cool Fish	Häftig Fisk
-src/characters/cool_fish.lua:34		Good Ol' Herrington	Gamle gode Herrington
+src/characters/cool_fish.lua:34		Good Ol' Herrington	Gamle gode Sillingsson
 src/characters/cool_fish.lua:41		Winter Fit	Vinterform
 src/characters/cool_fish.lua:48		Ciggy	Cigg
 src/characters/cool_fish.lua:89	dialogue	Oh, this jacket?\nIt was 3000¥	Åh, den här jackan?\nDen kostade 3000¥
 src/characters/cool_fish.lua:90	dialogue	It's from Japan yeah	Den är från Japan, ja
 src/characters/cool_fish.lua:111	dialogue	Nice coins	Fina stålar
 src/characters/cool_fish.lua:113		I'll revive you for all your $yen ¥ and $cost ¤	Jag återupplivar dig för alla dina $yen ¥ och $cost ¤
-src/characters/cool_fish.lua:120	dialogue	Uncool	Ocool
+src/characters/cool_fish.lua:120	dialogue	Uncool	Inte schysst
 src/characters/cool_fish.lua:133	dialogue	Stay cool	Håll dig kall
-src/characters/dog.lua:2		Dog	Hund
+src/characters/dog.lua:2		Dog	Vovve
 src/characters/dog.lua:34		So Fancy	Så Tjusig
 src/characters/dog.lua:41		Stick	Pinne
 src/characters/god.lua:11	dialogue	unworthy	ovärdig
@@ -79,14 +79,14 @@ src/characters/god.lua:34	dialogue	begone	försvinn
 src/characters/god.lua:40		wager your soul	satsa din själ
 src/characters/god.lua:41		Wager your Soul?	Satsa din själ?
 src/characters/god.lua:42		You are wagering your soul.\nIf you lose, your save is gone forever.	Du satsar din själ.\nFörlorar du är din sparfil borta för alltid.
-src/characters/god.lua:51	dialogue	i hope you are feeling lucky	jag hoppas att du känner att turen är på din sida
+src/characters/god.lua:51	dialogue	i hope you are feeling lucky	jag hoppas att du har turen med dig
 src/characters/god.lua:70		but you have earned nothing	men du har inte tjänat ihop något
 src/characters/god.lua:72		but you need ${stars} ¤	men du behöver ${stars} ¤
-src/characters/god.lua:77		wager a gold ¤	satsa ett guld ¤
+src/characters/god.lua:77		wager a gold ¤	satsa en guld ¤
 src/characters/god.lua:79		wager ${stars} ¤	satsa ${stars} ¤
 src/characters/god.lua:81		wager all ${stars} ¤ and ${gold} gold ¤	satsa alla dina ${stars} ¤ och ${gold} guld ¤
 src/characters/god.lua:83		wager all ${stars} ¤	satsa alla dina ${stars} ¤
-src/characters/god.lua:85		wager all ${gold} gold ¤	satsa allt ditt ${gold} guld ¤
+src/characters/god.lua:85		wager all ${gold} gold ¤	satsa alla dina ${gold} guld ¤
 src/characters/god.lua:87		wager everything	satsa allt
 src/characters/god.lua:97	dialogue	you always were my bravest child	du har alltid varit mitt modigaste barn
 src/characters/god.lua:102		God?	Gud?
@@ -100,18 +100,18 @@ src/characters/god.lua:296		give me everything	ge mig allt
 src/characters/god.lua:298		do you have what it takes?	har du vad som krävs?
 src/characters/god.lua:302		you are never getting out of here	du kommer aldrig härifrån
 src/characters/god.lua:349		i always believed in you	jag har alltid trott på dig
-src/characters/guy.lua:2		Guy	Guy
+src/characters/guy.lua:2		Guy	Snubbe
 src/characters/guy.lua:46		Eye Wide Open	Vidöppet öga
 src/characters/guy.lua:53		Lil Bro	Lillebror
 src/characters/guy.lua:85	dialogue	Reach level 7 to break free!	Nå nivå 7 för att slå dig fri!
 src/characters/guy.lua:87	dialogue	Reach level 10 to break free!	Nå nivå 10 för att slå dig fri!
-src/characters/guy.lua:115	dialogue	Keep riding?	Rida vidare?
+src/characters/guy.lua:115	dialogue	Keep riding?	Fortsätt rida?
 src/characters/guy.lua:117	dialogue	I'll revive you for $cost ¤ and one passive item	Jag återupplivar dig för $cost ¤ och ett passivt föremål
 src/characters/guy.lua:123	dialogue	Live your truth	Lev din sanning
 src/characters/guy.lua:136	dialogue	Ride on	Nu kör vi
 src/characters/hotdog.lua:2		Hot Dawg	Hot Dawg
 src/characters/hotdog.lua:53		Jalapeno	Jalapeño
-src/characters/hotdog.lua:95	dialogue	Hungry for more?	Hungrig för mer?
+src/characters/hotdog.lua:95	dialogue	Hungry for more?	Hungrig på mer?
 src/characters/hotdog.lua:97		I'll revive you for $cost ¤ and a bad tooth	Jag återupplivar dig för $cost ¤ och en dålig tand
 src/characters/hotdog.lua:103	dialogue	More for me	Mer åt mig
 src/characters/hotdog.lua:114	dialogue	Chew carefully	Tugga försiktigt
@@ -127,12 +127,12 @@ src/characters/liz.lua:2 (+1 others)		Liz	Liz
 src/characters/liz.lua:30		Off Duty	Ledig
 src/characters/liz.lua:37		Halo	Gloria
 src/characters/liz.lua:77	dialogue	Hey, my love	Hej, älskling
-src/characters/liz.lua:78	dialogue	Remember, ${count} levels and you're out of here!	Kom ihåg, ${count} nivåer så slupper du härifrån!
+src/characters/liz.lua:78	dialogue	Remember, ${count} levels and you're out of here!	Kom ihåg, ${count} nivåer så slipper du härifrån!
 src/characters/liz.lua:89	dialogue	Ah well	Nåja
 src/characters/liz.lua:90	dialogue	You'll get it next time!	Du klarar det nästa gång!
 src/characters/liz.lua:120	dialogue	...Want to keep going?	..vill du fortsätta?
 src/characters/liz.lua:122	dialogue	I'll revive you for $cost ¤ and one die	Jag återupplivar dig för $cost ¤ och en tärning
-src/characters/liz.lua:128	dialogue	Your loss :)	Din förlust :)
+src/characters/liz.lua:128	dialogue	Your loss :)	Skyll dig själv :)
 src/characters/liz.lua:141	dialogue	Hope it's worth it!	Hoppas det är värt det!
 src/characters/mushroom.lua:2		Srop M.	Srop M.
 src/characters/saimi.lua:2		Saimi	Saimi
@@ -159,20 +159,20 @@ src/characters/tutorial_character.lua:52	dialogue	... Either way, you won't reme
 src/characters/tutorial_character.lua:53	dialogue	Now let's play.\nRoll the dice.	Nu spelar vi.\nKasta tärningarna.
 src/characters/tutorial_character.lua:70	dialogue	Good. You gained some points.	Bra. Du fick några poäng.
 src/characters/tutorial_character.lua:71	dialogue	They're not safe until you BANK them.	Du måste SÄKRA dem för att få behålla dem.
-src/characters/tutorial_character.lua:72	dialogue	You have ${TURNS} Turns to reach your goal.\nBANKing ends your Turn.	Du har ${TURNS} rundor på dig att nå målet.\nAtt SÄKRA poängen avslutar din runda.
-src/characters/tutorial_character.lua:76	dialogue	Bigger combos give you exponentially bigger rewards.	Större kombinationer ger exponentiellt större belöningar.
-src/characters/tutorial_character.lua:80		<- See what combos are available up here	<- Här uppe ser du vilka kombinationer som finns
+src/characters/tutorial_character.lua:72	dialogue	You have ${TURNS} Turns to reach your goal.\nBANKing ends your Turn.	Du har ${TURNS} rundor på dig att \nnå målet. Att SÄKRA poängen avslutar din runda.
+src/characters/tutorial_character.lua:76	dialogue	Bigger combos give you exponentially bigger rewards.	Större kombos ger exponentiellt större belöningar.
+src/characters/tutorial_character.lua:80		<- See what combos are available up here	<- Här uppe ser du vilka kombon som finns
 src/characters/tutorial_character.lua:94	dialogue	Roll blank dice and keep going!	Kasta om blanka tärningar och fortsätt!
-src/characters/tutorial_character.lua:106	dialogue	Oh also, you can hold and drag Left Click to box select	Just det, du kan också hålla nere vänster musknapp och dra för att markera flera
-src/characters/tutorial_character.lua:118	dialogue	Each time you Score more Combos in a Turn, you gain Momentum	Varje gång du tar poäng för fler kombinationer under en runda får du mer flyt
-src/characters/tutorial_character.lua:119	dialogue	Momentum gives you extra Points and Mult on your next Score	Flyt ger dig extra poäng och multiplikator nästa gång du tar poäng
+src/characters/tutorial_character.lua:106	dialogue	Oh also, you can hold and drag Left Click to box select	Just det, du kan också hålla ner vänster musknapp och dra för att markera flera
+src/characters/tutorial_character.lua:118	dialogue	Each time you Score more Combos in a Turn, you gain Momentum	Varje gång du tar poäng för fler kombon under en runda får du mer flyt
+src/characters/tutorial_character.lua:119	dialogue	Momentum gives you extra Points and Mult on your next Score	Flyt ger dig extra poäng och multipliceras nästa gång du tar poäng
 src/characters/tutorial_character.lua:120	dialogue	Your momentum is reset to zero at the start of each Turn.	Ditt flyt nollställs i början av varje runda.
 src/characters/tutorial_character.lua:130	dialogue	You've hit the target!	Du har nått målet!
 src/characters/tutorial_character.lua:131	dialogue	BANK your Points to complete the level.	SÄKRA dina poäng för att klara nivån
 src/characters/tutorial_character.lua:141	dialogue	You made it through the first level!	Du klarade första nivån!
-src/characters/tutorial_character.lua:142	dialogue	Between levels, you'll visit The Shop, buy Trinkets, Snacks and Spells.\nAll the fun stuff.	Mellan nivåerna besöker du butiken och köper krimskrams, snacks och trollformler.\nAllt det roliga.
-src/characters/tutorial_character.lua:159		combo	kombination
-src/characters/tutorial_character.lua:160	dialogue	That's a ${combo_label}!	Det är en ${combo_label}!
+src/characters/tutorial_character.lua:142	dialogue	Between levels, you'll visit The Shop, buy Trinkets, Snacks and Spells.\nAll the fun stuff.	Mellan nivåerna besöker du butiken och köper krimskrams, snacks och magier.\n\nAllt det roliga.
+src/characters/tutorial_character.lua:159		combo	kombo
+src/characters/tutorial_character.lua:160	dialogue	That's a ${combo_label}!	Det blev ${combo_label}!
 src/characters/tutorial_character.lua:161	dialogue	Select and score it!	Markera den och ta poängen!
 src/characters/tutorial_character.lua:173	dialogue	Nice, those Points are safe now.	Snyggt, nu är de poängen säkrade.
 src/characters/tutorial_character.lua:174	dialogue	BANK refilled your Bust meter.	När du SÄKRADE poängen fylldes din nitmätare på.
@@ -180,10 +180,10 @@ src/characters/tutorial_character.lua:177	dialogue	You have $TURNS BANKS left, s
 src/characters/tutorial_character.lua:190	dialogue	Red sides are BUST! If you roll too many, you will WIPE!	Röda sidor är NITAR! Slår du för många blir det BOM!
 src/characters/tutorial_character.lua:196		<- BUST meter here	<- Nitmätare här
 src/characters/tutorial_character.lua:210	dialogue	One more BUST and you'll WIPE!	En NIT till så blir det BOM!
-src/characters/tutorial_character.lua:211	dialogue	Consider BANKing your points now to keep them safe.	Överväg att SÄKRA dina poäng nu för att behålla dem.
+src/characters/tutorial_character.lua:211	dialogue	Consider BANKing your points now to keep them safe.	Du kanske ska SÄKRA poängen nu?
 src/characters/tutorial_character.lua:223	dialogue	Now that you accumulated some points try banking!	Nu när du har samlat ihop lite poäng kan du prova att säkra dem!
 src/characters/tutorial_character.lua:224	dialogue	Each time you BANK, you use up a Turn.	Varje gång du SÄKRAR poängen förbrukar du en runda.
-src/characters/tutorial_character.lua:225	dialogue	When you run out of Turns, the game ends.	När rundonrna tar slut är spelet över.
+src/characters/tutorial_character.lua:225	dialogue	When you run out of Turns, the game ends.	När rundorna tar slut är spelet över.
 src/characters/tutorial_character.lua:229		See turns left here ->	Här ser du hur många rundor du har kvar ->
 src/characters/tutorial_character.lua:235		<- Click here to bank	<- Klicka här för att säkra poängen
 src/characters/tutorial_character.lua:246	dialogue	You rolled too many BUSTs!	Du slog för många NITAR!
@@ -193,11 +193,11 @@ src/characters/tutorial_character.lua:251	dialogue	Next time you should BANK bef
 src/characters/tutorial_character.lua:264	dialogue	Ah. Yeah...	Ah, ja...
 src/characters/tutorial_character.lua:265	dialogue	Instant WIPE	Direkt BOM
 src/characters/tutorial_character.lua:266	dialogue	When ALL DICE you rolled roll BUST, your Turn is over straight away.	När ALLA TÄRNINGAR i ett kast visar NIT är din runda slut direkt
-src/characters/tutorial_character.lua:267	dialogue	Rolling a single die makes that very likely, but it can happen with any roll!	Det är väldigt sannolikt om du bara kastar en tärning, me det kan hända i vilket kast som helst!
+src/characters/tutorial_character.lua:267	dialogue	Rolling a single die makes that very likely, but it can happen with any roll!	Det är väldigt sannolikt om du bara kastar en tärning, men det kan hända i vilket kast som helst!
 src/characters/tutorial_character.lua:280	dialogue	This is your last turn.	Det här är din sista runda.
 src/characters/tutorial_character.lua:281	dialogue	You have to go all in now, no point in BANKing early.	Nu måste du satsa allt, det är ingen idé att SÄKRA poängen tidigt.
 src/characters/tutorial_character.lua:282	dialogue	You can still do it!	Du kan fortfarande klara det!
-src/characters/tutorial_character.lua:292	dialogue	Well, you failed the tutorial.	Jaha, du misslyckades med introduktionen.
+src/characters/tutorial_character.lua:292	dialogue	Well, you failed the tutorial.	Jaha, du misslyckades med genomgången.
 src/characters/tutorial_character.lua:293	dialogue	I'll bring you back this time.	Jag återupplivar dig den här gången.
 src/characters/tutorial_character.lua:297	dialogue	Be better.	Bättre kan du.
 src/characters/tutorial_character.lua:306	dialogue	Welp.	Jahapp.
@@ -243,10 +243,10 @@ src/coloured_text.lua:95 (+12 others)		stuck	låst
 src/coloured_text.lua:98 (+2 others)		empty	tom
 src/display_loc.lua:3		Normal	Normal
 src/display_loc.lua:4		Pixel	Pixel
-src/endings/alley.lua:28	dialogue	very well	
-src/endings/alley.lua:29	dialogue	next time bring me all the teeth	
-src/endings/alley.lua:64		knock	
-src/endings/alley.lua:135	dialogue	i'll be waiting in your guts	
+src/endings/alley.lua:28	dialogue	very well	nåväl
+src/endings/alley.lua:29	dialogue	next time bring me all the teeth	nästa gång tar du med dig alla tänder
+src/endings/alley.lua:64		knock	knack
+src/endings/alley.lua:135	dialogue	i'll be waiting in your guts	jag väntar i dina inälvor
 src/endings/anais.lua:124	dialogue	don't leave again	lämna mig inte igen
 src/endings/anais.lua:125	dialogue	you're safe here	du är trygg här
 src/endings/anais.lua:126	dialogue	with me	hos mig
@@ -257,8 +257,8 @@ src/endings/cool_fish.lua:29		lets hit that shit	låt oss slå skiten
 src/endings/cool_fish.lua:132	dialogue	you are cool	du är cool
 src/endings/cool_fish.lua:133	dialogue	but i am god	men jag är gud
 src/endings/cool_fish.lua:134	dialogue	believe in me	tro på mig
-src/endings/dog.lua:67		throw that shit	kasta skiten
-src/endings/dog.lua:129	dialogue	what a good boy	vilken duktig pojke
+src/endings/dog.lua:67		throw that shit	kasta fanskapet
+src/endings/dog.lua:129	dialogue	what a good boy	vilken duktig vovve
 src/endings/dog.lua:130	dialogue	i am neither good nor bad	jag är varken god eller ond
 src/endings/god.lua:155	dialogue	it was very brave of you to come back	det var väldigt modigt av dig att komma tillbaka
 src/endings/god.lua:156	dialogue	again	igen
@@ -267,42 +267,42 @@ src/endings/god.lua:158	dialogue	and i am god	och jag är gud
 src/endings/guy.lua:158	dialogue	have you looked into a mirror recently?	har du tittat dig i spegeln på sistone?
 src/endings/guy.lua:159	dialogue	what do you see?	vad ser du?
 src/endings/guy.lua:160	dialogue	i see my bravest child	jag ser mitt modigaste barn
-src/endings/hotdog.lua:35		eat that shit	ät den där skiten
-src/endings/hotdog.lua:59	dialogue	you are a weird one	du är en underlig en
+src/endings/hotdog.lua:35		eat that shit	ät fanskapet
+src/endings/hotdog.lua:59	dialogue	you are a weird one	du är en skum typ
 src/endings/hotdog.lua:60	dialogue	i am the opposite	jag är motsatsen
 src/endings/king_fetus.lua:52		nope nope nope	nä nä nä
 src/endings/king_fetus.lua:147	dialogue	don't go again	gå inte igen
 src/endings/king_fetus.lua:148	dialogue	you're so young	du är så ung
 src/endings/king_fetus.lua:149	dialogue	don't face the world	möt inte världen
 src/endings/king_fetus.lua:150	dialogue	stay here	stanna här
-src/endings/liz.lua:33		hit that mochi?	ska vi ta den där mochin?
+src/endings/liz.lua:33		hit that mochi?	ät mochin?
 src/endings/liz.lua:175	dialogue	how did you do?	hur gick det?
 src/endings/liz.lua:176	dialogue	in the test, i mean	på provet, alltså
-src/endings/liz.lua:177	dialogue	we all pass\nin one way or another	vi går alla vidare\npå ett eller annat sätt
+src/endings/liz.lua:177	dialogue	we all pass\nin one way or another	vi blir alla godkända \npå ett eller annat sätt
 src/endings/liz.lua:178	dialogue	eventually	förr eller senare
 src/endings/marooned.lua:75	dialogue	i am your salvation	jag är din frälsning
 src/endings/marooned.lua:76	dialogue	you are not drowning	du håller inte på att drunkna
-src/endings/party.lua:130	dialogue	You finished the Shallows!	Du klarade Grundet!
-src/endings/party.lua:131	dialogue	Unlock the next Depth from Star Guts for a bigger challenge.	Lås upp nästa djup hos Star Guts för en större utmaning.
+src/endings/party.lua:130	dialogue	You finished the Shallows!	Du klarade Långgrundet!
+src/endings/party.lua:131	dialogue	Unlock the next Depth from Star Guts for a bigger challenge.	Lås upp nästa djup hos Stjärntarmarna för en större utmaning.
 src/endings/shirin.lua:136	dialogue	welcome back	välkommen tillbaka
 src/endings/shirin.lua:137	dialogue	so you believe	så du tror
 src/endings/shirin.lua:138	dialogue	i am here	jag är här
-src/endings/tooth_fairy.lua:36		hit the guts	
+src/endings/tooth_fairy.lua:36		hit the guts	slå tarmarna
 src/endings/tooth_fairy.lua:105	dialogue	hello friend	hej, vännen
 src/endings/tooth_fairy.lua:106	dialogue	any good finds?	några bra fynd?
-src/endings/wizard.lua:49		ponder that orb	begrunda det där klotet
+src/endings/wizard.lua:49		ponder that orb	begrunda klotet
 src/endings/wizard.lua:141	dialogue	keep playing with me	fortsätt spela med mig
 src/endings/wizard.lua:142	dialogue	and you will see	så ska du få se
 src/endings/wizard.lua:143	dialogue	one day you will not get out	en dag kommer du inte ut
 src/endings/wizard.lua:144	dialogue	you are nothing	du är ingenting
-src/endings/wizard.lua:145	dialogue	your spells suck	dina trollformler suger
+src/endings/wizard.lua:145	dialogue	your spells suck	din magi suger
 src/endings/wizard.lua:146	dialogue	your hat stinks	din hatt stinker
-src/entities/buttons_clump.lua:128		Scoring adds points and clears all dice in the combo	Att ta poäng ger dig poäng och tar bort alla tärningar i kombinationen
+src/entities/buttons_clump.lua:128		Scoring adds points and clears all dice in the combo	Att ta poäng ger dig poäng och tar bort alla tärningar i kombon
 src/entities/buttons_clump.lua:130		Select All	Markera alla
 src/entities/buttons_clump.lua:131		Select your dice to score them or roll them	Markera dina tärningar för att ta poäng eller kasta dem
 src/entities/buttons_clump.lua:133		Deselect	Avmarkera
 src/entities/buttons_clump.lua:134		Deselect everything to make a new selection	Avmarkera allt för att göra en ny markering
-src/entities/buttons_clump.lua:257		Roll just the selected dice	Kata bara de markerade tärningarna
+src/entities/buttons_clump.lua:257		Roll just the selected dice	Kasta bara de markerade tärningarna
 src/entities/buttons_clump.lua:259		Roll Blank	Kasta blanka
 src/entities/buttons_clump.lua:260		Roll all blank dice	Kasta alla blanka tärningar
 src/entities/buttons_clump.lua:262		Roll All	Kasta Alla
@@ -344,30 +344,30 @@ src/entities/die_baby.lua:7		Old Baby	Gammal bebis
 src/entities/die_baby.lua:13		Scores x	Poängräkning x
 src/entities/dupe_baby.lua:7		Dupe Baby	Dubbelbebis
 src/entities/dupe_baby.lua:59		Duplicated!	Duplicerad!
-src/entities/encounter_timeline.lua:136		Goal Reached	Målet nått
-src/entities/encounter_timeline.lua:437		GOAL REACHED	MÅLET NÅTT
+src/entities/encounter_timeline.lua:136		Goal Reached	Målet uppnått
+src/entities/encounter_timeline.lua:437		GOAL REACHED	MÅLET UPPNÅTT
 src/entities/encounter_timeline.lua:438		${to_go} TO GO	${to_go} KVAR
 src/entities/eye_baby.lua:7		Eye Baby	Ögonbebis
 src/entities/fish_spawner.lua:215		Cool Fish Available	Cool fisk finns
 src/entities/god_shop.lua:68		CHOOSE	VÄLJ
 src/entities/god_shop.lua:499		reroll %d ¤	kasta om för %d ¤
 src/entities/item.lua:498		Tooth ${count}/${limit}	Tand ${count}/${limit}
-src/entities/item.lua:508		a to use spells	a för att använda trollformler
-src/entities/item.lua:510		right click to use spells	högerklicka för att använda trollformler
+src/entities/item.lua:508		a to use spells	a för att använda magi
+src/entities/item.lua:510		right click to use spells	högerklicka för att använda magi
 src/entities/item.lua:513		drag snacks over rolled dice	dra snacks över kastade tärningar
 src/entities/power_ui.lua:97	ui	Use	Använd
 src/entities/power_ui.lua:130	ui	Power recharges each turn\nSelect a die with Left Click then press this button to use it	Kraft laddas varje runda\nMarkera en tärning med vänsterklick och tryck sedan på den här knappen för att använda kraften
 src/entities/shop.lua:82		TAB: ${total} ¥	NOTA: ${total} ¥
 src/entities/shop.lua:107		Dice $count/$limit	Tärningar $count/$limit
 src/entities/shop.lua:136		Trinkets $count/$limit	Krimskrams $count/$limit
-src/entities/shop.lua:165		Actives $count/$limit	Aktiva föremål $count/$limit
-src/entities/shop.lua:1283		cant sell eternal	kan inte sälja eviga föremål
-src/entities/shop.lua:1295		sell cursed	sälj förhäxade föremål
+src/entities/shop.lua:165		Actives $count/$limit	Aktiva $count/$limit
+src/entities/shop.lua:1283		cant sell eternal	kan inte sälja eviga grejer
+src/entities/shop.lua:1295		sell cursed	sälj förhäxad
 src/entities/shop.lua:1307		too many dice	för många tärningar
 src/entities/shop.lua:1319		too many trinkets	för mycket krimskrams
 src/entities/shop.lua:1333		pay up	betala
 src/entities/shop.lua:1333		take change	ta växeln
-src/entities/shop.lua:1405		bye	hej då
+src/entities/shop.lua:1405		bye	Hej svejs
 src/entities/shop.lua:1453		Reroll - ${current_cost}¥	Kasta om - ${current_cost}¥
 src/entities/tape.lua:453		- web	- webb
 src/entities/title_text.lua:3		DICE HAVE\nNO EYES	TÄRNINGAR HAR\nINGA ÖGON
@@ -394,27 +394,27 @@ src/haunt.lua:35		call your friends	ring dina vänner
 src/haunt.lua:36		no no no no no	nej nej nej nej nej
 src/haunt.lua:37		why are you here	varför är du här
 src/haunt.lua:38		please wake up	snälla, vakna
-src/item_unlocks.lua:6		Basic Spells	Grundläggande trollformler
+src/item_unlocks.lua:6		Basic Spells	Enkel Magi
 src/item_unlocks.lua:7		beginner magic	nybörjarmagi
-src/item_unlocks.lua:15		Basic Passives	Grundläggande passiva effekter
+src/item_unlocks.lua:15		Basic Passives	Enkla Passiva \neffekter
 src/item_unlocks.lua:16		situational benefits	fördelar i rätt läge
-src/item_unlocks.lua:24		Basic Combos	Grundläggande kombinationer
+src/item_unlocks.lua:24		Basic Combos	Enkla Kombon
 src/item_unlocks.lua:25		upgrade your faves	uppgradera dina favoriter
-src/item_unlocks.lua:33		Basic Snacks	Grundläggande snacks
+src/item_unlocks.lua:33		Basic Snacks	Enkla Snacks
 src/item_unlocks.lua:34		tasty treats for hungry dice	läckerheter för hungriga tärningar
-src/item_unlocks.lua:42		Basic Quests	Grundläggande uppdrag
+src/item_unlocks.lua:42		Basic Quests	Enkla Uppdrag
 src/item_unlocks.lua:53		Parenting	Föräldraskap
 src/item_unlocks.lua:54		life comes at you fast	livet går undan
 src/item_unlocks.lua:61		Hold	Håll
 src/item_unlocks.lua:62		HOLD!!!	HÅLL!!!
 src/item_unlocks.lua:72		Numerology	Numerologi
 src/item_unlocks.lua:73		special numbers are special	speciella tal är speciella
-src/item_unlocks.lua:81		More Spells	Fler trollformler
+src/item_unlocks.lua:81		More Spells	Fler magier
 src/item_unlocks.lua:82		advanced magic	avancerad magi
 src/item_unlocks.lua:90		More Snacks	Fler snacks
 src/item_unlocks.lua:91		get some variety in your diet	lite variation i kosten
 src/item_unlocks.lua:100		Diet Culture	Dietkultur
-src/item_unlocks.lua:101		its real bad for you	riktigt dåligt för dig
+src/item_unlocks.lua:101		its real bad for you	det är riktigt dåligt för dig
 src/item_unlocks.lua:108		All In	Allt in
 src/item_unlocks.lua:109		for when youve got nothing to lose	när du inte har något att förlora
 src/item_unlocks.lua:118		Lover	Älskare
@@ -422,25 +422,25 @@ src/item_unlocks.lua:119		everything to do with pairs	allt som har med par att g
 src/item_unlocks.lua:127		Multipliers	Multiplikatorer
 src/item_unlocks.lua:128		make number go bigger	gör siffra större
 src/item_unlocks.lua:136		Maximalist	Maximalist
-src/item_unlocks.lua:137		more dice more better	fler tärningar mer bättre
+src/item_unlocks.lua:137		more dice more better	ju fler tärningar desto bättre
 src/item_unlocks.lua:145		Self Control	Självkontroll
 src/item_unlocks.lua:146		as if	jo tjena
 src/item_unlocks.lua:154		Pain	Smärta
 src/item_unlocks.lua:155		it hurts but in a good way	det gör ont men på ett skönt sätt
-src/item_unlocks.lua:164 (+1 others)		Comeback	Comeback
+src/item_unlocks.lua:164 (+1 others)		Comeback	Återkomst
 src/item_unlocks.lua:165		you've still got plenty left	du har fortfarande mycket kvar att ge
 src/item_unlocks.lua:174		Momentum	Flyt
-src/item_unlocks.lua:175		chain combos forever	kedje kombinationer i all oändlighet
+src/item_unlocks.lua:175		chain combos forever	kedje kombon i all oändlighet
 src/item_unlocks.lua:183		Workaholic	Arbetsnarkoman
 src/item_unlocks.lua:184		put your power back to work	sätt din kraft i arbete igen
 src/item_unlocks.lua:193		Mind Expansion	Vidgade vyer
-src/item_unlocks.lua:194		gigabrained complicated nonsense	storhjärnat komplicerat trams
+src/item_unlocks.lua:194		gigabrained complicated nonsense	genialiskt trillkrånglat trams
 src/item_unlocks.lua:203		Actualisation	Självförverkligande
 src/item_unlocks.lua:204		get actualised	förverkliga dig själv
 src/item_unlocks.lua:212		Rich Man	Rikeman
 src/item_unlocks.lua:213		money money money	stålar stålar stålar
 src/item_unlocks.lua:222		Degenerate	Urspårad
-src/item_unlocks.lua:223		as luck would have it	som turen vill
+src/item_unlocks.lua:223		as luck would have it	Typiskt nog
 src/item_unlocks.lua:232		Biscuit	Kex
 src/item_unlocks.lua:233		worth risking it for	värt att ta risken för
 src/item_unlocks.lua:241		Send It	Fullt ös
@@ -453,7 +453,7 @@ src/item_unlocks.lua:271		Slow N Steady	Sakta men säkert
 src/item_unlocks.lua:272		gets you nowhere	kommer du ingenstans
 src/item_unlocks.lua:280		Patience	Tålamod
 src/item_unlocks.lua:281		a virtue	en dygd
-src/item_unlocks.lua:290		Straights	Straights
+src/item_unlocks.lua:290		Straights	Stegar
 src/item_unlocks.lua:291		they're at it again	nu är de i farten igen
 src/item_unlocks.lua:299		Dumplings	Dumplings
 src/item_unlocks.lua:300		yum yum in my tum	mums mums i magen
@@ -462,12 +462,12 @@ src/item_unlocks.lua:309		get greedy	bli girig
 src/item_unlocks.lua:319		Numeracy	Siffersinne
 src/item_unlocks.lua:320		make the numbers behave	få siffrorna att sköta sig
 src/item_unlocks.lua:333		Shop Expansion	Större butik
-src/item_unlocks.lua:334		more items more good	fler grejer mer bra
+src/item_unlocks.lua:334		more items more good	ju fler grejer desto bättre
 src/item_unlocks.lua:343		Mega Shop	Megabutik
 src/item_unlocks.lua:344		more items more items more items	fler grejer fler grejer fler grejer
 src/item_unlocks.lua:355		More Funky Dice	Fler skojiga tärningar
 src/item_unlocks.lua:356		Special Side Effects in shops!\nMult, Debust, Power and Cracked	Speciella sidoeffekter i butikerna!\nMult, Avnita, Kraft och Sprucken
-src/item_unlocks.lua:365		Even More Dice	Ännu fler tärningar
+src/item_unlocks.lua:365		Even More Dice	Ännu fler \ntärningar
 src/item_unlocks.lua:366		Special Side Effects in shops!\nSkip, Mirror, Hardy and Doom	Speciella sidoeffekter i butikerna!\nHoppa över, Spegel, Tålig och Undergång
 src/item_unlocks.lua:377		Fish Trinkets	Fiskkrimskrams
 src/item_unlocks.lua:378		from the sea	från havet
@@ -478,7 +478,7 @@ src/item_unlocks.lua:396		ban item sets from your runs	bannlys föremålsgrupper
 src/item_unlocks.lua:408 (+1 others)		Scoreboards	Topplistor
 src/item_unlocks.lua:409 (+1 others)		be the goat	bli bäst genom tiderna
 src/items.lua:22		Something fell from the sky	Någonting föll från skyn
-src/items.lua:48		Power Limit Up	Kraft 
+src/items.lua:48		Power Limit Up	Höjd kraftgräns
 src/items.lua:51		Power Limit +1	Kraftgräns +1
 src/items.lua:62		Power Limit +1!	Kraftgräns +1!
 src/items.lua:67		Trinket Limit Up	Höjd krimskramsgräns
@@ -531,7 +531,7 @@ src/items.lua:507		No luck	Ingen tur
 src/items.lua:513		Scratchie III	Skraplott III
 src/items.lua:516		Gain 1-4¥	Få 1-4¥
 src/items.lua:540		Copycat	Härmapa
-src/items.lua:543		Repeat the last spell used	Upprepa den senast använda trollformeln
+src/items.lua:543		Repeat the last spell used	Upprepa den senast använda magin
 src/items.lua:553 (+1 others)		Nothing to copy!	Inget att kopiera!
 src/items.lua:556 (+1 others)		Copy!	Kopiera!
 src/items.lua:562		Copybigdog	Kopierastorhund
@@ -689,15 +689,15 @@ src/items.lua:1994		Zero Bust Turbo	Nitfri turbo
 src/items.lua:1997		Banking with no Busts starts next turn with 10 Momentum	Säkrar du poängen utan nitar börjar nästa runda med 10 flyt
 src/items.lua:2012		10 momentum!	10 flyt!
 src/items.lua:2019		Mushieltador	Mushieltador
-src/items.lua:2022		Gain a Bust Shield when banking if your last combo was any Straight	Få en nitsköld när du säkrar poängen om din senaste kombination var en stege
+src/items.lua:2022		Gain a Bust Shield when banking if your last combo was any Straight	Få en nitsköld när du säkrar poängen om din senaste kombo var en stege
 src/items.lua:2048		Survival Instinct	Överlevnadsinstinkt
 src/items.lua:2051		x2 Mult on 1 turn left	x2 multi med 1 runda kvar
 src/items.lua:2082		Mandarin Peel	Mandarinskal
-src/items.lua:2085		+5 Mult for your first scored combo each turn	+5 multi för din första poänggivande kombination varje runda
+src/items.lua:2085		+5 Mult for your first scored combo each turn	+5 multi för din första poänggivande kombo varje runda
 src/items.lua:2106		Octopus Ting	Bläckfiskgrej
-src/items.lua:2109		x3 Mult for your first scored combo each level	x3 multi för din första poänggivande kombination varje nivå
+src/items.lua:2109		x3 Mult for your first scored combo each level	x3 multi för din första poänggivande kombo varje nivå
 src/items.lua:2134		Four Legged Star	Fyrbent stjärna
-src/items.lua:2137		+300 Points for a combo containing Four Of A Kind	+300 poäng för en kombination som innehåller fyrtal
+src/items.lua:2137		+300 Points for a combo containing Four Of A Kind	+300 poäng för en kombo som innehåller fyrtal
 src/items.lua:2155		Minnesota Fats	Minnesota Fats
 src/items.lua:2158		+200 Points for any Straight	+200 poäng för en stege
 src/items.lua:2171		Bimber	Hembränt
@@ -705,7 +705,7 @@ src/items.lua:2174		+200 Points for a Full House	+200 poäng för en kåk
 src/items.lua:2188		Kind Berry Three	Snällt bärtrio
 src/items.lua:2191		+200 Points for Three Of A Kind	+200 poäng för triss
 src/items.lua:2205		Two Pair Cat	Tvåparskatt
-src/items.lua:2208		+200 Points for a combo containing Two Pair	+200 poäng för en kombination som innehåller tvåpar
+src/items.lua:2208		+200 Points for a combo containing Two Pair	+200 poäng för en kombo som innehåller tvåpar
 src/items.lua:2222		Just A Pair	Bara ett par
 src/items.lua:2225		+100 Points for a Pair	+100 poäng för ett par
 src/items.lua:2243		Fifteen Sum	Femtonsumma
@@ -715,7 +715,7 @@ src/items.lua:2269		x2 Mult if the scored dice sum to 10	x2 multi om de poänggi
 src/items.lua:2288		Lil' Choy	Lilla Choy
 src/items.lua:2291		x2 Mult when scoring 3 or fewer dice	x2 multi när du tar poäng med högst 3 tärningar
 src/items.lua:2309		Toad Hut	Paddhydda
-src/items.lua:2312		x2 Mult for a combo containing Four Of A Kind	x2 multi för en kombination som innehåller fyrtal
+src/items.lua:2312		x2 Mult for a combo containing Four Of A Kind	x2 multi för en kombo som innehåller fyrtal
 src/items.lua:2333		Pink Top	Rosa topp
 src/items.lua:2336		x2 Mult for any Straight	x2 multi för en stege
 src/items.lua:2351		Absinthe	Absint
@@ -723,11 +723,11 @@ src/items.lua:2354		x2 Mult for a Full House	x2 multi för en kåk
 src/items.lua:2369		Three Legged Pirate	Trebent pirat
 src/items.lua:2372		x2 Mult for Three Of A Kind	x2 multi för triss
 src/items.lua:2388		Two Pair Fat Cat	Fet tvåparskatt
-src/items.lua:2391		x1.5 Mult for a combo containing Two Pair	x1.5 multi för en kombination som innehåller tvåpar
+src/items.lua:2391		x1.5 Mult for a combo containing Two Pair	x1.5 multi för en kombo som innehåller tvåpar
 src/items.lua:2407		Pair Mult Dog	Parmultihund
-src/items.lua:2410		x1.5 Mult for Pair, Two Pair and Three Pair	x1.5 multi för par, tvåpar och tre par
+src/items.lua:2410		x1.5 Mult for Pair, Two Pair and Three Pair	x1.5 multi för par, tvåpar och trepar
 src/items.lua:2427		Poppy	Vallmo
-src/items.lua:2430		x2 Mult for a combo containing three 6s	x2 multi för en kombination som innehåller tre 6:or
+src/items.lua:2430		x2 Mult for a combo containing three 6s	x2 multi för en kombo som innehåller tre 6:or
 src/items.lua:2446		Sunnies	Solbrillor
 src/items.lua:2449		+0.5x Mult for each scored 2	+0.5x multi per poänggivande 2:a
 src/items.lua:2467		Cactus	Kaktus
@@ -745,7 +745,7 @@ src/items.lua:2562		+${amount} pts	+${amount} poäng
 src/items.lua:2571		Snake Hold	Ormgrepp
 src/items.lua:2574		Snake Eyes hold score	Ormögon behåller poängresultatet
 src/items.lua:2591		The Mask	Masken
-src/items.lua:2594		Combos with 6s hold score	Kombinationer med 6:or behåller poängresultatet
+src/items.lua:2594		Combos with 6s hold score	kombos med 6:or behåller poängresultatet
 src/items.lua:2612		Black Eye	Blåöga
 src/items.lua:2615		Spawn a Black Eyed Pea on Bust	Skapa en svartögd böna vid nit
 src/items.lua:2623		Pea!	Böna!
@@ -774,9 +774,9 @@ src/items.lua:2817		+3 Mult for Three Of A Kind	+3 multi för triss
 src/items.lua:2830		Two Pair Mult Cat	Tvåparsmultikatt
 src/items.lua:2833		+4 Mult for Two Pair	+4 multi för tvåpar
 src/items.lua:2846		Pair Cat	Parkatt
-src/items.lua:2849		+2 Mult for Pair, Two Pair and Three Pair	+2 multi för par, tvåpar och tre par
+src/items.lua:2849		+2 Mult for Pair, Two Pair and Three Pair	+2 multi för par, tvåpar och trepar
 src/items.lua:2866		Threes Gobber	Trissglufsare
-src/items.lua:2869		+100 Points for a combo containing Three Of A Kind	+100 poäng för en kombination som innehåller triss
+src/items.lua:2869		+100 Points for a combo containing Three Of A Kind	+100 poäng för en kombo som innehåller triss
 src/items.lua:2902		Gay Moth	Gaymal
 src/items.lua:2905		+60 Points for rerolling a 6	+60 poäng när du kastar om en 6:a
 src/items.lua:2924		Mini Goob	Minigoob
@@ -836,13 +836,13 @@ src/items.lua:3508		Each Bonus side scored gives +3 Mult	Varje bonussida du tar 
 src/items.lua:3526		Power Mult	Kraftmulti
 src/items.lua:3529		Each Power side scored gives +2 Mult	Varje kraftsida du tar poäng med ger +2 multi
 src/items.lua:3566		Rowan	Rönn
-src/items.lua:3569		+5 Mult if the combo contains at least three 1s	+5 multi om kombinationen innehåller minst tre 1:or
+src/items.lua:3569		+5 Mult if the combo contains at least three 1s	+5 multi om kombot innehåller minst tre 1:or
 src/items.lua:3693		House Stamp	Kåkstämpel
 src/items.lua:3696		Rerolling a Three Of A Kind permanently upgrades Full House. Fades with use.	Att kasta om en triss uppgraderar kåk permanent. Bleknar vid användning.
 src/items.lua:3711 (+1 others)		Faded	Blekt
 src/items.lua:3725		Full House Upgraded	Kåk uppgraderad
 src/items.lua:3733		Stamp	Stämpel
-src/items.lua:3736		Rerolling a combo upgrades it permanently. Fades with use.	Att kasta om en kombination uppgraderar den permanent. Bleknar vid användning.
+src/items.lua:3736		Rerolling a combo upgrades it permanently. Fades with use.	Att kasta om en kombo uppgraderar den permanent. Bleknar vid användning.
 src/items.lua:3740		On Roll	Vid kast
 src/items.lua:3768		${combo} Upgraded	${combo} uppgraderad
 src/items.lua:3781		Gouda	Gouda
@@ -851,21 +851,21 @@ src/items.lua:3806		Pearl	Pärla
 src/items.lua:3809		+1¥ for every two scored 1s	+1¥ per två poänggivande 1:or
 src/items.lua:3832		Queen's Jug	Drottningens kanna
 src/items.lua:3835		+1¥ for a Full House	+1¥ för en kåk
-src/items.lua:3852		Star Biscuit	Stjärnkaka
+src/items.lua:3852		Star Biscuit	Stjärnkex
 src/items.lua:3855		Rolling 2+ dice while at 1 Bust gives 2¥	Att kasta minst 2 tärningar med 1 nit kvar ger 2¥
 src/items.lua:3880		Overtime Star	Övertidsstjärna
 src/items.lua:3883		Gain a Bust Shield for scoring Star Bonanza	Få en nitsköld när du tar poäng med stjärnbonanza
 src/items.lua:3896		Already shielded	Redan skyddad
 src/items.lua:3903		Trotter	Grisfot
 src/items.lua:3906		Pig Points x2	Grispoäng x2
-src/items.lua:3921		Piglet	Kulting
+src/items.lua:3921		Piglet	Nasse
 src/items.lua:3924		+3 Mult for rerolling 3 or more Pig sides	+3 multi när du kastar om minst 3 grissidor
 src/items.lua:3943		Chew Toy	Tuggleksak
 src/items.lua:3946		1 in 6 chance to spawn a coin when rerolling a Pig side	1 chans på 6 att skapa ett mynt när du kastar om en grissida
 src/items.lua:4001		Paw	Tass
 src/items.lua:4004		Rolling a single die adds +2 Mult	Att kasta en enda tärning ger +2 multi
 src/items.lua:4017		Incel	Incel
-src/items.lua:4020		Rerolling a combo containing a Pair gives +100 Points and +1 Mult	Att kasta om en kombination som innehåller ett par ger +100 poäng och +1 multi
+src/items.lua:4020		Rerolling a combo containing a Pair gives +100 Points and +1 Mult	Att kasta om en kombo som innehåller ett par ger +100 poäng och +1 multi
 src/items.lua:4050		Scoring a Full House spawns a ghost die	Att ta poäng med en kåk skapar en spöktärning
 src/items.lua:4064 (+5 others)		Ghost!	Spöke!
 src/items.lua:4070		Ghostanza	Spökbonanza
@@ -877,9 +877,9 @@ src/items.lua:4119		Roll exactly 1 die - if it's a 2, +1¥	Kasta exakt 1 tärnin
 src/items.lua:4140		Mult Biscuit	Multikex
 src/items.lua:4143		Roll exactly 1 die - if it's a 3 or 4, +1 Mult	Kasta exakt 1 tärning - om det blir 3 eller 4, +1 multi
 src/items.lua:4161		Flask Of Ghost	Spökflaska
-src/items.lua:4164		Rerolling a combo that contains a Three Of A Kind creates 2 ghost dice	Att kasta om en kombination som innehåller en triss skapar 2 spöktärningar
+src/items.lua:4164		Rerolling a combo that contains a Three Of A Kind creates 2 ghost dice	Att kasta om en kombo som innehåller en triss skapar 2 spöktärningar
 src/items.lua:4186		Bone	Ben
-src/items.lua:4189		Combos containing a ghost die score +100 Points	Kombinationer som innehåller en spöktärning ger +100 poäng
+src/items.lua:4189		Combos containing a ghost die score +100 Points	kombos som innehåller en spöktärning ger +100 poäng
 src/items.lua:4207		Razor	Rakblad
 src/items.lua:4210		1 in 3 chance to spawn a ghost die on Bust	1 chans på 3 att skapa en spöktärning vid nit
 src/items.lua:4233		Scared Straight	Stegskräck
@@ -914,20 +914,20 @@ src/items.lua:4612		Second Chance Jelly	Andra chansen-gelé
 src/items.lua:4616		1s can't reroll into 1s\nDoesn't affect coins.	1:or kan inte bli 1:or vid omkast\nPåverkar inte mynt.
 src/items.lua:4644		Knucklebone	Knogben
 src/items.lua:4647		+1 Bust Limit, -1 Turn Limit 	+1 nitgräns, -1 rundgräns
-src/items.lua:4670		Turn Plus Bust Minus	Runda plus nit minus
+src/items.lua:4670		Turn Plus Bust Minus	Mer runda, mindre nit
 src/items.lua:4673		-1 Bust Limit, +1 Turn Limit 	-1 nitgräns, +1 rundgräns
 src/items.lua:4696		Loopongo	Loopongo
 src/items.lua:4699		Straights can loop	Stegar kan gå runt
 src/items.lua:4737		Lotus Loan	Lotuslån
 src/items.lua:4740		Free money?	Gratis pengar?
 src/items.lua:4807 (+2 others)		Even Bad	Jämnt uselt
-src/items.lua:4808		-50 Points per scored even die	-50 poäng per poänggivande jämn tärning
+src/items.lua:4808		-50 Points per scored even die	-50 poäng per \npoänggivande jämn tärning
 src/items.lua:4827 (+2 others)		Odd Bad	Udda uselt
-src/items.lua:4828		-1 Mult per scored odd die	-1 multi per poänggivande udda tärning
-src/items.lua:4847		-150 Points per scored even die	-150 poäng per poänggivande jämn tärning
-src/items.lua:4866		-3 Mult per scored odd die	-3 multi per poänggivande udda tärning
-src/items.lua:4885 (+1 others)		-200 Points per scored even die	-200 poäng per poänggivande jämn tärning
-src/items.lua:4904 (+1 others)		-5 Mult per scored odd die	-5 multi per poänggivande udda tärning
+src/items.lua:4828		-1 Mult per scored odd die	-1 multi per \npoänggivande udda tärning
+src/items.lua:4847		-150 Points per scored even die	-150 poäng per \npoänggivande jämn tärning
+src/items.lua:4866		-3 Mult per scored odd die	-3 multi per \npoänggivande udda tärning
+src/items.lua:4885 (+1 others)		-200 Points per scored even die	-200 poäng per \npoänggivande jämn tärning
+src/items.lua:4904 (+1 others)		-5 Mult per scored odd die	-5 multi per \npoänggivande udda tärning
 src/items.lua:4922		Points -100	Poäng -100
 src/items.lua:4923 (+1 others)		-100 Points	-100 poäng
 src/items.lua:4937		Points -150	Poäng -150
@@ -966,17 +966,17 @@ src/items.lua:5219		Each time you score, 1 random die takes damage	Varje gång d
 src/items.lua:5236 (+1 others)		cursed!	förbannad!
 src/items.lua:5248		Each time you bank, 5 random dice take damage	Varje gång du säkrar poängen skadas 5 slumpmässiga tärningar
 src/items.lua:5275		Small Minded	Trångsynt
-src/items.lua:5276		Combos above 4 dice give no score	Kombinationer med fler än 4 tärningar ger inga poäng
+src/items.lua:5276		Combos above 4 dice give no score	kombos med fler än 4 tärningar ger inga poäng
 src/items.lua:5314		Bad Threes	Dåliga treor
-src/items.lua:5315		-3 Mult per scored 3	-3 multi per poänggivande 3:a
+src/items.lua:5315		-3 Mult per scored 3	-3 multi per \npoänggivande 3:a
 src/items.lua:5332		Bad Fours	Dåliga fyror
-src/items.lua:5333		-4 Mult per scored 4	-4 multi per poänggivande 4:a
+src/items.lua:5333		-4 Mult per scored 4	-4 multi per \npoänggivande 4:a
 src/items.lua:5350		Bad Sixes	Dåliga sexor
-src/items.lua:5351		-6 Mult per scored 6	-6 multi per poänggivande 6:a
+src/items.lua:5351		-6 Mult per scored 6	-6 multi per \npoänggivande 6:a
 src/items.lua:5369		Pair Aversion	Parmotvilja
-src/items.lua:5370		Combos containing a Pair -3 Mult	Kombinationer som innehåller ett par ger -3 multi
+src/items.lua:5370		Combos containing a Pair -3 Mult	kombos som innehåller ett par ger -3 multi
 src/items.lua:5390		Triple Trouble	Trippeltrubbel
-src/items.lua:5391		Combos containing Three Of A Kind -4 Mult	Kombinationer som innehåller triss ger -4 multi
+src/items.lua:5391		Combos containing Three Of A Kind -4 Mult	kombos som innehåller triss ger -4 multi
 src/items.lua:5415		No Four Kind	Inget fyrtal
 src/items.lua:5416		Four Of A Kind gives no score	Fyrtal ger inga poäng
 src/items.lua:5441		Empty House	Ingen kåk
@@ -1073,7 +1073,7 @@ src/keybinds.lua:6		Use Power	Använd kraft
 src/keybinds.lua:7		Arrange Dice	Ordna tärningar
 src/keybinds.lua:8		Left Click	Vänsterklick
 src/keybinds.lua:9		Right Click	Högerklick
-src/keybinds.lua:10 (+1 others)		Trade!	Byt!
+src/keybinds.lua:10 (+1 others)		Trade!	Handla!
 src/keybinds.lua:11		Leave Shop	Lämna butiken
 src/powers.lua:7		Stuck Debust	Lås och avnita
 src/powers.lua:8		Add Stuck to the selected die's current face. -1 Bust.	Lägg till Låst på den markerade tärningens synliga sida. -1 nit.
@@ -1106,7 +1106,7 @@ src/powers.lua:371		Ghost Bust	Spöknit
 src/powers.lua:372		Gain an extra blue Bust for this turn.	Få en extra blå nit denna runda.
 src/powers.lua:387		Fishy Deal	Skum affär
 src/powers.lua:388		-1 Bust, +1 ¥. Bump difficulty.	-1 nit, +1 ¥. Höj svårighetsgraden.
-src/powers.lua:407		Level Skip	Hoppa över nivå
+src/powers.lua:407		Level Skip	Skippa nivå
 src/powers.lua:408		Skip a level. Spawns a random die and a random snack.	Hoppa över en nivå. Skapar en slumpmässig tärning och ett slumpmässigt snacks.
 src/powers.lua:476		Fishy Loan	Skumt lån
 src/powers.lua:477		+100 Points, +1 ¥. Take on debt.	+100 poäng, +1 ¥. Dra på dig en skuld.
@@ -1126,12 +1126,12 @@ src/special_conditions.lua:102		Full House	Kåk
 src/special_conditions.lua:115		Four Of A Kind	Fyrtal
 src/special_conditions.lua:126		Straight	Stege
 src/special_conditions.lua:179		Long Straight	Lång stege
-src/special_conditions.lua:190		Long Long Straight	
-src/special_conditions.lua:201		Long Long Long Straight	
+src/special_conditions.lua:190		Long Long Straight	Extra lång stege
+src/special_conditions.lua:201		Long Long Long Straight	Superlång stege
 src/special_conditions.lua:212		Star Bonanza	Stjärnbonanza
 src/special_conditions.lua:223		Star Extravaganza	Stjärnextravaganza
 src/special_conditions.lua:234		Star Bonanzovaganza	Stjärnbonanzovaganza
-src/special_conditions.lua:245		Three Pair	Tre par
+src/special_conditions.lua:245		Three Pair	Trepar
 src/special_conditions.lua:256		Flush	Färg
 src/special_conditions.lua:273		Straight Flush	Färgstege
 src/special_conditions.lua:315		Triple 7	Trippel-7
@@ -1147,10 +1147,10 @@ src/special_conditions.lua:383		How?	Hur?
 src/states/catalogue.lua:50 (+7 others)		< back	< tillbaka
 src/states/catalogue.lua:86 (+4 others)		dawn mode	ljust tema
 src/states/catalogue.lua:86 (+4 others)		night mode	mörkt tema
-src/states/catalogue.lua:114 (+2 others)		ost	soundtrack
+src/states/catalogue.lua:114 (+2 others)		ost	musik
 src/states/catalogue.lua:116 (+1 others)		artists' web	artisternas webbplatser
 src/states/controls.lua:65		Keybinds	Tangentbindningar
-src/states/controls.lua:145		press a key	tryck på en tangent
+src/states/controls.lua:145		press a key	tryck på \nen tangent
 src/states/controls.lua:156		reset keybinds	återställ tangentbindningar
 src/states/credits.lua:43		Created by	Skapat av
 src/states/credits.lua:49		Translation	Översättning
@@ -1175,7 +1175,7 @@ src/states/customisation.lua:462		recolour	färga om
 src/states/ending.lua:244 (+6 others)		hit that shit?	ska vi köra skiten?
 src/states/ending.lua:303 (+4 others)		play	spela
 src/states/ending.lua:505 (+4 others)		done	klar
-src/states/ending_bet.lua:60 (+1 others)		--  Run Summary  --	--  Omgångssammanfattning  --
+src/states/ending_bet.lua:60 (+1 others)		--  Run Summary  --	— Omgångs\nsammanfattning —
 src/states/ending_bet.lua:74 (+1 others)		Level reached:	Nådd nivå:
 src/states/ending_bet.lua:75 (+1 others)		Points scored:	Tagna poäng:
 src/states/ending_bet.lua:76 (+1 others)		Dice rolled:	Kastade tärningar:
@@ -1187,7 +1187,7 @@ src/states/ending_bet.lua:157	dialogue	you won	du vann
 src/states/ending_bet.lua:162	dialogue	you have done very well	du har skött dig mycket bra
 src/states/ending_bet.lua:164	dialogue	a treat for a brave child	en godsak för ett modigt barn
 src/states/ending_bet.lua:181	dialogue	banking early though?	men säkrar du redan?
-src/states/ending_bet.lua:182 (+1 others)	dialogue	how boring	så tråkigt
+src/states/ending_bet.lua:182 (+1 others)	dialogue	how boring	vilken trist typ
 src/states/ending_bet.lua:186	dialogue	no more waking up	inget mer uppvaknande
 src/states/ending_bet.lua:187	dialogue	i am god i forbid it	jag är gud, jag förbjuder det
 src/states/ending_bet.lua:194 (+2 others)		star	stjärna
@@ -1208,7 +1208,7 @@ src/states/ending_demo.lua:185 (+1 others)		Thanks <3	Tack <3
 src/states/ending_demo.lua:187 (+1 others)		Buy Here	Köp här
 src/states/ending_demo.lua:187 (+1 others)		Wishlist Here	Önska här
 src/states/ending_demo.lua:215		back to title	till titelskärmen
-src/states/ending_finale.lua:87	dialogue	well well well	nå, nå, nå
+src/states/ending_finale.lua:87	dialogue	well well well	se där, se där
 src/states/ending_finale.lua:88	dialogue	how did we get here?	hur hamnade vi här?
 src/states/ending_finale.lua:90	dialogue	ah, i remember	just det, nu minns jag
 src/states/ending_finale.lua:96	dialogue	you wagered your soul	du satsade din själ
@@ -1222,7 +1222,7 @@ src/states/ending_finale.lua:158	dialogue	you are brave	du är modig
 src/states/ending_finale.lua:159	dialogue	you are worthy	du är värdig
 src/states/ending_finale.lua:161	dialogue	i will offer you one final wager	jag erbjuder dig ett sista vad
 src/states/ending_finale.lua:167	dialogue	heads: you're free	krona: du är fri
-src/states/ending_finale.lua:174	dialogue	tails: i will personally destroy all your files one by one	klave: jag förstör personligen alla dina filer, en efter en
+src/states/ending_finale.lua:174	dialogue	tails: i will personally destroy all your files one by one	klave: jag kommer personligen att förstöra alla dina filer en efter en
 src/states/ending_finale.lua:190	dialogue	do it, all in	gör det, allt på spel
 src/states/ending_finale.lua:192		flick it like you mean it	knäpp till ordentligt
 src/states/ending_finale.lua:192		this is real	det här är på riktigt
@@ -1241,10 +1241,10 @@ src/states/game.lua:174 (+1 others)		Cannot Restart Wager Runs	Kan inte starta o
 src/states/game.lua:177		Restart	Starta om
 src/states/game.lua:179		Restart the run from scratch\nand lose all gained stars?	Starta om spelomgången från början\noch förlora alla intjänade stjärnor?
 src/states/game.lua:185 (+3 others)		Options	Inställningar
-src/states/game.lua:193		Save and Quit	Spara och avsluta
+src/states/game.lua:193		Save and Quit	Spara och Avsluta
 src/states/game.lua:194		(Cant Save Right Now)	(Kan inte spara just nu)
-src/states/game.lua:199		No escape	
-src/states/game.lua:202		Skip Tutorial	
+src/states/game.lua:199		No escape	Ingen utväg
+src/states/game.lua:202		Skip Tutorial	Skippa introt
 src/states/game.lua:202		Abandon	Ge upp
 src/states/game.lua:210		Quit to menu and lose all gained stars?	Gå till menyn och förlora alla intjänade stjärnor?
 src/states/game.lua:215		No way out	Ingen utväg
@@ -1258,14 +1258,14 @@ src/states/game.lua:946		ALL BUST BLOCKED	ALLA NITAR BLOCKERADE
 src/states/game.lua:962		SHIELD OVERLOADED	SKÖLD ÖVERBELASTAD
 src/states/game.lua:963		${count} BUSTS BLOCKED	${count} NITAR BLOCKERADE
 src/states/game.lua:963		${count} BUST BLOCKED	${count} NIT BLOCKERAD
-src/states/game.lua:1013		wager ${amount} ¤	satsning ${amount} ¤
+src/states/game.lua:1013		wager ${amount} ¤	satsa ${amount} ¤
 src/states/game.lua:1016		${STARS} Stars Unbanked	${STARS} osäkrade stjärnor
 src/states/game.lua:1018		bank stars after each nightmare level or win the run to secure them	säkra stjärnor efter varje mardrömsnivå eller vinn spelomgången för att behålla dem
 src/states/game.lua:1099		praying...	ber...
 src/states/game.lua:1099		pray	be
 src/states/game.lua:1177		Losing all Turns ends the game.\nTurns refill at the start of each level.	När alla rundor är slut är spelet över.\nRundor fylls på i början av varje nivå.
 src/states/game.lua:1428 (+1 others)		MERGED	SAMMANSLAGET
-src/states/game.lua:1637		pause	
+src/states/game.lua:1637		pause	paus
 src/states/game.lua:1911 (+2 others)		Level $level/$count $name	Nivå $level/$count $name
 src/states/game.lua:1963		NIGHTMARE LEVEL	MARDRÖMSNIVÅ
 src/states/game.lua:2085 (+1 others)		Rift	Reva
@@ -1286,18 +1286,18 @@ src/states/game.lua:2618		INSTANT WIPE	DIREKT BOM
 src/states/game.lua:2619		${rolled} OUT OF ${rolled} DICE ROLLED BUST	${rolled} AV ${rolled} TÄRNINGAR SLOG NIT
 src/states/game.lua:2636		W I P E	B O M
 src/states/game.lua:3064		SKIP ${pip}	SKIPPA ${pip}
-src/states/game.lua:3076		SKIP LOOPED	SKIPPA GICK RUNT
+src/states/game.lua:3076		SKIP LOOPED	SKIPPA RUNT
 src/states/game.lua:3317		Level Complete	Nivå avklarad
-src/states/game.lua:3358		Overshoot! +${amount} stars	Överskott! +${amount} stjärnor
+src/states/game.lua:3358		Overshoot! +${amount} stars	Med råge! +${amount} stjärnor
 src/states/game.lua:3391		Level Coins	Nivåmynt
 src/states/game.lua:3402		Extra Turn Coins	Mynt för extra rundor
-src/states/game.lua:3414		Combine Coins	Kombinationsmynt
-src/states/game.lua:3431		Wager bonus! +${amount} stars	Satsningsbonus! +${amount} stjärnor
+src/states/game.lua:3414		Combine Coins	Kombomynt
+src/states/game.lua:3431		Wager bonus! +${amount} stars	Insatsbonus! +${amount} stjärnor
 src/states/game.lua:3481		--  Level ${number} Complete!  --	--  Nivå ${number} avklarad!  --
 src/states/game.lua:3497		Score:	Poäng:
 src/states/game.lua:3499		Reward:	Belöning:
 src/states/game.lua:3500		Extra turns:	Extra rundor:
-src/states/game.lua:3501		Wager bonus:	Satsningsbonus:
+src/states/game.lua:3501		Wager bonus:	Insatsbonus:
 src/states/game.lua:3502		Overshoot:	Överskott:
 src/states/game.lua:3504		Total:	Totalt:
 src/states/game.lua:3602		don't lose it	tappa inte bort den
@@ -1306,7 +1306,7 @@ src/states/game.lua:3609		¤${BET} wagered	¤${BET} satsade
 src/states/game.lua:3613		¤ Banked	¤ säkrade
 src/states/game.lua:3614		Bank ¤${KEPT}?	Säkra ¤${KEPT}?
 src/states/game.lua:3615		Win To Bank ¤	Vinn för att säkra ¤
-src/states/game.lua:3616		Bank ¤ in ${LEVELS} lvl	Säkra ¤ om ${LEVELS} nivåer
+src/states/game.lua:3616		Bank ¤ in ${LEVELS} lvl	Säkra ¤ om ${LEVELS} niv.
 src/states/game.lua:3630		Secure your Stars for the run\nyou won't be able to gain more this run	Säkra dina stjärnor för spelomgången\ndu kan inte tjäna fler under denna spelomgång
 src/states/game.lua:3632		Stars already banked this run	Stjärnorna är redan säkrade denna spelomgång
 src/states/game.lua:3634		Securing Stars available after each nightmare level	Du kan säkra stjärnor efter varje mardrömsnivå
@@ -1318,15 +1318,15 @@ src/states/game_setup.lua:591		get more gold ¤ with wagers	få mer guld ¤ geno
 src/states/game_setup.lua:696		A modest wager.\nWin and keep your stars plus a small bonus.	Ett blygsamt vad.\nVinn och behåll dina stjärnor plus en liten bonus.
 src/states/game_setup.lua:706		Wager half your stars.\nMinimum 500 ¤\nHigher stakes, more stars.	Satsa hälften av dina stjärnor.\nMinst 500 ¤\nHögre insatser, fler stjärnor.
 src/states/game_setup.lua:716		Wager all your stars.\nMinimum 1000 ¤\nEven more star rewards.	Satsa alla dina stjärnor.\nMinst 1000 ¤\nÄnnu större stjärnbelöningar.
-src/states/game_setup.lua:774		Wager	Vad
+src/states/game_setup.lua:774		Wager	Vadslagning
 src/states/game_setup.lua:856		Levels	Nivåer
-src/states/game_setup.lua:863		Wager stars to add levels,\nnext level %d ¤	
+src/states/game_setup.lua:863		Wager stars to add levels,\nnext level %d ¤	Satsa stjärnor för att lägga till nivåer,\nnästa nivå %d ¤
 src/states/game_setup.lua:1095		Difficulty	Svårighetsgrad
 src/states/game_setup.lua:1098		${stars} ¤ reward limit	Belöningsgräns: ${stars} ¤
 src/states/gameover.lua:224		Congratulations, you lost.	Grattis, du förlorade.
 src/states/gameover.lua:225		Better luck next time.	Bättre lycka nästa gång.
 src/states/gameover.lua:226		Maybe next time.	Kanske nästa gång.
-src/states/gameover.lua:266		Wager ${BET}¤	Satsning ${BET}¤
+src/states/gameover.lua:266		Wager ${BET}¤	Satsa ${BET}¤
 src/states/gameover.lua:274		Death Tax ${STARS}¤	Dödsskatt ${STARS}¤
 src/states/gameover.lua:283		GAME OVER	SPELET ÄR ÖVER
 src/states/gameover.lua:315		Death tax:	Dödsskatt:
@@ -1356,7 +1356,7 @@ src/states/intro_greed.lua:64		This is a game about skill.	Det här är ett spel
 src/states/intro_greed.lua:65		This is a game about talent.	Det här är ett spel om talang.
 src/states/intro_greed.lua:66		This is a game about patience.	Det här är ett spel om tålamod.
 src/states/intro_greed.lua:67		This is a game about fate.	Det här är ett spel om öde.
-src/states/intro_greed.lua:68		This is a game about destiny.	Det här är ett spel om bestämmelse.
+src/states/intro_greed.lua:68		This is a game about destiny.	Det här är ett spel om livskall.
 src/states/intro_greed.lua:69		This is a game about God.	Det här är ett spel om Gud.
 src/states/intro_greed.lua:80		Roll to gain Stars.	Kasta för att få stjärnor.
 src/states/intro_greed.lua:81		Roll 1 to lose Stars.	Slå 1 för att förlora stjärnor.
@@ -1391,7 +1391,7 @@ src/states/options.lua:520		reset options	återställ inställningar
 src/states/options.lua:525		Reset all the game options\nto their default values?	Återställ alla spelinställningar\ntill standardvärdena?
 src/states/options.lua:546		reset tips	återställ tips
 src/states/options.lua:551		reset all the hover tooltip counters\nso that all the tips show again?	återställ alla tips\nså att alla tips visas igen?
-src/states/options.lua:570		replay tutorial	spela introduktionen igen
+src/states/options.lua:570		replay tutorial	spela introt igen
 src/states/options.lua:599		(BETA)	(BETA)
 src/states/outside.lua:18		by Franek and Max	av Franek och Max
 src/states/outside.lua:19		this was a game about waking up	det här var ett spel om att vakna
@@ -1406,7 +1406,7 @@ src/states/scoreboard.lua:227		busts	nitar
 src/states/scoreboard.lua:231		your bust rate	din nitfrekvens
 src/states/scoreboard.lua:235		expected	förväntat
 src/states/scoreboard.lua:239		player average	spelargenomsnitt
-src/states/scoreboard.lua:244		Guts Completion	Guts-avklarande
+src/states/scoreboard.lua:244		Guts Completion	Tarmprogress
 src/states/scoreboard.lua:254		runs played	spelade omgångar
 src/states/scoreboard.lua:258		runs won	vunna omgångar
 src/states/scoreboard.lua:262		achievements	prestationer
@@ -1426,12 +1426,12 @@ src/states/title.lua:159 (+1 others)	dialogue	so you chose to come back	så du v
 src/states/title.lua:161 (+1 others)	dialogue	you will see, very soon	du ska få se, mycket snart
 src/states/title.lua:237		GAMEPAD WARNING: support is still pretty rough - report bugs on steam or discord <3	HANDKONTROLLSVARNING: stödet är fortfarande rätt bristfälligt - rapportera buggar på Steam eller Discord <3
 src/states/title.lua:246 (+1 others)		the world you grew up in no longer exists	världen du växte upp i finns inte längre
-src/states/title.lua:263		get back in here	kom tillbaka hit
+src/states/title.lua:263		get back in here	tillbaka hit med dig!
 src/states/title.lua:267		Play	Spela
 src/states/title.lua:271		feeling lucky?	känner du dig tursam?
-src/states/title.lua:291 (+1 others)		Tutorial	Introduktion
+src/states/title.lua:291 (+1 others)		Tutorial	Intro
 src/states/title.lua:298 (+1 others)		learn to play	lär dig spela
-src/states/title.lua:302		Star Guts	Stjärn-Guts
+src/states/title.lua:302		Star Guts	Stjärntarmen
 src/states/title.lua:306		unlock stuff	lås upp grejer
 src/states/title.lua:370 (+1 others)		game setup	spelupplägg
 src/states/title.lua:375 (+1 others)		Quit	Avsluta
@@ -1439,10 +1439,10 @@ src/states/title.lua:379 (+1 others)		bye?	hej då?
 src/states/title.lua:474		brighten up	ljus upp
 src/states/title.lua:475		rest your eyes	vila ögonen
 src/states/title.lua:486		community chat	gemenskapschatt
-src/states/title.lua:635		Welcome To 1.0!	
-src/states/title.lua:636		thanks so much for supporting the game ♥\nyou are looking fabulous today\n\nlots has changed since early access\nwe recommend starting 1.0 with a fresh save, but its up to you	
-src/states/title.lua:637		sure, delete it!	
-src/states/title.lua:638		yikes, no thanks	
+src/states/title.lua:635		Welcome To 1.0!	Välkommen till 1.0!
+src/states/title.lua:636		thanks so much for supporting the game ♥\nyou are looking fabulous today\n\nlots has changed since early access\nwe recommend starting 1.0 with a fresh save, but its up to you	tack så mycket för att du stöttar spelet ♥\ndu är strålande fin idag\n\nmycket har ändrats sedan early access\nvi rekommenderar att börja 1.0 med en ny sparfil, men du bestämmer
+src/states/title.lua:637		sure, delete it!	visst, radera den!
+src/states/title.lua:638		yikes, no thanks	oj då, nej tack
 src/states/unlock.lua:79		representations are still solidifying - physical form is meaningless - you're imagining it	gestalterna tar fortfarande form - fysisk form saknar betydelse - du inbillar dig
 src/states/unlock.lua:96 (+3 others)		SNACK	SNACKS
 src/states/unlock.lua:163		Upgrades	Uppgraderingar
@@ -1463,7 +1463,7 @@ src/sync_scoreboards.lua:19		stars held	innehavda stjärnor
 src/sync_scoreboards.lua:27		Highest Level	Högsta nivå
 src/sync_scoreboards.lua:32		level	nivå
 src/sync_scoreboards.lua:39		Best Level Score	Bästa nivåpoäng
-src/sync_scoreboards.lua:51		Biggest Combo	Största kombination
+src/sync_scoreboards.lua:51		Biggest Combo	Största kombo
 src/sync_scoreboards.lua:63		Greed Intro	Girighetsintro
 src/sync_scoreboards.lua:68		stars won	vunna stjärnor
 src/sync_scoreboards.lua:75		Most Wins	Flest vinster
@@ -1479,7 +1479,7 @@ src/sync_scoreboards.lua:142		luck	tur
 src/sync_scoreboards.lua:203 (+1 others)	dialogue	you	du
 src/ui/character_body.lua:302 (+2 others)	ui	LOCKED	LÅST
 src/ui/combination_table.lua:34 (+1 others)	ui	flush	färg
-src/ui/combination_table.lua:50	ui	Combinations	Kombinationer
+src/ui/combination_table.lua:50	ui	Combinations	Kombos
 src/ui/combination_table.lua:50	ui	hello :)	hej :)
 src/ui/game_setup_options.lua:4	ui	easy wager	lätt satsning
 src/ui/game_setup_options.lua:5	ui	increase difficulty by 1	höj svårighetsgraden med 1
@@ -1492,20 +1492,20 @@ src/ui/help_screen.lua:74	ui	INFO DUMP :)	INFODUMP :)
 src/ui/help_screen.lua:111	ui	BUST	NIT
 src/ui/help_screen.lua:112	ui	Each die has a red Bust side.\nRolling Bust side reduces your Bust meter.\n\nIf Bust meter goes to 0 you WIPE.\nAll unbanked points are gone, turn ends.	Varje tärning har en röd nitsida.\nSlår du nit minskar din nitmätare.\n\nOm nitmätaren når 0 blir det BOM.\nAlla osäkrade poäng försvinner och rundan tar slut.
 src/ui/help_screen.lua:115	ui	ALL BUST - INSTANT WIPE	BARA NITAR - DIREKT BOM
-src/ui/help_screen.lua:116	ui	The tricky part!\n\nIf all dice you rolled at once show Bust,\nyou WIPE instantly, regardless of the Bust meter.\n\nExample: 3 out of 3 dice rolled Bust	Det knepiga!\n\nOm alla tärningar du kastar samtidigt visar nit\nblir det BOM direkt, oavsett nitmätaren.\n\nExempel: 3 av 3 tärningar slog nit
+src/ui/help_screen.lua:116	ui	The tricky part!\n\nIf all dice you rolled at once show Bust,\nyou WIPE instantly, regardless of the Bust meter.\n\nExample: 3 out of 3 dice rolled Bust	Här blir det klurigt!\n\nOm alla tärningar du kastar samtidigt visar nit\nblir det BOM direkt, oavsett nitmätaren.\n\nExempel: 3 av 3 tärningar slog nit
 src/ui/help_screen.lua:119	ui	BANKING	SÄKRAR
-src/ui/help_screen.lua:120	ui	BANK to lock in your points and refill the Bust meter.\nEach BANK ends your Turn.	SÄKRA dina poäng för att fylla på nitmätaren och behålla poängen.\nVarje gång du SÄKRAR poängen avslutas din runda.
+src/ui/help_screen.lua:120	ui	BANK to lock in your points and refill the Bust meter.\nEach BANK ends your Turn.	SÄKRA dina poäng för att fylla på nitmätaren och behålla poängen. Varje gång du SÄKRAR poängen avslutas din runda.
 src/ui/help_screen.lua:123	ui	TURN	RUNDA
 src/ui/help_screen.lua:124	ui	Each level you get limited Turns.\nTurns end when you BANK or WIPE.\nWhen you run out of Turns the game is over.\nBust meter and Power charge refill each turn.	Varje nivå har ett begränsat antal rundor.\nRundor avslutas när du SÄKRAR poängen eller bommar.\nNär rundorna tar slut är spelet över.\nNitmätaren och kraften fylls på varje runda.
 src/ui/help_screen.lua:129	ui	SCORING	POÄNGRÄKNING
-src/ui/help_screen.lua:130	ui	Select dice that form a combo and score them.\nPoints x Mult = Score.\nBigger combos score exponentially more.\nScore multiple combos in one Turn to build Momentum for extra Points and Mult	Markera tärningar som bildar en kombination och ta poäng med dem.\nPoäng x multi = totalpoäng.\nStörre kombinationer ger exponentiellt fler poäng.\nTa poäng med flera kombinationer under en runda för att bygga flyt som ger extra poäng och multi
-src/ui/help_screen.lua:133	ui	TRINKETS, SPELLS & SNACKS	KRIMSKRAMS, TROLLFORMLER OCH SNACKS
-src/ui/help_screen.lua:134	ui	- Trinkets are passive, they trigger automatically.\n- Spells are one time use!\n- Snacks are dragged onto a die to add special effects.	- Krimskrams är passiva och aktiveras automatiskt.\n- Trollformler kan bara användas en gång!\n- Snacks dras till en tärning för att lägga till specialeffekter.
+src/ui/help_screen.lua:130	ui	Select dice that form a combo and score them.\nPoints x Mult = Score.\nBigger combos score exponentially more.\nScore multiple combos in one Turn to build Momentum for extra Points and Mult	Markera tärningar som bildar en kombo och ta poäng med dem. Poäng x multi = totalpoäng.\nStörre kombos ger exponentiellt fler poäng.\nTa poäng med flera kombos under en runda för att bygga flyt som ger extra poäng och multi
+src/ui/help_screen.lua:133	ui	TRINKETS, SPELLS & SNACKS	KRIMSKRAMS, MAGI OCH SNACKS
+src/ui/help_screen.lua:134	ui	- Trinkets are passive, they trigger automatically.\n- Spells are one time use!\n- Snacks are dragged onto a die to add special effects.	- Krimskrams är passiva och aktiveras automatiskt.\n- Magi kan bara användas en gång!\n- Snacks dras till en tärning för att lägga till specialeffekter.
 src/ui/help_screen.lua:137	ui	CHARACTER POWER	KARAKTÄRENS KRAFT
-src/ui/help_screen.lua:138	ui	Each character has a unique Power. Use them to modify dice, reduce risk and get better combos.\n\nPower recharges each turn or with die side effects and items.	Varje karaktär har en unik kraft. Använd den för att ändra tärningar, minska risker och få bättre kombinationer.\n\nKraften laddas varje runda eller med hjälp av tärningssidornas effekter och föremål.
-src/ui/help_screen.lua:141	ui	BASIC TACTICS	GRUNDLÄGGANDE TAKTIK
-src/ui/help_screen.lua:142	ui	The more dice you roll at once the bigger chance of any Bust, but smaller chance of All Bust.\n\nRerolling a single die is ballsy! Prioritize rerolling blank dice. Scoring a single big combo is better than few pairs.	Ju fler tärningar du kastar samtidigt, desto större risk för någon nit, men desto mindre risk för bara nitar.\n\nAtt kasta om en enda tärning kräver mod! Prioritera att kasta om blanka tärningar. Att ta poäng med en stor kombination är bättre än med några par.
-src/ui/item_hover.lua:73 (+4 others)	ui	SPELL	TROLLFORMEL
+src/ui/help_screen.lua:138	ui	Each character has a unique Power. Use them to modify dice, reduce risk and get better combos.\n\nPower recharges each turn or with die side effects and items.	Varje karaktär har en unik kraft. Använd den för att ändra tärningar, minska risker och få bättre kombos.\n\nKraften laddas varje runda eller med hjälp av tärningssidornas effekter och föremål.
+src/ui/help_screen.lua:141	ui	BASIC TACTICS	ENKEL TAKTIK
+src/ui/help_screen.lua:142	ui	The more dice you roll at once the bigger chance of any Bust, but smaller chance of All Bust.\n\nRerolling a single die is ballsy! Prioritize rerolling blank dice. Scoring a single big combo is better than few pairs.	Ju fler tärningar du kastar samtidigt, desto större risk för någon nit, men desto mindre risk för bara nitar.\n\nAtt kasta om en enda tärning kräver mod! Prioritera att kasta om blanka tärningar. Att ta poäng med en stor kombo är bättre än med några par.
+src/ui/item_hover.lua:73 (+4 others)	ui	SPELL	MAGI
 src/ui/level_map.lua:65	ui	LEVEL MAP	NIVÅKARTA
 src/ui/level_map.lua:165		Level ${level}	Nivå ${level}
 src/ui/level_map.lua:168	ui	Final nightmare level	Sista mardrömsnivån
