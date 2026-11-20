@@ -278,7 +278,7 @@ src/endings/king_fetus.lua:149	dialogue	don't face the world	le monde extérieur
 src/endings/king_fetus.lua:150	dialogue	stay here	reste ici
 src/endings/liz.lua:33		hit that mochi?	manger ?
 src/endings/liz.lua:175	dialogue	how did you do?	alors, comment tu t’en es sorti ?
-src/endings/liz.lua:176	dialogue	in the test, i mean	au test, je veux dire
+src/endings/liz.lua:176	dialogue	in the test, i mean	à l'examen, je veux dire
 src/endings/liz.lua:177	dialogue	we all pass\nin one way or another	on le réussit toujours\nd’une façon ou d’une autre
 src/endings/liz.lua:178	dialogue	eventually	on finit toujours par le réussir
 src/endings/marooned.lua:75	dialogue	i am your salvation	je suis ton salut
@@ -372,8 +372,8 @@ src/entities/shop.lua:1405		bye	à plus
 src/entities/shop.lua:1453		Reroll - ${current_cost}¥	Rafraîchir - ${current_cost} ¥
 src/entities/tape.lua:453		- web	- site web
 src/entities/title_text.lua:3		DICE HAVE\nNO EYES	DICE HAVE\nNO EYES
-src/entities/title_text.lua:5		DICE HAVE\nNÕ EYES	DICE HAVE\nNO EYES
-src/entities/title_text.lua:6		DICE HAVE\nNÖ EYES	DICE HAVE\nNO EYES
+src/entities/title_text.lua:5		DICE HAVE\nNÕ EYES	DICE HAVE\nNÕ EYES
+src/entities/title_text.lua:6		DICE HAVE\nNÖ EYES	DICE HAVE\nNÖ EYES
 src/entities/title_text.lua:127		DEMO	DEMO
 src/haunt.lua:14 (+2 others)		wake up	debout
 src/haunt.lua:17		leave	pars
@@ -831,11 +831,11 @@ src/items.lua:3418		Each Bonus side scored gives +100 Points	+100 Points pour ch
 src/items.lua:3437		Power Bonus	Bonus Pouvoir
 src/items.lua:3440		Each Power side scored gives +100 Points	+100 Points pour chaque face Pouvoir jouée
 src/items.lua:3483		Stuck Mult	Multi Bloqué
-src/items.lua:3486		Each Stuck side scored gives +4 Mult	+100 Points pour chaque face Bloquée jouée
+src/items.lua:3486		Each Stuck side scored gives +4 Mult	Multi +4 pour chaque face Bloquée jouée
 src/items.lua:3505		Bonus Mult	Multi Bonus
-src/items.lua:3508		Each Bonus side scored gives +3 Mult	+100 Points pour chaque face Bonus jouée
+src/items.lua:3508		Each Bonus side scored gives +3 Mult	Multi +3 pour chaque face Bonus jouée
 src/items.lua:3526		Power Mult	Multi Pouvoir
-src/items.lua:3529		Each Power side scored gives +2 Mult	+100 Points pour chaque face Pouvoir jouée
+src/items.lua:3529		Each Power side scored gives +2 Mult	Multi +2 pour chaque face Pouvoir jouée
 src/items.lua:3566		Rowan	Sorbier
 src/items.lua:3569		+5 Mult if the combo contains at least three 1s	Multi +5 si la main contient au moins trois 1
 src/items.lua:3693		House Stamp	Timbre Full
@@ -1493,19 +1493,19 @@ src/ui/help_screen.lua:74	ui	INFO DUMP :)	INFOS PRATIQUES :)
 src/ui/help_screen.lua:111	ui	BUST	BURST
 src/ui/help_screen.lua:112	ui	Each die has a red Bust side.\nRolling Bust side reduces your Bust meter.\n\nIf Bust meter goes to 0 you WIPE.\nAll unbanked points are gone, turn ends.	Chaque dé a une face Burst.\nTomber dessus réduit votre compteur de Burst.\n\nSi vous n’avez plus de Burst, vous tombez KO.\nTous les points en attente sont perdus, et le tour se termine.
 src/ui/help_screen.lua:115	ui	ALL BUST - INSTANT WIPE	QUE DES BURST - KO DIRECT
-src/ui/help_screen.lua:116	ui	The tricky part!\n\nIf all dice you rolled at once show Bust,\nyou WIPE instantly, regardless of the Bust meter.\n\nExample: 3 out of 3 dice rolled Bust	C’est là que ça se complique !\n\nSi tous les dés d’un même lancer tombent sur Burst,\nvous tombez KO instantanément, quel que soit votre nombre de Burst.\n\nExemple : vous lancez 3 dés, les 3 tombent sur Burst
+src/ui/help_screen.lua:116	ui	The tricky part!\n\nIf all dice you rolled at once show Bust,\nyou WIPE instantly, regardless of the Bust meter.\n\nExample: 3 out of 3 dice rolled Bust	C’est là que ça se complique !\nSi tous les dés d’un même lancer tombent sur Burst,\nvous tombez KO instantanément, quel que soit votre nombre de Burst.\n\nExemple : vous lancez 3 dés, les 3 tombent sur Burst
 src/ui/help_screen.lua:119	ui	BANKING	COFFRER VOS POINTS
 src/ui/help_screen.lua:120	ui	BANK to lock in your points and refill the Bust meter.\nEach BANK ends your Turn.	Coffrez vos points pour les sécuriser et recharger votre compteur de Burst. Cela met fin au tour.
 src/ui/help_screen.lua:123	ui	TURN	TOUR
 src/ui/help_screen.lua:124	ui	Each level you get limited Turns.\nTurns end when you BANK or WIPE.\nWhen you run out of Turns the game is over.\nBust meter and Power charge refill each turn.	À chaque niveau, vous avez un nombre de tours limité.\nLe tour se termine quand vous Coffrez ou lors d’un KO.\nQuand vous avez joué tous vos tours, vous perdez la partie.\nLes Burst et le Pouvoir se rechargent à chaque tour.
 src/ui/help_screen.lua:129	ui	SCORING	JOUER DES DÉS
-src/ui/help_screen.lua:130	ui	Select dice that form a combo and score them.\nPoints x Mult = Score.\nBigger combos score exponentially more.\nScore multiple combos in one Turn to build Momentum for extra Points and Mult	Sélectionnez des dés qui forment une figure et jouez-les.\nPoints x Multi = Score.\nJouer de meilleures figures rapporte beaucoup plus de points.\nEnchaîner des figures au cours d’un même Tour fait grimper le niveau d’ Enchaînement, qui octroie une base de Points et de Multi
+src/ui/help_screen.lua:130	ui	Select dice that form a combo and score them.\nPoints x Mult = Score.\nBigger combos score exponentially more.\nScore multiple combos in one Turn to build Momentum for extra Points and Mult	Sélectionnez des dés qui forment une figure et jouez-les.\nPoints x Multi = Score.\nJouer de meilleures figures rapporte beaucoup plus de points.\nEnchaîner des figures au cours d’un même Tour fait grimper l’ Enchaînement, qui octroie une base de Points et de Multi
 src/ui/help_screen.lua:133	ui	TRINKETS, SPELLS & SNACKS	RELIQUES, SORTS & SNACKS
 src/ui/help_screen.lua:134	ui	- Trinkets are passive, they trigger automatically.\n- Spells are one time use!\n- Snacks are dragged onto a die to add special effects.	- Les reliques se déclenchent automatiquement.\n- Les sorts sont à usage unique !\n- Donnez un snack à un dé à un dé pour lui ajouter des effets.
 src/ui/help_screen.lua:137	ui	CHARACTER POWER	POUVOIR DE PERSONNAGE
-src/ui/help_screen.lua:138	ui	Each character has a unique Power. Use them to modify dice, reduce risk and get better combos.\n\nPower recharges each turn or with die side effects and items.	Chaque personnage a un Pouvoir unique, pour influer sur les dés, réduire les risques et faire de meilleures figures.\n\nIl se recharge à chaque tour, ou à l’aide d’effets variés.
+src/ui/help_screen.lua:138	ui	Each character has a unique Power. Use them to modify dice, reduce risk and get better combos.\n\nPower recharges each turn or with die side effects and items.	Chaque personnage a un Pouvoir unique, pour influer sur les dés, réduire les risques et faire de meilleures figures.\nIl se recharge à chaque tour, ou à l’aide d’effets variés.
 src/ui/help_screen.lua:141	ui	BASIC TACTICS	STRATÉGIE DE BASE
-src/ui/help_screen.lua:142	ui	The more dice you roll at once the bigger chance of any Bust, but smaller chance of All Bust.\n\nRerolling a single die is ballsy! Prioritize rerolling blank dice. Scoring a single big combo is better than few pairs.	Plus vous lancez de dés d’un coup, plus vous avez de chance de faire un Burst, mais moins vous avez de chance de ne faire que des Burst.\n\nLancer un seul dé est risqué ! Lancez d’abord les dés en suspens. Une seule grosse figure vaut mieux que quelques Paires.
+src/ui/help_screen.lua:142	ui	The more dice you roll at once the bigger chance of any Bust, but smaller chance of All Bust.\n\nRerolling a single die is ballsy! Prioritize rerolling blank dice. Scoring a single big combo is better than few pairs.	Plus vous lancez de dés d’un coup, plus vous avez de chance de faire un Burst, mais moins vous avez de chance de ne faire que des Burst.\n\nLancer un seul dé est risqué ! Lancez d’abord les dés en suspens. Une grosse figure vaut mieux que quelques Paires.
 src/ui/item_hover.lua:73 (+4 others)	ui	SPELL	SORT
 src/ui/level_map.lua:65	ui	LEVEL MAP	CARTE DES NIVEAUX
 src/ui/level_map.lua:165		Level ${level}	Niveau ${level}
