@@ -1244,7 +1244,7 @@ src/states/game.lua:178		Restart the run from scratch\nand lose all gained stars
 src/states/game.lua:184 (+3 others)		Options	选项
 src/states/game.lua:192		Save and Quit	保存并退出
 src/states/game.lua:193		(Cant Save Right Now)	（当下无法保存）
-src/states/game.lua:198		No escape	
+src/states/game.lua:198		No escape	没有出口
 src/states/game.lua:200		Abandon	放弃
 src/states/game.lua:202		Quit to menu and lose all gained stars?	退出至菜单并失去所有获得的星星？
 src/states/game.lua:207		No way out	无处可逃
@@ -1265,7 +1265,7 @@ src/states/game.lua:1091		praying...	祈祷中。。
 src/states/game.lua:1091		pray	祈祷
 src/states/game.lua:1169		Losing all Turns ends the game.\nTurns refill at the start of each level.	所有回合耗尽后将结束游戏。\n回合在每关开始时重置。
 src/states/game.lua:1420 (+1 others)		MERGED	合成
-src/states/game.lua:1629		pause	
+src/states/game.lua:1629		pause	暂停
 src/states/game.lua:1904 (+2 others)		Level $level/$count $name	关卡 $level/$count $name
 src/states/game.lua:1956		NIGHTMARE LEVEL	噩梦关卡
 src/states/game.lua:2078 (+1 others)		Rift	裂谷
@@ -1424,7 +1424,7 @@ src/states/tax_audit.lua:350		You've been audited.\nYou haven't paid taxes.\nWe 
 src/states/title.lua:79		roll 6 to play\nroll 1 to quit	投出6以开玩\n投出1以退出
 src/states/title.lua:159 (+1 others)	dialogue	so you chose to come back	你选择了归来
 src/states/title.lua:161 (+1 others)	dialogue	you will see, very soon	你将很快认识到这一点
-src/states/title.lua:215		GAMEPAD WARNING: support is still pretty rough - report bugs on steam or discord <3	
+src/states/title.lua:215		GAMEPAD WARNING: support is still pretty rough - report bugs on steam or discord <3	GAMEPAD警告：适配还没完全做好-请在steam或者discord上报错 <3
 src/states/title.lua:224 (+1 others)		the world you grew up in no longer exists	你所熟悉的世界已不复存在
 src/states/title.lua:241		get back in here	给我回来
 src/states/title.lua:245		Play	开玩
