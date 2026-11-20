@@ -243,9 +243,9 @@ src/coloured_text.lua:95 (+12 others)		stuck	卡住
 src/coloured_text.lua:98 (+2 others)		empty	空白
 src/display_loc.lua:3		Normal	
 src/display_loc.lua:4		Pixel	
-src/endings/alley.lua:28	dialogue	very well	
-src/endings/alley.lua:29	dialogue	next time bring me all the teeth	
-src/endings/alley.lua:64		knock	
+src/endings/alley.lua:28	dialogue	very well	很好
+src/endings/alley.lua:29	dialogue	next time bring me all the teeth	下次把所有牙齿都带给我
+src/endings/alley.lua:64		knock	敲一下
 src/endings/alley.lua:135	dialogue	i'll be waiting in your guts	
 src/endings/anais.lua:124	dialogue	don't leave again	别再离开了
 src/endings/anais.lua:125	dialogue	you're safe here	在这里你很安全
