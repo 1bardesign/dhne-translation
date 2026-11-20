@@ -10,6 +10,7 @@ src/are_you_sure.lua:17		really?	точно?
 src/board_unlocks.lua:7		chill vibes	расслабляющая атмосфера
 src/board_unlocks.lua:17		the real game begins	начинается настоящая игра
 src/board_unlocks.lua:27		something smells fishy	попахивает рыбой
+src/board_unlocks.lua:46		all in	ва-банк
 src/boards/easy.lua:2		Shallows	Мелководье
 src/boards/easy.lua:3		Chill Vibes. Short run, extra bust limit.	Расслабляющая атмосфера. Короткий забег, дополнительный баст.
 src/boards/easy.lua:4		the friendliest pond around	самый дружелюбный пруд в округе
@@ -29,7 +30,7 @@ src/character_unlocks.lua:21		tries her best	старается изо всех 
 src/character_unlocks.lua:31		likes watching you bust	любит смотреть как тебе выпадает баст
 src/character_unlocks.lua:42		just a dude	просто парень
 src/character_unlocks.lua:53		gets away with it	как с гуся вода
-src/character_unlocks.lua:63		god's stronger warrior	сильнейший воин Бога
+src/character_unlocks.lua:63		god's strongest warrior	сильнейший воин Бога
 src/character_unlocks.lua:74		woof	гав
 src/character_unlocks.lua:84 (+1 others)	dialogue	woof?	гав?
 src/character_unlocks.lua:95		he's so cool	он такой крутой
@@ -370,9 +371,9 @@ src/entities/shop.lua:1333		take change	взять сдачу
 src/entities/shop.lua:1405		bye	пока
 src/entities/shop.lua:1453		Reroll - ${current_cost}¥	Переброс - ${current_cost}¥
 src/entities/tape.lua:453		- web	- сайт
-src/entities/title_text.lua:3		DICE HAVE\nNO EYES	У КУБИКOВ\nНЕТ ГЛАЗ
-src/entities/title_text.lua:5		DICE HAVE\nNÕ EYES	У КУБИКÕВ\nНЕТ ГЛАЗ
-src/entities/title_text.lua:6		DICE HAVE\nNÖ EYES	У КУБИКÖВ\nНЕТ ГЛАЗ
+src/entities/title_text.lua:3		DICE HAVE\nNO EYES	У КУБИКОВ\nНЕТ ГЛАЗ
+src/entities/title_text.lua:5		DICE HAVE\nNÕ EYES	У КУБИКОВ\nНЕТ ГЛАЗ
+src/entities/title_text.lua:6		DICE HAVE\nNÖ EYES	У КУБИКОВ\nНЕТ ГЛАЗ
 src/entities/title_text.lua:127		DEMO	ДЕМО
 src/haunt.lua:14 (+2 others)		wake up	проснись
 src/haunt.lua:17		leave	уйди
@@ -1265,7 +1266,7 @@ src/states/game.lua:1099		praying...	молитва...
 src/states/game.lua:1099		pray	молиться
 src/states/game.lua:1177		Losing all Turns ends the game.\nTurns refill at the start of each level.	Потеря всех Ходов завершает игру.\nХоды восполняются в начале каждого уровня.
 src/states/game.lua:1428 (+1 others)		MERGED	ОБЪЕДИНЕНЫ
-src/states/game.lua:1637		pause	пауза
+src/states/game.lua:1637		pause	
 src/states/game.lua:1911 (+2 others)		Level $level/$count $name	Уровень $level/$count $name
 src/states/game.lua:1963		NIGHTMARE LEVEL	КОШМАР
 src/states/game.lua:2085 (+1 others)		Rift	Разлом

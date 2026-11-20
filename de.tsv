@@ -10,6 +10,7 @@ src/are_you_sure.lua:17		really?	wirklich?
 src/board_unlocks.lua:7		chill vibes	chillige vibes
 src/board_unlocks.lua:17		the real game begins	das spiel beginnt
 src/board_unlocks.lua:27		something smells fishy	riecht nach fisch
+src/board_unlocks.lua:46		all in	alles oder nichts
 src/boards/easy.lua:2		Shallows	Seichte Gewässer
 src/boards/easy.lua:3		Chill Vibes. Short run, extra bust limit.	Chillige Vibes.\nKurzer Run, Höheres Bust-Limit.
 src/boards/easy.lua:4		the friendliest pond around	der freundlichste teich\nin der nachbarschaft
@@ -29,7 +30,7 @@ src/character_unlocks.lua:21		tries her best	gibt ihr bestes
 src/character_unlocks.lua:31		likes watching you bust	busts, busts, wir brauchen busts
 src/character_unlocks.lua:42		just a dude	nur so ein typ
 src/character_unlocks.lua:53		gets away with it	einfach bezaubernd
-src/character_unlocks.lua:63		god's stronger warrior	gottes stärkerer krieger
+src/character_unlocks.lua:63		god's strongest warrior	gottes stärkster krieger
 src/character_unlocks.lua:74		woof	wau
 src/character_unlocks.lua:84 (+1 others)	dialogue	woof?	wau?
 src/character_unlocks.lua:95		he's so cool	er ist so cool

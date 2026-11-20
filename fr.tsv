@@ -10,6 +10,7 @@ src/are_you_sure.lua:17		really?	vraiment ?
 src/board_unlocks.lua:7		chill vibes	à la cool
 src/board_unlocks.lua:17		the real game begins	le vrai jeu commence
 src/board_unlocks.lua:27		something smells fishy	cette odeur de poisson n’inspire pas confiance
+src/board_unlocks.lua:46		all in	tout d’un coup
 src/boards/easy.lua:2		Shallows	Lagune
 src/boards/easy.lua:3		Chill Vibes. Short run, extra bust limit.	À la cool. Partie plus courte, limites de Burst supplémentaires.
 src/boards/easy.lua:4		the friendliest pond around	l’étang le plus sympa du coin
@@ -29,7 +30,7 @@ src/character_unlocks.lua:21		tries her best	fait de son mieux
 src/character_unlocks.lua:31		likes watching you bust	aime te regarder dormir
 src/character_unlocks.lua:42		just a dude	juste un gars
 src/character_unlocks.lua:53		gets away with it	s’en sort toujours
-src/character_unlocks.lua:63		god's stronger warrior	puissante émissaire de dieu
+src/character_unlocks.lua:63		god's strongest warrior	puissante émissaire de dieu
 src/character_unlocks.lua:74		woof	ouaf
 src/character_unlocks.lua:84 (+1 others)	dialogue	woof?	ouaf ?
 src/character_unlocks.lua:95		he's so cool	il est tellement cool
@@ -371,8 +372,8 @@ src/entities/shop.lua:1405		bye	à plus
 src/entities/shop.lua:1453		Reroll - ${current_cost}¥	Rafraîchir - ${current_cost} ¥
 src/entities/tape.lua:453		- web	- site web
 src/entities/title_text.lua:3		DICE HAVE\nNO EYES	DICE HAVE\nNO EYES
-src/entities/title_text.lua:5		DICE HAVE\nNÕ EYES	DICE HAVE\nNÕ EYES
-src/entities/title_text.lua:6		DICE HAVE\nNÖ EYES	DICE HAVE\nNÖ EYES
+src/entities/title_text.lua:5		DICE HAVE\nNÕ EYES	DICE HAVE\nNO EYES
+src/entities/title_text.lua:6		DICE HAVE\nNÖ EYES	DICE HAVE\nNO EYES
 src/entities/title_text.lua:127		DEMO	DEMO
 src/haunt.lua:14 (+2 others)		wake up	debout
 src/haunt.lua:17		leave	pars
