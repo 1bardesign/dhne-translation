@@ -80,7 +80,7 @@ src/characters/god.lua:34	dialogue	begone	va-t’en
 src/characters/god.lua:40		wager your soul	miser votre âme
 src/characters/god.lua:41		Wager your Soul?	Miser votre âme ?
 src/characters/god.lua:42		You are wagering your soul.\nIf you lose, your save is gone forever.	Vous misez votre âme.\nSi vous perdez, votre sauvegarde sera supprimée.
-src/characters/god.lua:51	dialogue	i hope you are feeling lucky	j’espère que t’es en veine
+src/characters/god.lua:51	dialogue	i hope you are feeling lucky	j’espère que tu es en veine
 src/characters/god.lua:70		but you have earned nothing	mais vous n’avez rien gagné
 src/characters/god.lua:72		but you need ${stars} ¤	mais il vous faut ${stars} ¤
 src/characters/god.lua:77		wager a gold ¤	miser une ¤ dorée
@@ -91,7 +91,7 @@ src/characters/god.lua:85		wager all ${gold} gold ¤	miser la totalité de vos $
 src/characters/god.lua:87		wager everything	miser tout
 src/characters/god.lua:97	dialogue	you always were my bravest child	tu as toujours été mon enfant le plus brave
 src/characters/god.lua:102		God?	Dieu ?
-src/characters/god.lua:135	dialogue	cheating? me? god?	tricher ? moi ? dieu ?
+src/characters/god.lua:135	dialogue	cheating? me? god?	tu as voulu me duper ? moi ? dieu ?
 src/characters/god.lua:136	dialogue	i appreciate the boldness	j’apprécie l’audace
 src/characters/god.lua:137	dialogue	it will not work again	ça ne marchera plus
 src/characters/god.lua:161	dialogue	no tickle	un peu de sérieux
@@ -134,7 +134,7 @@ src/characters/liz.lua:90	dialogue	You'll get it next time!	Tu y arriveras la pr
 src/characters/liz.lua:120	dialogue	...Want to keep going?	...Tu veux continuer ?
 src/characters/liz.lua:122	dialogue	I'll revive you for $cost ¤ and one die	Je peux te faire revivre contre $cost ¤ et un dé
 src/characters/liz.lua:128	dialogue	Your loss :)	Tant pis pour toi :)
-src/characters/liz.lua:141	dialogue	Hope it's worth it!	Fais-en bon usage !
+src/characters/liz.lua:141	dialogue	Hope it's worth it!	J'espère que ça vaut le coup !
 src/characters/mushroom.lua:2		Srop M.	Srop M.
 src/characters/saimi.lua:2		Saimi	Saimi
 src/characters/saimi.lua:31 (+2 others)	dialogue	Moi	Hei
@@ -151,12 +151,12 @@ src/characters/shirin.lua:212	dialogue	Bad luck...	Pas de chance…
 src/characters/shirin.lua:220	dialogue	Lucky!	C’est ton jour de chance !
 src/characters/tooth_fairy.lua:2		Tooth Fairy	Fée des Dents
 src/characters/tooth_fairy.lua:31		Cavity	Carie
-src/characters/tooth_fairy.lua:57	dialogue	Reach level 7 and I'll leave your teeth alone.	Atteins le niveau 7 et je laisse ta dent tranquille.
-src/characters/tooth_fairy.lua:59	dialogue	Reach level 10 and I'll leave your teeth alone.	Atteins le niveau 10 et je laisse ta dent tranquille.
+src/characters/tooth_fairy.lua:57	dialogue	Reach level 7 and I'll leave your teeth alone.	Atteins le niveau 7 et je laisse tes dents tranquille.
+src/characters/tooth_fairy.lua:59	dialogue	Reach level 10 and I'll leave your teeth alone.	Atteins le niveau 10 et je laisse tes dents tranquille.
 src/characters/tutorial_character.lua:49	dialogue	Hi! Welcome!	Bien le bonjour ! Bienvenue !
 src/characters/tutorial_character.lua:50	dialogue	You're dead!	Tu es mort !
 src/characters/tutorial_character.lua:51	dialogue	Or asleep!	Ou tu es en train de dormir.
-src/characters/tutorial_character.lua:52	dialogue	... Either way, you won't remember this :)	… Quoi qu’il en soit, tu ne te souviendras pas de ça :)
+src/characters/tutorial_character.lua:52	dialogue	... Either way, you won't remember this :)	... Quoi qu’il en soit, tu ne te souviendras pas de ça :)
 src/characters/tutorial_character.lua:53	dialogue	Now let's play.\nRoll the dice.	Il est temps de jouer.\nJette les dés.
 src/characters/tutorial_character.lua:70	dialogue	Good. You gained some points.	Bien. Tu as gagné des points.
 src/characters/tutorial_character.lua:71	dialogue	They're not safe until you BANK them.	Il ne valent rien tant que tu ne les Coffres pas.
@@ -259,7 +259,7 @@ src/endings/cool_fish.lua:132	dialogue	you are cool	tu es cool
 src/endings/cool_fish.lua:133	dialogue	but i am god	mais je suis dieu
 src/endings/cool_fish.lua:134	dialogue	believe in me	crois en moi
 src/endings/dog.lua:67		throw that shit	lancer
-src/endings/dog.lua:129	dialogue	what a good boy	ça c'est un bon chien !
+src/endings/dog.lua:129	dialogue	what a good boy	ça c'est un bon chien
 src/endings/dog.lua:130	dialogue	i am neither good nor bad	je ne suis ni bon, ni mauvais
 src/endings/god.lua:155	dialogue	it was very brave of you to come back	c’était très courageux de ta part de revenir
 src/endings/god.lua:156	dialogue	again	encore
@@ -276,9 +276,9 @@ src/endings/king_fetus.lua:147	dialogue	don't go again	ne t’en va pas, pas enc
 src/endings/king_fetus.lua:148	dialogue	you're so young	tu es si jeune
 src/endings/king_fetus.lua:149	dialogue	don't face the world	le monde extérieur est dangereux
 src/endings/king_fetus.lua:150	dialogue	stay here	reste ici
-src/endings/liz.lua:33		hit that mochi?	manger ?
+src/endings/liz.lua:33		hit that mochi?	manger le mochi ?
 src/endings/liz.lua:175	dialogue	how did you do?	alors, comment tu t’en es sorti ?
-src/endings/liz.lua:176	dialogue	in the test, i mean	au test, je veux dire
+src/endings/liz.lua:176	dialogue	in the test, i mean	à l'examen, je veux dire
 src/endings/liz.lua:177	dialogue	we all pass\nin one way or another	on le réussit toujours\nd’une façon ou d’une autre
 src/endings/liz.lua:178	dialogue	eventually	on finit toujours par le réussir
 src/endings/marooned.lua:75	dialogue	i am your salvation	je suis ton salut
@@ -286,7 +286,7 @@ src/endings/marooned.lua:76	dialogue	you are not drowning	tu n’es pas en train
 src/endings/party.lua:130	dialogue	You finished the Shallows!	Tu as fini la Lagune !
 src/endings/party.lua:131	dialogue	Unlock the next Depth from Star Guts for a bigger challenge.	Un défi plus corsé t’attend à ta prochaine destination. Débloque-la depuis les Voies Stellaires.
 src/endings/shirin.lua:136	dialogue	welcome back	tu es de retour
-src/endings/shirin.lua:137	dialogue	so you believe	alors tu crois
+src/endings/shirin.lua:137	dialogue	so you believe	ça y est, tu as la foi
 src/endings/shirin.lua:138	dialogue	i am here	je suis là
 src/endings/tooth_fairy.lua:36		hit the guts	descendre
 src/endings/tooth_fairy.lua:105	dialogue	hello friend	salut, l’ami
@@ -305,7 +305,7 @@ src/entities/buttons_clump.lua:133		Deselect	Désélect.
 src/entities/buttons_clump.lua:134		Deselect everything to make a new selection	Désélectionner tous les dés pour faire une nouvelle sélection.
 src/entities/buttons_clump.lua:257		Roll just the selected dice	Lancer seulement les dés sélectionnés
 src/entities/buttons_clump.lua:259		Roll Blank	Lancer auto
-src/entities/buttons_clump.lua:260		Roll all blank dice	Lancer tous les dés encore en suspens
+src/entities/buttons_clump.lua:260		Roll all blank dice	Lancer tous les dés en suspens
 src/entities/buttons_clump.lua:262		Roll All	Lancer tout
 src/entities/buttons_clump.lua:263		Re-roll all your dice	Relancer tous les dés
 src/entities/buttons_clump.lua:353		any bust:\ninstant wipe:	Burst :\nKO direct :
@@ -372,8 +372,8 @@ src/entities/shop.lua:1405		bye	à plus
 src/entities/shop.lua:1453		Reroll - ${current_cost}¥	Rafraîchir - ${current_cost} ¥
 src/entities/tape.lua:453		- web	- site web
 src/entities/title_text.lua:3		DICE HAVE\nNO EYES	DICE HAVE\nNO EYES
-src/entities/title_text.lua:5		DICE HAVE\nNÕ EYES	DICE HAVE\nNO EYES
-src/entities/title_text.lua:6		DICE HAVE\nNÖ EYES	DICE HAVE\nNO EYES
+src/entities/title_text.lua:5		DICE HAVE\nNÕ EYES	DICE HAVE\nNÕ EYES
+src/entities/title_text.lua:6		DICE HAVE\nNÖ EYES	DICE HAVE\nNÖ EYES
 src/entities/title_text.lua:127		DEMO	DEMO
 src/haunt.lua:14 (+2 others)		wake up	debout
 src/haunt.lua:17		leave	pars
@@ -383,10 +383,10 @@ src/haunt.lua:21 (+2 others)		go outside	va dehors
 src/haunt.lua:23		you're dreaming	tu es en train de rêver
 src/haunt.lua:24		you're stuck in the loop	tu es coincé dans une boucle
 src/haunt.lua:25		are you stuck?	tu es coincé ?
-src/haunt.lua:26		move on	sors de la boucle
+src/haunt.lua:26		move on	passe à autre chose
 src/haunt.lua:27		break the pattern	brise le cycle
 src/haunt.lua:28		what are you doing	qu’est-ce que tu fais
-src/haunt.lua:29		you've consumed enough	tu as assez consommé
+src/haunt.lua:29		you've consumed enough	tu en as assez pris
 src/haunt.lua:30		it's all made up	tout est inventé
 src/haunt.lua:31		consume sleep repeat	consommer, dormir, recommencer
 src/haunt.lua:32 (+1 others)		get out	sors d’ici
@@ -831,11 +831,11 @@ src/items.lua:3418		Each Bonus side scored gives +100 Points	+100 Points pour ch
 src/items.lua:3437		Power Bonus	Bonus Pouvoir
 src/items.lua:3440		Each Power side scored gives +100 Points	+100 Points pour chaque face Pouvoir jouée
 src/items.lua:3483		Stuck Mult	Multi Bloqué
-src/items.lua:3486		Each Stuck side scored gives +4 Mult	+100 Points pour chaque face Bloquée jouée
+src/items.lua:3486		Each Stuck side scored gives +4 Mult	Multi +4 pour chaque face Bloquée jouée
 src/items.lua:3505		Bonus Mult	Multi Bonus
-src/items.lua:3508		Each Bonus side scored gives +3 Mult	+100 Points pour chaque face Bonus jouée
+src/items.lua:3508		Each Bonus side scored gives +3 Mult	Multi +3 pour chaque face Bonus jouée
 src/items.lua:3526		Power Mult	Multi Pouvoir
-src/items.lua:3529		Each Power side scored gives +2 Mult	+100 Points pour chaque face Pouvoir jouée
+src/items.lua:3529		Each Power side scored gives +2 Mult	Multi +2 pour chaque face Pouvoir jouée
 src/items.lua:3566		Rowan	Sorbier
 src/items.lua:3569		+5 Mult if the combo contains at least three 1s	Multi +5 si la main contient au moins trois 1
 src/items.lua:3693		House Stamp	Timbre Full
@@ -1017,7 +1017,7 @@ src/items.lua:6086		+3 Bust.\n5% chance to activate on dice rolls.	Inflige 3 Bur
 src/items.lua:6102		+3 Bust	3 Burst
 src/items.lua:6113		-1 Turn.\n5% chance to activate on dice rolls.	-1 tour.\n5 % de chance de s’activer à chaque lancer de dés.
 src/items.lua:6130		-1 Turn	-1 tour
-src/items.lua:6143		Fish Bucket	Seau de poissons
+src/items.lua:6143		Fish Bucket	Seau à poissons
 src/items.lua:6153		No fish power!	Aucun poisson !
 src/items.lua:6163		+15 Fish!	+15 poissons !
 src/items.lua:6168		Fish Offering	Offre de poissons
@@ -1060,7 +1060,7 @@ src/items.lua:6473		Dice pip becomes 6	Le résultat du dé passe à 6
 src/items.lua:6492		Scrambled Eggs	Œufs brouillés
 src/items.lua:6493		Dice pip becomes ???	Le résultat du dé passe à ???
 src/items.lua:6520		Maths Test	Interro de maths
-src/items.lua:6523		Spawn 0-6 random numeracy foods	Fait apparaître 0-6 snacks de la catégorie Arithmétique
+src/items.lua:6523		Spawn 0-6 random numeracy foods	Fait apparaître 0-6 snacks Arithmétique
 src/items.lua:6553		Result: $grade / $total	Résultat : $grade / $total
 src/items.lua:6564		Clown Shoes	Chaussures de clown
 src/items.lua:6567		Nudge all dice either -1 or +3 pips	-1 ou +3 au résultat de tous les dés
@@ -1238,7 +1238,7 @@ src/states/fish_market.lua:265		Next!	Suivant
 src/states/game.lua:148 (+2 others)		back	retour
 src/states/game.lua:162		PAUSE II	PAUSE II
 src/states/game.lua:170 (+1 others)		Continue	Continuer
-src/states/game.lua:174 (+1 others)		Cannot Restart Wager Runs	Vous ne pouvez pas recommencer une partie avec Mise
+src/states/game.lua:174 (+1 others)		Cannot Restart Wager Runs	Vous ne pouvez pas recommencer une partie avec mise
 src/states/game.lua:177		Restart	Recommencer
 src/states/game.lua:179		Restart the run from scratch\nand lose all gained stars?	Recommencer la partie depuis le début ?\nToutes les étoiles gagnées seront perdues.
 src/states/game.lua:185 (+3 others)		Options	Paramètres
@@ -1399,8 +1399,8 @@ src/states/outside.lua:19		this was a game about waking up	ce jeu voulait que vo
 src/states/scoreboard.lua:39		Loading Scores...	Chargement des scores…
 src/states/scoreboard.lua:116		# player	# joueur
 src/states/scoreboard.lua:133		lemme try	jouer
-src/states/scoreboard.lua:202		Your Luck	Vous avez plus de chance
-src/states/scoreboard.lua:207		luckier than ${percent}%	que ${percent} % des joueurs
+src/states/scoreboard.lua:202		Your Luck	Votre chance
+src/states/scoreboard.lua:207		luckier than ${percent}%	+ chanceux que ${percent}%
 src/states/scoreboard.lua:215		need more rolls	il faut plus de données
 src/states/scoreboard.lua:223		rolls	lancers
 src/states/scoreboard.lua:227		busts	burst
@@ -1477,7 +1477,7 @@ src/sync_scoreboards.lua:105		death tax	taxe mortelle
 src/sync_scoreboards.lua:113		The End Any%	Speedrun Any% La Fin
 src/sync_scoreboards.lua:118		runs	parties 
 src/sync_scoreboards.lua:142		luck	chance
-src/sync_scoreboards.lua:203 (+1 others)	dialogue	you	vous 
+src/sync_scoreboards.lua:203 (+1 others)	dialogue	you	toi 
 src/ui/character_body.lua:302 (+2 others)	ui	LOCKED	VERROUILLÉ
 src/ui/combination_table.lua:34 (+1 others)	ui	flush	flush
 src/ui/combination_table.lua:50	ui	Combinations	Figures
@@ -1493,19 +1493,19 @@ src/ui/help_screen.lua:74	ui	INFO DUMP :)	INFOS PRATIQUES :)
 src/ui/help_screen.lua:111	ui	BUST	BURST
 src/ui/help_screen.lua:112	ui	Each die has a red Bust side.\nRolling Bust side reduces your Bust meter.\n\nIf Bust meter goes to 0 you WIPE.\nAll unbanked points are gone, turn ends.	Chaque dé a une face Burst.\nTomber dessus réduit votre compteur de Burst.\n\nSi vous n’avez plus de Burst, vous tombez KO.\nTous les points en attente sont perdus, et le tour se termine.
 src/ui/help_screen.lua:115	ui	ALL BUST - INSTANT WIPE	QUE DES BURST - KO DIRECT
-src/ui/help_screen.lua:116	ui	The tricky part!\n\nIf all dice you rolled at once show Bust,\nyou WIPE instantly, regardless of the Bust meter.\n\nExample: 3 out of 3 dice rolled Bust	C’est là que ça se complique !\n\nSi tous les dés d’un même lancer tombent sur Burst,\nvous tombez KO instantanément, quel que soit votre nombre de Burst.\n\nExemple : vous lancez 3 dés, les 3 tombent sur Burst
+src/ui/help_screen.lua:116	ui	The tricky part!\n\nIf all dice you rolled at once show Bust,\nyou WIPE instantly, regardless of the Bust meter.\n\nExample: 3 out of 3 dice rolled Bust	C’est là que ça se complique !\nSi tous les dés d’un même lancer tombent sur Burst,\nvous tombez KO instantanément, quel que soit votre nombre de Burst.\n\nExemple : vous lancez 3 dés, les 3 tombent sur Burst
 src/ui/help_screen.lua:119	ui	BANKING	COFFRER VOS POINTS
 src/ui/help_screen.lua:120	ui	BANK to lock in your points and refill the Bust meter.\nEach BANK ends your Turn.	Coffrez vos points pour les sécuriser et recharger votre compteur de Burst. Cela met fin au tour.
 src/ui/help_screen.lua:123	ui	TURN	TOUR
 src/ui/help_screen.lua:124	ui	Each level you get limited Turns.\nTurns end when you BANK or WIPE.\nWhen you run out of Turns the game is over.\nBust meter and Power charge refill each turn.	À chaque niveau, vous avez un nombre de tours limité.\nLe tour se termine quand vous Coffrez ou lors d’un KO.\nQuand vous avez joué tous vos tours, vous perdez la partie.\nLes Burst et le Pouvoir se rechargent à chaque tour.
 src/ui/help_screen.lua:129	ui	SCORING	JOUER DES DÉS
-src/ui/help_screen.lua:130	ui	Select dice that form a combo and score them.\nPoints x Mult = Score.\nBigger combos score exponentially more.\nScore multiple combos in one Turn to build Momentum for extra Points and Mult	Sélectionnez des dés qui forment une figure et jouez-les.\nPoints x Multi = Score.\nJouer de meilleures figures rapporte beaucoup plus de points.\nEnchaîner des figures au cours d’un même Tour fait grimper le niveau d’ Enchaînement, qui octroie une base de Points et de Multi
+src/ui/help_screen.lua:130	ui	Select dice that form a combo and score them.\nPoints x Mult = Score.\nBigger combos score exponentially more.\nScore multiple combos in one Turn to build Momentum for extra Points and Mult	Sélectionnez des dés qui forment une figure et jouez-les.\nPoints x Multi = Score.\nJouer de meilleures figures rapporte beaucoup plus de points.\nEnchaîner des figures au cours d’un même Tour fait grimper l’ Enchaînement, qui octroie une base de Points et de Multi
 src/ui/help_screen.lua:133	ui	TRINKETS, SPELLS & SNACKS	RELIQUES, SORTS & SNACKS
 src/ui/help_screen.lua:134	ui	- Trinkets are passive, they trigger automatically.\n- Spells are one time use!\n- Snacks are dragged onto a die to add special effects.	- Les reliques se déclenchent automatiquement.\n- Les sorts sont à usage unique !\n- Donnez un snack à un dé à un dé pour lui ajouter des effets.
 src/ui/help_screen.lua:137	ui	CHARACTER POWER	POUVOIR DE PERSONNAGE
-src/ui/help_screen.lua:138	ui	Each character has a unique Power. Use them to modify dice, reduce risk and get better combos.\n\nPower recharges each turn or with die side effects and items.	Chaque personnage a un Pouvoir unique, pour influer sur les dés, réduire les risques et faire de meilleures figures.\n\nIl se recharge à chaque tour, ou à l’aide d’effets variés.
+src/ui/help_screen.lua:138	ui	Each character has a unique Power. Use them to modify dice, reduce risk and get better combos.\n\nPower recharges each turn or with die side effects and items.	Chaque personnage a un Pouvoir unique, pour influer sur les dés, réduire les risques et faire de meilleures figures.\nIl se recharge à chaque tour, ou à l’aide d’effets variés.
 src/ui/help_screen.lua:141	ui	BASIC TACTICS	STRATÉGIE DE BASE
-src/ui/help_screen.lua:142	ui	The more dice you roll at once the bigger chance of any Bust, but smaller chance of All Bust.\n\nRerolling a single die is ballsy! Prioritize rerolling blank dice. Scoring a single big combo is better than few pairs.	Plus vous lancez de dés d’un coup, plus vous avez de chance de faire un Burst, mais moins vous avez de chance de ne faire que des Burst.\n\nLancer un seul dé est risqué ! Lancez d’abord les dés en suspens. Une seule grosse figure vaut mieux que quelques Paires.
+src/ui/help_screen.lua:142	ui	The more dice you roll at once the bigger chance of any Bust, but smaller chance of All Bust.\n\nRerolling a single die is ballsy! Prioritize rerolling blank dice. Scoring a single big combo is better than few pairs.	Plus vous lancez de dés d’un coup, plus vous avez de chance de faire un Burst, mais moins vous avez de chance de ne faire que des Burst.\n\nLancer un seul dé est risqué ! Lancez d’abord les dés en suspens. Une grosse figure vaut mieux que quelques Paires.
 src/ui/item_hover.lua:73 (+4 others)	ui	SPELL	SORT
 src/ui/level_map.lua:65	ui	LEVEL MAP	CARTE DES NIVEAUX
 src/ui/level_map.lua:165		Level ${level}	Niveau ${level}
