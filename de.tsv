@@ -90,8 +90,8 @@ src/characters/god.lua:85		wager all ${gold} gold ¤	alle ${golden} goldenen ¤ 
 src/characters/god.lua:87		wager everything	alles wetten
 src/characters/god.lua:97	dialogue	you always were my bravest child	du warst schon immer mein mutigstes kind
 src/characters/god.lua:102		God?	Gott?
-src/characters/god.lua:135	dialogue	cheating? me? god?	schummeln? ich? gott?
-src/characters/god.lua:136	dialogue	i appreciate the boldness	ich schätze deine direktheit
+src/characters/god.lua:135	dialogue	cheating? me? god?	du hintergehst mich? gott?
+src/characters/god.lua:136	dialogue	i appreciate the boldness	ich schätze deinen mut
 src/characters/god.lua:137	dialogue	it will not work again	das wird nicht nochmal klappen
 src/characters/god.lua:161	dialogue	no tickle	nicht kitzeln
 src/characters/god.lua:288		i demand commitment	ich fordere deine hingabe
@@ -276,9 +276,9 @@ src/endings/king_fetus.lua:148	dialogue	you're so young	du bist so jung
 src/endings/king_fetus.lua:149	dialogue	don't face the world	stelle dich nicht der welt
 src/endings/king_fetus.lua:150	dialogue	stay here	bleib hier
 src/endings/liz.lua:33		hit that mochi?	zieh den mochi?
-src/endings/liz.lua:175	dialogue	how did you do?	wie hast du abgeschnitten?
+src/endings/liz.lua:175	dialogue	how did you do?	wie hast du dich gemacht?
 src/endings/liz.lua:176	dialogue	in the test, i mean	im test, meine ich
-src/endings/liz.lua:177	dialogue	we all pass\nin one way or another	wir alle schaffen es\nauf eine bestimmte art und weise
+src/endings/liz.lua:177	dialogue	we all pass\nin one way or another	wir alle kommen durch\nauf irgendeine art
 src/endings/liz.lua:178	dialogue	eventually	irgendwann
 src/endings/marooned.lua:75	dialogue	i am your salvation	ich bin deine erlösung
 src/endings/marooned.lua:76	dialogue	you are not drowning	jetzt ertrinkst du
@@ -287,7 +287,7 @@ src/endings/party.lua:131	dialogue	Unlock the next Depth from Star Guts for a bi
 src/endings/shirin.lua:136	dialogue	welcome back	willkommen zurück
 src/endings/shirin.lua:137	dialogue	so you believe	also glaubst du
 src/endings/shirin.lua:138	dialogue	i am here	ich bin hier
-src/endings/tooth_fairy.lua:36		hit the guts	zieh die gedärme
+src/endings/tooth_fairy.lua:36		hit the guts	in die gedärme
 src/endings/tooth_fairy.lua:105	dialogue	hello friend	hallo freund
 src/endings/tooth_fairy.lua:106	dialogue	any good finds?	irgendwas gutes gefunden?
 src/endings/wizard.lua:49		ponder that orb	in die kugel starren
@@ -339,15 +339,15 @@ src/entities/dice_peek.lua:281		Dice live forever	Würfel sind unsterblich
 src/entities/dice_peek.lua:281		Dice are mortal	Würfel sind sterblich
 src/entities/dice_pick.lua:7		Swap Dice	Würfel Tauschen
 src/entities/dice_pick.lua:20		Swap	Tauschen
-src/entities/dice_pick.lua:28		Skip	Skip
+src/entities/dice_pick.lua:28		Skip	Überspringen
 src/entities/die_baby.lua:7		Old Baby	Altes Baby
 src/entities/die_baby.lua:13		Scores x	Wertet x
-src/entities/dupe_baby.lua:7		Dupe Baby	Duplikator Baby
+src/entities/dupe_baby.lua:7		Dupe Baby	Dupli-Baby
 src/entities/dupe_baby.lua:59		Duplicated!	Dupliziert!
 src/entities/encounter_timeline.lua:136		Goal Reached	Ziel Erreicht
 src/entities/encounter_timeline.lua:437		GOAL REACHED	ZIEL ERREICHT
 src/entities/encounter_timeline.lua:438		${to_go} TO GO	${to_go} ÜBRIG
-src/entities/eye_baby.lua:7		Eye Baby	Augen Baby
+src/entities/eye_baby.lua:7		Eye Baby	Augen-Baby
 src/entities/fish_spawner.lua:215		Cool Fish Available	Cooler Fisch Verfügbar
 src/entities/god_shop.lua:68		CHOOSE	WÄHLE
 src/entities/god_shop.lua:499		reroll %d ¤	neue ware %d ¤
@@ -540,7 +540,7 @@ src/items.lua:585		Heal	Heilung
 src/items.lua:588		All dice +1 ♥	Alle Würfel +1 ♥
 src/items.lua:602		Healed!	Geheilt!
 src/items.lua:607		Clutch	Klammern
-src/items.lua:610		Hold your next score	Halte deine nächste Wertung
+src/items.lua:610		Hold your next score	Behalte deine nächste Wertung
 src/items.lua:619 (+2 others)		Hold!	Behalten!
 src/items.lua:625		Snack Bag	Fresstüte
 src/items.lua:628		Spawn 2-3 random snack items	Erzeugt 2-3 zufällige Snacks
@@ -743,9 +743,9 @@ src/items.lua:2548		Sardine	Sardine
 src/items.lua:2551		+50 Points per scored coin	+50 Punkte pro gewerteter Münze
 src/items.lua:2562		+${amount} pts	+${amount} pkt
 src/items.lua:2571		Snake Hold	Ouroboros
-src/items.lua:2574		Snake Eyes hold score	Ein 1er-Paar hält die Punkte zurück
+src/items.lua:2574		Snake Eyes hold score	Die Wertung eines 1er-Paars wird zurückgehalten
 src/items.lua:2591		The Mask	Die Maske
-src/items.lua:2594		Combos with 6s hold score	Combos mit 6en halten die Punktzahl
+src/items.lua:2594		Combos with 6s hold score	Combos mit 6er-Würfeln halten die Wertung zurück
 src/items.lua:2612		Black Eye	Das Schwarze Auge
 src/items.lua:2615		Spawn a Black Eyed Pea on Bust	Erzeugt eine Schwarzaugebohne wenn ein Bust geworfen wird
 src/items.lua:2623		Pea!	Bohne!
@@ -1084,7 +1084,7 @@ src/powers.lua:52		Lock one selected die. Spawn 2 ghost dice.	Erzeuge 2 Geisterw
 src/powers.lua:75		Tell The Future	Wahrsagerei
 src/powers.lua:76		Block 2 sides from being rolled on the selected die next roll.	Verhindere 2 Seiten für den nächsten Wurf.
 src/powers.lua:104		Nudge Skip	Skip-Kippen
-src/powers.lua:105		+1 pip to the selected die, skipping values already showing.	Kippt den gewählten Würfel +1 Auge. Überspringt dabei Augenzahlen,\nwelche andere Würfel zeigen
+src/powers.lua:105		+1 pip to the selected die, skipping values already showing.	Kippt den gewählten Würfel +1 Auge. Überspringt dabei Augenzahlen,\nwelche bereits liegen.
 src/powers.lua:140		Nudge Up	Hoch Kippen
 src/powers.lua:141		+1 pip to the selected die	Kippt den gewählten Würfel +1 Auge.
 src/powers.lua:161		Flip	Umdrehen
@@ -1327,9 +1327,9 @@ src/states/gameover.lua:224		Congratulations, you lost.	Herzlichen Glückwunsch,
 src/states/gameover.lua:225		Better luck next time.	Mehr Glück beim nächsten Mal.
 src/states/gameover.lua:226		Maybe next time.	Vielleicht beim nächsten Mal.
 src/states/gameover.lua:266		Wager ${BET}¤	Wetteinsatz ${BET}¤
-src/states/gameover.lua:274		Death Tax ${STARS}¤	Todessteuer ${STARS}¤
+src/states/gameover.lua:274		Death Tax ${STARS}¤	Verlust ${STARS}¤
 src/states/gameover.lua:283		GAME OVER	GAME OVER
-src/states/gameover.lua:315		Death tax:	Todessteuer:
+src/states/gameover.lua:315		Death tax:	Verlust:
 src/states/gameover.lua:331		run info	run infos
 src/states/gameover.lua:370		restart	neu starten
 src/states/gameover.lua:575		Press Circle To Toss	Drücke Kreis Zum Werfen
