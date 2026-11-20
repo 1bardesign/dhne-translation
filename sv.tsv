@@ -267,9 +267,9 @@ src/endings/god.lua:158	dialogue	and i am god	och jag är gud
 src/endings/guy.lua:158	dialogue	have you looked into a mirror recently?	har du tittat dig i spegeln på sistone?
 src/endings/guy.lua:159	dialogue	what do you see?	vad ser du?
 src/endings/guy.lua:160	dialogue	i see my bravest child	jag ser mitt modigaste barn
-src/endings/hotdog.lua:33		eat that shit	ät den där skiten
-src/endings/hotdog.lua:57	dialogue	you are a weird one	du är en underlig en
-src/endings/hotdog.lua:58	dialogue	i am the opposite	jag är motsatsen
+src/endings/hotdog.lua:35		eat that shit	ät den där skiten
+src/endings/hotdog.lua:59	dialogue	you are a weird one	du är en underlig en
+src/endings/hotdog.lua:60	dialogue	i am the opposite	jag är motsatsen
 src/endings/king_fetus.lua:52		nope nope nope	nä nä nä
 src/endings/king_fetus.lua:147	dialogue	don't go again	gå inte igen
 src/endings/king_fetus.lua:148	dialogue	you're so young	du är så ung
@@ -1174,7 +1174,7 @@ src/states/customisation.lua:461		Dye	Färg
 src/states/customisation.lua:462		recolour	färga om
 src/states/ending.lua:244 (+6 others)		hit that shit?	ska vi köra skiten?
 src/states/ending.lua:303 (+4 others)		play	spela
-src/states/ending.lua:497 (+4 others)		done	klar
+src/states/ending.lua:505 (+4 others)		done	klar
 src/states/ending_bet.lua:60 (+1 others)		--  Run Summary  --	--  Omgångssammanfattning  --
 src/states/ending_bet.lua:74 (+1 others)		Level reached:	Nådd nivå:
 src/states/ending_bet.lua:75 (+1 others)		Points scored:	Tagna poäng:

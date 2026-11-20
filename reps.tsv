@@ -375,7 +375,7 @@ i am god	true	src/states/ending_demo.lua	132	ending_demo
 i am god	true	src/states/title.lua	160	title
 i am god	true	src/endings/default.lua	125	default
 i am god	true	src/endings/dog.lua	131	dog
-i am god	true	src/endings/hotdog.lua	59	hotdog
+i am god	true	src/endings/hotdog.lua	61	hotdog
 i am god	true	src/endings/marooned.lua	77	marooned
 i am god	true	src/endings/shirin.lua	139	shirin
 i am god	true	src/endings/wizard.lua	147	wizard

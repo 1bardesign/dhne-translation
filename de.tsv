@@ -267,9 +267,9 @@ src/endings/god.lua:158	dialogue	and i am god
 src/endings/guy.lua:158	dialogue	have you looked into a mirror recently?	
 src/endings/guy.lua:159	dialogue	what do you see?	
 src/endings/guy.lua:160	dialogue	i see my bravest child	
-src/endings/hotdog.lua:33		eat that shit	
-src/endings/hotdog.lua:57	dialogue	you are a weird one	
-src/endings/hotdog.lua:58	dialogue	i am the opposite	
+src/endings/hotdog.lua:35		eat that shit	
+src/endings/hotdog.lua:59	dialogue	you are a weird one	
+src/endings/hotdog.lua:60	dialogue	i am the opposite	
 src/endings/king_fetus.lua:52		nope nope nope	
 src/endings/king_fetus.lua:147	dialogue	don't go again	
 src/endings/king_fetus.lua:148	dialogue	you're so young	
@@ -1174,7 +1174,7 @@ src/states/customisation.lua:461		Dye
 src/states/customisation.lua:462		recolour	
 src/states/ending.lua:244 (+6 others)		hit that shit?	
 src/states/ending.lua:303 (+4 others)		play	
-src/states/ending.lua:497 (+4 others)		done	
+src/states/ending.lua:505 (+4 others)		done	
 src/states/ending_bet.lua:60 (+1 others)		--  Run Summary  --	
 src/states/ending_bet.lua:74 (+1 others)		Level reached:	
 src/states/ending_bet.lua:75 (+1 others)		Points scored:	

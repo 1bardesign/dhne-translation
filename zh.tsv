@@ -267,9 +267,9 @@ src/endings/god.lua:158	dialogue	and i am god	而吾即是神
 src/endings/guy.lua:158	dialogue	have you looked into a mirror recently?	你最近有照过镜子吗？
 src/endings/guy.lua:159	dialogue	what do you see?	你看见了什么？
 src/endings/guy.lua:160	dialogue	i see my bravest child	吾看见了吾最勇敢的孩子
-src/endings/hotdog.lua:33		eat that shit	吃一口
-src/endings/hotdog.lua:57	dialogue	you are a weird one	你真怪
-src/endings/hotdog.lua:58	dialogue	i am the opposite	吾恰恰相反
+src/endings/hotdog.lua:35		eat that shit	吃一口
+src/endings/hotdog.lua:59	dialogue	you are a weird one	你真怪
+src/endings/hotdog.lua:60	dialogue	i am the opposite	吾恰恰相反
 src/endings/king_fetus.lua:52		nope nope nope	不行不行不行
 src/endings/king_fetus.lua:147	dialogue	don't go again	别再尝试了
 src/endings/king_fetus.lua:148	dialogue	you're so young	你这么年轻
@@ -1174,7 +1174,7 @@ src/states/customisation.lua:461		Dye	染色
 src/states/customisation.lua:462		recolour	重新上色
 src/states/ending.lua:244 (+6 others)		hit that shit?	来一口？
 src/states/ending.lua:303 (+4 others)		play	开玩
-src/states/ending.lua:497 (+4 others)		done	完成
+src/states/ending.lua:505 (+4 others)		done	完成
 src/states/ending_bet.lua:60 (+1 others)		--  Run Summary  --	— 游戏总结 —
 src/states/ending_bet.lua:74 (+1 others)		Level reached:	到达关卡：
 src/states/ending_bet.lua:75 (+1 others)		Points scored:	总积分：
