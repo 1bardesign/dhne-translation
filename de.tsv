@@ -172,7 +172,7 @@ src/characters/tutorial_character.lua:131	dialogue	BANK your Points to complete 
 src/characters/tutorial_character.lua:141	dialogue	You made it through the first level!	Du hast das erste Level geschafft!
 src/characters/tutorial_character.lua:142	dialogue	Between levels, you'll visit The Shop, buy Trinkets, Snacks and Spells.\nAll the fun stuff.	Zwischen Levels wirst du den Shop besuchen um Glücksbringer, Snacks und Zauber zu kaufen.
 src/characters/tutorial_character.lua:159		combo	Combo
-src/characters/tutorial_character.lua:160	dialogue	That's a ${combo_label}!	"Das ist eine\n\""${combo_label}\""-Combo!"
+src/characters/tutorial_character.lua:160	dialogue	That's a ${combo_label}!	Das ist eine\n'${combo_label}' Combo!
 src/characters/tutorial_character.lua:161	dialogue	Select and score it!	Wähle sie aus\nund werte sie!
 src/characters/tutorial_character.lua:173	dialogue	Nice, those Points are safe now.	Nice, die Punkte sind jetzt sicher.
 src/characters/tutorial_character.lua:174	dialogue	BANK refilled your Bust meter.	Die BANK hat dein BUST-Meter wieder aufgefüllt.
@@ -1344,12 +1344,12 @@ src/states/intro.lua:59		It can't be that hard.	So schwer kann es nicht sein.
 src/states/intro.lua:60		At this point, you might consider refunding.	Langsam solltest du über eine Rückerstattung nachdenken.
 src/states/intro.lua:61		You might be special.	Vielleicht bist du ja besonders.
 src/states/intro.lua:67		Game by	Ein Spiel von
-src/states/intro.lua:95		Roll 6 to start.	Wirf eine 6 um das Spiel zu starten.
-src/states/intro.lua:97		Roll 1 to quit.	Wirf eine 1 um das Spiel zu beenden.
+src/states/intro.lua:95		Roll 6 to start.	Wirf eine 6, um das Spiel zu starten.
+src/states/intro.lua:97		Roll 1 to quit.	Wirf eine 1, um das Spiel zu beenden.
 src/states/intro.lua:121		right\nclick	rechtsklick
-src/states/intro.lua:144		Press Circle To Roll	Drücke Kreis Zum Würfeln
-src/states/intro.lua:144		Press B To Roll	Drücke B Zum Würfeln
-src/states/intro.lua:145		Right Click To Roll	Rechtsklick Zum Würfeln
+src/states/intro.lua:144		Press Circle To Roll	Drücke Kreis, um zu Würfeln
+src/states/intro.lua:144		Press B To Roll	Drücke B, um zu Würfeln
+src/states/intro.lua:145		Right Click To Roll	Rechtsklick, um zu Würfeln
 src/states/intro.lua:237		Franek & Max	Franek & Max
 src/states/intro_greed.lua:62		This is a game about greed.	Dieses Spiel dreht sich um Gier.
 src/states/intro_greed.lua:64		This is a game about skill.	Dieses Spiel dreht sich um Können.
