@@ -242,8 +242,8 @@ src/coloured_text.lua:89 (+5 others)		doom	厄运
 src/coloured_text.lua:92 (+1 others)		negative	负片
 src/coloured_text.lua:95 (+12 others)		stuck	卡住
 src/coloured_text.lua:98 (+2 others)		empty	空白
-src/display_loc.lua:3		Normal	
-src/display_loc.lua:4		Pixel	
+src/display_loc.lua:3		Normal	普通
+src/display_loc.lua:4		Pixel	像素
 src/endings/alley.lua:28	dialogue	very well	很好
 src/endings/alley.lua:29	dialogue	next time bring me all the teeth	下次把所有牙齿都带给我
 src/endings/alley.lua:64		knock	敲一下
@@ -1440,7 +1440,7 @@ src/states/title.lua:379 (+1 others)		bye?	拜拜？
 src/states/title.lua:474		brighten up	提高亮度
 src/states/title.lua:475		rest your eyes	放松眼睛
 src/states/title.lua:486		community chat	社区板块
-src/states/title.lua:635		Welcome To 1.0!	
+src/states/title.lua:635		Welcome To 1.0!	欢迎来到1.0！
 src/states/title.lua:636		thanks so much for supporting the game ♥\nyou are looking fabulous today\n\nlots has changed since early access\nwe recommend starting 1.0 with a fresh save, but its up to you	非常感谢你支持我们♥\n你今天看上去超棒\n\n自early access以来实装了很多变动\n我们推荐你以全新的存档游玩1.0,不过决定由你来做
 src/states/title.lua:637		sure, delete it!	好呀，删档吧！
 src/states/title.lua:638		yikes, no thanks	呃呃，还是算了

@@ -244,10 +244,10 @@ src/coloured_text.lua:95 (+12 others)		stuck	przyklejona
 src/coloured_text.lua:98 (+2 others)		empty	pusta
 src/display_loc.lua:3		Normal	Normalna
 src/display_loc.lua:4		Pixel	Pikselowa
-src/endings/alley.lua:28	dialogue	very well	
-src/endings/alley.lua:29	dialogue	next time bring me all the teeth	
-src/endings/alley.lua:64		knock	
-src/endings/alley.lua:135	dialogue	i'll be waiting in your guts	
+src/endings/alley.lua:28	dialogue	very well	no dobrze
+src/endings/alley.lua:29	dialogue	next time bring me all the teeth	następnym razem przynieś mi wszystkie zęby
+src/endings/alley.lua:64		knock	puk puk
+src/endings/alley.lua:135	dialogue	i'll be waiting in your guts	będę czekać w twoim brzusiu
 src/endings/anais.lua:124	dialogue	don't leave again	nie odchodź znowu
 src/endings/anais.lua:125	dialogue	you're safe here	tu jesteś bezpieczna
 src/endings/anais.lua:126	dialogue	with me	ze mną
@@ -1127,8 +1127,8 @@ src/special_conditions.lua:102		Full House	Ful
 src/special_conditions.lua:115		Four Of A Kind	Kareta
 src/special_conditions.lua:126		Straight	Strit
 src/special_conditions.lua:179		Long Straight	Duży Strit
-src/special_conditions.lua:190		Long Long Straight	
-src/special_conditions.lua:201		Long Long Long Straight	
+src/special_conditions.lua:190		Long Long Straight	Duży Duży Strit
+src/special_conditions.lua:201		Long Long Long Straight	Duży Duży Duży Strit
 src/special_conditions.lua:212		Star Bonanza	Gwiezdna Bonanza
 src/special_conditions.lua:223		Star Extravaganza	Gwiezdna Ekstrawaganza
 src/special_conditions.lua:234		Star Bonanzovaganza	Gwiezdna Bonanzowaganza
@@ -1440,10 +1440,10 @@ src/states/title.lua:379 (+1 others)		bye?	pa?
 src/states/title.lua:474		brighten up	rozjaśnij
 src/states/title.lua:475		rest your eyes	daj odpocząć oczom
 src/states/title.lua:486		community chat	czat społeczności
-src/states/title.lua:635		Welcome To 1.0!	
-src/states/title.lua:636		thanks so much for supporting the game ♥\nyou are looking fabulous today\n\nlots has changed since early access\nwe recommend starting 1.0 with a fresh save, but its up to you	
-src/states/title.lua:637		sure, delete it!	
-src/states/title.lua:638		yikes, no thanks	
+src/states/title.lua:635		Welcome To 1.0!	Witaj w 1.0!
+src/states/title.lua:636		thanks so much for supporting the game ♥\nyou are looking fabulous today\n\nlots has changed since early access\nwe recommend starting 1.0 with a fresh save, but its up to you	wielkie dzięki za wspieranie gry ♥\nwyglądasz dziś fantastycznie\n\nod wczesnego dostępu sporo się zmieniło\npolecamy zacząć 1.0 od nowego zapisu, ale decyzja należy do ciebie
+src/states/title.lua:637		sure, delete it!	jasne, usuń!
+src/states/title.lua:638		yikes, no thanks	ojej, nie, dzięki
 src/states/unlock.lua:79		representations are still solidifying - physical form is meaningless - you're imagining it	reprezentacje wciąż się krystalizują - fizyczna forma nic nie znaczy - to sobie wyobrażasz
 src/states/unlock.lua:96 (+3 others)		SNACK	PRZEKĄSKA
 src/states/unlock.lua:163		Upgrades	Ulepszenia
