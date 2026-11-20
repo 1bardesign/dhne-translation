@@ -1399,8 +1399,8 @@ src/states/outside.lua:19		this was a game about waking up	ce jeu voulait que vo
 src/states/scoreboard.lua:39		Loading Scores...	Chargement des scores…
 src/states/scoreboard.lua:116		# player	# joueur
 src/states/scoreboard.lua:133		lemme try	jouer
-src/states/scoreboard.lua:202		Your Luck	Vous avez plus de chance
-src/states/scoreboard.lua:207		luckier than ${percent}%	que ${percent} % des joueurs
+src/states/scoreboard.lua:202		Your Luck	Votre chance
+src/states/scoreboard.lua:207		luckier than ${percent}%	+ chanceux que ${percent}%
 src/states/scoreboard.lua:215		need more rolls	il faut plus de données
 src/states/scoreboard.lua:223		rolls	lancers
 src/states/scoreboard.lua:227		busts	burst
@@ -1477,7 +1477,7 @@ src/sync_scoreboards.lua:105		death tax	taxe mortelle
 src/sync_scoreboards.lua:113		The End Any%	Speedrun Any% La Fin
 src/sync_scoreboards.lua:118		runs	parties 
 src/sync_scoreboards.lua:142		luck	chance
-src/sync_scoreboards.lua:203 (+1 others)	dialogue	you	vous 
+src/sync_scoreboards.lua:203 (+1 others)	dialogue	you	toi 
 src/ui/character_body.lua:302 (+2 others)	ui	LOCKED	VERROUILLÉ
 src/ui/combination_table.lua:34 (+1 others)	ui	flush	flush
 src/ui/combination_table.lua:50	ui	Combinations	Figures
