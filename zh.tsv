@@ -3,7 +3,7 @@ gather_strings.lua:1		No	否
 gather_strings.lua:1		momentum	惯性
 gather_strings.lua:1		greed	贪欲
 gather_strings.lua:1		CD	CD
-gather_strings.lua:1		xnx	xnx
+gather_strings.lua:1		xnx	赞安诺
 src/are_you_sure.lua:14 (+3 others)		Are you sure?	你确定？
 src/are_you_sure.lua:15 (+12 others)		yes	是
 src/are_you_sure.lua:17		really?	真的？
@@ -38,7 +38,7 @@ src/character_unlocks.lua:114		say aaaaaaaa	说 啊啊啊啊
 src/character_unlocks.lua:120		Plasticine	橡皮泥
 src/character_unlocks.lua:121		like putty in your hands\ncharacter customisation option	随你心意\n角色个性化选项
 src/character_unlocks.lua:134		Wagers	下注
-src/character_unlocks.lua:135		wager ¤ to increase difficulty and reward	赌上¤增加难度和奖励
+src/character_unlocks.lua:135		wager ¤ to increase difficulty and reward	赌上 ¤ 增加难度和奖励
 src/characters/anais.lua:2		Anais	Anais
 src/characters/anais.lua:38		Biblically Accurate	正如圣经中所说
 src/characters/anais.lua:56 (+10 others)		${count} levels til the end	离终结还有${count}关
@@ -88,7 +88,7 @@ src/characters/god.lua:81		wager all ${stars} ¤ and ${gold} gold ¤	赌上所�
 src/characters/god.lua:83		wager all ${stars} ¤	赌上所有${stars} ¤
 src/characters/god.lua:85		wager all ${gold} gold ¤	赌上所有${gold} 金 ¤
 src/characters/god.lua:87		wager everything	赌上一切
-src/characters/god.lua:97	dialogue	you always were my bravest child	你一直是吾最勇敢的孩子
+src/characters/god.lua:97	dialogue	you always were my bravest child	你一直都是吾最勇敢的孩子
 src/characters/god.lua:102		God?	神？
 src/characters/god.lua:135	dialogue	cheating? me? god?	出千？吾？神？
 src/characters/god.lua:136	dialogue	i appreciate the boldness	胆儿挺肥
@@ -96,7 +96,7 @@ src/characters/god.lua:137	dialogue	it will not work again	不会有下次了
 src/characters/god.lua:161	dialogue	no tickle	不准挠痒痒
 src/characters/god.lua:288		i demand commitment	吾要求奉献
 src/characters/god.lua:292		show me what you have earned	给吾展示你的战果
-src/characters/god.lua:296		give me everything	把一切给吾
+src/characters/god.lua:296		give me everything	把一切都给吾
 src/characters/god.lua:298		do you have what it takes?	你有这份觉悟吗？
 src/characters/god.lua:302		you are never getting out of here	你永远也别想离开了
 src/characters/god.lua:349		i always believed in you	吾一直相信着你
@@ -113,15 +113,15 @@ src/characters/hotdog.lua:2		Hot Dawg	热狗
 src/characters/hotdog.lua:53		Jalapeno	辣椒
 src/characters/hotdog.lua:94	dialogue	Hungry for more?	还饿吗？
 src/characters/hotdog.lua:96		I'll revive you for $cost ¤ and a bad tooth	我可以花$cost ¤ 和一颗坏齿复活你
-src/characters/hotdog.lua:102	dialogue	More for me	嚼慢点
-src/characters/hotdog.lua:113	dialogue	Chew carefully	那我私吞了
+src/characters/hotdog.lua:102	dialogue	More for me	那我私吞了
+src/characters/hotdog.lua:113	dialogue	Chew carefully	嚼慢点
 src/characters/king_fetus.lua:2		King Foetus	胎儿王
 src/characters/king_fetus.lua:38		Princess	公主
 src/characters/king_fetus.lua:62	dialogue	Reach level 7 to escape!	到达第7关逃走吧！
 src/characters/king_fetus.lua:63 (+1 others)	dialogue	goo goo gaa gaa	咕咕嘎嘎
 src/characters/king_fetus.lua:65	dialogue	Reach level 10 to escape!	到达第10关逃走吧！
 src/characters/king_fetus.lua:85	dialogue	go more?	再来吗？
-src/characters/king_fetus.lua:87	dialogue	revive for $cost ¤ and 1 max bust	花费$cost ¤和1 bust上限复活
+src/characters/king_fetus.lua:87	dialogue	revive for $cost ¤ and 1 max bust	花费$cost ¤ 和1 bust上限复活
 src/characters/king_fetus.lua:106	dialogue	glob gob	咕噜噜
 src/characters/liz.lua:2 (+1 others)		Liz	Liz
 src/characters/liz.lua:30		Off Duty	下班了
@@ -131,7 +131,7 @@ src/characters/liz.lua:78	dialogue	Remember, ${count} levels and you're out of h
 src/characters/liz.lua:89	dialogue	Ah well	哎呀没事
 src/characters/liz.lua:90	dialogue	You'll get it next time!	下一次一定行的！
 src/characters/liz.lua:120	dialogue	...Want to keep going?	。。想继续吗？
-src/characters/liz.lua:122	dialogue	I'll revive you for $cost ¤ and one die	我可以花$cost ¤和一颗骰子复活你
+src/characters/liz.lua:122	dialogue	I'll revive you for $cost ¤ and one die	我可以花$cost ¤ 和一颗骰子复活你
 src/characters/liz.lua:128	dialogue	Your loss :)	拉倒 :)
 src/characters/liz.lua:141	dialogue	Hope it's worth it!	希望这花得值！
 src/characters/mushroom.lua:2		Srop M.	Srop M.
@@ -197,7 +197,7 @@ src/characters/tutorial_character.lua:263	dialogue	Rolling a single die makes th
 src/characters/tutorial_character.lua:276	dialogue	This is your last turn.	这是最后一个回合了。
 src/characters/tutorial_character.lua:277	dialogue	You have to go all in now, no point in BANKing early.	现在只能背水一战了，提前BANK没有意义。
 src/characters/tutorial_character.lua:278	dialogue	You can still do it!	你一定行的！
-src/characters/tutorial_character.lua:288	dialogue	Well, you failed the tutorial.	哇，连教程都失败了。
+src/characters/tutorial_character.lua:288	dialogue	Well, you failed the tutorial.	哇，连教程都失败了。。
 src/characters/tutorial_character.lua:289	dialogue	I'll bring you back this time.	我这次带你回去。
 src/characters/tutorial_character.lua:293	dialogue	Be better.	学聪明点。
 src/characters/tutorial_character.lua:302	dialogue	Welp.	还行。
@@ -213,12 +213,12 @@ src/characters/wizard.lua:57		Orb	球儿
 src/characters/wizard.lua:89	dialogue	Get to level 7, and you're free.	抵达第7关，你就自由了。
 src/characters/wizard.lua:92	dialogue	Get to level 10, and you're free.	抵达第10关，你就自由了。
 src/characters/wizard.lua:213	dialogue	Another chance buddy?	再来一次吗兄弟？
-src/characters/wizard.lua:215	dialogue	I'll revive you for $cost ¤ and difficulty increase.	我可以提升难度并花$cost ¤复活你。
+src/characters/wizard.lua:215	dialogue	I'll revive you for $cost ¤ and difficulty increase.	我可以提升难度并花$cost ¤ 复活你。
 src/characters/wizard.lua:221	dialogue	Hmpf.	哼。
 src/characters/wizard.lua:238	dialogue	Tada!	当当！
 src/coloured_text.lua:8 (+117 others)		bust	bust
 src/coloured_text.lua:12		wipe	wipe
-src/coloured_text.lua:14		instant	Instant
+src/coloured_text.lua:14		instant	instant
 src/coloured_text.lua:16		turn	回合
 src/coloured_text.lua:20		turns	回合
 src/coloured_text.lua:24 (+3 others)		bank	bank
@@ -248,9 +248,9 @@ src/endings/alley.lua:55		hit that shit	来一口
 src/endings/alley.lua:112	dialogue	at least the tooth fairy will come	至少牙仙会出现的
 src/endings/alley.lua:113	dialogue	i haven't lost my baby teeth yet	吾还没丢掉乳牙呢
 src/endings/alley.lua:114	dialogue	because i don't have baby teeth	因为吾没有乳牙
-src/endings/alley.lua:115 (+1 others)	dialogue	because i am god	因为吾即是神
+src/endings/alley.lua:115 (+1 others)	dialogue	because i am god	毕竟吾是神
 src/endings/alley.lua:119	dialogue	being late to the dentist is always a bit risky	见牙医可不该迟到
-src/endings/alley.lua:120	dialogue	have you been brushing?	有好好刷牙吗？
+src/endings/alley.lua:120	dialogue	have you been brushing?	你有好好刷牙吗？
 src/endings/alley.lua:121	dialogue	i don't have to brush my teeth	吾可不用刷牙
 src/endings/anais.lua:124	dialogue	don't leave again	别再离开了
 src/endings/anais.lua:125	dialogue	you're safe here	在这里你很安全
@@ -266,7 +266,7 @@ src/endings/dog.lua:67		throw that shit	扔一下
 src/endings/dog.lua:129	dialogue	what a good boy	真是条乖狗狗
 src/endings/dog.lua:130	dialogue	i am neither good nor bad	吾不算好也不算坏
 src/endings/god.lua:155	dialogue	it was very brave of you to come back	你能回来说明你非常勇敢
-src/endings/god.lua:156	dialogue	again	再一次回来
+src/endings/god.lua:156	dialogue	again	再来一次吧
 src/endings/god.lua:157	dialogue	you are my bravest child	你是吾最勇敢的孩子
 src/endings/god.lua:158	dialogue	and i am god	而吾即是神
 src/endings/guy.lua:158	dialogue	have you looked into a mirror recently?	你最近有照过镜子吗？
@@ -292,7 +292,7 @@ src/endings/party.lua:131	dialogue	Unlock the next Depth from Star Guts for a bi
 src/endings/shirin.lua:136	dialogue	welcome back	欢迎回来
 src/endings/shirin.lua:137	dialogue	so you believe	所以你相信
 src/endings/shirin.lua:138	dialogue	i am here	吾在此
-src/endings/tooth_fairy.lua:36		hit the guts	
+src/endings/tooth_fairy.lua:36		hit the guts	逃回内脏
 src/endings/tooth_fairy.lua:105	dialogue	hello friend	你好我的朋友
 src/endings/tooth_fairy.lua:106	dialogue	any good finds?	淘到好东西了吗？
 src/endings/wizard.lua:49		ponder that orb	注视水晶球
@@ -346,7 +346,7 @@ src/entities/dice_pick.lua:7		Swap Dice	交换骰子
 src/entities/dice_pick.lua:20		Swap	交换
 src/entities/dice_pick.lua:28		Skip	跳过
 src/entities/die_baby.lua:7		Old Baby	老宝宝
-src/entities/die_baby.lua:13		Scores x	计分x
+src/entities/die_baby.lua:13		Scores x	计分 x
 src/entities/dupe_baby.lua:7		Dupe Baby	复制宝宝
 src/entities/dupe_baby.lua:59		Duplicated!	已复制！
 src/entities/encounter_timeline.lua:136		Goal Reached	目标达成
@@ -374,7 +374,7 @@ src/entities/shop.lua:1333		pay up	结账
 src/entities/shop.lua:1333		take change	找零
 src/entities/shop.lua:1405		bye	溜
 src/entities/shop.lua:1453		Reroll - ${current_cost}¥	刷新 - ${current_cost}¥
-src/entities/tape.lua:453		- web	- 网
+src/entities/tape.lua:453		- web	- 网路
 src/entities/title_text.lua:3		DICE HAVE\nNO EYES	骰子\n不长眼
 src/entities/title_text.lua:5		DICE HAVE\nNÕ EYES	骰子\n不长眼
 src/entities/title_text.lua:6		DICE HAVE\nNÖ EYES	骰子\n不长眼
@@ -787,8 +787,8 @@ src/items.lua:2904		+60 Points for rerolling a 6	重新投掷6时+60点数
 src/items.lua:2923		Mini Goob	小东西
 src/items.lua:2926		+0.1 Mult per die rolled	每投出一颗骰子+0.1乘数
 src/items.lua:2941		Faster	更快
-src/items.lua:2944		+1 Momentum	+1 Momentum
-src/items.lua:2952 (+1 others)		+1 momentum	+1 momentum
+src/items.lua:2944		+1 Momentum	+1惯性
+src/items.lua:2952 (+1 others)		+1 momentum	+1惯性
 src/items.lua:2957		Spite	反骨
 src/items.lua:2960		On Bust, gain +1 Momentum	Bust时+1惯性
 src/items.lua:2975		Shortbread Biscuit	奶油酥饼
@@ -1046,7 +1046,7 @@ src/items.lua:6295		+${MULT} Mult, gains +1 per 5 § spent this level	+${MULT}�
 src/items.lua:6318		Piranha	食人鱼
 src/items.lua:6319		+5 Mult.\nEats 10 § at the start of each level.\nIf you can't feed it, it eats a die instead.	+5乘数。\n回合开始时吃掉10 § 。\n如果你无法喂饱它，它会吃掉一颗骰子。
 src/items.lua:6340		Ate a die!	吃掉了骰子！
-src/items.lua:6342		Hungry!	饿了！
+src/items.lua:6342		Hungry!	好饿！
 src/items.lua:6352		Barnacle	藤壶
 src/items.lua:6353		+1 § per 10 § held at the start of each level	每关开始时每拥有10 § ，额外获得1 §
 src/items.lua:6376		Ball Gag	口球
@@ -1067,10 +1067,10 @@ src/items.lua:6519		Maths Test	数学考试
 src/items.lua:6522		Spawn 0-6 random numeracy foods	生成0-6个随机数理学食物
 src/items.lua:6552		Result: $grade / $total	得分：$grade / $total
 src/items.lua:6563		Clown Shoes	小丑鞋
-src/items.lua:6566		Nudge all dice either -1 or +3 pips	所有骰子跳至-1至+3范围内的面值
+src/items.lua:6566		Nudge all dice either -1 or +3 pips	所有骰子蹭至-1至+3范围内的面值
 src/items.lua:6575 (+1 others)		roll dice first	先投出骰子
 src/items.lua:6593		Bamboozle	迷惑
-src/items.lua:6596		Nudge all dice individually between +0 and +2 pips.	所有骰子跳至0至+2范围内的面值
+src/items.lua:6596		Nudge all dice individually between +0 and +2 pips.	所有骰子蹭至0至+2范围内的面值
 src/keybinds.lua:3 (+2 others)		Roll	投掷
 src/keybinds.lua:4 (+2 others)		Score	计分
 src/keybinds.lua:5 (+1 others)		BANK	BANK
@@ -1320,7 +1320,7 @@ src/states/game_setup.lua:706		Wager half your stars.\nMinimum 500 ¤\nHigher st
 src/states/game_setup.lua:716		Wager all your stars.\nMinimum 1000 ¤\nEven more star rewards.	赌上你所有的星星。\n1000 ¤ 起步\n赢得更多更多的星星。
 src/states/game_setup.lua:774		Wager	赌注
 src/states/game_setup.lua:856		Levels	关卡
-src/states/game_setup.lua:863		Wager stars to add levels,\nnext level %d ¤	
+src/states/game_setup.lua:863		Wager stars to add levels,\nnext level %d ¤	  赌上星星已增加关卡，\n下一关 %d ¤
 src/states/game_setup.lua:1095		Difficulty	难度
 src/states/game_setup.lua:1098		${stars} ¤ reward limit	${stars} ¤ 奖励上限
 src/states/gameover.lua:224		Congratulations, you lost.	恭喜你，你输了。
