@@ -1,53 +1,53 @@
-api_name (required; must match an api_name from the definitions CSV),field (name or description),english,ru,zh
-REAL_ESTATE,name,Real Estate,,房地产
-REAL_ESTATE,description,Unlock every board,,解锁所有场景
-SQUAD,name,Squad,,全明星
-SQUAD,description,Unlock every character,,解锁所有角色
-GUTTED,name,Gutted,,五脏俱全
-GUTTED,description,100% Star Guts,,100%星空内脏
-WAKE_UP,name,Wake Up,,醒来
-WAKE_UP,description,Win your first run,,赢下第一把游戏
-POCKET_CHANGE,name,Pocket Change,,零花钱
-POCKET_CHANGE,description,Win with the 100 bet,,赢下100赌注
-HIGH_ROLLER,name,High Roller,,大手笔
-HIGH_ROLLER,description,Win with the 500 bet,,赢下500赌注
-WHALE,name,Whale,,一掷千金
-WHALE,description,Win with the 1000 bet,,赢下1000赌注
-IS_IT_OVER,name,Is It Over?,,结束了？
-IS_IT_OVER,description,Beat The End,,征服终点
-TWINKLE,name,Twinkle,,一闪一闪
-TWINKLE,description,Hold 10000 pink stars at once,,同时持有10000颗粉星星
-GOLD_STANDARD,name,Gold Standard,,黄金体验
-GOLD_STANDARD,description,Hold 10 gold stars at once,,同时持有10颗金星星
-HOG,name,Hog,,伸手就要
-HOG,description,Get 100 pink stars in the greed intro,,在贪欲开屏中获得100颗粉星星
-SNAKE_EYES_PLUS,name,Snake Eyes Plus,,蛇眼+
-SNAKE_EYES_PLUS,description,"Roll exactly 3 dice, all ones",,投出3枚骰子时获得全1
-YIKES,name,Yikes,,哎呦
-YIKES,description,"Roll exactly 4 dice, all ones",,投出4枚骰子时获得全1
-BIG_OOF,name,Big Oof,,倒大霉
-BIG_OOF,description,"Roll exactly 5 dice, all ones",,投出5枚骰子时获得全1
-BONANZA_IN_ONE,name,Bonanza In One,,一次就中
-BONANZA_IN_ONE,description,Star Bonanza on a 5-dice roll,,用5枚骰子投出星星头彩
-PURE_SKILL,name,Pure Skill,,纯技术
-PURE_SKILL,description,Long Straight on a 6-dice roll,,用6枚骰子投出大顺子
-OH_YEAH,name,Oh Yeah,,好耶
-OH_YEAH,description,Reach 50000 points in one level,,在一关内获得50000分数
-TOO_EASY,name,Too Easy,,简简单单
-TOO_EASY,description,Score 10000 points with one hand,,一次计分获得10000分数
-SELF_ESTEEM,name,Self Esteem,,自我认同
-SELF_ESTEEM,description,Hold middle click to flip yourself off,,按下鼠标滚轮对自己竖起中指
-CANIBALISM,name,Cannibalism?,,同类相食？
-CANIBALISM,description,Feed a die baby to a die,,把骰子宝宝喂给骰子
-FEESH,name,Feesh!,,鱼儿！
-FEESH,description,Catch the gold fish,,抓住金鱼
-NO_CHEATING,name,No Cheating,,不准作弊
-NO_CHEATING,description,Get smitten by god,,被神降下天罚
-BRAVEST_CHILD,name,Bravest Child,,勇敢的孩子
-BRAVEST_CHILD,description,Win double or nothing 5 times in a row,,5次连续赢下双倍或者回家
-SOULLESS,name,Soulless,,失去灵魂
-SOULLESS,description,Bet your soul and lose,,赌上灵魂并输掉游戏
-CHOSEN_ONE,name,Chosen One,,天选之人
-CHOSEN_ONE,description,Satisfy God,,满足神
-FISHY,name,Fishy Business,,鱼生意
-FISHY,description,Hold 500 fish at once,,同时持有500条鱼
+api_name (required; must match an api_name from the definitions CSV),field (name or description),english,ru,zh,fr
+REAL_ESTATE,name,Real Estate,Недвижимость,房地产,Propriétaire
+REAL_ESTATE,description,Unlock every board,Открой все игровые поля,解锁所有场景,Débloquer tous les plateaux
+SQUAD,name,Squad,Отряд,全明星,Équipe de choc
+SQUAD,description,Unlock every character,Открой всех персонажей,解锁所有角色,Débloquer tous les personnages
+GUTTED,name,Gutted,Потрошение,五脏俱全,Astronomie
+GUTTED,description,100% Star Guts,Открой 100% «Звездных Кишков»,100%星空内脏,Compléter les Voies Stellaires
+WAKE_UP,name,Wake Up,Пробуждение,醒来,Réveil
+WAKE_UP,description,Win your first run,Впервые одержи победу,赢下第一把游戏,Gagner votre première partie
+POCKET_CHANGE,name,Pocket Change,Мелочь в кармане,零花钱,Mise prudente
+POCKET_CHANGE,description,Win with the 100 bet,Победи со ставкой 100,赢下100赌注,Gagner avec la mise à 100
+HIGH_ROLLER,name,High Roller,Крупный игрок,大手笔,Gros joueur
+HIGH_ROLLER,description,Win with the 500 bet,Победи со ставкой 500,赢下500赌注,Gagner avec la mise à 500
+WHALE,name,Whale,Кит,一掷千金,Whale
+WHALE,description,Win with the 1000 bet,Победи со ставкой 1000,赢下1000赌注,Gagner avec la mise à 1000
+IS_IT_OVER,name,Is It Over?,Это конец?,结束了？,C’est terminé ?
+IS_IT_OVER,description,Beat The End,Победи в режиме «Конец»,征服终点,Terminer La Fin
+TWINKLE,name,Twinkle,Мерцание,一闪一闪,Étoilé
+TWINKLE,description,Hold 10000 pink stars at once,Накопи 10000 розовых звезд,同时持有10000颗粉星星,Posséder 10000 étoiles roses
+GOLD_STANDARD,name,Gold Standard,Золотой стандарт,黄金体验,Carte Gold
+GOLD_STANDARD,description,Hold 10 gold stars at once,Накопи 10 золотых звезд,同时持有10颗金星星,Posséder 10 étoiles dorées
+HOG,name,Hog,Жадюга,伸手就要,Porc
+HOG,description,Get 100 pink stars in the greed intro,Набери 100 розовых звезд во вступлении Жадности,在贪欲开屏中获得100颗粉星星,Obtenir 100 étoiles roses dans le mini-jeu d’intro
+SNAKE_EYES_PLUS,name,Snake Eyes Plus,Змеиные глаза плюс,蛇眼+,1 chance sur 216...
+SNAKE_EYES_PLUS,description,"Roll exactly 3 dice, all ones",Брось ровно 3 кубика — все единицы,投出3枚骰子时获得全1,Lancer trois dés et tirer trois 1
+YIKES,name,Yikes,Ой-ой,哎呦,1 chance sur 1296......
+YIKES,description,"Roll exactly 4 dice, all ones",Брось ровно 4 кубика — все единицы,投出4枚骰子时获得全1,Lancer quatre dés et tirer quatre 1
+BIG_OOF,name,Big Oof,Вот это провал,倒大霉,1 chance sur 7776.........
+BIG_OOF,description,"Roll exactly 5 dice, all ones",Брось ровно 5 кубиков — все единицы,投出5枚骰子时获得全1,Lancer cinq dés et tirer cinq 1
+BONANZA_IN_ONE,name,Bonanza In One,Бонанза одним броском,一次就中,Maîtrise du Bonanza
+BONANZA_IN_ONE,description,Star Bonanza on a 5-dice roll,Получи «Звездную Бонанзу» при броске 5 кубиков,用5枚骰子投出星星头彩,Lancer cinq dés et tirer un Star Bonanza
+PURE_SKILL,name,Pure Skill,Чистый скилл,纯技术,Le talent
+PURE_SKILL,description,Long Straight on a 6-dice roll,Получи «Длинный Стрит» при броске 6 кубиков,用6枚骰子投出大顺子,Lancer six dés et tirer une Grande Suite
+OH_YEAH,name,Oh Yeah,О да!,好耶,T’es chaud
+OH_YEAH,description,Reach 50000 points in one level,Набери 50000 очков на одном уровне,在一关内获得50000分数,Atteindre 50000 points en un niveau
+TOO_EASY,name,Too Easy,Слишком легко,简简单单,Trop facile
+TOO_EASY,description,Score 10000 points with one hand,Набери 10000 очков за один ход,一次计分获得10000分数,Jouer une main à 10000 points
+SELF_ESTEEM,name,Self Esteem,Самооценка,自我认同,Estime de soi
+SELF_ESTEEM,description,Hold middle click to flip yourself off,"Зажми среднюю кнопку мыши, чтобы показать себе неприличный жест",按下鼠标滚轮对自己竖起中指,Se faire un doigt d’honneur en maintenant le clic molette
+CANIBALISM,name,Cannibalism?,Каннибализм?,同类相食？,C’est du cannibalisme ?
+CANIBALISM,description,Feed a die baby to a die,Скорми малыша кубика другому кубику,把骰子宝宝喂给骰子,Nourrir un dé avec un bébé dé
+FEESH,name,Feesh!,Рыбка!,鱼儿！,Belle prise
+FEESH,description,Catch the gold fish,Поймай золотую рыбку,抓住金鱼,Attraper le poisson rouge
+NO_CHEATING,name,No Cheating,Никакого жульничества,出千遭天谴,Interdit de tricher !
+NO_CHEATING,description,Get smitten by god,Получи удар божественной карой,被神降下天罚,Se faire châtier par dieu
+BRAVEST_CHILD,name,Bravest Child,Смелость,勇敢的孩子,Préféré de dieu
+BRAVEST_CHILD,description,Win double or nothing 5 times in a row,Выиграй в игре «вдвойне или ничего» 5 раз подряд,5次连续赢下双倍或者回家,Remporter le quitte ou double 5 fois d’affilée
+SOULLESS,name,Soulless,Бездушность,失去灵魂,Sans âme
+SOULLESS,description,Bet your soul and lose,Поставь на кон свою душу — и проиграй,赌上灵魂并输掉游戏,Miser votre âme et perdre
+CHOSEN_ONE,name,Chosen One,Избрание,天选之人,L’Élu
+CHOSEN_ONE,description,Satisfy God,Угоди Богу,满足神,Satisfaire dieu
+FISHY,name,Fishy Business,Рыбные дела,鱼生意,Magnat du poisson
+FISHY,description,Hold 500 fish at once,Накопи 500 рыбы,同时持有500条鱼,Posséder 500 poissons
