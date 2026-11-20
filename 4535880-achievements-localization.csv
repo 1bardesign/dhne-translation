@@ -1,4 +1,4 @@
-api_name (required; must match an api_name from the definitions CSV),field (name or description),english,ru,zh,fr,pl,sv,de
+api_name (required; must match an api_name from the definitions CSV),field (name or description),english,russian,schinese,french,polish,swedish,german
 REAL_ESTATE,name,Real Estate,Недвижимость,房地产,Propriétaire,Nieruchomości,Fastighetsägare,Immobilienmakler
 REAL_ESTATE,description,Unlock every board,Открой все игровые поля,解锁所有场景,Débloquer tous les plateaux,Odblokuj wszystkie głębie,Lås upp alla spelplaner.,Schalte jede Gegend frei
 SQUAD,name,Squad,Отряд,全明星,Équipe de choc,Ekipa,Hela gänget,Gang
