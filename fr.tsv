@@ -90,7 +90,7 @@ src/characters/god.lua:85		wager all ${gold} gold ¤	miser la totalité de vos $
 src/characters/god.lua:87		wager everything	miser tout
 src/characters/god.lua:97	dialogue	you always were my bravest child	tu as toujours été mon enfant le plus brave
 src/characters/god.lua:102		God?	Dieu ?
-src/characters/god.lua:135	dialogue	cheating? me? god?	tu as voulu me duper ? moi ? dieu ?
+src/characters/god.lua:135	dialogue	cheating? me? god?	tricher ? moi ? dieu ?
 src/characters/god.lua:136	dialogue	i appreciate the boldness	j’apprécie l’audace
 src/characters/god.lua:137	dialogue	it will not work again	ça ne marchera plus
 src/characters/god.lua:161	dialogue	no tickle	un peu de sérieux
@@ -479,8 +479,8 @@ src/item_unlocks.lua:408 (+1 others)		Scoreboards	Tableau des scores
 src/item_unlocks.lua:409 (+1 others)		be the goat	soyez le goat
 src/items.lua:22		Something fell from the sky	Quelque chose est tombé du ciel
 src/items.lua:48		Power Limit Up	Pouvoir+
-src/items.lua:51		Power Limit +1	+1 charge de Pouvoir
-src/items.lua:62		Power Limit +1!	+1 charge de Pouvoir !
+src/items.lua:51		Power Limit +1	+1 charge max de Pouvoir
+src/items.lua:62		Power Limit +1!	+1 charge max de Pouvoir !
 src/items.lua:67		Trinket Limit Up	Relique+
 src/items.lua:70		Trinket Limit +1	+1 emplacement de relique
 src/items.lua:79		Trinket Limit +1!	+1 emplacement de relique !
@@ -789,16 +789,16 @@ src/items.lua:2961		On Bust, gain +1 Momentum	Enchaînement +1 lors d’un Burst
 src/items.lua:2976		Shortbread Biscuit	Biscuit sablé
 src/items.lua:2979		+100 Points for rerolling a single die	+100 Points quand vous lancez un seul dé
 src/items.lua:3037		Banksia	Banksia
-src/items.lua:3040		Rerolling a Pair recharges Power	Recharge le Pouvoir quand vous relancez une Paire
-src/items.lua:3052 (+4 others)		Power Recharged	Pouvoir rechargé
+src/items.lua:3040		Rerolling a Pair recharges Power	+1 charge de Pouvoir quand vous relancez une Paire
+src/items.lua:3052 (+4 others)		Power Recharged	+1 charge de Pouvoir
 src/items.lua:3059		Lycheye	Litchi
-src/items.lua:3060		Two Pair recharges Power	Recharge le Pouvoir quand vous jouez une Double Paire
+src/items.lua:3060		Two Pair recharges Power	+1 charge de Pouvoir quand vous jouez une Double Paire
 src/items.lua:3079		Bump Jug	Cruche ronde
-src/items.lua:3082		Scoring a Full House recharges Power	Recharge le Pouvoir quand vous jouez un Full
+src/items.lua:3082		Scoring a Full House recharges Power	+1 charge de Pouvoir quand vous jouez un Full
 src/items.lua:3099		Full Send	Tout pour le tout
-src/items.lua:3102		Rerolling 5 or more dice recharges Power	Recharge le Pouvoir quand vous lancez 5 dés ou plus
+src/items.lua:3102		Rerolling 5 or more dice recharges Power	+1 charge de Pouvoir quand vous lancez 5 dés ou plus
 src/items.lua:3119		God Give Me Strength	Dieu, donne-moi la force
-src/items.lua:3122		Rerolling a single die recharges Power	Recharge le Pouvoir quand vous lancez un seul dé
+src/items.lua:3122		Rerolling a single die recharges Power	+1 charge de Pouvoir quand vous lancez un seul dé
 src/items.lua:3143		High Roller	Gros joueur
 src/items.lua:3146		+1 Mult for each 6 scored	Multi +1 pour chaque 6 joué
 src/items.lua:3161		Low Ball	Prix bas
@@ -959,7 +959,7 @@ src/items.lua:5137		6s always reroll into 1s	Relancer un 6 donnera toujours un 1
 src/items.lua:5168		Minus Max Bust	Minus max Burst
 src/items.lua:5169		Bust Limit -1	-1 limite de Burst
 src/items.lua:5186		Turn Down Power Up	Tour contre Pouvoir
-src/items.lua:5187		Turn Limit -1, Power Limit +2	-1 tour, +2 charges de Pouvoir
+src/items.lua:5187		Turn Limit -1, Power Limit +2	-1 tour, +2 charges max de Pouvoir
 src/items.lua:5212 (+1 others)		Cursed Score	Jeu maudit
 src/items.lua:5218 (+1 others)		Feels bad for you	Se sent mal pour toi
 src/items.lua:5219		Each time you score, 1 random die takes damage	Chaque fois que vous jouez des dés, -1 ♥ à 1 dé au hasard
@@ -1502,7 +1502,7 @@ src/ui/help_screen.lua:130	ui	Select dice that form a combo and score them.\nPoi
 src/ui/help_screen.lua:133	ui	TRINKETS, SPELLS & SNACKS	RELIQUES, SORTS & SNACKS
 src/ui/help_screen.lua:134	ui	- Trinkets are passive, they trigger automatically.\n- Spells are one time use!\n- Snacks are dragged onto a die to add special effects.	- Les reliques se déclenchent automatiquement.\n- Les sorts sont à usage unique !\n- Donnez un snack à un dé à un dé pour lui ajouter des effets.
 src/ui/help_screen.lua:137	ui	CHARACTER POWER	POUVOIR DE PERSONNAGE
-src/ui/help_screen.lua:138	ui	Each character has a unique Power. Use them to modify dice, reduce risk and get better combos.\n\nPower recharges each turn or with die side effects and items.	Chaque personnage à un Pouvoir unique, pour influer sur les dés, réduire les risques et faire de meilleures figures.\n\nIl se recharge à chaque tour, ou à l’aide d’effets variés.
+src/ui/help_screen.lua:138	ui	Each character has a unique Power. Use them to modify dice, reduce risk and get better combos.\n\nPower recharges each turn or with die side effects and items.	Chaque personnage a un Pouvoir unique, pour influer sur les dés, réduire les risques et faire de meilleures figures.\n\nIl se recharge à chaque tour, ou à l’aide d’effets variés.
 src/ui/help_screen.lua:141	ui	BASIC TACTICS	STRATÉGIE DE BASE
 src/ui/help_screen.lua:142	ui	The more dice you roll at once the bigger chance of any Bust, but smaller chance of All Bust.\n\nRerolling a single die is ballsy! Prioritize rerolling blank dice. Scoring a single big combo is better than few pairs.	Plus vous lancez de dés d’un coup, plus vous avez de chance de faire un Burst, mais moins vous avez de chance de ne faire que des Burst.\n\nLancer un seul dé est risqué ! Lancez d’abord les dés en suspens. Une seule grosse figure vaut mieux que quelques Paires.
 src/ui/item_hover.lua:73 (+4 others)	ui	SPELL	SORT

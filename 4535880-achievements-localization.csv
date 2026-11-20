@@ -51,7 +51,7 @@ CHOSEN_ONE,name,Chosen One,Избрание,天选之人,L’Élu
 CHOSEN_ONE,description,Satisfy God,Угоди Богу,满足神,Satisfaire dieu
 FISHY,name,Fishy Business,Рыбные дела,鱼生意,Magnat du poisson
 FISHY,description,Hold 500 fish at once,Накопи 500 рыбы,同时持有500条鱼,Posséder 500 poissons
-LEVEL_20,name,Deep End,,,
-LEVEL_20,description,Reach level 20,,,
-OPEN_WIDE,name,Open Wide,,,
-OPEN_WIDE,description,Bring all the teeth to the Rift dentist,,,
+LEVEL_20,name,Deep End,,,Abysse
+LEVEL_20,description,Reach level 20,,,Atteindre le niveau 20
+OPEN_WIDE,name,Open Wide,,,Ouvrez grand
+OPEN_WIDE,description,Bring all the teeth to the Rift dentist,,,Apporter toutes les dents à la dentiste de la Faille
