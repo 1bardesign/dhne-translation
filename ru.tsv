@@ -243,10 +243,10 @@ src/coloured_text.lua:95 (+12 others)		stuck	липучка
 src/coloured_text.lua:98 (+2 others)		empty	пустота
 src/display_loc.lua:3		Normal	Нормальный
 src/display_loc.lua:4		Pixel	Пиксель
-src/endings/alley.lua:28	dialogue	very well	
-src/endings/alley.lua:29	dialogue	next time bring me all the teeth	
-src/endings/alley.lua:64		knock	
-src/endings/alley.lua:135	dialogue	i'll be waiting in your guts	
+src/endings/alley.lua:28	dialogue	very well	ну хорошо
+src/endings/alley.lua:29	dialogue	next time bring me all the teeth	в следующий раз принеси мне все зубы
+src/endings/alley.lua:64		knock	тук-тук
+src/endings/alley.lua:135	dialogue	i'll be waiting in your guts	я буду ждать в твоих кишках
 src/endings/anais.lua:124	dialogue	don't leave again	не уходи
 src/endings/anais.lua:125	dialogue	you're safe here	ты здесь в безопасности
 src/endings/anais.lua:126	dialogue	with me	со мной
@@ -1126,8 +1126,8 @@ src/special_conditions.lua:102		Full House	Фулл-Хаус
 src/special_conditions.lua:115		Four Of A Kind	Каре
 src/special_conditions.lua:126		Straight	Стрит
 src/special_conditions.lua:179		Long Straight	Длинный Стрит
-src/special_conditions.lua:190		Long Long Straight	
-src/special_conditions.lua:201		Long Long Long Straight	
+src/special_conditions.lua:190		Long Long Straight	Длинный Длинный Стрит
+src/special_conditions.lua:201		Long Long Long Straight	Длинный Длинный Длинный Стрит
 src/special_conditions.lua:212		Star Bonanza	Звездная Бонанза
 src/special_conditions.lua:223		Star Extravaganza	Звездная Экстраваганза
 src/special_conditions.lua:234		Star Bonanzovaganza	Звездная Бонанзоваганза
@@ -1243,8 +1243,8 @@ src/states/game.lua:179		Restart the run from scratch\nand lose all gained stars
 src/states/game.lua:185 (+3 others)		Options	Настройки
 src/states/game.lua:193		Save and Quit	Сохранить и выйти
 src/states/game.lua:194		(Cant Save Right Now)	(Сейчас нельзя сохранить)
-src/states/game.lua:199		No escape	
-src/states/game.lua:202		Skip Tutorial	
+src/states/game.lua:199		No escape	Выхода нет
+src/states/game.lua:202		Skip Tutorial	Пропустить обучение
 src/states/game.lua:202		Abandon	Сдаться
 src/states/game.lua:210		Quit to menu and lose all gained stars?	Выйти в меню и потерять все полученные звезды?
 src/states/game.lua:215		No way out	Выхода нет
@@ -1320,7 +1320,7 @@ src/states/game_setup.lua:706		Wager half your stars.\nMinimum 500 ¤\nHigher st
 src/states/game_setup.lua:716		Wager all your stars.\nMinimum 1000 ¤\nEven more star rewards.	Поставь все свои звезды.\nМинимум 1000 ¤\nЕщё больше звездных наград.
 src/states/game_setup.lua:774		Wager	Ставка
 src/states/game_setup.lua:856		Levels	Уровни
-src/states/game_setup.lua:863		Wager stars to add levels,\nnext level %d ¤	
+src/states/game_setup.lua:863		Wager stars to add levels,\nnext level %d ¤	Ставь звёзды чтобы добавить уровни,\nследующий уровень %d ¤
 src/states/game_setup.lua:1095		Difficulty	Сложность
 src/states/game_setup.lua:1098		${stars} ¤ reward limit	Лимит награды ${stars} ¤
 src/states/gameover.lua:224		Congratulations, you lost.	Поздравляю, ты проиграла.
@@ -1439,10 +1439,10 @@ src/states/title.lua:379 (+1 others)		bye?	пока?
 src/states/title.lua:474		brighten up	просветлей
 src/states/title.lua:475		rest your eyes	дай глазам отдохнуть
 src/states/title.lua:486		community chat	чат сообщества
-src/states/title.lua:635		Welcome To 1.0!	
-src/states/title.lua:636		thanks so much for supporting the game ♥\nyou are looking fabulous today\n\nlots has changed since early access\nwe recommend starting 1.0 with a fresh save, but its up to you	
-src/states/title.lua:637		sure, delete it!	
-src/states/title.lua:638		yikes, no thanks	
+src/states/title.lua:635		Welcome To 1.0!	Добро пожаловать в 1.0!
+src/states/title.lua:636		thanks so much for supporting the game ♥\nyou are looking fabulous today\n\nlots has changed since early access\nwe recommend starting 1.0 with a fresh save, but its up to you	большое спасибо за поддержку игры ♥\nсегодня ты выглядишь просто потрясающе\nс раннего доступа многое изменилось\nрекомендуем начать версию 1.0 с нового сохранения, но выбор за тобой
+src/states/title.lua:637		sure, delete it!	конечно, удаляй!
+src/states/title.lua:638		yikes, no thanks	ой, нет, спасибо
 src/states/unlock.lua:79		representations are still solidifying - physical form is meaningless - you're imagining it	образы всё ещё обретают форму — физическая оболочка бессмысленна — ты всё это выдумала
 src/states/unlock.lua:96 (+3 others)		SNACK	ЗАКУСКА
 src/states/unlock.lua:163		Upgrades	Улучшения
