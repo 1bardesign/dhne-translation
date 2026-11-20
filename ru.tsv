@@ -1266,7 +1266,7 @@ src/states/game.lua:1099		praying...	молитва...
 src/states/game.lua:1099		pray	молиться
 src/states/game.lua:1177		Losing all Turns ends the game.\nTurns refill at the start of each level.	Потеря всех Ходов завершает игру.\nХоды восполняются в начале каждого уровня.
 src/states/game.lua:1428 (+1 others)		MERGED	ОБЪЕДИНЕНЫ
-src/states/game.lua:1637		pause	пауза
+src/states/game.lua:1637		pause	
 src/states/game.lua:1911 (+2 others)		Level $level/$count $name	Уровень $level/$count $name
 src/states/game.lua:1963		NIGHTMARE LEVEL	КОШМАР
 src/states/game.lua:2085 (+1 others)		Rift	Разлом
