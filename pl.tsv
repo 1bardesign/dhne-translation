@@ -10,8 +10,9 @@ src/are_you_sure.lua:17		really?	serio?
 src/board_unlocks.lua:7		chill vibes	luźny klimat
 src/board_unlocks.lua:17		the real game begins	zaczyna się prawdziwa gra
 src/board_unlocks.lua:27		something smells fishy	coś tu śmierdzi rybą
+src/board_unlocks.lua:46		all in	all in
 src/boards/easy.lua:2		Shallows	Płycizna
-src/boards/easy.lua:3		Chill Vibes. Short run, extra bust limit.	Luźny klimat. Krótkie podejście, wyższy limit Bustów.
+src/boards/easy.lua:3		Chill Vibes. Short run, extra bust limit.	Luźny klimat. Krótki run, wyższy limit Bustów.
 src/boards/easy.lua:4		the friendliest pond around	najprzyjaźniejszy staw w okolicy
 src/boards/fish_board.lua:2		The Bay	Zatoka
 src/boards/fish_board.lua:3		Smells Fishy	Coś tu śmierdzi rybą
@@ -19,20 +20,20 @@ src/boards/fish_board.lua:4		come for the fish, stay for the fish	przyjdź na ry
 src/boards/normal.lua:2		Lands Adrift	Dryfujące Lądy
 src/boards/normal.lua:3		Real game begins.	Zaczyna się prawdziwa gra.
 src/boards/normal.lua:4		you'll never want to leave	nie będziesz chciała stąd odejść
-src/boards/rift.lua:3		Decide how deep you can go.	Zdecyduj, jak głęboko zejdziesz.
+src/boards/rift.lua:3		Decide how deep you can go.	Zdecyduj, jak głęboko zajdziesz.
 src/boards/rift.lua:4		please mind the gap	uwaga na przepaść
 src/boards/the_end.lua:2		The End	Koniec
 src/boards/the_end.lua:3		This is it.	To już.
 src/boards/the_end.lua:4		thank you for visiting	dziękujemy za odwiedziny
 src/character_unlocks.lua:10		the crown hung heavy from before he was born	korona ciążyła mu, zanim się urodził
 src/character_unlocks.lua:21		tries her best	stara się jak może
-src/character_unlocks.lua:31		likes watching you bust	lubi patrzeć, jak łapiesz Busty
+src/character_unlocks.lua:31		likes watching you bust	lubi patrzeć na twoje busty
 src/character_unlocks.lua:42		just a dude	zwykły ziom
 src/character_unlocks.lua:53		gets away with it	wszystko mu uchodzi na sucho
-src/character_unlocks.lua:63		god's stronger warrior	silniejsza wojowniczka boga
+src/character_unlocks.lua:63		god's strongest warrior	najsilniejsza wojowniczka boga
 src/character_unlocks.lua:74		woof	hau
 src/character_unlocks.lua:84 (+1 others)	dialogue	woof?	hau?
-src/character_unlocks.lua:95		he's so cool	jest taki spoko
+src/character_unlocks.lua:95		he's so cool	luźniutko
 src/character_unlocks.lua:105		slimy	oślizgły
 src/character_unlocks.lua:114		say aaaaaaaa	powiedz aaaaaaaa
 src/character_unlocks.lua:120		Plasticine	Plastelina
@@ -191,7 +192,7 @@ src/characters/tutorial_character.lua:248	dialogue	That's a WIPE! All unbanked P
 src/characters/tutorial_character.lua:249	dialogue	Don't worry, it happens.	Spokojnie, zdarza się.
 src/characters/tutorial_character.lua:251	dialogue	Next time you should BANK before that happens :)	Następnym razem ZBANKUJ, zanim to nastąpi :)
 src/characters/tutorial_character.lua:264	dialogue	Ah. Yeah...	Ach. No tak...
-src/characters/tutorial_character.lua:265	dialogue	Instant WIPE	Natychmiastowy WIPE
+src/characters/tutorial_character.lua:265	dialogue	Instant WIPE	Instant WIPE
 src/characters/tutorial_character.lua:266	dialogue	When ALL DICE you rolled roll BUST, your Turn is over straight away.	Gdy WSZYSTKIE rzucone KOSTKI pokażą BUST, tura od razu się kończy.
 src/characters/tutorial_character.lua:267	dialogue	Rolling a single die makes that very likely, but it can happen with any roll!	Przy rzucie jedną kostką jest to bardzo prawdopodobne, ale może się zdarzyć przy każdym rzucie!
 src/characters/tutorial_character.lua:280	dialogue	This is your last turn.	To twoja ostatnia tura.
@@ -218,7 +219,7 @@ src/characters/wizard.lua:221	dialogue	Hmpf.	Hmpf.
 src/characters/wizard.lua:238	dialogue	Tada!	Tadam!
 src/coloured_text.lua:8 (+117 others)		bust	bust
 src/coloured_text.lua:12		wipe	wipe
-src/coloured_text.lua:14		instant	natychmiastowy
+src/coloured_text.lua:14		instant	instant
 src/coloured_text.lua:16		turn	tura
 src/coloured_text.lua:20		turns	tury
 src/coloured_text.lua:24 (+3 others)		bank	bank
@@ -263,7 +264,7 @@ src/endings/dog.lua:130	dialogue	i am neither good nor bad	nie jestem ani dobry,
 src/endings/god.lua:155	dialogue	it was very brave of you to come back	to bardzo odważne z twojej strony, że wróciłaś
 src/endings/god.lua:156	dialogue	again	znowu
 src/endings/god.lua:157	dialogue	you are my bravest child	jesteś moim najdzielniejszym dzieckiem
-src/endings/god.lua:158	dialogue	and i am god	a ja jestem bogiem
+src/endings/god.lua:158	dialogue	and i am god	a ja jestem bogiem, wyobraź to sobie, sobie
 src/endings/guy.lua:158	dialogue	have you looked into a mirror recently?	patrzyłaś ostatnio w lustro?
 src/endings/guy.lua:159	dialogue	what do you see?	co widzisz?
 src/endings/guy.lua:160	dialogue	i see my bravest child	widzę moje najdzielniejsze dziecko
@@ -307,7 +308,7 @@ src/entities/buttons_clump.lua:259		Roll Blank	Rzuć puste
 src/entities/buttons_clump.lua:260		Roll all blank dice	Rzuć wszystkimi pustymi kostkami
 src/entities/buttons_clump.lua:262		Roll All	Rzuć wszystkie
 src/entities/buttons_clump.lua:263		Re-roll all your dice	Przerzuć wszystkie kostki
-src/entities/buttons_clump.lua:353		any bust:\ninstant wipe:	dowolny bust:\nnatychmiastowy wipe:
+src/entities/buttons_clump.lua:353		any bust:\ninstant wipe:	dowolny bust:\ninstant wipe:
 src/entities/buttons_clump.lua:410 (+2 others)		no combo	brak combo
 src/entities/cycle_baby.lua:7		Cycle Baby	Bobas Cykl
 src/entities/cycle_baby.lua:13		Cycle!	Cykl!
@@ -371,8 +372,8 @@ src/entities/shop.lua:1405		bye	pa pa
 src/entities/shop.lua:1453		Reroll - ${current_cost}¥	Przelosuj - ${current_cost}¥
 src/entities/tape.lua:453		- web	- strona
 src/entities/title_text.lua:3		DICE HAVE\nNO EYES	DICE HAVE\nNO EYES
-src/entities/title_text.lua:5		DICE HAVE\nNÕ EYES	DICE HAVE\nNÕ EYES
-src/entities/title_text.lua:6		DICE HAVE\nNÖ EYES	DICE HAVE\nNÖ EYES
+src/entities/title_text.lua:5		DICE HAVE\nNÕ EYES	DICE HAVE\nNO EYES
+src/entities/title_text.lua:6		DICE HAVE\nNÖ EYES	DICE HAVE\nNO EYES
 src/entities/title_text.lua:127		DEMO	DEMO
 src/haunt.lua:14 (+2 others)		wake up	obudź się
 src/haunt.lua:17		leave	odejdź
@@ -415,7 +416,7 @@ src/item_unlocks.lua:90		More Snacks	Więcej Przekąsek
 src/item_unlocks.lua:91		get some variety in your diet	urozmaić swoją dietę
 src/item_unlocks.lua:100		Diet Culture	Kultura Diet
 src/item_unlocks.lua:101		its real bad for you	to bardzo niezdrowe
-src/item_unlocks.lua:108		All In	Va Banque
+src/item_unlocks.lua:108		All In	All In
 src/item_unlocks.lua:109		for when youve got nothing to lose	gdy nie masz nic do stracenia
 src/item_unlocks.lua:118		Lover	Kochanka
 src/item_unlocks.lua:119		everything to do with pairs	wszystko, co związane z parami
@@ -474,7 +475,7 @@ src/item_unlocks.lua:378		from the sea	prosto z morza
 src/item_unlocks.lua:386		Sardine Magic	Sardynkowa Magia
 src/item_unlocks.lua:387		abracodabra	abrakadorsz
 src/item_unlocks.lua:395		Bans	Bany
-src/item_unlocks.lua:396		ban item sets from your runs	wyklucz zestawy przedmiotów ze swoich podejść
+src/item_unlocks.lua:396		ban item sets from your runs	wyklucz zestawy przedmiotów ze swoich runów
 src/item_unlocks.lua:408 (+1 others)		Scoreboards	Rankingi
 src/item_unlocks.lua:409 (+1 others)		be the goat	zostań GOAT-em
 src/items.lua:22		Something fell from the sky	Coś spadło z nieba
@@ -888,12 +889,12 @@ src/items.lua:4259		Cell	Ogniwo
 src/items.lua:4262		Start each turn with a Bust Shield	Zaczynaj każdą turę z Tarczą przed Bustem
 src/items.lua:4273		shield!	tarcza!
 src/items.lua:4282		Jade Bracelet	Bransoletka z Jadeitu
-src/items.lua:4285		3 in 4 chance to block an instant wipe.\n${dynamic} uses left.	Szansa 3 na 4 na zablokowanie natychmiastowego wipe'a.\nPozostałe użycia: ${dynamic}.
+src/items.lua:4285		3 in 4 chance to block an instant wipe.\n${dynamic} uses left.	Szansa 3 na 4 na zablokowanie instant wipe'a.\nPozostałe użycia: ${dynamic}
 src/items.lua:4308		Shattered!	Roztrzaskana!
 src/items.lua:4323		Four Cell	Poczwórne Ogniwo
 src/items.lua:4326		If you would bust, each unrolled 4 gives a 20% chance to cancel it	Gdy grozi Bust, każda nieprzerzucona 4 daje 20% szansy na jego anulowanie
 src/items.lua:4353		Candle	Świeca
-src/items.lua:4354		1 in 2 chance to turn an instant wipe into a single Bust	Szansa 1 na 2 na zamianę natychmiastowego wipe'a w pojedynczy Bust
+src/items.lua:4354		1 in 2 chance to turn an instant wipe into a single Bust	Szansa 1 na 2 na zamianę instant wipe'a w pojedynczy Bust
 src/items.lua:4365		oof	auć
 src/items.lua:4377		Reduced!	Złagodzone!
 src/items.lua:4389		Anis Star	Anyż Gwiazdkowy
@@ -1175,13 +1176,13 @@ src/states/customisation.lua:462		recolour	przefarbuj
 src/states/ending.lua:244 (+6 others)		hit that shit?	pierdolnij se
 src/states/ending.lua:303 (+4 others)		play	graj
 src/states/ending.lua:505 (+4 others)		done	gotowe
-src/states/ending_bet.lua:60 (+1 others)		--  Run Summary  --	--  Podsumowanie Podejścia  --
+src/states/ending_bet.lua:60 (+1 others)		--  Run Summary  --	--  Podsumowanie Runa  --
 src/states/ending_bet.lua:74 (+1 others)		Level reached:	Osiągnięty poziom:
 src/states/ending_bet.lua:75 (+1 others)		Points scored:	Zdobyte punkty:
 src/states/ending_bet.lua:76 (+1 others)		Dice rolled:	Rzucone kostki:
 src/states/ending_bet.lua:77 (+1 others)		Ones rolled:	Wyrzucone jedynki:
 src/states/ending_bet.lua:78 (+1 others)		Bust rate:	Częstość Bustów:
-src/states/ending_bet.lua:80 (+1 others)		Run stars:	Gwiazdki z podejścia:
+src/states/ending_bet.lua:80 (+1 others)		Run stars:	Gwiazdki z runa:
 src/states/ending_bet.lua:94 (+4 others)		¤ banked	¤ zbankowane
 src/states/ending_bet.lua:157	dialogue	you won	wygrałaś
 src/states/ending_bet.lua:162	dialogue	you have done very well	spisałaś się bardzo dobrze
@@ -1223,7 +1224,7 @@ src/states/ending_finale.lua:159	dialogue	you are worthy	jesteś godna
 src/states/ending_finale.lua:161	dialogue	i will offer you one final wager	zaproponuję ci ostatni zakład
 src/states/ending_finale.lua:167	dialogue	heads: you're free	orzeł: jesteś wolna
 src/states/ending_finale.lua:174	dialogue	tails: i will personally destroy all your files one by one	reszka: osobiście zniszczę wszystkie twoje pliki, jeden po drugim
-src/states/ending_finale.lua:190	dialogue	do it, all in	no dalej, va banque
+src/states/ending_finale.lua:190	dialogue	do it, all in	no dalej, all in
 src/states/ending_finale.lua:192		flick it like you mean it	pstryknij, jakby od tego wszystko zależało
 src/states/ending_finale.lua:192		this is real	to dzieje się naprawdę
 src/states/ending_finale.lua:254	dialogue	disappointing	rozczarowujące
@@ -1237,9 +1238,9 @@ src/states/fish_market.lua:265		Next!	Następna!
 src/states/game.lua:148 (+2 others)		back	wróć
 src/states/game.lua:162		PAUSE II	PAUZA II
 src/states/game.lua:170 (+1 others)		Continue	Kontynuuj
-src/states/game.lua:174 (+1 others)		Cannot Restart Wager Runs	Nie można zrestartować podejść z zakładem
+src/states/game.lua:174 (+1 others)		Cannot Restart Wager Runs	Nie można zrestartować runów z zakładem
 src/states/game.lua:177		Restart	Restart
-src/states/game.lua:179		Restart the run from scratch\nand lose all gained stars?	Zacząć podejście od nowa\ni stracić wszystkie zdobyte gwiazdki?
+src/states/game.lua:179		Restart the run from scratch\nand lose all gained stars?	Zacząć run od nowa\ni stracić wszystkie zdobyte gwiazdki?
 src/states/game.lua:185 (+3 others)		Options	Opcje
 src/states/game.lua:193		Save and Quit	Zapisz i Wyjdź
 src/states/game.lua:194		(Cant Save Right Now)	(Nie Można Teraz Zapisać)
@@ -1260,7 +1261,7 @@ src/states/game.lua:963		${count} BUSTS BLOCKED	ZABLOKOWANE BUSTY: ${count}
 src/states/game.lua:963		${count} BUST BLOCKED	ZABLOKOWANE BUSTY: ${count}
 src/states/game.lua:1013		wager ${amount} ¤	zakład ${amount} ¤
 src/states/game.lua:1016		${STARS} Stars Unbanked	Niezbankowane gwiazdki: ${STARS}
-src/states/game.lua:1018		bank stars after each nightmare level or win the run to secure them	bankuj gwiazdki po każdym poziomie koszmaru albo wygraj podejście, by je zabezpieczyć
+src/states/game.lua:1018		bank stars after each nightmare level or win the run to secure them	bankuj gwiazdki po każdym poziomie koszmaru albo wygraj run, by je zabezpieczyć
 src/states/game.lua:1099		praying...	modlitwa...
 src/states/game.lua:1099		pray	módl się
 src/states/game.lua:1177		Losing all Turns ends the game.\nTurns refill at the start of each level.	Utrata wszystkich Tur kończy grę.\nTury odnawiają się na początku każdego poziomu.
@@ -1282,7 +1283,7 @@ src/states/game.lua:2346		LAST TURN	OSTATNIA TURA
 src/states/game.lua:2465		- Out Of Dice -	- Brak Kostek -
 src/states/game.lua:2466		never	nigdy
 src/states/game.lua:2468		Looks like you're cooked\n\nGive up?	Wygląda na to, że po tobie\n\nPoddajesz się?
-src/states/game.lua:2618		INSTANT WIPE	NATYCHMIASTOWY WIPE
+src/states/game.lua:2618		INSTANT WIPE	INSTANT WIPE
 src/states/game.lua:2619		${rolled} OUT OF ${rolled} DICE ROLLED BUST	${rolled} Z ${rolled} RZUCONYCH KOSTEK TO BUST
 src/states/game.lua:2636		W I P E	W I P E
 src/states/game.lua:3064		SKIP ${pip}	PRZESKOK ${pip}
@@ -1307,8 +1308,8 @@ src/states/game.lua:3613		¤ Banked	¤ Zbankowane
 src/states/game.lua:3614		Bank ¤${KEPT}?	Zbankować ${KEPT}¤?
 src/states/game.lua:3615		Win To Bank ¤	Wygraj, by zbankować ¤
 src/states/game.lua:3616		Bank ¤ in ${LEVELS} lvl	BANK ¤ za ${LEVELS} poz.
-src/states/game.lua:3630		Secure your Stars for the run\nyou won't be able to gain more this run	Zabezpiecz Gwiazdki z tego podejścia\npotem nie zdobędziesz już kolejnych
-src/states/game.lua:3632		Stars already banked this run	Gwiazdki już zbankowane w tym podejściu
+src/states/game.lua:3630		Secure your Stars for the run\nyou won't be able to gain more this run	Zabezpiecz Gwiazdki z tego runa\npotem nie zdobędziesz już kolejnych
+src/states/game.lua:3632		Stars already banked this run	Gwiazdki już zbankowane w tym runie
 src/states/game.lua:3634		Securing Stars available after each nightmare level	Zabezpieczanie Gwiazdek dostępne po każdym poziomie koszmaru
 src/states/game.lua:3695 (+7 others)		no	nie
 src/states/game_setup.lua:161		play!	graj!
@@ -1324,13 +1325,13 @@ src/states/game_setup.lua:863		Wager stars to add levels,\nnext level %d ¤	Post
 src/states/game_setup.lua:1095		Difficulty	Trudność
 src/states/game_setup.lua:1098		${stars} ¤ reward limit	Limit nagrody: ${stars} ¤
 src/states/gameover.lua:224		Congratulations, you lost.	Gratulacje, przegrałaś.
-src/states/gameover.lua:225		Better luck next time.	Więcej farta następnym razem.
+src/states/gameover.lua:225		Better luck next time.	Następnym razem się uda.
 src/states/gameover.lua:226		Maybe next time.	Może następnym razem.
 src/states/gameover.lua:266		Wager ${BET}¤	Zakład ${BET}¤
 src/states/gameover.lua:274		Death Tax ${STARS}¤	Podatek od Śmierci ${STARS}¤
 src/states/gameover.lua:283		GAME OVER	KONIEC GRY
 src/states/gameover.lua:315		Death tax:	Podatek od śmierci:
-src/states/gameover.lua:331		run info	info o podejściu
+src/states/gameover.lua:331		run info	info o runie
 src/states/gameover.lua:370		restart	restart
 src/states/gameover.lua:575		Press Circle To Toss	Wciśnij Kółko, by rzucić
 src/states/gameover.lua:575		Press B To Toss	Wciśnij B, by rzucić
@@ -1407,8 +1408,8 @@ src/states/scoreboard.lua:231		your bust rate	twój wskaźnik bustów
 src/states/scoreboard.lua:235		expected	oczekiwany
 src/states/scoreboard.lua:239		player average	średnia graczy
 src/states/scoreboard.lua:244		Guts Completion	Ukończenie Brzusia
-src/states/scoreboard.lua:254		runs played	rozegrane podejścia
-src/states/scoreboard.lua:258		runs won	wygrane podejścia
+src/states/scoreboard.lua:254		runs played	rozegrane runy
+src/states/scoreboard.lua:258		runs won	wygrane runy
 src/states/scoreboard.lua:262		achievements	osiągnięcia
 src/states/tax_audit.lua:43		--  TAX AUDIT  --	--  KONTROLA SKARBOWA  --
 src/states/tax_audit.lua:79		You haven't paid your debt.\nPay ${debt} § or bribe your way out.	Nie spłaciłaś długu.\nZapłać ${debt} § albo się wykup.
@@ -1469,12 +1470,12 @@ src/sync_scoreboards.lua:68		stars won	zdobyte gwiazdki
 src/sync_scoreboards.lua:75		Most Wins	Najwięcej Wygranych
 src/sync_scoreboards.lua:80		wins	wygrane
 src/sync_scoreboards.lua:87		Most Fish	Najwięcej Ryb
-src/sync_scoreboards.lua:92		fish in a run	ryb w podejściu
+src/sync_scoreboards.lua:92		fish in a run	ryb w runie
 src/sync_scoreboards.lua:95 (+3 others)		(data did not load)	(nie udało się wczytać danych)
 src/sync_scoreboards.lua:100		Biggest Loser	Największy Przegrany
 src/sync_scoreboards.lua:105		death tax	podatek od śmierci
 src/sync_scoreboards.lua:113		The End Any%	Koniec Any%
-src/sync_scoreboards.lua:118		runs	podejścia
+src/sync_scoreboards.lua:118		runs	runy
 src/sync_scoreboards.lua:142		luck	fart
 src/sync_scoreboards.lua:203 (+1 others)	dialogue	you	ty
 src/ui/character_body.lua:302 (+2 others)	ui	LOCKED	ZABLOKOWANE
@@ -1491,7 +1492,7 @@ src/ui/help_screen.lua:18	ui	HELP ME!	POMOCY!
 src/ui/help_screen.lua:74	ui	INFO DUMP :)	ŚCIĄGAWKA :)
 src/ui/help_screen.lua:111	ui	BUST	BUST
 src/ui/help_screen.lua:112	ui	Each die has a red Bust side.\nRolling Bust side reduces your Bust meter.\n\nIf Bust meter goes to 0 you WIPE.\nAll unbanked points are gone, turn ends.	Każda kostka ma czerwoną stronę z Bustem.\nWyrzucenie strony z Bustem zmniejsza licznik Bustów.\n\nGdy licznik Bustów spadnie do 0, masz WIPE.\nWszystkie niezbankowane punkty przepadają, tura się kończy.
-src/ui/help_screen.lua:115	ui	ALL BUST - INSTANT WIPE	SAME BUSTY - NATYCHMIASTOWY WIPE
+src/ui/help_screen.lua:115	ui	ALL BUST - INSTANT WIPE	SAME BUSTY - INSTANT WIPE
 src/ui/help_screen.lua:116	ui	The tricky part!\n\nIf all dice you rolled at once show Bust,\nyou WIPE instantly, regardless of the Bust meter.\n\nExample: 3 out of 3 dice rolled Bust	Najtrudniejsza część!\n\nJeśli wszystkie kostki rzucone naraz pokażą Bust,\nod razu masz WIPE, niezależnie od licznika Bustów.\n\nPrzykład: 3 z 3 rzuconych kostek to Bust
 src/ui/help_screen.lua:119	ui	BANKING	BANKOWANIE
 src/ui/help_screen.lua:120	ui	BANK to lock in your points and refill the Bust meter.\nEach BANK ends your Turn.	BANK zabezpiecza punkty i uzupełnia licznik Bustów.\nKażdy BANK kończy Turę.

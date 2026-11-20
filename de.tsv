@@ -10,6 +10,7 @@ src/are_you_sure.lua:17		really?
 src/board_unlocks.lua:7		chill vibes	
 src/board_unlocks.lua:17		the real game begins	
 src/board_unlocks.lua:27		something smells fishy	
+src/board_unlocks.lua:46		all in	alles oder nichts
 src/boards/easy.lua:2		Shallows	
 src/boards/easy.lua:3		Chill Vibes. Short run, extra bust limit.	
 src/boards/easy.lua:4		the friendliest pond around	
@@ -29,7 +30,7 @@ src/character_unlocks.lua:21		tries her best
 src/character_unlocks.lua:31		likes watching you bust	
 src/character_unlocks.lua:42		just a dude	
 src/character_unlocks.lua:53		gets away with it	
-src/character_unlocks.lua:63		god's stronger warrior	
+src/character_unlocks.lua:63		god's strongest warrior	
 src/character_unlocks.lua:74		woof	
 src/character_unlocks.lua:84 (+1 others)	dialogue	woof?	
 src/character_unlocks.lua:95		he's so cool	

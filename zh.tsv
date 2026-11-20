@@ -10,6 +10,7 @@ src/are_you_sure.lua:17		really?	真的？
 src/board_unlocks.lua:7		chill vibes	轻轻松松
 src/board_unlocks.lua:17		the real game begins	游戏开始
 src/board_unlocks.lua:27		something smells fishy	不太对劲
+src/board_unlocks.lua:46		all in	全押
 src/boards/easy.lua:2		Shallows	浅滩
 src/boards/easy.lua:3		Chill Vibes. Short run, extra bust limit.	轻轻松松。游戏时长缩短，bust上限增加。
 src/boards/easy.lua:4		the friendliest pond around	全村最友善的池塘
@@ -29,7 +30,7 @@ src/character_unlocks.lua:21		tries her best	尽她所能
 src/character_unlocks.lua:31		likes watching you bust	喜欢看你bust的样子
 src/character_unlocks.lua:42		just a dude	普通人而已
 src/character_unlocks.lua:53		gets away with it	总是能得逞
-src/character_unlocks.lua:63		god's stronger warrior	神那更为强大的战士
+src/character_unlocks.lua:63		god's strongest warrior	神那更为强大的战士
 src/character_unlocks.lua:74		woof	汪汪
 src/character_unlocks.lua:84 (+1 others)	dialogue	woof?	汪呜？
 src/character_unlocks.lua:95		he's so cool	他好酷
