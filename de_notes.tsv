@@ -309,8 +309,8 @@ src/entities/buttons_clump.lua:262		Roll All	Alle Würfeln
 src/entities/buttons_clump.lua:263		Re-roll all your dice	Wirf alle Würfel nochmal	
 src/entities/buttons_clump.lua:353		any bust:\ninstant wipe:	irgendein bust:\ninstant wipe:	
 src/entities/buttons_clump.lua:410 (+2 others)		no combo	keine combo	
-src/entities/cycle_baby.lua:7		Cycle Baby	Zyklus-Baby	CONTEXT
-src/entities/cycle_baby.lua:13		Cycle!	Zyklisch!	CONTEXT
+src/entities/cycle_baby.lua:7		Cycle Baby	Zyklus-Baby	CONTEXT?
+src/entities/cycle_baby.lua:13		Cycle!	Zyklisch!	CONTEXT?
 src/entities/dice.lua:212		Bust	Bust	
 src/entities/dice.lua:221		Bonus\n+100 Points when scored	Bonus\n+100 Punkte bei Wertung	
 src/entities/dice.lua:231		Mult\n+2 Mult when scored	Multi\n+2 Multi bei Wertung	
@@ -351,7 +351,7 @@ src/entities/eye_baby.lua:7		Eye Baby	Augen Baby	CONTEXT
 src/entities/fish_spawner.lua:215		Cool Fish Available	Cooler Fisch Verfügbar	
 src/entities/god_shop.lua:68		CHOOSE	WÄHLE	
 src/entities/god_shop.lua:499		reroll %d ¤	neue ware %d ¤	
-src/entities/item.lua:498		Tooth ${count}/${limit}	Zähne ${count}/${limit}	shouldnt this be teeth in english?
+src/entities/item.lua:498		Tooth ${count}/${limit}	Zahn ${count}/${limit}	
 src/entities/item.lua:508		a to use spells	a um zu zaubern	
 src/entities/item.lua:510		right click to use spells	rechtsklick um zu zaubern	
 src/entities/item.lua:513		drag snacks over rolled dice	zieh snacks auf geworfene würfel	
@@ -369,7 +369,7 @@ src/entities/shop.lua:1333		pay up	bezahlen
 src/entities/shop.lua:1333		take change	wechselgeld	
 src/entities/shop.lua:1405		bye	bye	
 src/entities/shop.lua:1453		Reroll - ${current_cost}¥	Neue Ware - ${current_cost}¥	
-src/entities/tape.lua:453		- web	- web	CONTEXT
+src/entities/tape.lua:453		- web	- webseite	
 src/entities/title_text.lua:3		DICE HAVE\nNO EYES	DICE HAVE\nNO EYES	
 src/entities/title_text.lua:5		DICE HAVE\nNÕ EYES	DICE HAVE\nNÕ EYES	
 src/entities/title_text.lua:6		DICE HAVE\nNÖ EYES	DICE HAVE\nNÖ EYES	
@@ -546,7 +546,7 @@ src/items.lua:625		Snack Bag	Fresstüte
 src/items.lua:628		Spawn 2-3 random snack items	Erzeugt 2-3 zufällige Snacks	
 src/items.lua:648		${amount} foods!	${amount}x Essen!	
 src/items.lua:653		Gambling Bag	Wundertüte	
-src/items.lua:656		Send it	Aufreißen	CONTEXT - IS THIS HOVER TEXT?
+src/items.lua:656		Send it	Lass dich überraschen	
 src/items.lua:677		${amount} chances!	${amount} Chancen!	
 src/items.lua:682		Citrus Bag	Zitrus-Tüte	
 src/items.lua:685		Spawn 5 citrus slices	Erzeugt 5 Zitrusscheiben	
@@ -706,7 +706,7 @@ src/items.lua:2188		Kind Berry Three	Dreibeerstrauch
 src/items.lua:2191		+200 Points for Three Of A Kind	+200 Punkte für einen Dreierpasch	
 src/items.lua:2205		Two Pair Cat	Zwei-Paar-Katze	
 src/items.lua:2208		+200 Points for a combo containing Two Pair	+200 Punkte für eine Combo, die zwei Paare beinhaltet	
-src/items.lua:2222		Just A Pair	Nur Ein Paar	REDO - Pärchen?
+src/items.lua:2222		Just A Pair	Nur Ein Paar	
 src/items.lua:2225		+100 Points for a Pair	+100 Punkte für ein Paar	
 src/items.lua:2243		Fifteen Sum	Fünfzehnäuger	
 src/items.lua:2246		x3 Mult if the scored dice sum to 15	x3 Multi wenn die gewerteten Würfel in Summe 15 Augen zeigen	
@@ -729,9 +729,9 @@ src/items.lua:2410		x1.5 Mult for Pair, Two Pair and Three Pair	x1,5 Multi für 
 src/items.lua:2427		Poppy	Mohnblume	
 src/items.lua:2430		x2 Mult for a combo containing three 6s	x2 Multi für eine Combo, die drei 6en beinhaltet	
 src/items.lua:2446		Sunnies	Sonnenbrille	
-src/items.lua:2449		+0.5x Mult for each scored 2	+0,5 pro gewertetem Würfel x Multi	REDO - 0,5 pro gewerteter 2, x Multi
+src/items.lua:2449		+0.5x Mult for each scored 2	+0,5x Multi pro gewerteter 2	
 src/items.lua:2467		Cactus	Kaktus	
-src/items.lua:2470		+0.5x Mult per scored die	+0,5 pro gewertetem Würfel x Multi	REDO - 0,5 pro gewertetem Würfel, x Multi
+src/items.lua:2470		+0.5x Mult per scored die	+0,5x Multi pro gewertetem Würfel	
 src/items.lua:2488		Yolk	Eidotter	
 src/items.lua:2491		Flipping a single coin +5 Mult	+5 Multi wenn eine einzelne Münze geworfen wird	
 src/items.lua:2507		Lucky Leaf	Glücksblatt	
@@ -789,19 +789,19 @@ src/items.lua:2961		On Bust, gain +1 Momentum	+1 Momentum wenn ein Bust geworfen
 src/items.lua:2976		Shortbread Biscuit	Butterkeks	
 src/items.lua:2979		+100 Points for rerolling a single die	+100 Punkte wenn ein einzelner Würfel neu geworfen wird	
 src/items.lua:3037		Banksia	Banksie	
-src/items.lua:3040		Rerolling a Pair recharges Power	Power lädt auf wenn ein Paar neu geworfen wird	CONTEXT - lädt auf oder nach? wie viele power pips?
+src/items.lua:3040		Rerolling a Pair recharges Power	Power lädt auf wenn ein Paar neu geworfen wird	
 src/items.lua:3052 (+4 others)		Power Recharged	Power Aufgeladen	
 src/items.lua:3059		Lycheye	Litschauge	
 src/items.lua:3060		Two Pair recharges Power	Power lädt auf wenn Zwei Paare gewertet wird	
 src/items.lua:3079		Bump Jug	Bump Jug	
 src/items.lua:3082		Scoring a Full House recharges Power	Power lädt auf wenn ein Full House gewertet wird	
-src/items.lua:3099		Full Send	Gib Ihm	REDO - description is below - it is a star, maybe find something smart here
+src/items.lua:3099		Full Send	Volle Kraft Voraus	
 src/items.lua:3102		Rerolling 5 or more dice recharges Power	Power lädt auf wenn 5 oder mehr Würfel neu geworfen werden	
 src/items.lua:3119		God Give Me Strength	Gott Gib Mir Kraft	
 src/items.lua:3122		Rerolling a single die recharges Power	Power lädt auf wenn ein einzelner Würfel neu geworfen wird	
-src/items.lua:3143		High Roller	Hoch-Werfer	REDO - German word? Something Kniffel?
+src/items.lua:3143		High Roller	Hochwurf	
 src/items.lua:3146		+1 Mult for each 6 scored	+1 Multi für jede gewertete 6	
-src/items.lua:3161		Low Ball	Flachwurf	REDO - This duos if i keep Hochwurf, is it even fine
+src/items.lua:3161		Low Ball	Flachwurf	
 src/items.lua:3164		x2 Mult if all scored dice are 3 or under	x2 Multi wenn alle gewerteten Würfel 3 oder niedriger sind	
 src/items.lua:3187		Even Now	Gerade Jetzt	
 src/items.lua:3190		+50 Points per scored even die	+50 Punkte pro gewertetem Würfel mit gerader Augenzahl	
@@ -843,7 +843,7 @@ src/items.lua:3711 (+1 others)		Faded	Verblasst
 src/items.lua:3725		Full House Upgraded	Full House Verbessert	
 src/items.lua:3733		Stamp	Briefmarke	
 src/items.lua:3736		Rerolling a combo upgrades it permanently. Fades with use.	Eine Combo neu zu werfen verbessert sie für den Run. Verblasst nach Benutzung.	
-src/items.lua:3740		On Roll	Bei Wurf	CONTEXT
+src/items.lua:3740		On Roll	Bei Wurf	
 src/items.lua:3768		${combo} Upgraded	${combo} Verbessert	
 src/items.lua:3781		Gouda	Gouda	
 src/items.lua:3784		Rerolling a Three Of A Kind gives 2¥	+2¥ wenn ein Dreierpasch neu geworfen wird	
@@ -898,7 +898,7 @@ src/items.lua:4365		oof	uff
 src/items.lua:4377		Reduced!	Reduziert!	
 src/items.lua:4389		Anis Star	Sternanis	
 src/items.lua:4392		Bust Limit +1	+1 Bust-Limit	
-src/items.lua:4466		Soft Wipes	Feuchttücher	REDO - It's a star, doesnt work
+src/items.lua:4466		Soft Wipes	Wipe-Wächter	
 src/items.lua:4469		Wiping doesn't clear dice or score	Würfel und Punktzahl werden bei Wipe nicht zurückgesetzt	
 src/items.lua:4488		Taro Jelly	Taro-Gelee	
 src/items.lua:4491		Scoring 5s flips them to 6s	5er-Würfel kippen nach Wertung auf 6	
@@ -1097,7 +1097,7 @@ src/powers.lua:236		Ghost Clone	Geist-Klon	REDO - Better?
 src/powers.lua:237		Spawn a ghost copy of the selected die.	Erzeugt eine Geist-Kopie des gewählten Würfels.	
 src/powers.lua:286		Reroll	Neuwurf	
 src/powers.lua:287		Reroll all selected dice. 1s can't be rolled.	Wirft alle gewählten Würfel neu. Die Würfel können nicht auf 1 landen.	
-src/powers.lua:306		Roll over	Zurückrollen	
+src/powers.lua:306		Roll over	Rolle	
 src/powers.lua:307		Reroll two selected dice to their next lower value.	Wirft zwei gewählte Würfel auf ihren nächsten niedrigeren Augenwert.	
 src/powers.lua:330		Mystery Die	Rätselwürfel	
 src/powers.lua:331		Spawn a random die.	Erzeugt einen zufälligen Würfel.	
@@ -1111,8 +1111,8 @@ src/powers.lua:408		Skip a level. Spawns a random die and a random snack.	Übers
 src/powers.lua:476		Fishy Loan	Fauler Kredit	
 src/powers.lua:477		+100 Points, +1 ¥. Take on debt.	+100 Punkte, +1¥. Nimm Schulden auf.	
 src/powers.lua:513		Nibble	Knabbern	
-src/powers.lua:514		${nibble}% chance to take a proper bite\nRegain 1 bust.${die}	${nibble}% Chance, einen ganzen Bissen zu nehmen.\nFüllt 1 Bust auf.${die}	CONTEXT - What does dies do there?
-src/powers.lua:516		You might be finished	Das könnte es für dich gewesen sein	CONTEXT - Finished as in what?
+src/powers.lua:514		${nibble}% chance to take a proper bite\nRegain 1 bust.${die}	${nibble}% Chance,\neinen ganzen Bissen zu nehmen.\nFüllt 1 Bust auf.${die}	
+src/powers.lua:516		You might be finished	Du stehst kurz vorm Abgrund.	
 src/powers.lua:521		Munch	Mampf	
 src/powers.lua:522		Take a big bite to regain all busts.	Nimm einen großen Bissen\num alle Busts aufzufüllen.	
 src/powers.lua:612		Reincarnate	Wiedergeburt	
@@ -1148,7 +1148,7 @@ src/states/catalogue.lua:50 (+7 others)		< back	< zurück
 src/states/catalogue.lua:86 (+4 others)		dawn mode	dämmerung	
 src/states/catalogue.lua:86 (+4 others)		night mode	mitternacht	
 src/states/catalogue.lua:114 (+2 others)		ost	soundtrack	
-src/states/catalogue.lua:116 (+1 others)		artists' web	künstler im netz	
+src/states/catalogue.lua:116 (+1 others)		artists' web	künstler-webseiten	
 src/states/controls.lua:65		Keybinds	Tastenbelegung	
 src/states/controls.lua:145		press a key	drück eine taste	
 src/states/controls.lua:156		reset keybinds	tastenbelegung\nzurücksetzen	
@@ -1182,7 +1182,7 @@ src/states/ending_bet.lua:76 (+1 others)		Dice rolled:	Würfel geworfen:
 src/states/ending_bet.lua:77 (+1 others)		Ones rolled:	Einsen geworfen:	
 src/states/ending_bet.lua:78 (+1 others)		Bust rate:	Bust-Rate:	
 src/states/ending_bet.lua:80 (+1 others)		Run stars:	Run-Sterne:	
-src/states/ending_bet.lua:94 (+4 others)		¤ banked	¤ in der bank	"CONTEXT - Is this even ""banked""?"
+src/states/ending_bet.lua:94 (+4 others)		¤ banked	¤ gesammelt	
 src/states/ending_bet.lua:157	dialogue	you won	du hast gewonnen	
 src/states/ending_bet.lua:162	dialogue	you have done very well	sehr gut gemacht	
 src/states/ending_bet.lua:164	dialogue	a treat for a brave child	eine belohnung für ein mutiges kind	
@@ -1207,7 +1207,7 @@ src/states/ending_demo.lua:184 (+1 others)		Browser Opened!	Browser Geöffnet!
 src/states/ending_demo.lua:185 (+1 others)		Thanks <3	Danke <3	
 src/states/ending_demo.lua:187 (+1 others)		Buy Here	Hier Kaufen	
 src/states/ending_demo.lua:187 (+1 others)		Wishlist Here	Auf Die Wunschliste	
-src/states/ending_demo.lua:215		back to title	zurück zum titelbild	CONTEXT
+src/states/ending_demo.lua:215		back to title	zurück zum titelbild	
 src/states/ending_finale.lua:87	dialogue	well well well	sieh mal einer an	
 src/states/ending_finale.lua:88	dialogue	how did we get here?	wie bist du hier her gekommen?	
 src/states/ending_finale.lua:90	dialogue	ah, i remember	ah, ich entsinne mich	
@@ -1326,7 +1326,7 @@ src/states/game_setup.lua:1098		${stars} ¤ reward limit	${stars} ¤ Belohnungs-
 src/states/gameover.lua:224		Congratulations, you lost.	Herzlichen Glückwunsch, du hast verloren.	
 src/states/gameover.lua:225		Better luck next time.	Mehr Glück beim nächsten Mal.	
 src/states/gameover.lua:226		Maybe next time.	Vielleicht beim nächsten Mal.	
-src/states/gameover.lua:266		Wager ${BET}¤	Wetteinsatz ${BET}¤	CONTEXT
+src/states/gameover.lua:266		Wager ${BET}¤	Wetteinsatz ${BET}¤	
 src/states/gameover.lua:274		Death Tax ${STARS}¤	Todessteuer ${STARS}¤	TAX ISSUE
 src/states/gameover.lua:283		GAME OVER	GAME OVER	
 src/states/gameover.lua:315		Death tax:	Todessteuer:	
