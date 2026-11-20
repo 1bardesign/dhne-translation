@@ -1244,7 +1244,7 @@ src/states/game.lua:185 (+3 others)		Options	Настройки
 src/states/game.lua:193		Save and Quit	Сохранить и выйти
 src/states/game.lua:194		(Cant Save Right Now)	(Сейчас нельзя сохранить)
 src/states/game.lua:199		No escape	
-src/states/game.lua:202		Skip Tutorial	
+src/states/game.lua:202		Skip Tutorial	Пропустить обучение
 src/states/game.lua:202		Abandon	Сдаться
 src/states/game.lua:210		Quit to menu and lose all gained stars?	Выйти в меню и потерять все полученные звезды?
 src/states/game.lua:215		No way out	Выхода нет

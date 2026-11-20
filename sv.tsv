@@ -1244,7 +1244,7 @@ src/states/game.lua:185 (+3 others)		Options	Inställningar
 src/states/game.lua:193		Save and Quit	Spara och Avsluta
 src/states/game.lua:194		(Cant Save Right Now)	(Kan inte spara just nu)
 src/states/game.lua:199		No escape	Ingen utväg
-src/states/game.lua:202		Skip Tutorial	
+src/states/game.lua:202		Skip Tutorial	Hoppa över introt
 src/states/game.lua:202		Abandon	Ge upp
 src/states/game.lua:210		Quit to menu and lose all gained stars?	Gå till menyn och förlora alla intjänade stjärnor?
 src/states/game.lua:215		No way out	Ingen utväg
