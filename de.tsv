@@ -21,7 +21,7 @@ src/boards/normal.lua:3		Real game begins.	Das Spiel Beginnt.
 src/boards/normal.lua:4		you'll never want to leave	du wirst nie wieder weg wollen
 src/boards/rift.lua:3		Decide how deep you can go.	Entscheide selbst, wie tief du tauchst.
 src/boards/rift.lua:4		please mind the gap	bitte achten sie\nauf die lücke
-src/boards/the_end.lua:2		The End	Ende
+src/boards/the_end.lua:2		The End	Das Ende
 src/boards/the_end.lua:3		This is it.	Das war's.
 src/boards/the_end.lua:4		thank you for visiting	danke für deinen besuch
 src/character_unlocks.lua:10		the crown hung heavy from before he was born	die krone war schwer schon vor seiner geburt
@@ -88,7 +88,7 @@ src/characters/god.lua:81		wager all ${stars} ¤ and ${gold} gold ¤	alle ${star
 src/characters/god.lua:83		wager all ${stars} ¤	alle ${stars} ¤ wetten
 src/characters/god.lua:85		wager all ${gold} gold ¤	alle ${golden} goldenen ¤ wetten
 src/characters/god.lua:87		wager everything	alles wetten
-src/characters/god.lua:97	dialogue	you always were my bravest child	du warst immer mein mutigstes kind
+src/characters/god.lua:97	dialogue	you always were my bravest child	du warst schon immer mein mutigstes kind
 src/characters/god.lua:102		God?	Gott?
 src/characters/god.lua:135	dialogue	cheating? me? god?	schummeln? ich? gott?
 src/characters/god.lua:136	dialogue	i appreciate the boldness	ich schätze deine direktheit
@@ -351,7 +351,7 @@ src/entities/dupe_baby.lua:7		Dupe Baby	Duplikator Baby
 src/entities/dupe_baby.lua:59		Duplicated!	Dupliziert!
 src/entities/encounter_timeline.lua:136		Goal Reached	Ziel Erreicht
 src/entities/encounter_timeline.lua:437		GOAL REACHED	ZIEL ERREICHT
-src/entities/encounter_timeline.lua:438		${to_go} TO GO	${to_go} NOCH
+src/entities/encounter_timeline.lua:438		${to_go} TO GO	${to_go} ÜBRIG
 src/entities/eye_baby.lua:7		Eye Baby	Augen Baby
 src/entities/fish_spawner.lua:215		Cool Fish Available	Cooler Fisch Verfügbar
 src/entities/god_shop.lua:68		CHOOSE	WÄHLE
@@ -507,7 +507,7 @@ src/items.lua:186		Downshift	Abschwung
 src/items.lua:189		Nudge all dice -1 pip (no loop)	Kippt alle Würfel -1 Auge\n(ohne Schleife)
 src/items.lua:203		-1 all	-1 für alle
 src/items.lua:208		Clamp High	Viererdeckeln
-src/items.lua:211		All dice above 4 become 4	Alle Würfel über 4 werden 4
+src/items.lua:211		All dice above 4 become 4	Alle Würfel über 4 kippen auf 4
 src/items.lua:229		Clamp 4	4 gedeckelt
 src/items.lua:234		Money Reroll	Geldwurf
 src/items.lua:237		Reroll all dice, gain +1¥ per 6 rolled	Wirf alle Würfel und bekomme +1¥ pro geworfener 6
@@ -1258,7 +1258,7 @@ src/states/game.lua:935		ALL BUST BLOCKED	ALLE BUSTS GEBLOCKT
 src/states/game.lua:951		SHIELD OVERLOADED	SCHILD ÜBERLADEN
 src/states/game.lua:952		${count} BUSTS BLOCKED	${count} BUSTS GEBLOCKT
 src/states/game.lua:952		${count} BUST BLOCKED	${count} BUST GEBLOCKT
-src/states/game.lua:1002		wager ${amount} ¤	${amount} ¤ wetten
+src/states/game.lua:1002		wager ${amount} ¤	${amount} ¤ gewettet
 src/states/game.lua:1005		${STARS} Stars Unbanked	${STARS} Sterne nicht in der BANK
 src/states/game.lua:1007		bank stars after each nightmare level or win the run to secure them	zahle sterne in die BANK nach einem albtraum-level oder gewinne den run um sie zu sichern
 src/states/game.lua:1088		praying...	betet...
