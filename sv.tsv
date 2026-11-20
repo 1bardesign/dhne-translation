@@ -111,10 +111,10 @@ src/characters/guy.lua:123	dialogue	Live your truth	Lev din sanning
 src/characters/guy.lua:136	dialogue	Ride on	Nu kör vi
 src/characters/hotdog.lua:2		Hot Dawg	Hot Dawg
 src/characters/hotdog.lua:53		Jalapeno	Jalapeño
-src/characters/hotdog.lua:94	dialogue	Hungry for more?	Hungrig för mer?
-src/characters/hotdog.lua:96		I'll revive you for $cost ¤ and a bad tooth	Jag återupplivar dig för $cost ¤ och en dålig tand
-src/characters/hotdog.lua:102	dialogue	More for me	Mer åt mig
-src/characters/hotdog.lua:113	dialogue	Chew carefully	Tugga försiktigt
+src/characters/hotdog.lua:95	dialogue	Hungry for more?	Hungrig för mer?
+src/characters/hotdog.lua:97		I'll revive you for $cost ¤ and a bad tooth	Jag återupplivar dig för $cost ¤ och en dålig tand
+src/characters/hotdog.lua:103	dialogue	More for me	Mer åt mig
+src/characters/hotdog.lua:114	dialogue	Chew carefully	Tugga försiktigt
 src/characters/king_fetus.lua:2		King Foetus	Kung Foster
 src/characters/king_fetus.lua:38		Princess	Prinsessa
 src/characters/king_fetus.lua:62	dialogue	Reach level 7 to escape!	Nå nivå 7 för att komma undan!

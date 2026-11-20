@@ -111,10 +111,10 @@ src/characters/guy.lua:123	dialogue	Live your truth	Vis ta vérité
 src/characters/guy.lua:136	dialogue	Ride on	C’est reparti
 src/characters/hotdog.lua:2		Hot Dawg	Chien Saucisse
 src/characters/hotdog.lua:53		Jalapeno	Jalapeño
-src/characters/hotdog.lua:94	dialogue	Hungry for more?	T’as encore faim ?
-src/characters/hotdog.lua:96		I'll revive you for $cost ¤ and a bad tooth	Je peux te faire revivre contre $cost ¤ et une dent pourrie
-src/characters/hotdog.lua:102	dialogue	More for me	Ça en fait plus pour moi
-src/characters/hotdog.lua:113	dialogue	Chew carefully	Fais attention quand tu mâches
+src/characters/hotdog.lua:95	dialogue	Hungry for more?	T’as encore faim ?
+src/characters/hotdog.lua:97		I'll revive you for $cost ¤ and a bad tooth	Je peux te faire revivre contre $cost ¤ et une dent pourrie
+src/characters/hotdog.lua:103	dialogue	More for me	Ça en fait plus pour moi
+src/characters/hotdog.lua:114	dialogue	Chew carefully	Fais attention quand tu mâches
 src/characters/king_fetus.lua:2		King Foetus	Roi Fœtus
 src/characters/king_fetus.lua:38		Princess	Princesse
 src/characters/king_fetus.lua:62	dialogue	Reach level 7 to escape!	Atteins le niveau 7 pour t’échapper !

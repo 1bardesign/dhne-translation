@@ -111,10 +111,10 @@ src/characters/guy.lua:123	dialogue	Live your truth	Живи свою истин
 src/characters/guy.lua:136	dialogue	Ride on	Вперёд!
 src/characters/hotdog.lua:2		Hot Dawg	Хот-Дог
 src/characters/hotdog.lua:53		Jalapeno	"Халапеньо"
-src/characters/hotdog.lua:94	dialogue	Hungry for more?	Все еще есть аппетит?
-src/characters/hotdog.lua:96		I'll revive you for $cost ¤ and a bad tooth	Я воскрешу тебя за $cost ¤ и плохой зуб
-src/characters/hotdog.lua:102	dialogue	More for me	Мне же больше
-src/characters/hotdog.lua:113	dialogue	Chew carefully	Жуй осторожно
+src/characters/hotdog.lua:95	dialogue	Hungry for more?	Все еще есть аппетит?
+src/characters/hotdog.lua:97		I'll revive you for $cost ¤ and a bad tooth	Я воскрешу тебя за $cost ¤ и плохой зуб
+src/characters/hotdog.lua:103	dialogue	More for me	Мне же больше
+src/characters/hotdog.lua:114	dialogue	Chew carefully	Жуй осторожно
 src/characters/king_fetus.lua:2		King Foetus	Король Эмбрион
 src/characters/king_fetus.lua:38		Princess	Принцесса
 src/characters/king_fetus.lua:62	dialogue	Reach level 7 to escape!	Доберись до 7-го уровня, чтобы выбраться!
