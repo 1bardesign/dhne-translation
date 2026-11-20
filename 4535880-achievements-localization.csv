@@ -1,57 +1,57 @@
 api_name (required; must match an api_name from the definitions CSV),field (name or description),english,ru,zh,fr,pl,sv,de
-REAL_ESTATE,name,Real Estate,Недвижимость,房地产,Propriétaire,Nieruchomości,Fastighetsägare,Immobilienhai
-REAL_ESTATE,description,Unlock every board,Открой все игровые поля,解锁所有场景,Débloquer tous les plateaux,Odblokuj wszystkie głębie,Lås upp alla djup,Schalte alle Tiefen frei
-SQUAD,name,Squad,Отряд,全明星,Équipe de choc,Ekipa,Gänget,Die Crew
-SQUAD,description,Unlock every character,Открой всех персонажей,解锁所有角色,Débloquer tous les personnages,Odblokuj wszystkie postacie,Lås upp alla karaktärer,Schalte alle Charaktere frei
-GUTTED,name,Gutted,Потрошение,五脏俱全,Astronomie,Wybebeszona,Urtagen,Ausgenommen
-GUTTED,description,100% Star Guts,Открой 100% «Звездных Кишков»,100%星空内脏,Compléter les Voies Stellaires,Ukończ Gwiezdnego Brzusia w 100%,100 % av Stjärntarmen,Sternengedärm zu 100 % abschließen
-WAKE_UP,name,Wake Up,Пробуждение,醒来,Réveil,Pobudka,Vakna,Aufwachen
-WAKE_UP,description,Win your first run,Впервые одержи победу,赢下第一把游戏,Gagner votre première partie,Wygraj swój pierwszy run,Vinn din första runda,Gewinne deinen ersten Lauf
+REAL_ESTATE,name,Real Estate,Недвижимость,房地产,Propriétaire,Nieruchomości,Fastighetsägare,Immobilienmakler
+REAL_ESTATE,description,Unlock every board,Открой все игровые поля,解锁所有场景,Débloquer tous les plateaux,Odblokuj wszystkie głębie,Lås upp alla djup,Schalte jede Gegend frei
+SQUAD,name,Squad,Отряд,全明星,Équipe de choc,Ekipa,Gänget,Gang
+SQUAD,description,Unlock every character,Открой всех персонажей,解锁所有角色,Débloquer tous les personnages,Odblokuj wszystkie postacie,Lås upp alla karaktärer,Schalte jeden Charakter frei
+GUTTED,name,Gutted,Потрошение,五脏俱全,Astronomie,Wybebeszona,Urtagen,Sternschauer
+GUTTED,description,100% Star Guts,Открой 100% «Звездных Кишков»,100%星空内脏,Compléter les Voies Stellaires,Ukończ Gwiezdnego Brzusia w 100%,100 % av Stjärntarmen,Erreiche 100% in den Sternereien
+WAKE_UP,name,Wake Up,Пробуждение,醒来,Réveil,Pobudka,Vakna,Wach Auf
+WAKE_UP,description,Win your first run,Впервые одержи победу,赢下第一把游戏,Gagner votre première partie,Wygraj swój pierwszy run,Vinn din första runda,Gewinne einen Run
 POCKET_CHANGE,name,Pocket Change,Мелочь в кармане,零花钱,Mise prudente,Drobne,Småpengar,Kleingeld
-POCKET_CHANGE,description,Win with the 100 bet,Победи со ставкой 100,赢下100赌注,Gagner avec la mise à 100,Wygraj z zakładem 100,Vinn med insatsen 100,Gewinne mit dem 100er-Einsatz
-HIGH_ROLLER,name,High Roller,Крупный игрок,大手笔,Gros joueur,Gruba Ryba,Storspelare,High Roller
-HIGH_ROLLER,description,Win with the 500 bet,Победи со ставкой 500,赢下500赌注,Gagner avec la mise à 500,Wygraj z zakładem 500,Vinn med insatsen 500,Gewinne mit dem 500er-Einsatz
+POCKET_CHANGE,description,Win with the 100 bet,Победи со ставкой 100,赢下100赌注,Gagner avec la mise à 100,Wygraj z zakładem 100,Vinn med insatsen 100,Gewinne eine 100er-Wette
+HIGH_ROLLER,name,High Roller,Крупный игрок,大手笔,Gros joueur,Gruba Ryba,Storspelare,Großspieler
+HIGH_ROLLER,description,Win with the 500 bet,Победи со ставкой 500,赢下500赌注,Gagner avec la mise à 500,Wygraj z zakładem 500,Vinn med insatsen 500,Gewinne eine 500er-Wette
 WHALE,name,Whale,Кит,一掷千金,Whale,Wieloryb,Val,Wal
-WHALE,description,Win with the 1000 bet,Победи со ставкой 1000,赢下1000赌注,Gagner avec la mise à 1000,Wygraj z zakładem 1000,Vinn med insatsen 1000,Gewinne mit dem 1000er-Einsatz
-IS_IT_OVER,name,Is It Over?,Это конец?,结束了？,C’est terminé ?,To już koniec?,Är det över?,Ist es vorbei?
-IS_IT_OVER,description,Beat The End,Победи в режиме «Конец»,征服终点,Terminer La Fin,Pokonaj Koniec,Klara Slutet,Besiege Das Ende
-TWINKLE,name,Twinkle,Мерцание,一闪一闪,Étoilé,Migotanie,Glimmer,Funkeln
-TWINKLE,description,Hold 10000 pink stars at once,Накопи 10000 розовых звезд,同时持有10000颗粉星星,Posséder 10000 étoiles roses,Miej naraz 10000 różowych gwiazdek,Ha 10000 rosa stjärnor på en gång,Besitze 10000 pinke Sterne auf einmal
+WHALE,description,Win with the 1000 bet,Победи со ставкой 1000,赢下1000赌注,Gagner avec la mise à 1000,Wygraj z zakładem 1000,Vinn med insatsen 1000,Gewinne eine 1000er-Wette
+IS_IT_OVER,name,Is It Over?,Это конец?,结束了？,C’est terminé ?,To już koniec?,Är det över?,Ist Es Vorbei?
+IS_IT_OVER,description,Beat The End,Победи в режиме «Конец»,征服终点,Terminer La Fin,Pokonaj Koniec,Klara Slutet,Gewinne Das Ende
+TWINKLE,name,Twinkle,Мерцание,一闪一闪,Étoilé,Migotanie,Glimmer,Blinke Blinke
+TWINKLE,description,Hold 10000 pink stars at once,Накопи 10000 розовых звезд,同时持有10000颗粉星星,Posséder 10000 étoiles roses,Miej naraz 10000 różowych gwiazdek,Ha 10000 rosa stjärnor på en gång,Besitze 10.000 pinke Sterne gleichzeitig
 GOLD_STANDARD,name,Gold Standard,Золотой стандарт,黄金体验,Carte Gold,Złoty Standard,Guldstandard,Goldstandard
-GOLD_STANDARD,description,Hold 10 gold stars at once,Накопи 10 золотых звезд,同时持有10颗金星星,Posséder 10 étoiles dorées,Miej naraz 10 złotych gwiazdek,Ha 10 guldstjärnor på en gång,Besitze 10 goldene Sterne auf einmal
-HOG,name,Hog,Жадюга,伸手就要,Porc,Łasuch,Girigbuk,Raffzahn
-HOG,description,Get 100 pink stars in the greed intro,Набери 100 розовых звезд во вступлении Жадности,在贪欲开屏中获得100颗粉星星,Obtenir 100 étoiles roses dans le mini-jeu d’intro,Zdobądź 100 różowych gwiazdek w Intro Chciwości,Få 100 rosa stjärnor i girighetsintrot,Hol dir 100 pinke Sterne im Gier-Intro
-SNAKE_EYES_PLUS,name,Snake Eyes Plus,Змеиные глаза плюс,蛇眼+,1 chance sur 216...,Wężowe Oczka Plus,Ormögon Plus,Schlangenaugen Plus
-SNAKE_EYES_PLUS,description,"Roll exactly 3 dice, all ones",Брось ровно 3 кубика — все единицы,投出3枚骰子时获得全1,Lancer trois dés et tirer trois 1,"Rzuć dokładnie 3 kostkami, same jedynki","Kasta exakt 3 tärningar, bara ettor","Wirf genau 3 Würfel, alle Einsen"
-YIKES,name,Yikes,Ой-ой,哎呦,1 chance sur 1296......,Auć,Aj då,Autsch
-YIKES,description,"Roll exactly 4 dice, all ones",Брось ровно 4 кубика — все единицы,投出4枚骰子时获得全1,Lancer quatre dés et tirer quatre 1,"Rzuć dokładnie 4 kostkami, same jedynki","Kasta exakt 4 tärningar, bara ettor","Wirf genau 4 Würfel, alle Einsen"
-BIG_OOF,name,Big Oof,Вот это провал,倒大霉,1 chance sur 7776.........,Grubo,Rejält snopet,Voll daneben
-BIG_OOF,description,"Roll exactly 5 dice, all ones",Брось ровно 5 кубиков — все единицы,投出5枚骰子时获得全1,Lancer cinq dés et tirer cinq 1,"Rzuć dokładnie 5 kostkami, same jedynki","Kasta exakt 5 tärningar, bara ettor","Wirf genau 5 Würfel, alle Einsen"
-BONANZA_IN_ONE,name,Bonanza In One,Бонанза одним броском,一次就中,Maîtrise du Bonanza,Bonanza Za Jednym Zamachem,Bonanza i ett kast,Bonanza mit einem Wurf
-BONANZA_IN_ONE,description,Star Bonanza on a 5-dice roll,Получи «Звездную Бонанзу» при броске 5 кубиков,用5枚骰子投出星星头彩,Lancer cinq dés et tirer un Star Bonanza,Gwiezdna Bonanza w rzucie 5 kostkami,Stjärnbonanza på ett kast med 5 tärningar,Sternen-Bonanza mit einem Wurf aus 5 Würfeln
-PURE_SKILL,name,Pure Skill,Чистый скилл,纯技术,Le talent,Czysty Skill,Ren skicklighet,Reines Können
-PURE_SKILL,description,Long Straight on a 6-dice roll,Получи «Длинный Стрит» при броске 6 кубиков,用6枚骰子投出大顺子,Lancer six dés et tirer une Grande Suite,Duży Strit w rzucie 6 kostkami,Lång stege på ett kast med 6 tärningar,Große Straße mit einem Wurf aus 6 Würfeln
-OH_YEAH,name,Oh Yeah,О да!,好耶,T’es chaud,O Tak,Åh ja,Oh ja
-OH_YEAH,description,Reach 100000 points in one level,Набери 100000 очков на одном уровне,在一关内获得100000分数,Atteindre 100000 points en un niveau,Zdobądź 100000 punktów na jednym poziomie,Nå 100000 poäng på en nivå,Erreiche 100000 Punkte in einem Level
-TOO_EASY,name,Too Easy,Слишком легко,简简单单,Trop facile,Za Łatwe,För lätt,Zu einfach
-TOO_EASY,description,Score 25000 points with one hand,Набери 25000 очков за один ход,一次计分获得25000分数,Jouer une main à 25000 points,Zapunktuj 25000 punktów jednym combo,Ta 25000 poäng med en kombo,Erziele 25000 Punkte mit einer Kombo
+GOLD_STANDARD,description,Hold 10 gold stars at once,Накопи 10 золотых звезд,同时持有10颗金星星,Posséder 10 étoiles dorées,Miej naraz 10 złotych gwiazdek,Ha 10 guldstjärnor på en gång,Besitze 10 goldene Sterne gleichzeitig
+HOG,name,Hog,Жадюга,伸手就要,Porc,Łasuch,Girigbuk,Gierschlund
+HOG,description,Get 100 pink stars in the greed intro,Набери 100 розовых звезд во вступлении Жадности,在贪欲开屏中获得100颗粉星星,Obtenir 100 étoiles roses dans le mini-jeu d’intro,Zdobądź 100 różowych gwiazdek w Intro Chciwości,Få 100 rosa stjärnor i girighetsintrot,Sammle 100 pinke Sterne im Gier-Intro
+SNAKE_EYES_PLUS,name,Snake Eyes Plus,Змеиные глаза плюс,蛇眼+,1 chance sur 216...,Wężowe Oczka Plus,Ormögon Plus,Pechvogel
+SNAKE_EYES_PLUS,description,"Roll exactly 3 dice, all ones",Брось ровно 3 кубика — все единицы,投出3枚骰子时获得全1,Lancer trois dés et tirer trois 1,"Rzuć dokładnie 3 kostkami, same jedynki","Kasta exakt 3 tärningar, bara ettor","Wirf drei Würfel zusammen, die alle auf 1 landen"
+YIKES,name,Yikes,Ой-ой,哎呦,1 chance sur 1296......,Auć,Aj då,Noch Pechvogeliger
+YIKES,description,"Roll exactly 4 dice, all ones",Брось ровно 4 кубика — все единицы,投出4枚骰子时获得全1,Lancer quatre dés et tirer quatre 1,"Rzuć dokładnie 4 kostkami, same jedynki","Kasta exakt 4 tärningar, bara ettor","Wirf vier Würfel zusammen, die alle auf 1 landen"
+BIG_OOF,name,Big Oof,Вот это провал,倒大霉,1 chance sur 7776.........,Grubo,Rejält snopet,Der Pechvogeligste
+BIG_OOF,description,"Roll exactly 5 dice, all ones",Брось ровно 5 кубиков — все единицы,投出5枚骰子时获得全1,Lancer cinq dés et tirer cinq 1,"Rzuć dokładnie 5 kostkami, same jedynki","Kasta exakt 5 tärningar, bara ettor","Wirf fünf Würfel zusammen, die alle auf 1 landen"
+BONANZA_IN_ONE,name,Bonanza In One,Бонанза одним броском,一次就中,Maîtrise du Bonanza,Bonanza Za Jednym Zamachem,Bonanza i ett kast,Bonanza-In-One
+BONANZA_IN_ONE,description,Star Bonanza on a 5-dice roll,Получи «Звездную Бонанзу» при броске 5 кубиков,用5枚骰子投出星星头彩,Lancer cinq dés et tirer un Star Bonanza,Gwiezdna Bonanza w rzucie 5 kostkami,Stjärnbonanza på ett kast med 5 tärningar,Wirf eine Stern-Bonanza mit einem 5-Würfel-Wurf
+PURE_SKILL,name,Pure Skill,Чистый скилл,纯技术,Le talent,Czysty Skill,Ren skicklighet,Pures Talent
+PURE_SKILL,description,Long Straight on a 6-dice roll,Получи «Длинный Стрит» при броске 6 кубиков,用6枚骰子投出大顺子,Lancer six dés et tirer une Grande Suite,Duży Strit w rzucie 6 kostkami,Lång stege på ett kast med 6 tärningar,Wirf eine Lange Straße mit einem 6-Würfel-Wurf
+OH_YEAH,name,Oh Yeah,О да!,好耶,T’es chaud,O Tak,Åh ja,Oh Yeah
+OH_YEAH,description,Reach 100000 points in one level,Набери 100000 очков на одном уровне,在一关内获得100000分数,Atteindre 100000 points en un niveau,Zdobądź 100000 punktów na jednym poziomie,Nå 100000 poäng på en nivå,Erreiche 100.000 Punkte in einem Level
+TOO_EASY,name,Too Easy,Слишком легко,简简单单,Trop facile,Za Łatwe,För lätt,Zu Einfach
+TOO_EASY,description,Score 25000 points with one hand,Набери 25000 очков за один ход,一次计分获得25000分数,Jouer une main à 25000 points,Zapunktuj 25000 punktów jednym combo,Ta 25000 poäng med en kombo,Werte 25.000 Punkte mit einer Combo
 SELF_ESTEEM,name,Self Esteem,Самооценка,自我认同,Estime de soi,Samoocena,Självkänsla,Selbstwertgefühl
-SELF_ESTEEM,description,Hold middle click to flip yourself off,"Зажми среднюю кнопку мыши, чтобы показать себе неприличный жест",按下鼠标滚轮对自己竖起中指,Se faire un doigt d’honneur en maintenant le clic molette,"Przytrzymaj środkowy przycisk myszy, by pokazać sobie fucka",Håll in mitten-klick för att ge dig själv fingret,"Halte die mittlere Maustaste, um dir selbst den Finger zu zeigen"
+SELF_ESTEEM,description,Hold middle click to flip yourself off,"Зажми среднюю кнопку мыши, чтобы показать себе неприличный жест",按下鼠标滚轮对自己竖起中指,Se faire un doigt d’honneur en maintenant le clic molette,"Przytrzymaj środkowy przycisk myszy, by pokazać sobie fucka",Håll in mitten-klick för att ge dig själv fingret,Halte die mittlere Maustaste um dir selbst den Vogel zu zeigen
 CANIBALISM,name,Cannibalism?,Каннибализм?,同类相食？,C’est du cannibalisme ?,Kanibalizm?,Kannibalism?,Kannibalismus?
 CANIBALISM,description,Feed a die baby to a die,Скорми малыша кубика другому кубику,把骰子宝宝喂给骰子,Nourrir un dé avec un bébé dé,Nakarm kostkę kostkowym bobasem,Mata en tärning med en tärningsbebis,Verfüttere ein Würfelbaby an einen Würfel
-FEESH,name,Feesh!,Рыбка!,鱼儿！,Belle prise,Rybka!,Fiiisk!,Fiiisch!
-FEESH,description,Catch the gold fish,Поймай золотую рыбку,抓住金鱼,Attraper le poisson rouge,Złap złotą rybkę,Fånga guldfisken,Fang den Goldfisch
-NO_CHEATING,name,No Cheating,Никакого жульничества,出千遭天谴,Interdit de tricher !,Bez Oszukiwania,Inget fusk,Kein Schummeln
+FEESH,name,Feesh!,Рыбка!,鱼儿！,Belle prise,Rybka!,Fiiisk!,Fesch!
+FEESH,description,Catch the gold fish,Поймай золотую рыбку,抓住金鱼,Attraper le poisson rouge,Złap złotą rybkę,Fånga guldfisken,Fange den goldenen Fisch
+NO_CHEATING,name,No Cheating,Никакого жульничества,出千遭天谴,Interdit de tricher !,Bez Oszukiwania,Inget fusk,Nicht Schummeln
 NO_CHEATING,description,Get smitten by god,Получи удар божественной карой,被神降下天罚,Se faire châtier par dieu,Ściągnij na siebie gniew Boży,Bli straffad av Gud,Werde von Gott bestraft
 BRAVEST_CHILD,name,Bravest Child,Смелость,勇敢的孩子,Préféré de dieu,Najdzielniejsze Dziecko,Modigaste barnet,Mutigstes Kind
-BRAVEST_CHILD,description,Win double or nothing 5 times in a row,Выиграй в игре «вдвойне или ничего» 5 раз подряд,5次连续赢下双倍或者回家,Remporter le quitte ou double 5 fois d’affilée,Wygraj podwójnie albo nic 5 razy z rzędu,Vinn dubbelt eller kvitt 5 gånger i rad,Gewinne Doppelt oder Nichts 5-mal in Folge
+BRAVEST_CHILD,description,Win double or nothing 5 times in a row,Выиграй в игре «вдвойне или ничего» 5 раз подряд,5次连续赢下双倍或者回家,Remporter le quitte ou double 5 fois d’affilée,Wygraj podwójnie albo nic 5 razy z rzędu,Vinn dubbelt eller kvitt 5 gånger i rad,"Gewinne ""Doppelt oder Nichts"" 5 mal in Folge"
 SOULLESS,name,Soulless,Бездушность,失去灵魂,Sans âme,Bez Duszy,Själlös,Seelenlos
-SOULLESS,description,Bet your soul and lose,Поставь на кон свою душу — и проиграй,赌上灵魂并输掉游戏,Miser votre âme et perdre,Postaw swoją duszę i przegraj,Satsa din själ och förlora,Setze deine Seele und verliere
-CHOSEN_ONE,name,Chosen One,Избрание,天选之人,L’Élu,Wybraniec,Den utvalda,Auserwählt
+SOULLESS,description,Bet your soul and lose,Поставь на кон свою душу — и проиграй,赌上灵魂并输掉游戏,Miser votre âme et perdre,Postaw swoją duszę i przegraj,Satsa din själ och förlora,Setze deine Seele aufs Spiel und verliere
+CHOSEN_ONE,name,Chosen One,Избрание,天选之人,L’Élu,Wybraniec,Den utvalda,Auserkoren
 CHOSEN_ONE,description,Satisfy God,Угоди Богу,满足神,Satisfaire dieu,Zadowól Boga,Tillfredsställ Gud,Stelle Gott zufrieden
-FISHY,name,Fishy Business,Рыбные дела,鱼生意,Magnat du poisson,Rybny Interes,Fiskaffärer,Fischgeschäfte
-FISHY,description,Hold 500 fish at once,Накопи 500 рыбы,同时持有500条鱼,Posséder 500 poissons,Miej naraz 500 ryb,Ha 500 fiskar på en gång,Besitze 500 Fische auf einmal
-LEVEL_20,name,Deep End,Глубокие воды,深水区,Grand bain,Na Głęboką Wodę,På djupt vatten,Ins kalte Wasser
+FISHY,name,Fishy Business,Рыбные дела,鱼生意,Magnat du poisson,Rybny Interes,Fiskaffärer,Fischmarkt
+FISHY,description,Hold 500 fish at once,Накопи 500 рыбы,同时持有500条鱼,Posséder 500 poissons,Miej naraz 500 ryb,Ha 500 fiskar på en gång,Besitze 500 Fische gleichzeitig
+LEVEL_20,name,Deep End,Глубокие воды,深水区,Abysse,Na Głęboką Wodę,På djupt vatten,Abgrundtief
 LEVEL_20,description,Reach level 20,Доберись до 20-го уровня,到达第20关,Atteindre le niveau 20,Dojdź do poziomu 20,Nå nivå 20,Erreiche Level 20
-OPEN_WIDE,name,Open Wide,Открой пошире,张大嘴,Ouvre grand,Szeroko Otwórz,Gapa stort,Weit aufmachen
-OPEN_WIDE,description,Bring all the teeth to the Rift dentist,Принеси все зубы дантисту в Разломе,把所有牙齿带给裂谷的牙医,Apporter toutes les dents au dentiste de la Faille,Zanieś wszystkie zęby dentyście z Przepaści,Ta med alla tänder till tandläkaren i Revan,Bring alle Zähne zum Zahnarzt im Riss
+OPEN_WIDE,name,Open Wide,Открой пошире,张大嘴,Ouvrez grand,Szeroko Otwórz,Gapa stort,"Mund Auf, Zunge Raus"
+OPEN_WIDE,description,Bring all the teeth to the Rift dentist,Принеси все зубы дантисту в Разломе,把所有牙齿带给裂谷的牙医,Apporter toutes les dents à la dentiste de la Faille,Zanieś wszystkie zęby dentyście z Przepaści,Ta med alla tänder till tandläkaren i Revan,Bringe alle Zähne zur Riss-Zahnärztin
