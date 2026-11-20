@@ -172,7 +172,7 @@ src/characters/tutorial_character.lua:131	dialogue	BANK your Points to complete 
 src/characters/tutorial_character.lua:141	dialogue	You made it through the first level!	Du hast das erste Level geschafft!
 src/characters/tutorial_character.lua:142	dialogue	Between levels, you'll visit The Shop, buy Trinkets, Snacks and Spells.\nAll the fun stuff.	Zwischen Levels wirst du den Shop besuchen um Glücksbringer, Snacks und Zauber zu kaufen.
 src/characters/tutorial_character.lua:159		combo	Combo
-src/characters/tutorial_character.lua:160	dialogue	That's a ${combo_label}!	"Das ist eine\n""${combo_label}""-Combo!"
+src/characters/tutorial_character.lua:160	dialogue	That's a ${combo_label}!	"Das ist eine\n\""${combo_label}\""-Combo!"
 src/characters/tutorial_character.lua:161	dialogue	Select and score it!	Wähle sie aus\nund werte sie!
 src/characters/tutorial_character.lua:173	dialogue	Nice, those Points are safe now.	Nice, die Punkte sind jetzt sicher.
 src/characters/tutorial_character.lua:174	dialogue	BANK refilled your Bust meter.	Die BANK hat dein BUST-Meter wieder aufgefüllt.
@@ -953,9 +953,9 @@ src/items.lua:5072		Bust resets Momentum	Busts setzen Momentum zurück
 src/items.lua:5088		Two Left Feet	Zwei Linke Füße
 src/items.lua:5089		-100 Points for rerolling exactly 2 dice	-100 Punkte wenn genau 2 Würfel geworfen werden
 src/items.lua:5105		6s and 4s to 1s	6er und 4er zu 1ern
-src/items.lua:5106		6s and 4s always reroll into 1s	6er und 4er landen bei Neuwurf immer auf 1
+src/items.lua:5106		6s and 4s always reroll into 1s	6er- und 4er-Würfel landen bei Neuwurf immer auf 1
 src/items.lua:5136		6s to 1s	6er zu 1ern
-src/items.lua:5137		6s always reroll into 1s	6er landen bei Neuwurf immer auf 1
+src/items.lua:5137		6s always reroll into 1s	6er-Würfel landen bei Neuwurf immer auf 1
 src/items.lua:5168		Minus Max Bust	Weniger Busts
 src/items.lua:5169		Bust Limit -1	-1 Bust-Limit
 src/items.lua:5186		Turn Down Power Up	Weniger Zug Mehr Power
@@ -1344,8 +1344,8 @@ src/states/intro.lua:59		It can't be that hard.	So schwer kann es nicht sein.
 src/states/intro.lua:60		At this point, you might consider refunding.	Langsam solltest du über eine Rückerstattung nachdenken.
 src/states/intro.lua:61		You might be special.	Vielleicht bist du ja besonders.
 src/states/intro.lua:67		Game by	Ein Spiel von
-src/states/intro.lua:95		Roll 6 to start.	Würfel 6 um das Spiel zu starten.
-src/states/intro.lua:97		Roll 1 to quit.	Würfel 1 um das Spiel zu beenden.
+src/states/intro.lua:95		Roll 6 to start.	Wirf eine 6 um das Spiel zu starten.
+src/states/intro.lua:97		Roll 1 to quit.	Wirf eine 1 um das Spiel zu beenden.
 src/states/intro.lua:121		right\nclick	rechtsklick
 src/states/intro.lua:144		Press Circle To Roll	Drücke Kreis Zum Würfeln
 src/states/intro.lua:144		Press B To Roll	Drücke B Zum Würfeln
@@ -1472,7 +1472,7 @@ src/sync_scoreboards.lua:87		Most Fish	Meiste Fische Pro Run
 src/sync_scoreboards.lua:92		fish in a run	fische
 src/sync_scoreboards.lua:95 (+3 others)		(data did not load)	(daten nicht geladen)
 src/sync_scoreboards.lua:100		Biggest Loser	Größter Verlierer
-src/sync_scoreboards.lua:105		death tax	todessteuer
+src/sync_scoreboards.lua:105		death tax	verluste
 src/sync_scoreboards.lua:113		The End Any%	Das Ende Any%
 src/sync_scoreboards.lua:118		runs	runs
 src/sync_scoreboards.lua:142		luck	Glück
