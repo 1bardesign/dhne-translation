@@ -1126,8 +1126,8 @@ src/special_conditions.lua:102		Full House	满堂红
 src/special_conditions.lua:115		Four Of A Kind	四条
 src/special_conditions.lua:126		Straight	顺子
 src/special_conditions.lua:179		Long Straight	大顺子
-src/special_conditions.lua:190		Long Long Straight	
-src/special_conditions.lua:201		Long Long Long Straight	
+src/special_conditions.lua:190		Long Long Straight	大大顺子
+src/special_conditions.lua:201		Long Long Long Straight	大大大顺子
 src/special_conditions.lua:212		Star Bonanza	星星头彩
 src/special_conditions.lua:223		Star Extravaganza	大星星头彩
 src/special_conditions.lua:234		Star Bonanzovaganza	巨型星星头彩
@@ -1244,7 +1244,7 @@ src/states/game.lua:185 (+3 others)		Options	选项
 src/states/game.lua:193		Save and Quit	保存并退出
 src/states/game.lua:194		(Cant Save Right Now)	（当下无法保存）
 src/states/game.lua:199		No escape	没有出口
-src/states/game.lua:202		Skip Tutorial	
+src/states/game.lua:202		Skip Tutorial	跳过教程
 src/states/game.lua:202		Abandon	放弃
 src/states/game.lua:210		Quit to menu and lose all gained stars?	退出至菜单并失去所有获得的星星？
 src/states/game.lua:215		No way out	无处可逃
@@ -1440,9 +1440,9 @@ src/states/title.lua:474		brighten up	提高亮度
 src/states/title.lua:475		rest your eyes	放松眼睛
 src/states/title.lua:486		community chat	社区板块
 src/states/title.lua:635		Welcome To 1.0!	
-src/states/title.lua:636		thanks so much for supporting the game ♥\nyou are looking fabulous today\n\nlots has changed since early access\nwe recommend starting 1.0 with a fresh save, but its up to you	
-src/states/title.lua:637		sure, delete it!	
-src/states/title.lua:638		yikes, no thanks	
+src/states/title.lua:636		thanks so much for supporting the game ♥\nyou are looking fabulous today\n\nlots has changed since early access\nwe recommend starting 1.0 with a fresh save, but its up to you	非常感谢你支持我们♥\n你今天看上去超棒\n\n自early access以来实装了很多变动\n我们推荐你以全新的存档游玩1.0,不过决定由你来做
+src/states/title.lua:637		sure, delete it!	好呀，删档吧！
+src/states/title.lua:638		yikes, no thanks	呃呃，还是算了
 src/states/unlock.lua:79		representations are still solidifying - physical form is meaningless - you're imagining it	形象仍在固化 - 物理形态无意义 - 一切只是你的想象
 src/states/unlock.lua:96 (+3 others)		SNACK	零食
 src/states/unlock.lua:163		Upgrades	拓展
