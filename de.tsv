@@ -174,7 +174,7 @@ src/characters/tutorial_character.lua:142	dialogue	Between levels, you'll visit 
 src/characters/tutorial_character.lua:159		combo	Combo
 src/characters/tutorial_character.lua:160	dialogue	That's a ${combo_label}!	Das ist eine\n'${combo_label}' Combo!
 src/characters/tutorial_character.lua:161	dialogue	Select and score it!	Wähle sie aus\nund werte sie!
-src/characters/tutorial_character.lua:173	dialogue	Nice, those Points are safe now.	Nice, die Punkte sind jetzt sicher.
+src/characters/tutorial_character.lua:173	dialogue	Nice, those Points are safe now.	Nice, die Punkte sind\njetzt sicher.
 src/characters/tutorial_character.lua:174	dialogue	BANK refilled your Bust meter.	Die BANK hat dein BUST-Meter wieder aufgefüllt.
 src/characters/tutorial_character.lua:177	dialogue	You have $TURNS BANKS left, so make sure you only BANK when you need to!	Du hast $TURNS Züge übrig, also nutze die BANK nur wenn du wirklich musst!
 src/characters/tutorial_character.lua:190	dialogue	Red sides are BUST! If you roll too many, you will WIPE!	Rote Seiten sind BUSTS!\nWirfst du zu viele, WIPEST du!
@@ -182,7 +182,7 @@ src/characters/tutorial_character.lua:196		<- BUST meter here	<- BUST-Meter hier
 src/characters/tutorial_character.lua:210	dialogue	One more BUST and you'll WIPE!	Noch ein BUST\nund du WIPEST!
 src/characters/tutorial_character.lua:211	dialogue	Consider BANKing your points now to keep them safe.	Überlege jetzt, die BANK zu nutzen, um deine Punkte zu sichern.
 src/characters/tutorial_character.lua:223	dialogue	Now that you accumulated some points try banking!	Jetzt da du ein paar Punkte gesammelt hast, probiere in die BANK zu zahlen!
-src/characters/tutorial_character.lua:224	dialogue	Each time you BANK, you use up a Turn.	x
+src/characters/tutorial_character.lua:224	dialogue	Each time you BANK, you use up a Turn.	Jedes Mal, wenn du die BANK benutzt, ist dein Zug vorbei.
 src/characters/tutorial_character.lua:225	dialogue	When you run out of Turns, the game ends.	Wenn du keine Züge mehr hast, ist das Spiel vorbei.
 src/characters/tutorial_character.lua:229		See turns left here ->	Übrige Züge hier ->
 src/characters/tutorial_character.lua:235		<- Click here to bank	<- Bank benutzen hier
@@ -276,9 +276,9 @@ src/endings/king_fetus.lua:148	dialogue	you're so young	du bist so jung
 src/endings/king_fetus.lua:149	dialogue	don't face the world	stelle dich nicht der welt
 src/endings/king_fetus.lua:150	dialogue	stay here	bleib hier
 src/endings/liz.lua:33		hit that mochi?	zieh den mochi?
-src/endings/liz.lua:175	dialogue	how did you do?	wie hast du dich gemacht?
+src/endings/liz.lua:175	dialogue	how did you do?	wie hast du abgeschnitten?
 src/endings/liz.lua:176	dialogue	in the test, i mean	im test, meine ich
-src/endings/liz.lua:177	dialogue	we all pass\nin one way or another	wir alle kommen durch\nauf irgendeine art
+src/endings/liz.lua:177	dialogue	we all pass\nin one way or another	wir alle kommen durch
 src/endings/liz.lua:178	dialogue	eventually	irgendwann
 src/endings/marooned.lua:75	dialogue	i am your salvation	ich bin deine erlösung
 src/endings/marooned.lua:76	dialogue	you are not drowning	jetzt ertrinkst du
@@ -354,7 +354,7 @@ src/entities/god_shop.lua:499		reroll %d ¤	neue ware %d ¤
 src/entities/item.lua:498		Tooth ${count}/${limit}	Zahn ${count}/${limit}
 src/entities/item.lua:508		a to use spells	a um zu zaubern
 src/entities/item.lua:510		right click to use spells	rechtsklick um zu zaubern
-src/entities/item.lua:513		drag snacks over rolled dice	zieh snacks auf geworfene würfel
+src/entities/item.lua:513		drag snacks over rolled dice	ziehe snacks auf geworfene würfel
 src/entities/power_ui.lua:97	ui	Use	Benutzen
 src/entities/power_ui.lua:130	ui	Power recharges each turn\nSelect a die with Left Click then press this button to use it	Power lädt sich jeden Zug wieder auf\nWähl einen Würfel und drücke diesen Knopf um sie zu benutzen
 src/entities/shop.lua:82		TAB: ${total} ¥	DECKEL: ${total} ¥
@@ -502,7 +502,7 @@ src/items.lua:186		Downshift	Abschwung
 src/items.lua:189		Nudge all dice -1 pip (no loop)	Kippt alle Würfel -1 Auge\n(ohne Schleife)
 src/items.lua:203		-1 all	-1 für alle
 src/items.lua:208		Clamp High	Viererdeckeln
-src/items.lua:211		All dice above 4 become 4	Alle Würfel über 4 kippen auf 4
+src/items.lua:211		All dice above 4 become 4	Alle Würfel über 4\nkippen auf 4
 src/items.lua:229		Clamp 4	4 gedeckelt
 src/items.lua:234		Money Reroll	Geldwurf
 src/items.lua:237		Reroll all dice, gain +1¥ per 6 rolled	Wirf alle Würfel und bekomme +1¥ pro geworfener 6
@@ -650,7 +650,7 @@ src/items.lua:1547		Puke a special effect out	Kotze einen Seiten-Effekt aus
 src/items.lua:1571		Emetique (TM)	Emetique (TM)
 src/items.lua:1572		Puke all special effects out	Kotze alle Seiten-Effekte aus
 src/items.lua:1612		Pig Run	Schweinelauf
-src/items.lua:1615		Pig sides score +${dynamic} Points, gains +5 per pig rerolled this turn. Resets each turn.	Schwein-Seiten werten +${dynamic} Punkte, +5 pro Schwein das diesen Zug neu geworfen wurde
+src/items.lua:1615		Pig sides score +${dynamic} Points, gains +5 per pig rerolled this turn. Resets each turn.	Schwein-Seiten werten\n+${dynamic} Punkte, +5 pro Schwein das diesen Zug neu geworfen wurde
 src/items.lua:1639		pig bonus +${amount}!	Erzeugt zwei Geisterwürfel
 src/items.lua:1644		Thurible	Thuribulum
 src/items.lua:1647		+${dynamic} Mult, gains +1 Mult each time a die is destroyed	+${dynamic} Multi, bekommt +1 Multi jedes Mal, wenn ein Würfel zerstört wird
@@ -680,7 +680,7 @@ src/items.lua:1895		+10 Mult, -2 Mult for each die scored	+10 Multi, -2 Multi f�
 src/items.lua:1912		Papa	Papa
 src/items.lua:1915		+1 Mult per die scored	+1 Multi pro gewertetem Würfel
 src/items.lua:1931		Powered Claw	Kraftklaue
-src/items.lua:1934		+5 Mult, uses 1 Power	+5 Multi, verbraucht 1 Power
+src/items.lua:1934		+5 Mult, uses 1 Power	+5 Multi,\nverbraucht 1 Power
 src/items.lua:1949		POY SIAN	POY SIAN
 src/items.lua:1952		+40 Points for each unrolled 4	+40 Punkte beim Wurf für jede bereits liegende 4
 src/items.lua:1970		Hold The Ones	Augenzähler
@@ -800,7 +800,7 @@ src/items.lua:3102		Rerolling 5 or more dice recharges Power	Power lädt auf wen
 src/items.lua:3119		God Give Me Strength	Gott Gib Mir Kraft
 src/items.lua:3122		Rerolling a single die recharges Power	Power lädt auf wenn ein einzelner Würfel neu geworfen wird
 src/items.lua:3143		High Roller	Hochwurf
-src/items.lua:3146		+1 Mult for each 6 scored	+1 Multi für jede gewertete 6
+src/items.lua:3146		+1 Mult for each 6 scored	+1 Multi für jede\ngewertete 6
 src/items.lua:3161		Low Ball	Flachwurf
 src/items.lua:3164		x2 Mult if all scored dice are 3 or under	x2 Multi wenn alle gewerteten Würfel 3 oder niedriger sind
 src/items.lua:3187		Even Now	Gerade Jetzt
@@ -1252,18 +1252,18 @@ src/states/game.lua:526		secure the points\nend the turn\nrecharge character pow
 src/states/game.lua:631		you must have some points to bank	du kannst ohne punkte nicht in die BANK einzahlen
 src/states/game.lua:733		momentum: ${amount}	momentum: ${amount}
 src/states/game.lua:738		adds extra ${momentum} points and mult	fügt ${momentum} extra punkte und multi hinzu
-src/states/game.lua:923		Losing all Busts ends the turn.\nBusts refill at the start of each Turn	Alle BUSTs zu verlieren beendet deinen Zug.\nBUSTs werden am Anfang eines Zuges wieder aufgefüllt.
+src/states/game.lua:923		Losing all Busts ends the turn.\nBusts refill at the start of each Turn	Alle Busts zu verlieren\nbeendet deinen Zug.\nBusts werden am Anfang eines Zuges wieder aufgefüllt.
 src/states/game.lua:927		Blocks up to ${count} busts, disappears when damaged	Blockt bis zu ${count} Busts gleichzeitig, verschwindet danach
 src/states/game.lua:946		ALL BUST BLOCKED	ALLE BUSTS GEBLOCKT
 src/states/game.lua:962		SHIELD OVERLOADED	SCHILD ÜBERLADEN
 src/states/game.lua:963		${count} BUSTS BLOCKED	${count} BUSTS GEBLOCKT
 src/states/game.lua:963		${count} BUST BLOCKED	${count} BUST GEBLOCKT
 src/states/game.lua:1013		wager ${amount} ¤	${amount} ¤ gewettet
-src/states/game.lua:1016		${STARS} Stars Unbanked	${STARS} Sterne nicht in der Bank
+src/states/game.lua:1016		${STARS} Stars Unbanked	${STARS} Sterne nicht gesichert
 src/states/game.lua:1018		bank stars after each nightmare level or win the run to secure them	zahle sterne in die nank nach einem albtraum-level oder gewinne den run um sie zu sichern
 src/states/game.lua:1099		praying...	betet...
 src/states/game.lua:1099		pray	beten
-src/states/game.lua:1177		Losing all Turns ends the game.\nTurns refill at the start of each level.	Alle Züge zu verlieren beendet das Spiel.\nZüge werden am Anfang jedes Levels wieder aufgefüllt.
+src/states/game.lua:1177		Losing all Turns ends the game.\nTurns refill at the start of each level.	Alle Züge zu verlieren\nbeendet deinen Run.\nZüge werden am Anfang jedes Levels wieder aufgefüllt.
 src/states/game.lua:1428 (+1 others)		MERGED	VERSCHMOLZEN
 src/states/game.lua:1637		pause	pause
 src/states/game.lua:1911 (+2 others)		Level $level/$count $name	Level $level/$count $name
@@ -1307,14 +1307,14 @@ src/states/game.lua:3613		¤ Banked	¤ in der BANK
 src/states/game.lua:3614		Bank ¤${KEPT}?	¤${KEPT} sichern?
 src/states/game.lua:3615		Win To Bank ¤	Gewinne, um ¤ in der BANK zu sichern
 src/states/game.lua:3616		Bank ¤ in ${LEVELS} lvl	¤ sichern in ${LEVELS} lvl
-src/states/game.lua:3630		Secure your Stars for the run\nyou won't be able to gain more this run	Sichere deine Sterne für diesen Run\ndu kannst diesen Run keine Sterne mehr sammeln
+src/states/game.lua:3630		Secure your Stars for the run\nyou won't be able to gain more this run	Sichere deine Sterne für diesen Run.\nDanach kannst du diesen Run keine Sterne mehr sammeln.
 src/states/game.lua:3632		Stars already banked this run	Sterne in diesem Run schon gesichert
-src/states/game.lua:3634		Securing Stars available after each nightmare level	Sterne Sichern ist nach jedem Albtraum-Level möglich
+src/states/game.lua:3634		Securing Stars available after each nightmare level	Sterne zu sichern ist nach jedem Albtraum-Level möglich
 src/states/game.lua:3695 (+7 others)		no	nein
 src/states/game_setup.lua:161		play!	spielen!
 src/states/game_setup.lua:164		need ${stars} ¤	${stars} ¤ benötigt
 src/states/game_setup.lua:197		the young will inherit the earth	die jugend wird die erde erben
-src/states/game_setup.lua:591		get more gold ¤ with wagers	bekomme mehr gold ¤ mit wetten
+src/states/game_setup.lua:591		get more gold ¤ with wagers	bekomme mehr gold ¤\ndurch wetten
 src/states/game_setup.lua:696		A modest wager.\nWin and keep your stars plus a small bonus.	Eine bescheidene Wette.\nGewinne um deine Sterne mit einem kleinen Gewinn zu behalten.
 src/states/game_setup.lua:706		Wager half your stars.\nMinimum 500 ¤\nHigher stakes, more stars.	Setze die Hälfte deiner Sterne ein.\nMindestens 500 ¤\nHöherer Einsatz, mehr Sterne.
 src/states/game_setup.lua:716		Wager all your stars.\nMinimum 1000 ¤\nEven more star rewards.	Setze alle deine Sterne ein.\nMindestens 1000 ¤\nNoch mehr Stern-Gewinn.
