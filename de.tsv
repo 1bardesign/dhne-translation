@@ -698,7 +698,7 @@ src/items.lua:2085		+5 Mult for your first scored combo each turn	+5 Multi für 
 src/items.lua:2106		Octopus Ting	Oktopus-Ding
 src/items.lua:2109		x3 Mult for your first scored combo each level	x3 Multi für die erste Combo, die in jedem Level gewertet wird
 src/items.lua:2134		Four Legged Star	Vierbeiniger Stern
-src/items.lua:2137		+300 Points for a combo containing Four Of A Kind	+300 Points für eine Combo, die einen Viererpasch beinhaltet
+src/items.lua:2137		+300 Points for a combo containing Four Of A Kind	+300 Punkte für eine Combo, die einen Viererpasch beinhaltet
 src/items.lua:2155		Minnesota Fats	Minnesota Fats
 src/items.lua:2158		+200 Points for any Straight	+200 Punkte für jegliche Straße
 src/items.lua:2171		Bimber	Bimber
