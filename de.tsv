@@ -528,7 +528,7 @@ src/items.lua:462		Scratchie	Rubbellos
 src/items.lua:465		Gain 0-3¥	Gewinne 0-3¥
 src/items.lua:482 (+1 others)		Nothing!	Nichts!
 src/items.lua:488		Scratchie II	Rubbellos II
-src/items.lua:491		1 in 3 chance to win 6¥	1 in 3 Chance, 6¥ zu gewinnen
+src/items.lua:491		1 in 3 chance to win 6¥	1 zu 3 Chance, 6¥ zu gewinnen
 src/items.lua:507		No luck	Niete
 src/items.lua:513		Scratchie III	Rubbellos III
 src/items.lua:516		Gain 1-4¥	Gewinne 1-4¥
@@ -864,7 +864,7 @@ src/items.lua:3918		Pig Points x2	Schwein-Punkte x2
 src/items.lua:3933		Piglet	Schweinchen
 src/items.lua:3936		+3 Mult for rerolling 3 or more Pig sides	+3 Multi, wenn 3 oder mehr Schwein-Seiten neu geworfen werden
 src/items.lua:3955		Chew Toy	Schweineohr
-src/items.lua:3958		1 in 6 chance to spawn a coin when rerolling a Pig side	1 in 6 Chance eine Münze zu erzeugen, wenn eine Schwein-Seite neu geworfen wird
+src/items.lua:3958		1 in 6 chance to spawn a coin when rerolling a Pig side	1 zu 6 Chance, eine Münze zu erzeugen, wenn eine Schwein-Seite neu geworfen wird
 src/items.lua:4013		Paw	Pfote
 src/items.lua:4016		Rolling a single die adds +2 Mult	+2 Multi, wenn ein einzelner Würfel neu geworfen wird
 src/items.lua:4029		Incel	Incel
@@ -891,12 +891,12 @@ src/items.lua:4271		Cell	Zelle
 src/items.lua:4274		Start each turn with a Bust Shield	Beginne jeden Zug mit einem Bust-Schild
 src/items.lua:4285		shield!	schild!
 src/items.lua:4294		Jade Bracelet	Jade-Reif
-src/items.lua:4297		3 in 4 chance to block an instant wipe.\n${dynamic} uses left.	3 in 4 Chance, einen Instant Wipe zu blockieren.\nNoch ${dynamic} mal.
+src/items.lua:4297		3 in 4 chance to block an instant wipe.\n${dynamic} uses left.	3 zu 4 Chance, einen Instant Wipe zu blockieren.\nNoch ${dynamic} mal.
 src/items.lua:4320		Shattered!	Zerbrochen!
 src/items.lua:4335		Four Cell	Viererzelle
 src/items.lua:4338		If you would bust, each unrolled 4 gives a 20% chance to cancel it	Jede bereits liegende 4 hat eine 20% Chance, einen Bust zu verhindern
 src/items.lua:4365		Candle	Kerze
-src/items.lua:4366		1 in 2 chance to turn an instant wipe into a single Bust	1 in 2 Chance, einen Instant Wipe in einen einzelnen Bust zu verwandeln
+src/items.lua:4366		1 in 2 chance to turn an instant wipe into a single Bust	1 zu 2 Chance, einen Instant Wipe in einen einzelnen Bust zu verwandeln
 src/items.lua:4377		oof	uff
 src/items.lua:4389		Reduced!	Reduziert!
 src/items.lua:4401		Anis Star	Sternanis
