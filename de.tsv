@@ -330,7 +330,7 @@ src/entities/dice.lua:352		Doom\n-3♥ when rolled	Unheil\n-3♥ wenn geworfen
 src/entities/dice.lua:632		CRACK	KRACK
 src/entities/dice_peek.lua:50		ingestion might hurt tummy	könnte bauchschmerzen verursachen
 src/entities/dice_peek.lua:256		Impatient	Ungeduldig
-src/entities/dice_peek.lua:256		Nudges up everytime anything is rolled.	Kippt jedes mal +1 wenn irgendetwas geworfen wird.
+src/entities/dice_peek.lua:256		Nudges up everytime anything is rolled.	Kippt +1 jedes Mal, wenn irgendetwas geworfen wird.
 src/entities/dice_peek.lua:257		Disappears after being scored.	Verchwindet nach Wertung.
 src/entities/dice_peek.lua:258		Cycle	Zyklisch
 src/entities/dice_peek.lua:258		Rolls to its next value.\nDamage on score.	Würfelt immer auf den nächsten Wert.\nErleidet Schaden bei Wertung.
@@ -652,7 +652,7 @@ src/items.lua:1557		Puke a special effect out	Kotze einen Seiten-Effekt aus
 src/items.lua:1581		Emetique (TM)	Emetique (TM)
 src/items.lua:1582		Puke all special effects out	Kotze alle Seiten-Effekte aus
 src/items.lua:1622		Pig Run	Schweinelauf
-src/items.lua:1625		Pig sides score +${dynamic} Points, gains +5 per pig rerolled this turn. Resets each turn.	Schwein-Seiten werten\n+${dynamic} Punkte, +5 pro Schwein das diesen Zug neu geworfen wurde
+src/items.lua:1625		Pig sides score +${dynamic} Points, gains +5 per pig rerolled this turn. Resets each turn.	Schwein-Seiten werten\n+${dynamic} Punkte, +5 pro Schwein, das diesen Zug neu geworfen wurde
 src/items.lua:1649		pig bonus +${amount}!	Erzeugt zwei Geisterwürfel
 src/items.lua:1654		Thurible	Thuribulum
 src/items.lua:1657		+${dynamic} Mult, gains +1 Mult each time a die is destroyed	+${dynamic} Multi, bekommt +1 Multi jedes Mal, wenn ein Würfel zerstört wird
@@ -665,12 +665,12 @@ src/items.lua:1729		+${amount} pts!	+${amount} pkt!
 src/items.lua:1740		Bleeding Baby	Blutendes Baby
 src/items.lua:1743		+${dynamic} Mult, gains +1 Mult each time you bust, resets on wipe	+${dynamic} Multi, bekommt +1 Multi bei jedem Bust. Setzt sich bei Wipe zurück.
 src/items.lua:1773		Grudge Baby	Groll Baby
-src/items.lua:1776		+${dynamic} Mult, loses 1 Mult each time you bank	+${dynamic} Multi, -1 Multi jedes mal, wenn die Bank benutzt wird
+src/items.lua:1776		+${dynamic} Mult, loses 1 Mult each time you bank	+${dynamic} Multi, -1 Multi jedes Mal, wenn die Bank benutzt wird
 src/items.lua:1792		-1 mult	-1 multi
 src/items.lua:1804		Glass Gecko	Glas-Gecko
 src/items.lua:1805		+10 Mult, destroyed on Bust	+10 Multi, zerspringt bei Bust
 src/items.lua:1822		Belly	Bäuchlein
-src/items.lua:1825		+${dynamic} Mult, gains +0.1 Mult each time a snack is eaten	+${dynamic} Multi, +0,1 Multi jedes mal, wenn ein Snack gegessen wird
+src/items.lua:1825		+${dynamic} Mult, gains +0.1 Mult each time a snack is eaten	+${dynamic} Multi, +0,1 Multi jedes Mal, wenn ein Snack gegessen wird
 src/items.lua:1840		+0.1 mult	+0,1 multi
 src/items.lua:1858		Worm	Wurm
 src/items.lua:1861		+2 Mult	+2 Multi
@@ -693,7 +693,7 @@ src/items.lua:2022		10 momentum!	10 momentum!
 src/items.lua:2029		Mushieltador	Brauner Schildling
 src/items.lua:2032		Gain a Bust Shield when banking if your last combo was any Straight	Bekomme ein Bust-Schild bei Bank-Einzahlung, wenn deine letzte Combo irgendeine Straße war
 src/items.lua:2058		Survival Instinct	Überlebensinstinkt
-src/items.lua:2061		x2 Mult on 1 turn left	x2 Multi wenn nur noch 1 Zug übrig ist
+src/items.lua:2061		x2 Mult on 1 turn left	x2 Multi, wenn nur noch 1 Zug übrig ist
 src/items.lua:2092		Mandarin Peel	Mandarinenschale
 src/items.lua:2095		+5 Mult for your first scored combo each turn	+5 Multi für die erste Combo, die in jedem Zug gewertet wird
 src/items.lua:2116		Octopus Ting	Oktopus-Ding
@@ -711,11 +711,11 @@ src/items.lua:2219		+200 Points for a combo containing Two Pair	+200 Punkte für
 src/items.lua:2233		Just A Pair	Nur Ein Paar
 src/items.lua:2236		+100 Points for a Pair	+100 Punkte für ein Paar
 src/items.lua:2254		Fifteen Sum	Fünfzehnäuger
-src/items.lua:2257		x3 Mult if the scored dice sum to 15	x3 Multi wenn die gewerteten Würfel in Summe 15 Augen zeigen
+src/items.lua:2257		x3 Mult if the scored dice sum to 15	x3 Multi, wenn die gewerteten Würfel in Summe 15 Augen zeigen
 src/items.lua:2277		Sumush	Summenpilz
-src/items.lua:2280		x2 Mult if the scored dice sum to 10	x2 Multi wenn die gewerteten Würfel in Summe 10 Augen zeigen
+src/items.lua:2280		x2 Mult if the scored dice sum to 10	x2 Multi, wenn die gewerteten Würfel in Summe 10 Augen zeigen
 src/items.lua:2299		Lil' Choy	Kleiner Choy
-src/items.lua:2302		x2 Mult when scoring 3 or fewer dice	x2 Multi wenn 3 oder weniger Würfel gewertet werden
+src/items.lua:2302		x2 Mult when scoring 3 or fewer dice	x2 Multi, wenn 3 oder weniger Würfel gewertet werden
 src/items.lua:2320		Toad Hut	Kröten-Häuschen
 src/items.lua:2323		x2 Mult for a combo containing Four Of A Kind	x2 Multi für eine Combo, die einen Viererpasch beinhaltet
 src/items.lua:2345		Pink Top	Pinkhut
@@ -735,9 +735,9 @@ src/items.lua:2461		+0.5x Mult for each scored 2	+0,5x Multi pro gewerteter 2
 src/items.lua:2479		Cactus	Kaktus
 src/items.lua:2482		+0.5x Mult per scored die	+0,5x Multi pro gewertetem Würfel
 src/items.lua:2500		Yolk	Eidotter
-src/items.lua:2503		Flipping a single coin +5 Mult	+5 Multi wenn eine einzelne Münze geworfen wird
+src/items.lua:2503		Flipping a single coin +5 Mult	+5 Multi, wenn eine einzelne Münze geworfen wird
 src/items.lua:2519		Lucky Leaf	Glücksblatt
-src/items.lua:2522		x2 Mult if a coin is scored	x2 Multi wenn eine Münze gewertet wird
+src/items.lua:2522		x2 Mult if a coin is scored	x2 Multi, wenn eine Münze gewertet wird
 src/items.lua:2539		Soy Fish	Soja-Fisch
 src/items.lua:2542		+1 Mult per scored coin	+1 Multi pro gewerteter Münze
 src/items.lua:2553 (+1 others)		+${amount} mult	+${amount} multi
@@ -749,18 +749,18 @@ src/items.lua:2586		Snake Eyes hold score	Die Wertung eines 1er-Paars wird zurü
 src/items.lua:2603		The Mask	Die Maske
 src/items.lua:2606		Combos with 6s hold score	Combos mit 6er-Würfeln halten die Wertung zurück
 src/items.lua:2624		Black Eye	Das Schwarze Auge
-src/items.lua:2627		Spawn a Black Eyed Pea on Bust	Erzeugt eine Schwarzaugebohne wenn ein Bust geworfen wird
+src/items.lua:2627		Spawn a Black Eyed Pea on Bust	Erzeugt eine Schwarzaugebohne, wenn ein Bust geworfen wird
 src/items.lua:2635		Pea!	Bohne!
 src/items.lua:2641		Pain Tolerance	Schmerztoleranz
-src/items.lua:2644		+1 Mult on Bust	+1 Multi wenn ein Bust geworfen wird
+src/items.lua:2644		+1 Mult on Bust	+1 Multi, wenn ein Bust geworfen wird
 src/items.lua:2652		+1 Mult	+1 Multi
 src/items.lua:2658		Masochist Rock	Masochistenstein
-src/items.lua:2661		x2 Mult on Bust	x2 Multi wenn ein Bust geworfen wird
+src/items.lua:2661		x2 Mult on Bust	x2 Multi, wenn ein Bust geworfen wird
 src/items.lua:2670		x2 Mult	x2 Multi
 src/items.lua:2676		Palosanto	Palo Santo
-src/items.lua:2679		If Mult is over 10: +5 Mult	+5 Multi wenn Multi über 10 ist
+src/items.lua:2679		If Mult is over 10: +5 Mult	+5 Multi, wenn Multi über 10 ist
 src/items.lua:2692		Chestnut	Kastanie
-src/items.lua:2695		+50 Points when any item triggers	+50 Punkte wenn ein anderes Item triggert
+src/items.lua:2695		+50 Points when any item triggers	+50 Punkte, wenn ein anderes Item triggert
 src/items.lua:2708		Dolphin	Delphin
 src/items.lua:2711		Spawns a random snack each level	Erzeugt jedes Level einen zufälligen Snack
 src/items.lua:2735 (+1 others)		Snack!	Snack!
@@ -769,7 +769,7 @@ src/items.lua:2744		Spawns a citrus slice each turn	Erzeugt jedes Level eine Zit
 src/items.lua:2761		Crowd Pleaser	Publikumshit
 src/items.lua:2764		+50 Points per trinket on board	+50 Punkte pro Glücksbringer im Spiel
 src/items.lua:2781		Double Down	Draufgänger
-src/items.lua:2784		Flipping a single coin x2 Mult	x2 Multi wenn eine einzelne Münze geworfen wird
+src/items.lua:2784		Flipping a single coin x2 Mult	x2 Multi, wenn eine einzelne Münze geworfen wird
 src/items.lua:2809		Just An Anxious Guy	Angsthase
 src/items.lua:2812		+4 Mult for Four Of A Kind	+4 Multi für einen Viererpasch
 src/items.lua:2826		Double Three Blibber	Doppeldrei Blibber
@@ -781,7 +781,7 @@ src/items.lua:2861		+2 Mult for Pair, Two Pair and Three Pair	+2 Multi für Paar
 src/items.lua:2878		Threes Gobber	Dreiäugiger Gobber
 src/items.lua:2881		+100 Points for a combo containing Three Of A Kind	+100 Punkte für eine Combo, die einen Dreierpasch beinhaltet
 src/items.lua:2914		Gay Moth	Queere Motte
-src/items.lua:2917		+60 Points for rerolling a 6	+60 Punkte wenn eine 6 neu geworfen wird
+src/items.lua:2917		+60 Points for rerolling a 6	+60 Punkte, wenn eine 6 neu geworfen wird
 src/items.lua:2936		Mini Goob	Mini Goob
 src/items.lua:2939		+0.1 Mult per die rolled	+0,1 Multi pro geworfenem Würfel
 src/items.lua:2954		Faster	Schneller
@@ -795,7 +795,7 @@ src/items.lua:3049		Banksia	Banksie
 src/items.lua:3052		Rerolling a Pair recharges Power	Power lädt auf, wenn ein Paar neu geworfen wird
 src/items.lua:3064 (+4 others)		Power Recharged	Power Aufgeladen
 src/items.lua:3071		Lycheye	Litschauge
-src/items.lua:3072		Two Pair recharges Power	"Power lädt auf, wenn eine ""Zwei Paare""-Combo gewertet wird"
+src/items.lua:3072		Two Pair recharges Power	Power lädt auf, wenn eine 'Zwei Paare'-Combo gewertet wird
 src/items.lua:3091		Bump Jug	Bump Jug
 src/items.lua:3094		Scoring a Full House recharges Power	Power lädt auf, wenn ein Full House gewertet wird
 src/items.lua:3111		Full Send	Volle Kraft Voraus
@@ -805,7 +805,7 @@ src/items.lua:3134		Rolling a single die recharges Power	Power lädt auf, wenn e
 src/items.lua:3155		High Roller	Hochwurf
 src/items.lua:3158		+1 Mult for each 6 scored	+1 Multi für jede\ngewertete 6
 src/items.lua:3173		Low Ball	Flachwurf
-src/items.lua:3176		x2 Mult if all scored dice are 3 or under	x2 Multi wenn alle gewerteten Würfel 3 oder niedriger sind
+src/items.lua:3176		x2 Mult if all scored dice are 3 or under	x2 Multi, wenn alle gewerteten Würfel 3 oder niedriger sind
 src/items.lua:3199		Even Now	Gerade Jetzt
 src/items.lua:3202		+50 Points per scored even die	+50 Punkte pro gewertetem Würfel mit gerader Augenzahl
 src/items.lua:3219		Flesh Ring	Fleischring
@@ -849,44 +849,44 @@ src/items.lua:3748		Rerolling a combo upgrades it permanently. Fades with use.	E
 src/items.lua:3752		On Roll	Bei Wurf
 src/items.lua:3780		${combo} Upgraded	${combo} Verbessert
 src/items.lua:3793		Gouda	Gouda
-src/items.lua:3796		Rerolling a Three Of A Kind gives 2¥	+2¥ wenn ein Dreierpasch neu geworfen wird
+src/items.lua:3796		Rerolling a Three Of A Kind gives 2¥	+2¥, wenn ein Dreierpasch neu geworfen wird
 src/items.lua:3818		Pearl	Perle
 src/items.lua:3821		+1¥ for every two scored 1s	+1¥ je zwei gemeinsam gewerteten 1er-Würfeln
 src/items.lua:3844		Queen's Jug	Königinnenkrug
 src/items.lua:3847		+1¥ for a Full House	+1¥ für ein Full House
 src/items.lua:3864		Star Biscuit	Sternkeks
-src/items.lua:3867		Rolling 2+ dice while at 1 Bust gives 2¥	+2¥ wenn nur 1 Bust übrig ist und 2 oder mehr Würfel geworfen werden
+src/items.lua:3867		Rolling 2+ dice while at 1 Bust gives 2¥	+2¥, wenn nur 1 Bust übrig ist und 2 oder mehr Würfel geworfen werden
 src/items.lua:3892		Overtime Star	Überstunden-Stern
 src/items.lua:3895		Gain a Bust Shield for scoring Star Bonanza	Bekomme ein Bust-Schild bei Wertung einer Sternenbonanza
 src/items.lua:3908		Already shielded	Schild bereits aktiv
 src/items.lua:3915		Trotter	Spitzbein
 src/items.lua:3918		Pig Points x2	Schwein-Punkte x2
 src/items.lua:3933		Piglet	Schweinchen
-src/items.lua:3936		+3 Mult for rerolling 3 or more Pig sides	+3 Multi wenn 3 oder mehr Schwein-Seiten neu geworfen werden
+src/items.lua:3936		+3 Mult for rerolling 3 or more Pig sides	+3 Multi, wenn 3 oder mehr Schwein-Seiten neu geworfen werden
 src/items.lua:3955		Chew Toy	Schweineohr
-src/items.lua:3958		1 in 6 chance to spawn a coin when rerolling a Pig side	1 in 6 Chance eine Münze zu erzeugen wenn eine Schwein-Seite neu geworfen wird
+src/items.lua:3958		1 in 6 chance to spawn a coin when rerolling a Pig side	1 in 6 Chance eine Münze zu erzeugen, wenn eine Schwein-Seite neu geworfen wird
 src/items.lua:4013		Paw	Pfote
-src/items.lua:4016		Rolling a single die adds +2 Mult	+2 Multi wenn ein einzelner Würfel neu geworfen wird
+src/items.lua:4016		Rolling a single die adds +2 Mult	+2 Multi, wenn ein einzelner Würfel neu geworfen wird
 src/items.lua:4029		Incel	Incel
 src/items.lua:4032		Rerolling a combo containing a Pair gives +100 Points and +1 Mult	+100 Punkte und +1 Multi, wenn eine Combo, die ein Paar beinhaltet, neu geworfen wird
-src/items.lua:4062		Scoring a Full House spawns a ghost die	Erzeugt einen Geisterwürfel wenn ein Full House gewertet wird
+src/items.lua:4062		Scoring a Full House spawns a ghost die	Erzeugt einen Geisterwürfel, wenn ein Full House gewertet wird
 src/items.lua:4076 (+5 others)		Ghost!	Geist!
 src/items.lua:4082		Ghostanza	Geistanza
-src/items.lua:4085		Scoring a Star Bonanza spawns 4 ghost dice	Erzeugt 4 Geisterwürfel wenn eine Stern-Bonanza gewertet wird
+src/items.lua:4085		Scoring a Star Bonanza spawns 4 ghost dice	Erzeugt 4 Geisterwürfel, wenn eine Stern-Bonanza gewertet wird
 src/items.lua:4105		Ghost Biscuit	Gruselkeks
-src/items.lua:4108		Roll exactly 1 die - if it's a 5 or 6, spawn a ghost die	Erzeugt einen Geisterwürfel wenn ein einzelner Würfel geworfen wird und auf 5 oder 6 landet
+src/items.lua:4108		Roll exactly 1 die - if it's a 5 or 6, spawn a ghost die	Erzeugt einen Geisterwürfel, wenn ein einzelner Würfel geworfen wird und auf 5 oder 6 landet
 src/items.lua:4128		Coin Biscuit	Münzkeks
-src/items.lua:4131		Roll exactly 1 die - if it's a 2, +1¥	+1¥ wenn ein einzelner Würfel geworfen wird und auf 2 landet
+src/items.lua:4131		Roll exactly 1 die - if it's a 2, +1¥	+1¥, wenn ein einzelner Würfel geworfen wird und auf 2 landet
 src/items.lua:4152		Mult Biscuit	Multikeks
-src/items.lua:4155		Roll exactly 1 die - if it's a 3 or 4, +1 Mult	+1 Multi wenn ein einzelner Würfel geworfen wird und auf 3 oder 4 landet
+src/items.lua:4155		Roll exactly 1 die - if it's a 3 or 4, +1 Mult	+1 Multi, wenn ein einzelner Würfel geworfen wird und auf 3 oder 4 landet
 src/items.lua:4173		Flask Of Ghost	Geisterflasche
 src/items.lua:4176		Rerolling a combo that contains a Three Of A Kind creates 2 ghost dice	Erzeugt 2 Geisterwürfel, wenn eine Combo, die einen Dreierpasch beinhaltet, neu geworfen wird
 src/items.lua:4198		Bone	Knochen
-src/items.lua:4201		Combos containing a ghost die score +100 Points	+100 Punkte wenn die Combo einen Geisterwürfel beinhaltet
+src/items.lua:4201		Combos containing a ghost die score +100 Points	+100 Punkte, wenn die Combo einen Geisterwürfel beinhaltet
 src/items.lua:4219		Razor	Rasierklinge
-src/items.lua:4222		1 in 3 chance to spawn a ghost die on Bust	1 in 3 Chance einen Geisterwürfel zu erstellen wenn ein Bust geworfen wird
+src/items.lua:4222		1 in 3 chance to spawn a ghost die on Bust	1 zu 3 Chance, einen Geisterwürfel zu erstellen, wenn ein Bust geworfen wird
 src/items.lua:4245		Scared Straight	Geistersträßler
-src/items.lua:4248		Scoring a Straight spawns a ghost die	Erzeugt einen Geisterwürfel wenn eine Straße gewertet wird
+src/items.lua:4248		Scoring a Straight spawns a ghost die	Erzeugt einen Geisterwürfel, wenn eine Straße gewertet wird
 src/items.lua:4271		Cell	Zelle
 src/items.lua:4274		Start each turn with a Bust Shield	Beginne jeden Zug mit einem Bust-Schild
 src/items.lua:4285		shield!	schild!
