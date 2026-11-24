@@ -4,8 +4,8 @@ Are you sure?		src/states/options.lua	504	options
 Are you sure?		src/states/options.lua	524	options
 Are you sure?		src/states/options.lua	550	options
 yes		src/are_you_sure.lua	15	are_you_sure
-yes		src/states/game.lua	2467	game
-yes		src/states/game.lua	3671	game
+yes		src/states/game.lua	2491	game
+yes		src/states/game.lua	3695	game
 yes		src/states/options.lua	396	options
 yes		src/states/options.lua	406	options
 yes		src/states/options.lua	413	options
@@ -16,7 +16,7 @@ yes		src/states/options.lua	504	options
 yes		src/states/options.lua	524	options
 yes		src/states/options.lua	550	options
 yes		src/states/options.lua	571	options
-no		src/states/game.lua	3695	game
+no		src/states/game.lua	3719	game
 no		src/states/options.lua	396	options
 no		src/states/options.lua	406	options
 no		src/states/options.lua	413	options
@@ -25,20 +25,20 @@ no		src/states/options.lua	475	options
 no		src/states/options.lua	482	options
 no		src/states/options.lua	571	options
 woof?		src/character_unlocks.lua	84	character_unlocks
-woof?	true	src/characters/dog.lua	87	dog
+woof?	true	src/characters/dog.lua	88	dog
 bust		src/coloured_text.lua	8	coloured_text
 bust		src/coloured_text.lua	75	coloured_text
 bust		src/items.lua	140	items
-bust		src/items.lua	1540	items
-bust		src/items.lua	4062	items
-bust		src/items.lua	4085	items
-bust		src/items.lua	4108	items
-bust		src/items.lua	4176	items
-bust		src/items.lua	4220	items
-bust		src/items.lua	4222	items
-bust		src/items.lua	4247	items
-bust		src/items.lua	5912	items
-bust		src/items.lua	5932	items
+bust		src/items.lua	1550	items
+bust		src/items.lua	4074	items
+bust		src/items.lua	4097	items
+bust		src/items.lua	4120	items
+bust		src/items.lua	4188	items
+bust		src/items.lua	4232	items
+bust		src/items.lua	4234	items
+bust		src/items.lua	4259	items
+bust		src/items.lua	5924	items
+bust		src/items.lua	5944	items
 bust		src/tutorial_config.lua	11	tutorial_config
 bust		src/tutorial_config.lua	12	tutorial_config
 bust		src/tutorial_config.lua	13	tutorial_config
@@ -46,20 +46,20 @@ bust		src/tutorial_config.lua	14	tutorial_config
 bust		src/tutorial_config.lua	15	tutorial_config
 bust		src/states/ending_bet.lua	194	ending_bet
 bust		src/states/ending_finale.lua	182	ending_finale
-bust		src/states/game.lua	1459	game
-bust		src/states/game.lua	2233	game
-bust		src/states/game.lua	3116	game
+bust		src/states/game.lua	1468	game
+bust		src/states/game.lua	2257	game
 bust		src/states/game.lua	3140	game
-bust		src/states/game.lua	3161	game
-bust		src/states/game.lua	3992	game
-bust		src/states/game.lua	3995	game
+bust		src/states/game.lua	3164	game
+bust		src/states/game.lua	3185	game
+bust		src/states/game.lua	4026	game
+bust		src/states/game.lua	4029	game
 bust		src/states/game_setup.lua	57	game_setup
-bust		src/states/gameover.lua	593	gameover
+bust		src/states/gameover.lua	594	gameover
 bust		src/states/intro.lua	47	intro
 bust		src/states/intro_greed.lua	47	intro_greed
 bust		src/states/title.lua	141	title
 bust		src/entities/buttons_clump.lua	332	buttons_clump
-bust		src/entities/dice.lua	828	dice
+bust		src/entities/dice.lua	833	dice
 bust		src/entities/dice_ending.lua	11	dice_ending
 bust		src/entities/dice_ending.lua	207	dice_ending
 bust		src/entities/god_shop.lua	316	god_shop
@@ -67,30 +67,30 @@ bust		src/entities/shop.lua	602	shop
 bust		src/entities/shop.lua	739	shop
 bust		src/entities/shop.lua	740	shop
 bust		src/entities/shop.lua	753	shop
-bust		src/entities/shop.lua	1343	shop
+bust		src/entities/shop.lua	1350	shop
 bust		src/entities/title_preview.lua	34	title_preview
-bust		src/characters/anais.lua	13	anais
 bust		src/characters/anais.lua	14	anais
 bust		src/characters/anais.lua	15	anais
 bust		src/characters/anais.lua	16	anais
 bust		src/characters/anais.lua	17	anais
 bust		src/characters/anais.lua	18	anais
 bust		src/characters/anais.lua	19	anais
-bust		src/characters/business_fish.lua	13	business_fish
+bust		src/characters/anais.lua	20	anais
 bust		src/characters/business_fish.lua	14	business_fish
 bust		src/characters/business_fish.lua	15	business_fish
 bust		src/characters/business_fish.lua	16	business_fish
 bust		src/characters/business_fish.lua	17	business_fish
-bust		src/characters/cool_fish.lua	13	cool_fish
+bust		src/characters/business_fish.lua	18	business_fish
 bust		src/characters/cool_fish.lua	14	cool_fish
 bust		src/characters/cool_fish.lua	15	cool_fish
 bust		src/characters/cool_fish.lua	16	cool_fish
 bust		src/characters/cool_fish.lua	17	cool_fish
-bust		src/characters/dog.lua	13	dog
+bust		src/characters/cool_fish.lua	18	cool_fish
 bust		src/characters/dog.lua	14	dog
 bust		src/characters/dog.lua	15	dog
 bust		src/characters/dog.lua	16	dog
 bust		src/characters/dog.lua	17	dog
+bust		src/characters/dog.lua	18	dog
 bust		src/characters/god.lua	116	god
 bust		src/characters/god.lua	117	god
 bust		src/characters/god.lua	118	god
@@ -128,36 +128,36 @@ bust		src/characters/shirin.lua	14	shirin
 bust		src/characters/shirin.lua	15	shirin
 bust		src/characters/shirin.lua	16	shirin
 bust		src/characters/shirin.lua	17	shirin
-bust		src/characters/tooth_fairy.lua	13	tooth_fairy
 bust		src/characters/tooth_fairy.lua	14	tooth_fairy
 bust		src/characters/tooth_fairy.lua	15	tooth_fairy
 bust		src/characters/tooth_fairy.lua	16	tooth_fairy
 bust		src/characters/tooth_fairy.lua	17	tooth_fairy
+bust		src/characters/tooth_fairy.lua	18	tooth_fairy
 bust		src/characters/tutorial_character.lua	10	tutorial_character
 bust		src/characters/tutorial_character.lua	11	tutorial_character
 bust		src/characters/tutorial_character.lua	12	tutorial_character
 bust		src/characters/tutorial_character.lua	13	tutorial_character
 bust		src/characters/tutorial_character.lua	14	tutorial_character
-bust		src/characters/tutorial_character.lua	186	tutorial_character
-bust		src/characters/tutorial_character.lua	203	tutorial_character
+bust		src/characters/tutorial_character.lua	188	tutorial_character
+bust		src/characters/tutorial_character.lua	205	tutorial_character
 bust		src/characters/wizard.lua	14	wizard
 bust		src/characters/wizard.lua	15	wizard
 bust		src/characters/wizard.lua	16	wizard
 bust		src/characters/wizard.lua	17	wizard
 bank		src/coloured_text.lua	24	coloured_text
 bank		src/keybinds.lua	5	keybinds
-bank		src/characters/tutorial_character.lua	165	tutorial_character
-bank		src/characters/tutorial_character.lua	166	tutorial_character
+bank		src/characters/tutorial_character.lua	167	tutorial_character
+bank		src/characters/tutorial_character.lua	168	tutorial_character
 points		src/coloured_text.lua	31	coloured_text
-points		src/items.lua	2254	items
-points		src/items.lua	2277	items
-points		src/sync_scoreboards.lua	44	sync_scoreboards
-points		src/sync_scoreboards.lua	56	sync_scoreboards
+points		src/items.lua	2265	items
+points		src/items.lua	2288	items
+points		src/sync_scoreboards.lua	46	sync_scoreboards
+points		src/sync_scoreboards.lua	58	sync_scoreboards
 points		src/entities/encounter_timeline.lua	104	encounter_timeline
 mult		src/coloured_text.lua	35	coloured_text
-mult		src/items.lua	838	items
-mult		src/items.lua	862	items
-mult		src/items.lua	1319	items
+mult		src/items.lua	846	items
+mult		src/items.lua	870	items
+mult		src/items.lua	1329	items
 mult		src/entities/shop.lua	747	shop
 mult		src/characters/saimi.lua	15	saimi
 mult		src/characters/wizard.lua	14	wizard
@@ -165,48 +165,48 @@ mult		src/characters/wizard.lua	15	wizard
 mult		src/characters/wizard.lua	16	wizard
 mult		src/characters/wizard.lua	17	wizard
 bonus		src/coloured_text.lua	39	coloured_text
-bonus		src/items.lua	814	items
-bonus		src/items.lua	1066	items
-bonus		src/items.lua	1299	items
-bonus		src/items.lua	3427	items
-bonus		src/items.lua	3516	items
-bonus		src/states/game.lua	4130	game
+bonus		src/items.lua	822	items
+bonus		src/items.lua	1074	items
+bonus		src/items.lua	1309	items
+bonus		src/items.lua	3439	items
+bonus		src/items.lua	3528	items
+bonus		src/states/game.lua	4165	game
 bonus		src/entities/shop.lua	603	shop
 bonus		src/entities/shop.lua	746	shop
 debust		src/coloured_text.lua	43	coloured_text
-debust		src/items.lua	936	items
-debust		src/items.lua	1339	items
+debust		src/items.lua	944	items
+debust		src/items.lua	1349	items
 debust		src/states/ending_finale.lua	182	ending_finale
-debust		src/states/game.lua	2852	game
+debust		src/states/game.lua	2876	game
 debust		src/entities/shop.lua	744	shop
 pig		src/coloured_text.lua	46	coloured_text
-pig		src/items.lua	912	items
-pig		src/items.lua	1006	items
-pig		src/items.lua	1359	items
-pig		src/items.lua	1632	items
-pig		src/items.lua	3932	items
-pig		src/items.lua	3955	items
-pig		src/entities/dice.lua	1370	dice
+pig		src/items.lua	920	items
+pig		src/items.lua	1014	items
+pig		src/items.lua	1369	items
+pig		src/items.lua	1642	items
+pig		src/items.lua	3944	items
+pig		src/items.lua	3967	items
+pig		src/entities/dice.lua	1375	dice
 pig		src/entities/dice_ending.lua	572	dice_ending
 pig		src/entities/shop.lua	604	shop
 pig		src/entities/shop.lua	745	shop
-pig		src/characters/dog.lua	13	dog
-pig		src/characters/dog.lua	13	dog
-pig		src/characters/dog.lua	13	dog
-pig		src/characters/dog.lua	13	dog
-pig		src/characters/dog.lua	13	dog
-pig		src/characters/dog.lua	13	dog
-pig		src/characters/dog.lua	13	dog
+pig		src/characters/dog.lua	14	dog
+pig		src/characters/dog.lua	14	dog
+pig		src/characters/dog.lua	14	dog
+pig		src/characters/dog.lua	14	dog
+pig		src/characters/dog.lua	14	dog
+pig		src/characters/dog.lua	14	dog
+pig		src/characters/dog.lua	14	dog
 power		src/coloured_text.lua	49	coloured_text
-power		src/items.lua	961	items
-power		src/items.lua	1108	items
-power		src/items.lua	1380	items
-power		src/items.lua	3449	items
-power		src/items.lua	3538	items
+power		src/items.lua	969	items
+power		src/items.lua	1116	items
+power		src/items.lua	1390	items
+power		src/items.lua	3461	items
+power		src/items.lua	3550	items
 power		src/keybinds.lua	6	keybinds
-power		src/states/game.lua	1930	game
-power		src/states/game.lua	2572	game
-power		src/states/game.lua	2858	game
+power		src/states/game.lua	1954	game
+power		src/states/game.lua	2596	game
+power		src/states/game.lua	2882	game
 power		src/entities/power_ui.lua	16	power_ui
 power		src/entities/shop.lua	748	shop
 coin		src/coloured_text.lua	58	coloured_text
@@ -214,32 +214,32 @@ coin		src/items.lua	114	items
 coin		src/entities/slot.lua	40	slot
 coin		src/entities/slot.lua	52	slot
 skip		src/coloured_text.lua	77	coloured_text
-skip		src/items.lua	1027	items
-skip		src/items.lua	1440	items
-skip		src/states/game.lua	2550	game
-skip		src/states/game.lua	3052	game
-skip		src/states/game.lua	3057	game
-skip		src/states/game.lua	3063	game
+skip		src/items.lua	1035	items
+skip		src/items.lua	1450	items
+skip		src/states/game.lua	2574	game
+skip		src/states/game.lua	3076	game
+skip		src/states/game.lua	3081	game
+skip		src/states/game.lua	3087	game
 skip		src/entities/buttons_clump.lua	328	buttons_clump
 skip		src/entities/dice_pick.lua	29	dice_pick
 skip		src/entities/shop.lua	687	shop
 mirror		src/coloured_text.lua	80	coloured_text
-mirror		src/items.lua	1460	items
-mirror		src/entities/dice.lua	2108	dice
+mirror		src/items.lua	1470	items
+mirror		src/entities/dice.lua	2113	dice
 cracked		src/coloured_text.lua	83	coloured_text
-cracked		src/items.lua	1480	items
-cracked		src/items.lua	5988	items
-cracked		src/items.lua	6008	items
-cracked		src/states/game.lua	2234	game
-cracked		src/states/game.lua	3087	game
+cracked		src/items.lua	1490	items
+cracked		src/items.lua	6000	items
+cracked		src/items.lua	6020	items
+cracked		src/states/game.lua	2258	game
+cracked		src/states/game.lua	3111	game
 cracked		src/entities/shop.lua	738	shop
-cracked		src/characters/anais.lua	13	anais
 cracked		src/characters/anais.lua	14	anais
 cracked		src/characters/anais.lua	15	anais
 cracked		src/characters/anais.lua	16	anais
 cracked		src/characters/anais.lua	17	anais
 cracked		src/characters/anais.lua	18	anais
 cracked		src/characters/anais.lua	19	anais
+cracked		src/characters/anais.lua	20	anais
 cracked		src/characters/hotdog.lua	18	hotdog
 cracked		src/characters/hotdog.lua	18	hotdog
 cracked		src/characters/hotdog.lua	18	hotdog
@@ -251,46 +251,46 @@ cracked		src/characters/saimi.lua	12	saimi
 cracked		src/characters/saimi.lua	13	saimi
 cracked		src/characters/saimi.lua	14	saimi
 hardy		src/coloured_text.lua	86	coloured_text
-hardy		src/items.lua	1500	items
-hardy		src/states/game.lua	3105	game
+hardy		src/items.lua	1510	items
+hardy		src/states/game.lua	3129	game
 doom		src/coloured_text.lua	89	coloured_text
-doom		src/items.lua	1520	items
-doom		src/items.lua	6032	items
-doom		src/items.lua	6052	items
-doom		src/states/game.lua	2235	game
-doom		src/states/game.lua	3096	game
+doom		src/items.lua	1530	items
+doom		src/items.lua	6044	items
+doom		src/items.lua	6064	items
+doom		src/states/game.lua	2259	game
+doom		src/states/game.lua	3120	game
 negative		src/coloured_text.lua	92	coloured_text
 negative		src/entities/shop.lua	610	shop
 stuck		src/coloured_text.lua	95	coloured_text
-stuck		src/items.lua	985	items
-stuck		src/items.lua	1400	items
-stuck		src/items.lua	3405	items
-stuck		src/items.lua	3495	items
+stuck		src/items.lua	993	items
+stuck		src/items.lua	1410	items
+stuck		src/items.lua	3417	items
+stuck		src/items.lua	3507	items
 stuck		src/powers.lua	25	powers
-stuck		src/states/game.lua	2236	game
+stuck		src/states/game.lua	2260	game
 stuck		src/entities/buttons_clump.lua	306	buttons_clump
-stuck		src/entities/dice.lua	748	dice
-stuck		src/entities/dice.lua	1244	dice
+stuck		src/entities/dice.lua	753	dice
+stuck		src/entities/dice.lua	1249	dice
 stuck		src/entities/dice_ending.lua	500	dice_ending
-stuck		src/entities/dice_peek.lua	176	dice_peek
+stuck		src/entities/dice_peek.lua	179	dice_peek
 stuck		src/entities/shop.lua	605	shop
 empty		src/coloured_text.lua	98	coloured_text
-empty		src/entities/dice.lua	2252	dice
+empty		src/entities/dice.lua	2257	dice
 empty		src/entities/shop.lua	608	shop
-go outside		src/haunt.lua	21	haunt
-go outside		src/haunt.lua	22	haunt
-go outside		src/endings/god.lua	102	god
+go outside		src/haunt.lua	32	haunt
+go outside		src/haunt.lua	33	haunt
+go outside		src/endings/god.lua	103	god
 Comeback		src/item_unlocks.lua	164	item_unlocks
 Comeback		src/items.lua	433	items
 Ghost		src/item_unlocks.lua	251	item_unlocks
-Ghost		src/items.lua	4047	items
-Ghost		src/entities/dice_peek.lua	254	dice_peek
+Ghost		src/items.lua	4059	items
+Ghost		src/entities/dice_peek.lua	257	dice_peek
 Shield		src/item_unlocks.lua	261	item_unlocks
-Shield		src/powers.lua	353	powers
-Scoreboards		src/item_unlocks.lua	408	item_unlocks
-Scoreboards		src/states/title.lua	356	title
-be the goat		src/item_unlocks.lua	409	item_unlocks
-be the goat		src/states/title.lua	360	title
+Shield		src/powers.lua	345	powers
+Scoreboards		src/item_unlocks.lua	406	item_unlocks
+Scoreboards		src/states/title.lua	355	title
+be the goat		src/item_unlocks.lua	407	item_unlocks
+be the goat		src/states/title.lua	359	title
 Roll		src/keybinds.lua	3	keybinds
 Roll		src/entities/buttons_clump.lua	254	buttons_clump
 Roll		src/entities/buttons_clump.lua	256	buttons_clump
@@ -298,12 +298,12 @@ Score		src/keybinds.lua	4	keybinds
 Score		src/entities/buttons_clump.lua	127	buttons_clump
 Score		src/entities/buttons_clump.lua	136	buttons_clump
 BANK		src/keybinds.lua	5	keybinds
-BANK		src/states/game.lua	597	game
+BANK		src/states/game.lua	606	game
 Trade!		src/keybinds.lua	10	keybinds
-Trade!		src/states/game.lua	3548	game
-you		src/sync_scoreboards.lua	203	sync_scoreboards
+Trade!		src/states/game.lua	3572	game
+you		src/sync_scoreboards.lua	206	sync_scoreboards
 you	true	src/endings/wizard.lua	140	wizard
-LOCKED		src/ui/character_body.lua	302	character_body
+LOCKED		src/ui/character_body.lua	306	character_body
 LOCKED		src/states/game_setup.lua	407	game_setup
 LOCKED		src/states/unlock.lua	181	unlock
 SPELL		src/ui/item_hover.lua	73	item_hover
@@ -313,61 +313,61 @@ SPELL		src/entities/item.lua	273	item
 SPELL		src/entities/shop.lua	1142	shop
 unlock		src/ui/state_tabs.lua	5	state_tabs
 unlock		src/states/unlock.lua	66	unlock
-unlock		src/states/unlock.lua	498	unlock
+unlock		src/states/unlock.lua	508	unlock
 < back		src/states/catalogue.lua	50	catalogue
 < back		src/states/controls.lua	46	controls
 < back		src/states/customisation.lua	53	customisation
 < back		src/states/game_setup.lua	96	game_setup
 < back		src/states/options.lua	49	options
 < back		src/states/options.lua	72	options
-< back		src/states/scoreboard.lua	72	scoreboard
+< back		src/states/scoreboard.lua	106	scoreboard
 < back		src/states/unlock.lua	50	unlock
 dawn mode		src/states/catalogue.lua	86	catalogue
-dawn mode		src/states/game.lua	285	game
+dawn mode		src/states/game.lua	294	game
 dawn mode		src/states/game_setup.lua	125	game_setup
-dawn mode		src/states/title.lua	469	title
+dawn mode		src/states/title.lua	468	title
 dawn mode		src/entities/title_preview.lua	106	title_preview
 night mode		src/states/catalogue.lua	86	catalogue
-night mode		src/states/game.lua	285	game
+night mode		src/states/game.lua	294	game
 night mode		src/states/game_setup.lua	125	game_setup
-night mode		src/states/title.lua	470	title
+night mode		src/states/title.lua	469	title
 night mode		src/entities/title_preview.lua	106	title_preview
 ost		src/states/catalogue.lua	114	catalogue
-ost		src/states/title.lua	489	title
+ost		src/states/title.lua	488	title
 ost		src/entities/title_preview.lua	110	title_preview
 artists' web		src/states/catalogue.lua	116	catalogue
-artists' web		src/states/title.lua	490	title
-hit that shit?		src/states/ending.lua	244	ending
+artists' web		src/states/title.lua	489	title
+hit that shit?		src/states/ending.lua	252	ending
 hit that shit?		src/endings/anais.lua	28	anais
 hit that shit?		src/endings/default.lua	28	default
 hit that shit?		src/endings/guy.lua	32	guy
 hit that shit?		src/endings/marooned.lua	29	marooned
-hit that shit?		src/endings/party.lua	30	party
+hit that shit?		src/endings/party.lua	52	party
 hit that shit?		src/endings/shirin.lua	33	shirin
-play		src/states/ending.lua	303	ending
-play		src/states/ending.lua	347	ending
-play		src/states/game.lua	2424	game
+play		src/states/ending.lua	311	ending
+play		src/states/ending.lua	355	ending
+play		src/states/game.lua	2448	game
 play		src/states/game_setup.lua	161	game_setup
 play		src/entities/buttons_clump.lua	69	buttons_clump
 --  Run Summary  --		src/states/ending_bet.lua	60	ending_bet
---  Run Summary  --		src/states/gameover.lua	294	gameover
+--  Run Summary  --		src/states/gameover.lua	295	gameover
 Level reached:		src/states/ending_bet.lua	74	ending_bet
-Level reached:		src/states/gameover.lua	308	gameover
+Level reached:		src/states/gameover.lua	309	gameover
 Points scored:		src/states/ending_bet.lua	75	ending_bet
-Points scored:		src/states/gameover.lua	309	gameover
+Points scored:		src/states/gameover.lua	310	gameover
 Dice rolled:		src/states/ending_bet.lua	76	ending_bet
-Dice rolled:		src/states/gameover.lua	310	gameover
+Dice rolled:		src/states/gameover.lua	311	gameover
 Ones rolled:		src/states/ending_bet.lua	77	ending_bet
-Ones rolled:		src/states/gameover.lua	311	gameover
+Ones rolled:		src/states/gameover.lua	312	gameover
 Bust rate:		src/states/ending_bet.lua	78	ending_bet
-Bust rate:		src/states/gameover.lua	312	gameover
+Bust rate:		src/states/gameover.lua	313	gameover
 Run stars:		src/states/ending_bet.lua	80	ending_bet
-Run stars:		src/states/gameover.lua	314	gameover
+Run stars:		src/states/gameover.lua	315	gameover
 ¤ banked		src/states/ending_bet.lua	94	ending_bet
 ¤ banked		src/states/ending_demo.lua	60	ending_demo
-¤ banked		src/states/game.lua	1006	game
+¤ banked		src/states/game.lua	1015	game
 ¤ banked		src/states/gameover.lua	78	gameover
-¤ banked		src/states/gameover.lua	270	gameover
+¤ banked		src/states/gameover.lua	271	gameover
 star		src/states/ending_bet.lua	194	ending_bet
 star		src/entities/pickup.lua	44	pickup
 star		src/entities/shop.lua	607	shop
@@ -381,20 +381,20 @@ i am god	true	src/endings/shirin.lua	139	shirin
 i am god	true	src/endings/wizard.lua	147	wizard
 i am god	true	src/characters/god.lua	162	god
 Browser Opened!		src/states/ending_demo.lua	184	ending_demo
-Browser Opened!		src/states/title.lua	606	title
+Browser Opened!		src/states/title.lua	605	title
 Thanks <3		src/states/ending_demo.lua	185	ending_demo
-Thanks <3		src/states/title.lua	607	title
+Thanks <3		src/states/title.lua	606	title
 Buy Here		src/states/ending_demo.lua	187	ending_demo
-Buy Here		src/states/title.lua	609	title
+Buy Here		src/states/title.lua	608	title
 Wishlist Here		src/states/ending_demo.lua	187	ending_demo
-Wishlist Here		src/states/title.lua	609	title
-Continue		src/states/game.lua	170	game
-Continue		src/states/title.lua	258	title
-Options		src/states/game.lua	185	game
+Wishlist Here		src/states/title.lua	608	title
+Continue		src/states/game.lua	179	game
+Continue		src/states/title.lua	257	title
+Options		src/states/game.lua	194	game
 Options		src/states/options.lua	87	options
-Options		src/states/title.lua	365	title
+Options		src/states/title.lua	364	title
 Options		src/entities/title_preview.lua	64	title_preview
-Rift		src/states/game.lua	2085	game
+Rift		src/states/game.lua	2109	game
 Rift		src/boards/rift.lua	2	rift
 This is a game about luck.		src/states/intro.lua	54	intro
 This is a game about luck.		src/states/intro_greed.lua	63	intro_greed
@@ -402,60 +402,60 @@ so you chose to come back	true	src/states/title.lua	159	title
 so you chose to come back	true	src/endings/default.lua	124	default
 you will see, very soon	true	src/states/title.lua	161	title
 you will see, very soon	true	src/endings/default.lua	126	default
-the world you grew up in no longer exists		src/states/title.lua	246	title
+the world you grew up in no longer exists		src/states/title.lua	245	title
 the world you grew up in no longer exists		src/entities/title_preview.lua	49	title_preview
-Tutorial		src/states/title.lua	291	title
+Tutorial		src/states/title.lua	290	title
 Tutorial		src/entities/title_preview.lua	61	title_preview
-learn to play		src/states/title.lua	298	title
+learn to play		src/states/title.lua	297	title
 learn to play		src/entities/title_preview.lua	61	title_preview
-game setup		src/states/title.lua	370	title
+game setup		src/states/title.lua	369	title
 game setup		src/entities/title_preview.lua	64	title_preview
-Quit		src/states/title.lua	375	title
+Quit		src/states/title.lua	374	title
 Quit		src/entities/title_preview.lua	65	title_preview
-bye?		src/states/title.lua	379	title
+bye?		src/states/title.lua	378	title
 bye?		src/entities/title_preview.lua	65	title_preview
 SNACK		src/states/unlock.lua	96	unlock
 SNACK		src/entities/god_shop.lua	358	god_shop
 SNACK		src/entities/item.lua	271	item
 SNACK		src/entities/shop.lua	1140	shop
-${count} levels til the end		src/characters/anais.lua	56	anais
-${count} levels til the end		src/characters/business_fish.lua	69	business_fish
-${count} levels til the end		src/characters/cool_fish.lua	80	cool_fish
-${count} levels til the end		src/characters/dog.lua	69	dog
+${count} levels til the end		src/characters/anais.lua	57	anais
+${count} levels til the end		src/characters/business_fish.lua	70	business_fish
+${count} levels til the end		src/characters/cool_fish.lua	81	cool_fish
+${count} levels til the end		src/characters/dog.lua	70	dog
 ${count} levels til the end		src/characters/guy.lua	80	guy
 ${count} levels til the end		src/characters/hotdog.lua	72	hotdog
 ${count} levels til the end		src/characters/king_fetus.lua	57	king_fetus
 ${count} levels til the end		src/characters/liz.lua	72	liz
-${count} levels til the end		src/characters/shirin.lua	59	shirin
-${count} levels til the end		src/characters/tooth_fairy.lua	52	tooth_fairy
+${count} levels til the end		src/characters/shirin.lua	60	shirin
+${count} levels til the end		src/characters/tooth_fairy.lua	53	tooth_fairy
 ${count} levels til the end		src/characters/wizard.lua	83	wizard
-The teeth trail will lead you to her	true	src/characters/anais.lua	59	anais
-The teeth trail will lead you to her	true	src/characters/business_fish.lua	72	business_fish
-The teeth trail will lead you to her	true	src/characters/cool_fish.lua	83	cool_fish
-The teeth trail will lead you to her	true	src/characters/dog.lua	72	dog
+The teeth trail will lead you to her	true	src/characters/anais.lua	60	anais
+The teeth trail will lead you to her	true	src/characters/business_fish.lua	73	business_fish
+The teeth trail will lead you to her	true	src/characters/cool_fish.lua	84	cool_fish
+The teeth trail will lead you to her	true	src/characters/dog.lua	73	dog
 The teeth trail will lead you to her	true	src/characters/guy.lua	83	guy
 The teeth trail will lead you to her	true	src/characters/hotdog.lua	75	hotdog
 The teeth trail will lead you to her	true	src/characters/king_fetus.lua	60	king_fetus
 The teeth trail will lead you to her	true	src/characters/liz.lua	75	liz
-The teeth trail will lead you to her	true	src/characters/shirin.lua	62	shirin
-The teeth trail will lead you to her	true	src/characters/tooth_fairy.lua	55	tooth_fairy
+The teeth trail will lead you to her	true	src/characters/shirin.lua	63	shirin
+The teeth trail will lead you to her	true	src/characters/tooth_fairy.lua	56	tooth_fairy
 The teeth trail will lead you to her	true	src/characters/wizard.lua	86	wizard
-Yes		src/characters/anais.lua	82	anais
-Yes		src/characters/business_fish.lua	110	business_fish
-Yes		src/characters/cool_fish.lua	117	cool_fish
-Yes		src/characters/dog.lua	88	dog
+Yes		src/characters/anais.lua	83	anais
+Yes		src/characters/business_fish.lua	111	business_fish
+Yes		src/characters/cool_fish.lua	118	cool_fish
+Yes		src/characters/dog.lua	89	dog
 Yes		src/characters/guy.lua	120	guy
 Yes		src/characters/hotdog.lua	100	hotdog
 Yes		src/characters/king_fetus.lua	90	king_fetus
 Yes		src/characters/liz.lua	125	liz
-Yes		src/characters/shirin.lua	199	shirin
+Yes		src/characters/shirin.lua	200	shirin
 Yes		src/characters/wizard.lua	218	wizard
-You're playing shallows?	true	src/characters/business_fish.lua	74	business_fish
-You're playing shallows?	true	src/characters/cool_fish.lua	85	cool_fish
-This ain't it	true	src/characters/business_fish.lua	75	business_fish
-This ain't it	true	src/characters/cool_fish.lua	86	cool_fish
-Take me into deep waters baby.	true	src/characters/business_fish.lua	76	business_fish
-Take me into deep waters baby.	true	src/characters/cool_fish.lua	87	cool_fish
+You're playing shallows?	true	src/characters/business_fish.lua	75	business_fish
+You're playing shallows?	true	src/characters/cool_fish.lua	86	cool_fish
+This ain't it	true	src/characters/business_fish.lua	76	business_fish
+This ain't it	true	src/characters/cool_fish.lua	87	cool_fish
+Take me into deep waters baby.	true	src/characters/business_fish.lua	77	business_fish
+Take me into deep waters baby.	true	src/characters/cool_fish.lua	88	cool_fish
 Liz		src/characters/liz.lua	2	liz
 Liz		src/characters/tutorial_character.lua	2	tutorial_character
 Moi	true	src/characters/saimi.lua	31	saimi
