@@ -614,7 +614,7 @@ src/items.lua:1167		Flip this die to its opposite face	Dreht den Würfel auf die
 src/items.lua:1182		Flipped!	Umgedreht!
 src/items.lua:1187		Orange	Orange
 src/items.lua:1188		Nudge all other dice one pip towards this die's value	Kippt alle Würfel 1 Auge in Richtung des Würfelwerts
-src/items.lua:1216		Pull!	Zieh!
+src/items.lua:1216		Pull!	Zieht!
 src/items.lua:1221		Tumor	Tumor
 src/items.lua:1222		Spawn a ghost clone of this die	Erzeuge einen Geist-Klon dieses Würfels
 src/items.lua:1266		Cloned!	Geklont!
@@ -675,7 +675,7 @@ src/items.lua:1840		+0.1 mult	+0,1 multi
 src/items.lua:1858		Worm	Wurm
 src/items.lua:1861		+2 Mult	+2 Multi
 src/items.lua:1872		Mahjong Tile	Mahjong-Stein
-src/items.lua:1875		+4 Mult	
+src/items.lua:1875		+4 Mult	+4 Multi
 src/items.lua:1887		Clam	Muschel
 src/items.lua:1890		+50 Points	+50 Punkte
 src/items.lua:1905		+10 Mult, -2 Mult for each die scored	+10 Multi, -2 Multi für jeden gewerteten Würfel
@@ -790,7 +790,7 @@ src/items.lua:2965 (+1 others)		+1 momentum	+1 momentum
 src/items.lua:2970		Spite	Bosheit
 src/items.lua:2973		On Bust, gain +1 Momentum	+1 Momentum, wenn ein Bust geworfen wird
 src/items.lua:2988		Shortbread Biscuit	Butterkeks
-src/items.lua:2991		+100 Points for rolling a single die	
+src/items.lua:2991		+100 Points for rolling a single die	+100 Punkte, wenn ein einzelner Würfel geworfen wird
 src/items.lua:3049		Banksia	Banksie
 src/items.lua:3052		Rerolling a Pair recharges Power	Power lädt auf, wenn ein Paar neu geworfen wird
 src/items.lua:3064 (+4 others)		Power Recharged	Power Aufgeladen
@@ -799,9 +799,9 @@ src/items.lua:3072		Two Pair recharges Power	"Power lädt auf, wenn eine ""Zwei 
 src/items.lua:3091		Bump Jug	Bump Jug
 src/items.lua:3094		Scoring a Full House recharges Power	Power lädt auf, wenn ein Full House gewertet wird
 src/items.lua:3111		Full Send	Volle Kraft Voraus
-src/items.lua:3114		Rolling 5 or more dice recharges Power	
+src/items.lua:3114		Rolling 5 or more dice recharges Power	Power lädt auf, wenn 5 oder mehr Würfel geworfen werden
 src/items.lua:3131		God Give Me Strength	Gott Gib Mir Kraft
-src/items.lua:3134		Rolling a single die recharges Power	
+src/items.lua:3134		Rolling a single die recharges Power	Power lädt auf, wenn ein einzelner Würfel geworfen wird
 src/items.lua:3155		High Roller	Hochwurf
 src/items.lua:3158		+1 Mult for each 6 scored	+1 Multi für jede\ngewertete 6
 src/items.lua:3173		Low Ball	Flachwurf
@@ -947,14 +947,14 @@ src/items.lua:5019		Half Points	Halbe Punkte
 src/items.lua:5020		Halves the Points	Halbiert Punkte
 src/items.lua:5035		Half Mult	Halbe Multi
 src/items.lua:5036		Halves the Mult	Halbiert Multi
-src/items.lua:5051 (+1 others)		Bad Momentum	Morgenmuffel
+src/items.lua:5051 (+1 others)		Bad Momentum	Schlechtes Momentum
 src/items.lua:5052		Start each turn with -2 Momentum	Jeder Zug startet mit -2 Momentum
 src/items.lua:5062		-2 Momentum	-2 Momentum
 src/items.lua:5068 (+1 others)		-1 Momentum	-1 Momentum
 src/items.lua:5083		Sore Loser	Schlechter Verlierer
 src/items.lua:5084		Bust resets Momentum	Busts setzen Momentum zurück
 src/items.lua:5100		Two Left Feet	Zwei Linke Füße
-src/items.lua:5101		-100 Points for rolling exactly 2 dice	
+src/items.lua:5101		-100 Points for rolling exactly 2 dice	-100 Punkte, wenn genau zwei Würfel geworfen werden
 src/items.lua:5117		6s and 4s to 1s	6er und 4er zu 1ern
 src/items.lua:5118		6s and 4s always reroll into 1s	6er- und 4er-Würfel landen bei Neuwurf immer auf 1
 src/items.lua:5148		6s to 1s	6er zu 1ern
@@ -1361,8 +1361,8 @@ src/states/intro_greed.lua:66		This is a game about patience.	Dieses Spiel dreht
 src/states/intro_greed.lua:67		This is a game about fate.	Dieses Spiel dreht sich um Schicksal.
 src/states/intro_greed.lua:68		This is a game about destiny.	Dieses Spiel dreht sich um Bestimmung.
 src/states/intro_greed.lua:69		This is a game about God.	Dieses Spiel dreht sich um Gott.
-src/states/intro_greed.lua:70		This is a game about going outside.	
-src/states/intro_greed.lua:81		Roll to gain Stars.	Würfel um Sterne zu gewinnen.
+src/states/intro_greed.lua:70		This is a game about going outside.	Dieses Spiel dreht sich ums Rausgehen.
+src/states/intro_greed.lua:81		Roll to gain Stars.	Wirf den Würfel, um Sterne zu gewinnen.
 src/states/intro_greed.lua:82		Roll 1 to lose Stars.	Bei einer 1 verlierst du die Sterne.
 src/states/intro_greed.lua:151		bank and start	sichern und spiel starten
 src/states/intro_greed.lua:151		pass and start	passen und spiel starten
@@ -1398,8 +1398,8 @@ src/states/options.lua:551		reset all the hover tooltip counters\nso that all th
 src/states/options.lua:570		replay tutorial	tutorial\nwiederholen
 src/states/outside.lua:18		by Franek and Max	von Franek und Max
 src/states/outside.lua:19		this was a game about waking up	dieses spiel drehte ich um's aufwachen
-src/states/scoreboard.lua:40		Steam Offline!	
-src/states/scoreboard.lua:46		Scoreboards need to be connected to Steam to function! Restarting the game through steam while online should fix this <3\n\n(Press any key to go back)	
+src/states/scoreboard.lua:40		Steam Offline!	Steam ist offline!
+src/states/scoreboard.lua:46		Scoreboards need to be connected to Steam to function! Restarting the game through steam while online should fix this <3\n\n(Press any key to go back)	Scoreboards benötigen eine Verbindung zu Steam, um zu funktionieren!\nEin Neustart über Steam, während du online bist, sollte das Problem beheben <3\n\n(Drücke eine beliebige Taste, um zurück zu gehen)
 src/states/scoreboard.lua:73		Loading Scores...	Lädt Punkte...
 src/states/scoreboard.lua:150		# player	# spieler
 src/states/scoreboard.lua:167		lemme try	lass mich versuchen
@@ -1481,7 +1481,7 @@ src/sync_scoreboards.lua:107		death tax	verluste
 src/sync_scoreboards.lua:115		The End Any%	Das Ende Any%
 src/sync_scoreboards.lua:120		runs	runs
 src/sync_scoreboards.lua:144		luck	Glück
-src/sync_scoreboards.lua:183		999. you	
+src/sync_scoreboards.lua:183		999. you	999. du
 src/sync_scoreboards.lua:206 (+1 others)	dialogue	you	du
 src/ui/character_body.lua:306 (+2 others)	ui	LOCKED	GESPERRT
 src/ui/combination_table.lua:34 (+1 others)	ui	flush	flush
