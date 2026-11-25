@@ -493,7 +493,7 @@ src/items.lua:102		Coin Burst	Münz-Schub
 src/items.lua:105		+300 Points per coin you own	+300 Punkte pro Münze
 src/items.lua:119 (+1 others)		No coins!	Keine Münzen!
 src/items.lua:125		Ghost Jar	Flaschengeist
-src/items.lua:128		Spawn 3 ghost dice	Erzeuge 3 Geisterwürfel
+src/items.lua:128		Spawn 3 ghost dice	Erzeugt 3 Geisterwürfel
 src/items.lua:146		Bust Shield	Bust-Schild
 src/items.lua:149		Bust Shield On	Erzeugt ein Bust-Schild
 src/items.lua:159 (+5 others)		Shield!	Schild!
@@ -620,40 +620,40 @@ src/items.lua:1222		Spawn a ghost clone of this die	Erzeuge einen Geist-Klon die
 src/items.lua:1266		Cloned!	Geklont!
 src/items.lua:1271		Eye	Auge
 src/items.lua:1272		Add 1 pip to the shown side	Fügt 1 Auge der Seite hinzu
-src/items.lua:1295		Bonus Puke	Bonus-Kotzen
-src/items.lua:1315		Mult Puke	Multi-Kotzen
+src/items.lua:1295		Bonus Puke	Bonus-Kotze
+src/items.lua:1315		Mult Puke	Multi-Kotze
 src/items.lua:1330		Mult Side Added	Multi-Seite Hinzugefügt
-src/items.lua:1335		Debust Puke	Debust-Kotzen
-src/items.lua:1355		Pig Puke	Schwein-Kotzen
-src/items.lua:1375		Power Puke	Power-Kotzen
-src/items.lua:1396		Stuck Puke	Klebrig-Kotzen
+src/items.lua:1335		Debust Puke	Debust-Kotze
+src/items.lua:1355		Pig Puke	Schwein-Kotze
+src/items.lua:1375		Power Puke	Power-Kotze
+src/items.lua:1396		Stuck Puke	Klebrige Kotze
 src/items.lua:1397		Add 1 Stuck side	Fügt 1 Klebrig-Seite hinzu
 src/items.lua:1411		Stuck Side Added	Klebrig-Seite Hinzugefügt
-src/items.lua:1416		Money Puke	Geld-Kotzen
-src/items.lua:1431		Golden Side Added	Gold-Seite Hinzugefügt
-src/items.lua:1436		Skip Puke	Skip-Kotzen
-src/items.lua:1456		Mirror Puke	Spiegel-Kotzen
+src/items.lua:1416		Money Puke	Geld-Kotze
+src/items.lua:1431		Golden Side Added	Golden-Seite Hinzugefügt
+src/items.lua:1436		Skip Puke	Skip-Kotze
+src/items.lua:1456		Mirror Puke	Spiegel-Kotze
 src/items.lua:1457		Add 1 Mirror side	Fügt 1 Spiegel-Seite hinzu
 src/items.lua:1471		Mirror Side Added	Spiegel-Seite Hinzugefügt
-src/items.lua:1476		Cracked Puke	Brüchig-Kotzen
+src/items.lua:1476		Cracked Puke	Brüchige Kotze
 src/items.lua:1477		Add 1 Cracked side	Fügt 1 Brüchig-Seite hinzu
 src/items.lua:1491 (+2 others)		Cracked Side Added	Brüchig-Seite Hinzugefügt
-src/items.lua:1496		Hardy Puke	Zäh-Kotzen
+src/items.lua:1496		Hardy Puke	Zähe Kotze
 src/items.lua:1497		Add 1 Hardy side	Fügt 1 Zäh-Seite hinzu
 src/items.lua:1511		Hardy Side Added	Zäh-Seite Hinzugefügt
-src/items.lua:1516		Doom Puke	Unheil-Kotzen
+src/items.lua:1516		Doom Puke	Unheil-Kotze
 src/items.lua:1517		Add 1 Doom side	Fügt 1 Unheil-Seite hinzu
 src/items.lua:1531 (+2 others)		Doom Side Added	Unheil-Seite Hinzugefügt
-src/items.lua:1536		Bust Puke	Bust-Kotzen
+src/items.lua:1536		Bust Puke	Bust-Kotze
 src/items.lua:1537		Add 1 Bust side	Fügt 1 Bust-Seite hinzu
 src/items.lua:1551 (+2 others)		Bust Side Added	Bust-Seite Hinzugefügt
 src/items.lua:1556		Finger	Finger
-src/items.lua:1557		Puke a special effect out	Kotze einen Seiten-Effekt aus
+src/items.lua:1557		Puke a special effect out	Kotzt einen Seiten-Effekt aus
 src/items.lua:1581		Emetique (TM)	Emetique (TM)
-src/items.lua:1582		Puke all special effects out	Kotze alle Seiten-Effekte aus
+src/items.lua:1582		Puke all special effects out	Kotzt alle Seiten-Effekte aus
 src/items.lua:1622		Pig Run	Schweinelauf
 src/items.lua:1625		Pig sides score +${dynamic} Points, gains +5 per pig rerolled this turn. Resets each turn.	Schwein-Seiten werten\n+${dynamic} Punkte, +5 pro Schwein, das diesen Zug neu geworfen wurde
-src/items.lua:1649		pig bonus +${amount}!	Erzeugt zwei Geisterwürfel
+src/items.lua:1649		pig bonus +${amount}!	schwein-bonus +${amount}!
 src/items.lua:1654		Thurible	Thuribulum
 src/items.lua:1657		+${dynamic} Mult, gains +1 Mult each time a die is destroyed	+${dynamic} Multi, bekommt +1 Multi jedes Mal, wenn ein Würfel zerstört wird
 src/items.lua:1671 (+1 others)		+1 mult	+1 multi
