@@ -156,7 +156,7 @@ src/characters/tutorial_character.lua:52	dialogue	... Either way, you won't reme
 src/characters/tutorial_character.lua:53	dialogue	Now let's play.\nRoll the dice.	А теперь давай играть.\nБрось кубики.
 src/characters/tutorial_character.lua:70	dialogue	Good. You gained some points.	Молодец. Ты заработала очки.
 src/characters/tutorial_character.lua:71	dialogue	They're not safe until you BANK them.	Они не в безопасности, пока ты их не СБЕРЕЖЕШЬ.
-src/characters/tutorial_character.lua:72	dialogue	You have ${TURNS} Turns to reach your goal.\nBANKing ends your Turn.	У тебя есть ${TURNS} ходов, чтобы достичь цели.\nСБЕРЕЖЕНИЕ очков завершает твой ход.
+src/characters/tutorial_character.lua:72	dialogue	You have ${TURNS} Turns to reach your goal.\nBANKing ends your Turn.	У тебя есть ${TURNS} хода, чтобы достичь цели.\nСБЕРЕЖЕНИЕ очков завершает твой ход.
 src/characters/tutorial_character.lua:76	dialogue	Bigger combos give you exponentially bigger rewards.	Чем больше Комбо, тем больше награда.
 src/characters/tutorial_character.lua:80		<- See what combos are available up here	<- Здесь ты можешь увидеть доступные Комбо
 src/characters/tutorial_character.lua:94	dialogue	Roll blank dice and keep going!	Брось пустые кубики и продолжай!
@@ -356,7 +356,7 @@ src/entities/item.lua:518		drag snacks over rolled dice	дай закуску б
 src/entities/power_ui.lua:114	ui	Use	Использовать
 src/entities/power_ui.lua:141 (+1 others)		greed	жадности
 src/entities/power_ui.lua:149	ui	Power recharges each turn\nSelect a die with Left Click then press this button to use it	Сила восстанавливается с каждым ходом.\nВыбери кубик левой кнопкой мыши, затем нажми эту кнопку, чтобы использовать его.
-src/entities/power_ui.lua:329 (+1 others)	ui	closed	
+src/entities/power_ui.lua:329 (+1 others)	ui	closed	закрыто
 src/entities/shop.lua:82		TAB: ${total} ¥	ЧЕК: ${total} ¥
 src/entities/shop.lua:107		Dice $count/$limit	Кубики $count/$limit
 src/entities/shop.lua:136		Trinkets $count/$limit	Безделушки $count/$limit
@@ -365,7 +365,7 @@ src/entities/shop.lua:1317		cant sell eternal	нельзя продать веч
 src/entities/shop.lua:1329		sell cursed	продать проклятого
 src/entities/shop.lua:1341		too many dice	слишком много кубиков
 src/entities/shop.lua:1353		too many trinkets	слишком много безделушек
-src/entities/shop.lua:1367		too many actives	
+src/entities/shop.lua:1367		too many actives	слишком много активок
 src/entities/shop.lua:1388		pay up	оплатить
 src/entities/shop.lua:1388		take change	взять сдачу
 src/entities/shop.lua:1463		bye	пока
@@ -538,10 +538,10 @@ src/items.lua:555 (+1 others)		Copy!	Скопировано!
 src/items.lua:561		Copybigdog	Суперповторюшка
 src/items.lua:565		Repeat the last spell used, twice	Повтори последнее заклинание, дважды
 src/items.lua:588		Heal	Лечение
-src/items.lua:591		All dice +4 ♥	
+src/items.lua:591		All dice +4 ♥	Всем кубикам +4 ♥
 src/items.lua:605 (+1 others)		Healed!	Подлечены!
-src/items.lua:610		Lil Heal	
-src/items.lua:613		All dice +2 ♥	
+src/items.lua:610		Lil Heal	Лил Хил
+src/items.lua:613		All dice +2 ♥	Всем кубикам +2 ♥
 src/items.lua:632		Clutch	Захват
 src/items.lua:635		Hold your next score	Задержи следующее Комбо
 src/items.lua:644 (+2 others)		Hold!	Задержано!
@@ -593,7 +593,7 @@ src/items.lua:1018		Stuck Sides Added	Добавлены Липкие сторо
 src/items.lua:1023		Bacon	Бекон
 src/items.lua:1024 (+1 others)		Add 1 Pig side	Добавляет 1 свиной бок
 src/items.lua:1039 (+1 others)		Pig Side Added	Добавлена Свиная сторона
-src/items.lua:1044		xnx	
+src/items.lua:1044		xnx	xnx
 src/items.lua:1045 (+1 others)		Add 1 Skip side	Добавляет 1 сторону Пропуска
 src/items.lua:1060 (+1 others)		Skip Side Added	Добавлена сторона Пропуска
 src/items.lua:1065		Black Eyed Pea	Черноглазый горох
@@ -677,10 +677,10 @@ src/items.lua:1864		+0.1 mult	+0,1 Множитель
 src/items.lua:1882		Worm	Червь
 src/items.lua:1885		+2 Mult	+2 Множителя
 src/items.lua:1896		Mahjong Tile	Фишка Маджонг
-src/items.lua:1899		+4 Mult	
+src/items.lua:1899		+4 Mult	+4 Множителя
 src/items.lua:1911		Clam	Моллюск
 src/items.lua:1914		+50 Points	+50 Очков
-src/items.lua:1926		CD	
+src/items.lua:1926		CD	CD
 src/items.lua:1929		+10 Mult, -2 Mult for each die scored	+10 Множителя, -2 Множителя за каждый засчитанный кубик
 src/items.lua:1946		Papa	Папа
 src/items.lua:1949		+1 Mult per die scored	+1 множитель за каждый засчитанный кубик
@@ -793,7 +793,7 @@ src/items.lua:2989 (+1 others)		+1 momentum	+1 инерция
 src/items.lua:2994		Spite	Злоба
 src/items.lua:2997		On Bust, gain +1 Momentum	При Басте +1 к Инерции
 src/items.lua:3012		Shortbread Biscuit	Песочное печенье
-src/items.lua:3015		+100 Points for rolling a single die	
+src/items.lua:3015		+100 Points for rolling a single die	+100 Очков за бросок одного кубика
 src/items.lua:3073		Banksia	Банксия
 src/items.lua:3076		Rerolling a Pair recharges Power	Переброс Пары восстанавливает Силу
 src/items.lua:3088 (+4 others)		Power Recharged	Сила восстановлена
@@ -802,9 +802,9 @@ src/items.lua:3096		Two Pair recharges Power	Две Пары восстанав�
 src/items.lua:3115		Bump Jug	Кувшин-удар
 src/items.lua:3118		Scoring a Full House recharges Power	Засчет Фулл-Хауса восстанавливает Силу
 src/items.lua:3135		Full Send	На полную
-src/items.lua:3138		Rolling 5 or more dice recharges Power	
+src/items.lua:3138		Rolling 5 or more dice recharges Power	Бросок 5 или более кубиков восстанавливает Силу
 src/items.lua:3155		God Give Me Strength	Дай мне Бог сил
-src/items.lua:3158		Rolling a single die recharges Power	
+src/items.lua:3158		Rolling a single die recharges Power	Бросок ровно одного кубика восстанавливает Силу
 src/items.lua:3179		High Roller	Хайроллер
 src/items.lua:3182		+1 Mult for each 6 scored	+1 Множитель за каждую засчитанную 6
 src/items.lua:3197		Low Ball	Лоуболл
@@ -953,12 +953,12 @@ src/items.lua:5060		Halves the Mult	Делит Множитель пополам
 src/items.lua:5075 (+1 others)		Bad Momentum	Плохая инерция
 src/items.lua:5076		Start each turn with -2 Momentum	Начни каждый Ход с -2 Инерции
 src/items.lua:5086		-2 Momentum	-2 Инерции
-src/items.lua:5092		-1 Momentum on score	
+src/items.lua:5092		-1 Momentum on score	-1 Инезция при засчете
 src/items.lua:5102		-1 Momentum	-1 Инерция
 src/items.lua:5107		Sore Loser	Неудачник
 src/items.lua:5108		Bust resets Momentum	Баст сбрасывает Инерцию
 src/items.lua:5124		Two Left Feet	Две левых ноги
-src/items.lua:5125		-100 Points for rolling exactly 2 dice	
+src/items.lua:5125		-100 Points for rolling exactly 2 dice	-100 Очков за переброс ровно 2 кубиков
 src/items.lua:5141		6s and 4s to 1s	6 и 4 в 1
 src/items.lua:5142		6s and 4s always reroll into 1s	6 и 4 всегда перебрасываются в 1
 src/items.lua:5172		6s to 1s	6 в 1
@@ -1190,7 +1190,7 @@ src/states/ending_bet.lua:77 (+1 others)		Ones rolled:	Выпало единиц
 src/states/ending_bet.lua:78 (+1 others)		Bust rate:	Частота бастов:
 src/states/ending_bet.lua:80 (+1 others)		Run stars:	Звезды за забег:
 src/states/ending_bet.lua:94 (+4 others)		¤ banked	¤ сбережено
-src/states/ending_bet.lua:109 (+16 others)		god	
+src/states/ending_bet.lua:109 (+16 others)		god	бог
 src/states/ending_bet.lua:157	dialogue	you won	ты победила
 src/states/ending_bet.lua:162	dialogue	you have done very well	ты отлично справилась
 src/states/ending_bet.lua:164	dialogue	a treat for a brave child	награда для храброго ребёнка
@@ -1273,7 +1273,7 @@ src/states/game.lua:1108		praying...	молитва...
 src/states/game.lua:1108		pray	молиться
 src/states/game.lua:1186		Losing all Turns ends the game.\nTurns refill at the start of each level.	Потеря всех Ходов завершает игру.\nХоды восполняются в начале каждого уровня.
 src/states/game.lua:1462 (+1 others)		MERGED	ОБЪЕДИНЕНЫ
-src/states/game.lua:1669		pause	
+src/states/game.lua:1669		pause	пауза
 src/states/game.lua:1960 (+2 others)		Level $level/$count $name	Уровень $level/$count $name
 src/states/game.lua:2012		NIGHTMARE LEVEL	КОШМАР
 src/states/game.lua:2134 (+1 others)		Rift	Разлом
@@ -1366,7 +1366,7 @@ src/states/intro_greed.lua:66		This is a game about patience.	Это игра о
 src/states/intro_greed.lua:67		This is a game about fate.	Это игра о судьбе.
 src/states/intro_greed.lua:68		This is a game about destiny.	Это игра о предназначении.
 src/states/intro_greed.lua:69		This is a game about God.	Это игра о Боге.
-src/states/intro_greed.lua:70		This is a game about going outside.	
+src/states/intro_greed.lua:70		This is a game about going outside.	Это игра о том как выйти наружу
 src/states/intro_greed.lua:81		Roll to gain Stars.	Брось кубик чтобы заработать звёзды.
 src/states/intro_greed.lua:82		Roll 1 to lose Stars.	Брось 1 чтобы потерять звёзды.
 src/states/intro_greed.lua:151		bank and start	сберечь и начать
@@ -1403,8 +1403,8 @@ src/states/options.lua:551		reset all the hover tooltip counters\nso that all th
 src/states/options.lua:570		replay tutorial	перепройти обучение
 src/states/outside.lua:18		by Franek and Max	от Франека и Макса
 src/states/outside.lua:19		this was a game about waking up	это была игра о пробуждении
-src/states/scoreboard.lua:40		Steam Offline!	
-src/states/scoreboard.lua:46		Scoreboards need to be connected to Steam to function! Restarting the game through steam while online should fix this <3\n\n(Press any key to go back)	
+src/states/scoreboard.lua:40		Steam Offline!	Steam не в сети!
+src/states/scoreboard.lua:46		Scoreboards need to be connected to Steam to function! Restarting the game through steam while online should fix this <3\n\n(Press any key to go back)	Для работы таблиц рекордов необходимо подключение к Steam! Попробуйте перезапустить игру через Steam, находясь в сети — это должно помочь <3\n\n(Нажмите любую клавишу, чтобы вернуться назад)
 src/states/scoreboard.lua:73		Loading Scores...	Загрузка рекордов...
 src/states/scoreboard.lua:150		# player	# игрок
 src/states/scoreboard.lua:167		lemme try	дай попробовать
@@ -1486,7 +1486,7 @@ src/sync_scoreboards.lua:107		death tax	налог на смерть
 src/sync_scoreboards.lua:115		The End Any%	Конец Any%
 src/sync_scoreboards.lua:120		runs	забегов
 src/sync_scoreboards.lua:144		luck	удачи
-src/sync_scoreboards.lua:183		999. you	
+src/sync_scoreboards.lua:183		999. you	999. ты
 src/sync_scoreboards.lua:206 (+1 others)	dialogue	you	ты
 src/ui/character_body.lua:306 (+2 others)	ui	LOCKED	ЗАКРЫТО
 src/ui/combination_table.lua:34 (+1 others)	ui	flush	флеш
