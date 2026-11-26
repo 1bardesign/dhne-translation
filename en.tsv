@@ -1,10 +1,4 @@
 location	extra context	en	translation
-gather_strings.lua:1		No	
-gather_strings.lua:1		momentum	
-gather_strings.lua:1		greed	
-gather_strings.lua:1		CD	
-gather_strings.lua:1		xnx	
-gather_strings.lua:1		god	
 src/are_you_sure.lua:14 (+3 others)		Are you sure?	
 src/are_you_sure.lua:15 (+12 others)		yes	
 src/are_you_sure.lua:17		really?	
@@ -49,6 +43,7 @@ src/characters/anais.lua:62	dialogue	Kill what you love
 src/characters/anais.lua:78	dialogue	Not yet	
 src/characters/anais.lua:80		Rise again for $cost ¤. Something will follow you back.	
 src/characters/anais.lua:83 (+9 others)		Yes	
+src/characters/anais.lua:84 (+9 others)		No	
 src/characters/anais.lua:86	dialogue	Rest then	
 src/characters/anais.lua:99	dialogue	Be not afraid	
 src/characters/business_fish.lua:2		Business Fish	
@@ -232,6 +227,7 @@ src/coloured_text.lua:43 (+5 others)		debust
 src/coloured_text.lua:46 (+17 others)		pig	
 src/coloured_text.lua:49 (+11 others)	ui	power	
 src/coloured_text.lua:52		golden	
+src/coloured_text.lua:55		momentum	
 src/coloured_text.lua:58 (+3 others)		coin	
 src/coloured_text.lua:61		coins	
 src/coloured_text.lua:73		shield	
@@ -354,10 +350,11 @@ src/entities/fish_spawner.lua:215		Cool Fish Available
 src/entities/god_shop.lua:68		CHOOSE	
 src/entities/god_shop.lua:499		reroll %d ¤	
 src/entities/item.lua:498		Tooth ${count}/${limit}	
-src/entities/item.lua:508		a to use spells	
-src/entities/item.lua:510		right click to use spells	
-src/entities/item.lua:513		drag snacks over rolled dice	
+src/entities/item.lua:513		a to use spells	
+src/entities/item.lua:515		right click to use spells	
+src/entities/item.lua:518		drag snacks over rolled dice	
 src/entities/power_ui.lua:114	ui	Use	
+src/entities/power_ui.lua:141 (+1 others)		greed	
 src/entities/power_ui.lua:149	ui	Power recharges each turn\nSelect a die with Left Click then press this button to use it	
 src/entities/power_ui.lua:329 (+1 others)	ui	closed	
 src/entities/shop.lua:82		TAB: ${total} ¥	
@@ -596,6 +593,7 @@ src/items.lua:1018		Stuck Sides Added
 src/items.lua:1023		Bacon	
 src/items.lua:1024 (+1 others)		Add 1 Pig side	
 src/items.lua:1039 (+1 others)		Pig Side Added	
+src/items.lua:1044		xnx	
 src/items.lua:1045 (+1 others)		Add 1 Skip side	
 src/items.lua:1060 (+1 others)		Skip Side Added	
 src/items.lua:1065		Black Eyed Pea	
@@ -682,6 +680,7 @@ src/items.lua:1896		Mahjong Tile
 src/items.lua:1899		+4 Mult	
 src/items.lua:1911		Clam	
 src/items.lua:1914		+50 Points	
+src/items.lua:1926		CD	
 src/items.lua:1929		+10 Mult, -2 Mult for each die scored	
 src/items.lua:1946		Papa	
 src/items.lua:1949		+1 Mult per die scored	
@@ -1171,7 +1170,7 @@ src/states/customisation.lua:167		Nothing Available
 src/states/customisation.lua:168		sorry sorry	
 src/states/customisation.lua:203		outfit	
 src/states/customisation.lua:203		accessory	
-src/states/customisation.lua:225		on	
+src/states/customisation.lua:225 (+1 others)		on	
 src/states/customisation.lua:225 (+2 others)		off	
 src/states/customisation.lua:365		Distort A	
 src/states/customisation.lua:366		Distort B	
@@ -1191,6 +1190,7 @@ src/states/ending_bet.lua:77 (+1 others)		Ones rolled:
 src/states/ending_bet.lua:78 (+1 others)		Bust rate:	
 src/states/ending_bet.lua:80 (+1 others)		Run stars:	
 src/states/ending_bet.lua:94 (+4 others)		¤ banked	
+src/states/ending_bet.lua:109 (+16 others)		god	
 src/states/ending_bet.lua:157	dialogue	you won	
 src/states/ending_bet.lua:162	dialogue	you have done very well	
 src/states/ending_bet.lua:164	dialogue	a treat for a brave child	
@@ -1274,51 +1274,51 @@ src/states/game.lua:1108		pray
 src/states/game.lua:1186		Losing all Turns ends the game.\nTurns refill at the start of each level.	
 src/states/game.lua:1462 (+1 others)		MERGED	
 src/states/game.lua:1669		pause	
-src/states/game.lua:1958 (+2 others)		Level $level/$count $name	
-src/states/game.lua:2010		NIGHTMARE LEVEL	
-src/states/game.lua:2132 (+1 others)		Rift	
-src/states/game.lua:2318		this coin is an affront to life itself	
-src/states/game.lua:2319		this die is an affront to life itself	
-src/states/game.lua:2320		we shall not suffer such an unholy thing	
-src/states/game.lua:2321		thou shalt not shy from risk	
-src/states/game.lua:2322		you thought you could get away with this?	
-src/states/game.lua:2323		extremely naughty	
-src/states/game.lua:2326	dialogue	no downside not allowed	
-src/states/game.lua:2344	dialogue	WHAT	
-src/states/game.lua:2366		refilled	
-src/states/game.lua:2393		LAST TURN	
-src/states/game.lua:2512		- Out Of Dice -	
-src/states/game.lua:2513		never	
-src/states/game.lua:2515		Looks like you're cooked\n\nGive up?	
-src/states/game.lua:2665		INSTANT WIPE	
-src/states/game.lua:2666		${rolled} OUT OF ${rolled} DICE ROLLED BUST	
-src/states/game.lua:2683		W I P E	
-src/states/game.lua:3111		SKIP ${pip}	
-src/states/game.lua:3125		SKIP LOOPED	
-src/states/game.lua:3366		Level Complete	
-src/states/game.lua:3407		Overshoot! +${amount} stars	
-src/states/game.lua:3440		Level Coins	
-src/states/game.lua:3451		Extra Turn Coins	
-src/states/game.lua:3463		Combine Coins	
-src/states/game.lua:3480		Wager bonus! +${amount} stars	
-src/states/game.lua:3530		--  Level ${number} Complete!  --	
-src/states/game.lua:3546		Score:	
-src/states/game.lua:3548		Reward:	
-src/states/game.lua:3549		Extra turns:	
-src/states/game.lua:3550		Wager bonus:	
-src/states/game.lua:3551		Overshoot:	
-src/states/game.lua:3553		Total:	
-src/states/game.lua:3651		don't lose it	
-src/states/game.lua:3651		Soul on line	
-src/states/game.lua:3658		¤${BET} wagered	
-src/states/game.lua:3662		¤ Banked	
-src/states/game.lua:3663		Bank ¤${KEPT}?	
-src/states/game.lua:3664		Win To Bank ¤	
-src/states/game.lua:3665		Bank ¤ in ${LEVELS} lvl	
-src/states/game.lua:3679		Secure your Stars for the run\nyou won't be able to gain more this run	
-src/states/game.lua:3681		Stars already banked this run	
-src/states/game.lua:3683		Securing Stars available after each nightmare level	
-src/states/game.lua:3744 (+7 others)		no	
+src/states/game.lua:1960 (+2 others)		Level $level/$count $name	
+src/states/game.lua:2012		NIGHTMARE LEVEL	
+src/states/game.lua:2134 (+1 others)		Rift	
+src/states/game.lua:2320		this coin is an affront to life itself	
+src/states/game.lua:2321		this die is an affront to life itself	
+src/states/game.lua:2322		we shall not suffer such an unholy thing	
+src/states/game.lua:2323		thou shalt not shy from risk	
+src/states/game.lua:2324		you thought you could get away with this?	
+src/states/game.lua:2325		extremely naughty	
+src/states/game.lua:2328	dialogue	no downside not allowed	
+src/states/game.lua:2346	dialogue	WHAT	
+src/states/game.lua:2368		refilled	
+src/states/game.lua:2395		LAST TURN	
+src/states/game.lua:2514		- Out Of Dice -	
+src/states/game.lua:2515		never	
+src/states/game.lua:2517		Looks like you're cooked\n\nGive up?	
+src/states/game.lua:2667		INSTANT WIPE	
+src/states/game.lua:2668		${rolled} OUT OF ${rolled} DICE ROLLED BUST	
+src/states/game.lua:2685		W I P E	
+src/states/game.lua:3113		SKIP ${pip}	
+src/states/game.lua:3127		SKIP LOOPED	
+src/states/game.lua:3368		Level Complete	
+src/states/game.lua:3409		Overshoot! +${amount} stars	
+src/states/game.lua:3442		Level Coins	
+src/states/game.lua:3453		Extra Turn Coins	
+src/states/game.lua:3465		Combine Coins	
+src/states/game.lua:3482		Wager bonus! +${amount} stars	
+src/states/game.lua:3532		--  Level ${number} Complete!  --	
+src/states/game.lua:3548		Score:	
+src/states/game.lua:3550		Reward:	
+src/states/game.lua:3551		Extra turns:	
+src/states/game.lua:3552		Wager bonus:	
+src/states/game.lua:3553		Overshoot:	
+src/states/game.lua:3555		Total:	
+src/states/game.lua:3653		don't lose it	
+src/states/game.lua:3653		Soul on line	
+src/states/game.lua:3660		¤${BET} wagered	
+src/states/game.lua:3664		¤ Banked	
+src/states/game.lua:3665		Bank ¤${KEPT}?	
+src/states/game.lua:3666		Win To Bank ¤	
+src/states/game.lua:3667		Bank ¤ in ${LEVELS} lvl	
+src/states/game.lua:3681		Secure your Stars for the run\nyou won't be able to gain more this run	
+src/states/game.lua:3683		Stars already banked this run	
+src/states/game.lua:3685		Securing Stars available after each nightmare level	
+src/states/game.lua:3746 (+7 others)		no	
 src/states/game_setup.lua:161		play!	
 src/states/game_setup.lua:164		need ${stars} ¤	
 src/states/game_setup.lua:197		the young will inherit the earth	
@@ -1516,7 +1516,7 @@ src/ui/help_screen.lua:145	ui	CHARACTER POWER
 src/ui/help_screen.lua:146	ui	Each character has a unique Power. Use them to modify dice, reduce risk and get better combos.\n\nPower recharges each turn or with die side effects and items.	
 src/ui/help_screen.lua:149	ui	BASIC TACTICS	
 src/ui/help_screen.lua:150	ui	The more dice you roll at once the bigger chance of any Bust, but smaller chance of All Bust.\n\nRerolling a single die is ballsy! Prioritize rerolling blank dice. Scoring a single big combo is better than few pairs.	
-src/ui/item_hover.lua:73 (+4 others)	ui	SPELL	
+src/ui/item_hover.lua:76 (+4 others)	ui	SPELL	
 src/ui/level_map.lua:65	ui	LEVEL MAP	
 src/ui/level_map.lua:165		Level ${level}	
 src/ui/level_map.lua:168	ui	Final nightmare level	

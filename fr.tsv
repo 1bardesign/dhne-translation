@@ -1,10 +1,4 @@
 location	extra context	en	fr
-gather_strings.lua:1		No	Non
-gather_strings.lua:1		momentum	enchaînement
-gather_strings.lua:1		greed	votre cupidité
-gather_strings.lua:1		CD	CD
-gather_strings.lua:1		xnx	Xanax
-gather_strings.lua:1		god	
 src/are_you_sure.lua:14 (+3 others)		Are you sure?	Êtes-vous sûr ?
 src/are_you_sure.lua:15 (+12 others)		yes	oui
 src/are_you_sure.lua:17		really?	vraiment ?
@@ -49,6 +43,7 @@ src/characters/anais.lua:62	dialogue	Kill what you love	Tue ce que tu aimes
 src/characters/anais.lua:78	dialogue	Not yet	Pas encore
 src/characters/anais.lua:80		Rise again for $cost ¤. Something will follow you back.	Relève-toi en échange de $cost ¤. Quelque chose t’accompagnera.
 src/characters/anais.lua:83 (+9 others)		Yes	Oui
+src/characters/anais.lua:84 (+9 others)		No	Non
 src/characters/anais.lua:86	dialogue	Rest then	Dans ce cas, repose-toi
 src/characters/anais.lua:99	dialogue	Be not afraid	N’aie pas peur
 src/characters/business_fish.lua:2		Business Fish	Poisson d’affaires
@@ -232,6 +227,7 @@ src/coloured_text.lua:43 (+5 others)		debust	récup
 src/coloured_text.lua:46 (+17 others)		pig	goinfre
 src/coloured_text.lua:49 (+11 others)	ui	power	pouvoir
 src/coloured_text.lua:52		golden	dorée
+src/coloured_text.lua:55		momentum	enchaînement
 src/coloured_text.lua:58 (+3 others)		coin	pièce
 src/coloured_text.lua:61		coins	pièces
 src/coloured_text.lua:73		shield	protection
@@ -354,10 +350,11 @@ src/entities/fish_spawner.lua:215		Cool Fish Available	Poisson cool disponible
 src/entities/god_shop.lua:68		CHOOSE	CHOISISSEZ
 src/entities/god_shop.lua:499		reroll %d ¤	rafraîchir %d ¤
 src/entities/item.lua:498		Tooth ${count}/${limit}	Dent ${count}/${limit}
-src/entities/item.lua:508		a to use spells	a pour utiliser un sort
-src/entities/item.lua:510		right click to use spells	clic droit pour utiliser un sort
-src/entities/item.lua:513		drag snacks over rolled dice	faites glisser les snacks sur des dés déjà lancés
+src/entities/item.lua:513		a to use spells	a pour utiliser un sort
+src/entities/item.lua:515		right click to use spells	clic droit pour utiliser un sort
+src/entities/item.lua:518		drag snacks over rolled dice	faites glisser les snacks sur des dés déjà lancés
 src/entities/power_ui.lua:114	ui	Use	Utiliser
+src/entities/power_ui.lua:141 (+1 others)		greed	votre cupidité
 src/entities/power_ui.lua:149	ui	Power recharges each turn\nSelect a die with Left Click then press this button to use it	Le Pouvoir se recharge à chaque tour\nSélectionnez un dé avec le clic gauche puis cliquez ici pour l’utiliser
 src/entities/power_ui.lua:329 (+1 others)	ui	closed	
 src/entities/shop.lua:82		TAB: ${total} ¥	NOTE : ${total} ¥
@@ -596,6 +593,7 @@ src/items.lua:1018		Stuck Sides Added	Faces Bloquées ajoutées
 src/items.lua:1023		Bacon	Bacon
 src/items.lua:1024 (+1 others)		Add 1 Pig side	Ajoute 1 face Goinfre
 src/items.lua:1039 (+1 others)		Pig Side Added	Face Goinfre ajoutée
+src/items.lua:1044		xnx	Xanax
 src/items.lua:1045 (+1 others)		Add 1 Skip side	Ajoute 1 face Passe
 src/items.lua:1060 (+1 others)		Skip Side Added	Face Passe ajoutée
 src/items.lua:1065		Black Eyed Pea	Dolique à œil noir
@@ -682,6 +680,7 @@ src/items.lua:1896		Mahjong Tile	Tuile de mahjong
 src/items.lua:1899		+4 Mult	
 src/items.lua:1911		Clam	Palourde
 src/items.lua:1914		+50 Points	+50 Points
+src/items.lua:1926		CD	CD
 src/items.lua:1929		+10 Mult, -2 Mult for each die scored	Multi +10, -2 pour chaque dé joué
 src/items.lua:1946		Papa	Pape
 src/items.lua:1949		+1 Mult per die scored	Multi +1 pour chaque dé joué
@@ -1171,7 +1170,7 @@ src/states/customisation.lua:167		Nothing Available	Rien de disponible
 src/states/customisation.lua:168		sorry sorry	déso
 src/states/customisation.lua:203		outfit	tenue
 src/states/customisation.lua:203		accessory	accessoire
-src/states/customisation.lua:225		on	oui
+src/states/customisation.lua:225 (+1 others)		on	oui
 src/states/customisation.lua:225 (+2 others)		off	non
 src/states/customisation.lua:365		Distort A	Déformation A
 src/states/customisation.lua:366		Distort B	Déformation B
@@ -1191,6 +1190,7 @@ src/states/ending_bet.lua:77 (+1 others)		Ones rolled:	1 tirés :
 src/states/ending_bet.lua:78 (+1 others)		Bust rate:	Taux de Burst :
 src/states/ending_bet.lua:80 (+1 others)		Run stars:	Étoiles :
 src/states/ending_bet.lua:94 (+4 others)		¤ banked	¤ récoltées
+src/states/ending_bet.lua:109 (+16 others)		god	
 src/states/ending_bet.lua:157	dialogue	you won	tu as gagné
 src/states/ending_bet.lua:162	dialogue	you have done very well	c'est une très belle performance
 src/states/ending_bet.lua:164	dialogue	a treat for a brave child	un petit cadeau pour récompenser ton courage
@@ -1274,51 +1274,51 @@ src/states/game.lua:1108		pray	prier
 src/states/game.lua:1186		Losing all Turns ends the game.\nTurns refill at the start of each level.	La partie se termine quand vous êtes à court de tours.\nLes tours se rechargent entièrement au début de chaque niveau
 src/states/game.lua:1462 (+1 others)		MERGED	FUSION
 src/states/game.lua:1669		pause	pause
-src/states/game.lua:1958 (+2 others)		Level $level/$count $name	Niveau $level/$count $name
-src/states/game.lua:2010		NIGHTMARE LEVEL	NIVEAU CAUCHEMAR
-src/states/game.lua:2132 (+1 others)		Rift	Faille
-src/states/game.lua:2318		this coin is an affront to life itself	cette pièce est un affront à la vie elle-même
-src/states/game.lua:2319		this die is an affront to life itself	ce dé est un affront à la vie elle-même
-src/states/game.lua:2320		we shall not suffer such an unholy thing	nous ne tolérerons pas un tel blasphème
-src/states/game.lua:2321		thou shalt not shy from risk	« tu ne reculeras pas devant le risque »
-src/states/game.lua:2322		you thought you could get away with this?	tu croyais pouvoir t’en tirer comme ça ?
-src/states/game.lua:2323		extremely naughty	c’est très vilain
-src/states/game.lua:2326	dialogue	no downside not allowed	aucun inconvénient autorisé
-src/states/game.lua:2344	dialogue	WHAT	QUOI
-src/states/game.lua:2366		refilled	rechargé
-src/states/game.lua:2393		LAST TURN	DERNIER TOUR
-src/states/game.lua:2512		- Out Of Dice -	- Plus de dé restant -
-src/states/game.lua:2513		never	jamais
-src/states/game.lua:2515		Looks like you're cooked\n\nGive up?	On dirait que t’es foutu\n\nAbandonner ?
-src/states/game.lua:2665		INSTANT WIPE	KO DIRECT
-src/states/game.lua:2666		${rolled} OUT OF ${rolled} DICE ROLLED BUST	${rolled} DÉS SUR ${rolled} TOMBÉS SUR BURST
-src/states/game.lua:2683		W I P E	K  O
-src/states/game.lua:3111		SKIP ${pip}	FACE ${pip} PASSÉE
-src/states/game.lua:3125		SKIP LOOPED	TOUR COMPLET
-src/states/game.lua:3366		Level Complete	Niveau terminé
-src/states/game.lua:3407		Overshoot! +${amount} stars	Surplus ! +${amount} étoiles
-src/states/game.lua:3440		Level Coins	Pièces du niveau
-src/states/game.lua:3451		Extra Turn Coins	Tours restants
-src/states/game.lua:3463		Combine Coins	Fusion des pièces
-src/states/game.lua:3480		Wager bonus! +${amount} stars	Bonus de mise ! +${amount} étoiles
-src/states/game.lua:3530		--  Level ${number} Complete!  --	-- Niveau ${number} terminé ! --
-src/states/game.lua:3546		Score:	Score :
-src/states/game.lua:3548		Reward:	Récompenses :
-src/states/game.lua:3549		Extra turns:	Tours restants :
-src/states/game.lua:3550		Wager bonus:	Bonus de mise :
-src/states/game.lua:3551		Overshoot:	Surplus :
-src/states/game.lua:3553		Total:	Total :
-src/states/game.lua:3651		don't lose it	ne la perds pas
-src/states/game.lua:3651		Soul on line	Âme en jeu
-src/states/game.lua:3658		¤${BET} wagered	${BET} ¤ misées
-src/states/game.lua:3662		¤ Banked	¤ Coffrées
-src/states/game.lua:3663		Bank ¤${KEPT}?	Coffrer ${KEPT} ¤ ?
-src/states/game.lua:3664		Win To Bank ¤	Gagnez pour Coffrer vos ¤
-src/states/game.lua:3665		Bank ¤ in ${LEVELS} lvl	Coffrez ¤ dans ${LEVELS}
-src/states/game.lua:3679		Secure your Stars for the run\nyou won't be able to gain more this run	Sécuriser vos Étoiles pour cette partie\nvous ne pourrez plus en gagner pendant cette partie
-src/states/game.lua:3681		Stars already banked this run	Étoiles déjà coffrées pendant cette partie
-src/states/game.lua:3683		Securing Stars available after each nightmare level	Possibilité de sécuriser les Étoiles après chaque niveau cauchemar
-src/states/game.lua:3744 (+7 others)		no	non
+src/states/game.lua:1960 (+2 others)		Level $level/$count $name	Niveau $level/$count $name
+src/states/game.lua:2012		NIGHTMARE LEVEL	NIVEAU CAUCHEMAR
+src/states/game.lua:2134 (+1 others)		Rift	Faille
+src/states/game.lua:2320		this coin is an affront to life itself	cette pièce est un affront à la vie elle-même
+src/states/game.lua:2321		this die is an affront to life itself	ce dé est un affront à la vie elle-même
+src/states/game.lua:2322		we shall not suffer such an unholy thing	nous ne tolérerons pas un tel blasphème
+src/states/game.lua:2323		thou shalt not shy from risk	« tu ne reculeras pas devant le risque »
+src/states/game.lua:2324		you thought you could get away with this?	tu croyais pouvoir t’en tirer comme ça ?
+src/states/game.lua:2325		extremely naughty	c’est très vilain
+src/states/game.lua:2328	dialogue	no downside not allowed	aucun inconvénient autorisé
+src/states/game.lua:2346	dialogue	WHAT	QUOI
+src/states/game.lua:2368		refilled	rechargé
+src/states/game.lua:2395		LAST TURN	DERNIER TOUR
+src/states/game.lua:2514		- Out Of Dice -	- Plus de dé restant -
+src/states/game.lua:2515		never	jamais
+src/states/game.lua:2517		Looks like you're cooked\n\nGive up?	On dirait que t’es foutu\n\nAbandonner ?
+src/states/game.lua:2667		INSTANT WIPE	KO DIRECT
+src/states/game.lua:2668		${rolled} OUT OF ${rolled} DICE ROLLED BUST	${rolled} DÉS SUR ${rolled} TOMBÉS SUR BURST
+src/states/game.lua:2685		W I P E	K  O
+src/states/game.lua:3113		SKIP ${pip}	FACE ${pip} PASSÉE
+src/states/game.lua:3127		SKIP LOOPED	TOUR COMPLET
+src/states/game.lua:3368		Level Complete	Niveau terminé
+src/states/game.lua:3409		Overshoot! +${amount} stars	Surplus ! +${amount} étoiles
+src/states/game.lua:3442		Level Coins	Pièces du niveau
+src/states/game.lua:3453		Extra Turn Coins	Tours restants
+src/states/game.lua:3465		Combine Coins	Fusion des pièces
+src/states/game.lua:3482		Wager bonus! +${amount} stars	Bonus de mise ! +${amount} étoiles
+src/states/game.lua:3532		--  Level ${number} Complete!  --	-- Niveau ${number} terminé ! --
+src/states/game.lua:3548		Score:	Score :
+src/states/game.lua:3550		Reward:	Récompenses :
+src/states/game.lua:3551		Extra turns:	Tours restants :
+src/states/game.lua:3552		Wager bonus:	Bonus de mise :
+src/states/game.lua:3553		Overshoot:	Surplus :
+src/states/game.lua:3555		Total:	Total :
+src/states/game.lua:3653		don't lose it	ne la perds pas
+src/states/game.lua:3653		Soul on line	Âme en jeu
+src/states/game.lua:3660		¤${BET} wagered	${BET} ¤ misées
+src/states/game.lua:3664		¤ Banked	¤ Coffrées
+src/states/game.lua:3665		Bank ¤${KEPT}?	Coffrer ${KEPT} ¤ ?
+src/states/game.lua:3666		Win To Bank ¤	Gagnez pour Coffrer vos ¤
+src/states/game.lua:3667		Bank ¤ in ${LEVELS} lvl	Coffrez ¤ dans ${LEVELS}
+src/states/game.lua:3681		Secure your Stars for the run\nyou won't be able to gain more this run	Sécuriser vos Étoiles pour cette partie\nvous ne pourrez plus en gagner pendant cette partie
+src/states/game.lua:3683		Stars already banked this run	Étoiles déjà coffrées pendant cette partie
+src/states/game.lua:3685		Securing Stars available after each nightmare level	Possibilité de sécuriser les Étoiles après chaque niveau cauchemar
+src/states/game.lua:3746 (+7 others)		no	non
 src/states/game_setup.lua:161		play!	jouer !
 src/states/game_setup.lua:164		need ${stars} ¤	il faut ${stars} ¤
 src/states/game_setup.lua:197		the young will inherit the earth	la jeunesse héritera de la terre
@@ -1516,7 +1516,7 @@ src/ui/help_screen.lua:145	ui	CHARACTER POWER	POUVOIR DE PERSONNAGE
 src/ui/help_screen.lua:146	ui	Each character has a unique Power. Use them to modify dice, reduce risk and get better combos.\n\nPower recharges each turn or with die side effects and items.	Chaque personnage a un Pouvoir unique, pour influer sur les dés, réduire les risques et faire de meilleures figures.\n\nIl se recharge à chaque tour, ou à l’aide d’effets variés.
 src/ui/help_screen.lua:149	ui	BASIC TACTICS	STRATÉGIE DE BASE
 src/ui/help_screen.lua:150	ui	The more dice you roll at once the bigger chance of any Bust, but smaller chance of All Bust.\n\nRerolling a single die is ballsy! Prioritize rerolling blank dice. Scoring a single big combo is better than few pairs.	Plus vous lancez de dés d’un coup, plus vous avez de chance de faire un Burst, mais moins vous avez de chance de ne faire que des Burst.\n\nLancer un seul dé est risqué ! Lancez d’abord les dés en suspens. Une seule grosse figure vaut mieux que quelques Paires.
-src/ui/item_hover.lua:73 (+4 others)	ui	SPELL	SORT
+src/ui/item_hover.lua:76 (+4 others)	ui	SPELL	SORT
 src/ui/level_map.lua:65	ui	LEVEL MAP	CARTE DES NIVEAUX
 src/ui/level_map.lua:165		Level ${level}	Niveau ${level}
 src/ui/level_map.lua:168	ui	Final nightmare level	Dernier niveau cauchemar

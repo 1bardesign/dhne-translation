@@ -1,10 +1,4 @@
 location	extra context	en	pl
-gather_strings.lua:1		No	Nie
-gather_strings.lua:1		momentum	rozpęd
-gather_strings.lua:1		greed	chciwości
-gather_strings.lua:1		CD	
-gather_strings.lua:1		xnx	
-gather_strings.lua:1		god	
 src/are_you_sure.lua:14 (+3 others)		Are you sure?	Na pewno?
 src/are_you_sure.lua:15 (+12 others)		yes	tak
 src/are_you_sure.lua:17		really?	serio?
@@ -49,6 +43,7 @@ src/characters/anais.lua:62	dialogue	Kill what you love	Zabij to, co kochasz
 src/characters/anais.lua:78	dialogue	Not yet	Jeszcze nie
 src/characters/anais.lua:80		Rise again for $cost ¤. Something will follow you back.	Powstań znów za $cost ¤. Coś pójdzie za tobą z powrotem.
 src/characters/anais.lua:83 (+9 others)		Yes	Tak
+src/characters/anais.lua:84 (+9 others)		No	Nie
 src/characters/anais.lua:86	dialogue	Rest then	Odpocznij więc
 src/characters/anais.lua:99	dialogue	Be not afraid	Nie lękaj się
 src/characters/business_fish.lua:2		Business Fish	Rybiznesmen
@@ -232,6 +227,7 @@ src/coloured_text.lua:43 (+5 others)		debust	debust
 src/coloured_text.lua:46 (+17 others)		pig	świnka
 src/coloured_text.lua:49 (+11 others)	ui	power	moc
 src/coloured_text.lua:52		golden	złota
+src/coloured_text.lua:55		momentum	rozpęd
 src/coloured_text.lua:58 (+3 others)		coin	moneta
 src/coloured_text.lua:61		coins	monety
 src/coloured_text.lua:73		shield	tarcza
@@ -354,10 +350,11 @@ src/entities/fish_spawner.lua:215		Cool Fish Available	Fajna Ryba dostępna
 src/entities/god_shop.lua:68		CHOOSE	WYBIERZ
 src/entities/god_shop.lua:499		reroll %d ¤	przelosuj %d ¤
 src/entities/item.lua:498		Tooth ${count}/${limit}	Ząb ${count}/${limit}
-src/entities/item.lua:508		a to use spells	A, by użyć zaklęć
-src/entities/item.lua:510		right click to use spells	prawy przycisk, by użyć zaklęć
-src/entities/item.lua:513		drag snacks over rolled dice	przeciągnij przekąski na rzucone kostki
+src/entities/item.lua:513		a to use spells	A, by użyć zaklęć
+src/entities/item.lua:515		right click to use spells	prawy przycisk, by użyć zaklęć
+src/entities/item.lua:518		drag snacks over rolled dice	przeciągnij przekąski na rzucone kostki
 src/entities/power_ui.lua:114	ui	Use	Użyj
+src/entities/power_ui.lua:141 (+1 others)		greed	chciwości
 src/entities/power_ui.lua:149	ui	Power recharges each turn\nSelect a die with Left Click then press this button to use it	Moc ładuje się co turę\nZaznacz kostkę lewym przyciskiem, a potem naciśnij ten przycisk, by jej użyć
 src/entities/power_ui.lua:329 (+1 others)	ui	closed	
 src/entities/shop.lua:82		TAB: ${total} ¥	RACHUNEK: ${total} ¥
@@ -596,6 +593,7 @@ src/items.lua:1018		Stuck Sides Added	Dodano Przyklejone strony
 src/items.lua:1023		Bacon	Boczek
 src/items.lua:1024 (+1 others)		Add 1 Pig side	Dodaj 1 stronę ze Świnką
 src/items.lua:1039 (+1 others)		Pig Side Added	Dodano stronę ze Świnką
+src/items.lua:1044		xnx	
 src/items.lua:1045 (+1 others)		Add 1 Skip side	Dodaj 1 stronę z Przeskokiem
 src/items.lua:1060 (+1 others)		Skip Side Added	Dodano stronę z Przeskokiem
 src/items.lua:1065		Black Eyed Pea	Fasolka Czarne Oczko
@@ -682,6 +680,7 @@ src/items.lua:1896		Mahjong Tile	Kafelek Mahjonga
 src/items.lua:1899		+4 Mult	
 src/items.lua:1911		Clam	Małż
 src/items.lua:1914		+50 Points	+50 Punktów
+src/items.lua:1926		CD	
 src/items.lua:1929		+10 Mult, -2 Mult for each die scored	+10 Mnożnika, -2 Mnożnika za każdą punktującą kostkę
 src/items.lua:1946		Papa	Papa
 src/items.lua:1949		+1 Mult per die scored	+1 Mnożnika za każdą punktującą kostkę
@@ -1171,7 +1170,7 @@ src/states/customisation.lua:167		Nothing Available	Nic tu nie ma
 src/states/customisation.lua:168		sorry sorry	sorki sorki
 src/states/customisation.lua:203		outfit	strój
 src/states/customisation.lua:203		accessory	dodatek
-src/states/customisation.lua:225		on	wł.
+src/states/customisation.lua:225 (+1 others)		on	wł.
 src/states/customisation.lua:225 (+2 others)		off	wył.
 src/states/customisation.lua:365		Distort A	Zniekształcenie A
 src/states/customisation.lua:366		Distort B	Zniekształcenie B
@@ -1191,6 +1190,7 @@ src/states/ending_bet.lua:77 (+1 others)		Ones rolled:	Wyrzucone jedynki:
 src/states/ending_bet.lua:78 (+1 others)		Bust rate:	Częstość Bustów:
 src/states/ending_bet.lua:80 (+1 others)		Run stars:	Gwiazdki z runa:
 src/states/ending_bet.lua:94 (+4 others)		¤ banked	¤ zbankowane
+src/states/ending_bet.lua:109 (+16 others)		god	
 src/states/ending_bet.lua:157	dialogue	you won	wygrałaś
 src/states/ending_bet.lua:162	dialogue	you have done very well	spisałaś się bardzo dobrze
 src/states/ending_bet.lua:164	dialogue	a treat for a brave child	nagroda dla dzielnego dziecka
@@ -1274,51 +1274,51 @@ src/states/game.lua:1108		pray	módl się
 src/states/game.lua:1186		Losing all Turns ends the game.\nTurns refill at the start of each level.	Utrata wszystkich Tur kończy grę.\nTury odnawiają się na początku każdego poziomu.
 src/states/game.lua:1462 (+1 others)		MERGED	POŁĄCZONO
 src/states/game.lua:1669		pause	pauza
-src/states/game.lua:1958 (+2 others)		Level $level/$count $name	Poziom $level/$count $name
-src/states/game.lua:2010		NIGHTMARE LEVEL	POZIOM KOSZMARU
-src/states/game.lua:2132 (+1 others)		Rift	Przepaść
-src/states/game.lua:2318		this coin is an affront to life itself	ta moneta to obraza dla samego życia
-src/states/game.lua:2319		this die is an affront to life itself	ta kostka to obraza dla samego życia
-src/states/game.lua:2320		we shall not suffer such an unholy thing	nie ścierpimy takiej bezbożności
-src/states/game.lua:2321		thou shalt not shy from risk	nie będziesz unikać ryzyka
-src/states/game.lua:2322		you thought you could get away with this?	myślałaś, że ujdzie ci to na sucho?
-src/states/game.lua:2323		extremely naughty	wyjątkowo niegrzeczna
-src/states/game.lua:2326	dialogue	no downside not allowed	bez wad nie wolno
-src/states/game.lua:2344	dialogue	WHAT	CO
-src/states/game.lua:2366		refilled	uzupełniono
-src/states/game.lua:2393		LAST TURN	OSTATNIA TURA
-src/states/game.lua:2512		- Out Of Dice -	- Brak Kostek -
-src/states/game.lua:2513		never	nigdy
-src/states/game.lua:2515		Looks like you're cooked\n\nGive up?	Wygląda na to, że po tobie\n\nPoddajesz się?
-src/states/game.lua:2665		INSTANT WIPE	INSTANT WIPE
-src/states/game.lua:2666		${rolled} OUT OF ${rolled} DICE ROLLED BUST	${rolled} Z ${rolled} RZUCONYCH KOSTEK TO BUST
-src/states/game.lua:2683		W I P E	W I P E
-src/states/game.lua:3111		SKIP ${pip}	PRZESKOK ${pip}
-src/states/game.lua:3125		SKIP LOOPED	PRZESKOK ZAWINIĘTY
-src/states/game.lua:3366		Level Complete	Poziom ukończony
-src/states/game.lua:3407		Overshoot! +${amount} stars	Nadwyżka! +${amount} gwiazdek
-src/states/game.lua:3440		Level Coins	Monety za Poziom
-src/states/game.lua:3451		Extra Turn Coins	Monety za Dodatkowe Tury
-src/states/game.lua:3463		Combine Coins	Łączenie Monet
-src/states/game.lua:3480		Wager bonus! +${amount} stars	Bonus za zakład! +${amount} gwiazdek
-src/states/game.lua:3530		--  Level ${number} Complete!  --	--  Poziom ${number} ukończony!  --
-src/states/game.lua:3546		Score:	Wynik:
-src/states/game.lua:3548		Reward:	Nagroda:
-src/states/game.lua:3549		Extra turns:	Dodatkowe tury:
-src/states/game.lua:3550		Wager bonus:	Bonus za zakład:
-src/states/game.lua:3551		Overshoot:	Nadwyżka:
-src/states/game.lua:3553		Total:	Razem:
-src/states/game.lua:3651		don't lose it	nie zgub jej
-src/states/game.lua:3651		Soul on line	Dusza na szali
-src/states/game.lua:3658		¤${BET} wagered	Postawiono ${BET}¤
-src/states/game.lua:3662		¤ Banked	¤ Zbankowane
-src/states/game.lua:3663		Bank ¤${KEPT}?	Zbankować ${KEPT}¤?
-src/states/game.lua:3664		Win To Bank ¤	Wygraj, by zbankować ¤
-src/states/game.lua:3665		Bank ¤ in ${LEVELS} lvl	BANK ¤ za ${LEVELS} poz.
-src/states/game.lua:3679		Secure your Stars for the run\nyou won't be able to gain more this run	Zabezpiecz Gwiazdki z tego runa\npotem nie zdobędziesz już kolejnych
-src/states/game.lua:3681		Stars already banked this run	Gwiazdki już zbankowane w tym runie
-src/states/game.lua:3683		Securing Stars available after each nightmare level	Zabezpieczanie Gwiazdek dostępne po każdym poziomie koszmaru
-src/states/game.lua:3744 (+7 others)		no	nie
+src/states/game.lua:1960 (+2 others)		Level $level/$count $name	Poziom $level/$count $name
+src/states/game.lua:2012		NIGHTMARE LEVEL	POZIOM KOSZMARU
+src/states/game.lua:2134 (+1 others)		Rift	Przepaść
+src/states/game.lua:2320		this coin is an affront to life itself	ta moneta to obraza dla samego życia
+src/states/game.lua:2321		this die is an affront to life itself	ta kostka to obraza dla samego życia
+src/states/game.lua:2322		we shall not suffer such an unholy thing	nie ścierpimy takiej bezbożności
+src/states/game.lua:2323		thou shalt not shy from risk	nie będziesz unikać ryzyka
+src/states/game.lua:2324		you thought you could get away with this?	myślałaś, że ujdzie ci to na sucho?
+src/states/game.lua:2325		extremely naughty	wyjątkowo niegrzeczna
+src/states/game.lua:2328	dialogue	no downside not allowed	bez wad nie wolno
+src/states/game.lua:2346	dialogue	WHAT	CO
+src/states/game.lua:2368		refilled	uzupełniono
+src/states/game.lua:2395		LAST TURN	OSTATNIA TURA
+src/states/game.lua:2514		- Out Of Dice -	- Brak Kostek -
+src/states/game.lua:2515		never	nigdy
+src/states/game.lua:2517		Looks like you're cooked\n\nGive up?	Wygląda na to, że po tobie\n\nPoddajesz się?
+src/states/game.lua:2667		INSTANT WIPE	INSTANT WIPE
+src/states/game.lua:2668		${rolled} OUT OF ${rolled} DICE ROLLED BUST	${rolled} Z ${rolled} RZUCONYCH KOSTEK TO BUST
+src/states/game.lua:2685		W I P E	W I P E
+src/states/game.lua:3113		SKIP ${pip}	PRZESKOK ${pip}
+src/states/game.lua:3127		SKIP LOOPED	PRZESKOK ZAWINIĘTY
+src/states/game.lua:3368		Level Complete	Poziom ukończony
+src/states/game.lua:3409		Overshoot! +${amount} stars	Nadwyżka! +${amount} gwiazdek
+src/states/game.lua:3442		Level Coins	Monety za Poziom
+src/states/game.lua:3453		Extra Turn Coins	Monety za Dodatkowe Tury
+src/states/game.lua:3465		Combine Coins	Łączenie Monet
+src/states/game.lua:3482		Wager bonus! +${amount} stars	Bonus za zakład! +${amount} gwiazdek
+src/states/game.lua:3532		--  Level ${number} Complete!  --	--  Poziom ${number} ukończony!  --
+src/states/game.lua:3548		Score:	Wynik:
+src/states/game.lua:3550		Reward:	Nagroda:
+src/states/game.lua:3551		Extra turns:	Dodatkowe tury:
+src/states/game.lua:3552		Wager bonus:	Bonus za zakład:
+src/states/game.lua:3553		Overshoot:	Nadwyżka:
+src/states/game.lua:3555		Total:	Razem:
+src/states/game.lua:3653		don't lose it	nie zgub jej
+src/states/game.lua:3653		Soul on line	Dusza na szali
+src/states/game.lua:3660		¤${BET} wagered	Postawiono ${BET}¤
+src/states/game.lua:3664		¤ Banked	¤ Zbankowane
+src/states/game.lua:3665		Bank ¤${KEPT}?	Zbankować ${KEPT}¤?
+src/states/game.lua:3666		Win To Bank ¤	Wygraj, by zbankować ¤
+src/states/game.lua:3667		Bank ¤ in ${LEVELS} lvl	BANK ¤ za ${LEVELS} poz.
+src/states/game.lua:3681		Secure your Stars for the run\nyou won't be able to gain more this run	Zabezpiecz Gwiazdki z tego runa\npotem nie zdobędziesz już kolejnych
+src/states/game.lua:3683		Stars already banked this run	Gwiazdki już zbankowane w tym runie
+src/states/game.lua:3685		Securing Stars available after each nightmare level	Zabezpieczanie Gwiazdek dostępne po każdym poziomie koszmaru
+src/states/game.lua:3746 (+7 others)		no	nie
 src/states/game_setup.lua:161		play!	graj!
 src/states/game_setup.lua:164		need ${stars} ¤	potrzeba ${stars} ¤
 src/states/game_setup.lua:197		the young will inherit the earth	młodzi odziedziczą ziemię
@@ -1516,7 +1516,7 @@ src/ui/help_screen.lua:145	ui	CHARACTER POWER	MOC POSTACI
 src/ui/help_screen.lua:146	ui	Each character has a unique Power. Use them to modify dice, reduce risk and get better combos.\n\nPower recharges each turn or with die side effects and items.	Każda postać ma unikalną Moc. Używaj jej, by zmieniać kostki, zmniejszać ryzyko i składać lepsze combo.\n\nMoc ładuje się co turę albo dzięki efektom stron i przedmiotom.
 src/ui/help_screen.lua:149	ui	BASIC TACTICS	PODSTAWOWA TAKTYKA
 src/ui/help_screen.lua:150	ui	The more dice you roll at once the bigger chance of any Bust, but smaller chance of All Bust.\n\nRerolling a single die is ballsy! Prioritize rerolling blank dice. Scoring a single big combo is better than few pairs.	Im więcej kostek rzucasz naraz, tym większa szansa na jakiś Bust, ale mniejsza na Same Busty.\n\nPrzerzucanie pojedynczej kostki to odważny ruch! Najpierw przerzucaj puste kostki. Jedno duże combo jest lepsze niż kilka par.
-src/ui/item_hover.lua:73 (+4 others)	ui	SPELL	ZAKLĘCIE
+src/ui/item_hover.lua:76 (+4 others)	ui	SPELL	ZAKLĘCIE
 src/ui/level_map.lua:65	ui	LEVEL MAP	MAPA POZIOMÓW
 src/ui/level_map.lua:165		Level ${level}	Poziom ${level}
 src/ui/level_map.lua:168	ui	Final nightmare level	Ostatni poziom koszmaru
