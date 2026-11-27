@@ -467,8 +467,8 @@ src/item_unlocks.lua:333		Shop Expansion	Shop-Erweiterung
 src/item_unlocks.lua:334		more items more good	mehr items mehr gut
 src/item_unlocks.lua:343		Mega Shop	Mega Shop
 src/item_unlocks.lua:344		more items more items more items	mehr items mehr items mehr items
-src/item_unlocks.lua:354		Basic Dice Effects	
-src/item_unlocks.lua:355		Side Effects found in every shop	
+src/item_unlocks.lua:354		Basic Dice Effects	Einfache\nWürfel-Effekte
+src/item_unlocks.lua:355		Side Effects found in every shop	Seiten-Effekte in jedem Shop käuflich
 src/item_unlocks.lua:365		More Funky Dice	Mehr Würfel
 src/item_unlocks.lua:366		Special Side Effects in shops!\nMult, Debust, Power and Cracked	Spezielle Seiten-Effekte im Shop!\nMulti, Debust, Power und Brüchig
 src/item_unlocks.lua:376		Even More Dice	Noch Mehr Würfel
