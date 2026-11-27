@@ -222,23 +222,23 @@ src/coloured_text.lua:20		turns	rundor
 src/coloured_text.lua:24 (+3 others)		bank	säkra
 src/coloured_text.lua:27		stars	stjärnor
 src/coloured_text.lua:31 (+5 others)		points	poäng
-src/coloured_text.lua:35 (+9 others)		mult	multi
-src/coloured_text.lua:39 (+8 others)		bonus	bonus
-src/coloured_text.lua:43 (+5 others)		debust	avnita
-src/coloured_text.lua:46 (+17 others)		pig	gris
-src/coloured_text.lua:49 (+11 others)	ui	power	kraft
+src/coloured_text.lua:35 (+10 others)		mult	multi
+src/coloured_text.lua:39 (+9 others)		bonus	bonus
+src/coloured_text.lua:43 (+6 others)		debust	avnita
+src/coloured_text.lua:46 (+18 others)		pig	gris
+src/coloured_text.lua:49 (+12 others)	ui	power	kraft
 src/coloured_text.lua:52		golden	gyllene
 src/coloured_text.lua:55		momentum	flyt
 src/coloured_text.lua:58 (+3 others)		coin	mynt
 src/coloured_text.lua:61		coins	mynt
 src/coloured_text.lua:73		shield	sköld
-src/coloured_text.lua:77 (+9 others)		skip	hoppa över
-src/coloured_text.lua:80 (+2 others)		mirror	spegel
-src/coloured_text.lua:83 (+23 others)		cracked	sprucken
-src/coloured_text.lua:86 (+2 others)		hardy	tålig
-src/coloured_text.lua:89 (+5 others)		doom	undergång
+src/coloured_text.lua:77 (+10 others)		skip	hoppa över
+src/coloured_text.lua:80 (+3 others)		mirror	spegel
+src/coloured_text.lua:83 (+24 others)		cracked	sprucken
+src/coloured_text.lua:86 (+3 others)		hardy	tålig
+src/coloured_text.lua:89 (+6 others)		doom	undergång
 src/coloured_text.lua:92 (+1 others)		negative	negativ
-src/coloured_text.lua:95 (+12 others)		stuck	låst
+src/coloured_text.lua:95 (+13 others)		stuck	låst
 src/coloured_text.lua:98 (+2 others)		empty	tom
 src/display_loc.lua:3		Normal	Normal
 src/display_loc.lua:4		Pixel	Pixel
@@ -324,7 +324,7 @@ src/entities/dice.lua:314		Mirror\nFlips to value of next clicked die	Spegel\nBy
 src/entities/dice.lua:323		Cracked\n -1 ♥ when rolled	Sprucken\n-1 ♥ vid kast
 src/entities/dice.lua:333		Empty\nCan't be rolled	Tom\nKan ej kastas
 src/entities/dice.lua:342		Hardy\n+1 ♥ when scored	
-src/entities/dice.lua:352		Doom\n-3♥ when rolled	Undergång\n-3♥ vid kast
+src/entities/dice.lua:352		Doom\n-3 ♥ when rolled	Undergång\n-3 ♥ vid kast
 src/entities/dice.lua:632		CRACK	KRAK
 src/entities/dice_peek.lua:50		ingestion might hurt tummy	kan ge ont i magen vid förtäring
 src/entities/dice_peek.lua:256		Impatient	Otålig
@@ -467,18 +467,20 @@ src/item_unlocks.lua:333		Shop Expansion	Större butik
 src/item_unlocks.lua:334		more items more good	ju fler grejer desto bättre
 src/item_unlocks.lua:343		Mega Shop	Megabutik
 src/item_unlocks.lua:344		more items more items more items	fler grejer fler grejer fler grejer
-src/item_unlocks.lua:355		More Funky Dice	Fler skojiga tärningar
-src/item_unlocks.lua:356		Special Side Effects in shops!\nMult, Debust, Power and Cracked	Speciella sidoeffekter i butikerna!\nMult, Avnita, Kraft och Sprucken
-src/item_unlocks.lua:365		Even More Dice	Ännu fler \ntärningar
-src/item_unlocks.lua:366		Special Side Effects in shops!\nSkip, Mirror, Hardy and Doom	Speciella sidoeffekter i butikerna!\nHoppa över, Spegel, Tålig och Undergång
-src/item_unlocks.lua:377		Fish Trinkets	Fiskkrimskrams
-src/item_unlocks.lua:378		from the sea	från havet
-src/item_unlocks.lua:386		Sardine Magic	Sardinmagi
-src/item_unlocks.lua:387		abracodabra	abrakatorsk
-src/item_unlocks.lua:395		Bans	Bannlysningar
-src/item_unlocks.lua:396		ban item sets from your runs	bannlys föremålsgrupper från dina spelomgångar
-src/item_unlocks.lua:406 (+1 others)		Scoreboards	Topplistor
-src/item_unlocks.lua:407 (+1 others)		be the goat	bli bäst genom tiderna
+src/item_unlocks.lua:354		Basic Dice Effects	
+src/item_unlocks.lua:355		Side Effects found in every shop	
+src/item_unlocks.lua:365		More Funky Dice	Fler skojiga tärningar
+src/item_unlocks.lua:366		Special Side Effects in shops!\nMult, Debust, Power and Cracked	Speciella sidoeffekter i butikerna!\nMult, Avnita, Kraft och Sprucken
+src/item_unlocks.lua:376		Even More Dice	Ännu fler \ntärningar
+src/item_unlocks.lua:377		Special Side Effects in shops!\nSkip, Mirror, Hardy and Doom	Speciella sidoeffekter i butikerna!\nHoppa över, Spegel, Tålig och Undergång
+src/item_unlocks.lua:389		Fish Trinkets	Fiskkrimskrams
+src/item_unlocks.lua:390		from the sea	från havet
+src/item_unlocks.lua:398		Sardine Magic	Sardinmagi
+src/item_unlocks.lua:399		abracodabra	abrakatorsk
+src/item_unlocks.lua:407		Bans	Bannlysningar
+src/item_unlocks.lua:408		ban item sets from your runs	bannlys föremålsgrupper från dina spelomgångar
+src/item_unlocks.lua:418 (+1 others)		Scoreboards	Topplistor
+src/item_unlocks.lua:419 (+1 others)		be the goat	bli bäst genom tiderna
 src/items.lua:22		Something fell from the sky	Någonting föll från skyn
 src/items.lua:48		Power Limit Up	Höjd kraftgräns
 src/items.lua:51		Power Limit +1	Kraftgräns +1
@@ -1457,21 +1459,21 @@ src/states/title.lua:634		Welcome To 1.0!	Välkommen till 1.0!
 src/states/title.lua:635		thanks so much for supporting the game ♥\nyou are looking fabulous today\n\nlots has changed since early access\nwe recommend starting 1.0 with a fresh save, but its up to you	tack så mycket för att du stöttar spelet ♥\ndu är strålande fin idag\n\nmycket har ändrats sedan early access\nvi rekommenderar att börja 1.0 med en ny sparfil, men du bestämmer
 src/states/title.lua:636		sure, delete it!	visst, radera den!
 src/states/title.lua:637		yikes, no thanks	oj då, nej tack
-src/states/unlock.lua:79		representations are still solidifying - physical form is meaningless - you're imagining it	gestalterna tar fortfarande form - fysisk form saknar betydelse - du inbillar dig
-src/states/unlock.lua:96 (+3 others)		SNACK	SNACKS
-src/states/unlock.lua:163		Upgrades	Uppgraderingar
-src/states/unlock.lua:164		buy upgrades with ¤	köp uppgraderingar med ¤
-src/states/unlock.lua:182		you have to do something to unlock this :)	du måste göra något för att låsa upp detta :)
-src/states/unlock.lua:184		coming in a future update <3	kommer i en framtida uppdatering <3
-src/states/unlock.lua:187		only available in the full game <3	finns bara i hela spelet <3
-src/states/unlock.lua:191		debug: 	felsökning:
-src/states/unlock.lua:211		playable character	spelbar karaktär
-src/states/unlock.lua:221		new depths	nya djup
-src/states/unlock.lua:508		feed	mata
-src/states/unlock.lua:577 (+1 others)		ban	bannlys
-src/states/unlock.lua:626		Customise	Anpassa
-src/states/unlock.lua:992		Tape Worm	Binnikemask
-src/states/unlock.lua:993		gold in, pink out	guld in, rosa ut
+src/states/unlock.lua:83		representations are still solidifying - physical form is meaningless - you're imagining it	gestalterna tar fortfarande form - fysisk form saknar betydelse - du inbillar dig
+src/states/unlock.lua:100 (+3 others)		SNACK	SNACKS
+src/states/unlock.lua:195		Upgrades	Uppgraderingar
+src/states/unlock.lua:196		buy upgrades with ¤	köp uppgraderingar med ¤
+src/states/unlock.lua:214		you have to do something to unlock this :)	du måste göra något för att låsa upp detta :)
+src/states/unlock.lua:216		coming in a future update <3	kommer i en framtida uppdatering <3
+src/states/unlock.lua:219		only available in the full game <3	finns bara i hela spelet <3
+src/states/unlock.lua:223		debug: 	felsökning:
+src/states/unlock.lua:243		playable character	spelbar karaktär
+src/states/unlock.lua:253		new depths	nya djup
+src/states/unlock.lua:556		feed	mata
+src/states/unlock.lua:625 (+1 others)		ban	bannlys
+src/states/unlock.lua:674		Customise	Anpassa
+src/states/unlock.lua:1040		Tape Worm	Binnikemask
+src/states/unlock.lua:1041		gold in, pink out	guld in, rosa ut
 src/sync_scoreboards.lua:16		Most Stars	Flest stjärnor
 src/sync_scoreboards.lua:21		stars held	innehavda stjärnor
 src/sync_scoreboards.lua:29		Highest Level	Högsta nivå

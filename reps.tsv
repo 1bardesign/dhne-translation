@@ -159,6 +159,7 @@ points		src/sync_scoreboards.lua	46	sync_scoreboards
 points		src/sync_scoreboards.lua	58	sync_scoreboards
 points		src/entities/encounter_timeline.lua	104	encounter_timeline
 mult		src/coloured_text.lua	35	coloured_text
+mult		src/item_unlocks.lua	367	item_unlocks
 mult		src/items.lua	869	items
 mult		src/items.lua	893	items
 mult		src/items.lua	1353	items
@@ -169,6 +170,7 @@ mult		src/characters/wizard.lua	15	wizard
 mult		src/characters/wizard.lua	16	wizard
 mult		src/characters/wizard.lua	17	wizard
 bonus		src/coloured_text.lua	39	coloured_text
+bonus		src/item_unlocks.lua	356	item_unlocks
 bonus		src/items.lua	845	items
 bonus		src/items.lua	1097	items
 bonus		src/items.lua	1333	items
@@ -178,12 +180,14 @@ bonus		src/states/game.lua	4185	game
 bonus		src/entities/shop.lua	603	shop
 bonus		src/entities/shop.lua	752	shop
 debust		src/coloured_text.lua	43	coloured_text
+debust		src/item_unlocks.lua	367	item_unlocks
 debust		src/items.lua	967	items
 debust		src/items.lua	1373	items
 debust		src/states/ending_finale.lua	182	ending_finale
 debust		src/states/game.lua	2902	game
 debust		src/entities/shop.lua	750	shop
 pig		src/coloured_text.lua	46	coloured_text
+pig		src/item_unlocks.lua	356	item_unlocks
 pig		src/items.lua	943	items
 pig		src/items.lua	1037	items
 pig		src/items.lua	1393	items
@@ -202,6 +206,7 @@ pig		src/characters/dog.lua	14	dog
 pig		src/characters/dog.lua	14	dog
 pig		src/characters/dog.lua	14	dog
 power		src/coloured_text.lua	49	coloured_text
+power		src/item_unlocks.lua	367	item_unlocks
 power		src/items.lua	992	items
 power		src/items.lua	1139	items
 power		src/items.lua	1414	items
@@ -218,6 +223,7 @@ coin		src/items.lua	114	items
 coin		src/entities/slot.lua	40	slot
 coin		src/entities/slot.lua	52	slot
 skip		src/coloured_text.lua	77	coloured_text
+skip		src/item_unlocks.lua	378	item_unlocks
 skip		src/items.lua	1058	items
 skip		src/items.lua	1474	items
 skip		src/states/game.lua	2600	game
@@ -228,9 +234,11 @@ skip		src/entities/buttons_clump.lua	328	buttons_clump
 skip		src/entities/dice_pick.lua	29	dice_pick
 skip		src/entities/shop.lua	687	shop
 mirror		src/coloured_text.lua	80	coloured_text
+mirror		src/item_unlocks.lua	378	item_unlocks
 mirror		src/items.lua	1494	items
 mirror		src/entities/dice.lua	2113	dice
 cracked		src/coloured_text.lua	83	coloured_text
+cracked		src/item_unlocks.lua	367	item_unlocks
 cracked		src/items.lua	1514	items
 cracked		src/items.lua	6024	items
 cracked		src/items.lua	6044	items
@@ -255,9 +263,11 @@ cracked		src/characters/saimi.lua	12	saimi
 cracked		src/characters/saimi.lua	13	saimi
 cracked		src/characters/saimi.lua	14	saimi
 hardy		src/coloured_text.lua	86	coloured_text
+hardy		src/item_unlocks.lua	378	item_unlocks
 hardy		src/items.lua	1534	items
 hardy		src/states/game.lua	2917	game
 doom		src/coloured_text.lua	89	coloured_text
+doom		src/item_unlocks.lua	378	item_unlocks
 doom		src/items.lua	1554	items
 doom		src/items.lua	6068	items
 doom		src/items.lua	6088	items
@@ -266,6 +276,7 @@ doom		src/states/game.lua	3152	game
 negative		src/coloured_text.lua	92	coloured_text
 negative		src/entities/shop.lua	610	shop
 stuck		src/coloured_text.lua	95	coloured_text
+stuck		src/item_unlocks.lua	356	item_unlocks
 stuck		src/items.lua	1016	items
 stuck		src/items.lua	1434	items
 stuck		src/items.lua	3441	items
@@ -291,9 +302,9 @@ Ghost		src/items.lua	4083	items
 Ghost		src/entities/dice_peek.lua	257	dice_peek
 Shield		src/item_unlocks.lua	261	item_unlocks
 Shield		src/powers.lua	368	powers
-Scoreboards		src/item_unlocks.lua	406	item_unlocks
+Scoreboards		src/item_unlocks.lua	418	item_unlocks
 Scoreboards		src/states/title.lua	355	title
-be the goat		src/item_unlocks.lua	407	item_unlocks
+be the goat		src/item_unlocks.lua	419	item_unlocks
 be the goat		src/states/title.lua	359	title
 Roll		src/keybinds.lua	3	keybinds
 Roll		src/entities/buttons_clump.lua	254	buttons_clump
@@ -309,15 +320,15 @@ you		src/sync_scoreboards.lua	206	sync_scoreboards
 you	true	src/endings/wizard.lua	140	wizard
 LOCKED		src/ui/character_body.lua	306	character_body
 LOCKED		src/states/game_setup.lua	408	game_setup
-LOCKED		src/states/unlock.lua	181	unlock
+LOCKED		src/states/unlock.lua	213	unlock
 SPELL		src/ui/item_hover.lua	76	item_hover
-SPELL		src/states/unlock.lua	98	unlock
+SPELL		src/states/unlock.lua	102	unlock
 SPELL		src/entities/god_shop.lua	360	god_shop
 SPELL		src/entities/item.lua	273	item
 SPELL		src/entities/shop.lua	1173	shop
 unlock		src/ui/state_tabs.lua	5	state_tabs
-unlock		src/states/unlock.lua	66	unlock
-unlock		src/states/unlock.lua	508	unlock
+unlock		src/states/unlock.lua	70	unlock
+unlock		src/states/unlock.lua	556	unlock
 < back		src/states/catalogue.lua	50	catalogue
 < back		src/states/controls.lua	46	controls
 < back		src/states/customisation.lua	53	customisation
@@ -325,7 +336,7 @@ unlock		src/states/unlock.lua	508	unlock
 < back		src/states/options.lua	49	options
 < back		src/states/options.lua	72	options
 < back		src/states/scoreboard.lua	106	scoreboard
-< back		src/states/unlock.lua	50	unlock
+< back		src/states/unlock.lua	54	unlock
 dawn mode		src/states/catalogue.lua	86	catalogue
 dawn mode		src/states/game.lua	295	game
 dawn mode		src/states/game_setup.lua	125	game_setup
@@ -435,7 +446,7 @@ Quit		src/states/title.lua	374	title
 Quit		src/entities/title_preview.lua	65	title_preview
 bye?		src/states/title.lua	378	title
 bye?		src/entities/title_preview.lua	65	title_preview
-SNACK		src/states/unlock.lua	96	unlock
+SNACK		src/states/unlock.lua	100	unlock
 SNACK		src/entities/god_shop.lua	358	god_shop
 SNACK		src/entities/item.lua	271	item
 SNACK		src/entities/shop.lua	1171	shop
