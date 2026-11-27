@@ -31,14 +31,14 @@ src/character_unlocks.lua:84 (+1 others)	dialogue	woof?	汪呜？
 src/character_unlocks.lua:95		he's so cool	他好酷
 src/character_unlocks.lua:105		slimy	滑溜溜的
 src/character_unlocks.lua:115		say aaaaaaaa	说 啊啊啊啊
-src/character_unlocks.lua:121		Plasticine	橡皮泥
-src/character_unlocks.lua:122		like putty in your hands\ncharacter customisation option	随你心意\n角色个性化选项
-src/character_unlocks.lua:135		Wagers	下注
-src/character_unlocks.lua:136		wager ¤ to increase difficulty and reward	赌上 ¤ 增加难度和奖励
+src/character_unlocks.lua:131		Plasticine	橡皮泥
+src/character_unlocks.lua:132		like putty in your hands\ncharacter customisation option	随你心意\n角色个性化选项
+src/character_unlocks.lua:145		Wagers	下注
+src/character_unlocks.lua:146		wager ¤ to increase difficulty and reward	赌上 ¤ 增加难度和奖励
 src/characters/anais.lua:2		Anais	Anais
 src/characters/anais.lua:39		Biblically Accurate	正如圣经中所说
-src/characters/anais.lua:57 (+10 others)		${count} levels til the end	离终结还有${count}关
-src/characters/anais.lua:60 (+10 others)	dialogue	The teeth trail will lead you to her	跟随牙齿找到她吧
+src/characters/anais.lua:57 (+11 others)		${count} levels til the end	离终结还有${count}关
+src/characters/anais.lua:60 (+11 others)	dialogue	The teeth trail will lead you to her	跟随牙齿找到她吧
 src/characters/anais.lua:62	dialogue	Kill what you love	杀死你所爱
 src/characters/anais.lua:78	dialogue	Not yet	还不行
 src/characters/anais.lua:80		Rise again for $cost ¤. Something will follow you back.	花$cost ¤ 再次站起来。有某个东西会跟着你回去。
@@ -145,6 +145,7 @@ src/characters/shirin.lua:197	dialogue	I'll let you toss a coin to revive you fo
 src/characters/shirin.lua:203	dialogue	RIP	RIP
 src/characters/shirin.lua:213	dialogue	Bad luck...	运气好烂。。。
 src/characters/shirin.lua:221	dialogue	Lucky!	运气不错！
+src/characters/tapeworm.lua:2		Tapeworm	
 src/characters/tooth_fairy.lua:2		Tooth Fairy	牙仙
 src/characters/tooth_fairy.lua:32		Cavity	牙洞
 src/characters/tooth_fairy.lua:58	dialogue	Reach level 7 and I'll leave your teeth alone.	撑到第7关我就放过你的牙齿。
@@ -213,7 +214,7 @@ src/characters/wizard.lua:213	dialogue	Another chance buddy?	再来一次吗兄�
 src/characters/wizard.lua:215	dialogue	I'll revive you for $cost ¤ and difficulty increase.	我可以提升难度并花$cost ¤ 复活你。
 src/characters/wizard.lua:221	dialogue	Hmpf.	哼。
 src/characters/wizard.lua:238	dialogue	Tada!	当当！
-src/coloured_text.lua:8 (+117 others)		bust	bust
+src/coloured_text.lua:8 (+121 others)		bust	bust
 src/coloured_text.lua:12		wipe	wipe
 src/coloured_text.lua:14		instant	instant
 src/coloured_text.lua:16		turn	回合
@@ -322,7 +323,7 @@ src/entities/dice.lua:305		Skip\nRolls to the next value	跳过\n投出下一个
 src/entities/dice.lua:314		Mirror\nFlips to value of next clicked die	镜面\n翻至下一个被点击的骰子的面值
 src/entities/dice.lua:323		Cracked\n -1 ♥ when rolled	开裂\n投出时 ♥ -1
 src/entities/dice.lua:333		Empty\nCan't be rolled	空白\n无法被投出
-src/entities/dice.lua:342		Hardy\n+1 ♥ when rolled	耐揍\n投出时 ♥ +1
+src/entities/dice.lua:342		Hardy\n+1 ♥ when scored	
 src/entities/dice.lua:352		Doom\n-3♥ when rolled	厄运\n投出时 ♥ -3
 src/entities/dice.lua:632		CRACK	裂
 src/entities/dice_peek.lua:50		ingestion might hurt tummy	吃下去可能会肚子疼
@@ -1094,36 +1095,38 @@ src/powers.lua:104		Nudge Skip	蹭蹭跳过
 src/powers.lua:105		+1 pip to the selected die, skipping values already showing.	已选中的骰子蹭至下一面，但是跳过已被投出的面值
 src/powers.lua:140		Nudge Up	蹭蹭
 src/powers.lua:141		+1 pip to the selected die	已选中的骰子蹭至下一面
-src/powers.lua:161		Flip	翻面
-src/powers.lua:162		Flip the selected die to its opposite face.	将已选中的骰子翻面。
-src/powers.lua:182		Smite	天罚
-src/powers.lua:183		Sacrifice selected die, +3 ¥	献祭已选中的骰子，+3¥
-src/powers.lua:214		Pip Pip	复制面值
-src/powers.lua:215		Nudge the second selected die to the same pip value as the first.	将第二个选中的骰子翻至与第一个选中的骰子相同的面值。
-src/powers.lua:236		Ghost Clone	幽灵克隆
-src/powers.lua:237		Spawn a ghost copy of the selected die.	为选中的骰子生成一个幽灵复制品。
-src/powers.lua:278		Reroll	重投
-src/powers.lua:279		Reroll all selected dice. 1s can't be rolled.	重新投掷所有已选中的骰子。无法投出1。
-src/powers.lua:298		Roll over	翻肚皮
-src/powers.lua:299		Reroll two selected dice to their next lower value.	令两个选中的骰子翻至下一个最低面值。
-src/powers.lua:322		Mystery Die	神秘骰子
-src/powers.lua:323		Spawn a random die.	随机生成一颗骰子
-src/powers.lua:346		Gain a Bust Shield.	获得一个Bust护盾。
-src/powers.lua:363		Ghost Bust	幽灵Bust
-src/powers.lua:364		Gain an extra blue Bust for this turn.	这回合获得一个额外蓝Bust。
-src/powers.lua:379		Fishy Deal	“公平”交易
-src/powers.lua:380		-1 Bust, +1 ¥. Bump difficulty.	-1 Bust，+1¥。提升难度。
-src/powers.lua:399		Level Skip	跳过关卡
-src/powers.lua:400		Skip a level. Spawns a random die and a random snack.	跳过该关卡。生成一颗随机骰子和一个随机零食。
-src/powers.lua:468		Fishy Loan	“免费”贷款
-src/powers.lua:469		+100 Points, +1 ¥. Take on debt.	+100点数，+1 ¥。负起债务。
-src/powers.lua:505		Nibble	咬一小口
-src/powers.lua:506		${nibble}% chance to take a proper bite\nRegain 1 bust.${die}	有${nibble}%咬上一口\n恢复1bust。${die}
-src/powers.lua:508		You might be finished	看上去不太行了
-src/powers.lua:513		Munch	咬一大口
-src/powers.lua:514		Take a big bite to regain all busts.	咬一大口恢复所有bust。
-src/powers.lua:604		Reincarnate	重生
-src/powers.lua:605		Selected die is reborn	令选中的骰子重生
+src/powers.lua:161		Pluck	
+src/powers.lua:162		Pull an Eye off the selected die's shown side.	
+src/powers.lua:184		Flip	翻面
+src/powers.lua:185		Flip the selected die to its opposite face.	将已选中的骰子翻面。
+src/powers.lua:205		Smite	天罚
+src/powers.lua:206		Sacrifice selected die, +3 ¥	献祭已选中的骰子，+3¥
+src/powers.lua:237		Pip Pip	复制面值
+src/powers.lua:238		Nudge the second selected die to the same pip value as the first.	将第二个选中的骰子翻至与第一个选中的骰子相同的面值。
+src/powers.lua:259		Ghost Clone	幽灵克隆
+src/powers.lua:260		Spawn a ghost copy of the selected die.	为选中的骰子生成一个幽灵复制品。
+src/powers.lua:301		Reroll	重投
+src/powers.lua:302		Reroll all selected dice. 1s can't be rolled.	重新投掷所有已选中的骰子。无法投出1。
+src/powers.lua:321		Roll over	翻肚皮
+src/powers.lua:322		Reroll two selected dice to their next lower value.	令两个选中的骰子翻至下一个最低面值。
+src/powers.lua:345		Mystery Die	神秘骰子
+src/powers.lua:346		Spawn a random die.	随机生成一颗骰子
+src/powers.lua:369		Gain a Bust Shield.	获得一个Bust护盾。
+src/powers.lua:386		Ghost Bust	幽灵Bust
+src/powers.lua:387		Gain an extra blue Bust for this turn.	这回合获得一个额外蓝Bust。
+src/powers.lua:402		Fishy Deal	“公平”交易
+src/powers.lua:403		-1 Bust, +1 ¥. Bump difficulty.	-1 Bust，+1¥。提升难度。
+src/powers.lua:422		Level Skip	跳过关卡
+src/powers.lua:423		Skip a level. Spawns a random die and a random snack.	跳过该关卡。生成一颗随机骰子和一个随机零食。
+src/powers.lua:491		Fishy Loan	“免费”贷款
+src/powers.lua:492		+100 Points, +1 ¥. Take on debt.	+100点数，+1 ¥。负起债务。
+src/powers.lua:528		Nibble	咬一小口
+src/powers.lua:529		${nibble}% chance to take a proper bite\nRegain 1 bust.${die}	有${nibble}%咬上一口\n恢复1bust。${die}
+src/powers.lua:531		You might be finished	看上去不太行了
+src/powers.lua:536		Munch	咬一大口
+src/powers.lua:537		Take a big bite to regain all busts.	咬一大口恢复所有bust。
+src/powers.lua:627		Reincarnate	重生
+src/powers.lua:628		Selected die is reborn	令选中的骰子重生
 src/special_conditions.lua:7		Solo	单走
 src/special_conditions.lua:18		Pair	对子
 src/special_conditions.lua:28		Short Straight	小顺子
@@ -1242,95 +1245,95 @@ src/states/fish_market.lua:92		--  Fish Market  --	— 鱼市 —
 src/states/fish_market.lua:198		Sell Fish	卖鱼
 src/states/fish_market.lua:227		Buy Fish	卖鱼
 src/states/fish_market.lua:276		Next!	完成！
-src/states/game.lua:157 (+2 others)		back	返回
-src/states/game.lua:171		PAUSE II	暂停中  I I
-src/states/game.lua:179 (+1 others)		Continue	继续
-src/states/game.lua:183 (+1 others)		Cannot Restart Wager Runs	无法重新开始已下注的游戏
-src/states/game.lua:186		Restart	重新开始
-src/states/game.lua:188		Restart the run from scratch\nand lose all gained stars?	确定重新开始\n并失去所有获得的星星？
-src/states/game.lua:194 (+3 others)		Options	选项
-src/states/game.lua:202		Save and Quit	保存并退出
-src/states/game.lua:203		(Cant Save Right Now)	（当下无法保存）
-src/states/game.lua:208		No escape	没有出口
-src/states/game.lua:211		Skip Tutorial	跳过教程
-src/states/game.lua:211		Abandon	放弃
-src/states/game.lua:219		Quit to menu and lose all gained stars?	退出至菜单并失去所有获得的星星？
-src/states/game.lua:224		No way out	无处可逃
-src/states/game.lua:535		secure the points\nend the turn\nrecharge character power\nclear momentum	保全分数\n结束该回合\n重置角色能力值\n清空惯性
-src/states/game.lua:640		you must have some points to bank	没有可bank的分数
-src/states/game.lua:742		momentum: ${amount}	惯性：${amount}
-src/states/game.lua:747		adds extra ${momentum} points and mult	增加额外${momentum}分数和乘数
-src/states/game.lua:932		Losing all Busts ends the turn.\nBusts refill at the start of each Turn	失去全部Bust将结束回合。\nBust计数在每回合开始时重置
-src/states/game.lua:936		Blocks up to ${count} busts, disappears when damaged	可阻挡最多${count}个bust，受到伤害时消失
-src/states/game.lua:955		ALL BUST BLOCKED	已阻挡全部BUST
-src/states/game.lua:971		SHIELD OVERLOADED	护盾超载
-src/states/game.lua:972		${count} BUSTS BLOCKED	阻挡${count}个BUST
-src/states/game.lua:972		${count} BUST BLOCKED	阻挡${count}个BUST
-src/states/game.lua:1022		wager ${amount} ¤	赌上 ${amount} ¤
-src/states/game.lua:1025		${STARS} Stars Unbanked	${STARS}个未收获的星星
-src/states/game.lua:1027		bank stars after each nightmare level or win the run to secure them	在每个噩梦关卡结束后收获星星或者通关整个游戏以收获星星
-src/states/game.lua:1108		praying...	祈祷中。。
-src/states/game.lua:1108		pray	祈祷
-src/states/game.lua:1186		Losing all Turns ends the game.\nTurns refill at the start of each level.	所有回合耗尽后将结束游戏。\n回合在每关开始时重置。
-src/states/game.lua:1462 (+1 others)		MERGED	合成
-src/states/game.lua:1669		pause	暂停
-src/states/game.lua:1960 (+2 others)		Level $level/$count $name	关卡 $level/$count $name
-src/states/game.lua:2012		NIGHTMARE LEVEL	噩梦关卡
-src/states/game.lua:2134 (+1 others)		Rift	裂谷
-src/states/game.lua:2320		this coin is an affront to life itself	这颗硬币是对生命的侮辱
-src/states/game.lua:2321		this die is an affront to life itself	这颗骰子是对生命的侮辱
-src/states/game.lua:2322		we shall not suffer such an unholy thing	吾不允许如此不洁之物存在
-src/states/game.lua:2323		thou shalt not shy from risk	汝不应逃避风险
-src/states/game.lua:2324		you thought you could get away with this?	你还真以为能蒙混过关？
-src/states/game.lua:2325		extremely naughty	真不听话
-src/states/game.lua:2328	dialogue	no downside not allowed	吾不允许没有反面
-src/states/game.lua:2346	dialogue	WHAT	干什么！！
-src/states/game.lua:2368		refilled	已重置
-src/states/game.lua:2395		LAST TURN	最终回合
-src/states/game.lua:2514		- Out Of Dice -	- 没骰子了 -
-src/states/game.lua:2515		never	绝不
-src/states/game.lua:2517		Looks like you're cooked\n\nGive up?	看上去没救了欸\n\n要放弃吗？
-src/states/game.lua:2667		INSTANT WIPE	INSTANT WIPE
-src/states/game.lua:2668		${rolled} OUT OF ${rolled} DICE ROLLED BUST	${rolled}个骰子中${rolled}个已BUST
-src/states/game.lua:2685		W I P E	W I P E
-src/states/game.lua:3113		SKIP ${pip}	跳过${pip}
-src/states/game.lua:3127		SKIP LOOPED	跳过循环中
-src/states/game.lua:3368		Level Complete	关卡完成
-src/states/game.lua:3409		Overshoot! +${amount} stars	超额！+${amount}星星
-src/states/game.lua:3442		Level Coins	关卡硬币
-src/states/game.lua:3453		Extra Turn Coins	多余回合硬币
-src/states/game.lua:3465		Combine Coins	合成硬币
-src/states/game.lua:3482		Wager bonus! +${amount} stars	下注加成！+${amount}星星
-src/states/game.lua:3532		--  Level ${number} Complete!  --	— 第${number}关完成！ —
-src/states/game.lua:3548		Score:	分数：
-src/states/game.lua:3550		Reward:	奖励：
-src/states/game.lua:3551		Extra turns:	多余回合：
-src/states/game.lua:3552		Wager bonus:	下注加成：
-src/states/game.lua:3553		Overshoot:	超额：
-src/states/game.lua:3555		Total:	共：
-src/states/game.lua:3653		don't lose it	可别输光光了
-src/states/game.lua:3653		Soul on line	事关灵魂
-src/states/game.lua:3660		¤${BET} wagered	已下注 ¤${BET}
-src/states/game.lua:3664		¤ Banked	已收获 ¤
-src/states/game.lua:3665		Bank ¤${KEPT}?	是否收获 ¤${KEPT}?
-src/states/game.lua:3666		Win To Bank ¤	通关以收获¤
-src/states/game.lua:3667		Bank ¤ in ${LEVELS} lvl	${LEVELS}关后可收获 ¤
-src/states/game.lua:3681		Secure your Stars for the run\nyou won't be able to gain more this run	收获本场游戏的星星\n本场游戏无法获得更多星星
-src/states/game.lua:3683		Stars already banked this run	本场游戏已收获的星星
-src/states/game.lua:3685		Securing Stars available after each nightmare level	每次噩梦关卡后均可收获星星
-src/states/game.lua:3746 (+7 others)		no	关
+src/states/game.lua:158 (+1 others)		back	返回
+src/states/game.lua:172		PAUSE II	暂停中  I I
+src/states/game.lua:180 (+1 others)		Continue	继续
+src/states/game.lua:184 (+1 others)		Cannot Restart Wager Runs	无法重新开始已下注的游戏
+src/states/game.lua:187		Restart	重新开始
+src/states/game.lua:189		Restart the run from scratch\nand lose all gained stars?	确定重新开始\n并失去所有获得的星星？
+src/states/game.lua:195 (+3 others)		Options	选项
+src/states/game.lua:203		Save and Quit	保存并退出
+src/states/game.lua:204		(Cant Save Right Now)	（当下无法保存）
+src/states/game.lua:209		No escape	没有出口
+src/states/game.lua:212		Skip Tutorial	跳过教程
+src/states/game.lua:212		Abandon	放弃
+src/states/game.lua:220		Quit to menu and lose all gained stars?	退出至菜单并失去所有获得的星星？
+src/states/game.lua:225		No way out	无处可逃
+src/states/game.lua:536		secure the points\nend the turn\nrecharge character power\nclear momentum	保全分数\n结束该回合\n重置角色能力值\n清空惯性
+src/states/game.lua:641		you must have some points to bank	没有可bank的分数
+src/states/game.lua:743		momentum: ${amount}	惯性：${amount}
+src/states/game.lua:748		adds extra ${momentum} points and mult	增加额外${momentum}分数和乘数
+src/states/game.lua:933		Losing all Busts ends the turn.\nBusts refill at the start of each Turn	失去全部Bust将结束回合。\nBust计数在每回合开始时重置
+src/states/game.lua:937		Blocks up to ${count} busts, disappears when damaged	可阻挡最多${count}个bust，受到伤害时消失
+src/states/game.lua:956		ALL BUST BLOCKED	已阻挡全部BUST
+src/states/game.lua:972		SHIELD OVERLOADED	护盾超载
+src/states/game.lua:973		${count} BUSTS BLOCKED	阻挡${count}个BUST
+src/states/game.lua:973		${count} BUST BLOCKED	阻挡${count}个BUST
+src/states/game.lua:1023		wager ${amount} ¤	赌上 ${amount} ¤
+src/states/game.lua:1026		${STARS} Stars Unbanked	${STARS}个未收获的星星
+src/states/game.lua:1028		bank stars after each nightmare level or win the run to secure them	在每个噩梦关卡结束后收获星星或者通关整个游戏以收获星星
+src/states/game.lua:1109		praying...	祈祷中。。
+src/states/game.lua:1109		pray	祈祷
+src/states/game.lua:1187		Losing all Turns ends the game.\nTurns refill at the start of each level.	所有回合耗尽后将结束游戏。\n回合在每关开始时重置。
+src/states/game.lua:1463 (+1 others)		MERGED	合成
+src/states/game.lua:1670		pause	暂停
+src/states/game.lua:1961 (+2 others)		Level $level/$count $name	关卡 $level/$count $name
+src/states/game.lua:2013		NIGHTMARE LEVEL	噩梦关卡
+src/states/game.lua:2135 (+1 others)		Rift	裂谷
+src/states/game.lua:2321		this coin is an affront to life itself	这颗硬币是对生命的侮辱
+src/states/game.lua:2322		this die is an affront to life itself	这颗骰子是对生命的侮辱
+src/states/game.lua:2323		we shall not suffer such an unholy thing	吾不允许如此不洁之物存在
+src/states/game.lua:2324		thou shalt not shy from risk	汝不应逃避风险
+src/states/game.lua:2325		you thought you could get away with this?	你还真以为能蒙混过关？
+src/states/game.lua:2326		extremely naughty	真不听话
+src/states/game.lua:2329	dialogue	no downside not allowed	吾不允许没有反面
+src/states/game.lua:2347	dialogue	WHAT	干什么！！
+src/states/game.lua:2369		refilled	已重置
+src/states/game.lua:2396		LAST TURN	最终回合
+src/states/game.lua:2515		- Out Of Dice -	- 没骰子了 -
+src/states/game.lua:2516		never	绝不
+src/states/game.lua:2518		Looks like you're cooked\n\nGive up?	看上去没救了欸\n\n要放弃吗？
+src/states/game.lua:2668		INSTANT WIPE	INSTANT WIPE
+src/states/game.lua:2669		${rolled} OUT OF ${rolled} DICE ROLLED BUST	${rolled}个骰子中${rolled}个已BUST
+src/states/game.lua:2686		W I P E	W I P E
+src/states/game.lua:3118		SKIP ${pip}	跳过${pip}
+src/states/game.lua:3132		SKIP LOOPED	跳过循环中
+src/states/game.lua:3362		Level Complete	关卡完成
+src/states/game.lua:3403		Overshoot! +${amount} stars	超额！+${amount}星星
+src/states/game.lua:3436		Level Coins	关卡硬币
+src/states/game.lua:3447		Extra Turn Coins	多余回合硬币
+src/states/game.lua:3459		Combine Coins	合成硬币
+src/states/game.lua:3476		Wager bonus! +${amount} stars	下注加成！+${amount}星星
+src/states/game.lua:3526		--  Level ${number} Complete!  --	— 第${number}关完成！ —
+src/states/game.lua:3542		Score:	分数：
+src/states/game.lua:3544		Reward:	奖励：
+src/states/game.lua:3545		Extra turns:	多余回合：
+src/states/game.lua:3546		Wager bonus:	下注加成：
+src/states/game.lua:3547		Overshoot:	超额：
+src/states/game.lua:3549		Total:	共：
+src/states/game.lua:3648		don't lose it	可别输光光了
+src/states/game.lua:3648		Soul on line	事关灵魂
+src/states/game.lua:3655		¤${BET} wagered	已下注 ¤${BET}
+src/states/game.lua:3659		¤ Banked	已收获 ¤
+src/states/game.lua:3660		Bank ¤${KEPT}?	是否收获 ¤${KEPT}?
+src/states/game.lua:3661		Win To Bank ¤	通关以收获¤
+src/states/game.lua:3662		Bank ¤ in ${LEVELS} lvl	${LEVELS}关后可收获 ¤
+src/states/game.lua:3676		Secure your Stars for the run\nyou won't be able to gain more this run	收获本场游戏的星星\n本场游戏无法获得更多星星
+src/states/game.lua:3678		Stars already banked this run	本场游戏已收获的星星
+src/states/game.lua:3680		Securing Stars available after each nightmare level	每次噩梦关卡后均可收获星星
+src/states/game.lua:3741 (+7 others)		no	关
 src/states/game_setup.lua:161		play!	开玩！
 src/states/game_setup.lua:164		need ${stars} ¤	需要 ${stars} ¤
 src/states/game_setup.lua:197		the young will inherit the earth	年轻之人将继承这片大地
-src/states/game_setup.lua:600		get more gold ¤ with wagers	通过下注获得更多金 ¤
-src/states/game_setup.lua:707		A modest wager.\nWin and keep your stars plus a small bonus.	赌点小的。\n通关可以返还你的星星以及少量加成。
-src/states/game_setup.lua:718		Wager half your stars.\nMinimum 500 ¤\nHigher stakes, more stars.	赌上你一半的星星。\n500 ¤ 起步\n风险更高，星星更多。
-src/states/game_setup.lua:729		Wager all your stars.\nMinimum 1000 ¤\nEven more star rewards.	赌上你所有的星星。\n1000 ¤ 起步\n赢得更多更多的星星。
-src/states/game_setup.lua:787		Wager	赌注
-src/states/game_setup.lua:869		Levels	关卡
-src/states/game_setup.lua:876		Wager stars to add levels,\nnext level %d ¤	  赌上星星已增加关卡，\n下一关 %d ¤
-src/states/game_setup.lua:1126		Difficulty	难度
-src/states/game_setup.lua:1129		${stars} ¤ reward limit	${stars} ¤ 奖励上限
+src/states/game_setup.lua:601		get more gold ¤ with wagers	通过下注获得更多金 ¤
+src/states/game_setup.lua:708		A modest wager.\nWin and keep your stars plus a small bonus.	赌点小的。\n通关可以返还你的星星以及少量加成。
+src/states/game_setup.lua:719		Wager half your stars.\nMinimum 500 ¤\nHigher stakes, more stars.	赌上你一半的星星。\n500 ¤ 起步\n风险更高，星星更多。
+src/states/game_setup.lua:730		Wager all your stars.\nMinimum 1000 ¤\nEven more star rewards.	赌上你所有的星星。\n1000 ¤ 起步\n赢得更多更多的星星。
+src/states/game_setup.lua:788		Wager	赌注
+src/states/game_setup.lua:870		Levels	关卡
+src/states/game_setup.lua:877		Wager stars to add levels,\nnext level %d ¤	  赌上星星已增加关卡，\n下一关 %d ¤
+src/states/game_setup.lua:1127		Difficulty	难度
+src/states/game_setup.lua:1130		${stars} ¤ reward limit	${stars} ¤ 奖励上限
 src/states/gameover.lua:225		Congratulations, you lost.	恭喜你，你输了。
 src/states/gameover.lua:226		Better luck next time.	欢迎下次光临。
 src/states/gameover.lua:227		Maybe next time.	下次再来吧。
@@ -1340,6 +1343,7 @@ src/states/gameover.lua:284		GAME OVER	GAME OVER
 src/states/gameover.lua:316		Death tax:	死亡亏损：
 src/states/gameover.lua:332		run info	本次游玩的信息
 src/states/gameover.lua:371		restart	重新开始
+src/states/gameover.lua:372		menu	
 src/states/gameover.lua:583		Press Circle To Toss	按圆圈以抛出
 src/states/gameover.lua:583		Press B To Toss	按B以抛出
 src/states/gameover.lua:583		Right Click To Toss	鼠标右键以抛出
