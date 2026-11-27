@@ -885,7 +885,7 @@ src/items.lua:4179		Roll exactly 1 die - if it's a 3 or 4, +1 Mult	+1 Multi, wen
 src/items.lua:4197		Flask Of Ghost	Geisterflasche
 src/items.lua:4200		Rerolling a combo that contains a Three Of A Kind creates 2 ghost dice	Erzeugt 2 Geisterwürfel, wenn eine Combo, die einen Dreierpasch beinhaltet, neu geworfen wird
 src/items.lua:4222		Bone	Knochen
-src/items.lua:4225		Combos containing a ghost die score +100 Points	+100 Punkte, wenn die Combo einen Geisterwürfel beinhaltet
+src/items.lua:4225		Combos containing a ghost die score +100 Points	+100 Punkte für eine Combo, die einen Geisterwürfel beinhaltet
 src/items.lua:4243		Razor	Rasierklinge
 src/items.lua:4246		1 in 3 chance to spawn a ghost die on Bust	1 zu 3 Chance, einen Geisterwürfel zu erstellen, wenn ein Bust geworfen wird
 src/items.lua:4269		Scared Straight	Geistersträßler
@@ -960,9 +960,9 @@ src/items.lua:5108		Bust resets Momentum	Busts setzen Momentum zurück
 src/items.lua:5124		Two Left Feet	Zwei Linke Füße
 src/items.lua:5125		-100 Points for rolling exactly 2 dice	-100 Punkte, wenn genau zwei Würfel geworfen werden
 src/items.lua:5141		6s and 4s to 1s	6 und 4 zu 1
-src/items.lua:5142		6s and 4s always reroll into 1s	6en und 4en landen bei Neuwurf immer auf 1
+src/items.lua:5142		6s and 4s always reroll into 1s	6en und 4en landen bei einem Neuwurf immer auf 1
 src/items.lua:5172		6s to 1s	6 zu 1
-src/items.lua:5173		6s always reroll into 1s	6en landen bei Neuwurf immer auf 1
+src/items.lua:5173		6s always reroll into 1s	6en landen bei einem Neuwurf immer auf 1
 src/items.lua:5204		Minus Max Bust	Weniger Busts
 src/items.lua:5205		Bust Limit -1	-1 Bust-Limit
 src/items.lua:5222		Turn Down Power Up	Weniger Zug Mehr Power
@@ -981,9 +981,9 @@ src/items.lua:5369		-4 Mult per scored 4	-4 Multi pro gewerteter 4
 src/items.lua:5386		Bad Sixes	Schlechte Sechser
 src/items.lua:5387		-6 Mult per scored 6	-6 Multi pro gewerteter 6
 src/items.lua:5405		Pair Aversion	Bindungsangst
-src/items.lua:5406		Combos containing a Pair -3 Mult	-3 Multi für Combos, die ein Paar beinhalten
+src/items.lua:5406		Combos containing a Pair -3 Mult	-3 Multi für eine Combo, die ein Paar beinhaltet
 src/items.lua:5426		Triple Trouble	Dreiecksdrama
-src/items.lua:5427		Combos containing Three Of A Kind -4 Mult	-4 Multi für Combos, die einen Dreierpasch beinhalten
+src/items.lua:5427		Combos containing Three Of A Kind -4 Mult	-4 Multi für eine Combo, die einen Dreierpasch beinhaltet
 src/items.lua:5451		No Four Kind	Vier Verliert
 src/items.lua:5452		Four Of A Kind gives no score	Viererpasche werten keine Punkte
 src/items.lua:5477		Empty House	Leeres Haus
