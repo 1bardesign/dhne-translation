@@ -626,7 +626,7 @@ src/items.lua:1319		Bonus Puke	Bonus-Kotze
 src/items.lua:1339		Mult Puke	Multi-Kotze
 src/items.lua:1354		Mult Side Added	Multi-Seite Hinzugefügt
 src/items.lua:1359		Debust Puke	Debust-Kotze
-src/items.lua:1379		Pig Puke	Schwein-Kotze
+src/items.lua:1379		Pig Puke	Schweine-Kotze
 src/items.lua:1399		Power Puke	Power-Kotze
 src/items.lua:1420		Stuck Puke	Klebrige Kotze
 src/items.lua:1421		Add 1 Stuck side	Fügt 1 Klebrige Seite hinzu
