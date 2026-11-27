@@ -222,23 +222,23 @@ src/coloured_text.lua:20		turns	回合
 src/coloured_text.lua:24 (+3 others)		bank	bank
 src/coloured_text.lua:27		stars	星星
 src/coloured_text.lua:31 (+5 others)		points	点数
-src/coloured_text.lua:35 (+9 others)		mult	乘数
-src/coloured_text.lua:39 (+8 others)		bonus	加点
-src/coloured_text.lua:43 (+5 others)		debust	反bust
-src/coloured_text.lua:46 (+17 others)		pig	猪
-src/coloured_text.lua:49 (+11 others)	ui	power	能力
+src/coloured_text.lua:35 (+10 others)		mult	乘数
+src/coloured_text.lua:39 (+9 others)		bonus	加点
+src/coloured_text.lua:43 (+6 others)		debust	反bust
+src/coloured_text.lua:46 (+18 others)		pig	猪
+src/coloured_text.lua:49 (+12 others)	ui	power	能力
 src/coloured_text.lua:52		golden	金色
 src/coloured_text.lua:55		momentum	惯性
 src/coloured_text.lua:58 (+3 others)		coin	硬币
 src/coloured_text.lua:61		coins	硬币
 src/coloured_text.lua:73		shield	护盾
-src/coloured_text.lua:77 (+9 others)		skip	跳过
-src/coloured_text.lua:80 (+2 others)		mirror	镜面
-src/coloured_text.lua:83 (+23 others)		cracked	开裂
-src/coloured_text.lua:86 (+2 others)		hardy	耐揍
-src/coloured_text.lua:89 (+5 others)		doom	厄运
+src/coloured_text.lua:77 (+10 others)		skip	跳过
+src/coloured_text.lua:80 (+3 others)		mirror	镜面
+src/coloured_text.lua:83 (+24 others)		cracked	开裂
+src/coloured_text.lua:86 (+3 others)		hardy	耐揍
+src/coloured_text.lua:89 (+6 others)		doom	厄运
 src/coloured_text.lua:92 (+1 others)		negative	负片
-src/coloured_text.lua:95 (+12 others)		stuck	卡住
+src/coloured_text.lua:95 (+13 others)		stuck	卡住
 src/coloured_text.lua:98 (+2 others)		empty	空白
 src/display_loc.lua:3		Normal	普通
 src/display_loc.lua:4		Pixel	像素
@@ -324,7 +324,7 @@ src/entities/dice.lua:314		Mirror\nFlips to value of next clicked die	镜面\n�
 src/entities/dice.lua:323		Cracked\n -1 ♥ when rolled	开裂\n投出时 ♥ -1
 src/entities/dice.lua:333		Empty\nCan't be rolled	空白\n无法被投出
 src/entities/dice.lua:342		Hardy\n+1 ♥ when scored	
-src/entities/dice.lua:352		Doom\n-3♥ when rolled	厄运\n投出时 ♥ -3
+src/entities/dice.lua:352		Doom\n-3 ♥ when rolled	厄运\n投出时 ♥ -3
 src/entities/dice.lua:632		CRACK	裂
 src/entities/dice_peek.lua:50		ingestion might hurt tummy	吃下去可能会肚子疼
 src/entities/dice_peek.lua:256		Impatient	急躁
@@ -467,18 +467,20 @@ src/item_unlocks.lua:333		Shop Expansion	商店扩展
 src/item_unlocks.lua:334		more items more good	东西越多越好
 src/item_unlocks.lua:343		Mega Shop	巨型商店
 src/item_unlocks.lua:344		more items more items more items	再多点再多点再多点
-src/item_unlocks.lua:355		More Funky Dice	怪骰子
-src/item_unlocks.lua:356		Special Side Effects in shops!\nMult, Debust, Power and Cracked	商店中出现不同效果的面！\n乘数，反bust，能力，和开裂
-src/item_unlocks.lua:365		Even More Dice	更多怪骰子
-src/item_unlocks.lua:366		Special Side Effects in shops!\nSkip, Mirror, Hardy and Doom	商店中出现不同效果的面！\n跳过，镜面，耐揍，和厄运
-src/item_unlocks.lua:377		Fish Trinkets	鱼玩意儿
-src/item_unlocks.lua:378		from the sea	自大海而来
-src/item_unlocks.lua:386		Sardine Magic	沙丁魔法
-src/item_unlocks.lua:387		abracodabra	妈咪妈咪哄
-src/item_unlocks.lua:395		Bans	Ban
-src/item_unlocks.lua:396		ban item sets from your runs	从游戏中ban掉物品组
-src/item_unlocks.lua:406 (+1 others)		Scoreboards	计分板
-src/item_unlocks.lua:407 (+1 others)		be the goat	成为goat
+src/item_unlocks.lua:354		Basic Dice Effects	
+src/item_unlocks.lua:355		Side Effects found in every shop	
+src/item_unlocks.lua:365		More Funky Dice	怪骰子
+src/item_unlocks.lua:366		Special Side Effects in shops!\nMult, Debust, Power and Cracked	商店中出现不同效果的面！\n乘数，反bust，能力，和开裂
+src/item_unlocks.lua:376		Even More Dice	更多怪骰子
+src/item_unlocks.lua:377		Special Side Effects in shops!\nSkip, Mirror, Hardy and Doom	商店中出现不同效果的面！\n跳过，镜面，耐揍，和厄运
+src/item_unlocks.lua:389		Fish Trinkets	鱼玩意儿
+src/item_unlocks.lua:390		from the sea	自大海而来
+src/item_unlocks.lua:398		Sardine Magic	沙丁魔法
+src/item_unlocks.lua:399		abracodabra	妈咪妈咪哄
+src/item_unlocks.lua:407		Bans	Ban
+src/item_unlocks.lua:408		ban item sets from your runs	从游戏中ban掉物品组
+src/item_unlocks.lua:418 (+1 others)		Scoreboards	计分板
+src/item_unlocks.lua:419 (+1 others)		be the goat	成为goat
 src/items.lua:22		Something fell from the sky	有什么从天上掉下来了
 src/items.lua:48		Power Limit Up	能力值上限提升
 src/items.lua:51		Power Limit +1	能力值上限+1
@@ -1457,21 +1459,21 @@ src/states/title.lua:634		Welcome To 1.0!	欢迎来到1.0！
 src/states/title.lua:635		thanks so much for supporting the game ♥\nyou are looking fabulous today\n\nlots has changed since early access\nwe recommend starting 1.0 with a fresh save, but its up to you	非常感谢你支持我们♥\n你今天看上去超棒\n\n自early access以来实装了很多变动\n我们推荐你以全新的存档游玩1.0,不过决定由你来做
 src/states/title.lua:636		sure, delete it!	好呀，删档吧！
 src/states/title.lua:637		yikes, no thanks	呃呃，还是算了
-src/states/unlock.lua:79		representations are still solidifying - physical form is meaningless - you're imagining it	形象仍在固化 - 物理形态无意义 - 一切只是你的想象
-src/states/unlock.lua:96 (+3 others)		SNACK	零食
-src/states/unlock.lua:163		Upgrades	拓展
-src/states/unlock.lua:164		buy upgrades with ¤	用 ¤ 购买拓展
-src/states/unlock.lua:182		you have to do something to unlock this :)	你得先干点什么才能解锁这个 :)
-src/states/unlock.lua:184		coming in a future update <3	敬请期待后续更新 <3
-src/states/unlock.lua:187		only available in the full game <3	在完整游戏中解锁 <3
-src/states/unlock.lua:191		debug: 	debug:
-src/states/unlock.lua:211		playable character	可游玩角色
-src/states/unlock.lua:221		new depths	新的挑战模式
-src/states/unlock.lua:508		feed	喂食
-src/states/unlock.lua:577 (+1 others)		ban	ban
-src/states/unlock.lua:626		Customise	个性化
-src/states/unlock.lua:992		Tape Worm	绦虫
-src/states/unlock.lua:993		gold in, pink out	金色进，粉色出
+src/states/unlock.lua:83		representations are still solidifying - physical form is meaningless - you're imagining it	形象仍在固化 - 物理形态无意义 - 一切只是你的想象
+src/states/unlock.lua:100 (+3 others)		SNACK	零食
+src/states/unlock.lua:195		Upgrades	拓展
+src/states/unlock.lua:196		buy upgrades with ¤	用 ¤ 购买拓展
+src/states/unlock.lua:214		you have to do something to unlock this :)	你得先干点什么才能解锁这个 :)
+src/states/unlock.lua:216		coming in a future update <3	敬请期待后续更新 <3
+src/states/unlock.lua:219		only available in the full game <3	在完整游戏中解锁 <3
+src/states/unlock.lua:223		debug: 	debug:
+src/states/unlock.lua:243		playable character	可游玩角色
+src/states/unlock.lua:253		new depths	新的挑战模式
+src/states/unlock.lua:556		feed	喂食
+src/states/unlock.lua:625 (+1 others)		ban	ban
+src/states/unlock.lua:674		Customise	个性化
+src/states/unlock.lua:1040		Tape Worm	绦虫
+src/states/unlock.lua:1041		gold in, pink out	金色进，粉色出
 src/sync_scoreboards.lua:16		Most Stars	星星总量
 src/sync_scoreboards.lua:21		stars held	拥有星星
 src/sync_scoreboards.lua:29		Highest Level	最高关卡

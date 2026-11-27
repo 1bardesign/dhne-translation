@@ -222,23 +222,23 @@ src/coloured_text.lua:20		turns
 src/coloured_text.lua:24 (+3 others)		bank	
 src/coloured_text.lua:27		stars	
 src/coloured_text.lua:31 (+5 others)		points	
-src/coloured_text.lua:35 (+9 others)		mult	
-src/coloured_text.lua:39 (+8 others)		bonus	
-src/coloured_text.lua:43 (+5 others)		debust	
-src/coloured_text.lua:46 (+17 others)		pig	
-src/coloured_text.lua:49 (+11 others)	ui	power	
+src/coloured_text.lua:35 (+10 others)		mult	
+src/coloured_text.lua:39 (+9 others)		bonus	
+src/coloured_text.lua:43 (+6 others)		debust	
+src/coloured_text.lua:46 (+18 others)		pig	
+src/coloured_text.lua:49 (+12 others)	ui	power	
 src/coloured_text.lua:52		golden	
 src/coloured_text.lua:55		momentum	
 src/coloured_text.lua:58 (+3 others)		coin	
 src/coloured_text.lua:61		coins	
 src/coloured_text.lua:73		shield	
-src/coloured_text.lua:77 (+9 others)		skip	
-src/coloured_text.lua:80 (+2 others)		mirror	
-src/coloured_text.lua:83 (+23 others)		cracked	
-src/coloured_text.lua:86 (+2 others)		hardy	
-src/coloured_text.lua:89 (+5 others)		doom	
+src/coloured_text.lua:77 (+10 others)		skip	
+src/coloured_text.lua:80 (+3 others)		mirror	
+src/coloured_text.lua:83 (+24 others)		cracked	
+src/coloured_text.lua:86 (+3 others)		hardy	
+src/coloured_text.lua:89 (+6 others)		doom	
 src/coloured_text.lua:92 (+1 others)		negative	
-src/coloured_text.lua:95 (+12 others)		stuck	
+src/coloured_text.lua:95 (+13 others)		stuck	
 src/coloured_text.lua:98 (+2 others)		empty	
 src/display_loc.lua:3		Normal	
 src/display_loc.lua:4		Pixel	
@@ -324,7 +324,7 @@ src/entities/dice.lua:314		Mirror\nFlips to value of next clicked die
 src/entities/dice.lua:323		Cracked\n -1 ♥ when rolled	
 src/entities/dice.lua:333		Empty\nCan't be rolled	
 src/entities/dice.lua:342		Hardy\n+1 ♥ when scored	
-src/entities/dice.lua:352		Doom\n-3♥ when rolled	
+src/entities/dice.lua:352		Doom\n-3 ♥ when rolled	
 src/entities/dice.lua:632		CRACK	
 src/entities/dice_peek.lua:50		ingestion might hurt tummy	
 src/entities/dice_peek.lua:256		Impatient	
@@ -467,18 +467,20 @@ src/item_unlocks.lua:333		Shop Expansion
 src/item_unlocks.lua:334		more items more good	
 src/item_unlocks.lua:343		Mega Shop	
 src/item_unlocks.lua:344		more items more items more items	
-src/item_unlocks.lua:355		More Funky Dice	
-src/item_unlocks.lua:356		Special Side Effects in shops!\nMult, Debust, Power and Cracked	
-src/item_unlocks.lua:365		Even More Dice	
-src/item_unlocks.lua:366		Special Side Effects in shops!\nSkip, Mirror, Hardy and Doom	
-src/item_unlocks.lua:377		Fish Trinkets	
-src/item_unlocks.lua:378		from the sea	
-src/item_unlocks.lua:386		Sardine Magic	
-src/item_unlocks.lua:387		abracodabra	
-src/item_unlocks.lua:395		Bans	
-src/item_unlocks.lua:396		ban item sets from your runs	
-src/item_unlocks.lua:406 (+1 others)		Scoreboards	
-src/item_unlocks.lua:407 (+1 others)		be the goat	
+src/item_unlocks.lua:354		Basic Dice Effects	
+src/item_unlocks.lua:355		Side Effects found in every shop	
+src/item_unlocks.lua:365		More Funky Dice	
+src/item_unlocks.lua:366		Special Side Effects in shops!\nMult, Debust, Power and Cracked	
+src/item_unlocks.lua:376		Even More Dice	
+src/item_unlocks.lua:377		Special Side Effects in shops!\nSkip, Mirror, Hardy and Doom	
+src/item_unlocks.lua:389		Fish Trinkets	
+src/item_unlocks.lua:390		from the sea	
+src/item_unlocks.lua:398		Sardine Magic	
+src/item_unlocks.lua:399		abracodabra	
+src/item_unlocks.lua:407		Bans	
+src/item_unlocks.lua:408		ban item sets from your runs	
+src/item_unlocks.lua:418 (+1 others)		Scoreboards	
+src/item_unlocks.lua:419 (+1 others)		be the goat	
 src/items.lua:22		Something fell from the sky	
 src/items.lua:48		Power Limit Up	
 src/items.lua:51		Power Limit +1	
@@ -1457,21 +1459,21 @@ src/states/title.lua:634		Welcome To 1.0!
 src/states/title.lua:635		thanks so much for supporting the game ♥\nyou are looking fabulous today\n\nlots has changed since early access\nwe recommend starting 1.0 with a fresh save, but its up to you	
 src/states/title.lua:636		sure, delete it!	
 src/states/title.lua:637		yikes, no thanks	
-src/states/unlock.lua:79		representations are still solidifying - physical form is meaningless - you're imagining it	
-src/states/unlock.lua:96 (+3 others)		SNACK	
-src/states/unlock.lua:163		Upgrades	
-src/states/unlock.lua:164		buy upgrades with ¤	
-src/states/unlock.lua:182		you have to do something to unlock this :)	
-src/states/unlock.lua:184		coming in a future update <3	
-src/states/unlock.lua:187		only available in the full game <3	
-src/states/unlock.lua:191		debug: 	
-src/states/unlock.lua:211		playable character	
-src/states/unlock.lua:221		new depths	
-src/states/unlock.lua:508		feed	
-src/states/unlock.lua:577 (+1 others)		ban	
-src/states/unlock.lua:626		Customise	
-src/states/unlock.lua:992		Tape Worm	
-src/states/unlock.lua:993		gold in, pink out	
+src/states/unlock.lua:83		representations are still solidifying - physical form is meaningless - you're imagining it	
+src/states/unlock.lua:100 (+3 others)		SNACK	
+src/states/unlock.lua:195		Upgrades	
+src/states/unlock.lua:196		buy upgrades with ¤	
+src/states/unlock.lua:214		you have to do something to unlock this :)	
+src/states/unlock.lua:216		coming in a future update <3	
+src/states/unlock.lua:219		only available in the full game <3	
+src/states/unlock.lua:223		debug: 	
+src/states/unlock.lua:243		playable character	
+src/states/unlock.lua:253		new depths	
+src/states/unlock.lua:556		feed	
+src/states/unlock.lua:625 (+1 others)		ban	
+src/states/unlock.lua:674		Customise	
+src/states/unlock.lua:1040		Tape Worm	
+src/states/unlock.lua:1041		gold in, pink out	
 src/sync_scoreboards.lua:16		Most Stars	
 src/sync_scoreboards.lua:21		stars held	
 src/sync_scoreboards.lua:29		Highest Level	

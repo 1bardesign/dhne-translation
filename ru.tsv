@@ -222,23 +222,23 @@ src/coloured_text.lua:20		turns	ходы
 src/coloured_text.lua:24 (+3 others)		bank	сберечь
 src/coloured_text.lua:27		stars	звёзды
 src/coloured_text.lua:31 (+5 others)		points	очки
-src/coloured_text.lua:35 (+9 others)		mult	множитель
-src/coloured_text.lua:39 (+8 others)		bonus	бонус
-src/coloured_text.lua:43 (+5 others)		debust	дебаст
-src/coloured_text.lua:46 (+17 others)		pig	свинья
-src/coloured_text.lua:49 (+11 others)	ui	power	сила
+src/coloured_text.lua:35 (+10 others)		mult	множитель
+src/coloured_text.lua:39 (+9 others)		bonus	бонус
+src/coloured_text.lua:43 (+6 others)		debust	дебаст
+src/coloured_text.lua:46 (+18 others)		pig	свинья
+src/coloured_text.lua:49 (+12 others)	ui	power	сила
 src/coloured_text.lua:52		golden	золото
 src/coloured_text.lua:55		momentum	инерция
 src/coloured_text.lua:58 (+3 others)		coin	монетка
 src/coloured_text.lua:61		coins	монетки
 src/coloured_text.lua:73		shield	щит
-src/coloured_text.lua:77 (+9 others)		skip	пропуск
-src/coloured_text.lua:80 (+2 others)		mirror	зеркало
-src/coloured_text.lua:83 (+23 others)		cracked	трещина
-src/coloured_text.lua:86 (+2 others)		hardy	выносливость
-src/coloured_text.lua:89 (+5 others)		doom	суд
+src/coloured_text.lua:77 (+10 others)		skip	пропуск
+src/coloured_text.lua:80 (+3 others)		mirror	зеркало
+src/coloured_text.lua:83 (+24 others)		cracked	трещина
+src/coloured_text.lua:86 (+3 others)		hardy	выносливость
+src/coloured_text.lua:89 (+6 others)		doom	суд
 src/coloured_text.lua:92 (+1 others)		negative	негатив
-src/coloured_text.lua:95 (+12 others)		stuck	липучка
+src/coloured_text.lua:95 (+13 others)		stuck	липучка
 src/coloured_text.lua:98 (+2 others)		empty	пустота
 src/display_loc.lua:3		Normal	Нормальный
 src/display_loc.lua:4		Pixel	Пиксель
@@ -324,7 +324,7 @@ src/entities/dice.lua:314		Mirror\nFlips to value of next clicked die	Зерка
 src/entities/dice.lua:323		Cracked\n -1 ♥ when rolled	Трещина\n -1 ♥ при выпадении
 src/entities/dice.lua:333		Empty\nCan't be rolled	Пустота\nНе может выпасть
 src/entities/dice.lua:342		Hardy\n+1 ♥ when scored	
-src/entities/dice.lua:352		Doom\n-3♥ when rolled	Суд\n-3♥ при выпадении
+src/entities/dice.lua:352		Doom\n-3 ♥ when rolled	Суд\n-3 ♥ при выпадении
 src/entities/dice.lua:632		CRACK	ТРЕСК
 src/entities/dice_peek.lua:50		ingestion might hurt tummy	из-за принятия может заболеть животик
 src/entities/dice_peek.lua:256		Impatient	Нетерпеливый
@@ -467,18 +467,20 @@ src/item_unlocks.lua:333		Shop Expansion	Расширение магазина
 src/item_unlocks.lua:334		more items more good	больше товаров больше лучше.
 src/item_unlocks.lua:343		Mega Shop	Мега магазин
 src/item_unlocks.lua:344		more items more items more items	больше товаров больше товаров больше товаров
-src/item_unlocks.lua:355		More Funky Dice	Больше классных кубиков
-src/item_unlocks.lua:356		Special Side Effects in shops!\nMult, Debust, Power and Cracked	Специальные эффекты сторон в магазинах!\nМножитель, Дебаст, Сила и Трещина
-src/item_unlocks.lua:365		Even More Dice	Ещё больше кубиков
-src/item_unlocks.lua:366		Special Side Effects in shops!\nSkip, Mirror, Hardy and Doom	Специальные эффекты сторон в магазинах!\nПропуск, Зеркало, Выносливость и Суд
-src/item_unlocks.lua:377		Fish Trinkets	Рыбные безделушки
-src/item_unlocks.lua:378		from the sea	из моря
-src/item_unlocks.lua:386		Sardine Magic	Магия сардин
-src/item_unlocks.lua:387		abracodabra	абракодабра
-src/item_unlocks.lua:395		Bans	Бан
-src/item_unlocks.lua:396		ban item sets from your runs	исключи наборы предметов из своих забегов
-src/item_unlocks.lua:406 (+1 others)		Scoreboards	Таблица Рекордов
-src/item_unlocks.lua:407 (+1 others)		be the goat	стань легендой
+src/item_unlocks.lua:354		Basic Dice Effects	
+src/item_unlocks.lua:355		Side Effects found in every shop	
+src/item_unlocks.lua:365		More Funky Dice	Больше классных кубиков
+src/item_unlocks.lua:366		Special Side Effects in shops!\nMult, Debust, Power and Cracked	Специальные эффекты сторон в магазинах!\nМножитель, Дебаст, Сила и Трещина
+src/item_unlocks.lua:376		Even More Dice	Ещё больше кубиков
+src/item_unlocks.lua:377		Special Side Effects in shops!\nSkip, Mirror, Hardy and Doom	Специальные эффекты сторон в магазинах!\nПропуск, Зеркало, Выносливость и Суд
+src/item_unlocks.lua:389		Fish Trinkets	Рыбные безделушки
+src/item_unlocks.lua:390		from the sea	из моря
+src/item_unlocks.lua:398		Sardine Magic	Магия сардин
+src/item_unlocks.lua:399		abracodabra	абракодабра
+src/item_unlocks.lua:407		Bans	Бан
+src/item_unlocks.lua:408		ban item sets from your runs	исключи наборы предметов из своих забегов
+src/item_unlocks.lua:418 (+1 others)		Scoreboards	Таблица Рекордов
+src/item_unlocks.lua:419 (+1 others)		be the goat	стань легендой
 src/items.lua:22		Something fell from the sky	Что-то упало с неба
 src/items.lua:48		Power Limit Up	Лимит силы повышен
 src/items.lua:51		Power Limit +1	Лимит силы +1
@@ -1457,21 +1459,21 @@ src/states/title.lua:634		Welcome To 1.0!	Добро пожаловать в 1.0
 src/states/title.lua:635		thanks so much for supporting the game ♥\nyou are looking fabulous today\n\nlots has changed since early access\nwe recommend starting 1.0 with a fresh save, but its up to you	большое спасибо за поддержку игры ♥\nсегодня ты выглядишь просто потрясающе\nс раннего доступа многое изменилось\nрекомендуем начать версию 1.0 с нового сохранения, но выбор за тобой
 src/states/title.lua:636		sure, delete it!	конечно, удаляй!
 src/states/title.lua:637		yikes, no thanks	ой, нет, спасибо
-src/states/unlock.lua:79		representations are still solidifying - physical form is meaningless - you're imagining it	образы всё ещё обретают форму — физическая оболочка бессмысленна — ты всё это выдумала
-src/states/unlock.lua:96 (+3 others)		SNACK	ЗАКУСКА
-src/states/unlock.lua:163		Upgrades	Улучшения
-src/states/unlock.lua:164		buy upgrades with ¤	покупай улучшения за ¤
-src/states/unlock.lua:182		you have to do something to unlock this :)	нужно кое-что сделать, чтобы это открыть :)
-src/states/unlock.lua:184		coming in a future update <3	появится в будущем обновлении <3
-src/states/unlock.lua:187		only available in the full game <3	доступно только в полной версии игры <3
-src/states/unlock.lua:191		debug: 	отладка: 
-src/states/unlock.lua:211		playable character	игровой персонаж
-src/states/unlock.lua:221		new depths	новые глубины
-src/states/unlock.lua:508		feed	покормить
-src/states/unlock.lua:577 (+1 others)		ban	забанить
-src/states/unlock.lua:626		Customise	Настройка
-src/states/unlock.lua:992		Tape Worm	Ленточный червь
-src/states/unlock.lua:993		gold in, pink out	золото на вход, розовое на выход
+src/states/unlock.lua:83		representations are still solidifying - physical form is meaningless - you're imagining it	образы всё ещё обретают форму — физическая оболочка бессмысленна — ты всё это выдумала
+src/states/unlock.lua:100 (+3 others)		SNACK	ЗАКУСКА
+src/states/unlock.lua:195		Upgrades	Улучшения
+src/states/unlock.lua:196		buy upgrades with ¤	покупай улучшения за ¤
+src/states/unlock.lua:214		you have to do something to unlock this :)	нужно кое-что сделать, чтобы это открыть :)
+src/states/unlock.lua:216		coming in a future update <3	появится в будущем обновлении <3
+src/states/unlock.lua:219		only available in the full game <3	доступно только в полной версии игры <3
+src/states/unlock.lua:223		debug: 	отладка: 
+src/states/unlock.lua:243		playable character	игровой персонаж
+src/states/unlock.lua:253		new depths	новые глубины
+src/states/unlock.lua:556		feed	покормить
+src/states/unlock.lua:625 (+1 others)		ban	забанить
+src/states/unlock.lua:674		Customise	Настройка
+src/states/unlock.lua:1040		Tape Worm	Ленточный червь
+src/states/unlock.lua:1041		gold in, pink out	золото на вход, розовое на выход
 src/sync_scoreboards.lua:16		Most Stars	Наибольшее количество звёзд
 src/sync_scoreboards.lua:21		stars held	баланс звёзд
 src/sync_scoreboards.lua:29		Highest Level	Высший уровень
