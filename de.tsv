@@ -365,7 +365,7 @@ src/entities/shop.lua:1317		cant sell eternal	ewiges ist nicht verkäuflich
 src/entities/shop.lua:1329		sell cursed	fluch verkaufen
 src/entities/shop.lua:1341		too many dice	zu viele würfel
 src/entities/shop.lua:1353		too many trinkets	zu viele glücksbringer
-src/entities/shop.lua:1367		too many actives	
+src/entities/shop.lua:1367		too many actives	zu viele vorräte
 src/entities/shop.lua:1388		pay up	bezahlen
 src/entities/shop.lua:1388		take change	wechselgeld
 src/entities/shop.lua:1463		bye	bye
@@ -538,10 +538,10 @@ src/items.lua:555 (+1 others)		Copy!	Nachgeahmt!
 src/items.lua:561		Copybigdog	Nachnachahmer
 src/items.lua:565		Repeat the last spell used, twice	Wiederhole den letzten Zauber zwei mal
 src/items.lua:588		Heal	Heilung
-src/items.lua:591		All dice +4 ♥	
+src/items.lua:591		All dice +4 ♥	+4 ♥ für alle Würfel
 src/items.lua:605 (+1 others)		Healed!	Geheilt!
-src/items.lua:610		Lil Heal	
-src/items.lua:613		All dice +2 ♥	
+src/items.lua:610		Lil Heal	Kleine Heilung
+src/items.lua:613		All dice +2 ♥	+2 ♥ für alle Würfel
 src/items.lua:632		Clutch	Klammern
 src/items.lua:635		Hold your next score	Behalte deine nächste Wertung
 src/items.lua:644 (+2 others)		Hold!	Behalten!
@@ -953,7 +953,7 @@ src/items.lua:5060		Halves the Mult	Halbiert Multi
 src/items.lua:5075 (+1 others)		Bad Momentum	Schlechtes Momentum
 src/items.lua:5076		Start each turn with -2 Momentum	Jeder Zug startet mit -2 Momentum
 src/items.lua:5086		-2 Momentum	-2 Momentum
-src/items.lua:5092		-1 Momentum on score	
+src/items.lua:5092		-1 Momentum on score	-1 Momentum bei Wertung
 src/items.lua:5102		-1 Momentum	-1 Momentum
 src/items.lua:5107		Sore Loser	Schlechter Verlierer
 src/items.lua:5108		Bust resets Momentum	Busts setzen Momentum zurück
@@ -1190,7 +1190,7 @@ src/states/ending_bet.lua:77 (+1 others)		Ones rolled:	Einsen geworfen:
 src/states/ending_bet.lua:78 (+1 others)		Bust rate:	Bust-Rate:
 src/states/ending_bet.lua:80 (+1 others)		Run stars:	Run-Sterne:
 src/states/ending_bet.lua:94 (+4 others)		¤ banked	¤ gesammelt
-src/states/ending_bet.lua:109 (+16 others)		god	
+src/states/ending_bet.lua:109 (+16 others)		god	gott
 src/states/ending_bet.lua:157	dialogue	you won	du hast gewonnen
 src/states/ending_bet.lua:162	dialogue	you have done very well	sehr gut gemacht
 src/states/ending_bet.lua:164	dialogue	a treat for a brave child	eine belohnung für ein mutiges kind
