@@ -1,9 +1,4 @@
 location	extra context	en	ff
-gather_strings.lua:1		No	Glupp!
-gather_strings.lua:1		momentum	bubbl
-gather_strings.lua:1		greed	plupp
-gather_strings.lua:1		CD	BRUBBL
-gather_strings.lua:1		xnx	blup
 src/are_you_sure.lua:14 (+3 others)		Are you sure?	Blar blu plupp?
 src/are_you_sure.lua:15 (+12 others)		yes	Blubb!
 src/are_you_sure.lua:17		really?	Blubb blubb?
@@ -48,6 +43,7 @@ src/characters/anais.lua:62	dialogue	Kill what you love	Plupp plupp blu flubb
 src/characters/anais.lua:78	dialogue	Not yet	Glupp glubbl
 src/characters/anais.lua:80		Rise again for $cost ¤. Something will follow you back.	Blubbl glubbl flor $cost ¤. Glubbl splubb blorp blu blupp.
 src/characters/anais.lua:83 (+9 others)		Yes	Blubb
+src/characters/anais.lua:84 (+9 others)		No	Glupp!
 src/characters/anais.lua:86	dialogue	Rest then	Glubbl flubb
 src/characters/anais.lua:99	dialogue	Be not afraid	Glubbl glupp plopp
 src/characters/business_fish.lua:2		Business Fish	Bloop Bloop
@@ -231,6 +227,7 @@ src/coloured_text.lua:43 (+5 others)		debust	brubbl
 src/coloured_text.lua:46 (+17 others)		pig	blupp
 src/coloured_text.lua:49 (+11 others)	ui	power	brubbl
 src/coloured_text.lua:52		golden	splubb
+src/coloured_text.lua:55		momentum	bubbl
 src/coloured_text.lua:58 (+3 others)		coin	pling
 src/coloured_text.lua:61		coins	plings
 src/coloured_text.lua:73		shield	plupp
@@ -353,24 +350,26 @@ src/entities/fish_spawner.lua:215		Cool Fish Available	Blubb Bloop Glubbl
 src/entities/god_shop.lua:68		CHOOSE	FLUBB
 src/entities/god_shop.lua:499		reroll %d ¤	reblubba %d ¤
 src/entities/item.lua:498		Tooth ${count}/${limit}	Blup ${count}/${limit}
-src/entities/item.lua:508		a to use spells	bu blo glubb glims
-src/entities/item.lua:510		right click to use spells	bloop brubbl blo glubb glims
-src/entities/item.lua:513		drag snacks over rolled dice	glupp nombls splubb glorp blobbs
-src/entities/power_ui.lua:116	ui	Use	Glubb
-src/entities/power_ui.lua:151	ui	Power recharges each turn\nSelect a die with Left Click then press this button to use it	Brubbl plupp glubb glubbo\nPlopp bu blobb blith Flubb Brubbl flubb flubb brubbl blup blo glubb blupp
-src/entities/power_ui.lua:333 (+1 others)	ui	closed	
+src/entities/item.lua:513		a to use spells	bu blo glubb glims
+src/entities/item.lua:515		right click to use spells	bloop brubbl blo glubb glims
+src/entities/item.lua:518		drag snacks over rolled dice	glupp nombls splubb glorp blobbs
+src/entities/power_ui.lua:114	ui	Use	Glubb
+src/entities/power_ui.lua:141 (+1 others)		greed	plupp
+src/entities/power_ui.lua:149	ui	Power recharges each turn\nSelect a die with Left Click then press this button to use it	Brubbl plupp glubb glubbo\nPlopp bu blobb blith Flubb Brubbl flubb flubb brubbl blup blo glubb blupp
+src/entities/power_ui.lua:329 (+1 others)	ui	closed	
 src/entities/shop.lua:82		TAB: ${total} ¥	BLUPP: ${total} ¥
 src/entities/shop.lua:107		Dice $count/$limit	Blobbs $count/$limit
 src/entities/shop.lua:136		Trinkets $count/$limit	Blinkles $count/$limit
 src/entities/shop.lua:165		Actives $count/$limit	Splubb $count/$limit
-src/entities/shop.lua:1283		cant sell eternal	brrl blup brubbl
-src/entities/shop.lua:1295		sell cursed	blup brubbl
-src/entities/shop.lua:1307		too many dice	blubb brubbl blobbs
-src/entities/shop.lua:1319		too many trinkets	blubb brubbl blinkles
-src/entities/shop.lua:1340		pay up	blubb blup
-src/entities/shop.lua:1340		take change	blubb plupp
-src/entities/shop.lua:1415		bye	flubb
-src/entities/shop.lua:1473		Reroll - ${current_cost}¥	Reblubba - ${current_cost}¥
+src/entities/shop.lua:1317		cant sell eternal	brrl blup brubbl
+src/entities/shop.lua:1329		sell cursed	blup brubbl
+src/entities/shop.lua:1341		too many dice	blubb brubbl blobbs
+src/entities/shop.lua:1353		too many trinkets	blubb brubbl blinkles
+src/entities/shop.lua:1367		too many actives	
+src/entities/shop.lua:1388		pay up	blubb blup
+src/entities/shop.lua:1388		take change	blubb plupp
+src/entities/shop.lua:1463		bye	flubb
+src/entities/shop.lua:1521		Reroll - ${current_cost}¥	Reblubba - ${current_cost}¥
 src/entities/tape.lua:453		- web	- blorp
 src/entities/title_text.lua:3		DICE HAVE\nNO EYES	BLOBBS GLORP\nGLUPP BLORP
 src/entities/title_text.lua:5		DICE HAVE\nNÕ EYES	BLOBBS GLORP\nGLUPP BLORP
@@ -514,561 +513,566 @@ src/items.lua:282		Reroll all dice, gain +2¥ per 1 rolled	Reblubba glupp blobbs
 src/items.lua:327		Piggy Bank	Glubb Blooba
 src/items.lua:330		Gain 1¥ per Momentum and clear it	Brrl 1¥ brubbl Bubbl blan plupp blupp
 src/items.lua:342 (+1 others)		No momentum!	Glupp bubbl!
-src/items.lua:354		GOTTA GO FAST	BLORP BLUBB BRRL
-src/items.lua:357		Momentum x2	Bubbl x2
-src/items.lua:366		x2 momentum	x2 bubbl
-src/items.lua:371		Peek	Blupp
-src/items.lua:374		Gain 1¥ per die showing 1	Brrl 1¥ brubbl blobb glubbl 1
-src/items.lua:396 (+2 others)		No 1s!	Glupp 1plupp!
-src/items.lua:402		Peek II	Blupp FLUBB
-src/items.lua:405		Gain 1¥ per die showing 3	Brrl 1¥ brubbl blobb glubbl 3
-src/items.lua:427		No 3s!	Glupp 3plupp!
-src/items.lua:436		-1 Bust per die showing 1	-1 Glupp brubbl blobb glubbl 1
-src/items.lua:462		Scratchie	Bloop
-src/items.lua:465		Gain 0-3¥	Brrl 0-3¥
-src/items.lua:482 (+1 others)		Nothing!	Glupp!
-src/items.lua:488		Scratchie II	Bloop FLUBB
-src/items.lua:491		1 in 3 chance to win 6¥	1 blin 3 blubb blo plupp 6¥
-src/items.lua:507		No luck	Glupp bloop
-src/items.lua:513		Scratchie III	Bloop GLUPP
-src/items.lua:516		Gain 1-4¥	Brrl 1-4¥
-src/items.lua:540		Copycat	Blubb
-src/items.lua:543		Repeat the last spell used	Blup bl brubbl glim glubbl
-src/items.lua:554 (+1 others)		Nothing to copy!	Glupp blo plupp!
-src/items.lua:557 (+1 others)		Copy!	Plupp!
-src/items.lua:563		Copybigdog	Blorpblorp
-src/items.lua:567		Repeat the last spell used, twice	Blup bl brubbl glim glubbl, flubb
-src/items.lua:587		Heal	Flubb
-src/items.lua:590		All dice +1 ♥	Glupp blobbs +1 ♥
-src/items.lua:604		Healed!	Glubb!
-src/items.lua:609		Clutch	Blupp
-src/items.lua:612		Hold your next score	Blup bluu glubb glupp
-src/items.lua:621 (+2 others)		Hold!	Blup!
-src/items.lua:627		Snack Bag	Nombl Blupp
-src/items.lua:630		Spawn 2-3 random snack items	Plupp 2-3 glubb nombl glorp
-src/items.lua:650		${amount} foods!	${amount} glubbl!
-src/items.lua:655		Gambling Bag	Blubb Blupp
-src/items.lua:658		Send it	Blorp blupp
-src/items.lua:685		${amount} chances!	${amount} blubb!
-src/items.lua:690		Citrus Bag	Blupp Blupp
-src/items.lua:693		Spawn 5 citrus slices	Plupp 5 blupp blupp
-src/items.lua:707		Citrus!	Blupp!
-src/items.lua:712		Butcher's Bag	Flubb Blupp
-src/items.lua:715		Spawn 3 pig snacks	Plupp 3 blupp nombls
-src/items.lua:728		Rare find!	Brubbl bloop!
-src/items.lua:735		Meat!	Splubb!
-src/items.lua:741		Dumpling Bag	Plopp Blupp
-src/items.lua:744		Spawn 3 random dumplings	Plupp 3 glubb glubbl
-src/items.lua:758		3 dumplings!	3 glubbl!
-src/items.lua:765		Caffeine Pill	Glubb Blup
-src/items.lua:766		Make a die impatient	Plupp bu blobb brubbl
-src/items.lua:780		Impatient!	Brubbl!
-src/items.lua:785		Tab	Blupp
-src/items.lua:786		Make a die cycle	Plupp bu blobb glubb
-src/items.lua:800		Cycling!	Brubbl!
-src/items.lua:805		Bolero	Splubb
-src/items.lua:806		Add 3 Bonus sides	Blorp 3 Blup flubb
-src/items.lua:824		Bonus Sides Added	Blup Flubb Blubbl
-src/items.lua:829		Eggplant	Plopp
-src/items.lua:830		Add 3 Mult sides	Blorp 3 Glubbi flubb
-src/items.lua:848 (+1 others)		Mult Sides Added	Glubbi Flubb Blubbl
-src/items.lua:853		Mangosteen	Blupbloop
-src/items.lua:854 (+1 others)		Add 1 Mult side	Blorp 1 Glubbi blubbl
-src/items.lua:878		Har Gow	Blup Blup
-src/items.lua:879 (+1 others)		Add 1 Golden side	Blorp 1 Splubb blubbl
-src/items.lua:898		Golden side Added	Splubb blubbl Blubbl
-src/items.lua:903		Pork Chop	Plupp Bloop
-src/items.lua:904		Add 4 Pig sides	Blorp 4 Blupp flubb
-src/items.lua:922		Pig Sides Added	Blupp Flubb Blubbl
-src/items.lua:927		Hubba Bubba	Plopp Blupp
-src/items.lua:928 (+1 others)		Add 1 Debust side	Blorp 1 Brubbl blubbl
-src/items.lua:946 (+1 others)		Debust Side Added	Brubbl Blubbl Blubbl
-src/items.lua:951		Ritalin	Blorp
-src/items.lua:952 (+1 others)		Add 1 Power side	Blorp 1 Brubbl blubbl
-src/items.lua:971 (+1 others)		Power Side Added	Brubbl Blubbl Blubbl
-src/items.lua:976		Mochi	Blubb
-src/items.lua:977		Add 5 Stuck sides	Blorp 5 Glupp flubb
-src/items.lua:995		Stuck Sides Added	Glupp Flubb Blubbl
-src/items.lua:1000		Bacon	Plupp
-src/items.lua:1001 (+1 others)		Add 1 Pig side	Blorp 1 Blupp blubbl
-src/items.lua:1016 (+1 others)		Pig Side Added	Blupp Blubbl Blubbl
-src/items.lua:1022 (+1 others)		Add 1 Skip side	Blorp 1 Glubbl blubbl
-src/items.lua:1037 (+1 others)		Skip Side Added	Glubbl Blubbl Blubbl
-src/items.lua:1042		Black Eyed Pea	Splubb Flubb Blubb
-src/items.lua:1043		This die can't roll a 1 on its next roll	Brubbl blobb brubbl blubba bu 1 glon blubb glubb blubba
-src/items.lua:1060		Grape	Blupp
-src/items.lua:1061 (+1 others)		Add 1 Bonus side	Blorp 1 Blup blubbl
-src/items.lua:1076 (+1 others)		Bonus Side Added	Blup Blubbl Blubbl
-src/items.lua:1081		Pieróg z Kapusto	Glubbl blorp Glorp
-src/items.lua:1099		Crack Candy	Glubbl Splubb
-src/items.lua:1100		Add 2 Power sides	Blorp 2 Brubbl flubb
-src/items.lua:1118		Power Sides Added	Brubbl Flubb Blubbl
-src/items.lua:1123		Lemon	Bloop
-src/items.lua:1124		Nudge this die +1 pip	Blupp brubbl blobb +1 glupp
-src/items.lua:1139 (+1 others)		+1 pip!	+1 glupp!
-src/items.lua:1144		Lime	Plupp
-src/items.lua:1145		Nudge this die -1 pip	Blupp brubbl blobb -1 glupp
-src/items.lua:1161		-1 pip!	-1 glupp!
-src/items.lua:1166		Pomelo	Splubb
-src/items.lua:1167		Flip this die to its opposite face	Bloop brubbl blobb blo blubb splubb blup
-src/items.lua:1182		Flipped!	Blorp!
-src/items.lua:1187		Orange	Glorp
-src/items.lua:1188		Nudge all other dice one pip towards this die's value	Blupp glupp glubbl blobbs blup glupp glorp brubbl plupp blup
-src/items.lua:1216		Pull!	Glupp!
-src/items.lua:1221		Tumor	Plopp
-src/items.lua:1222		Spawn a ghost clone of this die	Plupp bu splubb splubb blov brubbl blobb
-src/items.lua:1266		Cloned!	Glorp!
-src/items.lua:1271		Eye	Blup
-src/items.lua:1272		Add 1 pip to the shown side	Blorp 1 glupp blo bl flubb blubbl
-src/items.lua:1295		Bonus Puke	Blup Blup
-src/items.lua:1315		Mult Puke	Glubbi Blup
-src/items.lua:1330		Mult Side Added	Glubbi Blubbl Blubbl
-src/items.lua:1335		Debust Puke	Brubbl Blup
-src/items.lua:1355		Pig Puke	Blupp Blup
-src/items.lua:1375		Power Puke	Brubbl Blup
-src/items.lua:1396		Stuck Puke	Glupp Blup
-src/items.lua:1397		Add 1 Stuck side	Blorp 1 Glupp blubbl
-src/items.lua:1411		Stuck Side Added	Glupp Blubbl Blubbl
-src/items.lua:1416		Money Puke	Plupp Blup
-src/items.lua:1431		Golden Side Added	Splubb Blubbl Blubbl
-src/items.lua:1436		Skip Puke	Glubbl Blup
-src/items.lua:1456		Mirror Puke	Glupp Blup
-src/items.lua:1457		Add 1 Mirror side	Blorp 1 Glupp blubbl
-src/items.lua:1471		Mirror Side Added	Glupp Blubbl Blubbl
-src/items.lua:1476		Cracked Puke	Blubbl Blup
-src/items.lua:1477		Add 1 Cracked side	Blorp 1 Blubbl blubbl
-src/items.lua:1491 (+2 others)		Cracked Side Added	Blubbl Blubbl Blubbl
-src/items.lua:1496		Hardy Puke	Splubb Blup
-src/items.lua:1497		Add 1 Hardy side	Blorp 1 Splubb blubbl
-src/items.lua:1511		Hardy Side Added	Splubb Blubbl Blubbl
-src/items.lua:1516		Doom Puke	Blorp Blup
-src/items.lua:1517		Add 1 Doom side	Blorp 1 Blorp blubbl
-src/items.lua:1531 (+2 others)		Doom Side Added	Blorp Blubbl Blubbl
-src/items.lua:1536		Bust Puke	Glupp Blup
-src/items.lua:1537		Add 1 Bust side	Blorp 1 Glupp blubbl
-src/items.lua:1551 (+2 others)		Bust Side Added	Glupp Blubbl Blubbl
-src/items.lua:1556		Finger	Blubbl
-src/items.lua:1557		Puke a special effect out	Blup bu glorp glupp blubb
-src/items.lua:1581		Emetique (TM)	Blorp (BLORP)
-src/items.lua:1582		Puke all special effects out	Blup glupp glorp plupp blubb
-src/items.lua:1622		Pig Run	Blupp Plupp
-src/items.lua:1625		Pig sides score +${dynamic} Points, gains +5 per pig rerolled this turn. Resets each turn.	Blupp flubb glupp +${dynamic} Blips, blorp +5 brubbl blupp bloop brubbl glubbo. Blubbl glubb glubbo.
-src/items.lua:1649		pig bonus +${amount}!	blupp blup +${amount}!
-src/items.lua:1654		Thurible	Glubbl
-src/items.lua:1657		+${dynamic} Mult, gains +1 Mult each time a die is destroyed	+${dynamic} Glubbi, blorp +1 Glubbi glubb blubb bu blobb blis flubb
-src/items.lua:1671 (+1 others)		+1 mult	+1 glubbi
-src/items.lua:1684		Aging Baby	Glorp Plupp
-src/items.lua:1687		+${dynamic} Points, loses 10 each time it activates	+${dynamic} Blips, plupp 10 glubb blubb blupp blorp
-src/items.lua:1710		Growing Baby	Splubb Plupp
-src/items.lua:1713		+${dynamic} Points, gains +1 for each die rolled	+${dynamic} Blips, blorp +1 flor glubb blobb glorp
-src/items.lua:1729		+${amount} pts!	+${amount} blup!
-src/items.lua:1740		Bleeding Baby	Splubb Plupp
-src/items.lua:1743		+${dynamic} Mult, gains +1 Mult each time you bust, resets on wipe	+${dynamic} Glubbi, blorp +1 Glubbi glubb blubb blu glupp, blubbl glon splatt
-src/items.lua:1773		Grudge Baby	Blupp Plupp
-src/items.lua:1776		+${dynamic} Mult, loses 1 Mult each time you bank	+${dynamic} Glubbi, plupp 1 Glubbi glubb blubb blu blooba
-src/items.lua:1792		-1 mult	-1 glubbi
-src/items.lua:1804		Glass Gecko	Plupp Blup
-src/items.lua:1805		+10 Mult, destroyed on Bust	+10 Glubbi, flubb glon Glupp
-src/items.lua:1822		Belly	Splubb
-src/items.lua:1825		+${dynamic} Mult, gains +0.1 Mult each time a snack is eaten	+${dynamic} Glubbi, blorp +0.1 Glubbi glubb blubb bu nombl blis glubb
-src/items.lua:1840		+0.1 mult	+0.1 glubbi
-src/items.lua:1858		Worm	Flubb
-src/items.lua:1861		+2 Mult	+2 Glubbi
-src/items.lua:1872		Mahjong Tile	Blup Splubb
-src/items.lua:1875		+4 Mult	
-src/items.lua:1887		Clam	Blup
-src/items.lua:1890		+50 Points	+50 Blips
-src/items.lua:1905		+10 Mult, -2 Mult for each die scored	+10 Glubbi, -2 Glubbi flor glubb blobb blup
-src/items.lua:1922		Papa	Glorp
-src/items.lua:1925		+1 Mult per die scored	+1 Glubbi brubbl blobb blup
-src/items.lua:1941		Powered Claw	Glubbl Blorp
-src/items.lua:1944		+5 Mult, uses 1 Power	+5 Glubbi, blubb 1 Brubbl
-src/items.lua:1959		POY SIAN	SPLUBB GLORP
-src/items.lua:1962		+40 Points for each unrolled 4	+40 Blips flor glubb glubbl 4
-src/items.lua:1980		Hold The Ones	Blup Bl Plopp
-src/items.lua:1983		+1 Mult for each unrolled 1	+1 Glubbi flor glubb glubbl 1
-src/items.lua:2004		Zero Bust Turbo	Glubbl Glupp Bloop
-src/items.lua:2007		Banking with no Busts starts next turn with 10 Momentum	Bloobing blith glupp Glupps blorp glubb glubbo blith 10 Bubbl
-src/items.lua:2022		10 momentum!	10 bubbl!
-src/items.lua:2029		Mushieltador	Brrlblorp
-src/items.lua:2032		Gain a Bust Shield when banking if your last combo was any Straight	Brrl bu Glupp Plupp plupp bloobing flubb bluu brubbl blom blubbl brubbl Blup
-src/items.lua:2058		Survival Instinct	Blup Glupp
-src/items.lua:2061		x2 Mult on 1 turn left	x2 Glubbi glon 1 glubbo flubb
-src/items.lua:2092		Mandarin Peel	Brubbl Plupp
-src/items.lua:2095		+5 Mult for your first scored combo each turn	+5 Glubbi flor bluu plopp blup blom glubb glubbo
-src/items.lua:2116		Octopus Ting	Plopp Flubb
-src/items.lua:2119		x3 Mult for your first scored combo each level	x3 Glubbi flor bluu plopp blup blom glubb blubbo
-src/items.lua:2144		Four Legged Star	Flubb Glubb Plopp
-src/items.lua:2147		+300 Points for a combo containing Four Of A Kind	+300 Blips flor bu blom gluppglorp Flubb Blov BU Brubbl
-src/items.lua:2166		Minnesota Fats	Glorp Blorp
-src/items.lua:2169		+200 Points for any Straight	+200 Blips flor brubbl Blup
-src/items.lua:2182		Bimber	Bloop
-src/items.lua:2185		+200 Points for a Full House	+200 Blips flor bu Blubbl Blup
-src/items.lua:2199		Kind Berry Three	Brubbl Glorp Blubbl
-src/items.lua:2202		+200 Points for Three Of A Kind	+200 Blips flor Blubbl Blov BU Brubbl
-src/items.lua:2216		Two Pair Cat	Bloop Blupp Flubb
-src/items.lua:2219		+200 Points for a combo containing Two Pair	+200 Blips flor bu blom gluppglorp Bloop Blupp
-src/items.lua:2233		Just A Pair	Splubb BU Blupp
-src/items.lua:2236		+100 Points for a Pair	+100 Blips flor bu Blupp
-src/items.lua:2254		Fifteen Sum	Plopp Glupp
-src/items.lua:2257		x3 Mult if the scored dice sum to 15	x3 Glubbi flubb bl blup blobbs glupp blo 15
-src/items.lua:2277		Sumush	Bloop
-src/items.lua:2280		x2 Mult if the scored dice sum to 10	x2 Glubbi flubb bl blup blobbs glupp blo 10
-src/items.lua:2299		Lil' Choy	Glubbl' Brubbl
-src/items.lua:2302		x2 Mult when scoring 3 or fewer dice	x2 Glubbi plupp glupp 3 glor brrl blobbs
-src/items.lua:2320		Toad Hut	Bloop Brubbl
-src/items.lua:2323		x2 Mult for a combo containing Four Of A Kind	x2 Glubbi flor bu blom gluppglorp Flubb Blov BU Brubbl
-src/items.lua:2345		Pink Top	Plupp Blup
-src/items.lua:2348		x2 Mult for any Straight	x2 Glubbi flor brubbl Blup
-src/items.lua:2363		Absinthe	Plupp
-src/items.lua:2366		x2 Mult for a Full House	x2 Glubbi flor bu Blubbl Blup
-src/items.lua:2381		Three Legged Pirate	Blubbl Glubb Brrl
-src/items.lua:2384		x2 Mult for Three Of A Kind	x2 Glubbi flor Blubbl Blov BU Brubbl
-src/items.lua:2400		Two Pair Fat Cat	Bloop Blupp Brubbl Flubb
-src/items.lua:2403		x1.5 Mult for a combo containing Two Pair	x1.5 Glubbi flor bu blom gluppglorp Bloop Blupp
-src/items.lua:2419		Pair Mult Dog	Blupp Glubbi Plopp
-src/items.lua:2422		x1.5 Mult for Pair, Two Pair and Three Pair	x1.5 Glubbi flor Blupp, Bloop Blupp blan Blubbl Blupp
-src/items.lua:2439		Poppy	Plopp
-src/items.lua:2442		x2 Mult for a combo containing three 6s	x2 Glubbi flor bu blom gluppglorp blubbl 6plupp
-src/items.lua:2458		Sunnies	Splubb
-src/items.lua:2461		+0.5x Mult for each scored 2	+0.5glubb Glubbi flor glubb blup 2
-src/items.lua:2479		Cactus	Blorp
-src/items.lua:2482		+0.5x Mult per scored die	+0.5glubb Glubbi brubbl blup blobb
-src/items.lua:2500		Yolk	Blup
-src/items.lua:2503		Flipping a single coin +5 Mult	Glubbl bu flubb pling +5 Glubbi
-src/items.lua:2519		Lucky Leaf	Flubb Glubb
-src/items.lua:2522		x2 Mult if a coin is scored	x2 Glubbi flubb bu pling blis blup
-src/items.lua:2539		Soy Fish	Splubb Bloop
-src/items.lua:2542		+1 Mult per scored coin	+1 Glubbi brubbl blup pling
-src/items.lua:2553 (+1 others)		+${amount} mult	+${amount} glubbi
-src/items.lua:2560		Sardine	Plupp
-src/items.lua:2563		+50 Points per scored coin	+50 Blips brubbl blup pling
-src/items.lua:2574		+${amount} pts	+${amount} blup
-src/items.lua:2583		Snake Hold	Brrl Blup
-src/items.lua:2586		Snake Eyes hold score	Brrl Blorp blup glupp
-src/items.lua:2603		The Mask	Bl Flubb
-src/items.lua:2606		Combos with 6s hold score	Bloms blith 6plupp blup glupp
-src/items.lua:2624		Black Eye	Splubb Blup
-src/items.lua:2627		Spawn a Black Eyed Pea on Bust	Plupp bu Splubb Flubb Blubb glon Glupp
-src/items.lua:2635		Pea!	Blubb!
-src/items.lua:2641		Pain Tolerance	Blupp Glubb
-src/items.lua:2644		+1 Mult on Bust	+1 Glubbi glon Glupp
-src/items.lua:2652		+1 Mult	+1 Glubbi
-src/items.lua:2658		Masochist Rock	Glupp Plupp
-src/items.lua:2661		x2 Mult on Bust	x2 Glubbi glon Glupp
-src/items.lua:2670		x2 Mult	x2 Glubbi
-src/items.lua:2676		Palosanto	Splubb
-src/items.lua:2679		If Mult is over 10: +5 Mult	Flubb Glubbi blis splubb 10: +5 Glubbi
-src/items.lua:2692		Chestnut	Glubbl
-src/items.lua:2695		+50 Points when any item triggers	+50 Blips plupp brubbl plopp plopp
-src/items.lua:2708		Dolphin	Flubb
-src/items.lua:2711		Spawns a random snack each level	Blubb bu glubb nombl glubb blubbo
-src/items.lua:2735 (+1 others)		Snack!	Nombl!
-src/items.lua:2741		Lemonade Stand	Glorp Plupp
-src/items.lua:2744		Spawns a citrus slice each turn	Blubb bu blupp brrl glubb glubbo
-src/items.lua:2761		Crowd Pleaser	Glupp Bloop
-src/items.lua:2764		+50 Points per trinket on board	+50 Blips brubbl blinkle glon glubb
-src/items.lua:2781		Double Down	Blubb Plupp
-src/items.lua:2784		Flipping a single coin x2 Mult	Glubbl bu flubb pling x2 Glubbi
-src/items.lua:2809		Just An Anxious Guy	Splubb Bu Flubb Glubbl
-src/items.lua:2812		+4 Mult for Four Of A Kind	+4 Glubbi flor Flubb Blov BU Brubbl
-src/items.lua:2826		Double Three Blibber	Blubb Blubbl Plopp
-src/items.lua:2829		+3 Mult for Three Of A Kind	+3 Glubbi flor Blubbl Blov BU Brubbl
-src/items.lua:2842		Two Pair Mult Cat	Bloop Blupp Glubbi Flubb
-src/items.lua:2845		+4 Mult for Two Pair	+4 Glubbi flor Bloop Blupp
-src/items.lua:2858		Pair Cat	Blupp Flubb
-src/items.lua:2861		+2 Mult for Pair, Two Pair and Three Pair	+2 Glubbi flor Blupp, Bloop Blupp blan Blubbl Blupp
-src/items.lua:2878		Threes Gobber	Blupp Flubb
-src/items.lua:2881		+100 Points for a combo containing Three Of A Kind	+100 Blips flor bu blom gluppglorp Blubbl Blov BU Brubbl
-src/items.lua:2914		Gay Moth	Plupp Plopp
-src/items.lua:2917		+60 Points for rerolling a 6	+60 Blips flor plupp bu 6
-src/items.lua:2936		Mini Goob	Blupp Glorp
-src/items.lua:2939		+0.1 Mult per die rolled	+0.1 Glubbi brubbl blobb glorp
-src/items.lua:2954		Faster	Plupp
-src/items.lua:2957		+1 Momentum	+1 Bubbl
-src/items.lua:2965 (+1 others)		+1 momentum	+1 bubbl
-src/items.lua:2970		Spite	Blup
-src/items.lua:2973		On Bust, gain +1 Momentum	Glon Glupp, brrl +1 Bubbl
-src/items.lua:2988		Shortbread Biscuit	Ploppblupp Flubb
-src/items.lua:2991		+100 Points for rolling a single die	
-src/items.lua:3049		Banksia	Glorp
-src/items.lua:3052		Rerolling a Pair recharges Power	Plupp bu Blupp plupp Brubbl
-src/items.lua:3064 (+4 others)		Power Recharged	Brubbl Blorp
-src/items.lua:3071		Lycheye	Splubb
-src/items.lua:3072		Two Pair recharges Power	Bloop Blupp plupp Brubbl
-src/items.lua:3091		Bump Jug	Brrl Blup
-src/items.lua:3094		Scoring a Full House recharges Power	Glupp bu Blubbl Blup plupp Brubbl
-src/items.lua:3111		Full Send	Blubbl Blorp
-src/items.lua:3114		Rolling 5 or more dice recharges Power	
-src/items.lua:3131		God Give Me Strength	GLUBB Glupp Bloop Blupp
-src/items.lua:3134		Rolling a single die recharges Power	
-src/items.lua:3155		High Roller	Brubbl Brubbl
-src/items.lua:3158		+1 Mult for each 6 scored	+1 Glubbi flor glubb 6 blup
-src/items.lua:3173		Low Ball	Flubb Blorp
-src/items.lua:3176		x2 Mult if all scored dice are 3 or under	x2 Glubbi flubb glupp blup blobbs blar 3 glor brubbl
-src/items.lua:3199		Even Now	Blupp Blorp
-src/items.lua:3202		+50 Points per scored even die	+50 Blips brubbl blup blupp blobb
-src/items.lua:3219		Flesh Ring	Brrl Glubbl
-src/items.lua:3222		+1 Mult per scored odd die	+1 Glubbi brubbl blup glorp blobb
-src/items.lua:3238		Goldfish	Glubb
-src/items.lua:3241		+2 Mult for each scored 5	+2 Glubbi flor glubb blup 5
-src/items.lua:3256		Antler	Blorp
-src/items.lua:3259		+2 Mult for each scored 2	+2 Glubbi flor glubb blup 2
-src/items.lua:3274		Evil Eye	Glubb Blup
-src/items.lua:3277		+1 Mult for each scored 1	+1 Glubbi flor glubb blup 1
-src/items.lua:3292		Lil Buddy	Glubbl Blupp
-src/items.lua:3295		+60 Points for each scored 6	+60 Blips flor glubb blup 6
-src/items.lua:3310		Eagle's Claw	Plupp Blorp
-src/items.lua:3313		+100 Points for each scored 1	+100 Blips flor glubb blup 1
-src/items.lua:3328		Fast Glasses	Brrl Glupp
-src/items.lua:3331		+100 Points for each scored 2	+100 Blips flor glubb blup 2
-src/items.lua:3346		Shard	Glupp
-src/items.lua:3349		+1 Mult for each scored 3	+1 Glubbi flor glubb blup 3
-src/items.lua:3364		Shrimp	Brubbl
-src/items.lua:3367		+40 Points for each scored 4	+40 Blips flor glubb blup 4
-src/items.lua:3405		Stuck Bonus	Glupp Blup
-src/items.lua:3408		Each Stuck side scored gives +100 Points	Glubb Glupp blubbl blup plupp +100 Blips
-src/items.lua:3427		Bonus Bonus	Blup Blup
-src/items.lua:3430		Each Bonus side scored gives +100 Points	Glubb Blup blubbl blup plupp +100 Blips
-src/items.lua:3449		Power Bonus	Brubbl Blup
-src/items.lua:3452		Each Power side scored gives +100 Points	Glubb Brubbl blubbl blup plupp +100 Blips
-src/items.lua:3495		Stuck Mult	Glupp Glubbi
-src/items.lua:3498		Each Stuck side scored gives +4 Mult	Glubb Glupp blubbl blup plupp +4 Glubbi
-src/items.lua:3517		Bonus Mult	Blup Glubbi
-src/items.lua:3520		Each Bonus side scored gives +3 Mult	Glubb Blup blubbl blup plupp +3 Glubbi
-src/items.lua:3538		Power Mult	Brubbl Glubbi
-src/items.lua:3541		Each Power side scored gives +2 Mult	Glubb Brubbl blubbl blup plupp +2 Glubbi
-src/items.lua:3578		Rowan	Glupp
-src/items.lua:3581		+5 Mult if the combo contains at least three 1s	+5 Glubbi flubb bl blom blubbl splubb blubbl blubbl 1plupp
-src/items.lua:3705		House Stamp	Blup Flubb
-src/items.lua:3708		Rerolling a Three Of A Kind permanently upgrades Full House. Fades with use.	Plupp bu Blubbl Blov BU Brubbl bloopplupp glubbl Blubbl Blup. Plupp blith glubb.
-src/items.lua:3723 (+1 others)		Faded	Blubbl
-src/items.lua:3737		Full House Upgraded	Blubbl Blup Blorp
-src/items.lua:3745		Stamp	Flubb
-src/items.lua:3748		Rerolling a combo upgrades it permanently. Fades with use.	Plupp bu blom glubbl blupp bloopplupp. Plupp blith glubb.
-src/items.lua:3752		On Roll	Glon Blubba
-src/items.lua:3780		${combo} Upgraded	${combo} Blorp
-src/items.lua:3793		Gouda	Brubbl
-src/items.lua:3796		Rerolling a Three Of A Kind gives 2¥	Plupp bu Blubbl Blov BU Brubbl plupp 2¥
-src/items.lua:3818		Pearl	Plopp
-src/items.lua:3821		+1¥ for every two scored 1s	+1¥ flor bloop bloop blup 1plupp
-src/items.lua:3844		Queen's Jug	Plupp Blup
-src/items.lua:3847		+1¥ for a Full House	+1¥ flor bu Blubbl Blup
-src/items.lua:3864		Star Biscuit	Plopp Flubb
-src/items.lua:3867		Rolling 2+ dice while at 1 Bust gives 2¥	Blubbl 2+ blobbs blupp splubb 1 Glupp plupp 2¥
-src/items.lua:3892		Overtime Star	Blupp Plopp
-src/items.lua:3895		Gain a Bust Shield for scoring Star Bonanza	Brrl bu Glupp Plupp flor glupp Plopp Brrl
-src/items.lua:3908		Already shielded	Plopp brubbl
-src/items.lua:3915		Trotter	Brrl
-src/items.lua:3918		Pig Points x2	Blupp Blips x2
-src/items.lua:3933		Piglet	Blublet
-src/items.lua:3936		+3 Mult for rerolling 3 or more Pig sides	+3 Glubbi flor plupp 3 glor blupp Blupp flubb
-src/items.lua:3955		Chew Toy	Plopp Plopp
-src/items.lua:3958		1 in 6 chance to spawn a coin when rerolling a Pig side	1 blin 6 blubb blo plupp bu pling plupp plupp bu Blupp blubbl
-src/items.lua:4013		Paw	Blubbl
-src/items.lua:4016		Rolling a single die adds +2 Mult	Blubbl bu flubb blobb glubbl +2 Glubbi
-src/items.lua:4029		Incel	Blubbl
-src/items.lua:4032		Rerolling a combo containing a Pair gives +100 Points and +1 Mult	Plupp bu blom gluppglorp bu Blupp plupp +100 Blips blan +1 Glubbi
-src/items.lua:4062		Scoring a Full House spawns a ghost die	Glupp bu Blubbl Blup blubb bu splubb blobb
-src/items.lua:4076 (+5 others)		Ghost!	Splubb!
-src/items.lua:4082		Ghostanza	Glorp
-src/items.lua:4085		Scoring a Star Bonanza spawns 4 ghost dice	Glupp bu Plopp Brrl blubb 4 splubb blobbs
-src/items.lua:4105		Ghost Biscuit	Splubb Flubb
-src/items.lua:4108		Roll exactly 1 die - if it's a 5 or 6, spawn a ghost die	Blubba splubb 1 blobb - flubb blorp bu 5 glor 6, plupp bu splubb blobb
-src/items.lua:4128		Coin Biscuit	Pling Flubb
-src/items.lua:4131		Roll exactly 1 die - if it's a 2, +1¥	Blubba splubb 1 blobb - flubb blorp bu 2, +1¥
-src/items.lua:4152		Mult Biscuit	Glubbi Flubb
-src/items.lua:4155		Roll exactly 1 die - if it's a 3 or 4, +1 Mult	Blubba splubb 1 blobb - flubb blorp bu 3 glor 4, +1 Glubbi
-src/items.lua:4173		Flask Of Ghost	Plupp Blov Splubb
-src/items.lua:4176		Rerolling a combo that contains a Three Of A Kind creates 2 ghost dice	Plupp bu blom flubb blubbl bu Blubbl Blov BU Brubbl brrl 2 splubb blobbs
-src/items.lua:4198		Bone	Plupp
-src/items.lua:4201		Combos containing a ghost die score +100 Points	Bloms gluppglorp bu splubb blobb glupp +100 Blips
-src/items.lua:4219		Razor	Flubb
-src/items.lua:4222		1 in 3 chance to spawn a ghost die on Bust	1 blin 3 blubb blo plupp bu splubb blobb glon Glupp
-src/items.lua:4245		Scared Straight	Brubbl Blup
-src/items.lua:4248		Scoring a Straight spawns a ghost die	Glupp bu Blup blubb bu splubb blobb
-src/items.lua:4271		Cell	Blubb
-src/items.lua:4274		Start each turn with a Bust Shield	Brrl glubb glubbo blith bu Glupp Plupp
-src/items.lua:4285		shield!	plupp!
-src/items.lua:4294		Jade Bracelet	Splubb Flubb
-src/items.lua:4297		3 in 4 chance to block an instant wipe.\n${dynamic} uses left.	3 blin 4 blubb blo plupp bu brrl splatt.\n${dynamic} blubb flubb.
-src/items.lua:4320		Shattered!	Glubbl!
-src/items.lua:4335		Four Cell	Flubb Blubb
-src/items.lua:4338		If you would bust, each unrolled 4 gives a 20% chance to cancel it	Flubb blu blup glupp, glubb glubbl 4 plupp bu 20% cglorp blo bloop blupp
-src/items.lua:4365		Candle	Glupp
-src/items.lua:4366		1 in 2 chance to turn an instant wipe into a single Bust	1 blin 2 blubb blo glubbo bu brrl splatt bloop bu flubb Glupp
-src/items.lua:4377		oof	bloop
-src/items.lua:4389		Reduced!	Bloop!
-src/items.lua:4401		Anis Star	Blorp Plopp
-src/items.lua:4404		Bust Limit +1	Glupp Plupp +1
-src/items.lua:4478		Soft Wipes	Bloop Blupp
-src/items.lua:4481		Wiping doesn't clear dice or score	Blupp blupp plupp blobbs glor glupp
-src/items.lua:4500		Taro Jelly	Glupp Blupp
-src/items.lua:4503		Scoring 5s flips them to 6s	Glupp 5plupp glubbl blupp blo 6plupp
-src/items.lua:4517		Osmanthus Jelly	Plopp Blupp
-src/items.lua:4520		Scoring 1s flips them to 3s	Glupp 1plupp glubbl blupp blo 3plupp
-src/items.lua:4536		Sludge Jelly	Glorp Blupp
-src/items.lua:4539		2s always reroll into 3s	2plupp glorp reblubba bloop 3plupp
-src/items.lua:4564		Bubblegum Jelly	Blup Blupp
-src/items.lua:4567		3s always reroll into 5s	3plupp glorp reblubba bloop 5plupp
-src/items.lua:4592		Flip Flop	Bloop Blupp
-src/items.lua:4596		Odd numbers roll into even and vice versa.\nDoesn't affect coins.	Glorp brubbl blubba bloop blupp blan flubb plopp.\nBlupp blupp plings.
-src/items.lua:4624		Second Chance Jelly	Splubb Blubb Blupp
-src/items.lua:4628		1s can't reroll into 1s\nDoesn't affect coins.	1plupp brubbl reblubba bloop 1plupp\nBlupp blupp plings.
-src/items.lua:4656		Knucklebone	Splubbbrubbl
-src/items.lua:4659		+1 Bust Limit, -1 Turn Limit 	+1 Glupp Plupp, -1 Glubbo Plupp
-src/items.lua:4682		Turn Plus Bust Minus	Glubbo Blorp Glupp Flubb
-src/items.lua:4685		-1 Bust Limit, +1 Turn Limit 	-1 Glupp Plupp, +1 Glubbo Plupp
-src/items.lua:4708		Loopongo	Brrl
-src/items.lua:4711		Straights can loop	Flubb blupp splubb
-src/items.lua:4749		Lotus Loan	Plopp Blubbl
-src/items.lua:4752		Free money?	Glupp plupp?
-src/items.lua:4819 (+2 others)		Even Bad	Blupp Glupp
-src/items.lua:4820		-50 Points per scored even die	-50 Blips brubbl blup blupp blobb
-src/items.lua:4839 (+2 others)		Odd Bad	Glorp Glupp
-src/items.lua:4840		-1 Mult per scored odd die	-1 Glubbi brubbl blup glorp blobb
-src/items.lua:4859		-150 Points per scored even die	-150 Blips brubbl blup blupp blobb
-src/items.lua:4878		-3 Mult per scored odd die	-3 Glubbi brubbl blup glorp blobb
-src/items.lua:4897 (+1 others)		-200 Points per scored even die	-200 Blips brubbl blup blupp blobb
-src/items.lua:4916 (+1 others)		-5 Mult per scored odd die	-5 Glubbi brubbl blup glorp blobb
-src/items.lua:4934		Points -100	Blips -100
-src/items.lua:4935 (+1 others)		-100 Points	-100 Blips
-src/items.lua:4949		Points -150	Blips -150
-src/items.lua:4950		-150 Points	-150 Blips
-src/items.lua:4963		Points -250	Blips -250
-src/items.lua:4964		-250 Points	-250 Blips
-src/items.lua:4977		Mult -1	Glubbi -1
-src/items.lua:4978		-1 Mult	-1 Glubbi
-src/items.lua:4991		Mult -2	Glubbi -2
-src/items.lua:4992		-2 Mult	-2 Glubbi
-src/items.lua:5005		Mult -4	Glubbi -4
-src/items.lua:5006		-4 Mult	-4 Glubbi
-src/items.lua:5019		Half Points	Plupp Blips
-src/items.lua:5020		Halves the Points	Blubb bl Blips
-src/items.lua:5035		Half Mult	Plupp Glubbi
-src/items.lua:5036		Halves the Mult	Blubb bl Glubbi
-src/items.lua:5051 (+1 others)		Bad Momentum	Glupp Bubbl
-src/items.lua:5052		Start each turn with -2 Momentum	Brrl glubb glubbo blith -2 Bubbl
-src/items.lua:5062		-2 Momentum	-2 Bubbl
-src/items.lua:5068 (+1 others)		-1 Momentum	-1 Bubbl
-src/items.lua:5083		Sore Loser	Blubbl Plupp
-src/items.lua:5084		Bust resets Momentum	Glupp blubbl Bubbl
-src/items.lua:5100		Two Left Feet	Bloop Flubb Brrl
-src/items.lua:5101		-100 Points for rolling exactly 2 dice	
-src/items.lua:5117		6s and 4s to 1s	6plupp blan 4plupp blo 1plupp
-src/items.lua:5118		6s and 4s always reroll into 1s	6plupp blan 4plupp glorp reblubba bloop 1plupp
-src/items.lua:5148		6s to 1s	6plupp blo 1plupp
-src/items.lua:5149		6s always reroll into 1s	6plupp glorp reblubba bloop 1plupp
-src/items.lua:5180		Minus Max Bust	Flubb Flubb Glupp
-src/items.lua:5181		Bust Limit -1	Glupp Plupp -1
-src/items.lua:5198		Turn Down Power Up	Glubbo Plupp Brubbl Blup
-src/items.lua:5199		Turn Limit -1, Power Limit +2	Glubbo Plupp -1, Brubbl Plupp +2
-src/items.lua:5224 (+1 others)		Cursed Score	Brubbl Glupp
-src/items.lua:5230 (+1 others)		Feels bad for you	Glubb glupp flor blu
-src/items.lua:5231		Each time you score, 1 random die takes damage	Glubb blubb blu glupp, 1 glubb blobb blubbl plupp
-src/items.lua:5248 (+1 others)		cursed!	brubbl!
-src/items.lua:5260		Each time you bank, 5 random dice take damage	Glubb blubb blu blooba, 5 glubb blobbs blubb plupp
-src/items.lua:5287		Small Minded	Blubbl Glupp
-src/items.lua:5288		Combos above 4 dice give no score	Bloms brubbl 4 blobbs glupp glupp glupp
-src/items.lua:5326		Bad Threes	Glupp Blupp
-src/items.lua:5327		-3 Mult per scored 3	-3 Glubbi brubbl blup 3
-src/items.lua:5344		Bad Fours	Glupp Brrl
-src/items.lua:5345		-4 Mult per scored 4	-4 Glubbi brubbl blup 4
-src/items.lua:5362		Bad Sixes	Glupp Glubbl
-src/items.lua:5363		-6 Mult per scored 6	-6 Glubbi brubbl blup 6
-src/items.lua:5381		Pair Aversion	Blupp Plupp
-src/items.lua:5382		Combos containing a Pair -3 Mult	Bloms gluppglorp bu Blupp -3 Glubbi
-src/items.lua:5402		Triple Trouble	Glubbl Blubb
-src/items.lua:5403		Combos containing Three Of A Kind -4 Mult	Bloms gluppglorp Blubbl Blov BU Brubbl -4 Glubbi
-src/items.lua:5427		No Four Kind	Glupp Flubb Brubbl
-src/items.lua:5428		Four Of A Kind gives no score	Flubb Blov BU Brubbl plupp glupp glupp
-src/items.lua:5453		Empty House	Glorp Blup
-src/items.lua:5454		Full House gives no score	Blubbl Blup plupp glupp glupp
-src/items.lua:5480		No Bonanza	Glupp Brrl
-src/items.lua:5481		Star Bonanza gives no score	Plopp Brrl plupp glupp glupp
-src/items.lua:5507		Slippery 6s	Flubb 6plupp
-src/items.lua:5508		Auto-reroll dice that show a 6	Blup-reblubba blobbs flubb plopp bu 6
-src/items.lua:5526		Stupid Dice	Blup Blobbs
-src/items.lua:5527		Dice randomly reroll on their own.	Blobbs glubb reblubba glon splubb glubbl.
-src/items.lua:5617		Slippery Threes	Flubb Blupp
-src/items.lua:5618		Auto-reroll dice that show a 3, score 33 Points for each	Blup-reblubba blobbs flubb plopp bu 3, glupp 33 Blips flor glubb
-src/items.lua:5639 (+4 others)		Bad Tooth	Glupp Blup
-src/items.lua:5640		-3 Mult	-3 Glubbi
-src/items.lua:5668		Dice Limit -1	Blobbs Plupp -1
-src/items.lua:5729 (+12 others)		Dues	Brubbl
-src/items.lua:5730		Rerolls all dice and coins.\n5% chance to activate on dice rolls.	Glubbl glupp blobbs blan plings.\n5% cglorp blo glorp glon blobbs blupp.
-src/items.lua:5751		Rerolled!	Bloop!
-src/items.lua:5757		Rerolls a single random coin.\n5% chance to activate on dice rolls.	Glubbl bu flubb glubb pling.\n5% cglorp blo glorp glon blobbs blupp.
-src/items.lua:5779		Coin rerolled!	Pling bloop!
-src/items.lua:5785		All dice roll 1s.\n5% chance to activate on dice rolls.	Glupp blobbs blubba 1plupp.\n5% cglorp blo glorp glon blobbs blupp.
-src/items.lua:5812		Deal 4 damage spread randomly across dice.\n5% chance to activate on dice rolls.	Glorp 4 plupp blupp glubb glupp blobbs.\n5% cglorp blo glorp glon blobbs blupp.
-src/items.lua:5829 (+1 others)		No dice!	Glupp blobbs!
-src/items.lua:5838		Cursed!	Brubbl!
-src/items.lua:5845		Deal 1 damage to all dice.\n5% chance to activate on dice rolls.	Glorp 1 plupp blo glupp blobbs.\n5% cglorp blo glorp glon blobbs blupp.
-src/items.lua:5869		Damaged!	Blubb!
-src/items.lua:5875		Deal 2 damage to the selected die.\n5% chance to activate on dice rolls.	Glorp 2 plupp blo bl blubbl blobb.\n5% cglorp blo glorp glon blobbs blupp.
-src/items.lua:5897 (+4 others)		Select 1 die	Plopp 1 blobb
-src/items.lua:5907		Add 1 Bust side to the selected die.\n5% chance to activate on dice rolls.	Blorp 1 Glupp blubbl blo bl blubbl blobb.\n5% cglorp blo glorp glon blobbs blupp.
-src/items.lua:5940 (+2 others)		No free side	Glupp glupp blubbl
-src/items.lua:5951		Destroy the selected die.\n5% chance to activate on dice rolls.	Glubb bl blubbl blobb.\n5% cglorp blo glorp glon blobbs blupp.
-src/items.lua:5983		Add 1 Cracked side to the selected die.\n5% chance to activate on dice rolls.	Blorp 1 Blubbl blubbl blo bl blubbl blobb.\n5% cglorp blo glorp glon blobbs blupp.
-src/items.lua:6027		Add 1 Doom side to the selected die.\n5% chance to activate on dice rolls.	Blorp 1 Blorp blubbl blo bl blubbl blobb.\n5% cglorp blo glorp glon blobbs blupp.
-src/items.lua:6071		+1 Bust.\n5% chance to activate on dice rolls.	+1 Glupp.\n5% cglorp blo glorp glon blobbs blupp.
-src/items.lua:6087		+1 Bust	+1 Glupp
-src/items.lua:6098		+3 Bust.\n5% chance to activate on dice rolls.	+3 Glupp.\n5% cglorp blo glorp glon blobbs blupp.
-src/items.lua:6114		+3 Bust	+3 Glupp
-src/items.lua:6125		-1 Turn.\n5% chance to activate on dice rolls.	-1 Glubbo.\n5% cglorp blo glorp glon blobbs blupp.
-src/items.lua:6142		-1 Turn	-1 Glubbo
-src/items.lua:6155		Fish Bucket	Bloop Brubbl
-src/items.lua:6165		No fish power!	Glupp bloop brubbl!
-src/items.lua:6175		+15 Fish!	+15 Bloop!
-src/items.lua:6180		Fish Offering	Bloop Glubb
-src/items.lua:6181		-10 §, -5% difficulty	-10 §, -5% dblubb
-src/items.lua:6190		Need 10 fish!	Brrl 10 bloop!
-src/items.lua:6197		-5% difficulty!	-5% dblubb!
-src/items.lua:6202		Option Call	Plupp Blubbl
-src/items.lua:6212		Need 20 fish!	Brrl 20 bloop!
-src/items.lua:6228		Pump	Blubb
-src/items.lua:6229		+10 § price at the next market	+10 § blubbl splubb bl glubb splubb
-src/items.lua:6239		Price pumped!	Blubbl blorp!
-src/items.lua:6244		Dump	Plupp
-src/items.lua:6245		-10 § price at the next market	-10 § blubbl splubb bl glubb splubb
-src/items.lua:6255		Price dumped!	Blubbl bloop!
-src/items.lua:6262		Roe	Blorp
-src/items.lua:6263		+3 § at the start of each level	+3 § splubb bl brrl blov glubb blubbo
-src/items.lua:6284		Whale Oil	Blup Glubbl
-src/items.lua:6285		+1 Points per § on score	+1 Blips brubbl § glon glupp
-src/items.lua:6299		Carp Aspic	Brrl Bloop
-src/items.lua:6300		+1 Mult per 5 § spent this level	+1 Glubbi brubbl 5 § glupp brubbl blubbo
-src/items.lua:6308		+${MULT} Mult, gains +1 per 5 § spent this level	+${MULT} Glubbi, blorp +1 brubbl 5 § glupp brubbl blubbo
-src/items.lua:6331		Piranha	Plopp
-src/items.lua:6332		+5 Mult.\nEats 10 § at the start of each level.\nIf you can't feed it, it eats a die instead.	+5 Glubbi.\nBloop 10 § splubb bl brrl blov glubb blubbo.\nFlubb blu brubbl glorp blupp, blupp bloop bu blobb splubb.
-src/items.lua:6353		Ate a die!	Plopp bu blobb!
-src/items.lua:6355		Hungry!	Glubb!
-src/items.lua:6365		Barnacle	Glupp
-src/items.lua:6366		+1 § per 10 § held at the start of each level	+1 § brubbl 10 § brrl splubb bl brrl blov glubb blubbo
-src/items.lua:6389		Ball Gag	Blorp Glupp
-src/items.lua:6390		Dice pip becomes 1	Blobbs glupp plupp 1
-src/items.lua:6408		Peanut	Glubbl
-src/items.lua:6409		Dice pip becomes 2	Blobbs glupp plupp 2
-src/items.lua:6427		Wood Sorrel	Brubbl Plupp
-src/items.lua:6428		Dice pip becomes 3	Blobbs glupp plupp 3
-src/items.lua:6446		Picture Frame	Plupp Flubb
-src/items.lua:6447		Dice pip becomes 4	Blobbs glupp plupp 4
-src/items.lua:6465		Paper Star	Splubb Plopp
-src/items.lua:6466		Dice pip becomes 5	Blobbs glupp plupp 5
-src/items.lua:6484		Honeycomb	Glorp
-src/items.lua:6485		Dice pip becomes 6	Blobbs glupp plupp 6
-src/items.lua:6504		Scrambled Eggs	Blorp Plupp
-src/items.lua:6505		Dice pip becomes ???	Blobbs glupp plupp ???
-src/items.lua:6532		Maths Test	Blubb Splubb
-src/items.lua:6535		Spawn 0-6 random numeracy foods	Plupp 0-6 glubb glupp glubbl
-src/items.lua:6565		Result: $grade / $total	Blup: $grade / $total
-src/items.lua:6576		Clown Shoes	Glorp Plupp
-src/items.lua:6579		Nudge all dice either -1 or +3 pips	Blupp glupp blobbs glubb -1 glor +3 brubbl
-src/items.lua:6588 (+1 others)		roll dice first	blubba blobbs plopp
-src/items.lua:6606		Bamboozle	Plupp
-src/items.lua:6609		Nudge all dice individually between +0 and +2 pips.	Blupp glupp blobbs glorpglupp blup +0 blan +2 brubbl.
+src/items.lua:352		GOTTA GO FAST	BLORP BLUBB BRRL
+src/items.lua:355		Momentum x2	Bubbl x2
+src/items.lua:364		x2 momentum	x2 bubbl
+src/items.lua:369		Peek	Blupp
+src/items.lua:372		Gain 1¥ per die showing 1	Brrl 1¥ brubbl blobb glubbl 1
+src/items.lua:394 (+2 others)		No 1s!	Glupp 1plupp!
+src/items.lua:400		Peek II	Blupp FLUBB
+src/items.lua:403		Gain 1¥ per die showing 3	Brrl 1¥ brubbl blobb glubbl 3
+src/items.lua:425		No 3s!	Glupp 3plupp!
+src/items.lua:434		-1 Bust per die showing 1	-1 Glupp brubbl blobb glubbl 1
+src/items.lua:460		Scratchie	Bloop
+src/items.lua:463		Gain 0-3¥	Brrl 0-3¥
+src/items.lua:480 (+1 others)		Nothing!	Glupp!
+src/items.lua:486		Scratchie II	Bloop FLUBB
+src/items.lua:489		1 in 3 chance to win 6¥	1 blin 3 blubb blo plupp 6¥
+src/items.lua:505		No luck	Glupp bloop
+src/items.lua:511		Scratchie III	Bloop GLUPP
+src/items.lua:514		Gain 1-4¥	Brrl 1-4¥
+src/items.lua:538		Copycat	Blubb
+src/items.lua:541		Repeat the last spell used	Blup bl brubbl glim glubbl
+src/items.lua:552 (+1 others)		Nothing to copy!	Glupp blo plupp!
+src/items.lua:555 (+1 others)		Copy!	Plupp!
+src/items.lua:561		Copybigdog	Blorpblorp
+src/items.lua:565		Repeat the last spell used, twice	Blup bl brubbl glim glubbl, flubb
+src/items.lua:588		Heal	Flubb
+src/items.lua:591		All dice +4 ♥	
+src/items.lua:605 (+1 others)		Healed!	Glubb!
+src/items.lua:610		Lil Heal	
+src/items.lua:613		All dice +2 ♥	
+src/items.lua:632		Clutch	Blupp
+src/items.lua:635		Hold your next score	Blup bluu glubb glupp
+src/items.lua:644 (+2 others)		Hold!	Blup!
+src/items.lua:650		Snack Bag	Nombl Blupp
+src/items.lua:653		Spawn 2-3 random snack items	Plupp 2-3 glubb nombl glorp
+src/items.lua:673		${amount} foods!	${amount} glubbl!
+src/items.lua:678		Gambling Bag	Blubb Blupp
+src/items.lua:681		Send it	Blorp blupp
+src/items.lua:708		${amount} chances!	${amount} blubb!
+src/items.lua:713		Citrus Bag	Blupp Blupp
+src/items.lua:716		Spawn 5 citrus slices	Plupp 5 blupp blupp
+src/items.lua:730		Citrus!	Blupp!
+src/items.lua:735		Butcher's Bag	Flubb Blupp
+src/items.lua:738		Spawn 3 pig snacks	Plupp 3 blupp nombls
+src/items.lua:751		Rare find!	Brubbl bloop!
+src/items.lua:758		Meat!	Splubb!
+src/items.lua:764		Dumpling Bag	Plopp Blupp
+src/items.lua:767		Spawn 3 random dumplings	Plupp 3 glubb glubbl
+src/items.lua:781		3 dumplings!	3 glubbl!
+src/items.lua:788		Caffeine Pill	Glubb Blup
+src/items.lua:789		Make a die impatient	Plupp bu blobb brubbl
+src/items.lua:803		Impatient!	Brubbl!
+src/items.lua:808		Tab	Blupp
+src/items.lua:809		Make a die cycle	Plupp bu blobb glubb
+src/items.lua:823		Cycling!	Brubbl!
+src/items.lua:828		Bolero	Splubb
+src/items.lua:829		Add 3 Bonus sides	Blorp 3 Blup flubb
+src/items.lua:847		Bonus Sides Added	Blup Flubb Blubbl
+src/items.lua:852		Eggplant	Plopp
+src/items.lua:853		Add 3 Mult sides	Blorp 3 Glubbi flubb
+src/items.lua:871 (+1 others)		Mult Sides Added	Glubbi Flubb Blubbl
+src/items.lua:876		Mangosteen	Blupbloop
+src/items.lua:877 (+1 others)		Add 1 Mult side	Blorp 1 Glubbi blubbl
+src/items.lua:901		Har Gow	Blup Blup
+src/items.lua:902 (+1 others)		Add 1 Golden side	Blorp 1 Splubb blubbl
+src/items.lua:921		Golden side Added	Splubb blubbl Blubbl
+src/items.lua:926		Pork Chop	Plupp Bloop
+src/items.lua:927		Add 4 Pig sides	Blorp 4 Blupp flubb
+src/items.lua:945		Pig Sides Added	Blupp Flubb Blubbl
+src/items.lua:950		Hubba Bubba	Plopp Blupp
+src/items.lua:951 (+1 others)		Add 1 Debust side	Blorp 1 Brubbl blubbl
+src/items.lua:969 (+1 others)		Debust Side Added	Brubbl Blubbl Blubbl
+src/items.lua:974		Ritalin	Blorp
+src/items.lua:975 (+1 others)		Add 1 Power side	Blorp 1 Brubbl blubbl
+src/items.lua:994 (+1 others)		Power Side Added	Brubbl Blubbl Blubbl
+src/items.lua:999		Mochi	Blubb
+src/items.lua:1000		Add 5 Stuck sides	Blorp 5 Glupp flubb
+src/items.lua:1018		Stuck Sides Added	Glupp Flubb Blubbl
+src/items.lua:1023		Bacon	Plupp
+src/items.lua:1024 (+1 others)		Add 1 Pig side	Blorp 1 Blupp blubbl
+src/items.lua:1039 (+1 others)		Pig Side Added	Blupp Blubbl Blubbl
+src/items.lua:1044		xnx	blup
+src/items.lua:1045 (+1 others)		Add 1 Skip side	Blorp 1 Glubbl blubbl
+src/items.lua:1060 (+1 others)		Skip Side Added	Glubbl Blubbl Blubbl
+src/items.lua:1065		Black Eyed Pea	Splubb Flubb Blubb
+src/items.lua:1066		This die can't roll a 1 on its next roll	Brubbl blobb brubbl blubba bu 1 glon blubb glubb blubba
+src/items.lua:1083		Grape	Blupp
+src/items.lua:1084 (+1 others)		Add 1 Bonus side	Blorp 1 Blup blubbl
+src/items.lua:1099 (+1 others)		Bonus Side Added	Blup Blubbl Blubbl
+src/items.lua:1104		Pieróg z Kapusto	Glubbl blorp Glorp
+src/items.lua:1122		Crack Candy	Glubbl Splubb
+src/items.lua:1123		Add 2 Power sides	Blorp 2 Brubbl flubb
+src/items.lua:1141		Power Sides Added	Brubbl Flubb Blubbl
+src/items.lua:1146		Lemon	Bloop
+src/items.lua:1147		Nudge this die +1 pip	Blupp brubbl blobb +1 glupp
+src/items.lua:1162 (+1 others)		+1 pip!	+1 glupp!
+src/items.lua:1167		Lime	Plupp
+src/items.lua:1168		Nudge this die -1 pip	Blupp brubbl blobb -1 glupp
+src/items.lua:1184		-1 pip!	-1 glupp!
+src/items.lua:1189		Pomelo	Splubb
+src/items.lua:1190		Flip this die to its opposite face	Bloop brubbl blobb blo blubb splubb blup
+src/items.lua:1205		Flipped!	Blorp!
+src/items.lua:1210		Orange	Glorp
+src/items.lua:1211		Nudge all other dice one pip towards this die's value	Blupp glupp glubbl blobbs blup glupp glorp brubbl plupp blup
+src/items.lua:1239		Pull!	Glupp!
+src/items.lua:1244		Tumor	Plopp
+src/items.lua:1245		Spawn a ghost clone of this die	Plupp bu splubb splubb blov brubbl blobb
+src/items.lua:1290		Cloned!	Glorp!
+src/items.lua:1295		Eye	Blup
+src/items.lua:1296		Add 1 pip to the shown side	Blorp 1 glupp blo bl flubb blubbl
+src/items.lua:1319		Bonus Puke	Blup Blup
+src/items.lua:1339		Mult Puke	Glubbi Blup
+src/items.lua:1354		Mult Side Added	Glubbi Blubbl Blubbl
+src/items.lua:1359		Debust Puke	Brubbl Blup
+src/items.lua:1379		Pig Puke	Blupp Blup
+src/items.lua:1399		Power Puke	Brubbl Blup
+src/items.lua:1420		Stuck Puke	Glupp Blup
+src/items.lua:1421		Add 1 Stuck side	Blorp 1 Glupp blubbl
+src/items.lua:1435		Stuck Side Added	Glupp Blubbl Blubbl
+src/items.lua:1440		Money Puke	Plupp Blup
+src/items.lua:1455		Golden Side Added	Splubb Blubbl Blubbl
+src/items.lua:1460		Skip Puke	Glubbl Blup
+src/items.lua:1480		Mirror Puke	Glupp Blup
+src/items.lua:1481		Add 1 Mirror side	Blorp 1 Glupp blubbl
+src/items.lua:1495		Mirror Side Added	Glupp Blubbl Blubbl
+src/items.lua:1500		Cracked Puke	Blubbl Blup
+src/items.lua:1501		Add 1 Cracked side	Blorp 1 Blubbl blubbl
+src/items.lua:1515 (+2 others)		Cracked Side Added	Blubbl Blubbl Blubbl
+src/items.lua:1520		Hardy Puke	Splubb Blup
+src/items.lua:1521		Add 1 Hardy side	Blorp 1 Splubb blubbl
+src/items.lua:1535		Hardy Side Added	Splubb Blubbl Blubbl
+src/items.lua:1540		Doom Puke	Blorp Blup
+src/items.lua:1541		Add 1 Doom side	Blorp 1 Blorp blubbl
+src/items.lua:1555 (+2 others)		Doom Side Added	Blorp Blubbl Blubbl
+src/items.lua:1560		Bust Puke	Glupp Blup
+src/items.lua:1561		Add 1 Bust side	Blorp 1 Glupp blubbl
+src/items.lua:1575 (+2 others)		Bust Side Added	Glupp Blubbl Blubbl
+src/items.lua:1580		Finger	Blubbl
+src/items.lua:1581		Puke a special effect out	Blup bu glorp glupp blubb
+src/items.lua:1605		Emetique (TM)	Blorp (BLORP)
+src/items.lua:1606		Puke all special effects out	Blup glupp glorp plupp blubb
+src/items.lua:1646		Pig Run	Blupp Plupp
+src/items.lua:1649		Pig sides score +${dynamic} Points, gains +5 per pig rerolled this turn. Resets each turn.	Blupp flubb glupp +${dynamic} Blips, blorp +5 brubbl blupp bloop brubbl glubbo. Blubbl glubb glubbo.
+src/items.lua:1673		pig bonus +${amount}!	blupp blup +${amount}!
+src/items.lua:1678		Thurible	Glubbl
+src/items.lua:1681		+${dynamic} Mult, gains +1 Mult each time a die is destroyed	+${dynamic} Glubbi, blorp +1 Glubbi glubb blubb bu blobb blis flubb
+src/items.lua:1695 (+1 others)		+1 mult	+1 glubbi
+src/items.lua:1708		Aging Baby	Glorp Plupp
+src/items.lua:1711		+${dynamic} Points, loses 10 each time it activates	+${dynamic} Blips, plupp 10 glubb blubb blupp blorp
+src/items.lua:1734		Growing Baby	Splubb Plupp
+src/items.lua:1737		+${dynamic} Points, gains +1 for each die rolled	+${dynamic} Blips, blorp +1 flor glubb blobb glorp
+src/items.lua:1753		+${amount} pts!	+${amount} blup!
+src/items.lua:1764		Bleeding Baby	Splubb Plupp
+src/items.lua:1767		+${dynamic} Mult, gains +1 Mult each time you bust, resets on wipe	+${dynamic} Glubbi, blorp +1 Glubbi glubb blubb blu glupp, blubbl glon splatt
+src/items.lua:1797		Grudge Baby	Blupp Plupp
+src/items.lua:1800		+${dynamic} Mult, loses 1 Mult each time you bank	+${dynamic} Glubbi, plupp 1 Glubbi glubb blubb blu blooba
+src/items.lua:1816		-1 mult	-1 glubbi
+src/items.lua:1828		Glass Gecko	Plupp Blup
+src/items.lua:1829		+10 Mult, destroyed on Bust	+10 Glubbi, flubb glon Glupp
+src/items.lua:1846		Belly	Splubb
+src/items.lua:1849		+${dynamic} Mult, gains +0.1 Mult each time a snack is eaten	+${dynamic} Glubbi, blorp +0.1 Glubbi glubb blubb bu nombl blis glubb
+src/items.lua:1864		+0.1 mult	+0.1 glubbi
+src/items.lua:1882		Worm	Flubb
+src/items.lua:1885		+2 Mult	+2 Glubbi
+src/items.lua:1896		Mahjong Tile	Blup Splubb
+src/items.lua:1899		+4 Mult	
+src/items.lua:1911		Clam	Blup
+src/items.lua:1914		+50 Points	+50 Blips
+src/items.lua:1926		CD	BRUBBL
+src/items.lua:1929		+10 Mult, -2 Mult for each die scored	+10 Glubbi, -2 Glubbi flor glubb blobb blup
+src/items.lua:1946		Papa	Glorp
+src/items.lua:1949		+1 Mult per die scored	+1 Glubbi brubbl blobb blup
+src/items.lua:1965		Powered Claw	Glubbl Blorp
+src/items.lua:1968		+5 Mult, uses 1 Power	+5 Glubbi, blubb 1 Brubbl
+src/items.lua:1983		POY SIAN	SPLUBB GLORP
+src/items.lua:1986		+40 Points for each unrolled 4	+40 Blips flor glubb glubbl 4
+src/items.lua:2004		Hold The Ones	Blup Bl Plopp
+src/items.lua:2007		+1 Mult for each unrolled 1	+1 Glubbi flor glubb glubbl 1
+src/items.lua:2028		Zero Bust Turbo	Glubbl Glupp Bloop
+src/items.lua:2031		Banking with no Busts starts next turn with 10 Momentum	Bloobing blith glupp Glupps blorp glubb glubbo blith 10 Bubbl
+src/items.lua:2046		10 momentum!	10 bubbl!
+src/items.lua:2053		Mushieltador	Brrlblorp
+src/items.lua:2056		Gain a Bust Shield when banking if your last combo was any Straight	Brrl bu Glupp Plupp plupp bloobing flubb bluu brubbl blom blubbl brubbl Blup
+src/items.lua:2082		Survival Instinct	Blup Glupp
+src/items.lua:2085		x2 Mult on 1 turn left	x2 Glubbi glon 1 glubbo flubb
+src/items.lua:2116		Mandarin Peel	Brubbl Plupp
+src/items.lua:2119		+5 Mult for your first scored combo each turn	+5 Glubbi flor bluu plopp blup blom glubb glubbo
+src/items.lua:2140		Octopus Ting	Plopp Flubb
+src/items.lua:2143		x3 Mult for your first scored combo each level	x3 Glubbi flor bluu plopp blup blom glubb blubbo
+src/items.lua:2168		Four Legged Star	Flubb Glubb Plopp
+src/items.lua:2171		+300 Points for a combo containing Four Of A Kind	+300 Blips flor bu blom gluppglorp Flubb Blov BU Brubbl
+src/items.lua:2190		Minnesota Fats	Glorp Blorp
+src/items.lua:2193		+200 Points for any Straight	+200 Blips flor brubbl Blup
+src/items.lua:2206		Bimber	Bloop
+src/items.lua:2209		+200 Points for a Full House	+200 Blips flor bu Blubbl Blup
+src/items.lua:2223		Kind Berry Three	Brubbl Glorp Blubbl
+src/items.lua:2226		+200 Points for Three Of A Kind	+200 Blips flor Blubbl Blov BU Brubbl
+src/items.lua:2240		Two Pair Cat	Bloop Blupp Flubb
+src/items.lua:2243		+200 Points for a combo containing Two Pair	+200 Blips flor bu blom gluppglorp Bloop Blupp
+src/items.lua:2257		Just A Pair	Splubb BU Blupp
+src/items.lua:2260		+100 Points for a Pair	+100 Blips flor bu Blupp
+src/items.lua:2278		Fifteen Sum	Plopp Glupp
+src/items.lua:2281		x3 Mult if the scored dice sum to 15	x3 Glubbi flubb bl blup blobbs glupp blo 15
+src/items.lua:2301		Sumush	Bloop
+src/items.lua:2304		x2 Mult if the scored dice sum to 10	x2 Glubbi flubb bl blup blobbs glupp blo 10
+src/items.lua:2323		Lil' Choy	Glubbl' Brubbl
+src/items.lua:2326		x2 Mult when scoring 3 or fewer dice	x2 Glubbi plupp glupp 3 glor brrl blobbs
+src/items.lua:2344		Toad Hut	Bloop Brubbl
+src/items.lua:2347		x2 Mult for a combo containing Four Of A Kind	x2 Glubbi flor bu blom gluppglorp Flubb Blov BU Brubbl
+src/items.lua:2369		Pink Top	Plupp Blup
+src/items.lua:2372		x2 Mult for any Straight	x2 Glubbi flor brubbl Blup
+src/items.lua:2387		Absinthe	Plupp
+src/items.lua:2390		x2 Mult for a Full House	x2 Glubbi flor bu Blubbl Blup
+src/items.lua:2405		Three Legged Pirate	Blubbl Glubb Brrl
+src/items.lua:2408		x2 Mult for Three Of A Kind	x2 Glubbi flor Blubbl Blov BU Brubbl
+src/items.lua:2424		Two Pair Fat Cat	Bloop Blupp Brubbl Flubb
+src/items.lua:2427		x1.5 Mult for a combo containing Two Pair	x1.5 Glubbi flor bu blom gluppglorp Bloop Blupp
+src/items.lua:2443		Pair Mult Dog	Blupp Glubbi Plopp
+src/items.lua:2446		x1.5 Mult for Pair, Two Pair and Three Pair	x1.5 Glubbi flor Blupp, Bloop Blupp blan Blubbl Blupp
+src/items.lua:2463		Poppy	Plopp
+src/items.lua:2466		x2 Mult for a combo containing three 6s	x2 Glubbi flor bu blom gluppglorp blubbl 6plupp
+src/items.lua:2482		Sunnies	Splubb
+src/items.lua:2485		+0.5x Mult for each scored 2	+0.5glubb Glubbi flor glubb blup 2
+src/items.lua:2503		Cactus	Blorp
+src/items.lua:2506		+0.5x Mult per scored die	+0.5glubb Glubbi brubbl blup blobb
+src/items.lua:2524		Yolk	Blup
+src/items.lua:2527		Flipping a single coin +5 Mult	Glubbl bu flubb pling +5 Glubbi
+src/items.lua:2543		Lucky Leaf	Flubb Glubb
+src/items.lua:2546		x2 Mult if a coin is scored	x2 Glubbi flubb bu pling blis blup
+src/items.lua:2563		Soy Fish	Splubb Bloop
+src/items.lua:2566		+1 Mult per scored coin	+1 Glubbi brubbl blup pling
+src/items.lua:2577 (+1 others)		+${amount} mult	+${amount} glubbi
+src/items.lua:2584		Sardine	Plupp
+src/items.lua:2587		+50 Points per scored coin	+50 Blips brubbl blup pling
+src/items.lua:2598		+${amount} pts	+${amount} blup
+src/items.lua:2607		Snake Hold	Brrl Blup
+src/items.lua:2610		Snake Eyes hold score	Brrl Blorp blup glupp
+src/items.lua:2627		The Mask	Bl Flubb
+src/items.lua:2630		Combos with 6s hold score	Bloms blith 6plupp blup glupp
+src/items.lua:2648		Black Eye	Splubb Blup
+src/items.lua:2651		Spawn a Black Eyed Pea on Bust	Plupp bu Splubb Flubb Blubb glon Glupp
+src/items.lua:2659		Pea!	Blubb!
+src/items.lua:2665		Pain Tolerance	Blupp Glubb
+src/items.lua:2668		+1 Mult on Bust	+1 Glubbi glon Glupp
+src/items.lua:2676		+1 Mult	+1 Glubbi
+src/items.lua:2682		Masochist Rock	Glupp Plupp
+src/items.lua:2685		x2 Mult on Bust	x2 Glubbi glon Glupp
+src/items.lua:2694		x2 Mult	x2 Glubbi
+src/items.lua:2700		Palosanto	Splubb
+src/items.lua:2703		If Mult is over 10: +5 Mult	Flubb Glubbi blis splubb 10: +5 Glubbi
+src/items.lua:2716		Chestnut	Glubbl
+src/items.lua:2719		+50 Points when any item triggers	+50 Blips plupp brubbl plopp plopp
+src/items.lua:2732		Dolphin	Flubb
+src/items.lua:2735		Spawns a random snack each level	Blubb bu glubb nombl glubb blubbo
+src/items.lua:2759 (+1 others)		Snack!	Nombl!
+src/items.lua:2765		Lemonade Stand	Glorp Plupp
+src/items.lua:2768		Spawns a citrus slice each turn	Blubb bu blupp brrl glubb glubbo
+src/items.lua:2785		Crowd Pleaser	Glupp Bloop
+src/items.lua:2788		+50 Points per trinket on board	+50 Blips brubbl blinkle glon glubb
+src/items.lua:2805		Double Down	Blubb Plupp
+src/items.lua:2808		Flipping a single coin x2 Mult	Glubbl bu flubb pling x2 Glubbi
+src/items.lua:2833		Just An Anxious Guy	Splubb Bu Flubb Glubbl
+src/items.lua:2836		+4 Mult for Four Of A Kind	+4 Glubbi flor Flubb Blov BU Brubbl
+src/items.lua:2850		Double Three Blibber	Blubb Blubbl Plopp
+src/items.lua:2853		+3 Mult for Three Of A Kind	+3 Glubbi flor Blubbl Blov BU Brubbl
+src/items.lua:2866		Two Pair Mult Cat	Bloop Blupp Glubbi Flubb
+src/items.lua:2869		+4 Mult for Two Pair	+4 Glubbi flor Bloop Blupp
+src/items.lua:2882		Pair Cat	Blupp Flubb
+src/items.lua:2885		+2 Mult for Pair, Two Pair and Three Pair	+2 Glubbi flor Blupp, Bloop Blupp blan Blubbl Blupp
+src/items.lua:2902		Threes Gobber	Blupp Flubb
+src/items.lua:2905		+100 Points for a combo containing Three Of A Kind	+100 Blips flor bu blom gluppglorp Blubbl Blov BU Brubbl
+src/items.lua:2938		Gay Moth	Plupp Plopp
+src/items.lua:2941		+60 Points for rerolling a 6	+60 Blips flor plupp bu 6
+src/items.lua:2960		Mini Goob	Blupp Glorp
+src/items.lua:2963		+0.1 Mult per die rolled	+0.1 Glubbi brubbl blobb glorp
+src/items.lua:2978		Faster	Plupp
+src/items.lua:2981		+1 Momentum	+1 Bubbl
+src/items.lua:2989 (+1 others)		+1 momentum	+1 bubbl
+src/items.lua:2994		Spite	Blup
+src/items.lua:2997		On Bust, gain +1 Momentum	Glon Glupp, brrl +1 Bubbl
+src/items.lua:3012		Shortbread Biscuit	Ploppblupp Flubb
+src/items.lua:3015		+100 Points for rolling a single die	
+src/items.lua:3073		Banksia	Glorp
+src/items.lua:3076		Rerolling a Pair recharges Power	Plupp bu Blupp plupp Brubbl
+src/items.lua:3088 (+4 others)		Power Recharged	Brubbl Blorp
+src/items.lua:3095		Lycheye	Splubb
+src/items.lua:3096		Two Pair recharges Power	Bloop Blupp plupp Brubbl
+src/items.lua:3115		Bump Jug	Brrl Blup
+src/items.lua:3118		Scoring a Full House recharges Power	Glupp bu Blubbl Blup plupp Brubbl
+src/items.lua:3135		Full Send	Blubbl Blorp
+src/items.lua:3138		Rolling 5 or more dice recharges Power	
+src/items.lua:3155		God Give Me Strength	GLUBB Glupp Bloop Blupp
+src/items.lua:3158		Rolling a single die recharges Power	
+src/items.lua:3179		High Roller	Brubbl Brubbl
+src/items.lua:3182		+1 Mult for each 6 scored	+1 Glubbi flor glubb 6 blup
+src/items.lua:3197		Low Ball	Flubb Blorp
+src/items.lua:3200		x2 Mult if all scored dice are 3 or under	x2 Glubbi flubb glupp blup blobbs blar 3 glor brubbl
+src/items.lua:3223		Even Now	Blupp Blorp
+src/items.lua:3226		+50 Points per scored even die	+50 Blips brubbl blup blupp blobb
+src/items.lua:3243		Flesh Ring	Brrl Glubbl
+src/items.lua:3246		+1 Mult per scored odd die	+1 Glubbi brubbl blup glorp blobb
+src/items.lua:3262		Goldfish	Glubb
+src/items.lua:3265		+2 Mult for each scored 5	+2 Glubbi flor glubb blup 5
+src/items.lua:3280		Antler	Blorp
+src/items.lua:3283		+2 Mult for each scored 2	+2 Glubbi flor glubb blup 2
+src/items.lua:3298		Evil Eye	Glubb Blup
+src/items.lua:3301		+1 Mult for each scored 1	+1 Glubbi flor glubb blup 1
+src/items.lua:3316		Lil Buddy	Glubbl Blupp
+src/items.lua:3319		+60 Points for each scored 6	+60 Blips flor glubb blup 6
+src/items.lua:3334		Eagle's Claw	Plupp Blorp
+src/items.lua:3337		+100 Points for each scored 1	+100 Blips flor glubb blup 1
+src/items.lua:3352		Fast Glasses	Brrl Glupp
+src/items.lua:3355		+100 Points for each scored 2	+100 Blips flor glubb blup 2
+src/items.lua:3370		Shard	Glupp
+src/items.lua:3373		+1 Mult for each scored 3	+1 Glubbi flor glubb blup 3
+src/items.lua:3388		Shrimp	Brubbl
+src/items.lua:3391		+40 Points for each scored 4	+40 Blips flor glubb blup 4
+src/items.lua:3429		Stuck Bonus	Glupp Blup
+src/items.lua:3432		Each Stuck side scored gives +100 Points	Glubb Glupp blubbl blup plupp +100 Blips
+src/items.lua:3451		Bonus Bonus	Blup Blup
+src/items.lua:3454		Each Bonus side scored gives +100 Points	Glubb Blup blubbl blup plupp +100 Blips
+src/items.lua:3473		Power Bonus	Brubbl Blup
+src/items.lua:3476		Each Power side scored gives +100 Points	Glubb Brubbl blubbl blup plupp +100 Blips
+src/items.lua:3519		Stuck Mult	Glupp Glubbi
+src/items.lua:3522		Each Stuck side scored gives +4 Mult	Glubb Glupp blubbl blup plupp +4 Glubbi
+src/items.lua:3541		Bonus Mult	Blup Glubbi
+src/items.lua:3544		Each Bonus side scored gives +3 Mult	Glubb Blup blubbl blup plupp +3 Glubbi
+src/items.lua:3562		Power Mult	Brubbl Glubbi
+src/items.lua:3565		Each Power side scored gives +2 Mult	Glubb Brubbl blubbl blup plupp +2 Glubbi
+src/items.lua:3602		Rowan	Glupp
+src/items.lua:3605		+5 Mult if the combo contains at least three 1s	+5 Glubbi flubb bl blom blubbl splubb blubbl blubbl 1plupp
+src/items.lua:3729		House Stamp	Blup Flubb
+src/items.lua:3732		Rerolling a Three Of A Kind permanently upgrades Full House. Fades with use.	Plupp bu Blubbl Blov BU Brubbl bloopplupp glubbl Blubbl Blup. Plupp blith glubb.
+src/items.lua:3747 (+1 others)		Faded	Blubbl
+src/items.lua:3761		Full House Upgraded	Blubbl Blup Blorp
+src/items.lua:3769		Stamp	Flubb
+src/items.lua:3772		Rerolling a combo upgrades it permanently. Fades with use.	Plupp bu blom glubbl blupp bloopplupp. Plupp blith glubb.
+src/items.lua:3776		On Roll	Glon Blubba
+src/items.lua:3804		${combo} Upgraded	${combo} Blorp
+src/items.lua:3817		Gouda	Brubbl
+src/items.lua:3820		Rerolling a Three Of A Kind gives 2¥	Plupp bu Blubbl Blov BU Brubbl plupp 2¥
+src/items.lua:3842		Pearl	Plopp
+src/items.lua:3845		+1¥ for every two scored 1s	+1¥ flor bloop bloop blup 1plupp
+src/items.lua:3868		Queen's Jug	Plupp Blup
+src/items.lua:3871		+1¥ for a Full House	+1¥ flor bu Blubbl Blup
+src/items.lua:3888		Star Biscuit	Plopp Flubb
+src/items.lua:3891		Rolling 2+ dice while at 1 Bust gives 2¥	Blubbl 2+ blobbs blupp splubb 1 Glupp plupp 2¥
+src/items.lua:3916		Overtime Star	Blupp Plopp
+src/items.lua:3919		Gain a Bust Shield for scoring Star Bonanza	Brrl bu Glupp Plupp flor glupp Plopp Brrl
+src/items.lua:3932		Already shielded	Plopp brubbl
+src/items.lua:3939		Trotter	Brrl
+src/items.lua:3942		Pig Points x2	Blupp Blips x2
+src/items.lua:3957		Piglet	Blublet
+src/items.lua:3960		+3 Mult for rerolling 3 or more Pig sides	+3 Glubbi flor plupp 3 glor blupp Blupp flubb
+src/items.lua:3979		Chew Toy	Plopp Plopp
+src/items.lua:3982		1 in 6 chance to spawn a coin when rerolling a Pig side	1 blin 6 blubb blo plupp bu pling plupp plupp bu Blupp blubbl
+src/items.lua:4037		Paw	Blubbl
+src/items.lua:4040		Rolling a single die adds +2 Mult	Blubbl bu flubb blobb glubbl +2 Glubbi
+src/items.lua:4053		Incel	Blubbl
+src/items.lua:4056		Rerolling a combo containing a Pair gives +100 Points and +1 Mult	Plupp bu blom gluppglorp bu Blupp plupp +100 Blips blan +1 Glubbi
+src/items.lua:4086		Scoring a Full House spawns a ghost die	Glupp bu Blubbl Blup blubb bu splubb blobb
+src/items.lua:4100 (+5 others)		Ghost!	Splubb!
+src/items.lua:4106		Ghostanza	Glorp
+src/items.lua:4109		Scoring a Star Bonanza spawns 4 ghost dice	Glupp bu Plopp Brrl blubb 4 splubb blobbs
+src/items.lua:4129		Ghost Biscuit	Splubb Flubb
+src/items.lua:4132		Roll exactly 1 die - if it's a 5 or 6, spawn a ghost die	Blubba splubb 1 blobb - flubb blorp bu 5 glor 6, plupp bu splubb blobb
+src/items.lua:4152		Coin Biscuit	Pling Flubb
+src/items.lua:4155		Roll exactly 1 die - if it's a 2, +1¥	Blubba splubb 1 blobb - flubb blorp bu 2, +1¥
+src/items.lua:4176		Mult Biscuit	Glubbi Flubb
+src/items.lua:4179		Roll exactly 1 die - if it's a 3 or 4, +1 Mult	Blubba splubb 1 blobb - flubb blorp bu 3 glor 4, +1 Glubbi
+src/items.lua:4197		Flask Of Ghost	Plupp Blov Splubb
+src/items.lua:4200		Rerolling a combo that contains a Three Of A Kind creates 2 ghost dice	Plupp bu blom flubb blubbl bu Blubbl Blov BU Brubbl brrl 2 splubb blobbs
+src/items.lua:4222		Bone	Plupp
+src/items.lua:4225		Combos containing a ghost die score +100 Points	Bloms gluppglorp bu splubb blobb glupp +100 Blips
+src/items.lua:4243		Razor	Flubb
+src/items.lua:4246		1 in 3 chance to spawn a ghost die on Bust	1 blin 3 blubb blo plupp bu splubb blobb glon Glupp
+src/items.lua:4269		Scared Straight	Brubbl Blup
+src/items.lua:4272		Scoring a Straight spawns a ghost die	Glupp bu Blup blubb bu splubb blobb
+src/items.lua:4295		Cell	Blubb
+src/items.lua:4298		Start each turn with a Bust Shield	Brrl glubb glubbo blith bu Glupp Plupp
+src/items.lua:4309		shield!	plupp!
+src/items.lua:4318		Jade Bracelet	Splubb Flubb
+src/items.lua:4321		3 in 4 chance to block an instant wipe.\n${dynamic} uses left.	3 blin 4 blubb blo plupp bu brrl splatt.\n${dynamic} blubb flubb.
+src/items.lua:4344		Shattered!	Glubbl!
+src/items.lua:4359		Four Cell	Flubb Blubb
+src/items.lua:4362		If you would bust, each unrolled 4 gives a 20% chance to cancel it	Flubb blu blup glupp, glubb glubbl 4 plupp bu 20% cglorp blo bloop blupp
+src/items.lua:4389		Candle	Glupp
+src/items.lua:4390		1 in 2 chance to turn an instant wipe into a single Bust	1 blin 2 blubb blo glubbo bu brrl splatt bloop bu flubb Glupp
+src/items.lua:4401		oof	bloop
+src/items.lua:4413		Reduced!	Bloop!
+src/items.lua:4425		Anis Star	Blorp Plopp
+src/items.lua:4428		Bust Limit +1	Glupp Plupp +1
+src/items.lua:4502		Soft Wipes	Bloop Blupp
+src/items.lua:4505		Wiping doesn't clear dice or score	Blupp blupp plupp blobbs glor glupp
+src/items.lua:4524		Taro Jelly	Glupp Blupp
+src/items.lua:4527		Scoring 5s flips them to 6s	Glupp 5plupp glubbl blupp blo 6plupp
+src/items.lua:4541		Osmanthus Jelly	Plopp Blupp
+src/items.lua:4544		Scoring 1s flips them to 3s	Glupp 1plupp glubbl blupp blo 3plupp
+src/items.lua:4560		Sludge Jelly	Glorp Blupp
+src/items.lua:4563		2s always reroll into 3s	2plupp glorp reblubba bloop 3plupp
+src/items.lua:4588		Bubblegum Jelly	Blup Blupp
+src/items.lua:4591		3s always reroll into 5s	3plupp glorp reblubba bloop 5plupp
+src/items.lua:4616		Flip Flop	Bloop Blupp
+src/items.lua:4620		Odd numbers roll into even and vice versa.\nDoesn't affect coins.	Glorp brubbl blubba bloop blupp blan flubb plopp.\nBlupp blupp plings.
+src/items.lua:4648		Second Chance Jelly	Splubb Blubb Blupp
+src/items.lua:4652		1s can't reroll into 1s\nDoesn't affect coins.	1plupp brubbl reblubba bloop 1plupp\nBlupp blupp plings.
+src/items.lua:4680		Knucklebone	Splubbbrubbl
+src/items.lua:4683		+1 Bust Limit, -1 Turn Limit 	+1 Glupp Plupp, -1 Glubbo Plupp
+src/items.lua:4706		Turn Plus Bust Minus	Glubbo Blorp Glupp Flubb
+src/items.lua:4709		-1 Bust Limit, +1 Turn Limit 	-1 Glupp Plupp, +1 Glubbo Plupp
+src/items.lua:4732		Loopongo	Brrl
+src/items.lua:4735		Straights can loop	Flubb blupp splubb
+src/items.lua:4773		Lotus Loan	Plopp Blubbl
+src/items.lua:4776		Free money?	Glupp plupp?
+src/items.lua:4843 (+2 others)		Even Bad	Blupp Glupp
+src/items.lua:4844		-50 Points per scored even die	-50 Blips brubbl blup blupp blobb
+src/items.lua:4863 (+2 others)		Odd Bad	Glorp Glupp
+src/items.lua:4864		-1 Mult per scored odd die	-1 Glubbi brubbl blup glorp blobb
+src/items.lua:4883		-150 Points per scored even die	-150 Blips brubbl blup blupp blobb
+src/items.lua:4902		-3 Mult per scored odd die	-3 Glubbi brubbl blup glorp blobb
+src/items.lua:4921 (+1 others)		-200 Points per scored even die	-200 Blips brubbl blup blupp blobb
+src/items.lua:4940 (+1 others)		-5 Mult per scored odd die	-5 Glubbi brubbl blup glorp blobb
+src/items.lua:4958		Points -100	Blips -100
+src/items.lua:4959 (+1 others)		-100 Points	-100 Blips
+src/items.lua:4973		Points -150	Blips -150
+src/items.lua:4974		-150 Points	-150 Blips
+src/items.lua:4987		Points -250	Blips -250
+src/items.lua:4988		-250 Points	-250 Blips
+src/items.lua:5001		Mult -1	Glubbi -1
+src/items.lua:5002		-1 Mult	-1 Glubbi
+src/items.lua:5015		Mult -2	Glubbi -2
+src/items.lua:5016		-2 Mult	-2 Glubbi
+src/items.lua:5029		Mult -4	Glubbi -4
+src/items.lua:5030		-4 Mult	-4 Glubbi
+src/items.lua:5043		Half Points	Plupp Blips
+src/items.lua:5044		Halves the Points	Blubb bl Blips
+src/items.lua:5059		Half Mult	Plupp Glubbi
+src/items.lua:5060		Halves the Mult	Blubb bl Glubbi
+src/items.lua:5075 (+1 others)		Bad Momentum	Glupp Bubbl
+src/items.lua:5076		Start each turn with -2 Momentum	Brrl glubb glubbo blith -2 Bubbl
+src/items.lua:5086		-2 Momentum	-2 Bubbl
+src/items.lua:5092		-1 Momentum on score	
+src/items.lua:5102		-1 Momentum	-1 Bubbl
+src/items.lua:5107		Sore Loser	Blubbl Plupp
+src/items.lua:5108		Bust resets Momentum	Glupp blubbl Bubbl
+src/items.lua:5124		Two Left Feet	Bloop Flubb Brrl
+src/items.lua:5125		-100 Points for rolling exactly 2 dice	
+src/items.lua:5141		6s and 4s to 1s	6plupp blan 4plupp blo 1plupp
+src/items.lua:5142		6s and 4s always reroll into 1s	6plupp blan 4plupp glorp reblubba bloop 1plupp
+src/items.lua:5172		6s to 1s	6plupp blo 1plupp
+src/items.lua:5173		6s always reroll into 1s	6plupp glorp reblubba bloop 1plupp
+src/items.lua:5204		Minus Max Bust	Flubb Flubb Glupp
+src/items.lua:5205		Bust Limit -1	Glupp Plupp -1
+src/items.lua:5222		Turn Down Power Up	Glubbo Plupp Brubbl Blup
+src/items.lua:5223		Turn Limit -1, Power Limit +2	Glubbo Plupp -1, Brubbl Plupp +2
+src/items.lua:5248 (+1 others)		Cursed Score	Brubbl Glupp
+src/items.lua:5254 (+1 others)		Feels bad for you	Glubb glupp flor blu
+src/items.lua:5255		Each time you score, 1 random die takes damage	Glubb blubb blu glupp, 1 glubb blobb blubbl plupp
+src/items.lua:5272 (+1 others)		cursed!	brubbl!
+src/items.lua:5284		Each time you bank, 5 random dice take damage	Glubb blubb blu blooba, 5 glubb blobbs blubb plupp
+src/items.lua:5311		Small Minded	Blubbl Glupp
+src/items.lua:5312		Combos above 4 dice give no score	Bloms brubbl 4 blobbs glupp glupp glupp
+src/items.lua:5350		Bad Threes	Glupp Blupp
+src/items.lua:5351		-3 Mult per scored 3	-3 Glubbi brubbl blup 3
+src/items.lua:5368		Bad Fours	Glupp Brrl
+src/items.lua:5369		-4 Mult per scored 4	-4 Glubbi brubbl blup 4
+src/items.lua:5386		Bad Sixes	Glupp Glubbl
+src/items.lua:5387		-6 Mult per scored 6	-6 Glubbi brubbl blup 6
+src/items.lua:5405		Pair Aversion	Blupp Plupp
+src/items.lua:5406		Combos containing a Pair -3 Mult	Bloms gluppglorp bu Blupp -3 Glubbi
+src/items.lua:5426		Triple Trouble	Glubbl Blubb
+src/items.lua:5427		Combos containing Three Of A Kind -4 Mult	Bloms gluppglorp Blubbl Blov BU Brubbl -4 Glubbi
+src/items.lua:5451		No Four Kind	Glupp Flubb Brubbl
+src/items.lua:5452		Four Of A Kind gives no score	Flubb Blov BU Brubbl plupp glupp glupp
+src/items.lua:5477		Empty House	Glorp Blup
+src/items.lua:5478		Full House gives no score	Blubbl Blup plupp glupp glupp
+src/items.lua:5504		No Bonanza	Glupp Brrl
+src/items.lua:5505		Star Bonanza gives no score	Plopp Brrl plupp glupp glupp
+src/items.lua:5531		Slippery 6s	Flubb 6plupp
+src/items.lua:5532		Auto-reroll dice that show a 6	Blup-reblubba blobbs flubb plopp bu 6
+src/items.lua:5550		Stupid Dice	Blup Blobbs
+src/items.lua:5551		Dice randomly reroll on their own.	Blobbs glubb reblubba glon splubb glubbl.
+src/items.lua:5641		Slippery Threes	Flubb Blupp
+src/items.lua:5642		Auto-reroll dice that show a 3, score 33 Points for each	Blup-reblubba blobbs flubb plopp bu 3, glupp 33 Blips flor glubb
+src/items.lua:5663 (+4 others)		Bad Tooth	Glupp Blup
+src/items.lua:5664		-3 Mult	-3 Glubbi
+src/items.lua:5692		Dice Limit -1	Blobbs Plupp -1
+src/items.lua:5753 (+12 others)		Dues	Brubbl
+src/items.lua:5754		Rerolls all dice and coins.\n5% chance to activate on dice rolls.	Glubbl glupp blobbs blan plings.\n5% cglorp blo glorp glon blobbs blupp.
+src/items.lua:5775		Rerolled!	Bloop!
+src/items.lua:5781		Rerolls a single random coin.\n5% chance to activate on dice rolls.	Glubbl bu flubb glubb pling.\n5% cglorp blo glorp glon blobbs blupp.
+src/items.lua:5803		Coin rerolled!	Pling bloop!
+src/items.lua:5809		All dice roll 1s.\n5% chance to activate on dice rolls.	Glupp blobbs blubba 1plupp.\n5% cglorp blo glorp glon blobbs blupp.
+src/items.lua:5836		Deal 4 damage spread randomly across dice.\n5% chance to activate on dice rolls.	Glorp 4 plupp blupp glubb glupp blobbs.\n5% cglorp blo glorp glon blobbs blupp.
+src/items.lua:5853 (+1 others)		No dice!	Glupp blobbs!
+src/items.lua:5862		Cursed!	Brubbl!
+src/items.lua:5869		Deal 1 damage to all dice.\n5% chance to activate on dice rolls.	Glorp 1 plupp blo glupp blobbs.\n5% cglorp blo glorp glon blobbs blupp.
+src/items.lua:5893		Damaged!	Blubb!
+src/items.lua:5899		Deal 2 damage to the selected die.\n5% chance to activate on dice rolls.	Glorp 2 plupp blo bl blubbl blobb.\n5% cglorp blo glorp glon blobbs blupp.
+src/items.lua:5921 (+4 others)		Select 1 die	Plopp 1 blobb
+src/items.lua:5931		Add 1 Bust side to the selected die.\n5% chance to activate on dice rolls.	Blorp 1 Glupp blubbl blo bl blubbl blobb.\n5% cglorp blo glorp glon blobbs blupp.
+src/items.lua:5964 (+2 others)		No free side	Glupp glupp blubbl
+src/items.lua:5975		Destroy the selected die.\n5% chance to activate on dice rolls.	Glubb bl blubbl blobb.\n5% cglorp blo glorp glon blobbs blupp.
+src/items.lua:6007		Add 1 Cracked side to the selected die.\n5% chance to activate on dice rolls.	Blorp 1 Blubbl blubbl blo bl blubbl blobb.\n5% cglorp blo glorp glon blobbs blupp.
+src/items.lua:6051		Add 1 Doom side to the selected die.\n5% chance to activate on dice rolls.	Blorp 1 Blorp blubbl blo bl blubbl blobb.\n5% cglorp blo glorp glon blobbs blupp.
+src/items.lua:6095		+1 Bust.\n5% chance to activate on dice rolls.	+1 Glupp.\n5% cglorp blo glorp glon blobbs blupp.
+src/items.lua:6111		+1 Bust	+1 Glupp
+src/items.lua:6122		+3 Bust.\n5% chance to activate on dice rolls.	+3 Glupp.\n5% cglorp blo glorp glon blobbs blupp.
+src/items.lua:6138		+3 Bust	+3 Glupp
+src/items.lua:6149		-1 Turn.\n5% chance to activate on dice rolls.	-1 Glubbo.\n5% cglorp blo glorp glon blobbs blupp.
+src/items.lua:6166		-1 Turn	-1 Glubbo
+src/items.lua:6179		Fish Bucket	Bloop Brubbl
+src/items.lua:6189		No fish power!	Glupp bloop brubbl!
+src/items.lua:6199		+15 Fish!	+15 Bloop!
+src/items.lua:6204		Fish Offering	Bloop Glubb
+src/items.lua:6205		-10 §, -5% difficulty	-10 §, -5% dblubb
+src/items.lua:6214		Need 10 fish!	Brrl 10 bloop!
+src/items.lua:6221		-5% difficulty!	-5% dblubb!
+src/items.lua:6226		Option Call	Plupp Blubbl
+src/items.lua:6236		Need 20 fish!	Brrl 20 bloop!
+src/items.lua:6252		Pump	Blubb
+src/items.lua:6253		+10 § price at the next market	+10 § blubbl splubb bl glubb splubb
+src/items.lua:6263		Price pumped!	Blubbl blorp!
+src/items.lua:6268		Dump	Plupp
+src/items.lua:6269		-10 § price at the next market	-10 § blubbl splubb bl glubb splubb
+src/items.lua:6279		Price dumped!	Blubbl bloop!
+src/items.lua:6286		Roe	Blorp
+src/items.lua:6287		+3 § at the start of each level	+3 § splubb bl brrl blov glubb blubbo
+src/items.lua:6308		Whale Oil	Blup Glubbl
+src/items.lua:6309		+1 Points per § on score	+1 Blips brubbl § glon glupp
+src/items.lua:6323		Carp Aspic	Brrl Bloop
+src/items.lua:6324		+1 Mult per 5 § spent this level	+1 Glubbi brubbl 5 § glupp brubbl blubbo
+src/items.lua:6332		+${MULT} Mult, gains +1 per 5 § spent this level	+${MULT} Glubbi, blorp +1 brubbl 5 § glupp brubbl blubbo
+src/items.lua:6355		Piranha	Plopp
+src/items.lua:6356		+5 Mult.\nEats 10 § at the start of each level.\nIf you can't feed it, it eats a die instead.	+5 Glubbi.\nBloop 10 § splubb bl brrl blov glubb blubbo.\nFlubb blu brubbl glorp blupp, blupp bloop bu blobb splubb.
+src/items.lua:6377		Ate a die!	Plopp bu blobb!
+src/items.lua:6379		Hungry!	Glubb!
+src/items.lua:6389		Barnacle	Glupp
+src/items.lua:6390		+1 § per 10 § held at the start of each level	+1 § brubbl 10 § brrl splubb bl brrl blov glubb blubbo
+src/items.lua:6413		Ball Gag	Blorp Glupp
+src/items.lua:6414		Dice pip becomes 1	Blobbs glupp plupp 1
+src/items.lua:6432		Peanut	Glubbl
+src/items.lua:6433		Dice pip becomes 2	Blobbs glupp plupp 2
+src/items.lua:6451		Wood Sorrel	Brubbl Plupp
+src/items.lua:6452		Dice pip becomes 3	Blobbs glupp plupp 3
+src/items.lua:6470		Picture Frame	Plupp Flubb
+src/items.lua:6471		Dice pip becomes 4	Blobbs glupp plupp 4
+src/items.lua:6489		Paper Star	Splubb Plopp
+src/items.lua:6490		Dice pip becomes 5	Blobbs glupp plupp 5
+src/items.lua:6508		Honeycomb	Glorp
+src/items.lua:6509		Dice pip becomes 6	Blobbs glupp plupp 6
+src/items.lua:6528		Scrambled Eggs	Blorp Plupp
+src/items.lua:6529		Dice pip becomes ???	Blobbs glupp plupp ???
+src/items.lua:6556		Maths Test	Blubb Splubb
+src/items.lua:6559		Spawn 0-6 random numeracy foods	Plupp 0-6 glubb glupp glubbl
+src/items.lua:6589		Result: $grade / $total	Blup: $grade / $total
+src/items.lua:6600		Clown Shoes	Glorp Plupp
+src/items.lua:6603		Nudge all dice either -1 or +3 pips	Blupp glupp blobbs glubb -1 glor +3 brubbl
+src/items.lua:6612 (+1 others)		roll dice first	blubba blobbs plopp
+src/items.lua:6630		Bamboozle	Plupp
+src/items.lua:6633		Nudge all dice individually between +0 and +2 pips.	Blupp glupp blobbs glorpglupp blup +0 blan +2 brubbl.
 src/keybinds.lua:3 (+2 others)		Roll	Blubba
 src/keybinds.lua:4 (+2 others)		Score	Glupp
 src/keybinds.lua:5 (+1 others)		BANK	BLOOBA
@@ -1166,7 +1170,7 @@ src/states/customisation.lua:167		Nothing Available	Glupp Glubbl
 src/states/customisation.lua:168		sorry sorry	plupp plupp
 src/states/customisation.lua:203		outfit	brubbl
 src/states/customisation.lua:203		accessory	splubb
-src/states/customisation.lua:225		on	glon
+src/states/customisation.lua:225 (+1 others)		on	glon
 src/states/customisation.lua:225 (+2 others)		off	glorp
 src/states/customisation.lua:365		Distort A	Blorp BU
 src/states/customisation.lua:366		Distort B	Blorp PLOPP
@@ -1186,6 +1190,7 @@ src/states/ending_bet.lua:77 (+1 others)		Ones rolled:	Plopp glorp:
 src/states/ending_bet.lua:78 (+1 others)		Bust rate:	Glupp glubbl:
 src/states/ending_bet.lua:80 (+1 others)		Run stars:	Plupp plopps:
 src/states/ending_bet.lua:94 (+4 others)		¤ banked	¤ glupp
+src/states/ending_bet.lua:109 (+16 others)		god	
 src/states/ending_bet.lua:157	dialogue	you won	blu BLOBBLO!
 src/states/ending_bet.lua:162	dialogue	you have done very well	blu glorp plopp plupp blup
 src/states/ending_bet.lua:164	dialogue	a treat for a brave child	bu brubbl flor bu blubbl glubbl
@@ -1267,65 +1272,65 @@ src/states/game.lua:1027		bank stars after each nightmare level or win the run t
 src/states/game.lua:1108		praying...	blup...
 src/states/game.lua:1108		pray	bloop
 src/states/game.lua:1186		Losing all Turns ends the game.\nTurns refill at the start of each level.	Plopp glupp Glubbos brubbl bl glupp.\nGlubbos blorp splubb bl brrl blov glubb blubbo.
-src/states/game.lua:1437 (+1 others)		MERGED	FLUBB
-src/states/game.lua:1646		pause	brrl
-src/states/game.lua:1935 (+2 others)		Level $level/$count $name	Blubbo $level/$count $name
-src/states/game.lua:1987		NIGHTMARE LEVEL	PLUPP BLUBBO
-src/states/game.lua:2109 (+1 others)		Rift	Blorp
-src/states/game.lua:2295		this coin is an affront to life itself	brubbl pling blis bu blubb blo brrl glubb
-src/states/game.lua:2296		this die is an affront to life itself	brubbl blobb blis bu blubb blo brrl glubb
-src/states/game.lua:2297		we shall not suffer such an unholy thing	glorp blorp glupp glubb glubbl bu blorp glubbl
-src/states/game.lua:2298		thou shalt not shy from risk	glorp blup glupp brubbl glupp blorp
-src/states/game.lua:2299		you thought you could get away with this?	blu glubbl blu plopp blupp glorp blith brubbl?
-src/states/game.lua:2300		extremely naughty	blubb blubb
-src/states/game.lua:2303	dialogue	no downside not allowed	glupp glubb glupp glorp
-src/states/game.lua:2321	dialogue	WHAT	PLUPP
-src/states/game.lua:2343		refilled	glorp
-src/states/game.lua:2370		LAST TURN	BRUBBL GLUBBO
-src/states/game.lua:2489		- Out Of Dice -	- Blubb Blov Blobbs -
-src/states/game.lua:2490		never	brubbl
-src/states/game.lua:2492		Looks like you're cooked\n\nGive up?	Blubb blup glorp plupp\n\nGlupp blup?
-src/states/game.lua:2642		INSTANT WIPE	BRRL SPLATT
-src/states/game.lua:2643		${rolled} OUT OF ${rolled} DICE ROLLED BUST	${rolled} BLUBB BLOV ${rolled} BLOBBS GLORP GLUPP
-src/states/game.lua:2660		W I P E	BRUBBL GLU BRRL GLUBBL
-src/states/game.lua:3088		SKIP ${pip}	GLUBBL ${pip}
-src/states/game.lua:3100		SKIP LOOPED	GLUBBL GLUBB
-src/states/game.lua:3341		Level Complete	Blubbo Blubbl
-src/states/game.lua:3382		Overshoot! +${amount} stars	Blubbl! +${amount} plopps
-src/states/game.lua:3415		Level Coins	Blubbo Plings
-src/states/game.lua:3426		Extra Turn Coins	Blorp Glubbo Plings
-src/states/game.lua:3438		Combine Coins	Glubb Plings
-src/states/game.lua:3455		Wager bonus! +${amount} stars	Bloop blup! +${amount} plopps
-src/states/game.lua:3505		--  Level ${number} Complete!  --	--  Blubbo ${number} Blubbl!  --
-src/states/game.lua:3521		Score:	Glupp:
-src/states/game.lua:3523		Reward:	Splubb:
-src/states/game.lua:3524		Extra turns:	Blorp glubbos:
-src/states/game.lua:3525		Wager bonus:	Bloop blup:
-src/states/game.lua:3526		Overshoot:	Blubbl:
-src/states/game.lua:3528		Total:	Plopp:
-src/states/game.lua:3626		don't lose it	splubb glorp blupp
-src/states/game.lua:3626		Soul on line	Flubb glon glubbl
-src/states/game.lua:3633		¤${BET} wagered	¤${BET} glorp
-src/states/game.lua:3637		¤ Banked	¤ Glupp
-src/states/game.lua:3638		Bank ¤${KEPT}?	Blooba ¤${KEPT}?
-src/states/game.lua:3639		Win To Bank ¤	Plupp Blo Blooba ¤
-src/states/game.lua:3640		Bank ¤ in ${LEVELS} lvl	Blooba ¤ blin ${LEVELS} blubb
-src/states/game.lua:3654		Secure your Stars for the run\nyou won't be able to gain more this run	Plopp bluu Plopps flor bl plupp\nblu blorp glubbl brrl blo brrl blupp brubbl plupp
-src/states/game.lua:3656		Stars already banked this run	Plopps plopp glupp brubbl plupp
-src/states/game.lua:3658		Securing Stars available after each nightmare level	Blupp Plopps glubbl glupp glubb plupp blubbo
-src/states/game.lua:3719 (+7 others)		no	glupp
+src/states/game.lua:1462 (+1 others)		MERGED	FLUBB
+src/states/game.lua:1669		pause	brrl
+src/states/game.lua:1960 (+2 others)		Level $level/$count $name	Blubbo $level/$count $name
+src/states/game.lua:2012		NIGHTMARE LEVEL	PLUPP BLUBBO
+src/states/game.lua:2134 (+1 others)		Rift	Blorp
+src/states/game.lua:2320		this coin is an affront to life itself	brubbl pling blis bu blubb blo brrl glubb
+src/states/game.lua:2321		this die is an affront to life itself	brubbl blobb blis bu blubb blo brrl glubb
+src/states/game.lua:2322		we shall not suffer such an unholy thing	glorp blorp glupp glubb glubbl bu blorp glubbl
+src/states/game.lua:2323		thou shalt not shy from risk	glorp blup glupp brubbl glupp blorp
+src/states/game.lua:2324		you thought you could get away with this?	blu glubbl blu plopp blupp glorp blith brubbl?
+src/states/game.lua:2325		extremely naughty	blubb blubb
+src/states/game.lua:2328	dialogue	no downside not allowed	glupp glubb glupp glorp
+src/states/game.lua:2346	dialogue	WHAT	PLUPP
+src/states/game.lua:2368		refilled	glorp
+src/states/game.lua:2395		LAST TURN	BRUBBL GLUBBO
+src/states/game.lua:2514		- Out Of Dice -	- Blubb Blov Blobbs -
+src/states/game.lua:2515		never	brubbl
+src/states/game.lua:2517		Looks like you're cooked\n\nGive up?	Blubb blup glorp plupp\n\nGlupp blup?
+src/states/game.lua:2667		INSTANT WIPE	BRRL SPLATT
+src/states/game.lua:2668		${rolled} OUT OF ${rolled} DICE ROLLED BUST	${rolled} BLUBB BLOV ${rolled} BLOBBS GLORP GLUPP
+src/states/game.lua:2685		W I P E	BRUBBL GLU BRRL GLUBBL
+src/states/game.lua:3113		SKIP ${pip}	GLUBBL ${pip}
+src/states/game.lua:3127		SKIP LOOPED	GLUBBL GLUBB
+src/states/game.lua:3368		Level Complete	Blubbo Blubbl
+src/states/game.lua:3409		Overshoot! +${amount} stars	Blubbl! +${amount} plopps
+src/states/game.lua:3442		Level Coins	Blubbo Plings
+src/states/game.lua:3453		Extra Turn Coins	Blorp Glubbo Plings
+src/states/game.lua:3465		Combine Coins	Glubb Plings
+src/states/game.lua:3482		Wager bonus! +${amount} stars	Bloop blup! +${amount} plopps
+src/states/game.lua:3532		--  Level ${number} Complete!  --	--  Blubbo ${number} Blubbl!  --
+src/states/game.lua:3548		Score:	Glupp:
+src/states/game.lua:3550		Reward:	Splubb:
+src/states/game.lua:3551		Extra turns:	Blorp glubbos:
+src/states/game.lua:3552		Wager bonus:	Bloop blup:
+src/states/game.lua:3553		Overshoot:	Blubbl:
+src/states/game.lua:3555		Total:	Plopp:
+src/states/game.lua:3653		don't lose it	splubb glorp blupp
+src/states/game.lua:3653		Soul on line	Flubb glon glubbl
+src/states/game.lua:3660		¤${BET} wagered	¤${BET} glorp
+src/states/game.lua:3664		¤ Banked	¤ Glupp
+src/states/game.lua:3665		Bank ¤${KEPT}?	Blooba ¤${KEPT}?
+src/states/game.lua:3666		Win To Bank ¤	Plupp Blo Blooba ¤
+src/states/game.lua:3667		Bank ¤ in ${LEVELS} lvl	Blooba ¤ blin ${LEVELS} blubb
+src/states/game.lua:3681		Secure your Stars for the run\nyou won't be able to gain more this run	Plopp bluu Plopps flor bl plupp\nblu blorp glubbl brrl blo brrl blupp brubbl plupp
+src/states/game.lua:3683		Stars already banked this run	Plopps plopp glupp brubbl plupp
+src/states/game.lua:3685		Securing Stars available after each nightmare level	Blupp Plopps glubbl glupp glubb plupp blubbo
+src/states/game.lua:3746 (+7 others)		no	glupp
 src/states/game_setup.lua:161		play!	bloop!
 src/states/game_setup.lua:164		need ${stars} ¤	brrl ${stars} ¤
 src/states/game_setup.lua:197		the young will inherit the earth	bl plupp splubb plopp bl bloop
-src/states/game_setup.lua:591		get more gold ¤ with wagers	blupp blupp brubbl ¤ blith blubbl
-src/states/game_setup.lua:698		A modest wager.\nWin and keep your stars plus a small bonus.	BU splubb bloop.\nPlupp blan brubbl bluu plopps blorp bu blubbl blup.
-src/states/game_setup.lua:709		Wager half your stars.\nMinimum 500 ¤\nHigher stakes, more stars.	Bloop plupp bluu plopps.\nBlorp 500 ¤\nFlubb glupp, blupp plopps.
-src/states/game_setup.lua:720		Wager all your stars.\nMinimum 1000 ¤\nEven more star rewards.	Bloop glupp bluu plopps.\nBlorp 1000 ¤\nBlupp blupp plopp blupp.
-src/states/game_setup.lua:778		Wager	Bloop
-src/states/game_setup.lua:860		Levels	Blubbos
-src/states/game_setup.lua:867		Wager stars to add levels,\nnext level %d ¤	Bloop plopps blo blorp blubbos,\nglubb blubbo %d ¤
-src/states/game_setup.lua:1117		Difficulty	Glubblblorp
-src/states/game_setup.lua:1120		${stars} ¤ reward limit	${stars} ¤ splubb plupp
+src/states/game_setup.lua:600		get more gold ¤ with wagers	blupp blupp brubbl ¤ blith blubbl
+src/states/game_setup.lua:707		A modest wager.\nWin and keep your stars plus a small bonus.	BU splubb bloop.\nPlupp blan brubbl bluu plopps blorp bu blubbl blup.
+src/states/game_setup.lua:718		Wager half your stars.\nMinimum 500 ¤\nHigher stakes, more stars.	Bloop plupp bluu plopps.\nBlorp 500 ¤\nFlubb glupp, blupp plopps.
+src/states/game_setup.lua:729		Wager all your stars.\nMinimum 1000 ¤\nEven more star rewards.	Bloop glupp bluu plopps.\nBlorp 1000 ¤\nBlupp blupp plopp blupp.
+src/states/game_setup.lua:787		Wager	Bloop
+src/states/game_setup.lua:869		Levels	Blubbos
+src/states/game_setup.lua:876		Wager stars to add levels,\nnext level %d ¤	Bloop plopps blo blorp blubbos,\nglubb blubbo %d ¤
+src/states/game_setup.lua:1126		Difficulty	Glubblblorp
+src/states/game_setup.lua:1129		${stars} ¤ reward limit	${stars} ¤ splubb plupp
 src/states/gameover.lua:225		Congratulations, you lost.	Glorpflubb, blu brubbl.
 src/states/gameover.lua:226		Better luck next time.	Glupp bloop glubb blubb.
 src/states/gameover.lua:227		Maybe next time.	Flubb glubb blubb.
@@ -1335,9 +1340,9 @@ src/states/gameover.lua:284		GAME OVER	GLUPP SPLUBB
 src/states/gameover.lua:316		Death tax:	Blupp glorp:
 src/states/gameover.lua:332		run info	plupp brubbl
 src/states/gameover.lua:371		restart	blorp
-src/states/gameover.lua:576		Press Circle To Toss	Flubb Glubbl Blo Glubb
-src/states/gameover.lua:576		Press B To Toss	Flubb PLOPP Blo Glubb
-src/states/gameover.lua:576		Right Click To Toss	Bloop Brubbl Blo Glubb
+src/states/gameover.lua:583		Press Circle To Toss	Flubb Glubbl Blo Glubb
+src/states/gameover.lua:583		Press B To Toss	Flubb PLOPP Blo Glubb
+src/states/gameover.lua:583		Right Click To Toss	Bloop Brubbl Blo Glubb
 src/states/intro.lua:54 (+1 others)		This is a game about luck.	Brubbl blis bu glupp splubb bloop.
 src/states/intro.lua:55		This is still a game about luck.	Brubbl blis blupp bu glupp splubb bloop.
 src/states/intro.lua:56		This is a game about rolling ones, apparently.	Brubbl blis bu glupp splubb blubbl plopp, blupglubbl.
@@ -1495,23 +1500,23 @@ src/ui/game_setup_options.lua:28	ui	hard wager	bloop bloop
 src/ui/game_setup_options.lua:29	ui	increase difficulty by 3	plupp glubblblorp blup 3
 src/ui/help_screen.lua:18	ui	HELP ME!	PLUPP BLOOP!
 src/ui/help_screen.lua:74	ui	INFO DUMP :)	BRUBBL PLUPP :)
-src/ui/help_screen.lua:111	ui	BUST	GLUPP
-src/ui/help_screen.lua:112	ui	Each die has a red Bust side.\nRolling Bust side reduces your Bust meter.\n\nIf Bust meter goes to 0 you WIPE.\nAll unbanked points are gone, turn ends.	Glubb blobb blubb bu glupp Glupp blubbl.\nBlubbl Glupp blubbl blupp bluu Glupp flubb.\n\nFlubb Glupp flubb plopp blo 0 blu SPLATT.\nGlupp blup blips blar blubbl, glubbo brubbl.
-src/ui/help_screen.lua:115	ui	ALL BUST - INSTANT WIPE	GLUPP GLUPP - BRRL SPLATT
-src/ui/help_screen.lua:116	ui	The tricky part!\n\nIf all dice you rolled at once show Bust,\nyou WIPE instantly, regardless of the Bust meter.\n\nExample: 3 out of 3 dice rolled Bust	Bl blubb splubb!\n\nFlubb glupp blobbs blu glorp splubb splubb plopp Glupp,\nblu SPLATT flubb, glorpflubb blov bl Glupp flubb.\n\nBlupp: 3 blubb blov 3 blobbs glorp Glupp
-src/ui/help_screen.lua:119	ui	BANKING	BLOOBING
-src/ui/help_screen.lua:120	ui	BANK to lock in your points and refill the Bust meter.\nEach BANK ends your Turn.	BLOOBA blo plopp blin bluu blips blan blorp bl Glupp flubb.\nGlubb BLOOBA brubbl bluu Glubbo.
-src/ui/help_screen.lua:123	ui	TURN	GLUBBO
-src/ui/help_screen.lua:124	ui	Each level you get limited Turns.\nTurns end when you BANK or WIPE.\nWhen you run out of Turns the game is over.\nBust meter and Power charge refill each turn.	Glubb blubbo blu blupp blubb Glubbos.\nGlubbos blorp plupp blu BLOOBA glor SPLATT.\nPlupp blu plupp blubb blov Glubbos bl glupp blis splubb.\nGlupp flubb blan Brubbl blupp blorp glubb glubbo.
-src/ui/help_screen.lua:129	ui	SCORING	GLUPP
-src/ui/help_screen.lua:130	ui	Select dice that form a combo and score them.\nPoints x Mult = Score.\nBigger combos score exponentially more.\nScore multiple combos in one Turn to build Momentum for extra Points and Mult	Plopp blobbs flubb glubbl bu blom blan glupp blupp.\nBlips glubb Glubbi = Glupp.\nBrrl bloms glupp gluppblupp blupp.\nGlupp plupp bloms blin blup Glubbo blo brubbl Bubbl flor blorp Blips blan Glubbi
-src/ui/help_screen.lua:133	ui	TRINKETS, SPELLS & SNACKS	BLINKLES, GLIMS & NOMBLS
-src/ui/help_screen.lua:134	ui	- Trinkets are passive, they trigger automatically.\n- Spells are one time use!\n- Snacks are dragged onto a die to add special effects.	- Blinkles blar glubb, blorp blup glorpplupp.\n- Glims blar blup blubb glubb!\n- Nombls blar glupp blupp bu blobb blo blorp glorp plupp.
-src/ui/help_screen.lua:137	ui	CHARACTER POWER	BLORP BRUBBL
-src/ui/help_screen.lua:138	ui	Each character has a unique Power. Use them to modify dice, reduce risk and get better combos.\n\nPower recharges each turn or with die side effects and items.	Glubb blorp blubb bu blup Brubbl. Glubb blupp blo splubb blobbs, blorp blorp blan blupp glupp bloms.\n\nBrubbl plupp glubb glubbo glor blith blobb blubbl plupp blan glorp.
-src/ui/help_screen.lua:141	ui	BASIC TACTICS	BRUBBL GLUBBL
-src/ui/help_screen.lua:142	ui	The more dice you roll at once the bigger chance of any Bust, but smaller chance of All Bust.\n\nRerolling a single die is ballsy! Prioritize rerolling blank dice. Scoring a single big combo is better than few pairs.	Bl blupp blobbs blu blubba splubb splubb bl brrl blubb blov brubbl Glupp, blup plopp blubb blov Glupp Glupp.\n\nPlupp bu flubb blobb blis blup! Glubblbrrl plupp glubb blobbs. Glupp bu flubb glubb blom blis glupp plopp glupp glubbl.
-src/ui/item_hover.lua:73 (+4 others)	ui	SPELL	GLIM
+src/ui/help_screen.lua:119	ui	BUST	GLUPP
+src/ui/help_screen.lua:120	ui	Each die has a red Bust side.\nRolling Bust side reduces your Bust meter.\n\nIf Bust meter goes to 0 you WIPE.\nAll unbanked points are gone, turn ends.	Glubb blobb blubb bu glupp Glupp blubbl.\nBlubbl Glupp blubbl blupp bluu Glupp flubb.\n\nFlubb Glupp flubb plopp blo 0 blu SPLATT.\nGlupp blup blips blar blubbl, glubbo brubbl.
+src/ui/help_screen.lua:123	ui	ALL BUST - INSTANT WIPE	GLUPP GLUPP - BRRL SPLATT
+src/ui/help_screen.lua:124	ui	The tricky part!\n\nIf all dice you rolled at once show Bust,\nyou WIPE instantly, regardless of the Bust meter.\n\nExample: 3 out of 3 dice rolled Bust	Bl blubb splubb!\n\nFlubb glupp blobbs blu glorp splubb splubb plopp Glupp,\nblu SPLATT flubb, glorpflubb blov bl Glupp flubb.\n\nBlupp: 3 blubb blov 3 blobbs glorp Glupp
+src/ui/help_screen.lua:127	ui	BANKING	BLOOBING
+src/ui/help_screen.lua:128	ui	BANK to lock in your points and refill the Bust meter.\nEach BANK ends your Turn.	BLOOBA blo plopp blin bluu blips blan blorp bl Glupp flubb.\nGlubb BLOOBA brubbl bluu Glubbo.
+src/ui/help_screen.lua:131	ui	TURN	GLUBBO
+src/ui/help_screen.lua:132	ui	Each level you get limited Turns.\nTurns end when you BANK or WIPE.\nWhen you run out of Turns the game is over.\nBust meter and Power charge refill each turn.	Glubb blubbo blu blupp blubb Glubbos.\nGlubbos blorp plupp blu BLOOBA glor SPLATT.\nPlupp blu plupp blubb blov Glubbos bl glupp blis splubb.\nGlupp flubb blan Brubbl blupp blorp glubb glubbo.
+src/ui/help_screen.lua:137	ui	SCORING	GLUPP
+src/ui/help_screen.lua:138	ui	Select dice that form a combo and score them.\nPoints x Mult = Score.\nBigger combos score exponentially more.\nScore multiple combos in one Turn to build Momentum for extra Points and Mult	Plopp blobbs flubb glubbl bu blom blan glupp blupp.\nBlips glubb Glubbi = Glupp.\nBrrl bloms glupp gluppblupp blupp.\nGlupp plupp bloms blin blup Glubbo blo brubbl Bubbl flor blorp Blips blan Glubbi
+src/ui/help_screen.lua:141	ui	TRINKETS, SPELLS & SNACKS	BLINKLES, GLIMS & NOMBLS
+src/ui/help_screen.lua:142	ui	- Trinkets are passive, they trigger automatically.\n- Spells are one time use!\n- Snacks are dragged onto a die to add special effects.	- Blinkles blar glubb, blorp blup glorpplupp.\n- Glims blar blup blubb glubb!\n- Nombls blar glupp blupp bu blobb blo blorp glorp plupp.
+src/ui/help_screen.lua:145	ui	CHARACTER POWER	BLORP BRUBBL
+src/ui/help_screen.lua:146	ui	Each character has a unique Power. Use them to modify dice, reduce risk and get better combos.\n\nPower recharges each turn or with die side effects and items.	Glubb blorp blubb bu blup Brubbl. Glubb blupp blo splubb blobbs, blorp blorp blan blupp glupp bloms.\n\nBrubbl plupp glubb glubbo glor blith blobb blubbl plupp blan glorp.
+src/ui/help_screen.lua:149	ui	BASIC TACTICS	BRUBBL GLUBBL
+src/ui/help_screen.lua:150	ui	The more dice you roll at once the bigger chance of any Bust, but smaller chance of All Bust.\n\nRerolling a single die is ballsy! Prioritize rerolling blank dice. Scoring a single big combo is better than few pairs.	Bl blupp blobbs blu blubba splubb splubb bl brrl blubb blov brubbl Glupp, blup plopp blubb blov Glupp Glupp.\n\nPlupp bu flubb blobb blis blup! Glubblbrrl plupp glubb blobbs. Glupp bu flubb glubb blom blis glupp plopp glupp glubbl.
+src/ui/item_hover.lua:76 (+4 others)	ui	SPELL	GLIM
 src/ui/level_map.lua:65	ui	LEVEL MAP	BLUBBO BLORP
 src/ui/level_map.lua:165		Level ${level}	Blubbo ${level}
 src/ui/level_map.lua:168	ui	Final nightmare level	Plopp plupp blubbo
