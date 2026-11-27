@@ -328,7 +328,7 @@ src/entities/dice.lua:632		CRACK	KRACK
 src/entities/dice_peek.lua:50		ingestion might hurt tummy	könnte bauchschmerzen verursachen
 src/entities/dice_peek.lua:256		Impatient	Ungeduldig
 src/entities/dice_peek.lua:256		Nudges up everytime anything is rolled.	Kippt +1 jedes Mal, wenn irgendetwas geworfen wird.
-src/entities/dice_peek.lua:257		Disappears after being scored.	Verchwindet nach Wertung.
+src/entities/dice_peek.lua:257		Disappears after being scored.	Verschwindet nach Wertung.
 src/entities/dice_peek.lua:258		Cycle	Zyklisch
 src/entities/dice_peek.lua:258		Rolls to its next value.\nDamage on score.	Würfelt immer auf den nächsten Wert.\nErleidet Schaden bei Wertung.
 src/entities/dice_peek.lua:270		Scores x${times}	Wertet x${times}
@@ -536,7 +536,7 @@ src/items.lua:541		Repeat the last spell used	Wiederhole den\nletzten Zauber
 src/items.lua:552 (+1 others)		Nothing to copy!	Kein Zauber benutzt!
 src/items.lua:555 (+1 others)		Copy!	Nachgeahmt!
 src/items.lua:561		Copybigdog	Nachnachahmer
-src/items.lua:565		Repeat the last spell used, twice	Wiederhole den letzten Zauber zwei mal
+src/items.lua:565		Repeat the last spell used, twice	Wiederhole den letzten Zauber zweimal
 src/items.lua:588		Heal	Heilung
 src/items.lua:591		All dice +4 ♥	+4 ♥ für alle Würfel
 src/items.lua:605 (+1 others)		Healed!	Geheilt!
@@ -1108,7 +1108,7 @@ src/powers.lua:298		Roll over	Rolle
 src/powers.lua:299		Reroll two selected dice to their next lower value.	Wirft zwei gewählte Würfel auf ihren nächsten niedrigeren Augenwert.
 src/powers.lua:322		Mystery Die	Rätselwürfel
 src/powers.lua:323		Spawn a random die.	Erzeugt einen zufälligen Würfel.
-src/powers.lua:346		Gain a Bust Shield.	Erzeugt ein Bust-Schild. 
+src/powers.lua:346		Gain a Bust Shield.	Erzeugt ein Bust-Schild.
 src/powers.lua:363		Ghost Bust	Geist-Bust
 src/powers.lua:364		Gain an extra blue Bust for this turn.	Erzeugt einen zusätzlichen blauen Bust für diesen Zug.
 src/powers.lua:379		Fishy Deal	Fauler Deal
@@ -1315,7 +1315,7 @@ src/states/game.lua:3664		¤ Banked	¤ in der BANK
 src/states/game.lua:3665		Bank ¤${KEPT}?	¤${KEPT} sichern?
 src/states/game.lua:3666		Win To Bank ¤	Gewinne, um ¤ in der BANK zu sichern
 src/states/game.lua:3667		Bank ¤ in ${LEVELS} lvl	¤ sichern in ${LEVELS} lvl
-src/states/game.lua:3681		Secure your Stars for the run\nyou won't be able to gain more this run	Sichere deine Sterne für diesen Run.\nDanach kannst du diesen Run keine Sterne mehr sammeln.
+src/states/game.lua:3681		Secure your Stars for the run\nyou won't be able to gain more this run	Sichere deine Sterne für diesen Run.\nDanach kannst du in diesem Run keine Sterne mehr sammeln.
 src/states/game.lua:3683		Stars already banked this run	Sterne in diesem Run schon gesichert
 src/states/game.lua:3685		Securing Stars available after each nightmare level	Sterne zu sichern ist nach jedem Albtraum-Level möglich
 src/states/game.lua:3746 (+7 others)		no	nein
@@ -1397,7 +1397,7 @@ src/states/options.lua:496		locale	sprache
 src/states/options.lua:500		nuke entire save	spielstand löschen
 src/states/options.lua:505		Delete the entire game's save file\nresetting everything\nand losing all your progress forever?	Willst du deinen ganzen Spielstand löschen,\nAlles zurücksetzen und deinen Fortschritt für immer verlieren?
 src/states/options.lua:520		reset options	optionen\nzurücksetzen
-src/states/options.lua:525		Reset all the game options\nto their default values?	Willst du alle Optionen auf ihren Standard zurücksetzen? 
+src/states/options.lua:525		Reset all the game options\nto their default values?	Willst du alle Optionen auf ihren Standard zurücksetzen?
 src/states/options.lua:546		reset tips	tipps\nzurücksetzen
 src/states/options.lua:551		reset all the hover tooltip counters\nso that all the tips show again?	Willst du alle Tipps wieder anzeigen lassen?
 src/states/options.lua:570		replay tutorial	tutorial\nwiederholen
@@ -1449,7 +1449,7 @@ src/states/title.lua:378 (+1 others)		bye?	bye?
 src/states/title.lua:473		brighten up	licht reinlassen
 src/states/title.lua:474		rest your eyes	die augen schonen
 src/states/title.lua:485		community chat	community chat
-src/states/title.lua:634		Welcome To 1.0!	Willkomen in der 1.0 Version!
+src/states/title.lua:634		Welcome To 1.0!	Willkommen in der 1.0 Version!
 src/states/title.lua:635		thanks so much for supporting the game ♥\nyou are looking fabulous today\n\nlots has changed since early access\nwe recommend starting 1.0 with a fresh save, but its up to you	vielen dank für deine unterstützung ♥\ndu siehst heute gut aus\n\nvieles hat sich seit early access geändert\nwir empfehlen dir, 1.0 mit einem frischen Spielstand zu starten, aber das ist dir überlassen
 src/states/title.lua:636		sure, delete it!	klar, lösch ihn!
 src/states/title.lua:637		yikes, no thanks	ihh, nein danke
