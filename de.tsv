@@ -145,7 +145,7 @@ src/characters/shirin.lua:197	dialogue	I'll let you toss a coin to revive you fo
 src/characters/shirin.lua:203	dialogue	RIP	RIP
 src/characters/shirin.lua:213	dialogue	Bad luck...	Pechvogel...
 src/characters/shirin.lua:221	dialogue	Lucky!	Glückspilz!
-src/characters/tapeworm.lua:2		Tapeworm	
+src/characters/tapeworm.lua:2		Tapeworm	Bandwurm
 src/characters/tooth_fairy.lua:2		Tooth Fairy	Zahnfee
 src/characters/tooth_fairy.lua:32		Cavity	Karies
 src/characters/tooth_fairy.lua:58	dialogue	Reach level 7 and I'll leave your teeth alone.	Erreiche Level 7 und ich lass deine Zähne in Ruhe.
@@ -323,7 +323,7 @@ src/entities/dice.lua:305		Skip\nRolls to the next value	Skip\nWürfelt zum näc
 src/entities/dice.lua:314		Mirror\nFlips to value of next clicked die	Spiegel\nKippt zum Wert des nächsten geklickten Würfels
 src/entities/dice.lua:323		Cracked\n -1 ♥ when rolled	Brüchig\n -1 ♥ wenn geworfen
 src/entities/dice.lua:333		Empty\nCan't be rolled	Leer\nKann nicht geworfen werden
-src/entities/dice.lua:342		Hardy\n+1 ♥ when scored	
+src/entities/dice.lua:342		Hardy\n+1 ♥ when scored	Zäh\n+1 ♥ bei Wertung
 src/entities/dice.lua:352		Doom\n-3 ♥ when rolled	Unheil\n-3 ♥ wenn geworfen
 src/entities/dice.lua:632		CRACK	KRACK
 src/entities/dice_peek.lua:50		ingestion might hurt tummy	könnte bauchschmerzen verursachen
@@ -467,8 +467,8 @@ src/item_unlocks.lua:333		Shop Expansion	Shop-Erweiterung
 src/item_unlocks.lua:334		more items more good	mehr items mehr gut
 src/item_unlocks.lua:343		Mega Shop	Mega Shop
 src/item_unlocks.lua:344		more items more items more items	mehr items mehr items mehr items
-src/item_unlocks.lua:354		Basic Dice Effects	
-src/item_unlocks.lua:355		Side Effects found in every shop	
+src/item_unlocks.lua:354		Basic Dice Effects	Einfache\nWürfel-Effekte
+src/item_unlocks.lua:355		Side Effects found in every shop	Seiten-Effekte in jedem Shop käuflich
 src/item_unlocks.lua:365		More Funky Dice	Mehr Würfel
 src/item_unlocks.lua:366		Special Side Effects in shops!\nMult, Debust, Power and Cracked	Spezielle Seiten-Effekte im Shop!\nMulti, Debust, Power und Brüchig
 src/item_unlocks.lua:376		Even More Dice	Noch Mehr Würfel
@@ -1097,8 +1097,8 @@ src/powers.lua:104		Nudge Skip	Skip-Kippen
 src/powers.lua:105		+1 pip to the selected die, skipping values already showing.	Kippt den gewählten Würfel +1 Auge. Überspringt dabei Augenzahlen,\nwelche bereits liegen.
 src/powers.lua:140		Nudge Up	Hoch Kippen
 src/powers.lua:141		+1 pip to the selected die	Kippt den gewählten Würfel +1 Auge.
-src/powers.lua:161		Pluck	
-src/powers.lua:162		Pull an Eye off the selected die's shown side.	
+src/powers.lua:161		Pluck	Ausrupfen
+src/powers.lua:162		Pull an Eye off the selected die's shown side.	Reißt ein Auge aus der sichtbaren Seite des gewählten Würfels heraus.
 src/powers.lua:184		Flip	Umdrehen
 src/powers.lua:185		Flip the selected die to its opposite face.	Dreht den gewählten Würfel auf die gegenüberliegende Seite.
 src/powers.lua:205		Smite	Opfergabe
@@ -1345,7 +1345,7 @@ src/states/gameover.lua:284		GAME OVER	GAME OVER
 src/states/gameover.lua:316		Death tax:	Verlust:
 src/states/gameover.lua:332		run info	run infos
 src/states/gameover.lua:371		restart	neu starten
-src/states/gameover.lua:372		menu	
+src/states/gameover.lua:372		menu	hauptmenü
 src/states/gameover.lua:583		Press Circle To Toss	Drücke Kreis Zum Werfen
 src/states/gameover.lua:583		Press B To Toss	Drücke B Zum Werfen
 src/states/gameover.lua:583		Right Click To Toss	Rechtsklick Zum Werfen
