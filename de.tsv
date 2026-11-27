@@ -554,7 +554,7 @@ src/items.lua:690		Citrus Bag	Zitrus-Tüte
 src/items.lua:693		Spawn 5 citrus slices	Erzeugt 5 Zitrusscheiben
 src/items.lua:707		Citrus!	Zitrus!
 src/items.lua:712		Butcher's Bag	Fleischertüte
-src/items.lua:715		Spawn 3 pig snacks	Erzeugt 3 Schwein-Snacks
+src/items.lua:715		Spawn 3 pig snacks	Erzeugt 3 Schweine-Snacks
 src/items.lua:728		Rare find!	Seltener Fund!
 src/items.lua:735		Meat!	Fleisch!
 src/items.lua:741		Dumpling Bag	Dumpling-Tüte
@@ -579,7 +579,7 @@ src/items.lua:879 (+1 others)		Add 1 Golden side	Fügt 1 Goldene Seite hinzu
 src/items.lua:898		Golden side Added	Goldene Seite Hinzugefügt
 src/items.lua:903		Pork Chop	Schweinekotelett
 src/items.lua:904		Add 4 Pig sides	Fügt 4 Schweine-Seiten hinzu
-src/items.lua:922		Pig Sides Added	Schwein-Seiten Hinzugefügt
+src/items.lua:922		Pig Sides Added	Schweine-Seiten Hinzugefügt
 src/items.lua:927		Hubba Bubba	Hubba Bubba
 src/items.lua:928 (+1 others)		Add 1 Debust side	Fügt 1 Debust-Seite hinzu
 src/items.lua:946 (+1 others)		Debust Side Added	Debust-Seite Hinzugefügt
@@ -587,11 +587,11 @@ src/items.lua:951		Ritalin	Ritalin
 src/items.lua:952 (+1 others)		Add 1 Power side	Fügt 1 Power-Seite hinzu
 src/items.lua:971 (+1 others)		Power Side Added	Power-Seite Hinzugefügt
 src/items.lua:976		Mochi	Mochi
-src/items.lua:977		Add 5 Stuck sides	Fügt 5 Klebrig-Seiten hinzu
-src/items.lua:995		Stuck Sides Added	Klebrig-Seiten Hinzugefügt
+src/items.lua:977		Add 5 Stuck sides	Fügt 5 Klebrige Seiten hinzu
+src/items.lua:995		Stuck Sides Added	Klebrige Seiten Hinzugefügt
 src/items.lua:1000		Bacon	Speck
-src/items.lua:1001 (+1 others)		Add 1 Pig side	Fügt 1 Schwein-Seite hinzu
-src/items.lua:1016 (+1 others)		Pig Side Added	Schwein-Seite Hinzugefügt
+src/items.lua:1001 (+1 others)		Add 1 Pig side	Fügt 1 Schweine-Seite hinzu
+src/items.lua:1016 (+1 others)		Pig Side Added	Schweine-Seite Hinzugefügt
 src/items.lua:1022 (+1 others)		Add 1 Skip side	Fügt 1 Skip-Seite hinzu
 src/items.lua:1037 (+1 others)		Skip Side Added	Skip-Seite Hinzugefügt
 src/items.lua:1042		Black Eyed Pea	Schwarzaugenbohne
@@ -1011,7 +1011,7 @@ src/items.lua:5897 (+4 others)		Select 1 die	Wähle 1 Würfel
 src/items.lua:5907		Add 1 Bust side to the selected die.\n5% chance to activate on dice rolls.	5% Chance, dass bei Würfelwurf ein Würfel deiner Wahl 1 Bust-Seite bekommt
 src/items.lua:5940 (+2 others)		No free side	Keine freie Seite
 src/items.lua:5951		Destroy the selected die.\n5% chance to activate on dice rolls.	5% Chance, dass bei Würfelwurf ein Würfel deiner Wahl zerstört wird
-src/items.lua:5983		Add 1 Cracked side to the selected die.\n5% chance to activate on dice rolls.	5% Chance, dass bei Würfelwurf ein Würfel deiner Wahl 1 Brüchig-Seite bekommt
+src/items.lua:5983		Add 1 Cracked side to the selected die.\n5% chance to activate on dice rolls.	5% Chance, dass bei Würfelwurf ein Würfel deiner Wahl 1 Brüchige Seite bekommt
 src/items.lua:6027		Add 1 Doom side to the selected die.\n5% chance to activate on dice rolls.	5% Chance, dass bei Würfelwurf ein Würfel deiner Wahl 1 Unheil-Seite bekommt
 src/items.lua:6071		+1 Bust.\n5% chance to activate on dice rolls.	5% Chance, dass du bei Würfelwurf +1 Bust bekommst
 src/items.lua:6087		+1 Bust	+1 Bust
