@@ -7,10 +7,10 @@ src/board_unlocks.lua:17		the real game begins	das spiel beginnt
 src/board_unlocks.lua:27		something smells fishy	riecht nach fisch
 src/board_unlocks.lua:48		all in	alles oder nichts
 src/boards/easy.lua:2		Shallows	Seichte Gewässer
-src/boards/easy.lua:3		Chill Vibes. Short run, extra bust limit.	Chillige Vibes.\nKurzer Run, Höheres Bust-Limit.
+src/boards/easy.lua:3		Chill Vibes. Short run, extra bust limit.	Chillige Vibes.\nKürzerer Run, höheres Bust-Limit.
 src/boards/easy.lua:4		the friendliest pond around	der freundlichste teich\nin der nachbarschaft
 src/boards/fish_board.lua:2		The Bay	Die Bucht
-src/boards/fish_board.lua:3		Smells Fishy	Riecht Nach Fisch.
+src/boards/fish_board.lua:3		Smells Fishy	Riecht nach Fisch.
 src/boards/fish_board.lua:4		come for the fish, stay for the fish	komm für die fische,\nbleib für die fische
 src/boards/normal.lua:2		Lands Adrift	Treibende Länder
 src/boards/normal.lua:3		Real game begins.	Das Spiel Beginnt.
@@ -32,7 +32,7 @@ src/character_unlocks.lua:95		he's so cool	er ist so cool
 src/character_unlocks.lua:105		slimy	schleimig
 src/character_unlocks.lua:115		say aaaaaaaa	sag mal aaaaaaah
 src/character_unlocks.lua:121		Plasticine	Knetmasse
-src/character_unlocks.lua:122		like putty in your hands\ncharacter customisation option	forme deine fantasie\ncharakteranpassungen
+src/character_unlocks.lua:122		like putty in your hands\ncharacter customisation option	forme deine fantasie\ncharakter-anpassungsoptionen
 src/character_unlocks.lua:135		Wagers	Wetten
 src/character_unlocks.lua:136		wager ¤ to increase difficulty and reward	setze ¤ ein um schwierigkeit und gewinn zu erhöhen
 src/characters/anais.lua:2		Anais	Anais
@@ -54,7 +54,7 @@ src/characters/business_fish.lua:76 (+1 others)	dialogue	This ain't it	Das geht 
 src/characters/business_fish.lua:77 (+1 others)	dialogue	Take me into deep waters baby.	Bring mich in tiefes Wasser, Baby.
 src/characters/business_fish.lua:79	dialogue	Tuff' day in fish business	Harter Tag für's Fischgeschäft
 src/characters/business_fish.lua:105	dialogue	Let's talk business	Kommen wir zum Geschäft
-src/characters/business_fish.lua:107		I'll revive you for $cost ¤ and $amount dues, payable later.	Ich belebe dich wieder für $cost ¤ und $amount Schulden, welche du später begleichen kannst.
+src/characters/business_fish.lua:107		I'll revive you for $cost ¤ and $amount dues, payable later.	Ich belebe dich wieder für $cost ¤ und $amount Schulden, die du später begleichen kannst.
 src/characters/business_fish.lua:114	dialogue	Bad investment	Schlecht investiert
 src/characters/business_fish.lua:126	dialogue	Pleasure doing business	War mir ein Vergnügen
 src/characters/cool_fish.lua:2		Cool Fish	Cooler Fisch
@@ -75,7 +75,7 @@ src/characters/god.lua:15	dialogue	fall back	rückzug
 src/characters/god.lua:34	dialogue	begone	weiche
 src/characters/god.lua:40		wager your soul	wette deine seele
 src/characters/god.lua:41		Wager your Soul?	Willst du deine Seele auf's Spiel setzen?
-src/characters/god.lua:42		You are wagering your soul.\nIf you lose, your save is gone forever.	Du setzt deine Seele ein.\nVerlierst du ist dein Speicherstand für immer weg.
+src/characters/god.lua:42		You are wagering your soul.\nIf you lose, your save is gone forever.	Du setzt deine Seele ein.\nVerlierst du, ist dein Speicherstand für immer weg.
 src/characters/god.lua:51	dialogue	i hope you are feeling lucky	ich hoffe das glück ist dir hold
 src/characters/god.lua:70		but you have earned nothing	aber du hast nichts gesammelt
 src/characters/god.lua:72		but you need ${stars} ¤	aber du brauchst ${stars} ¤
@@ -96,15 +96,15 @@ src/characters/god.lua:292		show me what you have earned	zeig mir was du verdien
 src/characters/god.lua:296		give me everything	gib mir alles
 src/characters/god.lua:298		do you have what it takes?	hast du das zeug dazu?
 src/characters/god.lua:302		you are never getting out of here	du kommst hier nie wieder raus
-src/characters/god.lua:349		i always believed in you	ich hab immer an dich geglaubt
+src/characters/god.lua:349		i always believed in you	ich habe immer an dich geglaubt
 src/characters/guy.lua:2		Guy	Typ
 src/characters/guy.lua:46		Eye Wide Open	Auge Weit Offen
 src/characters/guy.lua:53		Lil Bro	Kleiner Brudi
-src/characters/guy.lua:85	dialogue	Reach level 7 to break free!	Erreich Level 7 um dich zu befreien!
-src/characters/guy.lua:87	dialogue	Reach level 10 to break free!	Erreich Level 10 um dich zu befreien!
+src/characters/guy.lua:85	dialogue	Reach level 7 to break free!	Erreich Level 7, um dich zu befreien!
+src/characters/guy.lua:87	dialogue	Reach level 10 to break free!	Erreich Level 10, um dich zu befreien!
 src/characters/guy.lua:115	dialogue	Keep riding?	Weiterreiten?
 src/characters/guy.lua:117	dialogue	I'll revive you for $cost ¤ and one passive item	Ich belebe dich für $cost ¤ und einen Glücksbringer wieder
-src/characters/guy.lua:123	dialogue	Live your truth	Leb aufrecht
+src/characters/guy.lua:123	dialogue	Live your truth	Lebe aufrecht
 src/characters/guy.lua:136	dialogue	Ride on	Lass dich nicht aufhalten
 src/characters/hotdog.lua:2		Hot Dawg	Hotdog
 src/characters/hotdog.lua:53		Jalapeno	Jalapeño
@@ -114,9 +114,9 @@ src/characters/hotdog.lua:103	dialogue	More for me	Bleibt mehr für mich übrig
 src/characters/hotdog.lua:114	dialogue	Chew carefully	Langsam kauen
 src/characters/king_fetus.lua:2		King Foetus	König Fötus
 src/characters/king_fetus.lua:38		Princess	Prinzessin
-src/characters/king_fetus.lua:62	dialogue	Reach level 7 to escape!	Erreiche Level 7 um zu entkommen!
+src/characters/king_fetus.lua:62	dialogue	Reach level 7 to escape!	Erreiche Level 7, um zu entkommen!
 src/characters/king_fetus.lua:63 (+1 others)	dialogue	goo goo gaa gaa	gu gu ga ga
-src/characters/king_fetus.lua:65	dialogue	Reach level 10 to escape!	Erreiche Level 10 um zu entkommen!
+src/characters/king_fetus.lua:65	dialogue	Reach level 10 to escape!	Erreiche Level 10, um zu entkommen!
 src/characters/king_fetus.lua:85	dialogue	go more?	noch mehr?
 src/characters/king_fetus.lua:87	dialogue	revive for $cost ¤ and 1 max bust	wiederbeleben für $cost ¤ und 1 max bust
 src/characters/king_fetus.lua:106	dialogue	glob gob	glub glub
@@ -169,17 +169,17 @@ src/characters/tutorial_character.lua:133	dialogue	BANK your Points to complete 
 src/characters/tutorial_character.lua:143	dialogue	You made it through the first level!	Du hast das erste Level geschafft!
 src/characters/tutorial_character.lua:144	dialogue	Between levels, you'll visit The Shop, buy Trinkets, Snacks and Spells.\nAll the fun stuff.	Zwischen Levels wirst du den Shop besuchen um Glücksbringer, Snacks und Zauber zu kaufen.
 src/characters/tutorial_character.lua:161		combo	Combo
-src/characters/tutorial_character.lua:162	dialogue	That's a ${combo_label}!	"Das ist eine\n""${combo_label}""-Combo!"
+src/characters/tutorial_character.lua:162	dialogue	That's a ${combo_label}!	Das ist eine\n'${combo_label}' Combo!
 src/characters/tutorial_character.lua:163	dialogue	Select and score it!	Wähle sie aus\nund werte sie!
-src/characters/tutorial_character.lua:175	dialogue	Nice, those Points are safe now.	Nice, die Punkte sind jetzt sicher.
+src/characters/tutorial_character.lua:175	dialogue	Nice, those Points are safe now.	Nice, die Punkte sind\njetzt sicher.
 src/characters/tutorial_character.lua:176	dialogue	BANK refilled your Bust meter.	Die BANK hat dein BUST-Meter wieder aufgefüllt.
-src/characters/tutorial_character.lua:179	dialogue	You have $TURNS BANKS left, so make sure you only BANK when you need to!	Du hast $TURNS Züge übrig, also nutze die BANK nur wenn du wirklich musst!
+src/characters/tutorial_character.lua:179	dialogue	You have $TURNS BANKS left, so make sure you only BANK when you need to!	Du hast $TURNS Züge übrig, also nutze die BANK nur, wenn du wirklich musst!
 src/characters/tutorial_character.lua:192	dialogue	Red sides are BUST! If you roll too many, you will WIPE!	Rote Seiten sind BUSTS!\nWirfst du zu viele, WIPEST du!
 src/characters/tutorial_character.lua:198		<- BUST meter here	<- BUST-Meter hier
 src/characters/tutorial_character.lua:212	dialogue	One more BUST and you'll WIPE!	Noch ein BUST\nund du WIPEST!
 src/characters/tutorial_character.lua:213	dialogue	Consider BANKing your points now to keep them safe.	Überlege jetzt, die BANK zu nutzen, um deine Punkte zu sichern.
-src/characters/tutorial_character.lua:225	dialogue	Now that you accumulated some points try banking!	Jetzt da du ein paar Punkte gesammelt hast, probiere in die BANK zu zahlen!
-src/characters/tutorial_character.lua:226	dialogue	Each time you BANK, you use up a Turn.	x
+src/characters/tutorial_character.lua:225	dialogue	Now that you accumulated some points try banking!	Jetzt da du ein paar Punkte gesammelt hast, probiere in die Bank zu zahlen!
+src/characters/tutorial_character.lua:226	dialogue	Each time you BANK, you use up a Turn.	Jedes Mal, wenn du die BANK benutzt, ist dein Zug vorbei.
 src/characters/tutorial_character.lua:227	dialogue	When you run out of Turns, the game ends.	Wenn du keine Züge mehr hast, ist das Spiel vorbei.
 src/characters/tutorial_character.lua:231		See turns left here ->	Übrige Züge hier ->
 src/characters/tutorial_character.lua:237		<- Click here to bank	<- Bank benutzen hier
@@ -274,16 +274,16 @@ src/endings/king_fetus.lua:148	dialogue	you're so young	du bist so jung
 src/endings/king_fetus.lua:149	dialogue	don't face the world	stelle dich nicht der welt
 src/endings/king_fetus.lua:150	dialogue	stay here	bleib hier
 src/endings/liz.lua:33		hit that mochi?	zieh den mochi?
-src/endings/liz.lua:175	dialogue	how did you do?	wie hast du dich gemacht?
+src/endings/liz.lua:175	dialogue	how did you do?	wie hast du abgeschnitten?
 src/endings/liz.lua:176	dialogue	in the test, i mean	im test, meine ich
-src/endings/liz.lua:177	dialogue	we all pass\nin one way or another	wir alle kommen durch\nauf irgendeine art
+src/endings/liz.lua:177	dialogue	we all pass\nin one way or another	wir alle kommen durch
 src/endings/liz.lua:178	dialogue	eventually	irgendwann
 src/endings/marooned.lua:75	dialogue	i am your salvation	ich bin deine erlösung
 src/endings/marooned.lua:76	dialogue	you are not drowning	jetzt ertrinkst du
 src/endings/party.lua:163	dialogue	You finished the Shallows!	Du hast Seichte Gewässer geschafft!
 src/endings/party.lua:164	dialogue	Unlock the next Depth from Star Guts for a bigger challenge.	Schalte die nächste Tiefe aus den Sternereien frei für eine größere Herausforderung.
 src/endings/shirin.lua:136	dialogue	welcome back	willkommen zurück
-src/endings/shirin.lua:137	dialogue	so you believe	also glaubst du
+src/endings/shirin.lua:137	dialogue	so you believe	du glaubst also
 src/endings/shirin.lua:138	dialogue	i am here	ich bin hier
 src/endings/tooth_fairy.lua:36		hit the guts	in die gedärme
 src/endings/tooth_fairy.lua:105	dialogue	hello friend	hallo freund
@@ -319,7 +319,7 @@ src/entities/dice.lua:269		Power\nRecharge power when scored	Power\nLädt deine 
 src/entities/dice.lua:278		Stuck\nCan't be rerolled	Klebrig\nKann nicht neu gewürfelt werden
 src/entities/dice.lua:287		Golden\n+1¥ when scored	Golden\n+1¥ bei Wertung
 src/entities/dice.lua:305		Skip\nRolls to the next value	Skip\nWürfelt zum nächsten Wert
-src/entities/dice.lua:314		Mirror\nFlips to value of next clicked die	Spiegel\nKippt zum Wert des danach gewählten Würfels
+src/entities/dice.lua:314		Mirror\nFlips to value of next clicked die	Spiegel\nKippt zum Wert des nächsten geklickten Würfels
 src/entities/dice.lua:323		Cracked\n -1 ♥ when rolled	Brüchig\n -1 ♥ wenn geworfen
 src/entities/dice.lua:333		Empty\nCan't be rolled	Leer\nKann nicht geworfen werden
 src/entities/dice.lua:342		Hardy\n+1 ♥ when rolled	Zäh\n+1 ♥ wenn geworfen
@@ -327,8 +327,8 @@ src/entities/dice.lua:352		Doom\n-3♥ when rolled	Unheil\n-3♥ wenn geworfen
 src/entities/dice.lua:632		CRACK	KRACK
 src/entities/dice_peek.lua:50		ingestion might hurt tummy	könnte bauchschmerzen verursachen
 src/entities/dice_peek.lua:256		Impatient	Ungeduldig
-src/entities/dice_peek.lua:256		Nudges up everytime anything is rolled.	Kippt jedes mal +1 wenn irgendetwas geworfen wird.
-src/entities/dice_peek.lua:257		Disappears after being scored.	Verchwindet nach Wertung.
+src/entities/dice_peek.lua:256		Nudges up everytime anything is rolled.	Kippt +1 jedes Mal, wenn irgendetwas geworfen wird.
+src/entities/dice_peek.lua:257		Disappears after being scored.	Verschwindet nach Wertung.
 src/entities/dice_peek.lua:258		Cycle	Zyklisch
 src/entities/dice_peek.lua:258		Rolls to its next value.\nDamage on score.	Würfelt immer auf den nächsten Wert.\nErleidet Schaden bei Wertung.
 src/entities/dice_peek.lua:270		Scores x${times}	Wertet x${times}
@@ -352,11 +352,11 @@ src/entities/god_shop.lua:499		reroll %d ¤	neue ware %d ¤
 src/entities/item.lua:498		Tooth ${count}/${limit}	Zahn ${count}/${limit}
 src/entities/item.lua:513		a to use spells	a um zu zaubern
 src/entities/item.lua:515		right click to use spells	rechtsklick um zu zaubern
-src/entities/item.lua:518		drag snacks over rolled dice	zieh snacks auf geworfene würfel
+src/entities/item.lua:518		drag snacks over rolled dice	ziehe snacks auf geworfene würfel
 src/entities/power_ui.lua:114	ui	Use	Benutzen
 src/entities/power_ui.lua:141 (+1 others)		greed	Gier
-src/entities/power_ui.lua:149	ui	Power recharges each turn\nSelect a die with Left Click then press this button to use it	Power lädt sich jeden Zug wieder auf\nWähl einen Würfel und drücke diesen Knopf um sie zu benutzen
-src/entities/power_ui.lua:329 (+1 others)	ui	closed	
+src/entities/power_ui.lua:149	ui	Power recharges each turn\nSelect a die with Left Click then press this button to use it	Power lädt sich jeden Zug wieder auf.\nWähl einen Würfel und drücke diesen Knopf um sie zu benutzen.
+src/entities/power_ui.lua:329 (+1 others)	ui	closed	geschlossen
 src/entities/shop.lua:82		TAB: ${total} ¥	DECKEL: ${total} ¥
 src/entities/shop.lua:107		Dice $count/$limit	Würfel $count/$limit
 src/entities/shop.lua:136		Trinkets $count/$limit	Glücksbr. $count/$limit
@@ -365,7 +365,7 @@ src/entities/shop.lua:1317		cant sell eternal	ewiges ist nicht verkäuflich
 src/entities/shop.lua:1329		sell cursed	fluch verkaufen
 src/entities/shop.lua:1341		too many dice	zu viele würfel
 src/entities/shop.lua:1353		too many trinkets	zu viele glücksbringer
-src/entities/shop.lua:1367		too many actives	
+src/entities/shop.lua:1367		too many actives	zu viele vorräte
 src/entities/shop.lua:1388		pay up	bezahlen
 src/entities/shop.lua:1388		take change	wechselgeld
 src/entities/shop.lua:1463		bye	bye
@@ -405,7 +405,7 @@ src/item_unlocks.lua:33		Basic Snacks	Einfache\nSnacks
 src/item_unlocks.lua:34		tasty treats for hungry dice	leckereien für hungrige würfel
 src/item_unlocks.lua:42		Basic Quests	Einfache\nQuests
 src/item_unlocks.lua:53		Parenting	Elternzeit
-src/item_unlocks.lua:54		life comes at you fast	man wird zu schnell erwachsen
+src/item_unlocks.lua:54		life comes at you fast	sie werden zu schnell erwachsen
 src/item_unlocks.lua:61		Hold	Halten
 src/item_unlocks.lua:62		HOLD!!!	HALTEN!!!
 src/item_unlocks.lua:72		Numerology	Numerologie
@@ -492,7 +492,7 @@ src/items.lua:102		Coin Burst	Münz-Schub
 src/items.lua:105		+300 Points per coin you own	+300 Punkte pro Münze
 src/items.lua:119 (+1 others)		No coins!	Keine Münzen!
 src/items.lua:125		Ghost Jar	Flaschengeist
-src/items.lua:128		Spawn 3 ghost dice	Erzeuge 3 Geisterwürfel
+src/items.lua:128		Spawn 3 ghost dice	Erzeugt 3 Geisterwürfel
 src/items.lua:146		Bust Shield	Bust-Schild
 src/items.lua:149		Bust Shield On	Erzeugt ein Bust-Schild
 src/items.lua:159 (+5 others)		Shield!	Schild!
@@ -503,7 +503,7 @@ src/items.lua:186		Downshift	Abschwung
 src/items.lua:189		Nudge all dice -1 pip (no loop)	Kippt alle Würfel -1 Auge\n(ohne Schleife)
 src/items.lua:203		-1 all	-1 für alle
 src/items.lua:208		Clamp High	Viererdeckeln
-src/items.lua:211		All dice above 4 become 4	Alle Würfel über 4 kippen auf 4
+src/items.lua:211		All dice above 4 become 4	Alle Würfel über 4\nkippen auf 4
 src/items.lua:229		Clamp 4	4 gedeckelt
 src/items.lua:234		Money Reroll	Geldwurf
 src/items.lua:237		Reroll all dice, gain +1¥ per 6 rolled	Wirf alle Würfel und bekomme +1¥ pro geworfener 6
@@ -522,12 +522,12 @@ src/items.lua:394 (+2 others)		No 1s!	Keine 1en!
 src/items.lua:400		Peek II	Dreiblick
 src/items.lua:403		Gain 1¥ per die showing 3	+1¥ pro Würfel,\nder 3 zeigt
 src/items.lua:425		No 3s!	Keine 3en!
-src/items.lua:434		-1 Bust per die showing 1	-1 Bust pro Würfel auf 1
+src/items.lua:434		-1 Bust per die showing 1	-1 Bust pro Würfel,\nder 1 zeigt
 src/items.lua:460		Scratchie	Rubbellos
 src/items.lua:463		Gain 0-3¥	Gewinne 0-3¥
 src/items.lua:480 (+1 others)		Nothing!	Nichts!
 src/items.lua:486		Scratchie II	Rubbellos II
-src/items.lua:489		1 in 3 chance to win 6¥	1 in 3 Chance, 6¥ zu gewinnen
+src/items.lua:489		1 in 3 chance to win 6¥	1 zu 3 Chance, 6¥ zu gewinnen
 src/items.lua:505		No luck	Niete
 src/items.lua:511		Scratchie III	Rubbellos III
 src/items.lua:514		Gain 1-4¥	Gewinne 1-4¥
@@ -536,18 +536,18 @@ src/items.lua:541		Repeat the last spell used	Wiederhole den\nletzten Zauber
 src/items.lua:552 (+1 others)		Nothing to copy!	Kein Zauber benutzt!
 src/items.lua:555 (+1 others)		Copy!	Nachgeahmt!
 src/items.lua:561		Copybigdog	Nachnachahmer
-src/items.lua:565		Repeat the last spell used, twice	Wiederhole den letzten Zauber zwei mal
+src/items.lua:565		Repeat the last spell used, twice	Wiederhole den letzten Zauber zweimal
 src/items.lua:588		Heal	Heilung
-src/items.lua:591		All dice +4 ♥	
+src/items.lua:591		All dice +4 ♥	+4 ♥ für alle Würfel
 src/items.lua:605 (+1 others)		Healed!	Geheilt!
-src/items.lua:610		Lil Heal	
-src/items.lua:613		All dice +2 ♥	
+src/items.lua:610		Lil Heal	Kleine Heilung
+src/items.lua:613		All dice +2 ♥	+2 ♥ für alle Würfel
 src/items.lua:632		Clutch	Klammern
 src/items.lua:635		Hold your next score	Behalte deine nächste Wertung
 src/items.lua:644 (+2 others)		Hold!	Behalten!
 src/items.lua:650		Snack Bag	Fresstüte
 src/items.lua:653		Spawn 2-3 random snack items	Erzeugt 2-3 zufällige Snacks
-src/items.lua:673		${amount} foods!	${amount}x Essen!
+src/items.lua:673		${amount} foods!	${amount}x Fressen!
 src/items.lua:678		Gambling Bag	Wundertüte
 src/items.lua:681		Send it	Lass dich überraschen
 src/items.lua:708		${amount} chances!	${amount} Chancen!
@@ -555,17 +555,17 @@ src/items.lua:713		Citrus Bag	Zitrus-Tüte
 src/items.lua:716		Spawn 5 citrus slices	Erzeugt 5 Zitrusscheiben
 src/items.lua:730		Citrus!	Zitrus!
 src/items.lua:735		Butcher's Bag	Fleischertüte
-src/items.lua:738		Spawn 3 pig snacks	Erzeugt 3 Schwein-Snacks
+src/items.lua:738		Spawn 3 pig snacks	Erzeugt 3 Schweine-Snacks
 src/items.lua:751		Rare find!	Seltener Fund!
 src/items.lua:758		Meat!	Fleisch!
 src/items.lua:764		Dumpling Bag	Dumpling-Tüte
 src/items.lua:767		Spawn 3 random dumplings	Erzeugt 3 zufällige Dumplings
 src/items.lua:781		3 dumplings!	3 Dumplings!
 src/items.lua:788		Caffeine Pill	Koffeinpille
-src/items.lua:789		Make a die impatient	Mache einen Würfel ungeduldig
+src/items.lua:789		Make a die impatient	Macht einen Würfel ungeduldig
 src/items.lua:803		Impatient!	Ungeduldig!
 src/items.lua:808		Tab	Blotter
-src/items.lua:809		Make a die cycle	Mache einen Würfel zyklisch
+src/items.lua:809		Make a die cycle	Macht einen Würfel zyklisch
 src/items.lua:823		Cycling!	Zyklisch!
 src/items.lua:828		Bolero	Bolero
 src/items.lua:829		Add 3 Bonus sides	Fügt 3 Bonus-Seiten hinzu
@@ -576,11 +576,11 @@ src/items.lua:871 (+1 others)		Mult Sides Added	Multi-Seiten Hinzugefügt
 src/items.lua:876		Mangosteen	Mangostane
 src/items.lua:877 (+1 others)		Add 1 Mult side	Fügt 1 Multi-Seite hinzu
 src/items.lua:901		Har Gow	Ha Cao
-src/items.lua:902 (+1 others)		Add 1 Golden side	Fügt 1 Gold-Seite hinzu
-src/items.lua:921		Golden side Added	Gold-Seite Hinzugefügt
+src/items.lua:902 (+1 others)		Add 1 Golden side	Fügt 1 Goldene Seite hinzu
+src/items.lua:921		Golden side Added	Goldene Seite Hinzugefügt
 src/items.lua:926		Pork Chop	Schweinekotelett
-src/items.lua:927		Add 4 Pig sides	Fügt 4 Schwein-Seiten hinzu
-src/items.lua:945		Pig Sides Added	Schwein-Seiten Hinzugefügt
+src/items.lua:927		Add 4 Pig sides	Fügt 4 Schweine-Seiten hinzu
+src/items.lua:945		Pig Sides Added	Schweine-Seiten Hinzugefügt
 src/items.lua:950		Hubba Bubba	Hubba Bubba
 src/items.lua:951 (+1 others)		Add 1 Debust side	Fügt 1 Debust-Seite hinzu
 src/items.lua:969 (+1 others)		Debust Side Added	Debust-Seite Hinzugefügt
@@ -588,11 +588,11 @@ src/items.lua:974		Ritalin	Ritalin
 src/items.lua:975 (+1 others)		Add 1 Power side	Fügt 1 Power-Seite hinzu
 src/items.lua:994 (+1 others)		Power Side Added	Power-Seite Hinzugefügt
 src/items.lua:999		Mochi	Mochi
-src/items.lua:1000		Add 5 Stuck sides	Fügt 5 Klebrig-Seiten hinzu
-src/items.lua:1018		Stuck Sides Added	Klebrig-Seiten Hinzugefügt
+src/items.lua:1000		Add 5 Stuck sides	Fügt 5 Klebrige Seiten hinzu
+src/items.lua:1018		Stuck Sides Added	Klebrige Seiten Hinzugefügt
 src/items.lua:1023		Bacon	Speck
-src/items.lua:1024 (+1 others)		Add 1 Pig side	Fügt 1 Schwein-Seite hinzu
-src/items.lua:1039 (+1 others)		Pig Side Added	Schwein-Seite Hinzugefügt
+src/items.lua:1024 (+1 others)		Add 1 Pig side	Fügt 1 Schweine-Seite hinzu
+src/items.lua:1039 (+1 others)		Pig Side Added	Schweine-Seite Hinzugefügt
 src/items.lua:1044		xnx	xnx
 src/items.lua:1045 (+1 others)		Add 1 Skip side	Fügt 1 Skip-Seite hinzu
 src/items.lua:1060 (+1 others)		Skip Side Added	Skip-Seite Hinzugefügt
@@ -616,46 +616,46 @@ src/items.lua:1190		Flip this die to its opposite face	Dreht den Würfel auf die
 src/items.lua:1205		Flipped!	Umgedreht!
 src/items.lua:1210		Orange	Orange
 src/items.lua:1211		Nudge all other dice one pip towards this die's value	Kippt alle Würfel 1 Auge in Richtung des Würfelwerts
-src/items.lua:1239		Pull!	Zieh!
+src/items.lua:1239		Pull!	Anziehend!
 src/items.lua:1244		Tumor	Tumor
-src/items.lua:1245		Spawn a ghost clone of this die	Erzeuge einen Geist-Klon dieses Würfels
+src/items.lua:1245		Spawn a ghost clone of this die	Erzeugt einen Geist-Klon des Würfels
 src/items.lua:1290		Cloned!	Geklont!
 src/items.lua:1295		Eye	Auge
 src/items.lua:1296		Add 1 pip to the shown side	Fügt 1 Auge der Seite hinzu
-src/items.lua:1319		Bonus Puke	Bonus-Kotzen
-src/items.lua:1339		Mult Puke	Multi-Kotzen
+src/items.lua:1319		Bonus Puke	Bonus-Kotze
+src/items.lua:1339		Mult Puke	Multi-Kotze
 src/items.lua:1354		Mult Side Added	Multi-Seite Hinzugefügt
-src/items.lua:1359		Debust Puke	Debust-Kotzen
-src/items.lua:1379		Pig Puke	Schwein-Kotzen
-src/items.lua:1399		Power Puke	Power-Kotzen
-src/items.lua:1420		Stuck Puke	Klebrig-Kotzen
-src/items.lua:1421		Add 1 Stuck side	Fügt 1 Klebrig-Seite hinzu
-src/items.lua:1435		Stuck Side Added	Klebrig-Seite Hinzugefügt
-src/items.lua:1440		Money Puke	Geld-Kotzen
-src/items.lua:1455		Golden Side Added	Gold-Seite Hinzugefügt
-src/items.lua:1460		Skip Puke	Skip-Kotzen
-src/items.lua:1480		Mirror Puke	Spiegel-Kotzen
+src/items.lua:1359		Debust Puke	Debust-Kotze
+src/items.lua:1379		Pig Puke	Schweine-Kotze
+src/items.lua:1399		Power Puke	Power-Kotze
+src/items.lua:1420		Stuck Puke	Klebrige Kotze
+src/items.lua:1421		Add 1 Stuck side	Fügt 1 Klebrige Seite hinzu
+src/items.lua:1435		Stuck Side Added	Klebrige Seite Hinzugefügt
+src/items.lua:1440		Money Puke	Geld-Kotze
+src/items.lua:1455		Golden Side Added	Goldene Seite Hinzugefügt
+src/items.lua:1460		Skip Puke	Skip-Kotze
+src/items.lua:1480		Mirror Puke	Spiegel-Kotze
 src/items.lua:1481		Add 1 Mirror side	Fügt 1 Spiegel-Seite hinzu
 src/items.lua:1495		Mirror Side Added	Spiegel-Seite Hinzugefügt
-src/items.lua:1500		Cracked Puke	Brüchig-Kotzen
-src/items.lua:1501		Add 1 Cracked side	Fügt 1 Brüchig-Seite hinzu
-src/items.lua:1515 (+2 others)		Cracked Side Added	Brüchig-Seite Hinzugefügt
-src/items.lua:1520		Hardy Puke	Zäh-Kotzen
-src/items.lua:1521		Add 1 Hardy side	Fügt 1 Zäh-Seite hinzu
-src/items.lua:1535		Hardy Side Added	Zäh-Seite Hinzugefügt
-src/items.lua:1540		Doom Puke	Unheil-Kotzen
+src/items.lua:1500		Cracked Puke	Brüchige Kotze
+src/items.lua:1501		Add 1 Cracked side	Fügt 1 Brüchige Seite hinzu
+src/items.lua:1515 (+2 others)		Cracked Side Added	Brüchige Seite Hinzugefügt
+src/items.lua:1520		Hardy Puke	Zähe Kotze
+src/items.lua:1521		Add 1 Hardy side	Fügt 1 Zähe Seite hinzu
+src/items.lua:1535		Hardy Side Added	Zähe Seite Hinzugefügt
+src/items.lua:1540		Doom Puke	Unheil-Kotze
 src/items.lua:1541		Add 1 Doom side	Fügt 1 Unheil-Seite hinzu
 src/items.lua:1555 (+2 others)		Doom Side Added	Unheil-Seite Hinzugefügt
-src/items.lua:1560		Bust Puke	Bust-Kotzen
+src/items.lua:1560		Bust Puke	Bust-Kotze
 src/items.lua:1561		Add 1 Bust side	Fügt 1 Bust-Seite hinzu
 src/items.lua:1575 (+2 others)		Bust Side Added	Bust-Seite Hinzugefügt
 src/items.lua:1580		Finger	Finger
-src/items.lua:1581		Puke a special effect out	Kotze einen Seiten-Effekt aus
+src/items.lua:1581		Puke a special effect out	Kotzt einen Seiten-Effekt aus
 src/items.lua:1605		Emetique (TM)	Emetique (TM)
-src/items.lua:1606		Puke all special effects out	Kotze alle Seiten-Effekte aus
+src/items.lua:1606		Puke all special effects out	Kotzt alle Seiten-Effekte aus
 src/items.lua:1646		Pig Run	Schweinelauf
-src/items.lua:1649		Pig sides score +${dynamic} Points, gains +5 per pig rerolled this turn. Resets each turn.	Schwein-Seiten werten +${dynamic} Punkte, +5 pro Schwein das diesen Zug neu geworfen wurde
-src/items.lua:1673		pig bonus +${amount}!	Erzeugt zwei Geisterwürfel
+src/items.lua:1649		Pig sides score +${dynamic} Points, gains +5 per pig rerolled this turn. Resets each turn.	Schweine-Seiten werten\n+${dynamic} Punkte, +5 pro Schwein, das diesen Zug neu geworfen wurde
+src/items.lua:1673		pig bonus +${amount}!	schweine-bonus +${amount}!
 src/items.lua:1678		Thurible	Thuribulum
 src/items.lua:1681		+${dynamic} Mult, gains +1 Mult each time a die is destroyed	+${dynamic} Multi, bekommt +1 Multi jedes Mal, wenn ein Würfel zerstört wird
 src/items.lua:1695 (+1 others)		+1 mult	+1 multi
@@ -667,17 +667,17 @@ src/items.lua:1753		+${amount} pts!	+${amount} pkt!
 src/items.lua:1764		Bleeding Baby	Blutendes Baby
 src/items.lua:1767		+${dynamic} Mult, gains +1 Mult each time you bust, resets on wipe	+${dynamic} Multi, bekommt +1 Multi bei jedem Bust. Setzt sich bei Wipe zurück.
 src/items.lua:1797		Grudge Baby	Groll Baby
-src/items.lua:1800		+${dynamic} Mult, loses 1 Mult each time you bank	+${dynamic} Multi, -1 Multi jedes mal, wenn die Bank benutzt wird
+src/items.lua:1800		+${dynamic} Mult, loses 1 Mult each time you bank	+${dynamic} Multi, -1 Multi jedes Mal, wenn die Bank benutzt wird
 src/items.lua:1816		-1 mult	-1 multi
 src/items.lua:1828		Glass Gecko	Glas-Gecko
 src/items.lua:1829		+10 Mult, destroyed on Bust	+10 Multi, zerspringt bei Bust
 src/items.lua:1846		Belly	Bäuchlein
-src/items.lua:1849		+${dynamic} Mult, gains +0.1 Mult each time a snack is eaten	+${dynamic} Multi, +0,1 Multi jedes mal, wenn ein Snack gegessen wird
+src/items.lua:1849		+${dynamic} Mult, gains +0.1 Mult each time a snack is eaten	+${dynamic} Multi, +0,1 Multi jedes Mal, wenn ein Snack gegessen wird
 src/items.lua:1864		+0.1 mult	+0,1 multi
 src/items.lua:1882		Worm	Wurm
 src/items.lua:1885		+2 Mult	+2 Multi
 src/items.lua:1896		Mahjong Tile	Mahjong-Stein
-src/items.lua:1899		+4 Mult	
+src/items.lua:1899		+4 Mult	+4 Multi
 src/items.lua:1911		Clam	Muschel
 src/items.lua:1914		+50 Points	+50 Punkte
 src/items.lua:1926		CD	CD
@@ -685,7 +685,7 @@ src/items.lua:1929		+10 Mult, -2 Mult for each die scored	+10 Multi, -2 Multi f�
 src/items.lua:1946		Papa	Papa
 src/items.lua:1949		+1 Mult per die scored	+1 Multi pro gewertetem Würfel
 src/items.lua:1965		Powered Claw	Kraftklaue
-src/items.lua:1968		+5 Mult, uses 1 Power	+5 Multi, verbraucht 1 Power
+src/items.lua:1968		+5 Mult, uses 1 Power	+5 Multi,\nverbraucht 1 Power
 src/items.lua:1983		POY SIAN	POY SIAN
 src/items.lua:1986		+40 Points for each unrolled 4	+40 Punkte beim Wurf für jede bereits liegende 4
 src/items.lua:2004		Hold The Ones	Augenzähler
@@ -696,13 +696,13 @@ src/items.lua:2046		10 momentum!	10 momentum!
 src/items.lua:2053		Mushieltador	Brauner Schildling
 src/items.lua:2056		Gain a Bust Shield when banking if your last combo was any Straight	Bekomme ein Bust-Schild bei Bank-Einzahlung, wenn deine letzte Combo irgendeine Straße war
 src/items.lua:2082		Survival Instinct	Überlebensinstinkt
-src/items.lua:2085		x2 Mult on 1 turn left	x2 Multi wenn nur noch 1 Zug übrig ist
+src/items.lua:2085		x2 Mult on 1 turn left	x2 Multi, wenn nur noch 1 Zug übrig ist
 src/items.lua:2116		Mandarin Peel	Mandarinenschale
 src/items.lua:2119		+5 Mult for your first scored combo each turn	+5 Multi für die erste Combo, die in jedem Zug gewertet wird
 src/items.lua:2140		Octopus Ting	Oktopus-Ding
 src/items.lua:2143		x3 Mult for your first scored combo each level	x3 Multi für die erste Combo, die in jedem Level gewertet wird
 src/items.lua:2168		Four Legged Star	Vierbeiniger Stern
-src/items.lua:2171		+300 Points for a combo containing Four Of A Kind	+300 Points für eine Combo, die einen Viererpasch beinhaltet
+src/items.lua:2171		+300 Points for a combo containing Four Of A Kind	+300 Punkte für eine Combo, die einen Viererpasch beinhaltet
 src/items.lua:2190		Minnesota Fats	Minnesota Fats
 src/items.lua:2193		+200 Points for any Straight	+200 Punkte für jegliche Straße
 src/items.lua:2206		Bimber	Bimber
@@ -714,11 +714,11 @@ src/items.lua:2243		+200 Points for a combo containing Two Pair	+200 Punkte für
 src/items.lua:2257		Just A Pair	Nur Ein Paar
 src/items.lua:2260		+100 Points for a Pair	+100 Punkte für ein Paar
 src/items.lua:2278		Fifteen Sum	Fünfzehnäuger
-src/items.lua:2281		x3 Mult if the scored dice sum to 15	x3 Multi wenn die gewerteten Würfel in Summe 15 Augen zeigen
+src/items.lua:2281		x3 Mult if the scored dice sum to 15	x3 Multi, wenn die gewerteten Würfel in Summe 15 Augen zeigen
 src/items.lua:2301		Sumush	Summenpilz
-src/items.lua:2304		x2 Mult if the scored dice sum to 10	x2 Multi wenn die gewerteten Würfel in Summe 10 Augen zeigen
+src/items.lua:2304		x2 Mult if the scored dice sum to 10	x2 Multi, wenn die gewerteten Würfel in Summe 10 Augen zeigen
 src/items.lua:2323		Lil' Choy	Kleiner Choy
-src/items.lua:2326		x2 Mult when scoring 3 or fewer dice	x2 Multi wenn 3 oder weniger Würfel gewertet werden
+src/items.lua:2326		x2 Mult when scoring 3 or fewer dice	x2 Multi, wenn 3 oder weniger Würfel gewertet werden
 src/items.lua:2344		Toad Hut	Kröten-Häuschen
 src/items.lua:2347		x2 Mult for a combo containing Four Of A Kind	x2 Multi für eine Combo, die einen Viererpasch beinhaltet
 src/items.lua:2369		Pink Top	Pinkhut
@@ -738,9 +738,9 @@ src/items.lua:2485		+0.5x Mult for each scored 2	+0,5x Multi pro gewerteter 2
 src/items.lua:2503		Cactus	Kaktus
 src/items.lua:2506		+0.5x Mult per scored die	+0,5x Multi pro gewertetem Würfel
 src/items.lua:2524		Yolk	Eidotter
-src/items.lua:2527		Flipping a single coin +5 Mult	+5 Multi wenn eine einzelne Münze geworfen wird
+src/items.lua:2527		Flipping a single coin +5 Mult	+5 Multi, wenn eine einzelne Münze geworfen wird
 src/items.lua:2543		Lucky Leaf	Glücksblatt
-src/items.lua:2546		x2 Mult if a coin is scored	x2 Multi wenn eine Münze gewertet wird
+src/items.lua:2546		x2 Mult if a coin is scored	x2 Multi, wenn eine Münze gewertet wird
 src/items.lua:2563		Soy Fish	Soja-Fisch
 src/items.lua:2566		+1 Mult per scored coin	+1 Multi pro gewerteter Münze
 src/items.lua:2577 (+1 others)		+${amount} mult	+${amount} multi
@@ -750,20 +750,20 @@ src/items.lua:2598		+${amount} pts	+${amount} pkt
 src/items.lua:2607		Snake Hold	Ouroboros
 src/items.lua:2610		Snake Eyes hold score	Die Wertung eines 1er-Paars wird zurückgehalten
 src/items.lua:2627		The Mask	Die Maske
-src/items.lua:2630		Combos with 6s hold score	Combos mit 6er-Würfeln halten die Wertung zurück
+src/items.lua:2630		Combos with 6s hold score	Combos mit 6en halten die Wertung zurück
 src/items.lua:2648		Black Eye	Das Schwarze Auge
-src/items.lua:2651		Spawn a Black Eyed Pea on Bust	Erzeugt eine Schwarzaugebohne wenn ein Bust geworfen wird
+src/items.lua:2651		Spawn a Black Eyed Pea on Bust	Erzeugt eine Schwarzaugebohne, wenn ein Bust geworfen wird
 src/items.lua:2659		Pea!	Bohne!
 src/items.lua:2665		Pain Tolerance	Schmerztoleranz
-src/items.lua:2668		+1 Mult on Bust	+1 Multi wenn ein Bust geworfen wird
+src/items.lua:2668		+1 Mult on Bust	+1 Multi, wenn ein Bust geworfen wird
 src/items.lua:2676		+1 Mult	+1 Multi
 src/items.lua:2682		Masochist Rock	Masochistenstein
-src/items.lua:2685		x2 Mult on Bust	x2 Multi wenn ein Bust geworfen wird
+src/items.lua:2685		x2 Mult on Bust	x2 Multi, wenn ein Bust geworfen wird
 src/items.lua:2694		x2 Mult	x2 Multi
 src/items.lua:2700		Palosanto	Palo Santo
-src/items.lua:2703		If Mult is over 10: +5 Mult	+5 Multi wenn Multi über 10 ist
+src/items.lua:2703		If Mult is over 10: +5 Mult	+5 Multi, wenn Multi über 10 ist
 src/items.lua:2716		Chestnut	Kastanie
-src/items.lua:2719		+50 Points when any item triggers	+50 Punkte wenn ein anderes Item triggert
+src/items.lua:2719		+50 Points when any item triggers	+50 Punkte, wenn ein anderes Item triggert
 src/items.lua:2732		Dolphin	Delphin
 src/items.lua:2735		Spawns a random snack each level	Erzeugt jedes Level einen zufälligen Snack
 src/items.lua:2759 (+1 others)		Snack!	Snack!
@@ -772,7 +772,7 @@ src/items.lua:2768		Spawns a citrus slice each turn	Erzeugt jedes Level eine Zit
 src/items.lua:2785		Crowd Pleaser	Publikumshit
 src/items.lua:2788		+50 Points per trinket on board	+50 Punkte pro Glücksbringer im Spiel
 src/items.lua:2805		Double Down	Draufgänger
-src/items.lua:2808		Flipping a single coin x2 Mult	x2 Multi wenn eine einzelne Münze geworfen wird
+src/items.lua:2808		Flipping a single coin x2 Mult	x2 Multi, wenn eine einzelne Münze geworfen wird
 src/items.lua:2833		Just An Anxious Guy	Angsthase
 src/items.lua:2836		+4 Mult for Four Of A Kind	+4 Multi für einen Viererpasch
 src/items.lua:2850		Double Three Blibber	Doppeldrei Blibber
@@ -784,7 +784,7 @@ src/items.lua:2885		+2 Mult for Pair, Two Pair and Three Pair	+2 Multi für Paar
 src/items.lua:2902		Threes Gobber	Dreiäugiger Gobber
 src/items.lua:2905		+100 Points for a combo containing Three Of A Kind	+100 Punkte für eine Combo, die einen Dreierpasch beinhaltet
 src/items.lua:2938		Gay Moth	Queere Motte
-src/items.lua:2941		+60 Points for rerolling a 6	+60 Punkte wenn eine 6 neu geworfen wird
+src/items.lua:2941		+60 Points for rerolling a 6	+60 Punkte, wenn eine 6 neu geworfen wird
 src/items.lua:2960		Mini Goob	Mini Goob
 src/items.lua:2963		+0.1 Mult per die rolled	+0,1 Multi pro geworfenem Würfel
 src/items.lua:2978		Faster	Schneller
@@ -793,22 +793,22 @@ src/items.lua:2989 (+1 others)		+1 momentum	+1 momentum
 src/items.lua:2994		Spite	Bosheit
 src/items.lua:2997		On Bust, gain +1 Momentum	+1 Momentum, wenn ein Bust geworfen wird
 src/items.lua:3012		Shortbread Biscuit	Butterkeks
-src/items.lua:3015		+100 Points for rolling a single die	
+src/items.lua:3015		+100 Points for rolling a single die	+100 Punkte, wenn ein einzelner Würfel geworfen wird
 src/items.lua:3073		Banksia	Banksie
 src/items.lua:3076		Rerolling a Pair recharges Power	Power lädt auf, wenn ein Paar neu geworfen wird
 src/items.lua:3088 (+4 others)		Power Recharged	Power Aufgeladen
 src/items.lua:3095		Lycheye	Litschauge
-src/items.lua:3096		Two Pair recharges Power	"Power lädt auf, wenn eine ""Zwei Paare""-Combo gewertet wird"
+src/items.lua:3096		Two Pair recharges Power	Power lädt auf, wenn eine 'Zwei Paare'-Combo gewertet wird
 src/items.lua:3115		Bump Jug	Bump Jug
 src/items.lua:3118		Scoring a Full House recharges Power	Power lädt auf, wenn ein Full House gewertet wird
 src/items.lua:3135		Full Send	Volle Kraft Voraus
-src/items.lua:3138		Rolling 5 or more dice recharges Power	
+src/items.lua:3138		Rolling 5 or more dice recharges Power	Power lädt auf, wenn 5 oder mehr Würfel geworfen werden
 src/items.lua:3155		God Give Me Strength	Gott Gib Mir Kraft
-src/items.lua:3158		Rolling a single die recharges Power	
+src/items.lua:3158		Rolling a single die recharges Power	Power lädt auf, wenn ein einzelner Würfel geworfen wird
 src/items.lua:3179		High Roller	Hochwurf
-src/items.lua:3182		+1 Mult for each 6 scored	+1 Multi für jede gewertete 6
+src/items.lua:3182		+1 Mult for each 6 scored	+1 Multi für jede\ngewertete 6
 src/items.lua:3197		Low Ball	Flachwurf
-src/items.lua:3200		x2 Mult if all scored dice are 3 or under	x2 Multi wenn alle gewerteten Würfel 3 oder niedriger sind
+src/items.lua:3200		x2 Mult if all scored dice are 3 or under	x2 Multi, wenn alle gewerteten Würfel 3 oder niedriger sind
 src/items.lua:3223		Even Now	Gerade Jetzt
 src/items.lua:3226		+50 Points per scored even die	+50 Punkte pro gewertetem Würfel mit gerader Augenzahl
 src/items.lua:3243		Flesh Ring	Fleischring
@@ -830,13 +830,13 @@ src/items.lua:3373		+1 Mult for each scored 3	+1 Multi für jede gewertete 3
 src/items.lua:3388		Shrimp	Garnele
 src/items.lua:3391		+40 Points for each scored 4	+40 Punkte für jede gewertete 4
 src/items.lua:3429		Stuck Bonus	Klebrig-Bonus
-src/items.lua:3432		Each Stuck side scored gives +100 Points	+100 Punkte für jede gewertete Klebrig-Seite
+src/items.lua:3432		Each Stuck side scored gives +100 Points	+100 Punkte für jede gewertete Klebrige Seite
 src/items.lua:3451		Bonus Bonus	Bonus-Bonus
 src/items.lua:3454		Each Bonus side scored gives +100 Points	+100 Punkte für jede gewertete Bonus-Seite
 src/items.lua:3473		Power Bonus	Power-Bonus
 src/items.lua:3476		Each Power side scored gives +100 Points	+100 Punkte für jede gewertete Power-Seite
 src/items.lua:3519		Stuck Mult	Klebrig-Multi
-src/items.lua:3522		Each Stuck side scored gives +4 Mult	+4 Multi für jede gewertete Klebrig-Seite
+src/items.lua:3522		Each Stuck side scored gives +4 Mult	+4 Multi für jede gewertete Klebrige Seite
 src/items.lua:3541		Bonus Mult	Bonus-Multi
 src/items.lua:3544		Each Bonus side scored gives +3 Mult	+3 Multi für jede gewertete Bonus-Seite
 src/items.lua:3562		Power Mult	Power-Multi
@@ -852,54 +852,54 @@ src/items.lua:3772		Rerolling a combo upgrades it permanently. Fades with use.	E
 src/items.lua:3776		On Roll	Bei Wurf
 src/items.lua:3804		${combo} Upgraded	${combo} Verbessert
 src/items.lua:3817		Gouda	Gouda
-src/items.lua:3820		Rerolling a Three Of A Kind gives 2¥	+2¥ wenn ein Dreierpasch neu geworfen wird
+src/items.lua:3820		Rerolling a Three Of A Kind gives 2¥	+2¥, wenn ein Dreierpasch neu geworfen wird
 src/items.lua:3842		Pearl	Perle
-src/items.lua:3845		+1¥ for every two scored 1s	+1¥ je zwei gemeinsam gewerteten 1er-Würfeln
+src/items.lua:3845		+1¥ for every two scored 1s	+1¥ je zwei gemeinsam gewerteten 1en
 src/items.lua:3868		Queen's Jug	Königinnenkrug
 src/items.lua:3871		+1¥ for a Full House	+1¥ für ein Full House
 src/items.lua:3888		Star Biscuit	Sternkeks
-src/items.lua:3891		Rolling 2+ dice while at 1 Bust gives 2¥	+2¥ wenn nur 1 Bust übrig ist und 2 oder mehr Würfel geworfen werden
+src/items.lua:3891		Rolling 2+ dice while at 1 Bust gives 2¥	+2¥, wenn nur 1 Bust übrig ist und 2 oder mehr Würfel geworfen werden
 src/items.lua:3916		Overtime Star	Überstunden-Stern
 src/items.lua:3919		Gain a Bust Shield for scoring Star Bonanza	Bekomme ein Bust-Schild bei Wertung einer Sternenbonanza
 src/items.lua:3932		Already shielded	Schild bereits aktiv
 src/items.lua:3939		Trotter	Spitzbein
-src/items.lua:3942		Pig Points x2	Schwein-Punkte x2
+src/items.lua:3942		Pig Points x2	Schweine-Punkte x2
 src/items.lua:3957		Piglet	Schweinchen
-src/items.lua:3960		+3 Mult for rerolling 3 or more Pig sides	+3 Multi wenn 3 oder mehr Schwein-Seiten neu geworfen werden
+src/items.lua:3960		+3 Mult for rerolling 3 or more Pig sides	+3 Multi, wenn 3 oder mehr Schweine-Seiten neu geworfen werden
 src/items.lua:3979		Chew Toy	Schweineohr
-src/items.lua:3982		1 in 6 chance to spawn a coin when rerolling a Pig side	1 in 6 Chance eine Münze zu erzeugen wenn eine Schwein-Seite neu geworfen wird
+src/items.lua:3982		1 in 6 chance to spawn a coin when rerolling a Pig side	1 zu 6 Chance, eine Münze zu erzeugen, wenn eine Schweine-Seite neu geworfen wird
 src/items.lua:4037		Paw	Pfote
-src/items.lua:4040		Rolling a single die adds +2 Mult	+2 Multi wenn ein einzelner Würfel neu geworfen wird
+src/items.lua:4040		Rolling a single die adds +2 Mult	+2 Multi, wenn ein einzelner Würfel neu geworfen wird
 src/items.lua:4053		Incel	Incel
 src/items.lua:4056		Rerolling a combo containing a Pair gives +100 Points and +1 Mult	+100 Punkte und +1 Multi, wenn eine Combo, die ein Paar beinhaltet, neu geworfen wird
-src/items.lua:4086		Scoring a Full House spawns a ghost die	Erzeugt einen Geisterwürfel wenn ein Full House gewertet wird
+src/items.lua:4086		Scoring a Full House spawns a ghost die	Erzeugt einen Geisterwürfel, wenn ein Full House gewertet wird
 src/items.lua:4100 (+5 others)		Ghost!	Geist!
 src/items.lua:4106		Ghostanza	Geistanza
-src/items.lua:4109		Scoring a Star Bonanza spawns 4 ghost dice	Erzeugt 4 Geisterwürfel wenn eine Stern-Bonanza gewertet wird
+src/items.lua:4109		Scoring a Star Bonanza spawns 4 ghost dice	Erzeugt 4 Geisterwürfel, wenn eine Stern-Bonanza gewertet wird
 src/items.lua:4129		Ghost Biscuit	Gruselkeks
-src/items.lua:4132		Roll exactly 1 die - if it's a 5 or 6, spawn a ghost die	Erzeugt einen Geisterwürfel wenn ein einzelner Würfel geworfen wird und auf 5 oder 6 landet
+src/items.lua:4132		Roll exactly 1 die - if it's a 5 or 6, spawn a ghost die	Erzeugt einen Geisterwürfel, wenn ein einzelner Würfel geworfen wird und auf 5 oder 6 landet
 src/items.lua:4152		Coin Biscuit	Münzkeks
-src/items.lua:4155		Roll exactly 1 die - if it's a 2, +1¥	+1¥ wenn ein einzelner Würfel geworfen wird und auf 2 landet
+src/items.lua:4155		Roll exactly 1 die - if it's a 2, +1¥	+1¥, wenn ein einzelner Würfel geworfen wird und auf 2 landet
 src/items.lua:4176		Mult Biscuit	Multikeks
-src/items.lua:4179		Roll exactly 1 die - if it's a 3 or 4, +1 Mult	+1 Multi wenn ein einzelner Würfel geworfen wird und auf 3 oder 4 landet
+src/items.lua:4179		Roll exactly 1 die - if it's a 3 or 4, +1 Mult	+1 Multi, wenn ein einzelner Würfel geworfen wird und auf 3 oder 4 landet
 src/items.lua:4197		Flask Of Ghost	Geisterflasche
 src/items.lua:4200		Rerolling a combo that contains a Three Of A Kind creates 2 ghost dice	Erzeugt 2 Geisterwürfel, wenn eine Combo, die einen Dreierpasch beinhaltet, neu geworfen wird
 src/items.lua:4222		Bone	Knochen
-src/items.lua:4225		Combos containing a ghost die score +100 Points	+100 Punkte wenn die Combo einen Geisterwürfel beinhaltet
+src/items.lua:4225		Combos containing a ghost die score +100 Points	+100 Punkte für eine Combo, die einen Geisterwürfel beinhaltet
 src/items.lua:4243		Razor	Rasierklinge
-src/items.lua:4246		1 in 3 chance to spawn a ghost die on Bust	1 in 3 Chance einen Geisterwürfel zu erstellen wenn ein Bust geworfen wird
+src/items.lua:4246		1 in 3 chance to spawn a ghost die on Bust	1 zu 3 Chance, einen Geisterwürfel zu erstellen, wenn ein Bust geworfen wird
 src/items.lua:4269		Scared Straight	Geistersträßler
-src/items.lua:4272		Scoring a Straight spawns a ghost die	Erzeugt einen Geisterwürfel wenn eine Straße gewertet wird
+src/items.lua:4272		Scoring a Straight spawns a ghost die	Erzeugt einen Geisterwürfel, wenn eine Straße gewertet wird
 src/items.lua:4295		Cell	Zelle
 src/items.lua:4298		Start each turn with a Bust Shield	Beginne jeden Zug mit einem Bust-Schild
 src/items.lua:4309		shield!	schild!
 src/items.lua:4318		Jade Bracelet	Jade-Reif
-src/items.lua:4321		3 in 4 chance to block an instant wipe.\n${dynamic} uses left.	3 in 4 Chance, einen Instant Wipe zu blockieren.\nNoch ${dynamic} mal.
+src/items.lua:4321		3 in 4 chance to block an instant wipe.\n${dynamic} uses left.	3 zu 4 Chance, einen Instant Wipe zu blockieren.\nNoch ${dynamic} mal.
 src/items.lua:4344		Shattered!	Zerbrochen!
 src/items.lua:4359		Four Cell	Viererzelle
 src/items.lua:4362		If you would bust, each unrolled 4 gives a 20% chance to cancel it	Jede bereits liegende 4 hat eine 20% Chance, einen Bust zu verhindern
 src/items.lua:4389		Candle	Kerze
-src/items.lua:4390		1 in 2 chance to turn an instant wipe into a single Bust	1 in 2 Chance, einen Instant Wipe in einen einzelnen Bust zu verwandeln
+src/items.lua:4390		1 in 2 chance to turn an instant wipe into a single Bust	1 zu 2 Chance, einen Instant Wipe in einen einzelnen Bust zu verwandeln
 src/items.lua:4401		oof	uff
 src/items.lua:4413		Reduced!	Reduziert!
 src/items.lua:4425		Anis Star	Sternanis
@@ -907,17 +907,17 @@ src/items.lua:4428		Bust Limit +1	+1 Bust-Limit
 src/items.lua:4502		Soft Wipes	Wipe-Wächter
 src/items.lua:4505		Wiping doesn't clear dice or score	Würfel und Punktzahl werden bei Wipe nicht zurückgesetzt
 src/items.lua:4524		Taro Jelly	Taro-Gelee
-src/items.lua:4527		Scoring 5s flips them to 6s	5er-Würfel kippen nach Wertung auf 6
+src/items.lua:4527		Scoring 5s flips them to 6s	5en kippen nach Wertung auf 6
 src/items.lua:4541		Osmanthus Jelly	Osmanthus-Gelee
-src/items.lua:4544		Scoring 1s flips them to 3s	1er-Würfel kippen nach Wertung auf 3
+src/items.lua:4544		Scoring 1s flips them to 3s	1en kippen nach Wertung auf 3
 src/items.lua:4560		Sludge Jelly	Schleim-Gelee
-src/items.lua:4563		2s always reroll into 3s	2er-Würfel landen bei einem Neuwurf immer auf 3
+src/items.lua:4563		2s always reroll into 3s	2en landen bei einem Neuwurf immer auf 3
 src/items.lua:4588		Bubblegum Jelly	Kaugummi-Gelee
-src/items.lua:4591		3s always reroll into 5s	3er-Würfel landen bei einem Neuwurf immer auf 5
+src/items.lua:4591		3s always reroll into 5s	3en landen bei einem Neuwurf immer auf 5
 src/items.lua:4616		Flip Flop	Flip-Flop-Gelee
 src/items.lua:4620		Odd numbers roll into even and vice versa.\nDoesn't affect coins.	Ungerade Würfel landen bei einem Neuwurf immer auf einer geraden Seite, und andersherum
 src/items.lua:4648		Second Chance Jelly	Zweite-Chance-Gelee
-src/items.lua:4652		1s can't reroll into 1s\nDoesn't affect coins.	1er-Würfel landen bei einem Neuwurf nie auf 1
+src/items.lua:4652		1s can't reroll into 1s\nDoesn't affect coins.	1en landen bei einem Neuwurf nie auf 1
 src/items.lua:4680		Knucklebone	Knöchel
 src/items.lua:4683		+1 Bust Limit, -1 Turn Limit 	+1 Bust-Limit, -1 Zug-Limit
 src/items.lua:4706		Turn Plus Bust Minus	Urne
@@ -950,19 +950,19 @@ src/items.lua:5043		Half Points	Halbe Punkte
 src/items.lua:5044		Halves the Points	Halbiert Punkte
 src/items.lua:5059		Half Mult	Halbe Multi
 src/items.lua:5060		Halves the Mult	Halbiert Multi
-src/items.lua:5075 (+1 others)		Bad Momentum	Morgenmuffel
+src/items.lua:5075 (+1 others)		Bad Momentum	Schlechtes Momentum
 src/items.lua:5076		Start each turn with -2 Momentum	Jeder Zug startet mit -2 Momentum
 src/items.lua:5086		-2 Momentum	-2 Momentum
-src/items.lua:5092		-1 Momentum on score	
+src/items.lua:5092		-1 Momentum on score	-1 Momentum bei Wertung
 src/items.lua:5102		-1 Momentum	-1 Momentum
 src/items.lua:5107		Sore Loser	Schlechter Verlierer
 src/items.lua:5108		Bust resets Momentum	Busts setzen Momentum zurück
 src/items.lua:5124		Two Left Feet	Zwei Linke Füße
-src/items.lua:5125		-100 Points for rolling exactly 2 dice	
-src/items.lua:5141		6s and 4s to 1s	6er und 4er zu 1ern
-src/items.lua:5142		6s and 4s always reroll into 1s	6er und 4er landen bei Neuwurf immer auf 1
-src/items.lua:5172		6s to 1s	6er zu 1ern
-src/items.lua:5173		6s always reroll into 1s	6er landen bei Neuwurf immer auf 1
+src/items.lua:5125		-100 Points for rolling exactly 2 dice	-100 Punkte, wenn genau zwei Würfel geworfen werden
+src/items.lua:5141		6s and 4s to 1s	6 und 4 zu 1
+src/items.lua:5142		6s and 4s always reroll into 1s	6en und 4en landen bei einem Neuwurf immer auf 1
+src/items.lua:5172		6s to 1s	6 zu 1
+src/items.lua:5173		6s always reroll into 1s	6en landen bei einem Neuwurf immer auf 1
 src/items.lua:5204		Minus Max Bust	Weniger Busts
 src/items.lua:5205		Bust Limit -1	-1 Bust-Limit
 src/items.lua:5222		Turn Down Power Up	Weniger Zug Mehr Power
@@ -981,9 +981,9 @@ src/items.lua:5369		-4 Mult per scored 4	-4 Multi pro gewerteter 4
 src/items.lua:5386		Bad Sixes	Schlechte Sechser
 src/items.lua:5387		-6 Mult per scored 6	-6 Multi pro gewerteter 6
 src/items.lua:5405		Pair Aversion	Bindungsangst
-src/items.lua:5406		Combos containing a Pair -3 Mult	-3 Multi für Combos mit einem Paar
+src/items.lua:5406		Combos containing a Pair -3 Mult	-3 Multi für eine Combo, die ein Paar beinhaltet
 src/items.lua:5426		Triple Trouble	Dreiecksdrama
-src/items.lua:5427		Combos containing Three Of A Kind -4 Mult	-4 Multi für Combos mit einem Dreierpasch
+src/items.lua:5427		Combos containing Three Of A Kind -4 Mult	-4 Multi für eine Combo, die einen Dreierpasch beinhaltet
 src/items.lua:5451		No Four Kind	Vier Verliert
 src/items.lua:5452		Four Of A Kind gives no score	Viererpasche werten keine Punkte
 src/items.lua:5477		Empty House	Leeres Haus
@@ -995,7 +995,7 @@ src/items.lua:5532		Auto-reroll dice that show a 6	Würfel, die auf 6 landen, we
 src/items.lua:5550		Stupid Dice	Blöde Würfel
 src/items.lua:5551		Dice randomly reroll on their own.	Würfel werfen sich zufällig selbst neu
 src/items.lua:5641		Slippery Threes	Schüchterne Dreier
-src/items.lua:5642		Auto-reroll dice that show a 3, score 33 Points for each	Würfel, die auf 3 landen, werden automatisch neu geworfen und werten 33 Punkte
+src/items.lua:5642		Auto-reroll dice that show a 3, score 33 Points for each	Würfel, die auf 3 landen, werden automatisch neu geworfen und geben +33 Punkte
 src/items.lua:5663 (+4 others)		Bad Tooth	Fauler Zahn
 src/items.lua:5664		-3 Mult	-3 Multi
 src/items.lua:5692		Dice Limit -1	-1 Würfel-Limit
@@ -1015,7 +1015,7 @@ src/items.lua:5921 (+4 others)		Select 1 die	Wähle 1 Würfel
 src/items.lua:5931		Add 1 Bust side to the selected die.\n5% chance to activate on dice rolls.	5% Chance, dass bei Würfelwurf ein Würfel deiner Wahl 1 Bust-Seite bekommt
 src/items.lua:5964 (+2 others)		No free side	Keine freie Seite
 src/items.lua:5975		Destroy the selected die.\n5% chance to activate on dice rolls.	5% Chance, dass bei Würfelwurf ein Würfel deiner Wahl zerstört wird
-src/items.lua:6007		Add 1 Cracked side to the selected die.\n5% chance to activate on dice rolls.	5% Chance, dass bei Würfelwurf ein Würfel deiner Wahl 1 Brüchig-Seite bekommt
+src/items.lua:6007		Add 1 Cracked side to the selected die.\n5% chance to activate on dice rolls.	5% Chance, dass bei Würfelwurf ein Würfel deiner Wahl 1 Brüchige Seite bekommt
 src/items.lua:6051		Add 1 Doom side to the selected die.\n5% chance to activate on dice rolls.	5% Chance, dass bei Würfelwurf ein Würfel deiner Wahl 1 Unheil-Seite bekommt
 src/items.lua:6095		+1 Bust.\n5% chance to activate on dice rolls.	5% Chance, dass du bei Würfelwurf +1 Bust bekommst
 src/items.lua:6111		+1 Bust	+1 Bust
@@ -1047,7 +1047,7 @@ src/items.lua:6324		+1 Mult per 5 § spent this level	+1 Multi pro 5 § die in d
 src/items.lua:6332		+${MULT} Mult, gains +1 per 5 § spent this level	+${MULT} Multi, bekommt +1 Multi pro 5 § die in diesem Level ausgegeben wurden
 src/items.lua:6355		Piranha	Piranha
 src/items.lua:6356		+5 Mult.\nEats 10 § at the start of each level.\nIf you can't feed it, it eats a die instead.	+5 Multi.\nFrisst 10 § am Anfang jedes Levels.\nHast du nicht genug §, frisst er stattdessen einen Würfel.
-src/items.lua:6377		Ate a die!	Fraß einen Würfel!
+src/items.lua:6377		Ate a die!	Würfel gefressen!
 src/items.lua:6379		Hungry!	Hungrig!
 src/items.lua:6389		Barnacle	Seepocke
 src/items.lua:6390		+1 § per 10 § held at the start of each level	+1 § pro 10 § am Anfang jedes Levels
@@ -1108,7 +1108,7 @@ src/powers.lua:298		Roll over	Rolle
 src/powers.lua:299		Reroll two selected dice to their next lower value.	Wirft zwei gewählte Würfel auf ihren nächsten niedrigeren Augenwert.
 src/powers.lua:322		Mystery Die	Rätselwürfel
 src/powers.lua:323		Spawn a random die.	Erzeugt einen zufälligen Würfel.
-src/powers.lua:346		Gain a Bust Shield.	Erzeugt ein Bust-Schild. 
+src/powers.lua:346		Gain a Bust Shield.	Erzeugt ein Bust-Schild.
 src/powers.lua:363		Ghost Bust	Geist-Bust
 src/powers.lua:364		Gain an extra blue Bust for this turn.	Erzeugt einen zusätzlichen blauen Bust für diesen Zug.
 src/powers.lua:379		Fishy Deal	Fauler Deal
@@ -1190,7 +1190,7 @@ src/states/ending_bet.lua:77 (+1 others)		Ones rolled:	Einsen geworfen:
 src/states/ending_bet.lua:78 (+1 others)		Bust rate:	Bust-Rate:
 src/states/ending_bet.lua:80 (+1 others)		Run stars:	Run-Sterne:
 src/states/ending_bet.lua:94 (+4 others)		¤ banked	¤ gesammelt
-src/states/ending_bet.lua:109 (+16 others)		god	
+src/states/ending_bet.lua:109 (+16 others)		god	gott
 src/states/ending_bet.lua:157	dialogue	you won	du hast gewonnen
 src/states/ending_bet.lua:162	dialogue	you have done very well	sehr gut gemacht
 src/states/ending_bet.lua:164	dialogue	a treat for a brave child	eine belohnung für ein mutiges kind
@@ -1206,7 +1206,7 @@ src/states/ending_bet.lua:217	dialogue	but not enough faith	doch dir fehlt es an
 src/states/ending_bet.lua:219	dialogue	you did well	gut gemacht
 src/states/ending_bet.lua:220	dialogue	you are my child	du bist mein kind
 src/states/ending_bet.lua:221 (+1 others)	dialogue	and i am your god	und ich bin dein gott
-src/states/ending_bet.lua:288		pass and bank	passen und in der bank sichern
+src/states/ending_bet.lua:288		pass and bank	passen und sichern
 src/states/ending_demo.lua:132 (+8 others)	dialogue	i am god	ich bin gott
 src/states/ending_demo.lua:133	dialogue	thats it for the demo	das war es für die demo
 src/states/ending_demo.lua:135	dialogue	buy the game now	spiel jetzt kaufen
@@ -1230,7 +1230,7 @@ src/states/ending_finale.lua:158	dialogue	you are brave	du bist mutig
 src/states/ending_finale.lua:159	dialogue	you are worthy	du bist würdig
 src/states/ending_finale.lua:161	dialogue	i will offer you one final wager	ich biete dir eine letzte wette
 src/states/ending_finale.lua:167	dialogue	heads: you're free	kopf: du bist frei
-src/states/ending_finale.lua:174	dialogue	tails: i will personally destroy all your files one by one	zug: ich persönlich zerstöre alle deine dateien
+src/states/ending_finale.lua:174	dialogue	tails: i will personally destroy all your files one by one	zahl: ich persönlich zerstöre alle deine dateien
 src/states/ending_finale.lua:190	dialogue	do it, all in	tu es, all-in
 src/states/ending_finale.lua:192		flick it like you mean it	wirf um dein leben
 src/states/ending_finale.lua:192		this is real	das ist alles echt
@@ -1260,25 +1260,25 @@ src/states/game.lua:535		secure the points\nend the turn\nrecharge character pow
 src/states/game.lua:640		you must have some points to bank	du kannst ohne punkte nicht in die BANK einzahlen
 src/states/game.lua:742		momentum: ${amount}	momentum: ${amount}
 src/states/game.lua:747		adds extra ${momentum} points and mult	fügt ${momentum} extra punkte und multi hinzu
-src/states/game.lua:932		Losing all Busts ends the turn.\nBusts refill at the start of each Turn	Alle BUSTs zu verlieren beendet deinen Zug.\nBUSTs werden am Anfang eines Zuges wieder aufgefüllt.
+src/states/game.lua:932		Losing all Busts ends the turn.\nBusts refill at the start of each Turn	Alle Busts zu verlieren\nbeendet deinen Zug.\nBusts werden am Anfang eines Zuges wieder aufgefüllt.
 src/states/game.lua:936		Blocks up to ${count} busts, disappears when damaged	Blockt bis zu ${count} Busts gleichzeitig, verschwindet danach
 src/states/game.lua:955		ALL BUST BLOCKED	ALLE BUSTS GEBLOCKT
 src/states/game.lua:971		SHIELD OVERLOADED	SCHILD ÜBERLADEN
 src/states/game.lua:972		${count} BUSTS BLOCKED	${count} BUSTS GEBLOCKT
 src/states/game.lua:972		${count} BUST BLOCKED	${count} BUST GEBLOCKT
 src/states/game.lua:1022		wager ${amount} ¤	${amount} ¤ gewettet
-src/states/game.lua:1025		${STARS} Stars Unbanked	${STARS} Sterne nicht in der Bank
+src/states/game.lua:1025		${STARS} Stars Unbanked	${STARS} Sterne nicht gesichert
 src/states/game.lua:1027		bank stars after each nightmare level or win the run to secure them	zahle sterne in die nank nach einem albtraum-level oder gewinne den run um sie zu sichern
 src/states/game.lua:1108		praying...	betet...
 src/states/game.lua:1108		pray	beten
-src/states/game.lua:1186		Losing all Turns ends the game.\nTurns refill at the start of each level.	Alle Züge zu verlieren beendet das Spiel.\nZüge werden am Anfang jedes Levels wieder aufgefüllt.
+src/states/game.lua:1186		Losing all Turns ends the game.\nTurns refill at the start of each level.	Alle Züge zu verlieren\nbeendet deinen Run.\nZüge werden am Anfang jedes Levels wieder aufgefüllt.
 src/states/game.lua:1462 (+1 others)		MERGED	VERSCHMOLZEN
 src/states/game.lua:1669		pause	pause
 src/states/game.lua:1960 (+2 others)		Level $level/$count $name	Level $level/$count $name
 src/states/game.lua:2012		NIGHTMARE LEVEL	ALBTRAUM-LEVEL
 src/states/game.lua:2134 (+1 others)		Rift	Riss
-src/states/game.lua:2320		this coin is an affront to life itself	diese münze ist eine beleidigung des lebens selbst
-src/states/game.lua:2321		this die is an affront to life itself	dieser würfel ist eine beleidigung des lebens selbst
+src/states/game.lua:2320		this coin is an affront to life itself	diese münze ist eine beleidigung an das leben
+src/states/game.lua:2321		this die is an affront to life itself	dieser würfel ist eine beleidigung an das leben
 src/states/game.lua:2322		we shall not suffer such an unholy thing	wir werden solch unheiliger dinge nicht erliegen
 src/states/game.lua:2323		thou shalt not shy from risk	du sollst nicht vor risiko scheuen
 src/states/game.lua:2324		you thought you could get away with this?	dachtest du, du kommst damit davon?
@@ -1315,20 +1315,20 @@ src/states/game.lua:3664		¤ Banked	¤ in der BANK
 src/states/game.lua:3665		Bank ¤${KEPT}?	¤${KEPT} sichern?
 src/states/game.lua:3666		Win To Bank ¤	Gewinne, um ¤ in der BANK zu sichern
 src/states/game.lua:3667		Bank ¤ in ${LEVELS} lvl	¤ sichern in ${LEVELS} lvl
-src/states/game.lua:3681		Secure your Stars for the run\nyou won't be able to gain more this run	Sichere deine Sterne für diesen Run\ndu kannst diesen Run keine Sterne mehr sammeln
+src/states/game.lua:3681		Secure your Stars for the run\nyou won't be able to gain more this run	Sichere deine Sterne für diesen Run.\nDanach kannst du in diesem Run keine Sterne mehr sammeln.
 src/states/game.lua:3683		Stars already banked this run	Sterne in diesem Run schon gesichert
-src/states/game.lua:3685		Securing Stars available after each nightmare level	Sterne Sichern ist nach jedem Albtraum-Level möglich
+src/states/game.lua:3685		Securing Stars available after each nightmare level	Sterne zu sichern ist nach jedem Albtraum-Level möglich
 src/states/game.lua:3746 (+7 others)		no	nein
 src/states/game_setup.lua:161		play!	spielen!
 src/states/game_setup.lua:164		need ${stars} ¤	${stars} ¤ benötigt
 src/states/game_setup.lua:197		the young will inherit the earth	die jugend wird die erde erben
-src/states/game_setup.lua:600		get more gold ¤ with wagers	bekomme mehr gold ¤ mit wetten
-src/states/game_setup.lua:707		A modest wager.\nWin and keep your stars plus a small bonus.	Eine bescheidene Wette.\nGewinne um deine Sterne mit einem kleinen Gewinn zu behalten.
-src/states/game_setup.lua:718		Wager half your stars.\nMinimum 500 ¤\nHigher stakes, more stars.	Setze die Hälfte deiner Sterne ein.\nMindestens 500 ¤\nHöherer Einsatz, mehr Sterne.
-src/states/game_setup.lua:729		Wager all your stars.\nMinimum 1000 ¤\nEven more star rewards.	Setze alle deine Sterne ein.\nMindestens 1000 ¤\nNoch mehr Stern-Gewinn.
+src/states/game_setup.lua:600		get more gold ¤ with wagers	bekomme mehr gold ¤\ndurch wetten
+src/states/game_setup.lua:707		A modest wager.\nWin and keep your stars plus a small bonus.	Eine bescheidene Wette.\nGewinne, um deine Sterne mit einem kleinen Gewinn zu behalten.
+src/states/game_setup.lua:718		Wager half your stars.\nMinimum 500 ¤\nHigher stakes, more stars.	Setze die Hälfte deiner Sterne.\nMindestens 500 ¤\nHöherer Einsatz, mehr Sterne.
+src/states/game_setup.lua:729		Wager all your stars.\nMinimum 1000 ¤\nEven more star rewards.	Setze alle deine Sterne.\nMindestens 1000 ¤\nNoch mehr Stern-Gewinn.
 src/states/game_setup.lua:787		Wager	Wette
 src/states/game_setup.lua:869		Levels	Level
-src/states/game_setup.lua:876		Wager stars to add levels,\nnext level %d ¤	Setze Sterne ein um Level hinzuzufügen,\nnächstes Level %d ¤
+src/states/game_setup.lua:876		Wager stars to add levels,\nnext level %d ¤	Setze Sterne ein, um Level hinzuzufügen.\nNächstes Level: %d ¤
 src/states/game_setup.lua:1126		Difficulty	Schwierigkeit
 src/states/game_setup.lua:1129		${stars} ¤ reward limit	${stars} ¤ Belohnungs-Limit
 src/states/gameover.lua:225		Congratulations, you lost.	Herzlichen Glückwunsch, du hast verloren.
@@ -1352,12 +1352,12 @@ src/states/intro.lua:59		It can't be that hard.	So schwer kann es nicht sein.
 src/states/intro.lua:60		At this point, you might consider refunding.	Langsam solltest du über eine Rückerstattung nachdenken.
 src/states/intro.lua:61		You might be special.	Vielleicht bist du ja besonders.
 src/states/intro.lua:67		Game by	Ein Spiel von
-src/states/intro.lua:95		Roll 6 to start.	Würfel 6 um das Spiel zu starten.
-src/states/intro.lua:97		Roll 1 to quit.	Würfel 1 um das Spiel zu beenden.
+src/states/intro.lua:95		Roll 6 to start.	Wirf eine 6, um das Spiel zu starten.
+src/states/intro.lua:97		Roll 1 to quit.	Wirf eine 1, um das Spiel zu beenden.
 src/states/intro.lua:121		right\nclick	rechtsklick
-src/states/intro.lua:144		Press Circle To Roll	Drücke Kreis Zum Würfeln
-src/states/intro.lua:144		Press B To Roll	Drücke B Zum Würfeln
-src/states/intro.lua:145		Right Click To Roll	Rechtsklick Zum Würfeln
+src/states/intro.lua:144		Press Circle To Roll	Drücke Kreis, um zu Würfeln
+src/states/intro.lua:144		Press B To Roll	Drücke B, um zu Würfeln
+src/states/intro.lua:145		Right Click To Roll	Rechtsklick, um zu Würfeln
 src/states/intro.lua:237		Franek & Max	Franek & Max
 src/states/intro_greed.lua:62		This is a game about greed.	Dieses Spiel dreht sich um Gier.
 src/states/intro_greed.lua:64		This is a game about skill.	Dieses Spiel dreht sich um Können.
@@ -1366,9 +1366,9 @@ src/states/intro_greed.lua:66		This is a game about patience.	Dieses Spiel dreht
 src/states/intro_greed.lua:67		This is a game about fate.	Dieses Spiel dreht sich um Schicksal.
 src/states/intro_greed.lua:68		This is a game about destiny.	Dieses Spiel dreht sich um Bestimmung.
 src/states/intro_greed.lua:69		This is a game about God.	Dieses Spiel dreht sich um Gott.
-src/states/intro_greed.lua:70		This is a game about going outside.	
-src/states/intro_greed.lua:81		Roll to gain Stars.	Würfel um Sterne zu gewinnen.
-src/states/intro_greed.lua:82		Roll 1 to lose Stars.	Bei einer 1 verlierst du die Sterne.
+src/states/intro_greed.lua:70		This is a game about going outside.	Dieses Spiel dreht sich ums Rausgehen.
+src/states/intro_greed.lua:81		Roll to gain Stars.	Wirf den Würfel, um Sterne zu gewinnen.
+src/states/intro_greed.lua:82		Roll 1 to lose Stars.	Wirf eine 1, um Sterne zu verlieren.
 src/states/intro_greed.lua:151		bank and start	sichern und spiel starten
 src/states/intro_greed.lua:151		pass and start	passen und spiel starten
 src/states/options.lua:67		keybinds >	tastenbelegung >
@@ -1397,17 +1397,17 @@ src/states/options.lua:496		locale	sprache
 src/states/options.lua:500		nuke entire save	spielstand löschen
 src/states/options.lua:505		Delete the entire game's save file\nresetting everything\nand losing all your progress forever?	Willst du deinen ganzen Spielstand löschen,\nAlles zurücksetzen und deinen Fortschritt für immer verlieren?
 src/states/options.lua:520		reset options	optionen\nzurücksetzen
-src/states/options.lua:525		Reset all the game options\nto their default values?	Willst du alle Optionen auf ihren Standard zurücksetzen? 
+src/states/options.lua:525		Reset all the game options\nto their default values?	Willst du alle Optionen auf ihren Standard zurücksetzen?
 src/states/options.lua:546		reset tips	tipps\nzurücksetzen
 src/states/options.lua:551		reset all the hover tooltip counters\nso that all the tips show again?	Willst du alle Tipps wieder anzeigen lassen?
 src/states/options.lua:570		replay tutorial	tutorial\nwiederholen
 src/states/outside.lua:18		by Franek and Max	von Franek und Max
 src/states/outside.lua:19		this was a game about waking up	dieses spiel drehte ich um's aufwachen
-src/states/scoreboard.lua:40		Steam Offline!	
-src/states/scoreboard.lua:46		Scoreboards need to be connected to Steam to function! Restarting the game through steam while online should fix this <3\n\n(Press any key to go back)	
+src/states/scoreboard.lua:40		Steam Offline!	Steam ist offline!
+src/states/scoreboard.lua:46		Scoreboards need to be connected to Steam to function! Restarting the game through steam while online should fix this <3\n\n(Press any key to go back)	Scoreboards benötigen eine Verbindung zu Steam, um zu funktionieren!\nEin Neustart über Steam, während du online bist, sollte das Problem beheben <3\n\n(Drücke eine beliebige Taste, um zurück zu gehen)
 src/states/scoreboard.lua:73		Loading Scores...	Lädt Punkte...
 src/states/scoreboard.lua:150		# player	# spieler
-src/states/scoreboard.lua:167		lemme try	lass mich versuchen
+src/states/scoreboard.lua:167		lemme try	lass mich ran
 src/states/scoreboard.lua:236		Your Luck	Dein Glück
 src/states/scoreboard.lua:241		luckier than ${percent}%	glücklicher als ${percent}%
 src/states/scoreboard.lua:249		need more rolls	braucht mehr würfe
@@ -1449,7 +1449,7 @@ src/states/title.lua:378 (+1 others)		bye?	bye?
 src/states/title.lua:473		brighten up	licht reinlassen
 src/states/title.lua:474		rest your eyes	die augen schonen
 src/states/title.lua:485		community chat	community chat
-src/states/title.lua:634		Welcome To 1.0!	Willkomen in der 1.0 Version!
+src/states/title.lua:634		Welcome To 1.0!	Willkommen in der 1.0 Version!
 src/states/title.lua:635		thanks so much for supporting the game ♥\nyou are looking fabulous today\n\nlots has changed since early access\nwe recommend starting 1.0 with a fresh save, but its up to you	vielen dank für deine unterstützung ♥\ndu siehst heute gut aus\n\nvieles hat sich seit early access geändert\nwir empfehlen dir, 1.0 mit einem frischen Spielstand zu starten, aber das ist dir überlassen
 src/states/title.lua:636		sure, delete it!	klar, lösch ihn!
 src/states/title.lua:637		yikes, no thanks	ihh, nein danke
@@ -1482,11 +1482,11 @@ src/sync_scoreboards.lua:89		Most Fish	Meiste Fische Pro Run
 src/sync_scoreboards.lua:94		fish in a run	fische
 src/sync_scoreboards.lua:97 (+1 others)		(data did not load)	(daten nicht geladen)
 src/sync_scoreboards.lua:102		Biggest Loser	Größter Verlierer
-src/sync_scoreboards.lua:107		death tax	todessteuer
+src/sync_scoreboards.lua:107		death tax	verluste
 src/sync_scoreboards.lua:115		The End Any%	Das Ende Any%
 src/sync_scoreboards.lua:120		runs	runs
 src/sync_scoreboards.lua:144		luck	Glück
-src/sync_scoreboards.lua:183		999. you	
+src/sync_scoreboards.lua:183		999. you	999. du
 src/sync_scoreboards.lua:206 (+1 others)	dialogue	you	du
 src/ui/character_body.lua:306 (+2 others)	ui	LOCKED	GESPERRT
 src/ui/combination_table.lua:34 (+1 others)	ui	flush	flush
@@ -1501,13 +1501,13 @@ src/ui/game_setup_options.lua:29	ui	increase difficulty by 3	schwierigkeit um 3 
 src/ui/help_screen.lua:18	ui	HELP ME!	HILFE!
 src/ui/help_screen.lua:74	ui	INFO DUMP :)	INFO DUMP :)
 src/ui/help_screen.lua:119	ui	BUST	BUST
-src/ui/help_screen.lua:120	ui	Each die has a red Bust side.\nRolling Bust side reduces your Bust meter.\n\nIf Bust meter goes to 0 you WIPE.\nAll unbanked points are gone, turn ends.	Jeder Würfel hat eine rote BUST Seite.\nEinen BUST zu werfen reduziert dein BUST-Meter.\n\nWenn dein BUST-Meter bei 0 ankommt, WIPEst du.\nAlle Punkte außerhalb der BANK gehen verloren, und dein Zug endet.
-src/ui/help_screen.lua:123	ui	ALL BUST - INSTANT WIPE	ALLE BUST - INSTANT WIPE
-src/ui/help_screen.lua:124	ui	The tricky part!\n\nIf all dice you rolled at once show Bust,\nyou WIPE instantly, regardless of the Bust meter.\n\nExample: 3 out of 3 dice rolled Bust	Jetzt wird es spannend!\n\nWenn alle Würfel BUST werfen,\nWIPEst du sofort, unabhängig vom BUST-Meter.\n\nBeispiel: 3 aus 3 Würfel zeigen BUST
+src/ui/help_screen.lua:120	ui	Each die has a red Bust side.\nRolling Bust side reduces your Bust meter.\n\nIf Bust meter goes to 0 you WIPE.\nAll unbanked points are gone, turn ends.	Jeder Würfel hat eine rote Bust Seite.\nEinen Bust zu werfen reduziert dein Bust-Meter.\n\nWenn dein Bust-Meter bei 0 ankommt, Wipest du.\nAlle Punkte außerhalb der Bank gehen verloren, und dein Zug endet.
+src/ui/help_screen.lua:123	ui	ALL BUST - INSTANT WIPE	ALLES BUSTS - INSTANT WIPE
+src/ui/help_screen.lua:124	ui	The tricky part!\n\nIf all dice you rolled at once show Bust,\nyou WIPE instantly, regardless of the Bust meter.\n\nExample: 3 out of 3 dice rolled Bust	Jetzt wird es spannend!\n\nWenn alle Würfel Bust werfen,\nWipest du sofort, unabhängig vom Bust-Meter.\n\nBeispiel: 3 von 3 Würfeln werfen Bust
 src/ui/help_screen.lua:127	ui	BANKING	BANK
-src/ui/help_screen.lua:128	ui	BANK to lock in your points and refill the Bust meter.\nEach BANK ends your Turn.	Zahle Punkte in die BANK ein um sie zu behalten und dein BUST-Meter aufzufüllen.\nJede BANK-Einzahlung beendet deinen Zug.
+src/ui/help_screen.lua:128	ui	BANK to lock in your points and refill the Bust meter.\nEach BANK ends your Turn.	Zahle Punkte in die Bank ein um sie zu behalten und dein Bust-Meter aufzufüllen.\nJede Bank-Einzahlung beendet deinen Zug.
 src/ui/help_screen.lua:131	ui	TURN	ZUG
-src/ui/help_screen.lua:132	ui	Each level you get limited Turns.\nTurns end when you BANK or WIPE.\nWhen you run out of Turns the game is over.\nBust meter and Power charge refill each turn.	In jedem Level hast du eine begrenzte Anzahl an Zügen.\nZüge enden mit der BANK oder einem WIPE.\nWenn du keine Züge mehr hast, ist das Spiel vorbei.\nDein BUST-Meter und deine Power werden jeden Zug wieder aufgefüllt.
+src/ui/help_screen.lua:132	ui	Each level you get limited Turns.\nTurns end when you BANK or WIPE.\nWhen you run out of Turns the game is over.\nBust meter and Power charge refill each turn.	In jedem Level hast du eine begrenzte Anzahl an Zügen.\nZüge enden mit der Bank oder einem Wipe.\nWenn du keine Züge mehr hast, ist das Spiel vorbei.\nDein Bust-Meter und deine Power werden jeden Zug wieder aufgefüllt.
 src/ui/help_screen.lua:137	ui	SCORING	WERTUNG
 src/ui/help_screen.lua:138	ui	Select dice that form a combo and score them.\nPoints x Mult = Score.\nBigger combos score exponentially more.\nScore multiple combos in one Turn to build Momentum for extra Points and Mult	Wähle Würfel die zusammen eine Combo ergeben und werte sie.\nPunkte x Multi = Wert.\nGrößere Combos werten exponentiell höher.\nWerte mehrere Combos in einem Zug um Momentum aufzubauen, was extra Punkte und Multi gibt.
 src/ui/help_screen.lua:141	ui	TRINKETS, SPELLS & SNACKS	GLÜCKSBRINGER, ZAUBER & SNACKS
@@ -1515,7 +1515,7 @@ src/ui/help_screen.lua:142	ui	- Trinkets are passive, they trigger automatically
 src/ui/help_screen.lua:145	ui	CHARACTER POWER	CHARAKTER POWER
 src/ui/help_screen.lua:146	ui	Each character has a unique Power. Use them to modify dice, reduce risk and get better combos.\n\nPower recharges each turn or with die side effects and items.	Jeder Charakter hat eine einzigartige Power. Benutze sie um Würfel zu manipulieren, Risiko zu mindern und bessere Combos zu werten.\n\nPower wird jeden Zug, so wie mit Würfel-Effekten und Items wieder aufgefüllt.
 src/ui/help_screen.lua:149	ui	BASIC TACTICS	EINFACHE TAKTIKEN
-src/ui/help_screen.lua:150	ui	The more dice you roll at once the bigger chance of any Bust, but smaller chance of All Bust.\n\nRerolling a single die is ballsy! Prioritize rerolling blank dice. Scoring a single big combo is better than few pairs.	Je mehr Würfel du wirfst, desto höher die Chance auf einen BUST, aber desto niedriger die Chance auf instant WIPE.\n\nEinzelne Würfel werfen ist mutig! Wirf erstmal deine blanken Würfel. Eine einzelne große Combo ist besser als kleine Paare.
+src/ui/help_screen.lua:150	ui	The more dice you roll at once the bigger chance of any Bust, but smaller chance of All Bust.\n\nRerolling a single die is ballsy! Prioritize rerolling blank dice. Scoring a single big combo is better than few pairs.	Je mehr Würfel du wirfst, desto höher die Chance auf einen Bust, aber desto niedriger die Chance auf einen Instant Wipe.\n\nEinzelne Würfel werfen ist mutig! Wirf erstmal deine blanken Würfel. Eine einzelne große Combo ist besser als kleine Paare.
 src/ui/item_hover.lua:76 (+4 others)	ui	SPELL	ZAUBER
 src/ui/level_map.lua:65	ui	LEVEL MAP	LEVEL KARTE
 src/ui/level_map.lua:165		Level ${level}	Level ${level}
